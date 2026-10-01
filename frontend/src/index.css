@@ -1,0 +1,160 @@
+:root {
+  /* Light Mode */
+  --bg-color: #f9f9fa;
+  --surface-color: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --border-color: #e5e7eb;
+  
+  --primary-color: #dc2626; /* Red */
+  --primary-hover: #b91c1c;
+  --primary-light: #fee2e2;
+  
+  --correct-color: #2563eb; /* Blue */
+  --correct-bg: #dbeafe;
+  
+  --wrong-color: #dc2626; /* Red */
+  --wrong-bg: #fee2e2;
+  
+  --warning-color: #eab308; /* Yellow */
+  --warning-bg: #fef08a;
+
+  --neutral-bg: #f3f4f6;
+  --neutral-border: #d1d5db;
+}
+
+[data-theme='dark'] {
+  --bg-color: #111827;
+  --surface-color: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --border-color: #374151;
+  
+  --primary-color: #ef4444;
+  --primary-hover: #dc2626;
+  --primary-light: #7f1d1d;
+  
+  --correct-color: #3b82f6;
+  --correct-bg: #1e3a8a;
+  
+  --wrong-color: #ef4444;
+  --wrong-bg: #7f1d1d;
+  
+  --warning-color: #facc15;
+  --warning-bg: #713f12;
+
+  --neutral-bg: #374151;
+  --neutral-border: #4b5563;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.5;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+html {
+  font-size: 20px; /* Scales up all rem values for large monitors */
+}
+
+/* Make all Lucide icons scale proportionally with the font size */
+.lucide {
+  width: 1em;
+  height: 1em;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-light);
+}
+
+.btn-neutral {
+  background-color: var(--neutral-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-neutral:hover {
+  background-color: var(--neutral-border);
+}
+
+.card {
+  background-color: var(--surface-color);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--surface-color);
+  color: var(--text-primary);
+  transition: border-color 0.2s;
+}
+
+.input:focus, .textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}

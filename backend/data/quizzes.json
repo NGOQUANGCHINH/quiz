@@ -1,0 +1,5190 @@
+[
+  {
+    "id": "9ded75fa-c744-4e8a-a594-03ec54ec4eda",
+    "title": "Điện toán đám mây và ứng dụng HUBT - Update 2025",
+    "questions": [
+      {
+        "id": "befb6162-8054-4a1d-a1fb-6749fd5ab896",
+        "question": "Phát biểu nào sau đây là chính xác nhất về hình mẫu của điện toán đám mây?",
+        "answers": [
+          {
+            "id": "4ea5c2b1-f07b-43f3-a645-6dc68d4f737d",
+            "text": "Thông tin được lưu trữ tạm thời tại các máy chủ trên Internet và được lưu trữ thường trực ở các máy khách"
+          },
+          {
+            "id": "f9d49a57-02dd-4246-b897-984be6c68a95",
+            "text": "Thông tin được lưu trữ thường trực tại các máy chủ trên Internet và chỉ được lưu trữ tạm thời ở các máy khách"
+          },
+          {
+            "id": "4b1f6f12-22d5-4971-a169-bdb620c98351",
+            "text": "Thông tin được lưu trữ thường trực tại các máy chủ trên Internet và chỉ được lưu trữ thường trực ở các máy khách"
+          },
+          {
+            "id": "e3233eb5-15d3-4d40-ada0-884125640c68",
+            "text": "Không có phát biểu nào đúng"
+          }
+        ],
+        "correctAnswerId": "f9d49a57-02dd-4246-b897-984be6c68a95"
+      },
+      {
+        "id": "e93d5b56-0439-4996-9b94-ec26aaceb9bf",
+        "question": "Trong điện toán đám mây, thuật ngữ nào mô tả bản chất về cơ sở hạ tầng và việc mở rộng hạ tầng tùy thuộc vào nhu cầu tài nguyên?",
+        "answers": [
+          {
+            "id": "bd593c96-d2d2-43dc-a796-3fe1dc677a90",
+            "text": "Clustering"
+          },
+          {
+            "id": "29a2d994-8169-487b-9452-7fac5852ee76",
+            "text": "elasticity"
+          },
+          {
+            "id": "d96378f4-b59e-4479-9eb7-080441faa482",
+            "text": "consolidation"
+          },
+          {
+            "id": "5e5b06e9-ff8a-40ba-9cbc-3b9b8fc57f8d",
+            "text": "virtualization"
+          }
+        ],
+        "correctAnswerId": "29a2d994-8169-487b-9452-7fac5852ee76"
+      },
+      {
+        "id": "9215786b-2620-4fed-b3ba-fcb7866597b3",
+        "question": "Mô hình dịch vụ Service category của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "2abba391-939c-4274-9c21-d70eb9d6f096",
+            "text": "Application and software rental"
+          },
+          {
+            "id": "feff3977-4d1d-4af2-a0cf-25cb31abd4bc",
+            "text": "VM rental, online storage"
+          },
+          {
+            "id": "2a178a5d-388b-4906-8063-7cab341b7fac",
+            "text": "Online operating environment, online database, online message queues"
+          },
+          {
+            "id": "7a6c35e8-3191-4a0b-ac89-46f22db1929b",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "2a178a5d-388b-4906-8063-7cab341b7fac"
+      },
+      {
+        "id": "66a2819b-7862-4517-acf3-29c9055b89d9",
+        "question": "Kiến trúc SOA viết tắt của từ gì?",
+        "answers": [
+          {
+            "id": "c91920fd-858f-43ff-acaa-6630344aed72",
+            "text": "single oriented architecture"
+          },
+          {
+            "id": "3a5031e9-5fff-4bb3-bcab-403f32ed1054",
+            "text": "service of architecture"
+          },
+          {
+            "id": "1586e1d1-a13e-4efc-bd78-48a7043409e0",
+            "text": "service oriented architecture"
+          },
+          {
+            "id": "2a671c4c-26bc-48ec-bdc3-d2abe398e784",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "1586e1d1-a13e-4efc-bd78-48a7043409e0"
+      },
+      {
+        "id": "a9f99ee5-f40d-461b-98fa-389eea326c50",
+        "question": "Mô hình dịch vụ Service customization của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "8348b09c-fbd8-4671-b17b-5227900adbab",
+            "text": "Logic resource template"
+          },
+          {
+            "id": "49110c05-8588-4c22-b925-d495b60a3357",
+            "text": "Server template"
+          },
+          {
+            "id": "81bd9b41-f8c3-459a-a811-8fe263eaf99d",
+            "text": "Application template"
+          },
+          {
+            "id": "80b7c050-7f91-4d99-9c12-7f77dc40e917",
+            "text": "Logic resource template and Application template"
+          }
+        ],
+        "correctAnswerId": "49110c05-8588-4c22-b925-d495b60a3357"
+      },
+      {
+        "id": "d74c7720-32f3-4561-95a9-c544c7fac4a9",
+        "question": "Điện toán đám mây còn gọi là gì?",
+        "answers": [
+          {
+            "id": "879e3501-6bc5-435e-a0e0-915bcc74b68d",
+            "text": "Điện toán lưới"
+          },
+          {
+            "id": "ad835556-403f-4110-93d8-8608568f1fbc",
+            "text": "Điện toán máy chủ thật"
+          },
+          {
+            "id": "3c8eac3d-b68c-435d-920b-5dd876459c81",
+            "text": "Điện toán máy chủ ảo"
+          },
+          {
+            "id": "105c8840-b5db-419a-a7d8-66efde5a9dbc",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "3c8eac3d-b68c-435d-920b-5dd876459c81"
+      },
+      {
+        "id": "7e5dbed2-3055-4289-947d-ec792eaf5351",
+        "question": "Dịch vụ PaaS là viết tắt của từ gì?",
+        "answers": [
+          {
+            "id": "2a147851-ada6-4e90-ba1e-296ef1d2822e",
+            "text": "Platform as a Service"
+          },
+          {
+            "id": "b0452105-ff0e-4a00-b731-e7478b475d65",
+            "text": "Platform as a Server"
+          },
+          {
+            "id": "01b8a8af-4c85-4072-b647-0e685823e9b4",
+            "text": "Plat as a Service"
+          },
+          {
+            "id": "544d2ea5-5485-4209-951e-6ed6396493df",
+            "text": "Platform and a Service"
+          }
+        ],
+        "correctAnswerId": "2a147851-ada6-4e90-ba1e-296ef1d2822e"
+      },
+      {
+        "id": "b1a1fdff-3a2b-40bb-b72a-91208e8f9293",
+        "question": "Kiểu dịch vụ Service monitoring của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "bb426f77-64fa-4c30-b588-45e9d96060c2",
+            "text": "logic resource monitoring"
+          },
+          {
+            "id": "67492fb7-3dac-4ae1-8fb1-375c0c0f8b8a",
+            "text": "physical resource monitoring"
+          },
+          {
+            "id": "f5828ea5-6bfd-4116-83f9-7c3a8bb16c3e",
+            "text": "application monitoring"
+          },
+          {
+            "id": "56f77165-f0db-45bb-ab0c-bbc17d4a0e7f",
+            "text": "application monitoring, logic resource monitoring"
+          }
+        ],
+        "correctAnswerId": "bb426f77-64fa-4c30-b588-45e9d96060c2"
+      },
+      {
+        "id": "412e91a6-def3-44c5-a10f-73612ebec45f",
+        "question": "Kiểu dịch vụ Service monitoring của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "a86cd210-1b66-4382-9380-963722111488",
+            "text": "application monitoring"
+          },
+          {
+            "id": "a8ebcc33-f6fc-44b7-acd8-a6d2d1d51a5a",
+            "text": "logic resource monitoring"
+          },
+          {
+            "id": "484928aa-7361-45bf-8cea-28af8b0d1b82",
+            "text": "physical resource monitoring"
+          },
+          {
+            "id": "3a0cd647-490f-4a9c-9bf8-e6898d7c5e03",
+            "text": "application monitoring, logic resource monitoring"
+          }
+        ],
+        "correctAnswerId": "484928aa-7361-45bf-8cea-28af8b0d1b82"
+      },
+      {
+        "id": "87b3a74e-1d70-4aee-8cde-9b95b092da5c",
+        "question": "Đâu là nhược điểm của điện toán đám mây, chọn đáp án đúng nhất?",
+        "answers": [
+          {
+            "id": "5da36132-bd73-4f31-8abe-0005d9655430",
+            "text": "Tính riêng tư, tính sẵn dùng, mất dữ liệu, khả năng bảo mật, quyền sở hữu"
+          },
+          {
+            "id": "c87d21cf-b4b4-4cf3-ae55-9918c493db3d",
+            "text": "Tính riêng tư, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật, quyền sở hữu"
+          },
+          {
+            "id": "ada7f49f-fade-4fe1-8114-b467f0dbbc4e",
+            "text": "Tính riêng tư, tính sẵn dùng, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật, quyền sở hữu"
+          },
+          {
+            "id": "9f0f9a38-594c-470d-b40e-1414e7d299f4",
+            "text": "Tính riêng tư, tính sẵn dùng, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật"
+          }
+        ],
+        "correctAnswerId": "ada7f49f-fade-4fe1-8114-b467f0dbbc4e"
+      },
+      {
+        "id": "cc4a8290-c697-4b89-a50b-57ebf2ec6a3d",
+        "question": "Có bao nhiêu lớp thành phần trong điện toán đám mây?",
+        "answers": [
+          {
+            "id": "59d4ba0f-1e63-4d77-b22f-7cafef141348",
+            "text": "2"
+          },
+          {
+            "id": "daa6743a-4b05-4e2d-9d89-8ac0d9dc2d09",
+            "text": "4"
+          },
+          {
+            "id": "73012730-4b0c-4dc5-88af-1d58410c7f23",
+            "text": "3"
+          },
+          {
+            "id": "c259169a-ec21-42f3-9a99-7f45710759a2",
+            "text": "5"
+          }
+        ],
+        "correctAnswerId": "c259169a-ec21-42f3-9a99-7f45710759a2"
+      },
+      {
+        "id": "8e6a7a11-4995-44a9-82b7-1b545ec5837a",
+        "question": "Loại dịch nào mà người sử dụng sau khi thuê xong còn phải xây dựng thêm các thành phần nhiều nhất?",
+        "answers": [
+          {
+            "id": "6ebeca7d-86fd-4889-a8d2-eb7180b4cdcd",
+            "text": "Paas"
+          },
+          {
+            "id": "835165d5-7f1f-4d0c-b1a3-70430c5b9a89",
+            "text": "Iaas"
+          },
+          {
+            "id": "c499d00c-df85-4fee-87e5-48dc75a066bc",
+            "text": "Saas"
+          },
+          {
+            "id": "499a8cad-9a98-403d-98c6-2c9e1f750b9d",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "835165d5-7f1f-4d0c-b1a3-70430c5b9a89"
+      },
+      {
+        "id": "c3a558aa-999a-4eeb-9a1a-5dd042223de9",
+        "question": "Trong hoạt động của điện toán đám mây lớp Back – End để làm gì?",
+        "answers": [
+          {
+            "id": "c3ae0c2c-e16a-45ab-ab0f-2a680a0efa3b",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "bac4a330-4a60-4a67-8d63-759e85b54be0",
+            "text": "Là lớp chứa giao diện người dùng của ứng dụng"
+          },
+          {
+            "id": "90e54a77-7d62-4b5c-af6f-025044ec0383",
+            "text": "Là lớp chứa toàn bộ các thành phần hoạt động"
+          },
+          {
+            "id": "61b1314b-f40a-4b4b-9ffe-6ccc963cdda0",
+            "text": "Là lớp chứa hạ tầng thiết bị"
+          }
+        ],
+        "correctAnswerId": "61b1314b-f40a-4b4b-9ffe-6ccc963cdda0"
+      },
+      {
+        "id": "7e1f7300-3090-486d-855b-7368e60788d7",
+        "question": "Mô hình dịch vụ Service accessing and using của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "5d575c2c-a1de-496b-912a-b60f0c863646",
+            "text": "remote console, web services"
+          },
+          {
+            "id": "7a476c57-d1cd-41a1-a8a1-1e419837c62f",
+            "text": "web 2.0 access technology"
+          },
+          {
+            "id": "62f77f1d-d44b-4d50-8739-7219a7168f8e",
+            "text": "online development and debugging, integration of offline development tools and cloud"
+          },
+          {
+            "id": "e721a27a-c9e4-438c-b58f-b5ddfef31f03",
+            "text": "web services and web 2.0 access technology"
+          }
+        ],
+        "correctAnswerId": "7a476c57-d1cd-41a1-a8a1-1e419837c62f"
+      },
+      {
+        "id": "40dd0732-e9f8-4028-bd8e-b665633d4101",
+        "question": "Những loại dịch vụ nào khi thuê có Database?",
+        "answers": [
+          {
+            "id": "5bd88ac9-bdca-456b-8390-218ea9d9efe2",
+            "text": "PaaS"
+          },
+          {
+            "id": "148444fd-f03b-4799-a01c-73f550310e3a",
+            "text": "IaaS, PaaS"
+          },
+          {
+            "id": "3a9e9eeb-dc3f-4812-8257-cf4bc5e51fbe",
+            "text": "SaaS"
+          },
+          {
+            "id": "60284595-62a1-4a60-8ad9-2bc96134c26e",
+            "text": "PaaS, SaaS"
+          }
+        ],
+        "correctAnswerId": "60284595-62a1-4a60-8ad9-2bc96134c26e"
+      },
+      {
+        "id": "24012239-5faf-4fe1-bba6-c12d5e3db840",
+        "question": "Mô hình dịch vụ Service accessing and using của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "989d3bca-0ea3-4a76-8baf-3b713f7aeb5b",
+            "text": "online development and debugging, integration of offline development tools and cloud"
+          },
+          {
+            "id": "f8f71c0c-bef4-446c-8d01-f9a7cded1787",
+            "text": "remote console, web services"
+          },
+          {
+            "id": "51cee7f0-2297-4ff0-8346-242dac669b46",
+            "text": "web 2.0 access technology"
+          },
+          {
+            "id": "bcb7992d-a7bd-455d-94c3-148442d62d55",
+            "text": "web services and web 2.0 access technology"
+          }
+        ],
+        "correctAnswerId": "f8f71c0c-bef4-446c-8d01-f9a7cded1787"
+      },
+      {
+        "id": "68abbe19-1bb6-4d49-bebc-04e9bae0e03d",
+        "question": "Trong hoạt động của điện toán đám mây lớp Front – End để làm gì?",
+        "answers": [
+          {
+            "id": "69ecd611-cae6-48fb-8a94-bc56ebd5a137",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "1dc7adce-86de-48c2-b2db-a50864eae1c6",
+            "text": "Là lớp chứa hạ tầng thiết bị"
+          },
+          {
+            "id": "86bee028-546b-4c3a-8a73-fe8a2f4c2b2b",
+            "text": "Là lớp chứa toàn bộ các thành phần hoạt động"
+          },
+          {
+            "id": "f0089426-88c1-482c-aad9-531f0c0b57f1",
+            "text": "Là lớp chứa giao diện người dùng của ứng dụng"
+          }
+        ],
+        "correctAnswerId": "f0089426-88c1-482c-aad9-531f0c0b57f1"
+      },
+      {
+        "id": "0fa116c2-b865-4bfd-b0d3-c5ea381f8afd",
+        "question": "Kiến trúc SOA là kiến trúc gì?",
+        "answers": [
+          {
+            "id": "1f7cf8da-69b4-4290-a8d7-d412bf797d9b",
+            "text": "Kiến trúc hướng theo định hướng duy nhất"
+          },
+          {
+            "id": "ef196332-01a2-49ad-90eb-889afe69beb7",
+            "text": "Kiến trúc hướng dịch vụ"
+          },
+          {
+            "id": "e8f7d454-2f3c-41c6-a298-0820f5b8b20a",
+            "text": "Kiến trúc đa tác vụ"
+          },
+          {
+            "id": "95eeb554-a275-4bfe-b1a6-bcd41636220b",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "ef196332-01a2-49ad-90eb-889afe69beb7"
+      },
+      {
+        "id": "7bd6bf58-bb4b-4721-b767-a1f4e85eef6b",
+        "question": "Mô hình dịch vụ Service category của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "61cfa2b1-6a63-4865-ade9-0ec2cbf3033b",
+            "text": "VM rental, online storage"
+          },
+          {
+            "id": "bc463da0-e72a-4578-8fc3-02ed5f601661",
+            "text": "Application and software rental"
+          },
+          {
+            "id": "f5e8625a-6326-48b1-94e9-646832ec79c4",
+            "text": "Online operating environment, online database, online message queues"
+          },
+          {
+            "id": "30ffa9a5-71ec-4b80-95f6-e8cef327d11d",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "bc463da0-e72a-4578-8fc3-02ed5f601661"
+      },
+      {
+        "id": "85aa185e-cf76-4bbf-9967-d8335078a0ca",
+        "question": "Điện toán đám mây có thể được xem như là giai đoạn tự nhiên tiếp theo từ mô hình điện toán nào?",
+        "answers": [
+          {
+            "id": "d4e6b3cd-f00b-4512-8606-2bd1c880c67b",
+            "text": "Mô hình điện toán theo nhu cầu"
+          },
+          {
+            "id": "a290052b-a45f-47ed-bbc6-570ac8c8e801",
+            "text": "Mô hình điện toán lưới"
+          },
+          {
+            "id": "84ffece7-59c7-41fe-8e5f-9994c2a44201",
+            "text": "Mô hình điện toán tự trị"
+          },
+          {
+            "id": "4036db02-2907-490d-8f55-124b62eaeaa5",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "a290052b-a45f-47ed-bbc6-570ac8c8e801"
+      },
+      {
+        "id": "29dce915-541b-4aa8-8b12-df6ee2f540c6",
+        "question": "Những loại dịch vụ nào khi thuê có Operating System?",
+        "answers": [
+          {
+            "id": "f45e9346-7ddf-4890-9d34-718cc726b551",
+            "text": "SaaS"
+          },
+          {
+            "id": "d108c863-fd73-4c1b-aae6-af1f796e96a6",
+            "text": "IaaS, PaaS"
+          },
+          {
+            "id": "70f14a30-a6f9-4fd8-a130-587835662d4a",
+            "text": "PaaS, SaaS"
+          },
+          {
+            "id": "49e64f9b-9438-436b-a0ae-062c1dc87cbb",
+            "text": "PaaS"
+          }
+        ],
+        "correctAnswerId": "70f14a30-a6f9-4fd8-a130-587835662d4a"
+      },
+      {
+        "id": "a6e177ac-43aa-4ce0-a681-6056108077b3",
+        "question": "Loại dịch vụ nào mà người sử dụng có được môi trường để lập trình chương trình ứng dụng?",
+        "answers": [
+          {
+            "id": "61134700-3656-482e-8ad0-d8e8a2d156b8",
+            "text": "Iaas"
+          },
+          {
+            "id": "68104b66-4403-4b0c-bd25-9fbe54232da3",
+            "text": "Paas"
+          },
+          {
+            "id": "b718abcf-0be1-4a7e-a9fd-c66738b7510f",
+            "text": "Saas"
+          },
+          {
+            "id": "3ad2cd4c-f0c9-4c45-b7bd-68489f5b3b81",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "68104b66-4403-4b0c-bd25-9fbe54232da3"
+      },
+      {
+        "id": "4590dbe6-a688-4e67-9f71-6070e6b7637b",
+        "question": "Những loại dịch vụ nào khi thuê có Networking",
+        "answers": [
+          {
+            "id": "78bd6725-8e7b-4301-aa17-e32925cb1802",
+            "text": "Saas\""
+          },
+          {
+            "id": "4a3297b4-1268-4712-9565-507fe7a0fe0d",
+            "text": "Iaas, Paas, Saas, Standalone Server"
+          },
+          {
+            "id": "511f742f-77b3-46d4-9d39-14bcd8289d3b",
+            "text": "Paas"
+          },
+          {
+            "id": "047e9e55-e166-4de6-81d6-c8855e6f6f66",
+            "text": "Iaas, Paas, Saas"
+          }
+        ],
+        "correctAnswerId": "047e9e55-e166-4de6-81d6-c8855e6f6f66"
+      },
+      {
+        "id": "43c90dc2-ebfb-44a1-b4b9-f042113c28f0",
+        "question": "Google Computer Engine là dịch vụ thuộc loại gì?",
+        "answers": [
+          {
+            "id": "b8a523cf-6e3d-4036-a6aa-302e2c230613",
+            "text": "SaaS"
+          },
+          {
+            "id": "611d8ba0-9543-4ad0-9661-e7d99f89a179",
+            "text": "PaaS"
+          },
+          {
+            "id": "1950f891-6f3d-48ff-abd4-f47005f744bf",
+            "text": "IaaS"
+          },
+          {
+            "id": "6db80d85-b41c-49d9-8813-95a616d028a0",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "1950f891-6f3d-48ff-abd4-f47005f744bf"
+      },
+      {
+        "id": "e6b79c56-4e3d-4c16-839f-d365a2efc15b",
+        "question": "Mô hình dịch vụ Service category của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "63eded5d-7f49-4491-b392-1665ef33a0c8",
+            "text": "Application and software rental"
+          },
+          {
+            "id": "ad162c3a-66ac-4100-9eca-c38b5074a46f",
+            "text": "Online operating environment, online database, online message queues"
+          },
+          {
+            "id": "dc61370e-70f9-4918-b6fa-cb648a2f44c1",
+            "text": "VM rental, online storage"
+          },
+          {
+            "id": "73a38e54-5632-4eb6-9c99-f1cdfbbbde1b",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "dc61370e-70f9-4918-b6fa-cb648a2f44c1"
+      },
+      {
+        "id": "86b93489-ad21-4dad-ba7b-a5c54986c3d0",
+        "question": "Tổng thể các thành phần của môi trường điện toán đám mây?",
+        "answers": [
+          {
+            "id": "6af2ff14-f80d-4a47-867e-235e6bb0eb2b",
+            "text": "application, platform, infrastructure"
+          },
+          {
+            "id": "1c3e0f21-6fe5-4b8d-a745-b395f84246ad",
+            "text": "client , application, Session, network, Data"
+          },
+          {
+            "id": "d7d053e8-ac74-420f-ad4e-802f1f9cc5ac",
+            "text": "application , presentation, transport, network, Data"
+          },
+          {
+            "id": "ee9d98b9-aa22-4df1-a2a1-f4684716c5d1",
+            "text": "client , application, platform, infrastructure, server"
+          }
+        ],
+        "correctAnswerId": "ee9d98b9-aa22-4df1-a2a1-f4684716c5d1"
+      },
+      {
+        "id": "105480bf-1831-4975-aa36-7daec51764d8",
+        "question": "Những loại dịch vụ nào khi thuê có Storage?",
+        "answers": [
+          {
+            "id": "7b1ea141-1414-4f8b-9890-8ceefc89af66",
+            "text": "Iaas, Paas"
+          },
+          {
+            "id": "ca1c346f-3a13-45bf-b6ca-3b37df76f13b",
+            "text": "Iaas, Paas, Saas, Standalone Server"
+          },
+          {
+            "id": "69919753-b5b9-42ac-9f6e-2fa5e1a6dd7c",
+            "text": "Paas, Saas"
+          },
+          {
+            "id": "522a0bf4-757c-4e1c-bb76-be316d3fcc09",
+            "text": "Iaas, Paas, Saas"
+          }
+        ],
+        "correctAnswerId": "522a0bf4-757c-4e1c-bb76-be316d3fcc09"
+      },
+      {
+        "id": "a536f4be-360f-4fed-9aef-e29335e43476",
+        "question": "Google App Engine là dịch vụ thuộc loại gì?",
+        "answers": [
+          {
+            "id": "30d43bfa-c0b5-433c-86b3-de7b79e61219",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "ad42ece8-fe59-4ba3-afcc-57c913c35056",
+            "text": "SaaS"
+          },
+          {
+            "id": "d9b2e58b-3ecc-4004-bcbf-052c5ac0978c",
+            "text": "IaaS"
+          },
+          {
+            "id": "d8c010a3-2120-4c8d-a041-bd3da2aa43d2",
+            "text": "PaaS"
+          }
+        ],
+        "correctAnswerId": "d8c010a3-2120-4c8d-a041-bd3da2aa43d2"
+      },
+      {
+        "id": "35f5b041-1cc0-4319-8eb8-5707a578ea9a",
+        "question": "Mô hình dịch vụ Service customization của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "5f2c01db-8f69-4e81-98d8-65a068edfe1c",
+            "text": "Server template"
+          },
+          {
+            "id": "52bd60bc-ddf8-4688-a433-d5453487acae",
+            "text": "Logic resource template"
+          },
+          {
+            "id": "62788156-a02f-4875-b18a-1388acf217aa",
+            "text": "Application template"
+          },
+          {
+            "id": "17e4cc25-758d-40fc-9b5f-2ccc8b72bd0f",
+            "text": "Logic resource template and Application template"
+          }
+        ],
+        "correctAnswerId": "52bd60bc-ddf8-4688-a433-d5453487acae"
+      },
+      {
+        "id": "b57dd4cb-c5a4-432e-a4e7-694ff919f655",
+        "question": "Gmail là ứng dụng thuộc loại dịch vụ gì?",
+        "answers": [
+          {
+            "id": "5ad05537-74ff-4371-95f8-62a7e03d2825",
+            "text": "IaaS"
+          },
+          {
+            "id": "7614a71d-b6e9-4c58-8224-f3eb2227a69c",
+            "text": "PaaS"
+          },
+          {
+            "id": "a9770318-88cc-4979-920c-8cffd39fd70a",
+            "text": "SaaS"
+          },
+          {
+            "id": "942d53cd-666b-444d-b310-d12fccbf0a74",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "a9770318-88cc-4979-920c-8cffd39fd70a"
+      },
+      {
+        "id": "3f845428-39f9-4f1a-ba03-639ede8a7914",
+        "question": "Với mô hình dịch vụ SaaS, người sử dụng phải tự xây dựng cái gì?",
+        "answers": [
+          {
+            "id": "7686ad8a-6be7-4a35-bc30-99a201078576",
+            "text": "thực thi, ứng dụng, dữ liệu"
+          },
+          {
+            "id": "d262dac6-4a9b-4dc2-b5eb-6ed8f0b4d399",
+            "text": "ứng dụng, dữ liệu"
+          },
+          {
+            "id": "1f18e106-e889-4f93-ad11-71e265a00325",
+            "text": "dữ liệu"
+          },
+          {
+            "id": "d8188299-1ddc-41b2-a1f6-092d3b35caaf",
+            "text": "nền tảng, thực thi, ứng dụng, dữ liệu"
+          }
+        ],
+        "correctAnswerId": "1f18e106-e889-4f93-ad11-71e265a00325"
+      },
+      {
+        "id": "8eb2b7ac-8aaa-44dc-90e3-a865888816d6",
+        "question": "Trong điện toán đám mây, thuật ngữ ảo hóa - Virtualization có ý nghĩa là?",
+        "answers": [
+          {
+            "id": "b86cc8ba-8b1b-47df-8d49-b327c77894f5",
+            "text": "Nó tự động tải thêm các nền tảng hạ tầng"
+          },
+          {
+            "id": "82c039b7-7f3e-4f7c-84fe-2671873ac2d7",
+            "text": "Nó loại bỏ các hệ điều hành không hiệu quả"
+          },
+          {
+            "id": "69cce71e-9471-45af-9423-bc8755fc97bf",
+            "text": "Nó cải thiệu hiệu quả sử dụng các ứng dụng web"
+          },
+          {
+            "id": "932808f5-b66d-4039-8f94-2e522a14b91e",
+            "text": "Nó tối ưu hóa việc sử dụng tài nguyên máy tính"
+          }
+        ],
+        "correctAnswerId": "932808f5-b66d-4039-8f94-2e522a14b91e"
+      },
+      {
+        "id": "a26db372-7cbb-4ec0-ab4c-f60c5fb9e49d",
+        "question": "Facebook thuộc loại dịch vụ điện toán đám mây nào?",
+        "answers": [
+          {
+            "id": "77e8e049-19ab-4b55-b4ca-295d930a9d0d",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "850a5ba7-bcf6-407c-8f98-9c2ea2e1775e",
+            "text": "Paas"
+          },
+          {
+            "id": "7d678d9f-1de3-4c3a-8d0e-803cca7f02ab",
+            "text": "Iaas"
+          },
+          {
+            "id": "dcbdbfba-55b8-43dd-b1d9-52c98e870e56",
+            "text": "Saas"
+          }
+        ],
+        "correctAnswerId": "dcbdbfba-55b8-43dd-b1d9-52c98e870e56"
+      },
+      {
+        "id": "e57f199d-c92e-47ea-a9be-711e06cacce2",
+        "question": "Thuật ngữ nào mô tả việc thanh toán dựa trên sự đóng gói các tài nguyên máy tính và tổng dung lượng sử dụng tài nguyên đó",
+        "answers": [
+          {
+            "id": "3177ce50-7928-4bd7-9f96-bfa972448f6e",
+            "text": "Recurring"
+          },
+          {
+            "id": "a73a0325-eb77-4758-aa85-4dc2ff410f5f",
+            "text": "Metered"
+          },
+          {
+            "id": "3cd16d1e-b357-416b-bea8-6c77003b367e",
+            "text": "subscription"
+          },
+          {
+            "id": "61b117c6-b5dc-4980-9d3a-8bb7a90c4468",
+            "text": "per user based"
+          }
+        ],
+        "correctAnswerId": "a73a0325-eb77-4758-aa85-4dc2ff410f5f"
+      },
+      {
+        "id": "d2f1a72f-f740-424f-a40a-c90212c4a75c",
+        "question": "Dịch vụ IT truyền thống phải tự xây dựng bao nhiêu phần?",
+        "answers": [
+          {
+            "id": "76c2ca4b-b695-43c1-aeda-b682698b4b97",
+            "text": "thực thi, ứng dụng, dữ liệu"
+          },
+          {
+            "id": "4045a1a4-802d-40cb-a0e4-82046de7d127",
+            "text": "nền tảng, thực thi, ứng dụng, dữ liệu"
+          },
+          {
+            "id": "e5a1ea0d-afd0-45fd-81ae-25f1eab4d446",
+            "text": "ứng dụng, dữ liệu"
+          },
+          {
+            "id": "97cfcc00-17c1-4ea2-8db5-8f8e2385234c",
+            "text": "nền tảng, thực thi"
+          }
+        ],
+        "correctAnswerId": "4045a1a4-802d-40cb-a0e4-82046de7d127"
+      },
+      {
+        "id": "ec92a8bd-9c95-4cef-8b4c-e026242764f0",
+        "question": "Mô hình dịch vụ Service customization của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "f4316578-4201-4faa-9159-80b55c25691d",
+            "text": "Logic resource template and Application template"
+          },
+          {
+            "id": "55990214-c093-4a1d-8e79-b7779f2d9ec5",
+            "text": "Logic resource template"
+          },
+          {
+            "id": "0bc729e7-cd57-4d31-89d0-0e1d623fb13a",
+            "text": "Server template"
+          },
+          {
+            "id": "17810206-6592-4152-9b07-d27e3fb3aeea",
+            "text": "Application template"
+          }
+        ],
+        "correctAnswerId": "17810206-6592-4152-9b07-d27e3fb3aeea"
+      },
+      {
+        "id": "5a1a9cfb-be2f-4ff4-92c5-bdaedb3d105a",
+        "question": "Những loại dịch vụ nào khi thuê có Runtimes?",
+        "answers": [
+          {
+            "id": "ba8d6f41-9904-417c-9f84-f7024fd277a2",
+            "text": "PaaS"
+          },
+          {
+            "id": "1a39116e-91b5-4e38-a738-97ab14a576f4",
+            "text": "IaaS, PaaS"
+          },
+          {
+            "id": "f63bc099-9567-49fb-98a3-59c92a3e269a",
+            "text": "SaaS"
+          },
+          {
+            "id": "07422b91-7d84-483b-9ced-156613462828",
+            "text": "PaaS, SaaS"
+          }
+        ],
+        "correctAnswerId": "07422b91-7d84-483b-9ced-156613462828"
+      },
+      {
+        "id": "3fb9ae26-4c7c-44b8-9d2f-95b8d7721956",
+        "question": "Điện toán đám mây viết là gì?",
+        "answers": [
+          {
+            "id": "99ea53a8-aff9-45a4-b2af-7c1efa004259",
+            "text": "Cloud Internet"
+          },
+          {
+            "id": "5daccc65-2e7c-417d-9c57-eb0b70b9e455",
+            "text": "Cloud Mobile"
+          },
+          {
+            "id": "62334683-f9d1-41a3-b036-3db1eea7ed0a",
+            "text": "Cloud Computing"
+          },
+          {
+            "id": "fbd5e417-cc83-4132-85d2-efda12c8b450",
+            "text": "Không có phương án đúng"
+          }
+        ],
+        "correctAnswerId": "62334683-f9d1-41a3-b036-3db1eea7ed0a"
+      },
+      {
+        "id": "28b91b79-f143-4d77-b33e-ba00aa869135",
+        "question": "Dịch vụ IaaS là viết tắt của từ gì?",
+        "answers": [
+          {
+            "id": "42b1834b-500a-4324-8241-955dc756e94e",
+            "text": "Infra as a Service"
+          },
+          {
+            "id": "c0b501fe-343e-4907-b1b5-8018503d166f",
+            "text": "Infrasture as a Server"
+          },
+          {
+            "id": "f8746ebc-8545-407e-825d-b3fc0f39e81c",
+            "text": "Infrasture as a Service"
+          },
+          {
+            "id": "742f70ea-a595-47fc-add5-9f03158cc146",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "f8746ebc-8545-407e-825d-b3fc0f39e81c"
+      },
+      {
+        "id": "cc843a57-efca-4896-8531-5a286a493b00",
+        "question": "Có bao nhiêu mô hình điện toán đám mây được triển khai trong thực tế?",
+        "answers": [
+          {
+            "id": "535cca5d-afc3-4c3b-a017-d467eeb30bf9",
+            "text": "4"
+          },
+          {
+            "id": "80bc0c19-e622-4c9c-a549-0ee7775066e6",
+            "text": "3"
+          },
+          {
+            "id": "823f4656-8363-46f8-83e2-d15ce37acd1f",
+            "text": "2"
+          },
+          {
+            "id": "c2b44363-d841-4e20-8fe0-46141d198759",
+            "text": "5"
+          }
+        ],
+        "correctAnswerId": "535cca5d-afc3-4c3b-a017-d467eeb30bf9"
+      },
+      {
+        "id": "dfedc13d-db33-419f-8b3b-d9e163822c7e",
+        "question": "SaaS được xem như đã bao gồm tích hợp với lớp nào của các dịch vụ điện toán đám mây?",
+        "answers": [
+          {
+            "id": "036f90b6-d3ae-4d29-9c12-c7e9f143f65f",
+            "text": "Application"
+          },
+          {
+            "id": "35e0e1a1-101f-4d88-b550-e974f271a8a0",
+            "text": "Client"
+          },
+          {
+            "id": "f0ccaf63-4e44-44d5-8503-69bb57dff697",
+            "text": "Data"
+          },
+          {
+            "id": "9b95c605-d451-4d3e-9e00-e6be149e9643",
+            "text": "Infrastructure"
+          }
+        ],
+        "correctAnswerId": "036f90b6-d3ae-4d29-9c12-c7e9f143f65f"
+      },
+      {
+        "id": "12ee5bc0-ed62-4f63-ab15-04ace974f232",
+        "question": "Những loại dịch vụ nào khi thuê có Virtualization?",
+        "answers": [
+          {
+            "id": "316cf691-6146-43ac-82f4-0d91877bfb98",
+            "text": "Paas, Saas"
+          },
+          {
+            "id": "a2c54b7b-660f-4e65-ba4e-c41c1447a518",
+            "text": "Iaas, Paas, Saas, Standalone Server"
+          },
+          {
+            "id": "1d55b2b9-d4c4-4148-8698-4f6350ba3853",
+            "text": "Iaas, Paas"
+          },
+          {
+            "id": "f0b5def5-9360-449a-9a48-813a750d50b1",
+            "text": "Iaas, Paas, Saas"
+          }
+        ],
+        "correctAnswerId": "f0b5def5-9360-449a-9a48-813a750d50b1"
+      },
+      {
+        "id": "5e238a57-c0ea-4e16-a6b2-0566ac5e32bf",
+        "question": "Thuật ngữ Cloud Computing ra đời vào năm nào?",
+        "answers": [
+          {
+            "id": "7a1b844a-1e42-4305-a4a1-d3bff08ceebc",
+            "text": "2009"
+          },
+          {
+            "id": "f7c598c1-94e7-4d96-b0aa-1f5a90676c6c",
+            "text": "2008"
+          },
+          {
+            "id": "9d6af8cb-9f06-4662-bd38-f2debf1256b0",
+            "text": "2007"
+          },
+          {
+            "id": "86a50390-2866-4997-8e9a-dc5c3da48ae0",
+            "text": "2010"
+          }
+        ],
+        "correctAnswerId": "9d6af8cb-9f06-4662-bd38-f2debf1256b0"
+      },
+      {
+        "id": "ee194986-6389-4191-8ca8-d7fa7be8e276",
+        "question": "những loại dịch vụ nào khi thuê có Application?",
+        "answers": [
+          {
+            "id": "7654d12e-18fc-4b43-932f-0f5c8c873471",
+            "text": "PaaS"
+          },
+          {
+            "id": "31d3be24-af0e-4006-a09e-9cb0c427a761",
+            "text": "SaaS"
+          },
+          {
+            "id": "8b0abbc1-657a-461e-82f5-ca0ae6029fac",
+            "text": "PaaS, SaaS"
+          },
+          {
+            "id": "6701bdfa-a78d-4ec8-9b6d-7f5edd0a97c7",
+            "text": "IaaS, PaaS, SaaS"
+          }
+        ],
+        "correctAnswerId": "31d3be24-af0e-4006-a09e-9cb0c427a761"
+      },
+      {
+        "id": "c6883b21-a249-49c3-a101-ac12b212aa37",
+        "question": "Với mô hình dịch vụ IaaS, người sử dụng phải tự xây dựng cái gì?",
+        "answers": [
+          {
+            "id": "4b493c53-8c17-4db7-95e9-b73e15e20de4",
+            "text": "ứng dụng, dữ liệu"
+          },
+          {
+            "id": "11cc4a15-6b96-4bcd-bbfc-929d8a8037a7",
+            "text": "nền tảng, thực thi, ứng dụng, dữ liệu"
+          },
+          {
+            "id": "5d742d76-7d77-4756-a530-4814ba5b587c",
+            "text": "thực thi, ứng dụng, dữ liệu"
+          },
+          {
+            "id": "cdce03d5-6181-42a0-9494-3580cab89076",
+            "text": "dữ liệu"
+          }
+        ],
+        "correctAnswerId": "5d742d76-7d77-4756-a530-4814ba5b587c"
+      },
+      {
+        "id": "e3a3bc21-2af8-4450-8e56-7e4154025891",
+        "question": "Những loại dịch vụ nào khi thuê có Server?",
+        "answers": [
+          {
+            "id": "d0ba821e-10b8-4314-a386-2f4a4ba8f035",
+            "text": "Iaas, Paas, Saas, Standalone Server"
+          },
+          {
+            "id": "27170efd-38d0-4c21-bcd7-f7e5a84b3299",
+            "text": "Iaas, Paas, Saas"
+          },
+          {
+            "id": "dac096d3-47fe-402c-883a-6a8fcb69d4a1",
+            "text": "Iaas, Paas"
+          },
+          {
+            "id": "7aefe52e-739d-4bbc-bbb4-94a8076f646c",
+            "text": "Paas, Saas"
+          }
+        ],
+        "correctAnswerId": "27170efd-38d0-4c21-bcd7-f7e5a84b3299"
+      },
+      {
+        "id": "57becfd6-83b3-4d90-bc07-4621b3a9a11f",
+        "question": "Với mô hình dịch vụ PaaS, người sử dụng phải tự xây dựng cái gì?",
+        "answers": [
+          {
+            "id": "4facb294-5065-4d5a-8c78-9225aa7d9f20",
+            "text": "thực thi, ứng dụng, dữ liệu"
+          },
+          {
+            "id": "a8744d5f-2336-433c-99f0-dfed7e42dc82",
+            "text": "dữ liệu"
+          },
+          {
+            "id": "af8de81e-717a-463f-b233-44486f28dd4c",
+            "text": "ứng dụng, dữ liệu"
+          },
+          {
+            "id": "4aec8540-79bb-4dbc-82be-c5024f32f0b4",
+            "text": "nền tảng, thực thi, ứng dụng, dữ liệu"
+          }
+        ],
+        "correctAnswerId": "af8de81e-717a-463f-b233-44486f28dd4c"
+      },
+      {
+        "id": "cd311827-bb7d-475e-a7ae-1d90eecaafa7",
+        "question": "Dịch vụ SaaS là viết tắt của từ gì?",
+        "answers": [
+          {
+            "id": "3e8f575a-d080-4dbe-a463-e099a557faf6",
+            "text": "Software as a Server"
+          },
+          {
+            "id": "a58c05ab-7658-4b02-8056-5826181c5913",
+            "text": "Software as a Service"
+          },
+          {
+            "id": "166f3a12-4fea-4723-b804-15611522e14b",
+            "text": "Soft as a Service"
+          },
+          {
+            "id": "e5ac11cd-8d6b-4bb4-b4a0-b8f41c7c70c9",
+            "text": "Software and a Service"
+          }
+        ],
+        "correctAnswerId": "a58c05ab-7658-4b02-8056-5826181c5913"
+      },
+      {
+        "id": "727e06d1-60b0-4674-b6ed-f92de3fab163",
+        "question": "Mô hình dịch vụ Service accessing and using của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "72b6cc06-eb17-4c91-abe0-c9d5fd0715f2",
+            "text": "remote console, web services"
+          },
+          {
+            "id": "c38261ad-d626-4a9d-8684-179d9ad02b88",
+            "text": "online development and debugging, integration of offline development tools and cloud"
+          },
+          {
+            "id": "947b20ce-8e0c-46a9-82f8-4c558510ef72",
+            "text": "web 2.0 access technology"
+          },
+          {
+            "id": "b88d6f7e-0ed1-4a92-bc0c-757cb56d3e84",
+            "text": "web services and web 2.0 access technology"
+          }
+        ],
+        "correctAnswerId": "c38261ad-d626-4a9d-8684-179d9ad02b88"
+      },
+      {
+        "id": "6b7d8d1e-81a0-4112-a6bd-55950406256b",
+        "question": "Loại dịch vụ nào mà người sử dụng chỉ cần thuê và đưa dữ liệu vào ứng dụng luôn?",
+        "answers": [
+          {
+            "id": "2e3e04a7-da98-4afe-8583-fd16eb241ca3",
+            "text": "Iaas"
+          },
+          {
+            "id": "d7541b99-8f17-4621-a979-30cc2825f619",
+            "text": "Paas"
+          },
+          {
+            "id": "05d8c943-a865-45d7-a522-c7d25fafe199",
+            "text": "Saas"
+          },
+          {
+            "id": "ff60ae35-68a5-436f-a91f-35e729f1a8f4",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "05d8c943-a865-45d7-a522-c7d25fafe199"
+      },
+      {
+        "id": "88007c21-e19e-4a18-8592-9d176a4556f5",
+        "question": "Google Search là dịch vụ thuộc loại gì?",
+        "answers": [
+          {
+            "id": "f595462e-d548-4815-8026-d2cd1699fd4a",
+            "text": "IaaS"
+          },
+          {
+            "id": "18d5d515-69d5-4d7f-ac16-44623d0a53f0",
+            "text": "SaaS"
+          },
+          {
+            "id": "50a104f2-41d9-4921-8bc1-f0108616af12",
+            "text": "PaaS"
+          },
+          {
+            "id": "600bd36d-f53a-4003-ab89-3e9937589b0d",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "18d5d515-69d5-4d7f-ac16-44623d0a53f0"
+      },
+      {
+        "id": "5c1d38b5-1e9d-43b8-abd5-89be181db0cc",
+        "question": "Có mấy mô hình triển khai của điện toán đám mây trong thực tế ?",
+        "answers": [
+          {
+            "id": "b8026700-4e40-40d9-af66-eebc1ee4b3cc",
+            "text": "4"
+          },
+          {
+            "id": "fdb81b6e-72f2-4bfe-b73c-42c178df4a4a",
+            "text": "3"
+          },
+          {
+            "id": "c18c48cc-0e68-4560-82ad-c8c1ca7b20f3",
+            "text": "5"
+          },
+          {
+            "id": "c21213c8-7fad-4817-a0e2-4ee71a5edc3d",
+            "text": "2"
+          }
+        ],
+        "correctAnswerId": "b8026700-4e40-40d9-af66-eebc1ee4b3cc"
+      },
+      {
+        "id": "29c7e148-507b-4944-95ab-b4a212d85fc2",
+        "question": "Mô hình Private cluod sau khi xây dựng sẽ cung cấp các loại dịch vụ nào?",
+        "answers": [
+          {
+            "id": "1c81b387-e8b3-49e0-96c1-44be41927246",
+            "text": "IaaS, SaaS."
+          },
+          {
+            "id": "a8fd268e-cedd-4fb1-af4c-e387d374ca51",
+            "text": "IaaS, PaaS, SaaS."
+          },
+          {
+            "id": "47eacc81-39d1-4097-90a7-4d0a316f44e5",
+            "text": "IaaS"
+          },
+          {
+            "id": "aca08480-ae4e-41cb-9bc8-3142e952d368",
+            "text": "PaaS."
+          }
+        ],
+        "correctAnswerId": "a8fd268e-cedd-4fb1-af4c-e387d374ca51"
+      },
+      {
+        "id": "8643f099-3490-483b-95c3-c18f9e3d33bc",
+        "question": "Phần nào không cần khai báo khi cấu hình máy chủ ảo?",
+        "answers": [
+          {
+            "id": "cca2ed5b-3768-497a-b026-3c75a40001f2",
+            "text": "Cloud SQL"
+          },
+          {
+            "id": "4f32bdfa-a549-4d7e-822e-34a0c73ff7dd",
+            "text": "Tag"
+          },
+          {
+            "id": "1db819ad-4c5f-4485-a6a8-4935a5af865a",
+            "text": "Zone"
+          },
+          {
+            "id": "8f67ee12-e8ec-41b3-9e8d-5f23e89d3eb2",
+            "text": "Name"
+          }
+        ],
+        "correctAnswerId": "cca2ed5b-3768-497a-b026-3c75a40001f2"
+      },
+      {
+        "id": "8b8f3c37-1232-441d-b7cb-5bb0ddade54f",
+        "question": "Điện toán máy chủ ảo hoạt động gồm có mấy lớp?",
+        "answers": [
+          {
+            "id": "b5d8f51a-0773-4caa-8bb9-c7c0c1df30fe",
+            "text": "5 lớp"
+          },
+          {
+            "id": "25c6867e-4705-4c4d-9116-cd48a95de226",
+            "text": "4 lớp"
+          },
+          {
+            "id": "1b6cb2ca-3884-47ca-8af8-f8f9d60c4186",
+            "text": "2 lớp"
+          },
+          {
+            "id": "d766a128-b24f-442d-b1fb-c77e04c0e641",
+            "text": "3 lớp"
+          }
+        ],
+        "correctAnswerId": "1b6cb2ca-3884-47ca-8af8-f8f9d60c4186"
+      },
+      {
+        "id": "74a0d65e-a352-4400-9218-567a56af80e2",
+        "question": "Dịch vụ nào là nền tảng đám mây cho việc triển khai xây dựng ứng dụng công nghệ thông tin trực tuyến.",
+        "answers": [
+          {
+            "id": "9bffee4d-968e-4c72-a533-e177376f46b3",
+            "text": "PaaS"
+          },
+          {
+            "id": "23a7cb05-93a9-423a-a187-49bb2ae8339e",
+            "text": "SaaS"
+          },
+          {
+            "id": "270aad11-0f4b-4e97-9857-e811289966ba",
+            "text": "IaaS"
+          },
+          {
+            "id": "17c52d55-ea37-4f39-8bea-163a0d5af79f",
+            "text": "XaaS"
+          }
+        ],
+        "correctAnswerId": "9bffee4d-968e-4c72-a533-e177376f46b3"
+      },
+      {
+        "id": "c856f56c-8ca6-4ecf-9346-87947e7e81cf",
+        "question": "Tổ chức hỗ trợ cộng đồng phù hợp với việc triển khai mô hình đám mây nào?",
+        "answers": [
+          {
+            "id": "c0932f64-cf85-4da1-b42d-6c8702f5a119",
+            "text": "Private cloud."
+          },
+          {
+            "id": "0a6ceeef-aa9b-4018-8ec5-9a15b5ceb1df",
+            "text": "Public cloud."
+          },
+          {
+            "id": "ffa63bee-d26f-45cf-8da9-7d522fc2c5cf",
+            "text": "Community cloud."
+          },
+          {
+            "id": "de932700-f326-4064-8963-5a0f50179e48",
+            "text": "Hybrid cloud."
+          }
+        ],
+        "correctAnswerId": "ffa63bee-d26f-45cf-8da9-7d522fc2c5cf"
+      },
+      {
+        "id": "cb4f82d1-4d49-4e62-aab8-d596f1b8c975",
+        "question": "Đâu là dịch vụ của Microsoft được phát triển theo mô hình Saas",
+        "answers": [
+          {
+            "id": "6bfc436c-b625-4ef7-b647-34aa0a63d8f8",
+            "text": "Windows Azure"
+          },
+          {
+            "id": "fd87809a-50d0-4a17-93d1-d29ccaa501df",
+            "text": "Office 365"
+          },
+          {
+            "id": "1a1675c0-c307-4320-89dc-78dc8252913b",
+            "text": "OnDrive"
+          },
+          {
+            "id": "980ee52d-580c-4d52-93ff-41b5df10441c",
+            "text": "Windows Azure Platform"
+          }
+        ],
+        "correctAnswerId": "fd87809a-50d0-4a17-93d1-d29ccaa501df"
+      },
+      {
+        "id": "410ce9bd-1d5e-4f5b-9caf-e6dab8d95ae6",
+        "question": "Dạng dịch vụ nào sau đây không thuộc phạm vi cung cấp của PaaS?",
+        "answers": [
+          {
+            "id": "391d25a6-aa70-4bda-a829-ccd652c3a2f7",
+            "text": "Các bộ lưu trữ dữ liệu."
+          },
+          {
+            "id": "da2eb9ef-d40e-4e8a-88e6-70492d408125",
+            "text": "Các bộ nhớ mở rộng."
+          },
+          {
+            "id": "045bffd9-cb41-4260-89eb-282dcbd0b583",
+            "text": "Các phần mềm ứng dụng."
+          },
+          {
+            "id": "95f95270-a39d-4697-aa32-480e9c437cf1",
+            "text": "Các hệ điều hành máy tính."
+          }
+        ],
+        "correctAnswerId": "045bffd9-cb41-4260-89eb-282dcbd0b583"
+      },
+      {
+        "id": "8e20000d-3066-4fde-891c-e6e05dfc9320",
+        "question": "Để được xem một dịch vụ điện toán đám mây như là PaaS thì nó cần có",
+        "answers": [
+          {
+            "id": "d0abe969-fc88-4053-909d-64e09d65658d",
+            "text": "Tự động mở rộng qui mô."
+          },
+          {
+            "id": "78ee3951-d7e2-4c32-a3a6-3547d6fa5a08",
+            "text": "Thời gian chạy trừu tượng (abstracted runtime)"
+          },
+          {
+            "id": "1d2780e6-d412-45bd-aa1d-f8cb89bba9f4",
+            "text": "Lớp bộ nhớ đệm (catching layer)"
+          },
+          {
+            "id": "1f0fd416-50c2-4403-91aa-095e45e0370e",
+            "text": "Là tổng hợp tất cả các đáp án khác."
+          }
+        ],
+        "correctAnswerId": "1d2780e6-d412-45bd-aa1d-f8cb89bba9f4"
+      },
+      {
+        "id": "3f21032e-ce64-4a24-b19e-5c136d02b294",
+        "question": "IaaS là từ ?",
+        "answers": [
+          {
+            "id": "b6e32d38-9d90-4787-b086-8af0f32d1058",
+            "text": "Infrasture as a Server"
+          },
+          {
+            "id": "1043fd2f-e7da-47ce-aab3-5d7fac79f744",
+            "text": "Infrasture as all Service"
+          },
+          {
+            "id": "72c456fe-41e8-486d-8844-5d98c6c6699a",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "57ceed46-b896-4cc1-af35-53b62cf9572a",
+            "text": "Infra as a Service “"
+          }
+        ],
+        "correctAnswerId": "72c456fe-41e8-486d-8844-5d98c6c6699a"
+      },
+      {
+        "id": "82781f86-ad37-4482-b403-039816b7dbf3",
+        "question": "Thuật ngữ Multi-tenancy trong điện toán đám mây được hiểu như thế nào?",
+        "answers": [
+          {
+            "id": "d66eb212-a04c-4a85-9bf0-82a64705bb60",
+            "text": "Là dịch vụ chia sẻ một ứng dụng cho nhiều người dùng."
+          },
+          {
+            "id": "f6ca2348-bfd8-42d2-be30-e90353c9dbfc",
+            "text": "Là dịch vụ bảo mật ứng dụng trên điện toán đám mây"
+          },
+          {
+            "id": "b5bf2c13-fede-4dc0-9a42-500007c2f230",
+            "text": "Là dịch vụ sử dụng được truy cập qua Internet."
+          },
+          {
+            "id": "f7c47d86-c888-4940-af21-9624d08c2626",
+            "text": "Là dịch vụ đáp ứng nhanh theo nhu cầu người dùng."
+          }
+        ],
+        "correctAnswerId": "f7c47d86-c888-4940-af21-9624d08c2626"
+      },
+      {
+        "id": "7cf7f349-2b2c-485c-8d98-80aa481ec1c4",
+        "question": "Đặc trưng nào không thể hiện trên PaaS",
+        "answers": [
+          {
+            "id": "2db1e983-2845-4666-b0a0-0a716d64a194",
+            "text": "Độc lập."
+          },
+          {
+            "id": "45a9c38f-fe5a-411c-af72-fd688cc211c5",
+            "text": "Máy tính mở."
+          },
+          {
+            "id": "a72e876e-1843-4dd7-9575-bc000cf144b9",
+            "text": "Nền tảng web."
+          },
+          {
+            "id": "be596f5e-123c-4c8b-a62d-453bd5fc5424",
+            "text": "Đáp ứng nhu cầu."
+          }
+        ],
+        "correctAnswerId": "2db1e983-2845-4666-b0a0-0a716d64a194"
+      },
+      {
+        "id": "d33cbdf1-a94a-4f5b-82f2-17c6d3049257",
+        "question": "Software as a Service được xem giống như là một dịch vụ hosted.",
+        "answers": [
+          {
+            "id": "ddd57ce5-9311-444e-a6b3-0929caadc540",
+            "text": "Đúng."
+          },
+          {
+            "id": "3f6b0f3f-fc1f-462c-98a2-335788e58f06",
+            "text": "Sai."
+          },
+          {
+            "id": "b4ebe635-94f8-40da-99de-85489bd49fe3",
+            "text": "Không chọn đáp án này."
+          }
+        ],
+        "correctAnswerId": "3f6b0f3f-fc1f-462c-98a2-335788e58f06"
+      },
+      {
+        "id": "6f05e5c5-f783-45ea-9e95-65ae2e10484e",
+        "question": "Hãng IBM mở trung tâm điện toán đám mây tại thị trơờng Việt Nam vào năm nào?",
+        "answers": [
+          {
+            "id": "0ca0f25d-7d2f-4b7b-9417-2d1c3faef342",
+            "text": "2010"
+          },
+          {
+            "id": "ac951ed6-bb4d-4e05-b636-d0c05762ebb0",
+            "text": "2009"
+          },
+          {
+            "id": "74122b4e-8964-4998-a562-9e29e6dd67b0",
+            "text": "2008"
+          },
+          {
+            "id": "2481fdf6-2658-4cb0-bf22-19f6698a222c",
+            "text": "2011"
+          }
+        ],
+        "correctAnswerId": "74122b4e-8964-4998-a562-9e29e6dd67b0"
+      },
+      {
+        "id": "7d983a42-cc00-4130-be82-cc819e1667ba",
+        "question": "Public Cloud được hiểu đơn giản là gì?",
+        "answers": [
+          {
+            "id": "1922cb40-0674-4cc3-9547-cc556c62b9c3",
+            "text": "Một dịch vụ điện toán đám mây cho một cộng đồng nào đó."
+          },
+          {
+            "id": "dd7808e0-7b7a-44ac-8605-8b100d6de9d4",
+            "text": "Một kiến trúc đám mây riêng duy trì trong trung tâm dữ liệu doanh nghiệp."
+          },
+          {
+            "id": "7242b8d9-1921-42da-8329-d97a57030644",
+            "text": "Một dịch vụ điện toán đám mây tiêu chuẩn cung cấp qua mạng Internet."
+          },
+          {
+            "id": "dd404fca-394f-4e75-882a-69a6ed956d8c",
+            "text": "Không chọn đáp án này."
+          }
+        ],
+        "correctAnswerId": "7242b8d9-1921-42da-8329-d97a57030644"
+      },
+      {
+        "id": "c60aae9d-a953-473c-945c-3857fd793a61",
+        "question": "Câu số 67 Kiểu dịch vụ Service measurement của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "4aa12ef3-e789-43b6-8eed-28489a481318",
+            "text": "network, storage, and server virtualization"
+          },
+          {
+            "id": "2bdf3904-6c20-4a06-a8f6-28a8d4b25429",
+            "text": "logic resource usage metering"
+          },
+          {
+            "id": "de81bbee-f766-4c43-a933-456b4f2df820",
+            "text": "application usage metering"
+          },
+          {
+            "id": "74f36d1b-1418-4468-9322-07acf7231132",
+            "text": "physical resource metering"
+          }
+        ],
+        "correctAnswerId": "74f36d1b-1418-4468-9322-07acf7231132"
+      },
+      {
+        "id": "e962f263-6054-4405-aa10-fca112cdb819",
+        "question": "Dịch vụ Google App Engine cung cấp dịch vụ thuộc dạng",
+        "answers": [
+          {
+            "id": "8a9d4869-07d8-4552-8336-17c38231ac1c",
+            "text": "Platform as a Service."
+          },
+          {
+            "id": "1b213be4-0402-49ce-8835-8ab7a4f155b4",
+            "text": "Hardware as a Service."
+          },
+          {
+            "id": "aab5aadd-5173-423c-83b5-f46e9bb59263",
+            "text": "Infrastucture as a Service."
+          },
+          {
+            "id": "9b510c31-8f82-43f9-9a3b-fa025a9e494b",
+            "text": "Software as a Service."
+          }
+        ],
+        "correctAnswerId": "8a9d4869-07d8-4552-8336-17c38231ac1c"
+      },
+      {
+        "id": "2c41b95b-3cb4-43c5-9027-5720f56faaed",
+        "question": "Kiểu dịch vụ security của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "ca04f7f6-34b2-41a4-a7dc-c501043e6c16",
+            "text": "data isolation, operating environment isolation, SSI, Web authentication and authorization"
+          },
+          {
+            "id": "6fdd0c7a-0a42-4527-8591-0cad54eca8ee",
+            "text": "data isolation, operating environment isolation, SSL"
+          },
+          {
+            "id": "5f0b8e62-a949-4fbd-8fa8-41db5649c014",
+            "text": "storage encryption and isolation, VM isolation, VLAN, SSL/SSH"
+          },
+          {
+            "id": "7e197e81-3200-4239-9b11-7fcd7ac5706f",
+            "text": "storage encryption and isolation, VM isolation"
+          }
+        ],
+        "correctAnswerId": "ca04f7f6-34b2-41a4-a7dc-c501043e6c16"
+      },
+      {
+        "id": "e72475dd-fe30-4b44-92ae-3f9a6bd26dab",
+        "question": "Phải tự xây dựng bao nhiêu phần trong mô hình dịch vụ IT truyền thống?",
+        "answers": [
+          {
+            "id": "d005a9df-943d-4597-a275-aca30abe7346",
+            "text": "2"
+          },
+          {
+            "id": "87d6f021-dad3-44a1-8090-b72cf6d1e53c",
+            "text": "3"
+          },
+          {
+            "id": "db4eb822-a3cf-4a45-9e77-0e13f73649a6",
+            "text": "4"
+          },
+          {
+            "id": "1d779f5c-ca98-4ec0-ac47-78894f0c049b",
+            "text": "1"
+          }
+        ],
+        "correctAnswerId": "db4eb822-a3cf-4a45-9e77-0e13f73649a6"
+      },
+      {
+        "id": "d31cd625-3871-4f0a-ae63-871daa6aab1b",
+        "question": "Dịch vụ điện toán đám mây nào không phải do Google cung cấp?",
+        "answers": [
+          {
+            "id": "fb0a5a1c-2cb0-41df-9cb4-2cc5fc0ac0ed",
+            "text": "Dropbox"
+          },
+          {
+            "id": "3aef23d2-b5aa-4b8d-8178-ba224fc70502",
+            "text": "Chrome"
+          },
+          {
+            "id": "ea622bca-f19c-443e-94dd-815a97433fca",
+            "text": "OneDrive"
+          },
+          {
+            "id": "521501bb-ae80-468c-a8b1-8d4fbbcc269d",
+            "text": "Youtube"
+          }
+        ],
+        "correctAnswerId": "ea622bca-f19c-443e-94dd-815a97433fca"
+      },
+      {
+        "id": "408f18c5-2f48-475a-a0f4-8d3632e64408",
+        "question": "Điều nào sau đây không phải là lơi thế của điện toán đám mây?",
+        "answers": [
+          {
+            "id": "c176659c-8e96-4474-bfb9-70478ea325c4",
+            "text": "Duy trì một mạng lưới điện toán đám mây là dễ dàng."
+          },
+          {
+            "id": "800cdf6a-6c6d-4b39-b5ca-d327578723b8",
+            "text": "Không bận tâm đến không gian lưu trữ dữ liệu."
+          },
+          {
+            "id": "ec086d39-8beb-4f99-ae53-4cd74570d44f",
+            "text": "Truy cập trực tuyến vào các tài nguyên mạng."
+          },
+          {
+            "id": "15fd25cf-66ef-469b-8609-79ca025dff3f",
+            "text": "Chỉ trả tiền cho những gì mình sử dụng."
+          }
+        ],
+        "correctAnswerId": "800cdf6a-6c6d-4b39-b5ca-d327578723b8"
+      },
+      {
+        "id": "bc9652df-f1d1-4e69-887f-67e968b9de32",
+        "question": "Google là công ty máy tính cung cấp dịch vụ triển khai mô hình điện toán đám mây nào?",
+        "answers": [
+          {
+            "id": "a0cd166c-70ac-495c-b5d2-612fc627d663",
+            "text": "Private cloud."
+          },
+          {
+            "id": "5beac18f-5e0f-485d-9b91-802b720db68f",
+            "text": "Public cloud."
+          },
+          {
+            "id": "f720ab4b-6bfb-4d5e-81d1-bbea5e41a810",
+            "text": "Hybrid cloud."
+          },
+          {
+            "id": "dbde836c-9f9d-4db7-97b4-425ee271c724",
+            "text": "Public cloud và Private cloud."
+          }
+        ],
+        "correctAnswerId": "5beac18f-5e0f-485d-9b91-802b720db68f"
+      },
+      {
+        "id": "e15287db-7a05-4d23-9a69-68cb1356514f",
+        "question": "VPS là gì?",
+        "answers": [
+          {
+            "id": "5554a224-52fe-4e23-8b26-dfbd102f132e",
+            "text": "Virtual pet site."
+          },
+          {
+            "id": "521278fb-aa8b-4e3c-bb72-80e128d9d919",
+            "text": "Video programming System."
+          },
+          {
+            "id": "626ac093-2822-44c3-bada-83dbe1b764f4",
+            "text": "Vietnamese professinals Society."
+          },
+          {
+            "id": "7d4f10c5-36ee-4f51-847f-ec4b9b19854b",
+            "text": "Virtual private server."
+          }
+        ],
+        "correctAnswerId": "7d4f10c5-36ee-4f51-847f-ec4b9b19854b"
+      },
+      {
+        "id": "b168cfa0-00be-4e25-ae07-c36fc3b3256c",
+        "question": "Dịch vụ đám mây Google Computer Engine và Cloud SDK để thao tác với loại dịch vụ nào?",
+        "answers": [
+          {
+            "id": "e7703f9b-b69d-4580-a007-dcb193dfdfb4",
+            "text": "Software-as-a-Service."
+          },
+          {
+            "id": "b91f1ec9-bf2c-4586-99df-ce56d9d6f99a",
+            "text": "Infrastructure-as-a-Service."
+          },
+          {
+            "id": "9420a27d-8698-4a92-8dca-87c6bfe7e666",
+            "text": "Không có đáp án đúng."
+          },
+          {
+            "id": "53f7c164-b924-42cc-a262-612a96c9372a",
+            "text": "Platform-as-a-Service."
+          }
+        ],
+        "correctAnswerId": "b91f1ec9-bf2c-4586-99df-ce56d9d6f99a"
+      },
+      {
+        "id": "c0a35388-87cf-40eb-8607-e70eca5cceef",
+        "question": "Kiểu dịch vụ Service optimization của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "7388863f-1008-4e6f-9987-c09be8c34772",
+            "text": "network, storage, and server virtualization"
+          },
+          {
+            "id": "f01bf297-a054-42a5-8e8b-71371416fea8",
+            "text": "large-scale distributed file system, database, middleware"
+          },
+          {
+            "id": "49bf9c33-4704-4a13-8b04-e18b5f926a5b",
+            "text": "multi-tenancy"
+          },
+          {
+            "id": "833e8829-ba46-4705-b236-766c6ac54b53",
+            "text": "multi-tenancy, network, storage"
+          }
+        ],
+        "correctAnswerId": "7388863f-1008-4e6f-9987-c09be8c34772"
+      },
+      {
+        "id": "74821b78-b35c-4d67-9d03-9352f87e0725",
+        "question": "Câu số 77 : Khi một công ty muốn phân phối sản phẩm theo mô hình SaaS thì cần tổ chức nó thế nào?",
+        "answers": [
+          {
+            "id": "7411f984-a6f1-40c6-aa28-27ad1250aad2",
+            "text": "Thanh toán theo thuê bao"
+          },
+          {
+            "id": "683296c9-5a08-485e-aec8-e662e3168079",
+            "text": "Kiến trúc chia sẻ cho nhiều người dùng (multi-tenant)"
+          },
+          {
+            "id": "0200302d-d7d0-424c-a1f8-695ff2d3fcf7",
+            "text": "Là tất cả các lý do khác"
+          },
+          {
+            "id": "d959856a-31ce-4b24-9152-9c17bb70e78e",
+            "text": "Truy cập qua Internet."
+          }
+        ],
+        "correctAnswerId": "0200302d-d7d0-424c-a1f8-695ff2d3fcf7"
+      },
+      {
+        "id": "8175dc43-2866-4d75-aab0-f5be525c77b7",
+        "question": "Kiểu dịch vụ Service optimization của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "6c0c7fef-346a-49ec-a3c8-28d5a9913910",
+            "text": "multi-tenancy"
+          },
+          {
+            "id": "0cd0afbd-2259-4dc5-a8a8-803f969180f9",
+            "text": "network, storage, and server virtualization"
+          },
+          {
+            "id": "6863679e-5feb-4332-be39-fc8411a9537a",
+            "text": "large-scale distributed file system, database, middleware"
+          },
+          {
+            "id": "2568b607-02b7-42f8-872c-6ab5a0c48fca",
+            "text": "multi-tenancy, network, storage"
+          }
+        ],
+        "correctAnswerId": "6863679e-5feb-4332-be39-fc8411a9537a"
+      },
+      {
+        "id": "919a1579-9a2f-4cdb-8afa-1cf98ee222c3",
+        "question": "Một công ty cung cấp các dịch vụ điện toán đám mây là một môi trường, sao cho khách hàng xây dựng ứng dụng trên đó. Vậy, các dịch vụ của công ty thuộc loại mô hình nào?",
+        "answers": [
+          {
+            "id": "d1f8031a-975a-4e48-9e71-5b880e618c2f",
+            "text": "Platform as a Service"
+          },
+          {
+            "id": "0b75ba3c-5b6c-48d2-8552-242a7cc7bd0d",
+            "text": "Softwareas a Service"
+          },
+          {
+            "id": "b1bbe410-c4a6-4f88-9634-323bc2ef30e6",
+            "text": "Infrastructure as a Service"
+          },
+          {
+            "id": "aa6f3df5-8a1a-43a6-a649-c18c299dff62",
+            "text": "Computing as a Service"
+          }
+        ],
+        "correctAnswerId": "b1bbe410-c4a6-4f88-9634-323bc2ef30e6"
+      },
+      {
+        "id": "68a069f7-5d55-446c-b052-17a0fafa343f",
+        "question": "Kiến trúc service oriented architecture là kiến trúc gì?",
+        "answers": [
+          {
+            "id": "d499d0d7-82bb-449d-a937-3f1471e5b947",
+            "text": "Kiến trúc hơớng theo định hơớng duy nhất"
+          },
+          {
+            "id": "270ac78c-0fb5-4942-96e8-0712f924740a",
+            "text": "Kiến trúc hơớng đối tơợng"
+          },
+          {
+            "id": "e1c77420-025a-41a0-9fd6-824d8d63df46",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "da03eb97-a836-4517-bdf7-cd262e379ac5",
+            "text": "Kiến trúc đa tác vụ"
+          }
+        ],
+        "correctAnswerId": "e1c77420-025a-41a0-9fd6-824d8d63df46"
+      },
+      {
+        "id": "afc1f9fd-5508-4237-bfb2-0010c94e2d2d",
+        "question": "Hybrid cloud là gì?",
+        "answers": [
+          {
+            "id": "d03548e2-cd48-49fd-911b-18e409bd51d4",
+            "text": "Là hệ thống mạng internet trong điện toán đám mây"
+          },
+          {
+            "id": "f1a20c18-af0f-4f46-9a13-f7a618584594",
+            "text": "Là hệ thống mạng nội bộ của một tổ chức x hội có kết nối mạng toàn cầu."
+          },
+          {
+            "id": "f012e09a-e593-43d0-b043-dbd31ee3cf46",
+            "text": "Là một mô hình triển khai điện toán đám mây."
+          },
+          {
+            "id": "935aeb3c-3b8a-473e-9d08-a05df1d45394",
+            "text": "Là hệ thống mạng cộng đồng."
+          }
+        ],
+        "correctAnswerId": "f012e09a-e593-43d0-b043-dbd31ee3cf46"
+      },
+      {
+        "id": "5a299eeb-93be-4d23-a7cc-d7c13411a3a6",
+        "question": "Một công ty cần cung cấp dịch vụ sử dụng các thiết bị đa dạng công nghệ thông tin cho khách hàng trên toàn thế giới. Thuộc tính nào của điện toán đám mây có thể giúp công ty thực hiện công việc này?",
+        "answers": [
+          {
+            "id": "26df485b-700f-4485-adf3-b9c77cd5101c",
+            "text": "Phổ biến rộng rãi"
+          },
+          {
+            "id": "e6873570-ebb6-40fe-bcf8-f1ca25f1a47c",
+            "text": "Giá cả linh hoạt"
+          },
+          {
+            "id": "2022f59c-a7ce-41ba-93f8-f8d4da397994",
+            "text": "Theo cấu trúc phát triển của phần mềm ứng dụng"
+          },
+          {
+            "id": "7e16ba56-c738-4a0f-9a95-c74460288214",
+            "text": "Theo cấu trúc mở rộng máy chủ"
+          }
+        ],
+        "correctAnswerId": "2022f59c-a7ce-41ba-93f8-f8d4da397994"
+      },
+      {
+        "id": "d53bbaf2-bde2-4b6c-a11f-3cfbbce34794",
+        "question": "Mô tả nào là đúng về dịch vụ Paltform as a Service của điện toán đám mây",
+        "answers": [
+          {
+            "id": "a79360e6-fcb0-4889-a45e-15c9d3eebe13",
+            "text": "Cung cấp một môi trường để các ứng dụng có thể chạy được và bao gồm một tập các dịch vụ cơ bản như bộ nhớ ngoài và cơ sở dữ liệu"
+          },
+          {
+            "id": "6d76a434-d745-4f7e-bdda-10aed3afbb0d",
+            "text": "Cung cấp các nền tảng để người dùng có thể tạo được máy tính ảo và lưu trữ ảo"
+          },
+          {
+            "id": "52a3e824-f2ac-4e40-b0b9-93c915651f7b",
+            "text": "Cung cấp các dịch vụ hạ tầng để người dùng có thể chạy các ứng dụng trên đó"
+          },
+          {
+            "id": "24520753-830f-49f5-8860-42b8ae4634c8",
+            "text": "Cung cấp các dịch vụ hạ tầng để cho các ứng dụng web có thể chạy được"
+          }
+        ],
+        "correctAnswerId": "52a3e824-f2ac-4e40-b0b9-93c915651f7b"
+      },
+      {
+        "id": "d56306d2-6bb8-40ce-8c87-a1e232555960",
+        "question": "Năm 2008, Hãng IBM có khách hàng đầu tiên tại việt nam là Công ty nào?",
+        "answers": [
+          {
+            "id": "649ae3cb-40bb-4f21-8ec4-ad562f9db001",
+            "text": "Viettel IDC"
+          },
+          {
+            "id": "22d0fceb-095c-4e0c-90c7-0110faa35ed5",
+            "text": "VNPT"
+          },
+          {
+            "id": "45a2500b-97d7-4be0-8e98-fa34d2d002e6",
+            "text": "FPT"
+          },
+          {
+            "id": "f461ea43-b77b-42e1-88b8-00645eafebd0",
+            "text": "VNTT"
+          }
+        ],
+        "correctAnswerId": "f461ea43-b77b-42e1-88b8-00645eafebd0"
+      },
+      {
+        "id": "86edf714-35eb-432b-bb8c-44fb0d38e097",
+        "question": "Dịch vụ Google drive có phải là một dạng của điện toán đám mây",
+        "answers": [
+          {
+            "id": "a742b006-5f62-4bf0-a4c3-fc8f5ecbb011",
+            "text": "Sai"
+          },
+          {
+            "id": "826453f4-b2fa-4234-adef-dc6a3e92b1b4",
+            "text": "Đúng"
+          },
+          {
+            "id": "f80aa190-1bae-44eb-897d-121b4d375db9",
+            "text": "Không chọn đáp án này."
+          }
+        ],
+        "correctAnswerId": "826453f4-b2fa-4234-adef-dc6a3e92b1b4"
+      },
+      {
+        "id": "dbdaecf1-4d12-447e-99de-d4b5d2bb1e26",
+        "question": "Các dịch vụ theo mô hình Saas đóng góp phần nào trong đám mây lai – Hybird Cloud",
+        "answers": [
+          {
+            "id": "e2dc69ed-3f06-4d0a-a6f3-b19785ce539c",
+            "text": "Cung cấp giải pháp hệ thống"
+          },
+          {
+            "id": "0c78951e-eb22-4156-a39c-cc5c8ea93088",
+            "text": "Phần mềm ứng dụng trên đám mây"
+          },
+          {
+            "id": "95907bec-9fc1-4709-8e22-8304f0332674",
+            "text": "Nền tảng hệ thống"
+          },
+          {
+            "id": "b600f45f-b045-4cc8-992c-0430ff8dd994",
+            "text": "Tối ưu hoá quản lý phần cứng"
+          }
+        ],
+        "correctAnswerId": "0c78951e-eb22-4156-a39c-cc5c8ea93088"
+      },
+      {
+        "id": "bd3cdb2b-bf84-4c50-8a85-59678cb68e57",
+        "question": "Kiểu dịch vụ security của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "d12d0b46-c05d-4141-b5df-d5c7dd17563c",
+            "text": "load balance"
+          },
+          {
+            "id": "28663052-61a5-4a9f-89ed-1db3dc11851f",
+            "text": "storage encryption and isolation, VM isolation, VLAN, SSL/SSH"
+          },
+          {
+            "id": "de863596-7ea5-48a1-b263-738da6c29cf1",
+            "text": "data isolation, operating environment isolation, SSI, Web authentication and authorization"
+          },
+          {
+            "id": "ad128b28-27c8-442a-8608-3ce889ba8d65",
+            "text": "data isolation, operating environment isolation, SSL"
+          }
+        ],
+        "correctAnswerId": "ad128b28-27c8-442a-8608-3ce889ba8d65"
+      },
+      {
+        "id": "4a6479e9-568e-46d8-845a-057bb6c6f727",
+        "question": "Các bước tạo máy chủ ảo Google Engine thứ tự như thế nào?",
+        "answers": [
+          {
+            "id": "d778e8cf-9eb5-4ef7-ae31-675c96696035",
+            "text": "VM instances/ Computer engine/new instances / config VM"
+          },
+          {
+            "id": "bd4485e3-eab5-40cd-9206-8c69bb5c55ea",
+            "text": "Config VM/ Computer engine/VM instances/new instances"
+          },
+          {
+            "id": "95bc8e36-8056-4609-b8b8-3e2b26c70a41",
+            "text": "Computer engine/VM instances/new instances / config VM"
+          },
+          {
+            "id": "f2e1caba-acd1-455d-9fad-a7834e47218f",
+            "text": "Computer engine/VM instances/ config VM /new instances"
+          }
+        ],
+        "correctAnswerId": "95bc8e36-8056-4609-b8b8-3e2b26c70a41"
+      },
+      {
+        "id": "e9417c3a-9b2a-4857-aa12-5dc160deda1b",
+        "question": "Khó khăn khi triển khai sử dụng SaaS ở các doanh nghiệp?",
+        "answers": [
+          {
+            "id": "df0039bd-80ea-4480-ba12-96c5a2f460b2",
+            "text": "Hệ thống cũ đang hoạt động"
+          },
+          {
+            "id": "e0103693-17c1-4b51-a2ed-7fc71cfdd8fd",
+            "text": "An ninh thông tin"
+          },
+          {
+            "id": "86c311c1-e95c-43ec-a794-30d585ff7eab",
+            "text": "Tất cả"
+          },
+          {
+            "id": "ead06ebc-3a40-4b02-960f-ba178f1ea396",
+            "text": "Thói quen người dùng"
+          }
+        ],
+        "correctAnswerId": "86c311c1-e95c-43ec-a794-30d585ff7eab"
+      },
+      {
+        "id": "72d0e1db-27a1-4dd0-8a9a-ac742e9b6f3f",
+        "question": "Private Cloud là mô hình dịch vụ điện toán đám mây được xây dựng để phục vụ cho?",
+        "answers": [
+          {
+            "id": "ea194f15-28c9-4943-aa2d-b8ad4e7a434f",
+            "text": "Riêng cho một cộng đồng nào đó."
+          },
+          {
+            "id": "2a5a7cda-45e5-415d-8131-2de3793b63fe",
+            "text": "Nội bộ một tổ chức xã hội."
+          },
+          {
+            "id": "df8cdbbe-1725-46fb-89f1-dcb1c4b7cf39",
+            "text": "Công cộng."
+          },
+          {
+            "id": "8164fe6f-4d71-4b75-843c-d2dd25f2522a",
+            "text": "Nền tảng điện toán đám mây."
+          }
+        ],
+        "correctAnswerId": "2a5a7cda-45e5-415d-8131-2de3793b63fe"
+      },
+      {
+        "id": "e5eabd88-5e77-4709-b056-629d648b05db",
+        "question": "Thuật ngữ Rapid Service trong điện toán đám mây được hiểu như thế nào?",
+        "answers": [
+          {
+            "id": "5da3eebc-4e44-4bd6-a3c0-73e7b0354dab",
+            "text": "Là dịch vụ đáp ứng nhanh theo nhu cầu người dùng."
+          },
+          {
+            "id": "febc7152-76f7-47e4-b27a-6f06e771a352",
+            "text": "Là dịch vụ chia sẻ ứng dụng cho nhiều người dùng."
+          },
+          {
+            "id": "6873cb1a-57eb-40c8-8d4d-1bb764dc8400",
+            "text": "Là dịch vụ sử dụng được truy cập qua Internet."
+          },
+          {
+            "id": "a482ea4d-89ae-4453-b2a4-9568f3bc3570",
+            "text": "Là dịch vụ bảo mật ứng dụng trên điện toán đám mây"
+          }
+        ],
+        "correctAnswerId": "a482ea4d-89ae-4453-b2a4-9568f3bc3570"
+      },
+      {
+        "id": "437c52c1-b298-4ac8-93b9-409b578a7b03",
+        "question": "Đám mây công cộng cung cấp những dịch vụ nào .",
+        "answers": [
+          {
+            "id": "8c3d69c7-0cb1-4d67-8922-cbd401c7a659",
+            "text": "Infrastructure-as-a-Service."
+          },
+          {
+            "id": "e7244237-9116-4652-9484-9965f9289fcf",
+            "text": "Infrastructure-as-a-Service và Software-as-a-Service"
+          },
+          {
+            "id": "f59d1fd6-1fd5-430f-b0cc-48594db98eb2",
+            "text": "Infrastructure-as-a-Service, Platform-as-a-Service và Software-as-a-Service"
+          },
+          {
+            "id": "400c3398-dc60-4384-808c-19859d909634",
+            "text": "Platform-as-a-Service và Software-as-a-Service"
+          }
+        ],
+        "correctAnswerId": "f59d1fd6-1fd5-430f-b0cc-48594db98eb2"
+      },
+      {
+        "id": "f8c15d9f-7eb4-472e-85a3-44f0d237ac82",
+        "question": "Dịch vụ lưu trữ đám mây OneDrive là sản phẩm của công ty nào?",
+        "answers": [
+          {
+            "id": "72ab5961-f812-4cce-8d80-a15301661b65",
+            "text": "Microsoft"
+          },
+          {
+            "id": "5064ad95-c28b-41a6-b9ea-d8c403014c54",
+            "text": "Amazon"
+          },
+          {
+            "id": "4f025049-e286-4963-b9b8-e2f8cc1acee0",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "231b50c1-5553-4e20-a3fa-21800c675510",
+            "text": "Google"
+          }
+        ],
+        "correctAnswerId": "72ab5961-f812-4cce-8d80-a15301661b65"
+      },
+      {
+        "id": "dc79f72c-695a-4976-8d3c-8730d8bbdc1f",
+        "question": "Nền tảng nào không phải là nền tảng của điện toán đám mây?",
+        "answers": [
+          {
+            "id": "440d1d38-a28d-49ec-a019-2de5d3f8325b",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "2a11778b-e3ad-4ea7-b977-d64025a4576a",
+            "text": "Amazone Webservice"
+          },
+          {
+            "id": "fe5116ff-f932-42b6-8fec-97e5bdc0bf2a",
+            "text": "Facebook"
+          },
+          {
+            "id": "9ec34b5c-546c-4028-b176-a00674b799c7",
+            "text": "Windows Azure"
+          }
+        ],
+        "correctAnswerId": "440d1d38-a28d-49ec-a019-2de5d3f8325b"
+      },
+      {
+        "id": "1c6bc94b-9691-449c-8082-4be608879a8e",
+        "question": "Tính năng nào không được google hỗ trợ cho một máy chủ ảo?",
+        "answers": [
+          {
+            "id": "78c6aa2f-a8d9-4cff-8972-4a5f6f9a85af",
+            "text": "Metadata"
+          },
+          {
+            "id": "eea0f907-904f-45b9-ba24-7bcfe81697a1",
+            "text": "Image"
+          },
+          {
+            "id": "8273cb4f-1104-48dd-828d-f8cc8038299b",
+            "text": "e-mail"
+          },
+          {
+            "id": "468d0a57-a60b-4405-be1d-bea3ec7d79c5",
+            "text": "Quotas"
+          }
+        ],
+        "correctAnswerId": "8273cb4f-1104-48dd-828d-f8cc8038299b"
+      },
+      {
+        "id": "2c547e48-1e01-41e9-ad9f-e80a092b70a3",
+        "question": "Hình thức được sử dụng nhiều nhất trong điện toán đám mây là?",
+        "answers": [
+          {
+            "id": "e6aa3599-8ab8-4ef2-b17f-f0ac45633366",
+            "text": "Nền tảng như một dịch vụ (PaaS)"
+          },
+          {
+            "id": "ac116e26-1c2a-4efb-b28a-a79955317c18",
+            "text": "Cơ sở hạ tầng như một dịch vụ (IaaS)"
+          },
+          {
+            "id": "884a9fa6-17e4-4acf-9321-7a7e96899e40",
+            "text": "SaaS"
+          },
+          {
+            "id": "948840bd-345c-496a-a277-4d62ea76271c",
+            "text": "Dữ liệu như một dịch vụ (DAAS)"
+          }
+        ],
+        "correctAnswerId": "884a9fa6-17e4-4acf-9321-7a7e96899e40"
+      },
+      {
+        "id": "26d03da2-9def-460e-9144-efffebe40014",
+        "question": "Thứ tự đúng của mô hình điện toán máy chủ ảo?",
+        "answers": [
+          {
+            "id": "d98d061d-69b0-467f-9e74-04d1f3495a4c",
+            "text": "Client – Application– Infrastructure –Server – Platform."
+          },
+          {
+            "id": "403fb266-f050-48eb-b999-331a07bd2678",
+            "text": "Client – Platform – Application– Infrastructure –Server."
+          },
+          {
+            "id": "4fd76eac-a78a-4c0c-b0c9-a12d2b951704",
+            "text": "Client – Infrastructure – Platform –Application –Server."
+          },
+          {
+            "id": "da1c5b92-4466-4a3c-9d43-f639111bc310",
+            "text": "Client – Application– Platform – Infrastructure –Server."
+          }
+        ],
+        "correctAnswerId": "da1c5b92-4466-4a3c-9d43-f639111bc310"
+      },
+      {
+        "id": "556924bb-12a0-417d-b55c-812f055550aa",
+        "question": "Kiểu dịch vụ Service measurement của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "42d75c0a-ad42-4ccb-b2c6-f261fcbb642d",
+            "text": "logic resource usage metering"
+          },
+          {
+            "id": "e8d827fe-5968-4199-85d1-766687bc4176",
+            "text": "physical resource metering"
+          },
+          {
+            "id": "b610ca6b-e2bf-4fe7-94e4-d1cabeca5f3a",
+            "text": "application usage metering"
+          },
+          {
+            "id": "5f2d5253-5b0b-42ea-9e30-e85524316efe",
+            "text": "network, storage, and server virtualization"
+          }
+        ],
+        "correctAnswerId": "b610ca6b-e2bf-4fe7-94e4-d1cabeca5f3a"
+      },
+      {
+        "id": "0ecfecec-c683-45f3-9638-9dd64388eda5",
+        "question": "Công nghệ điện toán đám mây được dùng để thay thế cho",
+        "answers": [
+          {
+            "id": "092c6065-c950-4cdd-87f9-e9fd4539ebac",
+            "text": "Các máy tính có cấu hình cao, đắt tiền."
+          },
+          {
+            "id": "4ad44127-e904-45fd-bbc6-34a953d6e8d8",
+            "text": "Trung tâm dữ liệu tập trung"
+          },
+          {
+            "id": "735e9f9a-85db-482b-b29d-13d6ece417d6",
+            "text": "Tất cả các đám án khác đều đúng."
+          },
+          {
+            "id": "f1ae01e7-37c2-4764-9537-9bcff083bb9c",
+            "text": "Các hệ thống phần mềm nâng cấp thường xuyên"
+          }
+        ],
+        "correctAnswerId": "735e9f9a-85db-482b-b29d-13d6ece417d6"
+      },
+      {
+        "id": "ae76da64-d0fb-40f7-959d-7805c72febb3",
+        "question": "Muốn triển khai xây dựng mô hình điện toán đám mây riêng Private cloud thì lựa chọn mô hình của nhà cung cấp nào",
+        "answers": [
+          {
+            "id": "97617355-2ffb-41f9-8a17-e4f46eed2fd6",
+            "text": "IBM."
+          },
+          {
+            "id": "e85e448a-b475-4f65-9f6e-15f57e3143ab",
+            "text": "Microsoft."
+          },
+          {
+            "id": "a0dd36c8-41f3-46fa-8980-6219756aed82",
+            "text": "VMware."
+          },
+          {
+            "id": "9c300ccb-cb86-4642-baf7-a5c64bc7fce8",
+            "text": "IBM, VMware, Microsoft."
+          }
+        ],
+        "correctAnswerId": "9c300ccb-cb86-4642-baf7-a5c64bc7fce8"
+      },
+      {
+        "id": "ec46a757-a7bb-400e-bbf0-b75fd7b9e66d",
+        "question": "App Engine PHP SDK của hãng nào?",
+        "answers": [
+          {
+            "id": "e18732b0-92c7-4bdc-8041-fa7a57ed908c",
+            "text": "Google."
+          },
+          {
+            "id": "66c43e0f-ea1b-482c-ba67-4c9a5fcc66aa",
+            "text": "Amazon."
+          },
+          {
+            "id": "1508b0ba-15a2-4f6a-8b22-80dd0139ae16",
+            "text": "Oracle."
+          },
+          {
+            "id": "74b47fe7-ba4c-4c01-b201-78241ea5d4b5",
+            "text": "IBM."
+          }
+        ],
+        "correctAnswerId": "e18732b0-92c7-4bdc-8041-fa7a57ed908c"
+      },
+      {
+        "id": "c1108d1b-b526-4d2a-80fb-0a15c1741422",
+        "question": "Google App Engine có bao nhiêu thành phần chính?",
+        "answers": [
+          {
+            "id": "9e37d4a1-7299-40cc-b28e-c085b627087a",
+            "text": "5"
+          },
+          {
+            "id": "282c1a76-7675-42f9-98cb-ab72ba146913",
+            "text": "7"
+          },
+          {
+            "id": "a1c95518-8424-43b9-bfaf-2513a5836f2b",
+            "text": "6"
+          },
+          {
+            "id": "6834dec4-737e-4050-93f1-37c1b7f80b03",
+            "text": "8"
+          }
+        ],
+        "correctAnswerId": "a1c95518-8424-43b9-bfaf-2513a5836f2b"
+      },
+      {
+        "id": "07540704-65bd-487c-bb20-1a5895b290ba",
+        "question": "Mô hình đám mây nào thích hợp với doanh nghiệp?",
+        "answers": [
+          {
+            "id": "77c1858d-99a7-4ccb-b5f3-ff2e2a8cc4d4",
+            "text": "Đám mây cộng đồng."
+          },
+          {
+            "id": "a93a82e3-f0b5-4f86-8e58-25e1e263a166",
+            "text": "Đám mây công cộng."
+          },
+          {
+            "id": "2ea72bca-4762-42f2-b90f-6b5c5866178f",
+            "text": "Đám mây riêng."
+          },
+          {
+            "id": "9ecea37b-3485-4240-b4d7-96257f44bd52",
+            "text": "Đám mây lai."
+          }
+        ],
+        "correctAnswerId": "2ea72bca-4762-42f2-b90f-6b5c5866178f"
+      },
+      {
+        "id": "68d48214-2d5b-449e-9e36-dddc32e8201e",
+        "question": "Kiểu dịch vụ Service measurement của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "0206bfe2-6812-4620-993c-0a0b045546a6",
+            "text": "physical resource metering"
+          },
+          {
+            "id": "d31c8be6-46b5-40ce-bf6c-f59c4540ab7a",
+            "text": "logic resource usage metering"
+          },
+          {
+            "id": "36b8ab25-8ccb-415b-a8a9-9120cfb734f1",
+            "text": "application usage metering"
+          },
+          {
+            "id": "090bbf6c-3a8e-4827-8052-4b79520636ed",
+            "text": "network, storage, and server virtualization"
+          }
+        ],
+        "correctAnswerId": "d31c8be6-46b5-40ce-bf6c-f59c4540ab7a"
+      },
+      {
+        "id": "4b8c053c-9594-4d4b-aa07-287417ef51ce",
+        "question": "Dịch vụ nào sau đây không phải là một dạng của điện toán đám mây.",
+        "answers": [
+          {
+            "id": "01f44eb2-f07c-49e9-9390-c6d11a7f95e8",
+            "text": "Platform as a Service."
+          },
+          {
+            "id": "c8961ae1-fda9-48ec-a8f2-6621c6973e5c",
+            "text": "Hardware as a Service."
+          },
+          {
+            "id": "90de3b17-4849-483d-9534-ce0aa50f5e22",
+            "text": "Infrastructure as a Service."
+          },
+          {
+            "id": "5cf3f8ad-7683-40df-a2f2-4498a3d6d14c",
+            "text": "Software as Service."
+          }
+        ],
+        "correctAnswerId": "c8961ae1-fda9-48ec-a8f2-6621c6973e5c"
+      },
+      {
+        "id": "07fd4c24-1c09-466c-bb29-331792b799e0",
+        "question": "Ngơời sử dụng phải tự xây dựng mấy phần nếu thuê dịch vụ IaaS?",
+        "answers": [
+          {
+            "id": "3161758e-cd2d-41b9-b4b0-e22d65fbeda6",
+            "text": "1"
+          },
+          {
+            "id": "4261a15e-7ec5-40b5-a877-87642b7b3d22",
+            "text": "4"
+          },
+          {
+            "id": "df4eabfe-2faa-43be-9974-81370b9ccd06",
+            "text": "2"
+          },
+          {
+            "id": "7df4d826-34cb-46e4-9c28-08004ef54e71",
+            "text": "3"
+          }
+        ],
+        "correctAnswerId": "7df4d826-34cb-46e4-9c28-08004ef54e71"
+      },
+      {
+        "id": "b00bf13a-9521-4981-a4eb-4dfebe0cda6a",
+        "question": "Một tổ chức quyết định sử dụng SaaS khi cần?",
+        "answers": [
+          {
+            "id": "57c0ec16-62a4-4cd3-803f-b89364d9ea7a",
+            "text": "Tất cả các lý do khác"
+          },
+          {
+            "id": "7721369b-73c8-46ef-8984-5bf9838e1728",
+            "text": "Kinh doanh phần mềm"
+          },
+          {
+            "id": "db67755a-0139-4656-9bcb-5878624364a5",
+            "text": "Giá cả"
+          },
+          {
+            "id": "3c55a7fa-abc6-42d1-8a96-4137eb642037",
+            "text": "Bảo trì."
+          }
+        ],
+        "correctAnswerId": "57c0ec16-62a4-4cd3-803f-b89364d9ea7a"
+      },
+      {
+        "id": "1fd0f6bf-8590-4c49-b52b-88beda41f348",
+        "question": "Khi nào thì lựa chọn dịch vụ đám mây công cộng ( public cloud)?",
+        "answers": [
+          {
+            "id": "90ebeefc-30d3-450d-bb5b-d58dad2ea03e",
+            "text": "Người dùng có các ứng dụng Infrastructure-as-a-Service từ một nhà cung cấp có chiến lượng an ninh thực hiện tốt."
+          },
+          {
+            "id": "628050d2-a599-4f65-a127-0736cf6ba897",
+            "text": "Người dùng có các ứng dụng Software-as-a-Service từ một nhà cung cấp có chiến lượng an ninh thực hiện tốt."
+          },
+          {
+            "id": "15145e24-4c1d-496f-b554-d237820332d1",
+            "text": "Cả 3 phương án khác."
+          },
+          {
+            "id": "7cb6e7b6-6442-4524-8505-ea6581ef05a1",
+            "text": "Người dùng có các ứng dụng Platform-as-a-Service từ một nhà cung cấp có chiến lượng an ninh thực hiện tốt."
+          }
+        ],
+        "correctAnswerId": "628050d2-a599-4f65-a127-0736cf6ba897"
+      },
+      {
+        "id": "7c0e4c57-a391-494c-9c93-b92d39c6c878",
+        "question": "Google App Engine được sử dụng để thao tác triển khai loại dịch vụ nào trong điện toán đám mây.",
+        "answers": [
+          {
+            "id": "fd2ace40-aa9d-49cf-89e6-02003976d9b0",
+            "text": "Infrastructure-as-a-Service."
+          },
+          {
+            "id": "9fe89c48-76e7-4f14-acde-46643d856a98",
+            "text": "Tất cả đáp án ."
+          },
+          {
+            "id": "6ba1ad66-f753-48d5-b844-46160cb07424",
+            "text": "Software-as-a-Service."
+          },
+          {
+            "id": "01129883-2890-4dcd-9e12-0dd35842187a",
+            "text": "Platform-as-a-Service."
+          }
+        ],
+        "correctAnswerId": "01129883-2890-4dcd-9e12-0dd35842187a"
+      },
+      {
+        "id": "6226663a-4aa0-404b-a185-1f73f9c99ff0",
+        "question": "Kiểu dịch vụ Service monitoring của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "4ebf991e-fdc1-4fdd-a37b-091838e524fe",
+            "text": "logic resource monitoring"
+          },
+          {
+            "id": "6d985f68-5bf2-44e1-a58a-eab14592d814",
+            "text": "application monitoring"
+          },
+          {
+            "id": "81daee5f-8a74-4c2d-8f88-c6a1201b97e9",
+            "text": "physical resource monitoring"
+          },
+          {
+            "id": "a9725ff3-e6ca-4cc6-a265-212063435cc2",
+            "text": "application monitoring, logic resource monitoring"
+          }
+        ],
+        "correctAnswerId": "6d985f68-5bf2-44e1-a58a-eab14592d814"
+      },
+      {
+        "id": "6f1352c8-dfaa-48cb-8c41-374ff2cc4d13",
+        "question": "Public clouds là gì?",
+        "answers": [
+          {
+            "id": "001b20c3-3da5-4e96-b025-6cf1a5719f85",
+            "text": "Là đám mây được chia sẻ bởi một số tổ chức và hỗ trợ một cộng đồng cụ thể có mối quan tâm chung."
+          },
+          {
+            "id": "404d57b0-a69e-4932-9302-e7e8cced92c1",
+            "text": "Là đám mây được quản lý bởi các công ty lớn chuyên cung cấp các dịch vụ cho cộng đồng."
+          },
+          {
+            "id": "82d4b21b-5d61-4fb8-b604-654715cdce52",
+            "text": "Là đám mây được cung cấp bên trong của một tổ chức x hội."
+          },
+          {
+            "id": "1fb7c245-6ff1-45e3-9828-187fe4e420a8",
+            "text": "Là đám mây công cộng cố gắng cung cấp cho người tiêu dùng các phần tử công nghệ thông tin tốt nhất."
+          }
+        ],
+        "correctAnswerId": "1fb7c245-6ff1-45e3-9828-187fe4e420a8"
+      },
+      {
+        "id": "b7052bbf-2f23-46a3-9594-92562c0551fe",
+        "question": "Dịch vụ nào Google cung cấp miễn phí.",
+        "answers": [
+          {
+            "id": "89684ac7-f1e5-4cbf-ae21-5c49a9b48be7",
+            "text": "Cloud SQL"
+          },
+          {
+            "id": "aee83547-f56c-4e25-9dfc-56a0f42c0565",
+            "text": "Goole drive"
+          },
+          {
+            "id": "89dcc574-62d0-400e-87ed-5b7048d0cca5",
+            "text": "Compute Engine"
+          },
+          {
+            "id": "fc8ffa8b-f286-4cb2-bf66-810bd282d5d0",
+            "text": "PreviewCloud Datastore"
+          }
+        ],
+        "correctAnswerId": "aee83547-f56c-4e25-9dfc-56a0f42c0565"
+      },
+      {
+        "id": "eda344b2-c4dc-4bab-9ec0-32fd5d0994d6",
+        "question": "Software as a Service sử dụng cùng một ứng dụng cho nhiều người dùng (multi-tenant)",
+        "answers": [
+          {
+            "id": "c77172a1-9ef9-43d4-b072-a18bcd379b32",
+            "text": "Không chọn đáp án này."
+          },
+          {
+            "id": "7a85bbfb-27ec-4426-96c3-8b54b1caab42",
+            "text": "Đúng"
+          },
+          {
+            "id": "4014959e-5821-4473-9cb0-4c52e9f50ee6",
+            "text": "Sai."
+          }
+        ],
+        "correctAnswerId": "7a85bbfb-27ec-4426-96c3-8b54b1caab42"
+      },
+      {
+        "id": "4cbe2789-b8de-494b-b5dd-c93f5cd385ae",
+        "question": "Kiểu dịch vụ security của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "2a06ab5f-b03c-4376-93a9-2213c004fec5",
+            "text": "load balance"
+          },
+          {
+            "id": "f83ad5bb-5fea-49d3-aabe-5c638e7b717c",
+            "text": "data isolation, operating environment isolation, SSL"
+          },
+          {
+            "id": "e0b066f7-30f1-4818-806c-8febc89d7fff",
+            "text": "data isolation, operating environment isolation, SSI, Web authentication and authorization"
+          },
+          {
+            "id": "2f103be6-8dec-474a-b68d-ec97f61f36eb",
+            "text": "storage encryption and isolation, VM isolation, VLAN, SSL/SSH"
+          }
+        ],
+        "correctAnswerId": "2f103be6-8dec-474a-b68d-ec97f61f36eb"
+      },
+      {
+        "id": "b5462c4d-7658-49c4-bc25-efca24b5ff71",
+        "question": "Mô hình dịch vụ trong kiến trúc của điện toán đám mây là gì?",
+        "answers": [
+          {
+            "id": "61648d64-6f27-434c-9c6e-694d7f8b2fef",
+            "text": "Software-as-a-Service"
+          },
+          {
+            "id": "4447c2a7-17a1-42bb-9b37-38b50ad5b779",
+            "text": "Platform-as-a-Service"
+          },
+          {
+            "id": "8b6a4fac-3c9d-4b87-b481-c7036e543a8b",
+            "text": "Cả 3 mô hình dịch vụ"
+          },
+          {
+            "id": "aba6f003-3976-499f-821d-7b1948a8d8bd",
+            "text": "Infrastructure-as-a-Service"
+          }
+        ],
+        "correctAnswerId": "8b6a4fac-3c9d-4b87-b481-c7036e543a8b"
+      },
+      {
+        "id": "c1d47786-d093-4671-9faf-d1083ad07668",
+        "question": "Multi-tenancy là một dạng kiến trúc trong SaaS, nó cho phép",
+        "answers": [
+          {
+            "id": "ba866c34-f6bb-40c7-80be-84daed30e312",
+            "text": "Một ứng dụng phần mềm chia sẻ cho nhiều người dùng."
+          },
+          {
+            "id": "412f4c88-b6fd-41c9-8cd7-8d46654a4ba5",
+            "text": "Các doanh nghiệp cùng thuê một tòa nhà."
+          },
+          {
+            "id": "d6445887-b136-47a9-a1fb-3d47f36145e8",
+            "text": "Một ứng dụng phần mềm phục vụ nhiều khách hàng."
+          },
+          {
+            "id": "8d069e84-4a1a-4287-a1e1-02e4a027b67a",
+            "text": "Không chọn đáp án này."
+          }
+        ],
+        "correctAnswerId": "d6445887-b136-47a9-a1fb-3d47f36145e8"
+      },
+      {
+        "id": "9ae05019-8c2f-4073-a6c8-99503d1b4c83",
+        "question": "Phát biểu nào sai về đám mây cộng cộng ?",
+        "answers": [
+          {
+            "id": "fa189bed-7675-4812-82e7-a05be88d89d2",
+            "text": "Là mô hình các dịch vụ đám mây được bên thứ ba cung cấp."
+          },
+          {
+            "id": "0fb34069-bdb9-4c22-b30e-c91b636f2701",
+            "text": "Các đám mây tồn tại ngoài tường lửa của công ty và tổ chức sử dụng."
+          },
+          {
+            "id": "2cd6c8c5-df2c-4d32-be7a-c10d40bb111b",
+            "text": "Đám mây tồn tại bên trong tường lửa của các tổ chức và được tổ chức quản lý trực tiếp."
+          },
+          {
+            "id": "0fed5ad2-bf22-4922-91aa-9c5466ed4427",
+            "text": "Các đám mây được lưu trữ đầy đủ và được nhà cung cấp đám mây quản lý."
+          }
+        ],
+        "correctAnswerId": "2cd6c8c5-df2c-4d32-be7a-c10d40bb111b"
+      },
+      {
+        "id": "27943bf0-d739-4d88-82bb-d9747aad0b80",
+        "question": "Public cloud cung cấp các loại dịch vụ nào",
+        "answers": [
+          {
+            "id": "3d423a07-429d-4122-85e6-a79ec1aea072",
+            "text": "IaaS, SaaS."
+          },
+          {
+            "id": "a7d124e3-b3ac-425b-9f51-37e12cac70ea",
+            "text": "PaaS, SaaS,"
+          },
+          {
+            "id": "d4b10592-1f40-490e-a2ae-ecc17763269b",
+            "text": "IaaS, PaaS,"
+          },
+          {
+            "id": "b6ffecb8-3a60-4b53-9df8-c3c1fb70bc6e",
+            "text": "IaaS, PaaS, SaaS"
+          }
+        ],
+        "correctAnswerId": "b6ffecb8-3a60-4b53-9df8-c3c1fb70bc6e"
+      },
+      {
+        "id": "57610b01-ca24-4425-a4b3-a73b19a1b8e2",
+        "question": "Dịch vụ nào của đám mây Google không phát triển theo mô hình Saas",
+        "answers": [
+          {
+            "id": "5754ec3c-be8f-4074-a148-dbecdd84b818",
+            "text": "Google mail"
+          },
+          {
+            "id": "b6f175cc-c4b4-4151-892f-babd0478d411",
+            "text": "Goolge drive"
+          },
+          {
+            "id": "60e49781-96fc-4040-bbbf-bb69fc6059f9",
+            "text": "Google maps"
+          },
+          {
+            "id": "ea2bc13b-f06d-49b6-8c66-4b99b6237326",
+            "text": "Google App Engine"
+          }
+        ],
+        "correctAnswerId": "ea2bc13b-f06d-49b6-8c66-4b99b6237326"
+      },
+      {
+        "id": "e67535af-864c-4e3d-8129-c56919a11107",
+        "question": "Phát biểu dưới đây đâu là phát biểu sai?",
+        "answers": [
+          {
+            "id": "3e5c0547-bb0c-4480-91a6-e61d1263846e",
+            "text": "Hiện Google App Engine hỗ trợ các ngôn ngữ là:Python, Java, Delphi."
+          },
+          {
+            "id": "7b4763ca-a6c4-4d7d-a4e2-beb082f858be",
+            "text": "Khi sử dụng Google app engine các nhà đầu tư e ngại vì toàn bộ dữ liệu đều nằm trong tay nhà cung cấp dịch vụ."
+          },
+          {
+            "id": "63cb82cf-c26b-4ba6-9987-601e1cc5819d",
+            "text": "Sử dụng google app engine thì phải phụ thuộc hoàn toàn vào dịch vụ của google."
+          },
+          {
+            "id": "dc52c02c-d815-4b0e-8f4e-5aaf8e12e6c6",
+            "text": "App Engine hỗ trợ HTTPS đối với domain con của .appspot.com những vẫn chưa hỗ trợ đối với các domain khác."
+          }
+        ],
+        "correctAnswerId": "3e5c0547-bb0c-4480-91a6-e61d1263846e"
+      },
+      {
+        "id": "7aa3ad78-4a0f-4226-aa12-e9e8fdcc3eed",
+        "question": "Các dịch vụ điện toán đám mây theo mô hình triển khai thực tế Public cloud cho phép",
+        "answers": [
+          {
+            "id": "c3ad8d50-059b-4d60-a74f-ce09378069d9",
+            "text": "Không cho truy cập."
+          },
+          {
+            "id": "dc98dcc6-d63d-4afe-bc68-4a2023cb6759",
+            "text": "Bảo mật truy cập và không phổ biến."
+          },
+          {
+            "id": "78e1db3e-83c7-4393-9561-b1bf1f1a26f2",
+            "text": "Trả tiền cho truy cập."
+          },
+          {
+            "id": "a8486f7f-95a5-4ed4-88e3-704c64c32827",
+            "text": "Miễn phí truy cập và phổ biến"
+          }
+        ],
+        "correctAnswerId": "a8486f7f-95a5-4ed4-88e3-704c64c32827"
+      },
+      {
+        "id": "78427392-057c-4476-8c01-d8c192eeb605",
+        "question": "Nền tảng như một dịch vụ PaaS được phát triển dựa trên nền tảng nào?",
+        "answers": [
+          {
+            "id": "a69a92fa-09d5-476e-bfb8-c145f6bc7b23",
+            "text": "Infrastucture as a Service."
+          },
+          {
+            "id": "db1a55dd-e86f-4646-82c9-bf13b525851e",
+            "text": "Software as a Service."
+          },
+          {
+            "id": "cd1df71f-6eef-4c35-8614-18cbe40a98c0",
+            "text": "Communications as a Service (CaaS)"
+          },
+          {
+            "id": "94fe4c7b-fda8-40c6-8b8e-c2ca3d87af78",
+            "text": "Desktop as a Service (DaaS)."
+          }
+        ],
+        "correctAnswerId": "a69a92fa-09d5-476e-bfb8-c145f6bc7b23"
+      },
+      {
+        "id": "50d81b4b-b9f3-4549-818d-faffc445148f",
+        "question": "Kiểu dịch vụ Service level management của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "802a7caf-37f0-4a42-8f44-80c3f15cb631",
+            "text": "dynamic orchestration of logic resources"
+          },
+          {
+            "id": "5048fc56-c32a-41aa-9c2b-bd329669fa4a",
+            "text": "dynamic orchestration of physical resources"
+          },
+          {
+            "id": "6b779ad2-5c38-4aeb-9cd4-d484c1062133",
+            "text": "dynamic orchestration of applications"
+          },
+          {
+            "id": "2147a334-6ebe-4edb-b0ce-7f5ac0daef3b",
+            "text": "multi-tenancy, network, storage"
+          }
+        ],
+        "correctAnswerId": "5048fc56-c32a-41aa-9c2b-bd329669fa4a"
+      },
+      {
+        "id": "15c71652-5f54-4ecb-b32a-810e4fc0a0f8",
+        "question": "Khi làm quen Google App Engine, Google cung cấp lập trình viên bao nhiêu tài nguyên miễn phí.",
+        "answers": [
+          {
+            "id": "33d72800-830d-4c18-b8a9-08256e36dd98",
+            "text": "500MB"
+          },
+          {
+            "id": "a92bc5be-d0b7-4822-8e69-9dba416162f9",
+            "text": "1GB"
+          },
+          {
+            "id": "06d3ef2e-5080-4203-99a3-9e7fd55e7b53",
+            "text": "250MB"
+          },
+          {
+            "id": "327ef4f9-2b05-45ba-97a6-71e4c8548b91",
+            "text": "100MB"
+          }
+        ],
+        "correctAnswerId": "33d72800-830d-4c18-b8a9-08256e36dd98"
+      },
+      {
+        "id": "5290177b-fd09-4f8c-a092-083cb8ac104f",
+        "question": "Community Cloud là mô hình dịch vụ điện toán đám mây được xây dựng để phục vụ cho?",
+        "answers": [
+          {
+            "id": "e0bba65d-222d-46da-ba90-33f13e385916",
+            "text": "Nội bộ một tổ chức x hội."
+          },
+          {
+            "id": "a12f94b0-ad8e-4ea9-bb34-f9745042afa2",
+            "text": "Riêng cho một cộng đồng nào đó."
+          },
+          {
+            "id": "3f1cbcd2-e036-46fa-a829-7d8ea558082f",
+            "text": "Công cộng."
+          },
+          {
+            "id": "3acf5f97-e801-4b32-888f-bd633f38fa2d",
+            "text": "Nền tảng điện toán đám mây."
+          }
+        ],
+        "correctAnswerId": "a12f94b0-ad8e-4ea9-bb34-f9745042afa2"
+      },
+      {
+        "id": "53ce65d4-c5cd-4896-b060-9193692da238",
+        "question": "Kiểu dịch vụ Service integration and combination của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "7c11a003-070d-4645-a03f-b6f4e0259f91",
+            "text": "SOA, mashup"
+          },
+          {
+            "id": "47f7ddd5-5a50-44ab-aa31-cc00a3fb0698",
+            "text": "load balance"
+          },
+          {
+            "id": "0067d649-70ab-4fb8-a0a7-32e30c77c794",
+            "text": "SOA"
+          },
+          {
+            "id": "3cd95aa4-48e5-4c0e-a84f-7b23b5e200d7",
+            "text": "usage metering"
+          }
+        ],
+        "correctAnswerId": "0067d649-70ab-4fb8-a0a7-32e30c77c794"
+      },
+      {
+        "id": "8bbb6cd1-0ebe-4ec8-8797-a49de73e53c9",
+        "question": "Kiểu dịch vụ Service level management của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "da6d8e0f-4828-4df4-9337-f40eb47ca9c6",
+            "text": "dynamic orchestration of logic resources"
+          },
+          {
+            "id": "8fb6022f-635f-44b5-9227-3d077f3d7d26",
+            "text": "dynamic orchestration of physical resources"
+          },
+          {
+            "id": "44566f8b-47ca-4498-b413-507c998793ef",
+            "text": "dynamic orchestration of applications"
+          },
+          {
+            "id": "9c876de5-f21e-4c8b-816b-0b9267013cc2",
+            "text": "multi-tenancy, network, storage"
+          }
+        ],
+        "correctAnswerId": "44566f8b-47ca-4498-b413-507c998793ef"
+      },
+      {
+        "id": "b2d60bd1-a88d-43e6-9b75-cc7deba5b25e",
+        "question": "Doanh nghiệp triển khai đám mây riêng gặp những khó khăn gì?",
+        "answers": [
+          {
+            "id": "98c38dcd-e86d-46ba-bf56-27a9818a9b54",
+            "text": "Cả 3 đáp án khác."
+          },
+          {
+            "id": "bf55a051-cafa-4edb-9159-77780322495f",
+            "text": "Chi phí hoạt động liên tục của đám mây có thể vượt chi phí sử dụng một đám mây chung."
+          },
+          {
+            "id": "890088d5-04f0-4af3-af4b-8d0dc6375e64",
+            "text": "Trách nhiệp thiết lập và bảo trì đám mây."
+          },
+          {
+            "id": "e8163d04-6d02-474c-9f4e-05895943d1c7",
+            "text": "Chi phí của việc thiết lập đám mây bên trong có thể có chiều hướng găn cản việc sử dụng."
+          }
+        ],
+        "correctAnswerId": "98c38dcd-e86d-46ba-bf56-27a9818a9b54"
+      },
+      {
+        "id": "88de1878-672b-4fbd-9478-795bb178c1fb",
+        "question": "Các phần mềm dịch vụ (SaaS) được cài đặt ở đâu khi sử dụng",
+        "answers": [
+          {
+            "id": "819aec45-f7c7-4e36-9eab-dc064de88789",
+            "text": "Không cần cài đặt, nó được phân phối thông qua mạng"
+          },
+          {
+            "id": "2455f8bf-381d-427d-a0b1-a81acf6f54f3",
+            "text": "Trên thiết bị di động"
+          },
+          {
+            "id": "4bf44a70-389a-4c1b-98bc-b956157b69bf",
+            "text": "Thiết bị nào sử dụng đều phảI cài đặt phần mềm"
+          },
+          {
+            "id": "e24fd9f9-2ff9-40d1-ba04-b2212f81610e",
+            "text": "Trên máy tính"
+          }
+        ],
+        "correctAnswerId": "819aec45-f7c7-4e36-9eab-dc064de88789"
+      },
+      {
+        "id": "cd999988-6415-42cb-b569-7249dab46cab",
+        "question": "Khi sử dụng các dịch vụ của Public cloud khách hàng phải trả tiền cho những dịch vụ nào?",
+        "answers": [
+          {
+            "id": "bb03c058-6a67-4daa-9db1-2afd3f9b6349",
+            "text": "Nhà cung cấp dịch vụ điện toán đám mây."
+          },
+          {
+            "id": "daecf19b-2999-42ee-ab3a-6f70e771632c",
+            "text": "Nhà cung cấp dịch vụ mạng."
+          },
+          {
+            "id": "6bee6fc3-4d41-4136-97b7-3ea526c35451",
+            "text": "Miễn phí."
+          },
+          {
+            "id": "e9ad98a2-c548-4c34-bec2-bb14f48f473c",
+            "text": "Nhà cung cấp dịch vụ mạng và nhà cung cấp dịch vụ điện toán đám mây."
+          }
+        ],
+        "correctAnswerId": "daecf19b-2999-42ee-ab3a-6f70e771632c"
+      },
+      {
+        "id": "005fecd8-a12c-4627-a217-d12f7b9f2523",
+        "question": "Kiểu dịch vụ Service level management của loại PaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "7c22b77e-ccc1-45cb-83e2-5c714180e608",
+            "text": "application usage metering"
+          },
+          {
+            "id": "4f881e02-c67a-4899-8814-811501d6009f",
+            "text": "dynamic orchestration of applications"
+          },
+          {
+            "id": "b0f268d8-313a-43c4-afc3-25964c28df3a",
+            "text": "dynamic orchestration of physical resources"
+          },
+          {
+            "id": "a902bbac-6c7e-4127-b46f-3d64f6e56cac",
+            "text": "dynamic orchestration of logic resources"
+          }
+        ],
+        "correctAnswerId": "a902bbac-6c7e-4127-b46f-3d64f6e56cac"
+      },
+      {
+        "id": "422e779c-a1ba-4ee4-878f-9ca265aa3c9e",
+        "question": "ứng dụng nào sau đây không sử dụng dịch vụ của đám mây?",
+        "answers": [
+          {
+            "id": "a4d16d3e-a615-4402-8861-5ba29217fe6e",
+            "text": "Google doc"
+          },
+          {
+            "id": "5da4f5b5-03b6-4959-a94f-95be8619e59d",
+            "text": "Open office"
+          },
+          {
+            "id": "baeb6692-a86a-4338-87ea-d1b4a827379f",
+            "text": "Google Drive"
+          },
+          {
+            "id": "e67114dc-4083-4b06-b963-f5c04cc39425",
+            "text": "Facebook"
+          }
+        ],
+        "correctAnswerId": "5da4f5b5-03b6-4959-a94f-95be8619e59d"
+      },
+      {
+        "id": "63bb1a72-6161-42d4-b523-2aec212e3ffe",
+        "question": "Hãng Viettel IDC là nhà cung cấp các dịch vụ điện toán đám mây được thành lập vào năm nào?",
+        "answers": [
+          {
+            "id": "03046bea-7b0f-4a6d-b034-35bc1b4c13b4",
+            "text": "2008"
+          },
+          {
+            "id": "aa4e454f-a309-4008-82b6-6ec944d17362",
+            "text": "2009"
+          },
+          {
+            "id": "be1b2cac-9539-4dc9-8733-6bc015eb7146",
+            "text": "2010"
+          },
+          {
+            "id": "297db20f-0fc6-4c71-95fc-5820180b30e4",
+            "text": "2011"
+          }
+        ],
+        "correctAnswerId": "03046bea-7b0f-4a6d-b034-35bc1b4c13b4"
+      },
+      {
+        "id": "0c41c598-ce35-4b60-a60c-04ab2369420d",
+        "question": "Cách gọi khác về điện toán đám mây?",
+        "answers": [
+          {
+            "id": "cb00f8ea-3218-4749-9913-97eb9d0dc088",
+            "text": "Điện toán tự trị"
+          },
+          {
+            "id": "96a5223b-5f6c-4b2c-aee7-b87cbc88552e",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "52e606ae-ed84-4a61-9d34-925032c3b35d",
+            "text": "Điện toán máy chủ thật"
+          },
+          {
+            "id": "a386bd67-f311-4267-bf74-7cbc11706a82",
+            "text": "Điện toán lơới"
+          }
+        ],
+        "correctAnswerId": "96a5223b-5f6c-4b2c-aee7-b87cbc88552e"
+      },
+      {
+        "id": "bd097de1-60db-40db-a74d-4b25e73c986b",
+        "question": "SOA là kiểu kiến trúc, viết tắt của từ gì?",
+        "answers": [
+          {
+            "id": "49b2b52e-889f-4ce0-ae8e-7f5108cb0dd1",
+            "text": "single oriented architecture"
+          },
+          {
+            "id": "5e9c4f37-db25-4fc4-970a-cc9ea265d364",
+            "text": "service oriented a line"
+          },
+          {
+            "id": "209c0aad-f282-4840-94db-fe9b5d2e3721",
+            "text": "service of architecture"
+          },
+          {
+            "id": "f2ae0787-249c-4e9e-bc44-be13f42b2d4d",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "f2ae0787-249c-4e9e-bc44-be13f42b2d4d"
+      },
+      {
+        "id": "7182a469-9b65-480c-9a4d-6737845343f4",
+        "question": "Công ty bạn đạng làm việc kinh doanh bằng cách cho thuê các máy chủ host làm dịch vụ cho web và email, đây là mô hình kinh doanh dựa trên loại dịch vụ nào",
+        "answers": [
+          {
+            "id": "c29ebd46-efee-4399-882a-30b330357b89",
+            "text": "IaaS."
+          },
+          {
+            "id": "96c768cb-38d9-48f9-be2f-ad3b364e5849",
+            "text": "SaaS"
+          },
+          {
+            "id": "6f51c0fe-0f97-445e-b6dc-40b912e324b4",
+            "text": "PaaS."
+          },
+          {
+            "id": "a834d685-2556-4a30-9ab2-c4e614c657cb",
+            "text": "PaaS và IaaS."
+          }
+        ],
+        "correctAnswerId": "c29ebd46-efee-4399-882a-30b330357b89"
+      },
+      {
+        "id": "350d0b7a-ead6-434a-b21b-530bb0470dd1",
+        "question": "Phần mềm như một dịch vụ SaaS được phát triển dựa trên nền tảng nào?",
+        "answers": [
+          {
+            "id": "44665e50-520f-4d05-b828-f39dd3ec69f6",
+            "text": "Infrastucture as a Service."
+          },
+          {
+            "id": "602248bf-bd2b-403f-93b1-0a14aff70b13",
+            "text": "Platform as a Service."
+          },
+          {
+            "id": "e4417468-b9c0-4df5-be73-4a1ca2dd42fc",
+            "text": "Communications as a Service (CaaS)"
+          },
+          {
+            "id": "9a4f27b1-c065-431b-8798-3df22e2f7efd",
+            "text": "Desktop as a Service (DaaS)."
+          }
+        ],
+        "correctAnswerId": "602248bf-bd2b-403f-93b1-0a14aff70b13"
+      },
+      {
+        "id": "b2ea9406-cdc1-4ddf-a372-a4ef061748ae",
+        "question": "Đâu là lợi thế khi sử dụng các phần mềm dịch vụ (SaaS)",
+        "answers": [
+          {
+            "id": "a281a8ab-bf0d-4b21-9415-889afc82c0a5",
+            "text": "Chi phí đầu tư rẻ, cần ít người quản lý"
+          },
+          {
+            "id": "e3bf654f-8c42-4737-b54a-2c6f6616544c",
+            "text": "Không mất chi phí đầu tư phần cứng, chỉ phải mua phần mềm cài đặt"
+          },
+          {
+            "id": "5571384f-d653-4b0e-92ec-28575aaa47f5",
+            "text": "Không mất phí đầu tư hạ tầng và nhân sự quản lý"
+          },
+          {
+            "id": "48c16852-b43f-4f78-b501-6705b02b9155",
+            "text": "Được dùng miễn phí"
+          }
+        ],
+        "correctAnswerId": "5571384f-d653-4b0e-92ec-28575aaa47f5"
+      },
+      {
+        "id": "7307b335-913d-4590-a46d-4705b5bf3b97",
+        "question": "Một doanh nghiệp cung cấp dịch vụ SaaS thì các sản phẩm của nó thuộc loại mô hình nào?",
+        "answers": [
+          {
+            "id": "4e44909c-0ae9-44b7-b1ae-a7e030acfb09",
+            "text": "Application a Service"
+          },
+          {
+            "id": "aed9c81b-8839-4344-b034-197e9486c23f",
+            "text": "Platform as a Service"
+          },
+          {
+            "id": "fee4b6df-0808-41e6-8693-c2ac82c10fff",
+            "text": "Computing as a Service"
+          },
+          {
+            "id": "fa8030a1-d714-4c24-b327-ecf8b346de9a",
+            "text": "Infrastructure as a Service"
+          }
+        ],
+        "correctAnswerId": "aed9c81b-8839-4344-b034-197e9486c23f"
+      },
+      {
+        "id": "98b5a87b-7a1e-4443-ad35-648abd446eec",
+        "question": "Kiểu dịch vụ Service integration and combination của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "8c360527-555a-4442-87bf-2b0149754b05",
+            "text": "SOA, mashup"
+          },
+          {
+            "id": "9e36b1fd-6d75-4db8-a69c-0e45416d6f20",
+            "text": "load balance"
+          },
+          {
+            "id": "d276ee96-7004-41b2-a778-49f13bd55100",
+            "text": "SOA"
+          },
+          {
+            "id": "9f892ac1-993c-4a6a-abee-e47c192dd8db",
+            "text": "usage metering"
+          }
+        ],
+        "correctAnswerId": "8c360527-555a-4442-87bf-2b0149754b05"
+      },
+      {
+        "id": "955a4d87-c996-4d53-92bc-5ee96f9815de",
+        "question": "Phát biểu nào đúng về đám mây riêng?",
+        "answers": [
+          {
+            "id": "87dbcab7-2471-495c-9745-8ffa34743d3a",
+            "text": "Là mô dình các dịch vụ đám mây được bên thứ ba cung cấp."
+          },
+          {
+            "id": "52f7f7e1-43c6-428a-b398-6ded0fb752f4",
+            "text": "Các đám mây tồn tại ngoài tường lửa của công ty và tổ chức sử dụng."
+          },
+          {
+            "id": "bb88a41d-3561-4f4a-b7b2-231ba8108fe3",
+            "text": "Các đám mây được lưu trữ đầy đủ và được nhà cung cấp đám mây quản lý."
+          },
+          {
+            "id": "7fa9a175-00f7-421e-afa3-c856b5c8d744",
+            "text": "Đám mây tồn tại bên trong tường lửa của các tổ chức và được tổ chức quản lý trực tiếp."
+          }
+        ],
+        "correctAnswerId": "7fa9a175-00f7-421e-afa3-c856b5c8d744"
+      },
+      {
+        "id": "39b22f8f-0280-465d-93f6-a7f72bf41130",
+        "question": "Chức năng Preview Cloud Datastore (cơ sở dữ liệu ảo) của điện toán máy chủ ảo do hãng nào cung cấp?",
+        "answers": [
+          {
+            "id": "89c2267d-4ea5-45d2-9983-fa1f992a6a7b",
+            "text": "Amazon"
+          },
+          {
+            "id": "05c89442-4659-48fe-bf05-67016de7f478",
+            "text": "Microsoft"
+          },
+          {
+            "id": "3cd03c22-97a8-403e-abee-8db557bacf62",
+            "text": "IBM"
+          },
+          {
+            "id": "61088875-a9e8-4046-b01d-bf0095ef8167",
+            "text": "Google"
+          }
+        ],
+        "correctAnswerId": "61088875-a9e8-4046-b01d-bf0095ef8167"
+      },
+      {
+        "id": "8101e409-7191-4c9d-ae68-33e62dd43e7b",
+        "question": "Mô hình triển khai nào của điện toán đám mây sẽ cho phép các nhà quản lý IT toàn quyền điều khiển các nguồn lực sẵn có",
+        "answers": [
+          {
+            "id": "9b4473b5-a054-4db1-8988-497b2f70a941",
+            "text": "Commnunity Cloud."
+          },
+          {
+            "id": "381b2f7c-1d07-4d6f-8bab-d36bd0fb3325",
+            "text": "Public Cloud"
+          },
+          {
+            "id": "1716c0ee-e328-4835-9029-1c988fb225e9",
+            "text": "Hybrid Cloud"
+          },
+          {
+            "id": "b0266f88-eadf-4a9c-b9a5-4913a2d62f9b",
+            "text": "Private Cloud"
+          }
+        ],
+        "correctAnswerId": "b0266f88-eadf-4a9c-b9a5-4913a2d62f9b"
+      },
+      {
+        "id": "46a89ee8-b270-4bac-888c-fdc8fb586696",
+        "question": "Dịch vụ EC2 của Amazon ra mắt lần đầu vào năm nào?",
+        "answers": [
+          {
+            "id": "740c2217-fb8a-447d-8d90-d56a087fbde9",
+            "text": "2009"
+          },
+          {
+            "id": "4a792c17-a4ad-4231-a4ba-eb48e1d2b298",
+            "text": "2008"
+          },
+          {
+            "id": "38271f7b-ae72-4bb7-9f1b-24a2982c90d3",
+            "text": "2007"
+          },
+          {
+            "id": "96a1f729-6139-4b70-a4c0-1626ee5a1905",
+            "text": "2006"
+          }
+        ],
+        "correctAnswerId": "96a1f729-6139-4b70-a4c0-1626ee5a1905"
+      },
+      {
+        "id": "dc9aa1a8-ad4a-4c54-879b-77fb9ee8f95b",
+        "question": "EC2 là nền tảng cơ sở hạ tầng điện toán đám mây do hãng nào cung cấp?",
+        "answers": [
+          {
+            "id": "6fcfc25e-fb78-4caa-be97-5f89230646e6",
+            "text": "Microsoft."
+          },
+          {
+            "id": "5af6a7d4-8b0b-4be3-894c-06ca88e94896",
+            "text": "IBM."
+          },
+          {
+            "id": "666808f3-b95c-40a7-86db-7d3347c5866a",
+            "text": "Amazon."
+          },
+          {
+            "id": "23ec7d0f-b181-4ff8-9290-f87cc541fab9",
+            "text": "Google."
+          }
+        ],
+        "correctAnswerId": "666808f3-b95c-40a7-86db-7d3347c5866a"
+      },
+      {
+        "id": "8b400461-f495-4599-a3cf-f5dc73eeea5b",
+        "question": "Thuật ngữ Secure Service trong điện toán đám mây được hiểu như thế nào?",
+        "answers": [
+          {
+            "id": "1bbdbaaf-eff8-4134-a457-68feca58d13f",
+            "text": "Là dịch vụ bảo mật ứng dụng trên điện toán đám mây"
+          },
+          {
+            "id": "29f831f8-de88-49a3-8b58-4d1b293c8c45",
+            "text": "Là dịch vụ chia sẻ ứng dụng cho nhiều người dùng."
+          },
+          {
+            "id": "ca79b624-5bf6-4e1c-8af0-14b715343e79",
+            "text": "Là dịch vụ đáp ứng nhanh theo nhu cầu người dùng."
+          },
+          {
+            "id": "47cafaa4-b01b-44ef-9812-389abdd2b776",
+            "text": "Là dịch vụ sử dụng được truy cập qua Internet."
+          }
+        ],
+        "correctAnswerId": "ca79b624-5bf6-4e1c-8af0-14b715343e79"
+      },
+      {
+        "id": "0af04de8-3c24-460f-8215-4fe354c82980",
+        "question": "Các dịch vụ điện toán đám mây theo mô hình triển khai thực tế Private cloud cho phép",
+        "answers": [
+          {
+            "id": "1d516318-8a87-40d5-b86f-29e3a0360c90",
+            "text": "Trả tiền cho truy cập."
+          },
+          {
+            "id": "834d7398-4230-477c-b571-321eff75d2a7",
+            "text": "Miễn phí truy cập và phổ biến."
+          },
+          {
+            "id": "da7c482b-91a6-41e3-b825-1dc5466e7761",
+            "text": "Bảo mật truy cập và không phổ biến."
+          },
+          {
+            "id": "1caf61a8-1de5-44f5-8ffb-5726fba06767",
+            "text": "Không cho truy cập."
+          }
+        ],
+        "correctAnswerId": "da7c482b-91a6-41e3-b825-1dc5466e7761"
+      },
+      {
+        "id": "97b7c3bf-2727-4b7d-b83a-f2d1d1545fbb",
+        "question": "Ngơười sử dụng phải tự xây dựng mấy phần nếu thuê dịch vụ SaaS?",
+        "answers": [
+          {
+            "id": "0869e655-ab70-4732-86f4-92a078d6543e",
+            "text": "2"
+          },
+          {
+            "id": "7fd72847-51be-4144-8260-052d768e82a3",
+            "text": "1"
+          },
+          {
+            "id": "5a86cbd3-eaeb-480b-b986-7eb3775b382d",
+            "text": "3"
+          },
+          {
+            "id": "e45bd084-42e4-4e4d-a7c1-978231956c30",
+            "text": "4"
+          }
+        ],
+        "correctAnswerId": "7fd72847-51be-4144-8260-052d768e82a3"
+      },
+      {
+        "id": "172426b0-fad0-4f2b-bc1f-b8c0dd168638",
+        "question": "Một trong số các hạn chế của SaaS là gì?",
+        "answers": [
+          {
+            "id": "22b58982-0e1b-472b-81ab-8077a19611cd",
+            "text": "Hệ điều hành máy tính"
+          },
+          {
+            "id": "f47e48db-f6e2-4e17-a084-0c8d9ba4f3aa",
+            "text": "Cấu hình xử lý của mấy tính"
+          },
+          {
+            "id": "750f93d4-1062-4a20-b7d2-25525f6e4b56",
+            "text": "Hệ thống máy chủ"
+          },
+          {
+            "id": "f19da563-21be-46c8-a306-a4d0e4dcea01",
+            "text": "Kết nối mạng Internet"
+          }
+        ],
+        "correctAnswerId": "f19da563-21be-46c8-a306-a4d0e4dcea01"
+      },
+      {
+        "id": "452c38c2-5bfb-485e-8cc7-4cfb8b76505f",
+        "question": "Dịch vụ Email web-based thực hiện dựa trên nền tảng dịch vụ nào của điện toán đám mây?",
+        "answers": [
+          {
+            "id": "051495e7-11fd-45b2-902c-a79e522fd27e",
+            "text": "Software as a Service"
+          },
+          {
+            "id": "d3b7dc9c-f463-4178-9a0a-386fd025a338",
+            "text": "Platform as a Service"
+          },
+          {
+            "id": "20f1edc7-ccc9-4b5c-a6dd-a6ee2952621d",
+            "text": "Infrastructure as a Service"
+          },
+          {
+            "id": "75a04c24-ae34-412e-97fa-a8671772d4d4",
+            "text": "Computing as a Service"
+          }
+        ],
+        "correctAnswerId": "20f1edc7-ccc9-4b5c-a6dd-a6ee2952621d"
+      },
+      {
+        "id": "1006f3f5-bae3-4180-8f40-2e6fbc3cba8b",
+        "question": "Ngơời sử dụng phải tự xây dựng mấy phần nếu thuê dịch vụ PaaS?",
+        "answers": [
+          {
+            "id": "01bbdc47-6433-4a6e-83f8-06f96ede3d69",
+            "text": "4"
+          },
+          {
+            "id": "1b1faba9-8e6e-4acb-a688-695f90a492c3",
+            "text": "3"
+          },
+          {
+            "id": "d62798cb-a84c-4132-9cfa-62c1fa2c8ff0",
+            "text": "1"
+          },
+          {
+            "id": "623e061d-e25f-48ea-a770-1fcf2c490dcc",
+            "text": "2"
+          }
+        ],
+        "correctAnswerId": "623e061d-e25f-48ea-a770-1fcf2c490dcc"
+      },
+      {
+        "id": "2815b367-a55c-4a2d-b26f-1e97322f166c",
+        "question": "Phần mềm dịch vụ (SaaS) có thể được ứng dụng cho những thiết bị nào?",
+        "answers": [
+          {
+            "id": "384757c7-d8a2-4ed2-adcc-68ee1758ca34",
+            "text": "Điện thoại"
+          },
+          {
+            "id": "7fdde21b-00cd-45c1-b1d4-bff339135ee8",
+            "text": "Máy tính"
+          },
+          {
+            "id": "73a56b74-ff2c-428e-a781-fa61c85ccfdb",
+            "text": "Ô tô"
+          },
+          {
+            "id": "0826eddf-54f5-4edf-a61c-8d4ab636abd5",
+            "text": "Tất cả các thiết bị có kết nối mạng, internet"
+          }
+        ],
+        "correctAnswerId": "0826eddf-54f5-4edf-a61c-8d4ab636abd5"
+      },
+      {
+        "id": "92b822c0-5d8c-46d4-9339-22f3e41c4e05",
+        "question": "Kiểu dịch vụ Service integration and combination của loại IaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "ee15f5b5-ea4b-41d9-af41-d313953068f8",
+            "text": "usage metering"
+          },
+          {
+            "id": "3a2bc1b8-e451-44ec-a675-c59ab7e6bca9",
+            "text": "SOA"
+          },
+          {
+            "id": "a0cd6f26-0099-403a-a6eb-b9363547aef4",
+            "text": "SOA, mashup"
+          },
+          {
+            "id": "9fd8f030-fd8d-4d55-b9a9-50491141180b",
+            "text": "load balance"
+          }
+        ],
+        "correctAnswerId": "9fd8f030-fd8d-4d55-b9a9-50491141180b"
+      },
+      {
+        "id": "90f8ae28-2af8-4c34-b7d1-26ead7c13be4",
+        "question": "Mô hình đám mây riêng có lợi thế gì so với đám mây chung?",
+        "answers": [
+          {
+            "id": "3106266c-0f75-416b-89f7-8dfae0b6f0de",
+            "text": "Đám mây được lưu trữ đầy đủ và được quản lý chặt chẽ."
+          },
+          {
+            "id": "47b7dde6-5a54-4e4d-8eb9-e47df329a581",
+            "text": "Phân bố tải workload cho các ứng dụng được sử dụng bởi nhiều người."
+          },
+          {
+            "id": "1b891a6b-c2cf-4d76-a6c8-809bc6faf326",
+            "text": "Có thể phục vụ tốt các quy trình nhiệp vụ tới hạn, an toàn, như các khoản thanh toán của khách , xử lý bảng lương của nhân viên…"
+          },
+          {
+            "id": "cc463d98-2a83-47ce-9fe1-417069328249",
+            "text": "Kiểm soát chi tiết hơn trên các tài nguyên khách nhau đang tạo thành một đám mây mang lại cho tất cả các tùy chọn cấu hình có sẵn."
+          }
+        ],
+        "correctAnswerId": "cc463d98-2a83-47ce-9fe1-417069328249"
+      },
+      {
+        "id": "6a6bd68e-2a2e-4411-8667-f63e9200bacc",
+        "question": "Phần mềm Office365 của Microsoft tương thích với hệ điều hành nào?",
+        "answers": [
+          {
+            "id": "b082809e-1bdf-4211-b987-3bfa9fa06ddb",
+            "text": "Windows 8"
+          },
+          {
+            "id": "3382aca0-0cde-4fe6-a2d2-f1051c5eb20c",
+            "text": "Tất cả"
+          },
+          {
+            "id": "c71b7860-58e8-4e0e-a3fe-d5b7c13f242e",
+            "text": "Linux"
+          },
+          {
+            "id": "880e7b38-554a-4505-9ecd-63de94bedf2c",
+            "text": "Mac"
+          }
+        ],
+        "correctAnswerId": "3382aca0-0cde-4fe6-a2d2-f1051c5eb20c"
+      },
+      {
+        "id": "0f8db824-336c-41e2-bec7-ed3043ecc011",
+        "question": "Kiểu dịch vụ Service optimization của loại SaaS gồm có những gì?",
+        "answers": [
+          {
+            "id": "7d898060-bba8-478f-bc9b-d99fc53a5954",
+            "text": "application usage metering"
+          },
+          {
+            "id": "af54cfc8-ebaf-4dab-8f77-f3efff3416e3",
+            "text": "large-scale distributed file system, database, middleware"
+          },
+          {
+            "id": "c59841e3-f9f0-439c-a701-642c29328bb9",
+            "text": "network, storage, and server virtualization"
+          },
+          {
+            "id": "08127e07-86ac-4cdb-a3d1-68048cd00e02",
+            "text": "multi-tenancy"
+          }
+        ],
+        "correctAnswerId": "08127e07-86ac-4cdb-a3d1-68048cd00e02"
+      },
+      {
+        "id": "489f313c-f622-48fb-b7a4-a815e730aea6",
+        "question": "Private Cloud được hiểu đơn giản là gì?",
+        "answers": [
+          {
+            "id": "8638f09c-c2ae-4bfe-99ae-d40352a79c78",
+            "text": "Một dịch vụ điện toán đám mây tiêu chuẩn cung cấp qua mạng Internet."
+          },
+          {
+            "id": "d25f08a2-1a19-4c19-a916-cf69f281b85b",
+            "text": "Một kiến trúc đám mây riêng duy trì trong trung tâm dữ liệu doanh nghiệp."
+          },
+          {
+            "id": "5563a8a6-bdd3-4603-9e89-258d2364735a",
+            "text": "Một dịch vụ điện toán đám mây cho một cộng đồng nào đó."
+          },
+          {
+            "id": "90b725c4-80d3-4833-b6a7-d1b7a76c3335",
+            "text": "Không chọn đáp án này."
+          }
+        ],
+        "correctAnswerId": "d25f08a2-1a19-4c19-a916-cf69f281b85b"
+      },
+      {
+        "id": "bfaf43b1-defd-4e46-8ac3-b4e73c0c17d5",
+        "question": "Khi xây dựng và khai thác một mô hình điện toán đám mây mà tổ chức cần kiểm soát chi tiết các tài nguyên, thì mô hình nào sẽ được lựa chọn.",
+        "answers": [
+          {
+            "id": "7ab8ed18-51ef-4c3e-98a2-d40a9a01a410",
+            "text": "Private cloud."
+          },
+          {
+            "id": "8b0bc438-09cf-430b-848d-3761b7960f9c",
+            "text": "Public cloud."
+          },
+          {
+            "id": "e8c47a53-8295-45ef-a7c5-dc1907f44fa0",
+            "text": "Hybrid cloud."
+          },
+          {
+            "id": "23d4655a-8abc-4e3e-8152-7a68a4732766",
+            "text": "Comunity cloud."
+          }
+        ],
+        "correctAnswerId": "7ab8ed18-51ef-4c3e-98a2-d40a9a01a410"
+      },
+      {
+        "id": "e592a301-d5e0-475c-97d3-1eabbd4c75a5",
+        "question": "Trong công nghệ điện toán đám mây hiện đại thì vấn đề số một là gì",
+        "answers": [
+          {
+            "id": "b0418503-15ae-4e02-8f68-f1181f656bb2",
+            "text": "Bảo mật"
+          },
+          {
+            "id": "2af9ed26-0cf2-4bed-b159-beb16cfe67e0",
+            "text": "Đắt đỏ"
+          },
+          {
+            "id": "fa59ac03-c07f-4cb2-b76b-3af586b6a071",
+            "text": "Quá nhiều nền tảng"
+          },
+          {
+            "id": "e1c80f55-4e25-4ddf-8880-2ca2198a1a71",
+            "text": "Khả năng truy cập"
+          }
+        ],
+        "correctAnswerId": "b0418503-15ae-4e02-8f68-f1181f656bb2"
+      },
+      {
+        "id": "be59ec47-f7e1-4a7d-b384-7d28cdb89bf3",
+        "question": "Dịch vụ Google docs có phải là một dạng của điện toán đám mây",
+        "answers": [
+          {
+            "id": "7bec6366-3016-4676-9682-10cd9f1b615b",
+            "text": "Không chọn đáp án này."
+          },
+          {
+            "id": "7dd18b88-a1f5-447e-aa90-c2a95a810443",
+            "text": "Sai"
+          },
+          {
+            "id": "962548b7-12ac-4b7b-abef-e6dd94a27afc",
+            "text": "Đúng"
+          }
+        ],
+        "correctAnswerId": "962548b7-12ac-4b7b-abef-e6dd94a27afc"
+      },
+      {
+        "id": "675945ef-c723-45cc-ba33-04e20543d5f0",
+        "question": "Một môi trường máy tính cho phép người dùng có thể truy cập vào các máy tính ảo thì thuộc mô hình nào của điện toán đám mây",
+        "answers": [
+          {
+            "id": "9af9d31b-41a2-462b-b016-b1d682949709",
+            "text": "Platform as a Service"
+          },
+          {
+            "id": "b2c50c79-993a-460c-bc28-25c12a2dad5a",
+            "text": "Softwareas a Service"
+          },
+          {
+            "id": "72ffd563-c2d9-45fe-857d-09e113d9eee6",
+            "text": "Computing as a Service"
+          },
+          {
+            "id": "70df27f4-aa6e-43a4-8a41-5e0b72b70dc3",
+            "text": "Infrastructure as a Service"
+          }
+        ],
+        "correctAnswerId": "9af9d31b-41a2-462b-b016-b1d682949709"
+      },
+      {
+        "id": "45816710-2568-4dd3-9f8e-79a834296ca7",
+        "question": "Điện toán máy chủ ảo gồm mấy thành phần?",
+        "answers": [
+          {
+            "id": "7a164fea-8c05-4005-a878-208020baa8d4",
+            "text": "5"
+          },
+          {
+            "id": "78e4a5d7-c386-4dcd-acca-61fff406b9e0",
+            "text": "3"
+          },
+          {
+            "id": "73b6f6f4-8d25-4efb-ae54-c997e5e65df9",
+            "text": "4"
+          },
+          {
+            "id": "ff227873-3b8d-45c0-80ea-833c36af4bfb",
+            "text": "2"
+          }
+        ],
+        "correctAnswerId": "7a164fea-8c05-4005-a878-208020baa8d4"
+      },
+      {
+        "id": "2d66b46d-a118-4166-b393-08e3e8273fd4",
+        "question": "Software as a Service có thể được hiểu như thế nào?",
+        "answers": [
+          {
+            "id": "c86afd04-3334-48a6-b4ac-d3afb1c7afbc",
+            "text": "Dịch vụ cho thuê phần mềm qua mạng."
+          },
+          {
+            "id": "3b91b8de-0fbd-48f0-875e-45a7531e2f25",
+            "text": "Dịch vụ cho phép Download các phần mềm."
+          },
+          {
+            "id": "4f776fcf-c3c2-4758-945b-6d60469a0051",
+            "text": "Dịch vụ giao hàng các phần mềm."
+          },
+          {
+            "id": "928746d6-55e7-4070-82a4-f7b417fc17eb",
+            "text": "Mô hình phân phối các phần mềm."
+          }
+        ],
+        "correctAnswerId": "928746d6-55e7-4070-82a4-f7b417fc17eb"
+      },
+      {
+        "id": "0147bbcb-0480-467c-8bcf-16d8a802c3ab",
+        "question": "Hội thảo “hành trình tới công nghệ điện toán đám mây” do Microsoft tổ chức ngày 2/3/2011 ở đâu?",
+        "answers": [
+          {
+            "id": "a753e809-686a-4dae-87b3-e7f82be19df2",
+            "text": "Hà Nội"
+          },
+          {
+            "id": "eab2edc7-24d7-454b-99c9-649d26186593",
+            "text": "Thành phố Hồ Chí Minh"
+          },
+          {
+            "id": "cc50f065-6776-49fb-9382-5133caf46884",
+            "text": "Đà Nẵng"
+          },
+          {
+            "id": "8a57e38c-02bf-4e25-a06a-5b08b0f37d84",
+            "text": "Huế"
+          }
+        ],
+        "correctAnswerId": "a753e809-686a-4dae-87b3-e7f82be19df2"
+      },
+      {
+        "id": "9bee7a13-e4d3-4084-9ae1-ec270207fefc",
+        "question": "Bộ phần mềm Visual Studio Online của Microsoft ứng dụng công nghệ nào?",
+        "answers": [
+          {
+            "id": "0ac1f7a9-33fa-405f-9ae0-53ad7383e0e2",
+            "text": "Máy chủ ảo hoá"
+          },
+          {
+            "id": "2a48402f-7b25-4e0e-abad-da58ef63b3fa",
+            "text": "Điện toán đám mây"
+          },
+          {
+            "id": "9db3c5cc-bc64-4a81-bfaf-c050b10e1f8f",
+            "text": "Web 2.0"
+          },
+          {
+            "id": "ba47078d-1812-4a2e-ad12-b226440e384d",
+            "text": "Client – Server"
+          }
+        ],
+        "correctAnswerId": "2a48402f-7b25-4e0e-abad-da58ef63b3fa"
+      },
+      {
+        "id": "bfc8b9fb-3bc5-464f-a6b6-4598bdb7c0f9",
+        "question": "Hiểu thế nào cho đúng về một nhà cung cấp dịch vụ ứng dụng chạy trên mạng",
+        "answers": [
+          {
+            "id": "f58ec041-5782-4896-9693-6e0582a6971a",
+            "text": "Nó thuộc loại SaaS"
+          },
+          {
+            "id": "a9d36791-e379-435b-81ab-c861d3224edc",
+            "text": "Nó thuộc loại dịch vụ truy cập qua Internet"
+          },
+          {
+            "id": "ae9c8e43-4db9-4a3d-96cc-4846e6b507a2",
+            "text": "Nó thuộc dạng dịch vụ máy tính hạ tầng"
+          },
+          {
+            "id": "1adde2c0-72d6-453c-b73c-0e5fc32316e8",
+            "text": "Nó thuộc loại dịch vụ đo lường cho khách hàng"
+          }
+        ],
+        "correctAnswerId": "1adde2c0-72d6-453c-b73c-0e5fc32316e8"
+      },
+      {
+        "id": "572a2bf6-6170-4f26-a6c4-e5c9cd924837",
+        "question": "Có bao nhiêu mô hình triển khai của dịch vụ điện toán đám mây",
+        "answers": [
+          {
+            "id": "db6d0c96-095a-4518-ab55-af6d8fc0eceb",
+            "text": "1"
+          },
+          {
+            "id": "8966e218-a5f2-4eba-a904-50aea72083eb",
+            "text": "3"
+          },
+          {
+            "id": "b0ef4bc0-6d3c-4a6f-9f23-3bb9262b049f",
+            "text": "2"
+          },
+          {
+            "id": "5ed677fc-6d68-4f84-bf10-c8520d13a32e",
+            "text": "4"
+          }
+        ],
+        "correctAnswerId": "5ed677fc-6d68-4f84-bf10-c8520d13a32e"
+      },
+      {
+        "id": "a6fdaec8-d3a0-46fe-ab28-62dbe4e3a8f6",
+        "question": "Giả sử công ty của bạn cần xây dựng hệ thống Email cho toàn bộ nhân viên và quản lý thông tin Email như một điễn đàn. Khi đó, cần lựa chọn dạng dịch vụ nào để triển khai",
+        "answers": [
+          {
+            "id": "65cf59dd-a6f6-431e-9f9c-d34493fb1773",
+            "text": "Hybrid cloud"
+          },
+          {
+            "id": "1eaf07da-decb-4d49-bb54-1355e384f322",
+            "text": "Public cloud"
+          },
+          {
+            "id": "c7073cbd-2736-4964-8997-4235b3b6663a",
+            "text": "Private cloud"
+          },
+          {
+            "id": "b0d5e9c2-170b-4c55-b377-864471ed7707",
+            "text": "Community cloud."
+          }
+        ],
+        "correctAnswerId": "c7073cbd-2736-4964-8997-4235b3b6663a"
+      },
+      {
+        "id": "85e8c078-cc69-4b28-9bb8-f550c7f6a379",
+        "question": "Dịch vụ nào không phải là dịch vụ lưu trữ đám mây",
+        "answers": [
+          {
+            "id": "64cfe2be-ce8e-47ca-bb74-6558a3cf8b10",
+            "text": "Dropbox"
+          },
+          {
+            "id": "3d32ed70-4556-4f37-bde1-87c7f7ad37a7",
+            "text": "Office 365"
+          },
+          {
+            "id": "fd009d09-3be2-45ea-bfa3-352a922fbaa7",
+            "text": "Google Drive"
+          },
+          {
+            "id": "17bf710b-4479-47fd-848f-b65fbd37fa46",
+            "text": "SkyDrive"
+          }
+        ],
+        "correctAnswerId": "3d32ed70-4556-4f37-bde1-87c7f7ad37a7"
+      },
+      {
+        "id": "623e6ce0-bf94-4ec8-a477-c07fe68fb355",
+        "question": "Phần mềm nào không thể triển khai trên đám mây theo mô hình SaaS",
+        "answers": [
+          {
+            "id": "c1f7fccf-9dd1-450f-acb7-3cf44392e8d8",
+            "text": "Phần mềm quản lý nhân sự"
+          },
+          {
+            "id": "52b8c1e2-d166-4ae1-8766-c1bc7a08e950",
+            "text": "Phần mềm quản lý khách hàng"
+          },
+          {
+            "id": "a2838c4d-6a58-43ea-b46b-184fdf8f6f3e",
+            "text": "Phần mềm kế toán"
+          },
+          {
+            "id": "cf233fe1-5906-4aa2-a01b-33b6c3e10d0e",
+            "text": "Tất cả"
+          }
+        ],
+        "correctAnswerId": "cf233fe1-5906-4aa2-a01b-33b6c3e10d0e"
+      },
+      {
+        "id": "7320954a-f68f-4155-937d-6e12c2f38fe0",
+        "question": "Các đám mây lai (Hybird Cloud) phù hợp cho những đối tượng nào?",
+        "answers": [
+          {
+            "id": "8c50bbff-1b70-417d-af17-64683bcf5590",
+            "text": "Tổ chức nhà nước"
+          },
+          {
+            "id": "f99406af-3197-46f6-af1a-548185ec9ceb",
+            "text": "Doanh nghiệp"
+          },
+          {
+            "id": "eaa0f51f-dad4-4f15-b15d-f8e909d1704d",
+            "text": "Doanh nghiệp, cá nhân"
+          },
+          {
+            "id": "5d76ab5e-684f-4569-82ca-f09b0ea03bde",
+            "text": "Cá nhân"
+          }
+        ],
+        "correctAnswerId": "f99406af-3197-46f6-af1a-548185ec9ceb"
+      },
+      {
+        "id": "451895dc-554e-421b-a2cf-9b00fdae7e40",
+        "question": "Doanh nghiệp công nghệ Việt Nam nào duy nhất tham gia sự kiện tại Nhật, ngày 26/2/2014, do tập đoàn Nikkei tổ chức",
+        "answers": [
+          {
+            "id": "14de516f-f11c-4134-bb8d-bf0dc56d13e9",
+            "text": "VNPT"
+          },
+          {
+            "id": "1991de77-b1ae-40e7-b248-729860ada284",
+            "text": "Viettel IDC"
+          },
+          {
+            "id": "99003c47-305e-451c-bb5c-f132ea1a59d8",
+            "text": "FPT"
+          },
+          {
+            "id": "b4d8f35a-b337-4783-b960-4cedfd753a83",
+            "text": "VNTT"
+          }
+        ],
+        "correctAnswerId": "99003c47-305e-451c-bb5c-f132ea1a59d8"
+      },
+      {
+        "id": "1580b7bf-3af1-45b5-bc9f-a69646896452",
+        "question": "Google App Engine cung cấp mấy môi trường thực thi tốt cho các ứng dụng?",
+        "answers": [
+          {
+            "id": "867e1b0a-7a4d-4120-918a-92589515fd44",
+            "text": "4"
+          },
+          {
+            "id": "6bffaa5a-c8ee-4fbe-bc39-0946d6eed6f0",
+            "text": "3"
+          },
+          {
+            "id": "c3b95c27-05bf-4d02-be96-bd37431b8a9d",
+            "text": "1"
+          },
+          {
+            "id": "fee7058f-d33c-437c-81f2-91fda73b0f96",
+            "text": "2"
+          }
+        ],
+        "correctAnswerId": "fee7058f-d33c-437c-81f2-91fda73b0f96"
+      },
+      {
+        "id": "686b5ba2-e12d-4422-addd-d7a4779d6623",
+        "question": "sử dụng Google App Engine và App Engine PHP SDK để chạy website hỗ trợ ngôn ngữ và cơ sở dữ liệu nào?",
+        "answers": [
+          {
+            "id": "3233862d-4886-488a-a730-e79a828375ef",
+            "text": "PHP và SQL."
+          },
+          {
+            "id": "90a63fb9-a1b6-42c7-a494-19e3b166b656",
+            "text": "ASP và Accese."
+          },
+          {
+            "id": "62a7b99e-1da2-4777-9d9b-294fbfc0708d",
+            "text": "PHP và My SQL."
+          },
+          {
+            "id": "347e19a0-9652-4334-a825-493ab3f5b047",
+            "text": "Java và oracle ."
+          }
+        ],
+        "correctAnswerId": "62a7b99e-1da2-4777-9d9b-294fbfc0708d"
+      },
+      {
+        "id": "bb703c8d-6676-4804-b853-b121c272ec52",
+        "question": "Phần mềm dịch vụ SaaS là gì?",
+        "answers": [
+          {
+            "id": "c97f2430-dae7-463d-be1e-12359be43b9c",
+            "text": "Là phần mềm được đóng gói bán cho người dùng cài đặt tại máy tính"
+          },
+          {
+            "id": "87ef6694-3cc0-48c1-bf14-a364583ad84a",
+            "text": "Phần mềm được đóng gói để người dùng cài đặt tại máy chủ"
+          },
+          {
+            "id": "49dde956-df60-469a-8354-27ea1b200ae6",
+            "text": "Phần mềm được cài đặt và chạy trên website"
+          },
+          {
+            "id": "4e773af2-f7b7-4931-a971-e8fa9dc0c7c5",
+            "text": "Là phần mềm ứng dụng công nghệ điện toán đám mây"
+          }
+        ],
+        "correctAnswerId": "4e773af2-f7b7-4931-a971-e8fa9dc0c7c5"
+      },
+      {
+        "id": "6a3e1347-d1fc-43cb-bc46-b7b8635909f9",
+        "question": "Các dịch vụ như gmail, google doc, facebook thuộc loại dịch vụ nào của điện toán đám mây?",
+        "answers": [
+          {
+            "id": "0efffef7-d7e6-41c7-af55-82cca95072e5",
+            "text": "Infrastructure-as-a-Service."
+          },
+          {
+            "id": "9b6f3f2c-686f-4b0d-9c98-d5aa26044966",
+            "text": "Platform-as-a-Service."
+          },
+          {
+            "id": "a3092481-4cf9-44f2-b650-a5f194a61886",
+            "text": "Software-as-a-Service."
+          },
+          {
+            "id": "e7f13cea-9a60-4029-95f6-195a3ad8c55b",
+            "text": "Không có đáp án đúng.."
+          }
+        ],
+        "correctAnswerId": "a3092481-4cf9-44f2-b650-a5f194a61886"
+      },
+      {
+        "id": "8c9941f1-b58f-43a5-9fe0-d4dd16e3b0b2",
+        "question": "Yếu tố nào không phải là lợi thế của SaaS so với các đám mây riêng?",
+        "answers": [
+          {
+            "id": "802b1bdf-d962-403a-90ef-a217efe1732e",
+            "text": "Tốc độ triển khai"
+          },
+          {
+            "id": "943c598b-623f-4fd7-8df3-35907757044b",
+            "text": "Hỗ trợ người ding"
+          },
+          {
+            "id": "8866421a-660a-48c7-a847-8984b2c94864",
+            "text": "Bảo mật"
+          },
+          {
+            "id": "3ac7e853-3003-442a-845e-230f7189b951",
+            "text": "Chi phí triển khai và nâng cấp"
+          }
+        ],
+        "correctAnswerId": "8866421a-660a-48c7-a847-8984b2c94864"
+      },
+      {
+        "id": "72fd7354-683f-4082-bd82-1d22f118d6ad",
+        "question": "Tính năng nào sau đây không có trong ứng dựng điện toán đám mây Private cloud",
+        "answers": [
+          {
+            "id": "1335c290-656e-41c0-b275-f6784c78f4f4",
+            "text": "Thanh toán tiền theo đồng hồ đo."
+          },
+          {
+            "id": "9a14e43c-5ee0-4bcb-a353-c27087e680c1",
+            "text": "Cổng thông tin tự phục vụ."
+          },
+          {
+            "id": "0f96a7c9-3b78-4c35-b014-4f289d172a8e",
+            "text": "Kết nối trực tiếp đến nhà hỗ trợ."
+          },
+          {
+            "id": "8733e71a-ed79-4d47-8961-06bdad8aae42",
+            "text": "Tính đàn hồi nhanh (rapid elasticity)."
+          }
+        ],
+        "correctAnswerId": "1335c290-656e-41c0-b275-f6784c78f4f4"
+      },
+      {
+        "id": "1e6c3af8-40fd-448a-a1e5-4b9f3db24a08",
+        "question": "Điện toán đám mây có thể đơợc xem nhơ là giai đoạn tự nhiên tiếp theo từ mô hình điện toán nào?",
+        "answers": [
+          {
+            "id": "b6ea3198-ed5c-4717-99e3-5934260936c1",
+            "text": "Mô hình điện toán máy chủ thật"
+          },
+          {
+            "id": "367f71d0-e015-4747-8676-3c96f8aa2ce1",
+            "text": "Mô hình điện toán tự trị"
+          },
+          {
+            "id": "e21a5261-28f4-4f4f-b138-e63f7a1058ce",
+            "text": "Mô hình điện toán theo nhu cầu"
+          },
+          {
+            "id": "1485bbb2-b711-445e-a136-87ad43908c8b",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "1485bbb2-b711-445e-a136-87ad43908c8b"
+      },
+      {
+        "id": "2c56e2ca-ac1e-49e1-be62-fe3045f87e9a",
+        "question": "Amazone cung cấp miễn phí tài khoản Amazone EC2 trong thời gian bao lâu?",
+        "answers": [
+          {
+            "id": "cb54f0f7-197d-452f-8a2a-a78c37c9369d",
+            "text": "3 tháng"
+          },
+          {
+            "id": "ab6b0493-ac15-4891-9635-54821dd3b517",
+            "text": "6 tháng"
+          },
+          {
+            "id": "9d644437-f744-4799-a08c-618ab3deab84",
+            "text": "9 tháng"
+          },
+          {
+            "id": "1d3e38fb-cf0c-43fd-bcc7-4f485331728d",
+            "text": "12 tháng"
+          }
+        ],
+        "correctAnswerId": "1d3e38fb-cf0c-43fd-bcc7-4f485331728d"
+      },
+      {
+        "id": "abd3c1ef-0d2f-47e1-bf4f-e59af30667f0",
+        "question": "Đâu là tình năng không thuộc phạm vi phục vụ của SaaS?",
+        "answers": [
+          {
+            "id": "018a4d9d-7163-4f34-8487-64f39493b54d",
+            "text": "Email"
+          },
+          {
+            "id": "add60045-f8fc-4d1b-8b9b-6518da288bbf",
+            "text": "Searchin integer"
+          },
+          {
+            "id": "24207b2e-b736-4779-8f08-45fc31454991",
+            "text": "Clusted"
+          },
+          {
+            "id": "c96b52f9-8417-448d-8d5a-bf51fc23ec17",
+            "text": "Running"
+          }
+        ],
+        "correctAnswerId": "c96b52f9-8417-448d-8d5a-bf51fc23ec17"
+      },
+      {
+        "id": "ebffdbc4-a717-4d20-9aeb-4aa1c98aaad7",
+        "question": "Điện toán đám mây có thể được xem như là giai đoạn tự nhiên tiếp theo từ mô hình điện toán nào?",
+        "answers": [
+          {
+            "id": "e604cb33-8498-4907-bfab-509097460336",
+            "text": "Mô hình điện toán lưới"
+          },
+          {
+            "id": "82fc457c-0634-456e-9aaf-3f0b7e7d0797",
+            "text": "Mô hình điện toán theo nhu cầu"
+          },
+          {
+            "id": "983b0c18-fb2d-40fb-9e2b-9fea9841ed6b",
+            "text": "Mô hình điện toán tự trị"
+          },
+          {
+            "id": "8b172f02-de34-4cb7-afd3-5ed28acfb85b",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "8b172f02-de34-4cb7-afd3-5ed28acfb85b"
+      },
+      {
+        "id": "b480554a-bab2-4243-bb75-5d19fd872a71",
+        "question": "Các đám mây lai hầu hết thường được sử dụng làm:",
+        "answers": [
+          {
+            "id": "de8db82d-b2d7-4d04-8d1d-70bfec21c765",
+            "text": "Một đối tác, nơi các ứng dụng lưu trú trong đám mây và các ứng dụng quan trọng vẫn còn trên trang web."
+          },
+          {
+            "id": "702775b5-7dcf-433f-bf2b-8ad02c5ee427",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "3212816f-6376-4e8d-9002-bce352307a08",
+            "text": "Khả năng bổ sung hay khả năng bùng nổ, nơi đám mây được sử dụng cho các đột biến bất ngờ."
+          },
+          {
+            "id": "4aa55a6f-247f-4847-a50b-474f7652cc6b",
+            "text": "Một nơi thí nghiệm, nơi đám mây được sử dụng với vùng làm việc tạm thời."
+          }
+        ],
+        "correctAnswerId": "702775b5-7dcf-433f-bf2b-8ad02c5ee427"
+      },
+      {
+        "id": "96e56e46-3684-4081-9c78-e0091a7406fd",
+        "question": "VMware vSphere là phần mềm gì ?",
+        "answers": [
+          {
+            "id": "777841eb-8392-48db-9b5f-6e6d43fb4efe",
+            "text": "Chương trình ảo hóa dành cho desktop"
+          },
+          {
+            "id": "9aac342c-c7d4-4af8-85c3-afa2cb2014a2",
+            "text": "Chương trình ảo hóa dành cho máy chủ, máy trạm"
+          },
+          {
+            "id": "016ba12d-8321-4fcb-b462-64682e7680ea",
+            "text": "Quản lý hạ tầng mạng trong điện toán đám mây"
+          },
+          {
+            "id": "99b7dc36-c260-4545-b044-68f4b2f03c77",
+            "text": "2010"
+          }
+        ],
+        "correctAnswerId": "99b7dc36-c260-4545-b044-68f4b2f03c77"
+      },
+      {
+        "id": "882c1ef3-67da-481f-a621-9bbf00d4b9e6",
+        "question": "Các vấn đề liên quan đến bảo mật trên đám mây lai",
+        "answers": [
+          {
+            "id": "8797992b-1170-485b-91f9-123c9c96c165",
+            "text": "Không kiểm soát trên dữ liệu, bảo mật và bảo trì được giao phó cho nhà cung cấp dịch vụ của bạn"
+          },
+          {
+            "id": "66baae3a-cc4d-4582-9537-6243fdf31ec5",
+            "text": "Logic resource template and Application template"
+          },
+          {
+            "id": "473fef60-0886-4460-8c1d-f064b63f39db",
+            "text": "Không trực tiếp kiểm soát về sao lưu, tăng nguy cơ mất dữ liệu"
+          },
+          {
+            "id": "f17d4cd1-4aa9-4b4a-bb5b-af35505988d3",
+            "text": "Không biết các vị trí vật lý của dữ liệu"
+          }
+        ],
+        "correctAnswerId": "66baae3a-cc4d-4582-9537-6243fdf31ec5"
+      },
+      {
+        "id": "2a35e50d-acb2-4125-9d16-6aafca029634",
+        "question": "Storage Vmotiontrong vSphere để làm gì ?",
+        "answers": [
+          {
+            "id": "6a6471a6-f803-4735-b885-1b29fb58e8ba",
+            "text": "Mở rộng tài nguyên CPU, RAM của host mà không cần có downtime"
+          },
+          {
+            "id": "49a6fc64-5fea-4e63-a458-d4f9a1e60411",
+            "text": "Đảm bảo tính liên tục của công việc khi một hệ thống có lỗi"
+          },
+          {
+            "id": "61f46b12-5ccd-40e5-ba05-afc804da3a2f",
+            "text": "Di chuyển nhanh chóng các máy ảo sang một hệ thống khác mà không có"
+          },
+          {
+            "id": "1f4275d3-43bc-4b16-bf22-59dce42ddefe",
+            "text": "dữ liệu"
+          }
+        ],
+        "correctAnswerId": "1f4275d3-43bc-4b16-bf22-59dce42ddefe"
+      },
+      {
+        "id": "1afc6c38-f591-481a-affa-006c7bb5e831",
+        "question": "Đâu không phải là lợi ích khi triển khai đám mây lai:",
+        "answers": [
+          {
+            "id": "aa6a136a-446c-41a3-a6ee-fb1ce99b30f8",
+            "text": "Hỗ trợ khả năng kiểm soát dữ liệu đa dạng, tăng tốc độ truy cập giữa hệ thông và các ứng dụng"
+          },
+          {
+            "id": "0b159ee9-80f4-478f-851f-19f541db3a43",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "9a3e5620-1afb-41f9-90e3-bf955c6e048f",
+            "text": "Tăng khả năng mở rộng mà không cần nâng cấp cơ sở hạ tầng"
+          },
+          {
+            "id": "b12dc2d0-2da6-4a62-a2fb-00fb68e036e8",
+            "text": "hỗ trợ xử lý cao điểm - nhiều thời điểm khi khả năng xử lý của đám mây nội bộ không thể đáp ứng được nhu cầu trong doanh nghiệp"
+          }
+        ],
+        "correctAnswerId": "0b159ee9-80f4-478f-851f-19f541db3a43"
+      },
+      {
+        "id": "5ac9ebee-a02c-4718-bd7e-88b012d33eb0",
+        "question": "Google App Engine được phát triển theo mô hình nào sau đây ?",
+        "answers": [
+          {
+            "id": "5ead003f-2e1d-4806-83d1-319885f84cad",
+            "text": "Software-as-a-Service"
+          },
+          {
+            "id": "f33756c2-c496-4eb1-96f8-a5e4e71e50df",
+            "text": "Infrastructure-as-a-Service"
+          },
+          {
+            "id": "277f6101-82d5-4341-8da1-4c3a10884270",
+            "text": "Storage-as-a-Service"
+          },
+          {
+            "id": "47056a9e-80fe-4aaa-beb6-d94ce47f2f1a",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "47056a9e-80fe-4aaa-beb6-d94ce47f2f1a"
+      },
+      {
+        "id": "8cee7c8c-5625-4ecb-ba7f-d9c453516cb0",
+        "question": "Google Compute Engine là giải pháp gì?",
+        "answers": [
+          {
+            "id": "300f4db8-a7f8-469b-9b7b-55a7d9984028",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "490f5f70-0327-4bb1-808c-07c824e9dbdb",
+            "text": "Giải pháp ảo hoá cho máy chủ vật lý cá nhân"
+          },
+          {
+            "id": "5e15f13a-e990-4624-aad3-ca7751d1ae20",
+            "text": "Giải pháp cung cấp nền tảng để phát triển ứng dụng trên đám mây"
+          },
+          {
+            "id": "1bd008a3-278f-42d0-8ced-ccf1318bca12",
+            "text": "Giải pháp triển khai đám mây riêng cho doanh nghiệp"
+          }
+        ],
+        "correctAnswerId": "300f4db8-a7f8-469b-9b7b-55a7d9984028"
+      },
+      {
+        "id": "a66ae6f8-19cb-42ad-88d0-9f471a617c16",
+        "question": "Các dịch vụ từ đám mây công cộng nào có thể kết hợp đưa vào đám mây lai",
+        "answers": [
+          {
+            "id": "b5cef0cc-9ad4-441a-a741-c358fb0798e3",
+            "text": "Amazone"
+          },
+          {
+            "id": "483f1a21-3cec-430d-b4b9-5519770d7fd3",
+            "text": "Logic resource template and Application template"
+          },
+          {
+            "id": "3540cb87-620b-4391-b717-3e077eb371e9",
+            "text": "Microsoft"
+          },
+          {
+            "id": "82d592d2-5981-4151-9770-a02c021c32e8",
+            "text": "Google"
+          }
+        ],
+        "correctAnswerId": "483f1a21-3cec-430d-b4b9-5519770d7fd3"
+      },
+      {
+        "id": "51935b00-3824-4ec0-8ffc-d4557a2814d0",
+        "question": "Đâu là lợi ích của đám mây lai ?",
+        "answers": [
+          {
+            "id": "2cb59640-2d64-4a3c-8f7d-ecd8ebbf7d6a",
+            "text": "Doanh nghiêp có thể cắt giảm khả năng lưu trữ nội bộ bởi vì bạn có thể di chuyển tất cả các dữ liệu không cần thiết lên đám mây bên ngoài của bạn và chỉ lưu trữ tại chỗ dữ liệu quan trọng nhất."
+          },
+          {
+            "id": "8e2f10fb-51cc-4eb5-805a-0f5748f57348",
+            "text": "Hỗ trợ khả năng kiểm soát dữ liệu đa dạng, tăng tốc độ truy cập giữa hệ thông và các ứng dụng"
+          },
+          {
+            "id": "2cbc47db-b0a2-4576-b85a-071ce8b87b74",
+            "text": "Logic resource template and Application template"
+          },
+          {
+            "id": "9b7e0913-a171-438c-960e-9ce3c448ff2d",
+            "text": "Đám mây lai hỗ trợ xử lý cao điểm - nhiều thời điểm khi khả năng xử lý của đám mây nội bộ không thể đáp ứng được nhu cầu trong doanh nghiệp."
+          }
+        ],
+        "correctAnswerId": "2cbc47db-b0a2-4576-b85a-071ce8b87b74"
+      },
+      {
+        "id": "34e007d2-4157-4a90-87ac-cd5c9bfde757",
+        "question": "Dịch vụ Google App Engine hỗ trợ cho công nghệ lập trình nào để xây dựng các ứng dụng đám mây",
+        "answers": [
+          {
+            "id": "8fdf06ae-d738-4e9e-8209-10361a25c537",
+            "text": "Java, VB 6.0"
+          },
+          {
+            "id": "a9ee1e10-78cd-4177-9b02-527196323d23",
+            "text": "web services and web 2.0 access technology"
+          },
+          {
+            "id": "bc930211-d27f-4abd-a556-1667ea6ae022",
+            "text": "C++, Pascal"
+          },
+          {
+            "id": "6a28d561-1b2f-4318-9bdf-bb12fb9cd9bb",
+            "text": "VB 6.0, VB.Net"
+          }
+        ],
+        "correctAnswerId": "a9ee1e10-78cd-4177-9b02-527196323d23"
+      },
+      {
+        "id": "81da16bd-0fa6-403c-9d94-9a70d9628da4",
+        "question": "Dịch vụ điện toán đám mây Google cung cấp gồm những gì ?",
+        "answers": [
+          {
+            "id": "8d9ca497-a703-44c9-857d-e3d8254bd984",
+            "text": "Google Apps"
+          },
+          {
+            "id": "5046979b-4a1d-4bb2-9534-93fa5b2ba063",
+            "text": "Google App Engine"
+          },
+          {
+            "id": "14dcd5b3-881a-40cc-bcc8-3007625fb820",
+            "text": "Google Compute Engine"
+          },
+          {
+            "id": "d3ee50f6-d17e-4151-940a-85fc9e5b16a3",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "d3ee50f6-d17e-4151-940a-85fc9e5b16a3"
+      },
+      {
+        "id": "c56d59ad-d662-450d-957a-81ede974491d",
+        "question": "Đám mây Hybrid (lai) là gì?",
+        "answers": [
+          {
+            "id": "70d4a375-3f15-467e-90ec-549515cbdb2e",
+            "text": "Là mô hình trong đó hạ tầng đám mây được sở hữu bởi một tổ chức và phục vụ cho người dùng của tôt chức đó"
+          },
+          {
+            "id": "4ae2ea2b-63d9-42f3-9793-7f10a51385e3",
+            "text": "Là mô hình mà hạ tầng đám mây được một tổ chức sỡ hữu và cung cấp dịch vụ rộng ri cho tất cả các khách hàng thông qua hạ tầng mạng Internet hoặc các mạng công cộng diện rộng"
+          },
+          {
+            "id": "40c45563-9fc2-4e88-b2db-c7b63c4d5a70",
+            "text": "Là mô hình bao gồm hai hoặc nhiều hơn các đám mây trên tích hợp chia sẻ hạ tầng với nhau"
+          },
+          {
+            "id": "bae4d896-3377-4060-8343-98e5ac5b6575",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "bae4d896-3377-4060-8343-98e5ac5b6575"
+      },
+      {
+        "id": "9654e443-fe1c-4cad-8481-d0d95de4518e",
+        "question": "Dịch vụ Google Compute Engine được xem như là loại hình",
+        "answers": [
+          {
+            "id": "858e92d2-d8aa-46bc-af48-07d702654a28",
+            "text": "Software as a Service"
+          },
+          {
+            "id": "365369df-3234-43aa-9ccc-55e0f9509830",
+            "text": "Database as a Service"
+          },
+          {
+            "id": "792b4d22-76c7-44c6-90ed-24e40eb7042b",
+            "text": "Platform as a Service"
+          },
+          {
+            "id": "08384a71-37b3-4081-abde-847c5c8c83ec",
+            "text": "web services and web 2.0 access technology"
+          }
+        ],
+        "correctAnswerId": "08384a71-37b3-4081-abde-847c5c8c83ec"
+      },
+      {
+        "id": "f5aa3ee6-35a5-405c-8973-a9600f538b34",
+        "question": "Đâu không phải là kịch bản để ứng dụng Windows Azure",
+        "answers": [
+          {
+            "id": "9692742e-0a29-49e9-b589-4ad83ea2fac6",
+            "text": "Tạo môt ứng dụng web có khả năng mở rộng"
+          },
+          {
+            "id": "ca1526b7-7022-4cf8-9c11-d6748fd0a66e",
+            "text": "Tạo môt ứng dụng xử lí song song"
+          },
+          {
+            "id": "acffaa23-51ae-4ff5-864d-57d77fd23a4b",
+            "text": "Tạo một ứng dụng Web với dữ liệu quan hệ"
+          },
+          {
+            "id": "e0997381-27b5-4d01-b5f6-64bc67365a3b",
+            "text": "PaaS"
+          }
+        ],
+        "correctAnswerId": "e0997381-27b5-4d01-b5f6-64bc67365a3b"
+      },
+      {
+        "id": "3e647c00-18fa-4e7c-8505-89bed8975c41",
+        "question": "Các thành phần chính trong trong Windows Azure Platform gồm:",
+        "answers": [
+          {
+            "id": "8f738d72-2cfb-44b4-b8cb-59989999db7d",
+            "text": "Windows Server 2008, SQL Azure,Windows Azure Platform ApppFabric"
+          },
+          {
+            "id": "6110b2ff-9cc2-4437-9159-07e534da7bb2",
+            "text": "Windows Server 2008, SQL Server, IIS"
+          },
+          {
+            "id": "0a0f4e26-6fa9-4541-8a6b-e9e99958c2d2",
+            "text": "Windows Server 2008, SQL Azure, Apache, Windows Azure Platform ApppFabric"
+          },
+          {
+            "id": "44b9241a-9f31-45f8-b630-ecf5c594dfa0",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "44b9241a-9f31-45f8-b630-ecf5c594dfa0"
+      },
+      {
+        "id": "dfece81b-cd33-4055-bb66-ca60c31ca1a9",
+        "question": "Distributed Resource scheduler & distributed power manager trong vSphere để làm gì ?",
+        "answers": [
+          {
+            "id": "8ecb04cc-ecad-438b-8c5d-9c8dd9a4fe8a",
+            "text": "Tự động cân bằng tải trên storage"
+          },
+          {
+            "id": "75310285-84c0-4f34-8486-64022e7311c9",
+            "text": "quản lý tập trung và theo dõi các kết nối mạng"
+          },
+          {
+            "id": "a508835c-2314-494a-9c64-a0cab276b837",
+            "text": "nền tảng, thực thi"
+          },
+          {
+            "id": "9e896c8d-e5be-45e2-b8f1-76d5317512ae",
+            "text": "tạo các máy ảo thông qua các template"
+          }
+        ],
+        "correctAnswerId": "a508835c-2314-494a-9c64-a0cab276b837"
+      },
+      {
+        "id": "fe705721-4ccf-4c40-a728-d92b388d7625",
+        "question": "VMware Sphere phiên bản 5.5 hỗ trợ cấu hình đến mức nào cho mỗi host (máy chủ cài đặt vSphere ) ?",
+        "answers": [
+          {
+            "id": "d887d849-6344-40e9-8786-4345cf919fcc",
+            "text": "160 CPU và 2TB RAM"
+          },
+          {
+            "id": "1a6c8ab2-b210-486e-bf8e-c1f5b12936b1",
+            "text": "8 CPU và 1TB RAM"
+          },
+          {
+            "id": "177d18b9-e34f-4b68-8ad9-a13c473793da",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "e6d030c5-a2a7-4419-a4c6-2260272229b8",
+            "text": "32 CPU và 3TB RAM"
+          }
+        ],
+        "correctAnswerId": "177d18b9-e34f-4b68-8ad9-a13c473793da"
+      },
+      {
+        "id": "27df1e83-ebf5-4d9d-9283-684ae7b3f3e0",
+        "question": "Giải pháp VMware vCloud Suite bao gồm những phần mềm nào?",
+        "answers": [
+          {
+            "id": "fb5d2f3e-80bd-48c6-bdf3-a13db46431f9",
+            "text": "VMware vSphere"
+          },
+          {
+            "id": "eff214d0-94ce-4c25-bdb6-52047c8bb7db",
+            "text": "VMware vCloud Director"
+          },
+          {
+            "id": "54a5a7d4-650e-4c9f-81c1-949c24e134a7",
+            "text": "Không có phương án đúng"
+          },
+          {
+            "id": "0772bf6f-c650-4a50-85f6-afe8c26a5998",
+            "text": "VMware vCloud Networking and Security và vCenter Site Recovery Manager"
+          }
+        ],
+        "correctAnswerId": "54a5a7d4-650e-4c9f-81c1-949c24e134a7"
+      },
+      {
+        "id": "ceaaf9fa-43cf-4dda-a84a-7eb99d668fc6",
+        "question": "Google App Engine là gì",
+        "answers": [
+          {
+            "id": "d339f1ce-bd04-4b99-9ab9-cd42e08fa973",
+            "text": "Là phần mềm ảo hoá của Google"
+          },
+          {
+            "id": "394b0029-f2cd-43ed-bb91-c183407d93d0",
+            "text": "Là dịch vụ PaaS"
+          },
+          {
+            "id": "089f2d58-422f-4a67-9b19-bd3de9e1b0e7",
+            "text": "Là dịch vụ phân phối hạ tầng máy tính"
+          },
+          {
+            "id": "ca544996-6883-4273-b683-d60746e03d18",
+            "text": "Là dịch vụ cung cấp ứng dụng trên đám mây"
+          }
+        ],
+        "correctAnswerId": "394b0029-f2cd-43ed-bb91-c183407d93d0"
+      },
+      {
+        "id": "a7ade5c0-015b-4e23-9267-032a2b3cfd98",
+        "question": "SQL Azure là gì ?",
+        "answers": [
+          {
+            "id": "f6852def-74d4-4de4-8df4-5e96852d90da",
+            "text": "Là môt phần của Microsoft SQL Server"
+          },
+          {
+            "id": "0a23e253-bc32-49c6-90f3-c51cb441db77",
+            "text": "Là dịch vụ cơ sở dữ liệu quan hệ của Microsoft trên máy chủ ảo"
+          },
+          {
+            "id": "21318965-81b1-4ce5-893f-d301a9849795",
+            "text": "Là dịch vụ cơ sở dữ liệu quan hệ trên máy chủ"
+          },
+          {
+            "id": "6d1c3195-e3f1-4a49-b3b8-c791b94d3f8d",
+            "text": "Iaas, Paas"
+          }
+        ],
+        "correctAnswerId": "6d1c3195-e3f1-4a49-b3b8-c791b94d3f8d"
+      },
+      {
+        "id": "0ef29003-618c-4b77-b633-abf825b196ff",
+        "question": "Dịch vụ Google Cloud SQL của Google là loại hình dịch vụ nào (trả lời đúng nhất)",
+        "answers": [
+          {
+            "id": "601f5cf3-334c-49ce-9dfa-3c0cdabca01b",
+            "text": "Software as a Service"
+          },
+          {
+            "id": "1a6417e4-c137-410a-989d-296bba193959",
+            "text": "application monitoring, logic resource monitoring"
+          },
+          {
+            "id": "85237240-7a80-4201-bec2-e34b2b82d698",
+            "text": "Infrastructure as a Service"
+          },
+          {
+            "id": "2f4054f9-1e93-42dd-b5b3-dfa81e7bd977",
+            "text": "Platform as a Service"
+          }
+        ],
+        "correctAnswerId": "1a6417e4-c137-410a-989d-296bba193959"
+      },
+      {
+        "id": "8020e7ed-6611-4d17-ae69-272879d78b88",
+        "question": "SmartCloud Enterprise là giải pháp đám mây do công ty nào phát triển?",
+        "answers": [
+          {
+            "id": "28ba90ea-344a-4fbb-a92c-b2a8a9e2162c",
+            "text": "Microsoft"
+          },
+          {
+            "id": "38aedb7d-177e-4c51-9214-60737814547e",
+            "text": "Oracle"
+          },
+          {
+            "id": "84a83ae7-3d87-4d4b-9c30-001ad3f06322",
+            "text": "VMware"
+          },
+          {
+            "id": "6482ca81-9020-4bfc-ad60-17dccdea6393",
+            "text": "IaaS, PaaS, SaaS"
+          }
+        ],
+        "correctAnswerId": "6482ca81-9020-4bfc-ad60-17dccdea6393"
+      },
+      {
+        "id": "5e14fbd9-e1f2-4c95-b8ce-cb27ad029b46",
+        "question": "SQL Azure dựa vào cơ cấu cơ sở dữ liệu quan hệ nào sau đây:",
+        "answers": [
+          {
+            "id": "b14ac380-e2bf-4ec9-8c38-0aa0270ada35",
+            "text": "My SQL"
+          },
+          {
+            "id": "c350ddca-1f70-43fa-903e-9cb5d8b27f95",
+            "text": "Oracle"
+          },
+          {
+            "id": "8853608e-86ea-48f1-a54f-1cd9334eab1d",
+            "text": "DB2"
+          },
+          {
+            "id": "ee7f29ad-073c-4def-b386-47474b136119",
+            "text": "Paas, Saas"
+          }
+        ],
+        "correctAnswerId": "ee7f29ad-073c-4def-b386-47474b136119"
+      },
+      {
+        "id": "3d918008-3b8f-4384-9bdd-8d802ae6b1c3",
+        "question": "Đám mây SmartCloud Enterprise làm việc với các hệ điều hành nào?",
+        "answers": [
+          {
+            "id": "20c5ac75-7739-41d2-9b4b-367a0d3f4c6f",
+            "text": "Linux,Windows, Ubuntu, Mac OS"
+          },
+          {
+            "id": "aa28f179-7548-44b6-b7b7-a1ef3c4c469e",
+            "text": "Windows, Mac OS"
+          },
+          {
+            "id": "276771b3-9079-4264-8a35-9b2bc90e1094",
+            "text": "Linux,Windows, Ms-DOS, Android"
+          },
+          {
+            "id": "fed9bbb9-85b9-40d4-9d89-2eaf2fdb70f4",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "fed9bbb9-85b9-40d4-9d89-2eaf2fdb70f4"
+      },
+      {
+        "id": "2ea0f6b4-7d81-420c-b9c6-ae49c001d338",
+        "question": "Chức năng Storage DRS trong vSphere để làm gì ?",
+        "answers": [
+          {
+            "id": "a1b2bc64-4720-43e8-aca7-51c455535a28",
+            "text": "Thiết lập lưu trữ trong ảo hoá"
+          },
+          {
+            "id": "9d768946-ce87-4521-adfa-a890c1921fa9",
+            "text": "Bảo vệ dữ liệu, backup và restore các máy ảo"
+          },
+          {
+            "id": "d4139590-1162-40fd-87c0-e6e47017cb16",
+            "text": "Cho phép tạo, cấu hình các vùng bảo mật"
+          },
+          {
+            "id": "301bb743-6d0f-446e-842c-9701bc2de307",
+            "text": "Không có đáp án đúng"
+          }
+        ],
+        "correctAnswerId": "301bb743-6d0f-446e-842c-9701bc2de307"
+      },
+      {
+        "id": "f6608d98-dc77-402b-b1bb-5f3430a8d28a",
+        "question": "VMware vClond Suite là sản phẩm của công ty nào?",
+        "answers": [
+          {
+            "id": "57ba45cf-8ff4-48c6-9c37-809c53fb2661",
+            "text": "Microsoft"
+          },
+          {
+            "id": "a2bea2fe-4878-4230-afe8-d4c1917aa435",
+            "text": "IBM"
+          },
+          {
+            "id": "41ba7cfa-12de-44d8-b0ec-5320b3d21aeb",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "35e88e70-64c1-4031-9b1b-adfb5e6fb489",
+            "text": "Oracle"
+          }
+        ],
+        "correctAnswerId": "41ba7cfa-12de-44d8-b0ec-5320b3d21aeb"
+      },
+      {
+        "id": "ac4dff1e-e0b2-4fd6-be35-ce0db2ebaac0",
+        "question": "Tính năng chính của Hyper –V là gì?",
+        "answers": [
+          {
+            "id": "99d6bc4c-66a5-4608-b455-98c85bdf69d5",
+            "text": "PaaS"
+          },
+          {
+            "id": "50680ea5-0244-4f0e-a0ba-81c40997f59c",
+            "text": "Hỗ trợ kết nối nhiều server với nhau"
+          },
+          {
+            "id": "b31ffa88-54a7-4abc-bd01-ddd2c88481a3",
+            "text": "Xây dựng hệ quản trị cơ sở dữ liệu trên đám mây"
+          },
+          {
+            "id": "f27d2e52-6c3b-46bb-a778-6301514e8b26",
+            "text": "Hỗ trợ ảo hoá và điện toán đám mây"
+          }
+        ],
+        "correctAnswerId": "99d6bc4c-66a5-4608-b455-98c85bdf69d5"
+      },
+      {
+        "id": "75eb70a4-e77f-4cc5-8c45-7ff9a8d22638",
+        "question": "Chức năng của VMware vCloud Networking and Security là gì ?",
+        "answers": [
+          {
+            "id": "6c5d909b-a83e-44fa-898d-b059108a509b",
+            "text": "Sao lưu và phục hồi cấu hình đám mây"
+          },
+          {
+            "id": "c6ad7f79-b3c2-4a7d-af12-f65a38b57dbd",
+            "text": "Khôi phục thảm hoạ trên đám mây"
+          },
+          {
+            "id": "d64acd39-dad6-45d6-a437-8c3be0cf523c",
+            "text": "Software and a Service"
+          },
+          {
+            "id": "5ac9bfe4-3853-431b-abd7-cb666f0aee03",
+            "text": "Phân bố tài nguyên đám mây"
+          }
+        ],
+        "correctAnswerId": "d64acd39-dad6-45d6-a437-8c3be0cf523c"
+      },
+      {
+        "id": "75cfb012-9bb5-4aa6-b1bf-c9da1b657758",
+        "question": "Vmotion trong vSphere để làm gì ?",
+        "answers": [
+          {
+            "id": "1b541b41-f5a8-4926-bb12-34b443050fcd",
+            "text": "Di chuyển động các máy ảo sang các phân vùng storage khác mà không có downtime"
+          },
+          {
+            "id": "cf18a7b3-3259-4ab5-9b61-5b8eacba3e47",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "e3f71611-19b7-492d-9f54-022e52bf89ea",
+            "text": "Đảm bảo tính liên tục của công việc khi một hệ thống có lỗi"
+          },
+          {
+            "id": "ffda2eca-9597-4991-98d8-3afbb4345173",
+            "text": "Mở rộng tài nguyên CPU, RAM của host mà không cần có downtime"
+          }
+        ],
+        "correctAnswerId": "cf18a7b3-3259-4ab5-9b61-5b8eacba3e47"
+      },
+      {
+        "id": "094cabe7-650c-477f-ab4c-6b844695e925",
+        "question": "Sản phẩm VMware inc nào cung cấp giải pháp ảo hoá - điện toán đám mây?",
+        "answers": [
+          {
+            "id": "c5b1b22f-5c67-41b6-9aef-8e9dbfe0cf36",
+            "text": "VMware vSphere"
+          },
+          {
+            "id": "c0f2ffcf-7f23-40a4-ad1d-d9bd19ccca29",
+            "text": "Không có phát biểu nào đúng"
+          },
+          {
+            "id": "900d31a1-6387-4fe2-bee4-47b276ae79b6",
+            "text": "Tất cả các ý"
+          },
+          {
+            "id": "7ef1a879-d3e8-443e-a001-5abc9c584666",
+            "text": "VMware vCloud Director"
+          }
+        ],
+        "correctAnswerId": "c0f2ffcf-7f23-40a4-ad1d-d9bd19ccca29"
+      },
+      {
+        "id": "d6826f29-b0fd-43c2-9a39-16bfbe40d8f9",
+        "question": "Chức năng của vCentrer Site Recovery Manager là gì ?",
+        "answers": [
+          {
+            "id": "604630b5-cda8-4644-922a-fddacad6db6c",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "f833d00e-2b6d-427a-8ffb-fd77f3a0bf61",
+            "text": "Cho phép tạo ra các dịch vụ mang ảo"
+          },
+          {
+            "id": "a2d86c88-020d-413b-ba30-66345fe771fe",
+            "text": "Tự động cập nhật các phiên bản mới cho VMware vCloud Suite"
+          },
+          {
+            "id": "23263874-5c2d-40ea-b484-555ffda2a7c2",
+            "text": "Khôi phục và phục hồi trạng thái trước khi cài đặt"
+          }
+        ],
+        "correctAnswerId": "604630b5-cda8-4644-922a-fddacad6db6c"
+      },
+      {
+        "id": "1592b3a1-820b-4146-ab86-3ae1ea67176b",
+        "question": "Windows Azure là gì?",
+        "answers": [
+          {
+            "id": "8e4e3a29-114a-42b7-99db-607ba09bd638",
+            "text": "Là hệ điều hành máy chủ mới của Microsoft"
+          },
+          {
+            "id": "31471099-5647-4c0d-ae21-c1d97fc945b7",
+            "text": "Là hệ điều hành đám mây của Microsoft"
+          },
+          {
+            "id": "9f17c605-ec7e-48db-baf6-314fca92acf4",
+            "text": "Là hệ điều hành chạy trên các máy ảo trên đám mây"
+          },
+          {
+            "id": "a23b68e6-fb8a-423a-bffa-0036c667e5a9",
+            "text": "Là một phần mềm hỗ trợ cho Windows Server"
+          }
+        ],
+        "correctAnswerId": "31471099-5647-4c0d-ae21-c1d97fc945b7"
+      },
+      {
+        "id": "bc24eee7-4335-426b-8d13-99eb8e443ca2",
+        "question": "Các máy chủ trong Google Compute Engine hỗ trợ những hệ điều hành nào:",
+        "answers": [
+          {
+            "id": "0d2ea95e-f555-4518-90f2-4a2177689da5",
+            "text": "Windows Azure, Linux, Red Hat"
+          },
+          {
+            "id": "e077faaa-6126-402c-99a1-58d457d514fd",
+            "text": "Tính riêng tư, tính sẵn dùng, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật"
+          },
+          {
+            "id": "16e5c679-9a2d-499c-a688-9ba115724ee3",
+            "text": "Windows Server, Linux, Red Hat, Centos"
+          },
+          {
+            "id": "43f8b9ee-8296-4ab3-80c1-52cd962ef3a1",
+            "text": "Hỗ trợ mọi phiên bản Windows, Linux, Red Hat, Centos"
+          }
+        ],
+        "correctAnswerId": "e077faaa-6126-402c-99a1-58d457d514fd"
+      },
+      {
+        "id": "baa5b290-584f-4825-b922-95d854959505",
+        "question": "Các máy chủ ảo do Windows Azure tạo ra có thể chạy được các hệ điều hành nào sau đây ?",
+        "answers": [
+          {
+            "id": "6abc52cb-9c0c-477c-b726-1d86abf23957",
+            "text": "PaaS"
+          },
+          {
+            "id": "2836fca4-03c2-41a7-99db-b30a29314ac3",
+            "text": "Windows Server 8"
+          },
+          {
+            "id": "4782f4a8-a707-428e-a665-862d8f6ee847",
+            "text": "Linux"
+          },
+          {
+            "id": "f8e18936-e0fb-42bc-8a6e-7179ed01d160",
+            "text": "Windows Server 2008 R2"
+          }
+        ],
+        "correctAnswerId": "6abc52cb-9c0c-477c-b726-1d86abf23957"
+      },
+      {
+        "id": "008173e8-9a66-4e0d-b970-861074464a61",
+        "question": "Vmware vCloud Director cung cấp khả năng quản lí tài nguyên ảo qua giao diện nào ?",
+        "answers": [
+          {
+            "id": "b6b65681-cb37-4b40-81e0-5ace651e10a5",
+            "text": "Giao diện trên Windows"
+          },
+          {
+            "id": "de51ae9b-a4fb-4abf-8838-7e6152b26825",
+            "text": "nền tảng, thực thi, ứng dụng, dữ liệu"
+          },
+          {
+            "id": "6beba013-5f5d-430e-94a3-2e8634135fbe",
+            "text": "Giao diện thiết bị chuyện dụng"
+          },
+          {
+            "id": "41322c42-98a4-46f5-8965-b3f68588d2c1",
+            "text": "Giao diện trên Linux"
+          }
+        ],
+        "correctAnswerId": "de51ae9b-a4fb-4abf-8838-7e6152b26825"
+      },
+      {
+        "id": "8548cc4a-2514-47e5-bfa7-bf2053b3cc73",
+        "question": "Dịch vụ Google Cloud Storage là dịch vụ để lưu trữ của Google, nó thuộc loại hình dịch vụ nào?",
+        "answers": [
+          {
+            "id": "78e2ea34-b7b7-437f-8321-3b30f5578885",
+            "text": "Software as a Service"
+          },
+          {
+            "id": "b8fce93c-8c04-4426-8ff3-c5bea7797f74",
+            "text": "Database as a Service"
+          },
+          {
+            "id": "ba80e64b-047c-406a-b6e4-cd349045a8a5",
+            "text": "application monitoring, logic resource monitoring"
+          },
+          {
+            "id": "4607586f-6e48-44a1-b5fd-04249617bd78",
+            "text": "Platform as a Service"
+          }
+        ],
+        "correctAnswerId": "ba80e64b-047c-406a-b6e4-cd349045a8a5"
+      },
+      {
+        "id": "5b04b4af-e98a-4c06-9543-71aa73714754",
+        "question": "Đâu là tình năng không thuộc thành phần VMware vSphere?",
+        "answers": [
+          {
+            "id": "b670af5f-b590-424c-8816-fc290f120f37",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "7bd64ceb-ba9d-4553-b91f-2c3b968f5450",
+            "text": "Configuration Backup & Restore"
+          },
+          {
+            "id": "6b8288c7-e322-49e8-bd80-c2ea485b0b4f",
+            "text": "Roll-back và Recovery"
+          },
+          {
+            "id": "9ae07424-752f-4b6f-9301-2371652da77c",
+            "text": "Network Health Check"
+          }
+        ],
+        "correctAnswerId": "b670af5f-b590-424c-8816-fc290f120f37"
+      },
+      {
+        "id": "268e8fe4-973d-49bc-8740-e35a33446e40",
+        "question": "Dịch vụ nào của Google dùng để làm nền tảng xây dựng các ứng dụng SaaS",
+        "answers": [
+          {
+            "id": "615b209d-6239-4c29-9751-250b5dd3172f",
+            "text": "web services and web 2.0 access technology"
+          },
+          {
+            "id": "7dc82df0-3321-400a-bd54-17e735b01e14",
+            "text": "Google drives"
+          },
+          {
+            "id": "1639a627-ea21-4747-9811-8f80eaaf6b4a",
+            "text": "Google Search"
+          },
+          {
+            "id": "fdd2b934-cbb6-4d7c-882f-de28cf3322a3",
+            "text": "Google docs"
+          }
+        ],
+        "correctAnswerId": "615b209d-6239-4c29-9751-250b5dd3172f"
+      },
+      {
+        "id": "6b17f237-8d6c-44de-8d1c-c6401f1d2344",
+        "question": "Thành phần nào không phải của Windows Azure bao gồm:",
+        "answers": [
+          {
+            "id": "6a84f728-6213-4298-8571-5a3cbf3b5734",
+            "text": "Computer Service"
+          },
+          {
+            "id": "edae9583-b05c-48e6-86c4-331e021e6205",
+            "text": "Storage Service"
+          },
+          {
+            "id": "9b4f4e9a-e032-4b31-aa1e-f48bc95b483f",
+            "text": "Windows Azure Fabric"
+          },
+          {
+            "id": "cd551959-0ea1-446b-8de2-ebfa5ac509ee",
+            "text": "Saas"
+          }
+        ],
+        "correctAnswerId": "cd551959-0ea1-446b-8de2-ebfa5ac509ee"
+      },
+      {
+        "id": "904ccfe0-f0bb-406f-861d-90bacc63b74d",
+        "question": "Windows Azure do công ty nào phát triển?",
+        "answers": [
+          {
+            "id": "6cf2734f-e140-4a9b-96b8-b78ed00c45a0",
+            "text": "Microsoft"
+          },
+          {
+            "id": "6314418b-66aa-43ea-a870-d431cb762279",
+            "text": "IBM"
+          },
+          {
+            "id": "8af8073b-0bd7-4d2e-8127-d70c50348495",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "3e7e95ce-4adf-4d21-b2bb-d80cb0faf25e",
+            "text": "Oracle"
+          }
+        ],
+        "correctAnswerId": "8af8073b-0bd7-4d2e-8127-d70c50348495"
+      },
+      {
+        "id": "b07feea9-34a8-4ec2-a6f4-1b2849eb7995",
+        "question": "Bộ dịch vụ lưu trữ trong Windows Azure gồm thành phần nào:",
+        "answers": [
+          {
+            "id": "b5137f61-5886-4ea0-b95c-4a3b35203a78",
+            "text": "Paas, Saas"
+          },
+          {
+            "id": "12359374-6ce8-49cb-bd2d-68c42de55ba7",
+            "text": "Blob, Table, Sheet"
+          },
+          {
+            "id": "b67212a0-9888-4b9e-97e6-93a751fb116e",
+            "text": "Table, SQL Azure"
+          },
+          {
+            "id": "24ea8732-5384-4acb-8eaa-64be635dd6b3",
+            "text": "SQL, Table, Queue, Sheet"
+          }
+        ],
+        "correctAnswerId": "b5137f61-5886-4ea0-b95c-4a3b35203a78"
+      },
+      {
+        "id": "8138841a-d250-43ca-ad02-c1381054ff82",
+        "question": "Windows Azure Platform là gì?",
+        "answers": [
+          {
+            "id": "81bd5bf7-2af4-42e4-9f47-7f81affff6aa",
+            "text": "Một hệ điều hành cho máy tính"
+          },
+          {
+            "id": "4480dce3-5495-49cb-a7ec-7108770d9d74",
+            "text": "Hệ điều hành Windows cho máy chủ đám mây"
+          },
+          {
+            "id": "c83036ed-b458-4621-b17f-f6b92b56b9e3",
+            "text": "Không có đáp án đúng"
+          },
+          {
+            "id": "ccb5e82c-6125-47d2-9356-b8a4143cc77e",
+            "text": "Phần mềm quản lý đám mây ảo"
+          }
+        ],
+        "correctAnswerId": "c83036ed-b458-4621-b17f-f6b92b56b9e3"
+      },
+      {
+        "id": "e91f5f92-6d4e-4b33-85f6-4885a755611e",
+        "question": "Chức năng của VMware vCloud Director là gì ?",
+        "answers": [
+          {
+            "id": "5af62c01-43b9-4b18-b9e9-53e603211822",
+            "text": "ảo hoá các máy chủ"
+          },
+          {
+            "id": "bf91b3ac-3819-4938-aa78-38a18e0c5728",
+            "text": "ảo hoá hệ thống mạng"
+          },
+          {
+            "id": "6d2af4ef-f0c6-4063-9c97-4eb9982d747d",
+            "text": "Quản lý mạng ảo"
+          },
+          {
+            "id": "7f7b372e-0c9d-44b9-86c5-f0622b18b55a",
+            "text": "nền tảng, thực thi, ứng dụng, dữ liệu"
+          }
+        ],
+        "correctAnswerId": "7f7b372e-0c9d-44b9-86c5-f0622b18b55a"
+      },
+      {
+        "id": "d8512458-1247-426e-a3c6-a683f4611fbc",
+        "question": "Có bao nhiêu lớp thành phần trong điện toán đám mây?",
+        "answers": [
+          {
+            "id": "533b9b91-0070-47e1-8a41-50acd7bbf6d4",
+            "text": "2"
+          },
+          {
+            "id": "475191ac-e000-4a58-9e30-37469752cd67",
+            "text": "4"
+          },
+          {
+            "id": "3e341a99-f056-4200-b461-690176d386d3",
+            "text": "3"
+          },
+          {
+            "id": "40f70964-1379-4566-8baf-6564a85b1af3",
+            "text": "5"
+          }
+        ],
+        "correctAnswerId": "40f70964-1379-4566-8baf-6564a85b1af3"
+      }
+    ]
+  }
+]
