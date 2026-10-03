@@ -144,17 +144,98 @@ h1, h2, h3, h4 {
   border: 1px solid var(--border-color);
 }
 
-.input, .textarea {
+.input, .textarea, .custom-select {
   width: 100%;
   padding: 0.75rem;
   border-radius: 0.5rem;
   border: 1px solid var(--border-color);
   background-color: var(--surface-color);
   color: var(--text-primary);
-  transition: border-color 0.2s;
+  transition: all 0.2s;
+  font-family: inherit;
+  font-size: inherit;
 }
 
-.input:focus, .textarea:focus {
+.input:focus, .textarea:focus, .custom-select:focus {
   outline: none;
   border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.custom-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.2em;
+  padding-right: 3rem;
+  cursor: pointer;
+}
+.custom-select:hover {
+  border-color: var(--text-secondary);
+}
+
+.app-header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--surface-color);
+}
+
+.quiz-taking-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  html {
+    font-size: 16px; /* Reset font size for smaller screens */
+  }
+  
+  .app-header {
+    padding: 1rem; /* Smaller padding on mobile */
+  }
+
+  .container {
+    padding: 1rem; /* Smaller padding on mobile */
+  }
+  
+  .card {
+    padding: 1rem; /* Smaller card padding on mobile */
+  }
+  
+  /* Stack grid layouts on mobile */
+  .grid-container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .quiz-taking-grid {
+    grid-template-columns: 1fr;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-secondary);
 }

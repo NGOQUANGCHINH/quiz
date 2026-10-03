@@ -6,6 +6,7 @@ export interface Answer {
 export interface Question {
   id: string;
   question: string;
+  image?: string;
   answers: Answer[];
   correctAnswerId: string | null;
 }
@@ -42,6 +43,7 @@ export interface QuizConfig {
   randomizeAnswers: boolean;
   timeLimitMinutes: number | null; // null means no limit
   mode: 'exam' | 'practice';
+  autoNextQuestion?: boolean;
 }
 
 export interface QuizResult {

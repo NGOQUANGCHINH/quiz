@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
-import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle } from 'lucide-react';
+import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw } from 'lucide-react';
 import classNames from 'classnames';
 
 interface Props {
@@ -17,13 +17,35 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
     initialProgress.config.timeLimitMinutes ? initialProgress.config.timeLimitMinutes * 60 : null
   );
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
+  const [showQuestionList, setShowQuestionList] = useState(window.innerWidth > 768);
 
   const totalQuestions = progress.questions.length;
   const currentQIndex = progress.currentQuestionIndex;
   const currentQuestion = progress.questions[currentQIndex];
+  const [isReloading, setIsReloading] = useState(false);
+
+  const handleReload = async () => {
+    setIsReloading(true);
+    try {
+      const latestQuiz = await api.getQuizById(progress.quizId);
+      if (latestQuiz) {
+        setProgress(prev => {
+          const updatedQuestions = prev.questions.map(oldQ => {
+            const newQ = latestQuiz.questions.find(q => q.id === oldQ.id);
+            return newQ ? { ...oldQ, question: newQ.question, answers: newQ.answers } : oldQ;
+          });
+          return { ...prev, questions: updatedQuestions };
+        });
+      }
+    } catch (e) {
+      console.error(e);
+    }
+    setIsReloading(false);
+  };
 
   // Auto save
   useEffect(() => {
+    sessionStorage.setItem('quiz-progress-data', JSON.stringify(progress));
     const timer = setTimeout(() => {
       api.saveProgress(progress);
     }, 2000); // debounce 2s
@@ -46,6 +68,18 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       ...prev,
       answers: { ...prev.answers, [currentQuestion.id]: answerId }
     }));
+
+    if (progress.config.autoNextQuestion) {
+      const savedIndex = currentQIndex;
+      setTimeout(() => {
+        setProgress(prev => {
+          if (prev.currentQuestionIndex === savedIndex && prev.currentQuestionIndex < totalQuestions - 1) {
+            return { ...prev, currentQuestionIndex: prev.currentQuestionIndex + 1 };
+          }
+          return prev;
+        });
+      }, 1000);
+    }
   };
 
   const toggleMark = () => {
@@ -110,11 +144,24 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   const gridTemplate = '1fr 300px';
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: gridTemplate, gap: '2rem', height: 'calc(100vh - 11rem)', overflow: 'hidden' }}>
+    <div className="quiz-taking-grid">
       {/* Left Area - Question */}
-      <div style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden' }}>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexShrink: 0 }}>
-          <h3>Câu {currentQIndex + 1} / {totalQuestions}</h3>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={() => navigate('dashboard')}>
+              <ArrowLeft /> Quay lại
+            </button>
+            <button 
+              className="btn btn-neutral" 
+              style={{ padding: '0.5rem 1rem' }} 
+              onClick={handleReload}
+              disabled={isReloading}
+            >
+              <RefreshCw size={18} /> Cập nhật lỗi
+            </button>
+            <h3 style={{ margin: 0 }}>Câu {currentQIndex + 1} / {totalQuestions}</h3>
+          </div>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
             {timeLeft !== null && (
               <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit' }}>
@@ -131,10 +178,15 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           </div>
         </div>
 
-        <div className="card" style={{ flex: 1, marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
+        <div className="card" style={{ flex: 1, marginBottom: '1.5rem', display: 'flex', flexDirection: 'column' }}>
           <div style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}>
             {currentQuestion.question}
           </div>
+          {currentQuestion.image && (
+            <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
+              <img src={import.meta.env.DEV ? `http://localhost:3001${currentQuestion.image}` : currentQuestion.image} alt="Question figure" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
+            </div>
+          )}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0 }}>
             {currentQuestion.answers.map((ans, idx) => {
               const hasAnswered = !!progress.answers[currentQuestion.id];
@@ -240,70 +292,9 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       </div>
 
       {/* Right Area - Question List */}
-      <div className="card" style={{ display: 'flex', flexDirection: 'column', padding: '1rem', height: '100%', overflow: 'hidden' }}>
-        <h3 style={{ marginBottom: '1rem', textAlign: 'center', flexShrink: 0 }}>Danh sách câu</h3>
-        <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignContent: 'flex-start' }}>
-          {progress.questions.map((q, idx) => {
-            const isAnswered = !!progress.answers[q.id];
-            const isMarked = progress.markedQuestions.includes(q.id);
-            const isCurrent = idx === currentQIndex;
-
-            let bg = 'var(--surface-color)';
-            let border = 'var(--border-color)';
-            let color = 'var(--text-primary)';
-
-            if (isAnswered) {
-              if (progress.config.mode === 'practice') {
-                const isCorrect = progress.answers[q.id] === q.correctAnswerId;
-                bg = isCorrect ? 'var(--correct-bg)' : 'var(--wrong-bg)';
-                border = isCorrect ? 'var(--correct-color)' : 'var(--wrong-color)';
-              } else {
-                bg = 'var(--primary-light)';
-                border = 'var(--primary-color)';
-              }
-            }
-            
-            if (isCurrent) {
-              if (progress.config.mode === 'practice' && isAnswered) {
-                const isCorrect = progress.answers[q.id] === q.correctAnswerId;
-                bg = isCorrect ? 'var(--correct-color)' : 'var(--wrong-color)';
-                border = bg;
-                color = 'white';
-              } else {
-                border = 'var(--primary-color)';
-                bg = 'var(--primary-color)';
-                color = 'white';
-              }
-            }
-
-            return (
-              <div 
-                key={q.id} 
-                onClick={() => changeQuestion(idx)}
-                style={{
-                  width: '40px', height: '40px',
-                  display: 'flex', justifyContent: 'center', alignItems: 'center',
-                  borderRadius: '0.25rem',
-                  border: `2px solid ${border}`,
-                  backgroundColor: bg,
-                  color: color,
-                  cursor: 'pointer',
-                  position: 'relative',
-                  fontWeight: isCurrent ? 'bold' : 'normal',
-                  userSelect: 'none'
-                }}
-              >
-                {idx + 1}
-                {isMarked && (
-                  <div style={{ position: 'absolute', top: -4, right: -4, color: 'var(--warning-color)' }}>
-                    <Bookmark style={{ width: '14px', height: '14px' }} fill="currentColor" />
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0, marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid var(--border-color)' }}>
+      <div style={{ height: 0, minHeight: '100%' }}>
+        <div className="card" style={{ display: 'flex', flexDirection: 'column', padding: '1rem', position: 'sticky', top: '2rem', maxHeight: 'calc(100vh - 4rem)', height: '100%' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0, marginBottom: '1rem' }}>
           <div style={{ display: 'flex', gap: '0.5rem' }}>
             <button className="btn btn-neutral" style={{ flex: 1, padding: '0.75rem 0.5rem' }} disabled={currentQIndex === 0} onClick={() => changeQuestion(currentQIndex - 1)}>
               <ChevronLeft /> Trước
@@ -317,6 +308,79 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             Nộp bài <Send />
           </button>
         </div>
+
+        <div 
+          style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', padding: '0.5rem 0', borderTop: '1px solid var(--border-color)', borderBottom: '1px solid var(--border-color)', marginBottom: showQuestionList ? '1rem' : 0, flexShrink: 0 }}
+          onClick={() => setShowQuestionList(!showQuestionList)}
+        >
+          <h3 style={{ margin: 0 }}>Danh sách câu</h3>
+          <div style={{ color: 'var(--text-secondary)' }}>{showQuestionList ? '▲' : '▼'}</div>
+        </div>
+
+        {showQuestionList && (
+          <div style={{ flex: 1, overflowY: 'auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))', gap: '0.5rem', alignContent: 'flex-start', paddingRight: '0.5rem' }}>
+            {progress.questions.map((q, idx) => {
+              const isAnswered = !!progress.answers[q.id];
+              const isMarked = progress.markedQuestions.includes(q.id);
+              const isCurrent = idx === currentQIndex;
+
+              let bg = 'var(--surface-color)';
+              let border = 'var(--border-color)';
+              let color = 'var(--text-primary)';
+
+              if (isAnswered) {
+                if (progress.config.mode === 'practice') {
+                  const isCorrect = progress.answers[q.id] === q.correctAnswerId;
+                  bg = isCorrect ? 'var(--correct-bg)' : 'var(--wrong-bg)';
+                  border = isCorrect ? 'var(--correct-color)' : 'var(--wrong-color)';
+                } else {
+                  bg = 'var(--primary-light)';
+                  border = 'var(--primary-color)';
+                }
+              }
+              
+              if (isCurrent) {
+                if (progress.config.mode === 'practice' && isAnswered) {
+                  const isCorrect = progress.answers[q.id] === q.correctAnswerId;
+                  bg = isCorrect ? 'var(--correct-color)' : 'var(--wrong-color)';
+                  border = bg;
+                  color = 'white';
+                } else {
+                  border = 'var(--primary-color)';
+                  bg = 'var(--primary-color)';
+                  color = 'white';
+                }
+              }
+
+              return (
+                <div 
+                  key={q.id} 
+                  onClick={() => changeQuestion(idx)}
+                  style={{
+                    width: '40px', height: '40px',
+                    display: 'flex', justifyContent: 'center', alignItems: 'center',
+                    borderRadius: '0.25rem',
+                    border: `2px solid ${border}`,
+                    backgroundColor: bg,
+                    color: color,
+                    cursor: 'pointer',
+                    position: 'relative',
+                    fontWeight: isCurrent ? 'bold' : 'normal',
+                    userSelect: 'none'
+                  }}
+                >
+                  {idx + 1}
+                  {isMarked && (
+                    <div style={{ position: 'absolute', top: -4, right: -4, color: 'var(--warning-color)' }}>
+                      <Bookmark style={{ width: '14px', height: '14px' }} fill="currentColor" />
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
       </div>
 
       {/* Submit Confirm Modal */}

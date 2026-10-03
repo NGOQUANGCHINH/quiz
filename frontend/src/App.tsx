@@ -10,13 +10,28 @@ import type {  ProgressData  } from './types';
 import { Moon, Sun } from 'lucide-react';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<string>('dashboard');
-  const [selectedQuizId, setSelectedQuizId] = useState<string | null>(null);
-  const [progressData, setProgressData] = useState<ProgressData | null>(null);
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [currentPage, setCurrentPage] = useState<string>(() => sessionStorage.getItem('quiz-current-page') || 'dashboard');
+  const [selectedQuizId, setSelectedQuizId] = useState<string | null>(() => sessionStorage.getItem('quiz-selected-id'));
+  const [progressData, setProgressData] = useState<ProgressData | null>(() => {
+    const saved = sessionStorage.getItem('quiz-progress-data');
+    return saved ? JSON.parse(saved) : null;
+  });
+
+  // Handle broken state where page requires progressData but it's null
+  useEffect(() => {
+    if (['taking', 'result', 'review'].includes(currentPage) && !progressData) {
+      setCurrentPage('dashboard');
+      sessionStorage.setItem('quiz-current-page', 'dashboard');
+    }
+  }, [currentPage, progressData]);
+  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
+    const saved = localStorage.getItem('quiz-theme');
+    return (saved === 'dark' || saved === 'light') ? saved : 'light';
+  });
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('quiz-theme', theme);
   }, [theme]);
 
   const toggleTheme = () => {
@@ -24,14 +39,29 @@ function App() {
   };
 
   const navigate = (page: string, params?: any) => {
-    if (params?.quizId) setSelectedQuizId(params.quizId);
-    if (params?.progress) setProgressData(params.progress);
+    if (params?.quizId) {
+      setSelectedQuizId(params.quizId);
+      sessionStorage.setItem('quiz-selected-id', params.quizId);
+    } else {
+      setSelectedQuizId(null);
+      sessionStorage.removeItem('quiz-selected-id');
+    }
+
+    if (params?.progress) {
+      setProgressData(params.progress);
+      sessionStorage.setItem('quiz-progress-data', JSON.stringify(params.progress));
+    } else if (page !== 'taking') {
+      setProgressData(null);
+      sessionStorage.removeItem('quiz-progress-data');
+    }
+
     setCurrentPage(page);
+    sessionStorage.setItem('quiz-current-page', page);
   };
 
   return (
     <div className="app">
-      <header style={{ padding: '1rem 2rem', display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', backgroundColor: 'var(--surface-color)' }}>
+      <header className="app-header">
         <h1 style={{ cursor: 'pointer', margin: 0, fontSize: '1.5rem', color: 'var(--primary-color)' }} onClick={() => navigate('dashboard')}>
           QuizMaster Local
         </h1>

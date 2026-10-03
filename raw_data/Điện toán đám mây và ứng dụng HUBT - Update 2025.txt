@@ -1,0 +1,1356 @@
+ĐIỆN TOÁN ĐÁM MÂY VÀ ỨNG DỤNG HUBT - UPDATE 2025
+Số câu hỏi: 226
+
+PHẦN 1
+
+Câu 1: Phát biểu nào sau đây là chính xác nhất về hình mẫu của điện toán đám mây?
+A. Thông tin được lưu trữ tạm thời tại các máy chủ trên Internet và được lưu trữ thường trực ở các máy khách
+* B. Thông tin được lưu trữ thường trực tại các máy chủ trên Internet và chỉ được lưu trữ tạm thời ở các máy khách
+C. Thông tin được lưu trữ thường trực tại các máy chủ trên Internet và chỉ được lưu trữ thường trực ở các máy khách
+D. Không có phát biểu nào đúng
+
+Câu 2: Trong điện toán đám mây, thuật ngữ nào mô tả bản chất về cơ sở hạ tầng và việc mở rộng hạ tầng tùy thuộc vào nhu cầu tài nguyên?
+A. Clustering
+* B. elasticity
+C. consolidation
+D. virtualization
+
+Câu 3: Mô hình dịch vụ Service category của loại PaaS gồm có những gì?
+A. Application and software rental
+B. VM rental, online storage
+* C. Online operating environment, online database, online message queues
+D. Không có đáp án đúng
+
+Câu 4: Kiến trúc SOA viết tắt của từ gì?
+A. single oriented architecture
+B. service of architecture
+* C. service oriented architecture
+D. Không có đáp án đúng
+
+Câu 5: Mô hình dịch vụ Service customization của loại IaaS gồm có những gì?
+A. Logic resource template
+* B. Server template
+C. Application template
+D. Logic resource template and Application template
+
+Câu 6: Điện toán đám mây còn gọi là gì?
+A. Điện toán lưới
+B. Điện toán máy chủ thật
+* C. Điện toán máy chủ ảo
+D. Không có đáp án đúng
+
+Câu 7: Dịch vụ PaaS là viết tắt của từ gì?
+* A. Platform as a Service
+B. Platform as a Server
+C. Plat as a Service
+D. Platform and a Service
+
+Câu 8: Kiểu dịch vụ Service monitoring của loại PaaS gồm có những gì?
+* A. logic resource monitoring
+B. physical resource monitoring
+C. application monitoring
+D. application monitoring, logic resource monitoring
+
+Câu 9: Kiểu dịch vụ Service monitoring của loại IaaS gồm có những gì?
+A. application monitoring
+B. logic resource monitoring
+* C. physical resource monitoring
+D. application monitoring, logic resource monitoring
+
+Câu 10: Đâu là nhược điểm của điện toán đám mây, chọn đáp án đúng nhất?
+A. Tính riêng tư, tính sẵn dùng, mất dữ liệu, khả năng bảo mật, quyền sở hữu
+B. Tính riêng tư, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật, quyền sở hữu
+* C. Tính riêng tư, tính sẵn dùng, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật, quyền sở hữu
+D. Tính riêng tư, tính sẵn dùng, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật
+
+Câu 11: Có bao nhiêu lớp thành phần trong điện toán đám mây?
+A. 2
+B. 4
+C. 3
+* D. 5
+
+Câu 12: Loại dịch nào mà người sử dụng sau khi thuê xong còn phải xây dựng thêm các thành phần nhiều nhất?
+A. Paas
+* B. Iaas
+C. Saas
+D. Không có đáp án đúng
+
+Câu 13: Trong hoạt động của điện toán đám mây lớp Back – End để làm gì?
+A. Không có đáp án đúng
+B. Là lớp chứa giao diện người dùng của ứng dụng
+C. Là lớp chứa toàn bộ các thành phần hoạt động
+* D. Là lớp chứa hạ tầng thiết bị
+
+Câu 14: Mô hình dịch vụ Service accessing and using của loại SaaS gồm có những gì?
+A. remote console, web services
+* B. web 2.0 access technology
+C. online development and debugging, integration of offline development tools and cloud
+D. web services and web 2.0 access technology
+
+Câu 15: Những loại dịch vụ nào khi thuê có Database?
+A. PaaS
+B. IaaS, PaaS
+C. SaaS
+* D. PaaS, SaaS
+
+Câu 16: Mô hình dịch vụ Service accessing and using của loại IaaS gồm có những gì?
+A. online development and debugging, integration of offline development tools and cloud
+* B. remote console, web services
+C. web 2.0 access technology
+D. web services and web 2.0 access technology
+
+Câu 17: Trong hoạt động của điện toán đám mây lớp Front – End để làm gì?
+A. Không có đáp án đúng
+B. Là lớp chứa hạ tầng thiết bị
+C. Là lớp chứa toàn bộ các thành phần hoạt động
+* D. Là lớp chứa giao diện người dùng của ứng dụng
+
+Câu 18: Kiến trúc SOA là kiến trúc gì?
+A. Kiến trúc hướng theo định hướng duy nhất
+* B. Kiến trúc hướng dịch vụ
+C. Kiến trúc đa tác vụ
+D. Không có đáp án đúng
+
+Câu 19: Mô hình dịch vụ Service category của loại SaaS gồm có những gì?
+A. VM rental, online storage
+* B. Application and software rental
+C. Online operating environment, online database, online message queues
+D. Không có đáp án đúng
+
+Câu 20: Điện toán đám mây có thể được xem như là giai đoạn tự nhiên tiếp theo từ mô hình điện toán nào?
+A. Mô hình điện toán theo nhu cầu
+* B. Mô hình điện toán lưới
+C. Mô hình điện toán tự trị
+D. Không có đáp án đúng
+
+Câu 21: Những loại dịch vụ nào khi thuê có Operating System?
+A. SaaS
+B. IaaS, PaaS
+* C. PaaS, SaaS
+D. PaaS
+
+Câu 22: Loại dịch vụ nào mà người sử dụng có được môi trường để lập trình chương trình ứng dụng?
+A. Iaas
+* B. Paas
+C. Saas
+D. Không có đáp án đúng
+
+Câu 23: Những loại dịch vụ nào khi thuê có Networking
+A. Saas"
+B. Iaas, Paas, Saas, Standalone Server
+C. Paas
+* D. Iaas, Paas, Saas
+
+Câu 24: Google Computer Engine là dịch vụ thuộc loại gì?
+A. SaaS
+B. PaaS
+* C. IaaS
+D. Không có đáp án đúng
+
+Câu 25: Mô hình dịch vụ Service category của loại IaaS gồm có những gì?
+A. Application and software rental
+B. Online operating environment, online database, online message queues
+* C. VM rental, online storage
+D. Không có đáp án đúng
+
+Câu 26: Tổng thể các thành phần của môi trường điện toán đám mây?
+A. application, platform, infrastructure
+B. client , application, Session, network, Data
+C. application , presentation, transport, network, Data
+* D. client , application, platform, infrastructure, server
+
+Câu 27: Những loại dịch vụ nào khi thuê có Storage?
+A. Iaas, Paas
+B. Iaas, Paas, Saas, Standalone Server
+C. Paas, Saas
+* D. Iaas, Paas, Saas
+
+Câu 28: Google App Engine là dịch vụ thuộc loại gì?
+A. Không có đáp án đúng
+B. SaaS
+C. IaaS
+* D. PaaS
+
+Câu 29: Mô hình dịch vụ Service customization của loại PaaS gồm có những gì?
+A. Server template
+* B. Logic resource template
+C. Application template
+D. Logic resource template and Application template
+
+Câu 30: Gmail là ứng dụng thuộc loại dịch vụ gì?
+A. IaaS
+B. PaaS
+* C. SaaS
+D. Không có đáp án đúng
+
+Câu 31: Với mô hình dịch vụ SaaS, người sử dụng phải tự xây dựng cái gì?
+A. thực thi, ứng dụng, dữ liệu
+B. ứng dụng, dữ liệu
+* C. dữ liệu
+D. nền tảng, thực thi, ứng dụng, dữ liệu
+
+Câu 32: Trong điện toán đám mây, thuật ngữ ảo hóa - Virtualization có ý nghĩa là?
+A. Nó tự động tải thêm các nền tảng hạ tầng
+B. Nó loại bỏ các hệ điều hành không hiệu quả
+C. Nó cải thiệu hiệu quả sử dụng các ứng dụng web
+* D. Nó tối ưu hóa việc sử dụng tài nguyên máy tính
+
+Câu 33: Facebook thuộc loại dịch vụ điện toán đám mây nào?
+A. Không có đáp án đúng
+B. Paas
+C. Iaas
+* D. Saas
+
+Câu 34: Thuật ngữ nào mô tả việc thanh toán dựa trên sự đóng gói các tài nguyên máy tính và tổng dung lượng sử dụng tài nguyên đó
+A. Recurring
+* B. Metered
+C. subscription
+D. per user based
+
+Câu 35: Dịch vụ IT truyền thống phải tự xây dựng bao nhiêu phần?
+A. thực thi, ứng dụng, dữ liệu
+* B. nền tảng, thực thi, ứng dụng, dữ liệu
+C. ứng dụng, dữ liệu
+D. nền tảng, thực thi
+
+Câu 36: Mô hình dịch vụ Service customization của loại SaaS gồm có những gì?
+A. Logic resource template and Application template
+B. Logic resource template
+C. Server template
+* D. Application template
+
+Câu 37: Những loại dịch vụ nào khi thuê có Runtimes?
+A. PaaS
+B. IaaS, PaaS
+C. SaaS
+* D. PaaS, SaaS
+
+Câu 38: Điện toán đám mây viết là gì?
+A. Cloud Internet
+B. Cloud Mobile
+* C. Cloud Computing
+D. Không có phương án đúng
+
+Câu 39: Dịch vụ IaaS là viết tắt của từ gì?
+A. Infra as a Service
+B. Infrasture as a Server
+* C. Infrasture as a Service
+D. Không có đáp án đúng
+
+Câu 40: Có bao nhiêu mô hình điện toán đám mây được triển khai trong thực tế?
+* A. 4
+B. 3
+C. 2
+D. 5
+
+Câu 41: SaaS được xem như đã bao gồm tích hợp với lớp nào của các dịch vụ điện toán đám mây?
+* A. Application
+B. Client
+C. Data
+D. Infrastructure
+
+Câu 42: Những loại dịch vụ nào khi thuê có Virtualization?
+A. Paas, Saas
+B. Iaas, Paas, Saas, Standalone Server
+C. Iaas, Paas
+* D. Iaas, Paas, Saas
+
+Câu 43: Thuật ngữ Cloud Computing ra đời vào năm nào?
+A. 2009
+B. 2008
+* C. 2007
+D. 2010
+
+Câu 44: những loại dịch vụ nào khi thuê có Application?
+A. PaaS
+* B. SaaS
+C. PaaS, SaaS
+D. IaaS, PaaS, SaaS
+
+Câu 45: Với mô hình dịch vụ IaaS, người sử dụng phải tự xây dựng cái gì?
+A. ứng dụng, dữ liệu
+B. nền tảng, thực thi, ứng dụng, dữ liệu
+* C. thực thi, ứng dụng, dữ liệu
+D. dữ liệu
+
+Câu 46: Những loại dịch vụ nào khi thuê có Server?
+A. Iaas, Paas, Saas, Standalone Server
+* B. Iaas, Paas, Saas
+C. Iaas, Paas
+D. Paas, Saas
+
+Câu 47: Với mô hình dịch vụ PaaS, người sử dụng phải tự xây dựng cái gì?
+A. thực thi, ứng dụng, dữ liệu
+B. dữ liệu
+* C. ứng dụng, dữ liệu
+D. nền tảng, thực thi, ứng dụng, dữ liệu
+
+Câu 48: Dịch vụ SaaS là viết tắt của từ gì?
+A. Software as a Server
+* B. Software as a Service
+C. Soft as a Service
+D. Software and a Service
+
+Câu 49: Mô hình dịch vụ Service accessing and using của loại PaaS gồm có những gì?
+A. remote console, web services
+* B. online development and debugging, integration of offline development tools and cloud
+C. web 2.0 access technology
+D. web services and web 2.0 access technology
+
+Câu 50: Loại dịch vụ nào mà người sử dụng chỉ cần thuê và đưa dữ liệu vào ứng dụng luôn?
+A. Iaas
+B. Paas
+* C. Saas
+D. Không có đáp án đúng
+
+Câu 51: Google Search là dịch vụ thuộc loại gì?
+A. IaaS
+* B. SaaS
+C. PaaS
+D. Không có đáp án đúng
+
+Câu 52: Có mấy mô hình triển khai của điện toán đám mây trong thực tế ?
+* A. 4
+B. 3
+C. 5
+D. 2
+
+Câu 53: Mô hình Private cluod sau khi xây dựng sẽ cung cấp các loại dịch vụ nào?
+A. IaaS, SaaS.
+* B. IaaS, PaaS, SaaS.
+C. IaaS
+D. PaaS.
+
+Câu 54: Phần nào không cần khai báo khi cấu hình máy chủ ảo?
+* A. Cloud SQL
+B. Tag
+C. Zone
+D. Name
+
+Câu 55: Điện toán máy chủ ảo hoạt động gồm có mấy lớp?
+A. 5 lớp
+B. 4 lớp
+* C. 2 lớp
+D. 3 lớp
+
+Câu 56: Dịch vụ nào là nền tảng đám mây cho việc triển khai xây dựng ứng dụng công nghệ thông tin trực tuyến.
+* A. PaaS
+B. SaaS
+C. IaaS
+D. XaaS
+
+Câu 57: Tổ chức hỗ trợ cộng đồng phù hợp với việc triển khai mô hình đám mây nào?
+A. Private cloud.
+B. Public cloud.
+* C. Community cloud.
+D. Hybrid cloud.
+
+Câu 58: Đâu là dịch vụ của Microsoft được phát triển theo mô hình Saas
+A. Windows Azure
+* B. Office 365
+C. OnDrive
+D. Windows Azure Platform
+
+Câu 59: Dạng dịch vụ nào sau đây không thuộc phạm vi cung cấp của PaaS?
+A. Các bộ lưu trữ dữ liệu.
+B. Các bộ nhớ mở rộng.
+* C. Các phần mềm ứng dụng.
+D. Các hệ điều hành máy tính.
+
+Câu 60: Để được xem một dịch vụ điện toán đám mây như là PaaS thì nó cần có
+A. Tự động mở rộng qui mô.
+B. Thời gian chạy trừu tượng (abstracted runtime)
+C. Lớp bộ nhớ đệm (catching layer)
+* D. Là tổng hợp tất cả các đáp án khác.
+
+Câu 61: IaaS là từ ?
+A. Infrasture as a Server
+B. Infrasture as all Service
+* C. Không có đáp án đúng
+D. Infra as a Service “
+
+Câu 62: Thuật ngữ Multi-tenancy trong điện toán đám mây được hiểu như thế nào?
+* A. Là dịch vụ chia sẻ một ứng dụng cho nhiều người dùng.
+B. Là dịch vụ bảo mật ứng dụng trên điện toán đám mây
+C. Là dịch vụ sử dụng được truy cập qua Internet.
+D. Là dịch vụ đáp ứng nhanh theo nhu cầu người dùng.
+
+Câu 63: Đặc trưng nào không thể hiện trên PaaS
+* A. Độc lập.
+B. Máy tính mở.
+C. Nền tảng web.
+D. Đáp ứng nhu cầu.
+
+Câu 64: Software as a Service được xem giống như là một dịch vụ hosted.
+* A. Đúng.
+B. Sai.
+C. Không chọn đáp án này.
+
+Câu 65: Hãng IBM mở trung tâm điện toán đám mây tại thị trơờng Việt Nam vào năm nào?
+A. 2010
+B. 2009
+* C. 2008
+D. 2011
+
+Câu 66: Public Cloud được hiểu đơn giản là gì?
+A. Một dịch vụ điện toán đám mây cho một cộng đồng nào đó.
+B. Một kiến trúc đám mây riêng duy trì trong trung tâm dữ liệu doanh nghiệp.
+* C. Một dịch vụ điện toán đám mây tiêu chuẩn cung cấp qua mạng Internet.
+D. Không chọn đáp án này.
+
+Câu 67: Câu số 67 Kiểu dịch vụ Service measurement của loại IaaS gồm có những gì?
+A. network, storage, and server virtualization
+B. logic resource usage metering
+C. application usage metering
+* D. physical resource metering
+
+Câu 68: Dịch vụ Google App Engine cung cấp dịch vụ thuộc dạng
+* A. Platform as a Service.
+B. Hardware as a Service.
+C. Infrastucture as a Service.
+D. Software as a Service.
+
+Câu 69: Kiểu dịch vụ security của loại SaaS gồm có những gì?
+* A. data isolation, operating environment isolation, SSI, Web authentication and authorization
+B. data isolation, operating environment isolation, SSL
+C. storage encryption and isolation, VM isolation, VLAN, SSL/SSH
+D. storage encryption and isolation, VM isolation
+
+Câu 70: Phải tự xây dựng bao nhiêu phần trong mô hình dịch vụ IT truyền thống?
+A. 2
+B. 3
+* C. 4
+D. 1
+
+Câu 71: Dịch vụ điện toán đám mây nào không phải do Google cung cấp?
+A. Dropbox
+B. Chrome
+* C. OneDrive
+D. Youtube
+
+Câu 72: Điều nào sau đây không phải là lơi thế của điện toán đám mây?
+A. Duy trì một mạng lưới điện toán đám mây là dễ dàng.
+* B. Không bận tâm đến không gian lưu trữ dữ liệu.
+C. Truy cập trực tuyến vào các tài nguyên mạng.
+D. Chỉ trả tiền cho những gì mình sử dụng.
+
+Câu 73: Google là công ty máy tính cung cấp dịch vụ triển khai mô hình điện toán đám mây nào?
+A. Private cloud.
+* B. Public cloud.
+C. Hybrid cloud.
+D. Public cloud và Private cloud.
+
+Câu 74: VPS là gì?
+A. Virtual pet site.
+B. Video programming System.
+C. Vietnamese professinals Society.
+* D. Virtual private server.
+
+Câu 75: Dịch vụ đám mây Google Computer Engine và Cloud SDK để thao tác với loại dịch vụ nào?
+A. Software-as-a-Service.
+* B. Infrastructure-as-a-Service.
+C. Không có đáp án đúng.
+D. Platform-as-a-Service.
+
+Câu 76: Kiểu dịch vụ Service optimization của loại IaaS gồm có những gì?
+* A. network, storage, and server virtualization
+B. large-scale distributed file system, database, middleware
+C. multi-tenancy
+D. multi-tenancy, network, storage
+
+Câu 77: Câu số 77 : Khi một công ty muốn phân phối sản phẩm theo mô hình SaaS thì cần tổ chức nó thế nào?
+A. Thanh toán theo thuê bao
+B. Kiến trúc chia sẻ cho nhiều người dùng (multi-tenant)
+* C. Là tất cả các lý do khác
+D. Truy cập qua Internet.
+
+Câu 78: Kiểu dịch vụ Service optimization của loại PaaS gồm có những gì?
+A. multi-tenancy
+B. network, storage, and server virtualization
+* C. large-scale distributed file system, database, middleware
+D. multi-tenancy, network, storage
+
+Câu 79: Một công ty cung cấp các dịch vụ điện toán đám mây là một môi trường, sao cho khách hàng xây dựng ứng dụng trên đó. Vậy, các dịch vụ của công ty thuộc loại mô hình nào?
+* A. Platform as a Service
+B. Softwareas a Service
+C. Infrastructure as a Service
+D. Computing as a Service
+
+Câu 80: Kiến trúc service oriented architecture là kiến trúc gì?
+A. Kiến trúc hơớng theo định hơớng duy nhất
+B. Kiến trúc hơớng đối tơợng
+* C. Không có đáp án đúng
+D. Kiến trúc đa tác vụ
+
+Câu 81: Hybrid cloud là gì?
+A. Là hệ thống mạng internet trong điện toán đám mây
+B. Là hệ thống mạng nội bộ của một tổ chức x hội có kết nối mạng toàn cầu.
+* C. Là một mô hình triển khai điện toán đám mây.
+D. Là hệ thống mạng cộng đồng.
+
+Câu 82: Một công ty cần cung cấp dịch vụ sử dụng các thiết bị đa dạng công nghệ thông tin cho khách hàng trên toàn thế giới. Thuộc tính nào của điện toán đám mây có thể giúp công ty thực hiện công việc này?
+A. Phổ biến rộng rãi
+B. Giá cả linh hoạt
+* C. Theo cấu trúc phát triển của phần mềm ứng dụng
+D. Theo cấu trúc mở rộng máy chủ
+
+Câu 83: Mô tả nào là đúng về dịch vụ Paltform as a Service của điện toán đám mây
+* A. Cung cấp một môi trường để các ứng dụng có thể chạy được và bao gồm một tập các dịch vụ cơ bản như bộ nhớ ngoài và cơ sở dữ liệu
+B. Cung cấp các nền tảng để người dùng có thể tạo được máy tính ảo và lưu trữ ảo
+C. Cung cấp các dịch vụ hạ tầng để người dùng có thể chạy các ứng dụng trên đó
+D. Cung cấp các dịch vụ hạ tầng để cho các ứng dụng web có thể chạy được
+
+Câu 84: Năm 2008, Hãng IBM có khách hàng đầu tiên tại việt nam là Công ty nào?
+A. Viettel IDC
+B. VNPT
+C. FPT
+* D. VNTT
+
+Câu 85: Dịch vụ Google drive có phải là một dạng của điện toán đám mây
+A. Sai
+* B. Đúng
+C. Không chọn đáp án này.
+
+Câu 86: Các dịch vụ theo mô hình Saas đóng góp phần nào trong đám mây lai – Hybird Cloud
+A. Cung cấp giải pháp hệ thống
+* B. Phần mềm ứng dụng trên đám mây
+C. Nền tảng hệ thống
+D. Tối ưu hoá quản lý phần cứng
+
+Câu 87: Kiểu dịch vụ security của loại PaaS gồm có những gì?
+A. load balance
+B. storage encryption and isolation, VM isolation, VLAN, SSL/SSH
+C. data isolation, operating environment isolation, SSI, Web authentication and authorization
+* D. data isolation, operating environment isolation, SSL
+
+Câu 88: Các bước tạo máy chủ ảo Google Engine thứ tự như thế nào?
+A. VM instances/ Computer engine/new instances / config VM
+B. Config VM/ Computer engine/VM instances/new instances
+* C. Computer engine/VM instances/new instances / config VM
+D. Computer engine/VM instances/ config VM /new instances
+
+Câu 89: Khó khăn khi triển khai sử dụng SaaS ở các doanh nghiệp?
+A. Hệ thống cũ đang hoạt động
+B. An ninh thông tin
+* C. Tất cả
+D. Thói quen người dùng
+
+Câu 90: Private Cloud là mô hình dịch vụ điện toán đám mây được xây dựng để phục vụ cho?
+A. Riêng cho một cộng đồng nào đó.
+* B. Nội bộ một tổ chức xã hội.
+C. Công cộng.
+D. Nền tảng điện toán đám mây.
+
+Câu 91: Thuật ngữ Rapid Service trong điện toán đám mây được hiểu như thế nào?
+* A. Là dịch vụ đáp ứng nhanh theo nhu cầu người dùng.
+B. Là dịch vụ chia sẻ ứng dụng cho nhiều người dùng.
+C. Là dịch vụ sử dụng được truy cập qua Internet.
+D. Là dịch vụ bảo mật ứng dụng trên điện toán đám mây
+
+Câu 92: Đám mây công cộng cung cấp những dịch vụ nào .
+A. Infrastructure-as-a-Service.
+B. Infrastructure-as-a-Service và Software-as-a-Service
+* C. Infrastructure-as-a-Service, Platform-as-a-Service và Software-as-a-Service
+D. Platform-as-a-Service và Software-as-a-Service
+
+Câu 93: Dịch vụ lưu trữ đám mây OneDrive là sản phẩm của công ty nào?
+* A. Microsoft
+B. Amazon
+C. Không có đáp án đúng
+D. Google
+
+Câu 94: Nền tảng nào không phải là nền tảng của điện toán đám mây?
+A. Không có đáp án đúng
+B. Amazone Webservice
+* C. Facebook
+D. Windows Azure
+
+Câu 95: Tính năng nào không được google hỗ trợ cho một máy chủ ảo?
+A. Metadata
+B. Image
+* C. e-mail
+D. Quotas
+
+Câu 96: Hình thức được sử dụng nhiều nhất trong điện toán đám mây là?
+A. Nền tảng như một dịch vụ (PaaS)
+B. Cơ sở hạ tầng như một dịch vụ (IaaS)
+* C. SaaS
+D. Dữ liệu như một dịch vụ (DAAS)
+
+Câu 97: Thứ tự đúng của mô hình điện toán máy chủ ảo?
+A. Client – Application– Infrastructure –Server – Platform.
+B. Client – Platform – Application– Infrastructure –Server.
+C. Client – Infrastructure – Platform –Application –Server.
+* D. Client – Application– Platform – Infrastructure –Server.
+
+Câu 98: Kiểu dịch vụ Service measurement của loại SaaS gồm có những gì?
+A. logic resource usage metering
+B. physical resource metering
+* C. application usage metering
+D. network, storage, and server virtualization
+
+Câu 99: Công nghệ điện toán đám mây được dùng để thay thế cho
+A. Các máy tính có cấu hình cao, đắt tiền.
+B. Trung tâm dữ liệu tập trung
+* C. Tất cả các đám án khác đều đúng.
+D. Các hệ thống phần mềm nâng cấp thường xuyên
+
+Câu 100: Muốn triển khai xây dựng mô hình điện toán đám mây riêng Private cloud thì lựa chọn mô hình của nhà cung cấp nào
+A. IBM.
+B. Microsoft.
+C. VMware.
+* D. IBM, VMware, Microsoft.
+
+Câu 101: App Engine PHP SDK của hãng nào?
+* A. Google.
+B. Amazon.
+C. Oracle.
+D. IBM.
+
+Câu 102: Google App Engine có bao nhiêu thành phần chính?
+A. 5
+B. 7
+* C. 6
+D. 8
+
+Câu 103: Mô hình đám mây nào thích hợp với doanh nghiệp?
+A. Đám mây cộng đồng.
+B. Đám mây công cộng.
+* C. Đám mây riêng.
+D. Đám mây lai.
+
+Câu 104: Kiểu dịch vụ Service measurement của loại PaaS gồm có những gì?
+A. physical resource metering
+* B. logic resource usage metering
+C. application usage metering
+D. network, storage, and server virtualization
+
+Câu 105: Dịch vụ nào sau đây không phải là một dạng của điện toán đám mây.
+A. Platform as a Service.
+* B. Hardware as a Service.
+C. Infrastructure as a Service.
+D. Software as Service.
+
+Câu 106: Ngơời sử dụng phải tự xây dựng mấy phần nếu thuê dịch vụ IaaS?
+A. 1
+B. 4
+C. 2
+* D. 3
+
+Câu 107: Một tổ chức quyết định sử dụng SaaS khi cần?
+* A. Tất cả các lý do khác
+B. Kinh doanh phần mềm
+C. Giá cả
+D. Bảo trì.
+
+Câu 108: Khi nào thì lựa chọn dịch vụ đám mây công cộng ( public cloud)?
+A. Người dùng có các ứng dụng Infrastructure-as-a-Service từ một nhà cung cấp có chiến lượng an ninh thực hiện tốt.
+* B. Người dùng có các ứng dụng Software-as-a-Service từ một nhà cung cấp có chiến lượng an ninh thực hiện tốt.
+C. Cả 3 phương án khác.
+D. Người dùng có các ứng dụng Platform-as-a-Service từ một nhà cung cấp có chiến lượng an ninh thực hiện tốt.
+
+Câu 109: Google App Engine được sử dụng để thao tác triển khai loại dịch vụ nào trong điện toán đám mây.
+A. Infrastructure-as-a-Service.
+B. Tất cả đáp án .
+C. Software-as-a-Service.
+* D. Platform-as-a-Service.
+
+Câu 110: Kiểu dịch vụ Service monitoring của loại SaaS gồm có những gì?
+A. logic resource monitoring
+* B. application monitoring
+C. physical resource monitoring
+D. application monitoring, logic resource monitoring
+
+Câu 111: Public clouds là gì?
+A. Là đám mây được chia sẻ bởi một số tổ chức và hỗ trợ một cộng đồng cụ thể có mối quan tâm chung.
+B. Là đám mây được quản lý bởi các công ty lớn chuyên cung cấp các dịch vụ cho cộng đồng.
+C. Là đám mây được cung cấp bên trong của một tổ chức x hội.
+* D. Là đám mây công cộng cố gắng cung cấp cho người tiêu dùng các phần tử công nghệ thông tin tốt nhất.
+
+Câu 112: Dịch vụ nào Google cung cấp miễn phí.
+A. Cloud SQL
+* B. Goole drive
+C. Compute Engine
+D. PreviewCloud Datastore
+
+Câu 113: Software as a Service sử dụng cùng một ứng dụng cho nhiều người dùng (multi-tenant)
+A. Không chọn đáp án này.
+* B. Đúng
+C. Sai.
+
+Câu 114: Kiểu dịch vụ security của loại IaaS gồm có những gì?
+A. load balance
+B. data isolation, operating environment isolation, SSL
+C. data isolation, operating environment isolation, SSI, Web authentication and authorization
+* D. storage encryption and isolation, VM isolation, VLAN, SSL/SSH
+
+Câu 115: Mô hình dịch vụ trong kiến trúc của điện toán đám mây là gì?
+A. Software-as-a-Service
+B. Platform-as-a-Service
+* C. Cả 3 mô hình dịch vụ
+D. Infrastructure-as-a-Service
+
+Câu 116: Multi-tenancy là một dạng kiến trúc trong SaaS, nó cho phép
+A. Một ứng dụng phần mềm chia sẻ cho nhiều người dùng.
+B. Các doanh nghiệp cùng thuê một tòa nhà.
+* C. Một ứng dụng phần mềm phục vụ nhiều khách hàng.
+D. Không chọn đáp án này.
+
+Câu 117: Phát biểu nào sai về đám mây cộng cộng ?
+A. Là mô hình các dịch vụ đám mây được bên thứ ba cung cấp.
+B. Các đám mây tồn tại ngoài tường lửa của công ty và tổ chức sử dụng.
+* C. Đám mây tồn tại bên trong tường lửa của các tổ chức và được tổ chức quản lý trực tiếp.
+D. Các đám mây được lưu trữ đầy đủ và được nhà cung cấp đám mây quản lý.
+
+Câu 118: Public cloud cung cấp các loại dịch vụ nào
+A. IaaS, SaaS.
+B. PaaS, SaaS,
+C. IaaS, PaaS,
+* D. IaaS, PaaS, SaaS
+
+Câu 119: Dịch vụ nào của đám mây Google không phát triển theo mô hình Saas
+A. Google mail
+B. Goolge drive
+C. Google maps
+* D. Google App Engine
+
+Câu 120: Phát biểu dưới đây đâu là phát biểu sai?
+* A. Hiện Google App Engine hỗ trợ các ngôn ngữ là:Python, Java, Delphi.
+B. Khi sử dụng Google app engine các nhà đầu tư e ngại vì toàn bộ dữ liệu đều nằm trong tay nhà cung cấp dịch vụ.
+C. Sử dụng google app engine thì phải phụ thuộc hoàn toàn vào dịch vụ của google.
+D. App Engine hỗ trợ HTTPS đối với domain con của .appspot.com những vẫn chưa hỗ trợ đối với các domain khác.
+
+Câu 121: Các dịch vụ điện toán đám mây theo mô hình triển khai thực tế Public cloud cho phép
+A. Không cho truy cập.
+B. Bảo mật truy cập và không phổ biến.
+C. Trả tiền cho truy cập.
+* D. Miễn phí truy cập và phổ biến
+
+Câu 122: Nền tảng như một dịch vụ PaaS được phát triển dựa trên nền tảng nào?
+* A. Infrastucture as a Service.
+B. Software as a Service.
+C. Communications as a Service (CaaS)
+D. Desktop as a Service (DaaS).
+
+Câu 123: Kiểu dịch vụ Service level management của loại IaaS gồm có những gì?
+A. dynamic orchestration of logic resources
+* B. dynamic orchestration of physical resources
+C. dynamic orchestration of applications
+D. multi-tenancy, network, storage
+
+Câu 124: Khi làm quen Google App Engine, Google cung cấp lập trình viên bao nhiêu tài nguyên miễn phí.
+* A. 500MB
+B. 1GB
+C. 250MB
+D. 100MB
+
+Câu 125: Community Cloud là mô hình dịch vụ điện toán đám mây được xây dựng để phục vụ cho?
+A. Nội bộ một tổ chức x hội.
+* B. Riêng cho một cộng đồng nào đó.
+C. Công cộng.
+D. Nền tảng điện toán đám mây.
+
+Câu 126: Kiểu dịch vụ Service integration and combination của loại PaaS gồm có những gì?
+A. SOA, mashup
+B. load balance
+* C. SOA
+D. usage metering
+
+Câu 127: Kiểu dịch vụ Service level management của loại SaaS gồm có những gì?
+A. dynamic orchestration of logic resources
+B. dynamic orchestration of physical resources
+* C. dynamic orchestration of applications
+D. multi-tenancy, network, storage
+
+Câu 128: Doanh nghiệp triển khai đám mây riêng gặp những khó khăn gì?
+* A. Cả 3 đáp án khác.
+B. Chi phí hoạt động liên tục của đám mây có thể vượt chi phí sử dụng một đám mây chung.
+C. Trách nhiệp thiết lập và bảo trì đám mây.
+D. Chi phí của việc thiết lập đám mây bên trong có thể có chiều hướng găn cản việc sử dụng.
+
+Câu 129: Các phần mềm dịch vụ (SaaS) được cài đặt ở đâu khi sử dụng
+* A. Không cần cài đặt, nó được phân phối thông qua mạng
+B. Trên thiết bị di động
+C. Thiết bị nào sử dụng đều phảI cài đặt phần mềm
+D. Trên máy tính
+
+Câu 130: Khi sử dụng các dịch vụ của Public cloud khách hàng phải trả tiền cho những dịch vụ nào?
+A. Nhà cung cấp dịch vụ điện toán đám mây.
+* B. Nhà cung cấp dịch vụ mạng.
+C. Miễn phí.
+D. Nhà cung cấp dịch vụ mạng và nhà cung cấp dịch vụ điện toán đám mây.
+
+Câu 131: Kiểu dịch vụ Service level management của loại PaaS gồm có những gì?
+A. application usage metering
+B. dynamic orchestration of applications
+C. dynamic orchestration of physical resources
+* D. dynamic orchestration of logic resources
+
+Câu 132: ứng dụng nào sau đây không sử dụng dịch vụ của đám mây?
+A. Google doc
+* B. Open office
+C. Google Drive
+D. Facebook
+
+Câu 133: Hãng Viettel IDC là nhà cung cấp các dịch vụ điện toán đám mây được thành lập vào năm nào?
+* A. 2008
+B. 2009
+C. 2010
+D. 2011
+
+Câu 134: Cách gọi khác về điện toán đám mây?
+A. Điện toán tự trị
+* B. Không có đáp án đúng
+C. Điện toán máy chủ thật
+D. Điện toán lơới
+
+Câu 135: SOA là kiểu kiến trúc, viết tắt của từ gì?
+A. single oriented architecture
+B. service oriented a line
+C. service of architecture
+* D. Không có đáp án đúng
+
+Câu 136: Công ty bạn đạng làm việc kinh doanh bằng cách cho thuê các máy chủ host làm dịch vụ cho web và email, đây là mô hình kinh doanh dựa trên loại dịch vụ nào
+* A. IaaS.
+B. SaaS
+C. PaaS.
+D. PaaS và IaaS.
+
+Câu 137: Phần mềm như một dịch vụ SaaS được phát triển dựa trên nền tảng nào?
+A. Infrastucture as a Service.
+* B. Platform as a Service.
+C. Communications as a Service (CaaS)
+D. Desktop as a Service (DaaS).
+
+Câu 138: Đâu là lợi thế khi sử dụng các phần mềm dịch vụ (SaaS)
+A. Chi phí đầu tư rẻ, cần ít người quản lý
+B. Không mất chi phí đầu tư phần cứng, chỉ phải mua phần mềm cài đặt
+* C. Không mất phí đầu tư hạ tầng và nhân sự quản lý
+D. Được dùng miễn phí
+
+Câu 139: Một doanh nghiệp cung cấp dịch vụ SaaS thì các sản phẩm của nó thuộc loại mô hình nào?
+* A. Application a Service
+B. Platform as a Service
+C. Computing as a Service
+D. Infrastructure as a Service
+
+Câu 140: Kiểu dịch vụ Service integration and combination của loại SaaS gồm có những gì?
+* A. SOA, mashup
+B. load balance
+C. SOA
+D. usage metering
+
+Câu 141: Phát biểu nào đúng về đám mây riêng?
+A. Là mô dình các dịch vụ đám mây được bên thứ ba cung cấp.
+B. Các đám mây tồn tại ngoài tường lửa của công ty và tổ chức sử dụng.
+C. Các đám mây được lưu trữ đầy đủ và được nhà cung cấp đám mây quản lý.
+* D. Đám mây tồn tại bên trong tường lửa của các tổ chức và được tổ chức quản lý trực tiếp.
+
+Câu 142: Chức năng Preview Cloud Datastore (cơ sở dữ liệu ảo) của điện toán máy chủ ảo do hãng nào cung cấp?
+A. Amazon
+B. Microsoft
+C. IBM
+* D. Google
+
+Câu 143: Mô hình triển khai nào của điện toán đám mây sẽ cho phép các nhà quản lý IT toàn quyền điều khiển các nguồn lực sẵn có
+A. Commnunity Cloud.
+B. Public Cloud
+C. Hybrid Cloud
+* D. Private Cloud
+
+Câu 144: Dịch vụ EC2 của Amazon ra mắt lần đầu vào năm nào?
+A. 2009
+B. 2008
+C. 2007
+* D. 2006
+
+Câu 145: EC2 là nền tảng cơ sở hạ tầng điện toán đám mây do hãng nào cung cấp?
+A. Microsoft.
+B. IBM.
+* C. Amazon.
+D. Google.
+
+Câu 146: Thuật ngữ Secure Service trong điện toán đám mây được hiểu như thế nào?
+* A. Là dịch vụ bảo mật ứng dụng trên điện toán đám mây
+B. Là dịch vụ chia sẻ ứng dụng cho nhiều người dùng.
+C. Là dịch vụ đáp ứng nhanh theo nhu cầu người dùng.
+D. Là dịch vụ sử dụng được truy cập qua Internet.
+
+Câu 147: Các dịch vụ điện toán đám mây theo mô hình triển khai thực tế Private cloud cho phép
+A. Trả tiền cho truy cập.
+B. Miễn phí truy cập và phổ biến.
+* C. Bảo mật truy cập và không phổ biến.
+D. Không cho truy cập.
+
+Câu 148: Ngơười sử dụng phải tự xây dựng mấy phần nếu thuê dịch vụ SaaS?
+A. 2
+* B. 1
+C. 3
+D. 4
+
+Câu 149: Một trong số các hạn chế của SaaS là gì?
+A. Hệ điều hành máy tính
+B. Cấu hình xử lý của mấy tính
+C. Hệ thống máy chủ
+* D. Kết nối mạng Internet
+
+Câu 150: Dịch vụ Email web-based thực hiện dựa trên nền tảng dịch vụ nào của điện toán đám mây?
+* A. Software as a Service
+B. Platform as a Service
+C. Infrastructure as a Service
+D. Computing as a Service
+
+Câu 151: Ngơời sử dụng phải tự xây dựng mấy phần nếu thuê dịch vụ PaaS?
+A. 4
+B. 3
+C. 1
+* D. 2
+
+Câu 152: Phần mềm dịch vụ (SaaS) có thể được ứng dụng cho những thiết bị nào?
+A. Điện thoại
+B. Máy tính
+C. Ô tô
+* D. Tất cả các thiết bị có kết nối mạng, internet
+
+Câu 153: Kiểu dịch vụ Service integration and combination của loại IaaS gồm có những gì?
+A. usage metering
+B. SOA
+C. SOA, mashup
+* D. load balance
+
+Câu 154: Mô hình đám mây riêng có lợi thế gì so với đám mây chung?
+A. Đám mây được lưu trữ đầy đủ và được quản lý chặt chẽ.
+B. Phân bố tải workload cho các ứng dụng được sử dụng bởi nhiều người.
+C. Có thể phục vụ tốt các quy trình nhiệp vụ tới hạn, an toàn, như các khoản thanh toán của khách , xử lý bảng lương của nhân viên…
+* D. Kiểm soát chi tiết hơn trên các tài nguyên khách nhau đang tạo thành một đám mây mang lại cho tất cả các tùy chọn cấu hình có sẵn.
+
+Câu 155: Phần mềm Office365 của Microsoft tương thích với hệ điều hành nào?
+A. Windows 8
+* B. Tất cả
+C. Linux
+D. Mac
+
+Câu 156: Kiểu dịch vụ Service optimization của loại SaaS gồm có những gì?
+A. application usage metering
+B. large-scale distributed file system, database, middleware
+C. network, storage, and server virtualization
+* D. multi-tenancy
+
+Câu 157: Private Cloud được hiểu đơn giản là gì?
+A. Một dịch vụ điện toán đám mây tiêu chuẩn cung cấp qua mạng Internet.
+* B. Một kiến trúc đám mây riêng duy trì trong trung tâm dữ liệu doanh nghiệp.
+C. Một dịch vụ điện toán đám mây cho một cộng đồng nào đó.
+D. Không chọn đáp án này.
+
+Câu 158: Khi xây dựng và khai thác một mô hình điện toán đám mây mà tổ chức cần kiểm soát chi tiết các tài nguyên, thì mô hình nào sẽ được lựa chọn.
+* A. Private cloud.
+B. Public cloud.
+C. Hybrid cloud.
+D. Comunity cloud.
+
+Câu 159: Trong công nghệ điện toán đám mây hiện đại thì vấn đề số một là gì
+* A. Bảo mật
+B. Đắt đỏ
+C. Quá nhiều nền tảng
+D. Khả năng truy cập
+
+Câu 160: Dịch vụ Google docs có phải là một dạng của điện toán đám mây
+A. Không chọn đáp án này.
+B. Sai
+* C. Đúng
+
+Câu 161: Một môi trường máy tính cho phép người dùng có thể truy cập vào các máy tính ảo thì thuộc mô hình nào của điện toán đám mây
+A. Platform as a Service
+B. Softwareas a Service
+C. Computing as a Service
+* D. Infrastructure as a Service
+
+Câu 162: Điện toán máy chủ ảo gồm mấy thành phần?
+* A. 5
+B. 3
+C. 4
+D. 2
+
+Câu 163: Software as a Service có thể được hiểu như thế nào?
+A. Dịch vụ cho thuê phần mềm qua mạng.
+B. Dịch vụ cho phép Download các phần mềm.
+C. Dịch vụ giao hàng các phần mềm.
+* D. Mô hình phân phối các phần mềm.
+
+Câu 164: Hội thảo “hành trình tới công nghệ điện toán đám mây” do Microsoft tổ chức ngày 2/3/2011 ở đâu?
+* A. Hà Nội
+B. Thành phố Hồ Chí Minh
+C. Đà Nẵng
+D. Huế
+
+Câu 165: Bộ phần mềm Visual Studio Online của Microsoft ứng dụng công nghệ nào?
+A. Máy chủ ảo hoá
+* B. Điện toán đám mây
+C. Web 2.0
+D. Client – Server
+
+Câu 166: Hiểu thế nào cho đúng về một nhà cung cấp dịch vụ ứng dụng chạy trên mạng
+* A. Nó thuộc loại SaaS
+B. Nó thuộc loại dịch vụ truy cập qua Internet
+C. Nó thuộc dạng dịch vụ máy tính hạ tầng
+D. Nó thuộc loại dịch vụ đo lường cho khách hàng
+
+Câu 167: Có bao nhiêu mô hình triển khai của dịch vụ điện toán đám mây
+A. 1
+B. 3
+C. 2
+* D. 4
+
+Câu 168: Giả sử công ty của bạn cần xây dựng hệ thống Email cho toàn bộ nhân viên và quản lý thông tin Email như một điễn đàn. Khi đó, cần lựa chọn dạng dịch vụ nào để triển khai
+A. Hybrid cloud
+B. Public cloud
+* C. Private cloud
+D. Community cloud.
+
+Câu 169: Dịch vụ nào không phải là dịch vụ lưu trữ đám mây
+A. Dropbox
+* B. Office 365
+C. Google Drive
+D. SkyDrive
+
+Câu 170: Phần mềm nào không thể triển khai trên đám mây theo mô hình SaaS
+A. Phần mềm quản lý nhân sự
+B. Phần mềm quản lý khách hàng
+C. Phần mềm kế toán
+* D. Tất cả
+
+Câu 171: Các đám mây lai (Hybird Cloud) phù hợp cho những đối tượng nào?
+A. Tổ chức nhà nước
+* B. Doanh nghiệp
+C. Doanh nghiệp, cá nhân
+D. Cá nhân
+
+Câu 172: Doanh nghiệp công nghệ Việt Nam nào duy nhất tham gia sự kiện tại Nhật, ngày 26/2/2014, do tập đoàn Nikkei tổ chức
+A. VNPT
+B. Viettel IDC
+* C. FPT
+D. VNTT
+
+Câu 173: Google App Engine cung cấp mấy môi trường thực thi tốt cho các ứng dụng?
+A. 4
+B. 3
+C. 1
+* D. 2
+
+Câu 174: sử dụng Google App Engine và App Engine PHP SDK để chạy website hỗ trợ ngôn ngữ và cơ sở dữ liệu nào?
+A. PHP và SQL.
+B. ASP và Accese.
+* C. PHP và My SQL.
+D. Java và oracle .
+
+Câu 175: Phần mềm dịch vụ SaaS là gì?
+A. Là phần mềm được đóng gói bán cho người dùng cài đặt tại máy tính
+B. Phần mềm được đóng gói để người dùng cài đặt tại máy chủ
+C. Phần mềm được cài đặt và chạy trên website
+* D. Là phần mềm ứng dụng công nghệ điện toán đám mây
+
+Câu 176: Các dịch vụ như gmail, google doc, facebook thuộc loại dịch vụ nào của điện toán đám mây?
+A. Infrastructure-as-a-Service.
+B. Platform-as-a-Service.
+* C. Software-as-a-Service.
+D. Không có đáp án đúng..
+
+Câu 177: Yếu tố nào không phải là lợi thế của SaaS so với các đám mây riêng?
+A. Tốc độ triển khai
+B. Hỗ trợ người ding
+* C. Bảo mật
+D. Chi phí triển khai và nâng cấp
+
+Câu 178: Tính năng nào sau đây không có trong ứng dựng điện toán đám mây Private cloud
+* A. Thanh toán tiền theo đồng hồ đo.
+B. Cổng thông tin tự phục vụ.
+C. Kết nối trực tiếp đến nhà hỗ trợ.
+D. Tính đàn hồi nhanh (rapid elasticity).
+
+Câu 179: Điện toán đám mây có thể đơợc xem nhơ là giai đoạn tự nhiên tiếp theo từ mô hình điện toán nào?
+A. Mô hình điện toán máy chủ thật
+B. Mô hình điện toán tự trị
+C. Mô hình điện toán theo nhu cầu
+* D. Không có đáp án đúng
+
+Câu 180: Amazone cung cấp miễn phí tài khoản Amazone EC2 trong thời gian bao lâu?
+A. 3 tháng
+B. 6 tháng
+C. 9 tháng
+* D. 12 tháng
+
+Câu 181: Đâu là tình năng không thuộc phạm vi phục vụ của SaaS?
+A. Email
+B. Searchin integer
+C. Clusted
+* D. Running
+
+Câu 182: Điện toán đám mây có thể được xem như là giai đoạn tự nhiên tiếp theo từ mô hình điện toán nào?
+* A. Mô hình điện toán lưới
+B. Mô hình điện toán theo nhu cầu
+C. Mô hình điện toán tự trị
+D. Không có đáp án đúng
+
+Câu 183: Các đám mây lai hầu hết thường được sử dụng làm:
+A. Một đối tác, nơi các ứng dụng lưu trú trong đám mây và các ứng dụng quan trọng vẫn còn trên trang web.
+B. Không có đáp án đúng
+* C. Khả năng bổ sung hay khả năng bùng nổ, nơi đám mây được sử dụng cho các đột biến bất ngờ.
+D. Một nơi thí nghiệm, nơi đám mây được sử dụng với vùng làm việc tạm thời.
+
+Câu 184: VMware vSphere là phần mềm gì ?
+A. Chương trình ảo hóa dành cho desktop
+* B. Chương trình ảo hóa dành cho máy chủ, máy trạm
+C. Quản lý hạ tầng mạng trong điện toán đám mây
+D. 2010
+
+Câu 185: Các vấn đề liên quan đến bảo mật trên đám mây lai
+A. Không kiểm soát trên dữ liệu, bảo mật và bảo trì được giao phó cho nhà cung cấp dịch vụ của bạn
+* B. Logic resource template and Application template
+C. Không trực tiếp kiểm soát về sao lưu, tăng nguy cơ mất dữ liệu
+D. Không biết các vị trí vật lý của dữ liệu
+
+Câu 186: Storage Vmotiontrong vSphere để làm gì ?
+A. Mở rộng tài nguyên CPU, RAM của host mà không cần có downtime
+B. Đảm bảo tính liên tục của công việc khi một hệ thống có lỗi
+* C. Di chuyển nhanh chóng các máy ảo sang một hệ thống khác mà không có
+D. dữ liệu
+
+Câu 187: Đâu không phải là lợi ích khi triển khai đám mây lai:
+A. Hỗ trợ khả năng kiểm soát dữ liệu đa dạng, tăng tốc độ truy cập giữa hệ thông và các ứng dụng
+* B. Không có đáp án đúng
+C. Tăng khả năng mở rộng mà không cần nâng cấp cơ sở hạ tầng
+D. hỗ trợ xử lý cao điểm - nhiều thời điểm khi khả năng xử lý của đám mây nội bộ không thể đáp ứng được nhu cầu trong doanh nghiệp
+
+Câu 188: Google App Engine được phát triển theo mô hình nào sau đây ?
+A. Software-as-a-Service
+B. Infrastructure-as-a-Service
+C. Storage-as-a-Service
+* D. Không có đáp án đúng
+
+Câu 189: Google Compute Engine là giải pháp gì?
+* A. Không có đáp án đúng
+B. Giải pháp ảo hoá cho máy chủ vật lý cá nhân
+C. Giải pháp cung cấp nền tảng để phát triển ứng dụng trên đám mây
+D. Giải pháp triển khai đám mây riêng cho doanh nghiệp
+
+Câu 190: Các dịch vụ từ đám mây công cộng nào có thể kết hợp đưa vào đám mây lai
+A. Amazone
+* B. Logic resource template and Application template
+C. Microsoft
+D. Google
+
+Câu 191: Đâu là lợi ích của đám mây lai ?
+A. Doanh nghiêp có thể cắt giảm khả năng lưu trữ nội bộ bởi vì bạn có thể di chuyển tất cả các dữ liệu không cần thiết lên đám mây bên ngoài của bạn và chỉ lưu trữ tại chỗ dữ liệu quan trọng nhất.
+B. Hỗ trợ khả năng kiểm soát dữ liệu đa dạng, tăng tốc độ truy cập giữa hệ thông và các ứng dụng
+* C. Logic resource template and Application template
+D. Đám mây lai hỗ trợ xử lý cao điểm - nhiều thời điểm khi khả năng xử lý của đám mây nội bộ không thể đáp ứng được nhu cầu trong doanh nghiệp.
+
+Câu 192: Dịch vụ Google App Engine hỗ trợ cho công nghệ lập trình nào để xây dựng các ứng dụng đám mây
+A. Java, VB 6.0
+* B. web services and web 2.0 access technology
+C. C++, Pascal
+D. VB 6.0, VB.Net
+
+Câu 193: Dịch vụ điện toán đám mây Google cung cấp gồm những gì ?
+A. Google Apps
+B. Google App Engine
+C. Google Compute Engine
+* D. Không có đáp án đúng
+
+Câu 194: Đám mây Hybrid (lai) là gì?
+A. Là mô hình trong đó hạ tầng đám mây được sở hữu bởi một tổ chức và phục vụ cho người dùng của tôt chức đó
+B. Là mô hình mà hạ tầng đám mây được một tổ chức sỡ hữu và cung cấp dịch vụ rộng ri cho tất cả các khách hàng thông qua hạ tầng mạng Internet hoặc các mạng công cộng diện rộng
+* C. Là mô hình bao gồm hai hoặc nhiều hơn các đám mây trên tích hợp chia sẻ hạ tầng với nhau
+D. Không có đáp án đúng
+
+Câu 195: Dịch vụ Google Compute Engine được xem như là loại hình
+A. Software as a Service
+B. Database as a Service
+C. Platform as a Service
+* D. web services and web 2.0 access technology
+
+Câu 196: Đâu không phải là kịch bản để ứng dụng Windows Azure
+A. Tạo môt ứng dụng web có khả năng mở rộng
+B. Tạo môt ứng dụng xử lí song song
+C. Tạo một ứng dụng Web với dữ liệu quan hệ
+* D. PaaS
+
+Câu 197: Các thành phần chính trong trong Windows Azure Platform gồm:
+A. Windows Server 2008, SQL Azure,Windows Azure Platform ApppFabric
+B. Windows Server 2008, SQL Server, IIS
+C. Windows Server 2008, SQL Azure, Apache, Windows Azure Platform ApppFabric
+* D. Không có đáp án đúng
+
+Câu 198: Distributed Resource scheduler & distributed power manager trong vSphere để làm gì ?
+A. Tự động cân bằng tải trên storage
+B. quản lý tập trung và theo dõi các kết nối mạng
+* C. nền tảng, thực thi
+D. tạo các máy ảo thông qua các template
+
+Câu 199: VMware Sphere phiên bản 5.5 hỗ trợ cấu hình đến mức nào cho mỗi host (máy chủ cài đặt vSphere ) ?
+A. 160 CPU và 2TB RAM
+B. 8 CPU và 1TB RAM
+* C. Không có đáp án đúng
+D. 32 CPU và 3TB RAM
+
+Câu 200: Giải pháp VMware vCloud Suite bao gồm những phần mềm nào?
+A. VMware vSphere
+B. VMware vCloud Director
+* C. Không có phương án đúng
+D. VMware vCloud Networking and Security và vCenter Site Recovery Manager
+
+Câu 201: Google App Engine là gì
+A. Là phần mềm ảo hoá của Google
+* B. Là dịch vụ PaaS
+C. Là dịch vụ phân phối hạ tầng máy tính
+D. Là dịch vụ cung cấp ứng dụng trên đám mây
+
+Câu 202: SQL Azure là gì ?
+A. Là môt phần của Microsoft SQL Server
+* B. Là dịch vụ cơ sở dữ liệu quan hệ của Microsoft trên máy chủ ảo
+C. Là dịch vụ cơ sở dữ liệu quan hệ trên máy chủ
+D. Iaas, Paas
+
+Câu 203: Dịch vụ Google Cloud SQL của Google là loại hình dịch vụ nào (trả lời đúng nhất)
+A. Software as a Service
+B. application monitoring, logic resource monitoring
+C. Infrastructure as a Service
+* D. Platform as a Service
+
+Câu 204: SmartCloud Enterprise là giải pháp đám mây do công ty nào phát triển?
+A. Microsoft
+B. Oracle
+C. VMware
+* D. IaaS, PaaS, SaaS
+
+Câu 205: SQL Azure dựa vào cơ cấu cơ sở dữ liệu quan hệ nào sau đây:
+A. My SQL
+B. Oracle
+C. DB2
+* D. Paas, Saas
+
+Câu 206: Đám mây SmartCloud Enterprise làm việc với các hệ điều hành nào?
+A. Linux,Windows, Ubuntu, Mac OS
+B. Windows, Mac OS
+C. Linux,Windows, Ms-DOS, Android
+* D. Không có đáp án đúng
+
+Câu 207: Chức năng Storage DRS trong vSphere để làm gì ?
+A. Thiết lập lưu trữ trong ảo hoá
+B. Bảo vệ dữ liệu, backup và restore các máy ảo
+C. Cho phép tạo, cấu hình các vùng bảo mật
+* D. Không có đáp án đúng
+
+Câu 208: VMware vClond Suite là sản phẩm của công ty nào?
+A. Microsoft
+B. IBM
+* C. Không có đáp án đúng
+D. Oracle
+
+Câu 209: Tính năng chính của Hyper –V là gì?
+A. PaaS
+B. Hỗ trợ kết nối nhiều server với nhau
+C. Xây dựng hệ quản trị cơ sở dữ liệu trên đám mây
+* D. Hỗ trợ ảo hoá và điện toán đám mây
+
+Câu 210: Chức năng của VMware vCloud Networking and Security là gì ?
+A. Sao lưu và phục hồi cấu hình đám mây
+B. Khôi phục thảm hoạ trên đám mây
+* C. Software and a Service
+D. Phân bố tài nguyên đám mây
+
+Câu 211: Vmotion trong vSphere để làm gì ?
+A. Di chuyển động các máy ảo sang các phân vùng storage khác mà không có downtime
+* B. Không có đáp án đúng
+C. Đảm bảo tính liên tục của công việc khi một hệ thống có lỗi
+D. Mở rộng tài nguyên CPU, RAM của host mà không cần có downtime
+
+Câu 212: Sản phẩm VMware inc nào cung cấp giải pháp ảo hoá - điện toán đám mây?
+A. VMware vSphere
+B. Không có phát biểu nào đúng
+* C. Tất cả các ý
+D. VMware vCloud Director
+
+Câu 213: Chức năng của vCentrer Site Recovery Manager là gì ?
+* A. Không có đáp án đúng
+B. Cho phép tạo ra các dịch vụ mang ảo
+C. Tự động cập nhật các phiên bản mới cho VMware vCloud Suite
+D. Khôi phục và phục hồi trạng thái trước khi cài đặt
+
+Câu 214: Windows Azure là gì?
+A. Là hệ điều hành máy chủ mới của Microsoft
+* B. Là hệ điều hành đám mây của Microsoft
+C. Là hệ điều hành chạy trên các máy ảo trên đám mây
+D. Là một phần mềm hỗ trợ cho Windows Server
+
+Câu 215: Các máy chủ trong Google Compute Engine hỗ trợ những hệ điều hành nào:
+A. Windows Azure, Linux, Red Hat
+B. Tính riêng tư, tính sẵn dùng, tính di động dữ liệu, mất dữ liệu, khả năng bảo mật
+* C. Windows Server, Linux, Red Hat, Centos
+D. Hỗ trợ mọi phiên bản Windows, Linux, Red Hat, Centos
+
+Câu 216: Các máy chủ ảo do Windows Azure tạo ra có thể chạy được các hệ điều hành nào sau đây ?
+* A. PaaS
+B. Windows Server 8
+C. Linux
+D. Windows Server 2008 R2
+
+Câu 217: Vmware vCloud Director cung cấp khả năng quản lí tài nguyên ảo qua giao diện nào ?
+A. Giao diện trên Windows
+* B. nền tảng, thực thi, ứng dụng, dữ liệu
+C. Giao diện thiết bị chuyện dụng
+D. Giao diện trên Linux
+
+Câu 218: Dịch vụ Google Cloud Storage là dịch vụ để lưu trữ của Google, nó thuộc loại hình dịch vụ nào?
+A. Software as a Service
+B. Database as a Service
+* C. application monitoring, logic resource monitoring
+D. Platform as a Service
+
+Câu 219: Đâu là tình năng không thuộc thành phần VMware vSphere?
+* A. Không có đáp án đúng
+B. Configuration Backup & Restore
+C. Roll-back và Recovery
+D. Network Health Check
+
+Câu 220: Dịch vụ nào của Google dùng để làm nền tảng xây dựng các ứng dụng SaaS
+* A. web services and web 2.0 access technology
+B. Google drives
+C. Google Search
+D. Google docs
+
+Câu 221: Thành phần nào không phải của Windows Azure bao gồm:
+A. Computer Service
+B. Storage Service
+C. Windows Azure Fabric
+* D. Saas
+
+Câu 222: Windows Azure do công ty nào phát triển?
+* A. Microsoft
+B. IBM
+C. Không có đáp án đúng
+D. Oracle
+
+Câu 223: Bộ dịch vụ lưu trữ trong Windows Azure gồm thành phần nào:
+* A. Paas, Saas
+B. Blob, Table, Sheet
+C. Table, SQL Azure
+D. SQL, Table, Queue, Sheet
+
+Câu 224: Windows Azure Platform là gì?
+A. Một hệ điều hành cho máy tính
+B. Hệ điều hành Windows cho máy chủ đám mây
+* C. Không có đáp án đúng
+D. Phần mềm quản lý đám mây ảo
+
+Câu 225: Chức năng của VMware vCloud Director là gì ?
+A. ảo hoá các máy chủ
+B. ảo hoá hệ thống mạng
+C. Quản lý mạng ảo
+* D. nền tảng, thực thi, ứng dụng, dữ liệu
+
+Câu 226: Có bao nhiêu lớp thành phần trong điện toán đám mây?
+A. 2
+B. 4
+C. 3
+* D. 5

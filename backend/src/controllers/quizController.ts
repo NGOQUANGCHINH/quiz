@@ -3,11 +3,25 @@ import { readJsonFile, writeJsonFile } from '../utils/fileStorage';
 import { QuizData } from '../types';
 import { ParserFactory } from '../parsers/parserFactory';
 
-const QUIZZES_FILE = 'quizzes.json';
+const QUIZ_SOURCES = [
+  { file: 'dien-toan-dam-may.json', id: '9ded75fa-c744-4e8a-a594-03ec54ec4eda', title: 'Điện toán đám mây và ứng dụng HUBT - Update 2025' },
+  { file: 'dien-toan-dam-may-update-2025.json', id: '841065c2-8390-41cb-8b91-e4aaacea3b83', title: 'ĐIỆN TOÁN ĐÁM MÂY VÀ ỨNG DỤNG HUBT - UPDATE 2025' },
+  { file: 'ma-nguon-mo.json', id: '2d83d1d8-5acc-415e-8d75-92a4f9b5ce2d', title: 'Mã nguồn mở HUBT - Update 2025' }
+];
+
+const loadDynamicQuizzes = (): QuizData[] => {
+  return QUIZ_SOURCES.map(source => {
+    const questions = readJsonFile<any[]>(source.file, []);
+    return {
+      id: source.id,
+      title: source.title,
+      questions: questions
+    };
+  });
+};
 
 export const getQuizzes = (req: Request, res: Response) => {
-  const quizzes = readJsonFile<QuizData[]>(QUIZZES_FILE, []);
-  // Return without full questions to save bandwidth on listing
+  const quizzes = loadDynamicQuizzes();
   const summary = quizzes.map(q => ({
     id: q.id,
     title: q.title,
@@ -17,7 +31,7 @@ export const getQuizzes = (req: Request, res: Response) => {
 };
 
 export const getQuizById = (req: Request, res: Response) => {
-  const quizzes = readJsonFile<QuizData[]>(QUIZZES_FILE, []);
+  const quizzes = loadDynamicQuizzes();
   const quiz = quizzes.find(q => q.id === req.params.id);
   if (quiz) {
     res.json(quiz);

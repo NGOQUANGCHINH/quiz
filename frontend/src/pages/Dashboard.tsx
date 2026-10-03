@@ -51,19 +51,21 @@ export default function Dashboard({ navigate }: Props) {
         </button>
       </div>
 
-      {progressList.length > 0 && (
-        <div style={{ marginBottom: '2rem' }}>
-          <h3 style={{ color: 'var(--primary-color)', marginBottom: '1rem' }}>Bài đang làm dở</h3>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
-            {progressList.map(p => (
-              <div key={p.id} className="card" style={{ borderLeft: '4px solid var(--primary-color)' }}>
-                <h4 style={{ marginBottom: '0.5rem' }}>{p.title}</h4>
-                <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem' }}>
+      {progressList.filter(p => Object.keys(p.answers).length > 0).length > 0 && (
+        <div style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '2px dashed var(--border-color)' }}>
+          <h3 style={{ color: 'var(--primary-color)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <RotateCcw size={20} /> Bài đang làm dở
+          </h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
+            {progressList.filter(p => Object.keys(p.answers).length > 0).map(p => (
+              <div key={p.id} className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+                <h3 style={{ marginBottom: '0.5rem', fontSize: '1.2rem' }}>{p.title}</h3>
+                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
                   Tiến trình: {Object.keys(p.answers).length} / {p.questions.length} câu
                 </p>
-                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                <div style={{ display: 'flex', gap: '0.5rem', marginTop: 'auto' }}>
                   <button className="btn btn-primary" style={{ flex: 1 }} onClick={() => resumeProgress(p)}>
-                    Tiếp tục
+                    <Play /> Tiếp tục
                   </button>
                   <button className="btn btn-outline" style={{ padding: '0.5rem' }} onClick={() => deleteProgress(p.id)}>
                     <Trash2 />
@@ -75,28 +77,28 @@ export default function Dashboard({ navigate }: Props) {
         </div>
       )}
 
-      {quizzes.length === 0 ? (
-        <div className="card" style={{ textAlign: 'center', padding: '3rem' }}>
-          <p style={{ color: 'var(--text-secondary)' }}>Chưa có bộ đề nào. Hãy thêm bộ đề mới!</p>
-        </div>
-      ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
-          {quizzes.map(quiz => (
-            <div key={quiz.id} className="card">
-              <h3 style={{ marginBottom: '0.5rem', fontSize: '1.2rem' }}>{quiz.title}</h3>
-              <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{quiz.questionCount} câu hỏi</p>
-              <div style={{ display: 'flex', gap: '0.5rem' }}>
-                <button className="btn btn-primary" style={{ flex: 1 }} onClick={() => navigate('setup', { quizId: quiz.id })}>
-                  <Play /> Bắt đầu làm
-                </button>
-                {/* <button className="btn btn-outline" style={{ flex: 1 }} onClick={() => navigate('setup', { quizId: quiz.id, mode: 'practice' })}>
-                  <RotateCcw size={18} /> Ôn tập
-                </button> */}
+      <div>
+        <h3 style={{ marginBottom: '1.5rem' }}>Tất cả bộ đề</h3>
+        {quizzes.length === 0 ? (
+          <div className="card" style={{ textAlign: 'center', padding: '3rem' }}>
+            <p style={{ color: 'var(--text-secondary)' }}>Chưa có bộ đề nào. Hãy thêm bộ đề mới!</p>
+          </div>
+        ) : (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
+            {quizzes.map(quiz => (
+              <div key={quiz.id} className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+                <h3 style={{ marginBottom: '0.5rem', fontSize: '1.2rem' }}>{quiz.title}</h3>
+                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{quiz.questionCount} câu hỏi</p>
+                <div style={{ display: 'flex', gap: '0.5rem', marginTop: 'auto' }}>
+                  <button className="btn btn-primary" style={{ flex: 1 }} onClick={() => navigate('setup', { quizId: quiz.id })}>
+                    <Play /> Bắt đầu làm
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      )}
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
