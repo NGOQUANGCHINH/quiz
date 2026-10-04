@@ -65,9 +65,11 @@ function App() {
           QuizMaster Local
         </h1>
         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-          <button onClick={() => window.location.reload()} className="btn btn-neutral" title="Cập nhật tất cả bộ đề">
-            <RefreshCw size={18} /> Update
-          </button>
+          {import.meta.env.DEV && (
+            <button onClick={() => window.location.reload()} className="btn btn-neutral" title="Cập nhật tất cả bộ đề">
+              <RefreshCw size={18} /> Update
+            </button>
+          )}
           <button onClick={toggleTheme} className="btn btn-neutral">
             {theme === 'light' ? <><Moon size={18} /> Dark Mode</> : <><Sun size={18} /> Light Mode</>}
           </button>
