@@ -294,8 +294,8 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       </div>
 
       {/* Right Area - Question List */}
-      <div style={{ height: 0, minHeight: '100%' }}>
-        <div className="card" style={{ display: 'flex', flexDirection: 'column', padding: '1rem', position: 'sticky', top: '2rem', maxHeight: 'calc(100vh - 4rem)', height: '100%' }}>
+      <div className="quiz-right-area">
+        <div className="card quiz-question-list-card">
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0, marginBottom: '1rem' }}>
           <div style={{ display: 'flex', gap: '0.5rem' }}>
             <button className="btn btn-neutral" style={{ flex: 1, padding: '0.75rem 0.5rem' }} disabled={currentQIndex === 0} onClick={() => changeQuestion(currentQIndex - 1)}>
