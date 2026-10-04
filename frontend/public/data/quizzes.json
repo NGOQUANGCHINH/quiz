@@ -2,25 +2,19 @@
   {
     "id": "9ded75fa-c744-4e8a-a594-03ec54ec4eda",
     "title": "Điện toán đám mây và ứng dụng HUBT - Update 2025",
-    "questionCount": 226,
-    "fileUrl": "dien-toan-dam-may.json"
-  },
-  {
-    "id": "841065c2-8390-41cb-8b91-e4aaacea3b83",
-    "title": "ĐIỆN TOÁN ĐÁM MÂY VÀ ỨNG DỤNG HUBT - UPDATE 2025",
-    "questionCount": 226,
-    "fileUrl": "dien-toan-dam-may-update-2025.json"
+    "fileUrl": "dien-toan-dam-may.json",
+    "questionCount": 226
   },
   {
     "id": "2d83d1d8-5acc-415e-8d75-92a4f9b5ce2d",
     "title": "Mã nguồn mở HUBT - Update 2025",
-    "questionCount": 261,
-    "fileUrl": "ma-nguon-mo.json"
+    "fileUrl": "ma-nguon-mo.json",
+    "questionCount": 261
   },
   {
-    "id": "76e33fbd-63b7-4b77-a8b2-132d725d2b1f",
-    "title": "Điện toán đám mây data (Mã nguồn mở Update)",
-    "questionCount": 261,
-    "fileUrl": "dien-toan-dam-may-data.json"
+    "id": "6d547066-a667-4967-bba7-94c1bce3d39c",
+    "title": "Lập trình C++ / Hướng đối tượng HUBT",
+    "fileUrl": "lap-trinh-c-plus-plus.json",
+    "questionCount": 226
   }
 ]

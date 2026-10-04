@@ -3,10 +3,12 @@ import { readJsonFile, writeJsonFile } from '../utils/fileStorage';
 import { QuizData } from '../types';
 import { ParserFactory } from '../parsers/parserFactory';
 
+const QUIZZES_FILE = 'quizzes.json';
+
 const QUIZ_SOURCES = [
   { file: 'dien-toan-dam-may.json', id: '9ded75fa-c744-4e8a-a594-03ec54ec4eda', title: 'Điện toán đám mây và ứng dụng HUBT - Update 2025' },
-  { file: 'dien-toan-dam-may-update-2025.json', id: '841065c2-8390-41cb-8b91-e4aaacea3b83', title: 'ĐIỆN TOÁN ĐÁM MÂY VÀ ỨNG DỤNG HUBT - UPDATE 2025' },
-  { file: 'ma-nguon-mo.json', id: '2d83d1d8-5acc-415e-8d75-92a4f9b5ce2d', title: 'Mã nguồn mở HUBT - Update 2025' }
+  { file: 'ma-nguon-mo.json', id: '2d83d1d8-5acc-415e-8d75-92a4f9b5ce2d', title: 'Mã nguồn mở HUBT - Update 2025' },
+  { file: 'lap-trinh-c-plus-plus.json', id: '6d547066-a667-4967-bba7-94c1bce3d39c', title: 'Lập trình C++ / Hướng đối tượng HUBT' }
 ];
 
 const loadDynamicQuizzes = (): QuizData[] => {

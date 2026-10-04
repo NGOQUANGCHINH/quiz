@@ -221,6 +221,18 @@ h1, h2, h3, h4 {
 }
 
 /* Mobile Responsiveness */
+.code-block {
+  background-color: var(--neutral-bg);
+  border: 1px solid var(--neutral-border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+  font-size: 0.95em;
+  color: var(--text-primary);
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 16px; /* Reset font size for smaller screens */

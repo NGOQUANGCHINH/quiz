@@ -11,6 +11,53 @@ interface Props {
 
 const LABELS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
+// Tách text thành tokens (mỗi ký tự đặc biệt là 1 token riêng)
+const tokenize = (text: string) => text.split(/(\s+|[:;,(){}\[\]])/).filter(Boolean);
+
+// Highlight các phần khác nhau giữa các đáp án
+const highlightDiffs = (answers: { id: string; text: string }[]) => {
+  if (answers.length < 2) return answers.map(a => a.text);
+  const tokenized = answers.map(a => tokenize(a.text));
+  // Tìm các token xuất hiện ở mọi đáp án => chung, còn lại là khác biệt
+  const commonSet = new Set(tokenized[0]);
+  for (let i = 1; i < tokenized.length; i++) {
+    const s = new Set(tokenized[i]);
+    for (const t of commonSet) { if (!s.has(t)) commonSet.delete(t); }
+  }
+  return tokenized.map(tokens =>
+    tokens.map(tok => {
+      if (/^\s+$/.test(tok)) return tok;
+      if (!commonSet.has(tok))
+        return `<strong style="color: var(--primary-color);">${tok}</strong>`;
+      return tok;
+    }).join('')
+  );
+};
+
+
+const formatQuestionText = (text: string) => {
+  // Render code blocks, and inside them highlight the "key" lines
+  let html = text.replace(/```[a-z]*\n([\s\S]*?)\n?```/gi, (_match, code: string) => {
+    const lines = code.split('\n');
+    const highlighted = lines.map(line => {
+      const trimmed = line.trim();
+      // Key lines: contain operators or expressions that are typically the "point" of the code
+      const isKeyLine = /(\+\+|--|[+\-*\/]=|\bcout\b|\bcin\b|\breturn\b|\bif\b|\bfor\b|\bwhile\b)/.test(trimmed)
+        && trimmed !== '' && !trimmed.startsWith('#') && !trimmed.startsWith('int main') && !trimmed.startsWith('{') && !trimmed.startsWith('}');
+      if (isKeyLine) {
+        return `<strong style="color: var(--primary-color);">${line}</strong>`;
+      }
+      return line;
+    });
+    return `<pre class="code-block"><code>${highlighted.join('\n')}</code></pre>`;
+  });
+  // Highlight specific uppercase keywords in red
+  const keywords = /(ĐÚNG|SAI|KHÔNG|CHÍNH XÁC|NHẤT)/g;
+  html = html.replace(keywords, '<strong style="color: var(--primary-color);">$1</strong>');
+  
+  return html;
+};
+
 export default function QuizTaking({ progress: initialProgress, navigate }: Props) {
   const [progress, setProgress] = useState<ProgressData>(initialProgress);
   const [timeLeft, setTimeLeft] = useState<number | null>(
@@ -183,7 +230,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         <div className="card" style={{ flex: 1, marginBottom: '1.5rem', display: 'flex', flexDirection: 'column' }}>
           <div 
             style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}
-            dangerouslySetInnerHTML={{ __html: currentQuestion.question }}
+            dangerouslySetInnerHTML={{ __html: formatQuestionText(currentQuestion.question) }}
           />
           {currentQuestion.image && (
             <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
@@ -191,93 +238,96 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             </div>
           )}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0 }}>
-            {currentQuestion.answers.map((ans, idx) => {
-              const hasAnswered = !!progress.answers[currentQuestion.id];
-              const isSelected = progress.answers[currentQuestion.id] === ans.id;
-              const isActuallyCorrect = ans.id === currentQuestion.correctAnswerId;
-              
-              let bgColor = 'var(--surface-color)';
-              let borderColor = 'var(--border-color)';
-              let textColor = 'inherit';
-              let circleBg = 'transparent';
-              let circleColor = 'inherit';
-              let circleBorder = 'var(--border-color)';
-              
-              if (isSelected) {
-                bgColor = 'var(--primary-light)';
-                borderColor = 'var(--primary-color)';
-                circleBg = 'var(--primary-color)';
-                circleColor = 'white';
-                circleBorder = 'transparent';
-              }
-
-              // Chế độ ôn tập: hiện màu ngay khi đã chọn đáp án
-              if (progress.config.mode === 'practice' && hasAnswered) {
-                if (isActuallyCorrect) {
-                  bgColor = 'var(--correct-bg)';
-                  borderColor = 'var(--correct-color)';
-                  circleBg = 'var(--correct-color)';
-                  circleColor = 'white';
-                  circleBorder = 'transparent';
-                } else if (isSelected) {
-                  bgColor = 'var(--wrong-bg)';
-                  borderColor = 'var(--wrong-color)';
-                  circleBg = 'var(--wrong-color)';
+            {(() => {
+              const diffHighlighted = highlightDiffs(currentQuestion.answers);
+              return currentQuestion.answers.map((ans, idx) => {
+                const hasAnswered = !!progress.answers[currentQuestion.id];
+                const isSelected = progress.answers[currentQuestion.id] === ans.id;
+                const isActuallyCorrect = ans.id === currentQuestion.correctAnswerId;
+                
+                let bgColor = 'var(--surface-color)';
+                let borderColor = 'var(--border-color)';
+                let textColor = 'inherit';
+                let circleBg = 'transparent';
+                let circleColor = 'inherit';
+                let circleBorder = 'var(--border-color)';
+                
+                if (isSelected) {
+                  bgColor = 'var(--primary-light)';
+                  borderColor = 'var(--primary-color)';
+                  circleBg = 'var(--primary-color)';
                   circleColor = 'white';
                   circleBorder = 'transparent';
                 }
-              }
 
-              return (
-                <div 
-                  key={ans.id}
-                  onClick={() => !hasAnswered && handleSelectAnswer(ans.id)}
-                  style={{ 
-                    padding: '1rem', 
-                    border: `2px solid ${borderColor}`,
-                    borderRadius: '0.5rem',
-                    cursor: hasAnswered ? 'default' : 'pointer',
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '1rem',
-                    backgroundColor: bgColor,
-                    color: textColor,
-                    transition: 'all 0.2s'
-                  }}
-                >
-                  <div style={{ 
-                    width: '30px', height: '30px', 
-                    borderRadius: '50%', 
-                    border: `1px solid ${circleBorder}`,
-                    backgroundColor: circleBg,
-                    color: circleColor,
-                    display: 'flex', justifyContent: 'center', alignItems: 'center',
-                    flexShrink: 0,
-                    fontWeight: 'bold'
-                  }}>
-                    {LABELS[idx]}
+                // Chế độ ôn tập: hiện màu ngay khi đã chọn đáp án
+                if (progress.config.mode === 'practice' && hasAnswered) {
+                  if (isActuallyCorrect) {
+                    bgColor = 'var(--correct-bg)';
+                    borderColor = 'var(--correct-color)';
+                    circleBg = 'var(--correct-color)';
+                    circleColor = 'white';
+                    circleBorder = 'transparent';
+                  } else if (isSelected) {
+                    bgColor = 'var(--wrong-bg)';
+                    borderColor = 'var(--wrong-color)';
+                    circleBg = 'var(--wrong-color)';
+                    circleColor = 'white';
+                    circleBorder = 'transparent';
+                  }
+                }
+
+                return (
+                  <div 
+                    key={ans.id}
+                    onClick={() => !hasAnswered && handleSelectAnswer(ans.id)}
+                    style={{ 
+                      padding: '1rem', 
+                      border: `2px solid ${borderColor}`,
+                      borderRadius: '0.5rem',
+                      cursor: hasAnswered ? 'default' : 'pointer',
+                      display: 'flex',
+                      alignItems: 'flex-start',
+                      gap: '1rem',
+                      backgroundColor: bgColor,
+                      color: textColor,
+                      transition: 'all 0.2s'
+                    }}
+                  >
+                    <div style={{ 
+                      width: '30px', height: '30px', 
+                      borderRadius: '50%', 
+                      border: `1px solid ${circleBorder}`,
+                      backgroundColor: circleBg,
+                      color: circleColor,
+                      display: 'flex', justifyContent: 'center', alignItems: 'center',
+                      flexShrink: 0,
+                      fontWeight: 'bold'
+                    }}>
+                      {LABELS[idx]}
+                    </div>
+                  <div style={{ flex: 1, whiteSpace: 'pre-wrap', marginTop: '3px' }}
+                    dangerouslySetInnerHTML={{ __html: diffHighlighted[idx] }}
+                  />
+                    
+                    {progress.config.mode === 'practice' && hasAnswered && (
+                      <>
+                        {isActuallyCorrect && (
+                          <div style={{ fontWeight: 'bold', color: 'var(--correct-color)' }}>
+                            ✓ Đúng
+                          </div>
+                        )}
+                        {isSelected && !isActuallyCorrect && (
+                          <div style={{ fontWeight: 'bold', color: 'var(--wrong-color)' }}>
+                            ✗ Sai
+                          </div>
+                        )}
+                      </>
+                    )}
                   </div>
-                  <div style={{ flex: 1, whiteSpace: 'pre-wrap', marginTop: '3px' }}>
-                    {ans.text}
-                  </div>
-                  
-                  {progress.config.mode === 'practice' && hasAnswered && (
-                    <>
-                      {isActuallyCorrect && (
-                        <div style={{ fontWeight: 'bold', color: 'var(--correct-color)' }}>
-                          ✓ Đúng
-                        </div>
-                      )}
-                      {isSelected && !isActuallyCorrect && (
-                        <div style={{ fontWeight: 'bold', color: 'var(--wrong-color)' }}>
-                          ✗ Sai
-                        </div>
-                      )}
-                    </>
-                  )}
-                </div>
-              );
-            })}
+                );
+              });
+            })()}
           </div>
         </div>
 

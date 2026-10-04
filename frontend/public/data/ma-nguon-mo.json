@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": "7ecb82f1-fd4a-47bb-9c5f-b8d5636e497e",
-      "question": "Quan niệm nào sau đây sai về <b style=\"color: var(--primary-color)\">Copyleft</b>:",
+      "question": "Quan niệm nào sau đây sai về Copyleft:",
       "answers": [
         {
           "id": "57ef0697-f996-4a12-8859-a99fc3621aa2",
@@ -27,7 +27,7 @@
     },
     {
       "id": "495dc5c5-827b-48c2-a2a1-b07d2030e337",
-      "question": "Ký hiệu của <b style=\"color: var(--primary-color)\">Copyleft</b>:",
+      "question": "Ký hiệu của Copyleft:",
       "answers": [
         {
           "id": "04f949e7-11e2-4a70-b37a-54fa3d5ee58d",
@@ -50,7 +50,7 @@
     },
     {
       "id": "25033507-3ecd-468f-8894-54092ac5b84f",
-      "question": "Ký hiệu của <b style=\"color: var(--primary-color)\">Copyright</b>:",
+      "question": "Ký hiệu của Copyright:",
       "answers": [
         {
           "id": "16dd5550-eeb7-4a9a-8517-b1143ab89ae3",
@@ -73,7 +73,7 @@
     },
     {
       "id": "90599f27-8861-4f19-b670-17c7098baead",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Writer</b> tương đương với chức năng gì trong Micorsoft Office",
+      "question": "OpenOffice Writer tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "b00af3c9-b8e6-4f68-821f-a7d9d1f53274",
@@ -96,7 +96,7 @@
     },
     {
       "id": "62821b62-6ef3-453d-b937-e711a4a319b9",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Impress</b> tương đương với chức năng gì trong Micorsoft Office",
+      "question": "OpenOffice Impress tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "68c08bbb-2e1a-4fc1-b7a9-116c73b89e95",
@@ -119,7 +119,7 @@
     },
     {
       "id": "cbe36284-fc37-495a-9186-2783d0f7637d",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Calc</b> tương đương với chức năng gì trong Micorsoft Office?",
+      "question": "OpenOffice Calc tương đương với chức năng gì trong Micorsoft Office?",
       "answers": [
         {
           "id": "eddb5eb2-59e6-44d8-a918-b1a62a021e9d",
@@ -142,7 +142,7 @@
     },
     {
       "id": "e8e9df1a-f9c9-4643-b3cb-d44a3a1aec1f",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Draw</b> tương đương với chức năng gì trong Micorsoft Office",
+      "question": "OpenOffice Draw tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "d7a354c0-daee-492c-9fdd-5f6b88d5e53f",
@@ -165,7 +165,7 @@
     },
     {
       "id": "c453b11a-8490-4d35-9613-f4a67f547993",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Base</b> tương đương với chức năng gì trong Micorsoft Office",
+      "question": "OpenOffice Base tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "7f21d26b-25a6-4fb1-af00-18a30b2ab65a",
@@ -188,7 +188,7 @@
     },
     {
       "id": "edd1cf9b-60a3-4043-aa6f-b4702adf10b0",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Math</b> tương đương với chức năng gì trong Micorsoft Office",
+      "question": "OpenOffice Math tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "9f95bd2e-f4d8-40bb-bfef-0c4c34c63bc3",
@@ -211,7 +211,7 @@
     },
     {
       "id": "2e1b6668-ce0c-4e6a-8f1b-962f309d2ab9",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">mail nào là mã nguồn mở</b>",
+      "question": "Phần mềm mail nào là mã nguồn mở",
       "answers": [
         {
           "id": "ef0a9fe8-f70c-47b7-bcb8-5d912ed81c86",
@@ -234,7 +234,7 @@
     },
     {
       "id": "f7ebb5eb-3aab-420b-b4bb-278a6df606f4",
-      "question": "Phần mềm mail nào tính phí <b style=\"color: var(--primary-color)\">đắt nhất</b>",
+      "question": "Phần mềm mail nào tính phí đắt nhất",
       "answers": [
         {
           "id": "d814d56b-7982-4f86-9c16-0bb9a43849f3",
@@ -303,7 +303,7 @@
     },
     {
       "id": "2c120d57-3da7-4f5b-a008-556a6b0febb4",
-      "question": "Thư mục hiển thị Localhost của <b style=\"color: var(--primary-color)\">Xampp</b>",
+      "question": "Thư mục hiển thị Localhost của Xampp",
       "answers": [
         {
           "id": "c86d81fc-e9fd-4442-8bf3-e169ab3b1e7a",
@@ -326,7 +326,7 @@
     },
     {
       "id": "1f2f671f-dfc6-41bf-baf0-73f4e57cfdf4",
-      "question": "Thư mục hiển thị Localhost của <b style=\"color: var(--primary-color)\">Appserv</b>",
+      "question": "Thư mục hiển thị Localhost của Appserv",
       "answers": [
         {
           "id": "c7b88142-4e79-4e54-a7e7-b73e66dbc230",
@@ -602,7 +602,7 @@
     },
     {
       "id": "61c33e02-5501-4492-8488-3f58278e334e",
-      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở<b style=\"color: var(--primary-color)\"> :</b>",
+      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở :",
       "answers": [
         {
           "id": "211e3042-1ab5-44bc-ba4c-478284288b43",
@@ -625,7 +625,7 @@
     },
     {
       "id": "aa868ed6-3c2c-4735-ab88-b46745307004",
-      "question": "Bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép <b style=\"color: var(--primary-color)\">BSD :</b>",
+      "question": "Bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép BSD :",
       "answers": [
         {
           "id": "e9bb2517-d1d7-43ae-b822-52c30b8a9ff1",
@@ -648,7 +648,7 @@
     },
     {
       "id": "7d9efc28-c603-43e5-85d2-31d9c072ca2a",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">GIMP</b> sử dụng giấy phép mã nguồn mở nào :",
+      "question": "Phần mềm GIMP sử dụng giấy phép mã nguồn mở nào :",
       "answers": [
         {
           "id": "0e725158-5d39-4e26-be5c-7422840a155e",
@@ -671,7 +671,7 @@
     },
     {
       "id": "6d9bfaa1-661f-47e4-8a97-92fc70f8785a",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Mozilla Firefox</b> sử dụng giấy phép mã nguồn mở nào :",
+      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép mã nguồn mở nào :",
       "answers": [
         {
           "id": "1c6a4d54-5fbe-4651-940b-505da860f032",
@@ -694,7 +694,7 @@
     },
     {
       "id": "cc158a55-2f07-4ed1-b191-73f38836b8df",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Apache</b> Server sử dụng giấy phép nào sau đây :",
+      "question": "Phần mềm Apache Server sử dụng giấy phép nào sau đây :",
       "answers": [
         {
           "id": "5c00e251-97ef-4d9f-84c2-1784f9d60c8c",
@@ -809,7 +809,7 @@
     },
     {
       "id": "11ee75b4-075f-4a61-9df7-fcdca7139e07",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 1</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
+      "question": "Bước 1 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
       "answers": [
         {
           "id": "a4aaca3e-5e28-4344-8e41-a3057fb61506",
@@ -832,7 +832,7 @@
     },
     {
       "id": "0bf1ffb9-c7ff-440b-a5d2-5cc1943ecd5f",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <b style=\"color: var(--primary-color)\">hệ điều hành nguồn mở được ưu tiên mua sắm, sử dụng</b> trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ điều hành nguồn mở được ưu tiên mua sắm, sử dụng trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "b80e021e-e6a1-47b1-9dac-f1e1d972e9ad",
@@ -855,7 +855,7 @@
     },
     {
       "id": "27bcd6dd-31a5-4690-acaf-48e93f9b57a4",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <b style=\"color: var(--primary-color)\">hệ quản trị nội dung Web nguồn mở được ưu tiên</b> trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ quản trị nội dung Web nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "81f3e8e0-e7ef-46b3-a100-0547172dc186",
@@ -878,7 +878,7 @@
     },
     {
       "id": "0733a5e1-146a-4e0b-805d-c5f692dc03f6",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <b style=\"color: var(--primary-color)\">phần mềm trình duyệt Web nguồn mở được ưu tiên</b> trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các phần mềm trình duyệt Web nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "0fe2204e-6b85-43b5-85cd-ba16cccde3cd",
@@ -901,7 +901,7 @@
     },
     {
       "id": "37507794-963f-4723-999a-1ba2fb116dd7",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 2</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công việc?",
+      "question": "Bước 2 trong quy trình triển khai hệ thống Moodle thực hiện công việc?",
       "answers": [
         {
           "id": "e0cbe216-0130-49df-817b-df5151c12ffd",
@@ -924,7 +924,7 @@
     },
     {
       "id": "97c27d59-e30a-4ad1-b02a-50e3a1aaf609",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 3</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công việc?",
+      "question": "Bước 3 trong quy trình triển khai hệ thống Moodle thực hiện công việc?",
       "answers": [
         {
           "id": "f7b786b3-0296-4120-92a6-aed8db45d76d",
@@ -947,7 +947,7 @@
     },
     {
       "id": "7b5c43d4-513c-4f6e-bfcb-add12dd6a8e2",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 4</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công việc?",
+      "question": "Bước 4 trong quy trình triển khai hệ thống Moodle thực hiện công việc?",
       "answers": [
         {
           "id": "a8e90c07-f75b-484d-9133-ac8a3c2b8c20",
@@ -993,7 +993,7 @@
     },
     {
       "id": "82645fa9-97f5-46f0-aa9f-242678b894e8",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <b style=\"color: var(--primary-color)\">hệ quản trị cơ sở dữ liệu nguồn mở được ưu tiên</b> trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ quản trị cơ sở dữ liệu nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "0593d932-6013-4f0a-b384-41bb4f374d2c",
@@ -1016,7 +1016,7 @@
     },
     {
       "id": "ed1ec59f-7f95-4c40-9e26-81138d6708f3",
-      "question": "<b style=\"color: var(--primary-color)\">Anh (chị) hãy cho biết hai hệ thống giấy phép tư liệu mở phổ biến là ?</b>",
+      "question": "Anh (chị) hãy cho biết hai hệ thống giấy phép tư liệu mở phổ biến là ?",
       "answers": [
         {
           "id": "4d1e8479-95a5-4e7a-a9a2-3111fdff60bd",
@@ -1200,7 +1200,7 @@
     },
     {
       "id": "b8f6c6cb-b8c9-497e-b6f1-9a64c1b7707b",
-      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu<b style=\"color: var(--primary-color)\">?</b>",
+      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu?",
       "answers": [
         {
           "id": "b70680d1-f6b8-42de-915b-a698c56352ce",
@@ -1246,7 +1246,7 @@
     },
     {
       "id": "017fc344-54b6-407f-87a9-c7122ca244c3",
-      "question": "<b style=\"color: var(--primary-color)\">BIND là phần mềm mã nguồn mở</b> gì?",
+      "question": "BIND là phần mềm mã nguồn mở gì?",
       "answers": [
         {
           "id": "20e7a22e-0eee-4b97-9b94-b80b2d18df0d",
@@ -1315,7 +1315,7 @@
     },
     {
       "id": "13f881dd-14d2-4551-8483-d6402c9df6fe",
-      "question": "Bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép <b style=\"color: var(--primary-color)\">GNU GPL:</b>",
+      "question": "Bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép GNU GPL:",
       "answers": [
         {
           "id": "dc5f34cb-3e14-4b74-9f32-9b5ec3afc8ed",
@@ -1453,7 +1453,7 @@
     },
     {
       "id": "19025d85-26bb-4ba8-b270-85f1b026ba37",
-      "question": "Trong các đối tượng sau, đối tượng nào <b style=\"color: var(--primary-color)\">không phục vụ Moodle Elearning</b>",
+      "question": "Trong các đối tượng sau, đối tượng nào không phục vụ Moodle Elearning",
       "answers": [
         {
           "id": "37a19ef8-2fe4-4bfd-9ba1-e54a1135da55",
@@ -1476,7 +1476,7 @@
     },
     {
       "id": "4becdaff-4605-4d52-b54b-688e6c96772b",
-      "question": "Trong các đối tượng sau, đối tượng nào <b style=\"color: var(--primary-color)\">phục vụ Moodle Elearning?</b>",
+      "question": "Trong các đối tượng sau, đối tượng nào phục vụ Moodle Elearning?",
       "answers": [
         {
           "id": "e4ed4686-0f05-4ae6-bf89-362c1bf0ffb1",
@@ -1568,7 +1568,7 @@
     },
     {
       "id": "1d2a3864-3497-456c-bf3a-21e575f0650a",
-      "question": "Joomla <b style=\"color: var(--primary-color)\">có</b> thể sử dụng vào những site?",
+      "question": "Joomla có thể sử dụng vào những site?",
       "answers": [
         {
           "id": "44c51578-1b46-4598-a259-a1dea0f39f16",
@@ -1591,7 +1591,7 @@
     },
     {
       "id": "79ebb5f0-d4c1-4093-8865-c7a13cb5341f",
-      "question": "Joomla <b style=\"color: var(--primary-color)\">không</b> thể sử dụng vào những site?",
+      "question": "Joomla không thể sử dụng vào những site?",
       "answers": [
         {
           "id": "06d28479-75dc-4666-a91b-a7f25a137187",
@@ -1752,7 +1752,7 @@
     },
     {
       "id": "f835c746-664d-40f5-ba4a-3952ee9e051c",
-      "question": "Phần mềm tự do nguồn mở mục đích là<b style=\"color: var(--primary-color)\"> ?</b>",
+      "question": "Phần mềm tự do nguồn mở mục đích là ?",
       "answers": [
         {
           "id": "00a361ae-3ac9-4cfc-bebb-b041027a356d",
@@ -1775,7 +1775,7 @@
     },
     {
       "id": "69b767cc-bceb-4e73-9216-16c98b98e668",
-      "question": "Phát biểu đúng về giấy phép dạng <b style=\"color: var(--primary-color)\">Copyleft</b>?",
+      "question": "Phát biểu đúng về giấy phép dạng Copyleft?",
       "answers": [
         {
           "id": "e38d8038-b42d-4bbf-9a0a-a79c6507196d",
@@ -1798,7 +1798,7 @@
     },
     {
       "id": "a87ce630-d671-492c-bf79-f62bd66739f6",
-      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở<b style=\"color: var(--primary-color)\"> ?</b>",
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở ?",
       "answers": [
         {
           "id": "c27cd907-8ed2-406c-8990-816ddb22b3cf",
@@ -1913,7 +1913,7 @@
     },
     {
       "id": "04ad49cf-c3f2-41de-921d-bce744c17e3c",
-      "question": "Dòng phiên bản <b style=\"color: var(--primary-color)\">Nukeviet </b>2.0 do những ai phát triển?",
+      "question": "Dòng phiên bản Nukeviet 2.0 do những ai phát triển?",
       "answers": [
         {
           "id": "1db2a78b-5aad-4cfc-aa0a-e8f3f741eb99",
@@ -2074,7 +2074,7 @@
     },
     {
       "id": "2648d470-a439-4e5d-8c80-1cced3fb5e26",
-      "question": "Quan niệm nào sau đây sai về <b style=\"color: var(--primary-color)\">copyleft</b>:",
+      "question": "Quan niệm nào sau đây sai về copyleft:",
       "answers": [
         {
           "id": "badf59e1-8052-47d1-8c4c-056487ec0eab",
@@ -2323,7 +2323,7 @@
     },
     {
       "id": "f9ba9ecb-4831-4b0d-b141-1af2666ce85c",
-      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở<b style=\"color: var(--primary-color)\">:</b>",
+      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở:",
       "answers": [
         {
           "id": "bd7c487a-4a90-415e-849b-9804350c3f53",
@@ -2346,7 +2346,7 @@
     },
     {
       "id": "35da76f9-f549-44cc-a8bc-e07623de9200",
-      "question": "bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép <b style=\"color: var(--primary-color)\">GNU GPL:</b>",
+      "question": "bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép GNU GPL:",
       "answers": [
         {
           "id": "496943a8-91b0-4977-8eec-ddf329adc01f",
@@ -2369,7 +2369,7 @@
     },
     {
       "id": "28e06514-67ee-4369-a3ba-ccc5aa9a4006",
-      "question": "bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép <b style=\"color: var(--primary-color)\">BSD:</b>",
+      "question": "bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép BSD:",
       "answers": [
         {
           "id": "f92cda68-02c8-4fc6-b2ac-2a1f47d20a69",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": "cc785e36-4fe1-40d2-9032-6e27327a9eaf",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">GIMP</b> sử dụng giấy phép mã nguồn mở nào:",
+      "question": "Phần mềm GIMP sử dụng giấy phép mã nguồn mở nào:",
       "answers": [
         {
           "id": "a3b90364-278a-4ece-84b5-7b3a878e7df9",
@@ -2469,7 +2469,7 @@
     },
     {
       "id": "5ab3d71d-36a6-4bb7-a031-163fbe07aea6",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Mozilla Firefox</b> sử dụng giấy phép mã nguồn mở nào:",
+      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép mã nguồn mở nào:",
       "answers": [
         {
           "id": "286b64f4-793b-4d7a-94c0-948d4f27acd2",
@@ -2488,7 +2488,7 @@
     },
     {
       "id": "a70c259c-131e-49eb-b295-37c4ca61f8c9",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Apache</b> Server sử dụng giấy phép nào sau đây:",
+      "question": "Phần mềm Apache Server sử dụng giấy phép nào sau đây:",
       "answers": [
         {
           "id": "35557006-18fb-4a3e-a7cd-ea060d691f10",
@@ -2511,7 +2511,7 @@
     },
     {
       "id": "09530db9-9b73-43b9-ab4c-2ad76a1fa39d",
-      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu<b style=\"color: var(--primary-color)\"> Wine và CrossOver.</b>",
+      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu Wine và CrossOver.",
       "answers": [
         {
           "id": "8632576f-7b72-4956-99e6-e95bee69cee4",
@@ -2760,7 +2760,7 @@
     },
     {
       "id": "696cafda-f615-4736-bf14-2f4b732691db",
-      "question": "Joomla <b style=\"color: var(--primary-color)\">không</b> thể sử dụng vào những site?",
+      "question": "Joomla không thể sử dụng vào những site?",
       "answers": [
         {
           "id": "02e8d697-d7c8-42b0-a656-798751c2265f",
@@ -2967,7 +2967,7 @@
     },
     {
       "id": "2ef03a2a-2eea-4498-81cb-e3fcc0efac7e",
-      "question": "Trong các đối tượng sau, đối tượng nào <b style=\"color: var(--primary-color)\">phục vụ Moodle Elearning?</b>",
+      "question": "Trong các đối tượng sau, đối tượng nào phục vụ Moodle Elearning?",
       "answers": [
         {
           "id": "ce45fd21-a4a0-4a56-8e99-312f5e6595a5",
@@ -3036,7 +3036,7 @@
     },
     {
       "id": "165f9009-ada2-4e27-8f78-e91e775cb39b",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 1</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
+      "question": "Bước 1 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
       "answers": [
         {
           "id": "e58b00df-71fe-4d29-883e-5c71f67ea7e1",
@@ -3059,7 +3059,7 @@
     },
     {
       "id": "d9ef2572-d537-41d6-95dd-4bcd7a7f6393",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 2</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
+      "question": "Bước 2 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
       "answers": [
         {
           "id": "80d7fd0e-dcfa-4fda-b97d-fd9611ec5452",
@@ -3082,7 +3082,7 @@
     },
     {
       "id": "1e84c4aa-3edb-41f3-87fe-474693701382",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 3</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
+      "question": "Bước 3 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
       "answers": [
         {
           "id": "30173121-8547-4286-9971-3618fc6b33d2",
@@ -3105,7 +3105,7 @@
     },
     {
       "id": "e4758d89-a30a-4963-91ca-60fe7040bda1",
-      "question": "<b style=\"color: var(--primary-color)\">Bước 4</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
+      "question": "Bước 4 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
       "answers": [
         {
           "id": "dc2828bd-6211-4a1d-93f8-2259b4f53c77",
@@ -3404,7 +3404,7 @@
     },
     {
       "id": "e64913dc-f1c4-4dcc-ab3b-de00ef4cd3b3",
-      "question": "Nhìn vào hình 01<b style=\"color: var(--primary-color)\">,để vô hiệu hóa máy chủ</b> bạn chọn?",
+      "question": "Nhìn vào hình 01,để vô hiệu hóa máy chủ bạn chọn?",
       "answers": [
         {
           "id": "bafadad4-d135-4519-9ad2-8e656dc7f56e",
@@ -3450,7 +3450,7 @@
     },
     {
       "id": "d66b008a-8b4f-4f49-be4f-d5ae4ff33be2",
-      "question": "Nhìn vào hình 01<b style=\"color: var(--primary-color)\">, biết để vô hiệu hóa modperl</b> bạn chọn?",
+      "question": "Nhìn vào hình 01, biết để vô hiệu hóa modperl bạn chọn?",
       "answers": [
         {
           "id": "99ccee2b-8bd1-4820-8379-0ff577fdc739",
@@ -3542,7 +3542,7 @@
     },
     {
       "id": "32f5a6d9-154e-4997-84bc-8999598aed0d",
-      "question": "Nhìn vào hình 02, để <b style=\"color: var(--primary-color)\">kiểm tra</b> lại các cổng trong công cụ XAMPP bạn chọn?",
+      "question": "Nhìn vào hình 02, để kiểm tra lại các cổng trong công cụ XAMPP bạn chọn?",
       "answers": [
         {
           "id": "95fb6f2d-f43c-406f-bb40-8a155c503824",
@@ -3565,7 +3565,7 @@
     },
     {
       "id": "d24f1905-f5d3-4623-8136-cf1287b42522",
-      "question": "Nhìn vào hình 02, để <b style=\"color: var(--primary-color)\">làm tươi</b> lại các cổng trong công cụ XAMPP bạn chọn?",
+      "question": "Nhìn vào hình 02, để làm tươi lại các cổng trong công cụ XAMPP bạn chọn?",
       "answers": [
         {
           "id": "03d08f6e-9a2e-4320-83a3-1a0000c21573",
@@ -3726,7 +3726,7 @@
     },
     {
       "id": "fab7709a-ca3b-4263-9f9a-919a38c2ec21",
-      "question": "Nhìn vào hình 03, để <b style=\"color: var(--primary-color)\">backup</b> được 1 CSDL, sau thao tác chọn CSDL cần Backup bạn chọn?",
+      "question": "Nhìn vào hình 03, để backup được 1 CSDL, sau thao tác chọn CSDL cần Backup bạn chọn?",
       "answers": [
         {
           "id": "19466c09-939d-4e77-9de8-24a7176b914d",
@@ -3750,7 +3750,7 @@
     },
     {
       "id": "aa1214cf-e983-4f51-a1dc-d9b1ccfeeca3",
-      "question": "Nhìn vào hình 03, để <b style=\"color: var(--primary-color)\">khôi phục</b> được 1 CSDL, sau thao tác chọn CSDL cần khôi phục bạn chọn?",
+      "question": "Nhìn vào hình 03, để khôi phục được 1 CSDL, sau thao tác chọn CSDL cần khôi phục bạn chọn?",
       "answers": [
         {
           "id": "62062160-7e82-46a0-952d-396ba05ff408",
@@ -3774,7 +3774,7 @@
     },
     {
       "id": "0689ae44-0ec1-4998-a74e-32d889a0ffab",
-      "question": "Nhìn vào hình 03, để <b style=\"color: var(--primary-color)\">kiểm tra</b> trong hệ thống có bao nhiêu CSDL bạn chọn?",
+      "question": "Nhìn vào hình 03, để kiểm tra trong hệ thống có bao nhiêu CSDL bạn chọn?",
       "answers": [
         {
           "id": "9a8c7fac-ed7a-4c0b-91ba-7c252425987e",
@@ -3798,7 +3798,7 @@
     },
     {
       "id": "c234297d-0bbb-470c-b91e-cbb5028758fb",
-      "question": "Nhìn vào hình 03, để <b style=\"color: var(--primary-color)\">tạo ra</b> một câu truy vấn trong CSDL bạn chọn?",
+      "question": "Nhìn vào hình 03, để tạo ra một câu truy vấn trong CSDL bạn chọn?",
       "answers": [
         {
           "id": "e0f588ce-7459-4cd0-a1f6-5087ae451589",
@@ -3822,7 +3822,7 @@
     },
     {
       "id": "e2cc4a3b-bc11-40ff-a5de-82fc2da1d53d",
-      "question": "Nhìn vào hình 03, để <b style=\"color: var(--primary-color)\">xem trạng thái</b> của CSDL bạn chọn?",
+      "question": "Nhìn vào hình 03, để xem trạng thái của CSDL bạn chọn?",
       "answers": [
         {
           "id": "4136161f-6c42-4201-a602-c3f444b484ee",
@@ -3846,7 +3846,7 @@
     },
     {
       "id": "0bbc54f9-35ab-4eea-ab8b-5c117becfa37",
-      "question": "Nhìn vào hình 03, để <b style=\"color: var(--primary-color)\">chọn gói ngôn ngữ</b> bạn chọn?",
+      "question": "Nhìn vào hình 03, để chọn gói ngôn ngữ bạn chọn?",
       "answers": [
         {
           "id": "acb888d5-53c8-4651-82d5-468fa3e84374",
@@ -3893,7 +3893,7 @@
     },
     {
       "id": "7a661f72-dc31-41e8-8ad3-1917f65484a8",
-      "question": "Nhìn vào hình 05, để <b style=\"color: var(--primary-color)\">xem trang thông tin cá nhân</b> bạn chọn?",
+      "question": "Nhìn vào hình 05, để xem trang thông tin cá nhân bạn chọn?",
       "answers": [
         {
           "id": "b083e6e5-197d-44eb-9daa-9572fecb0af6",
@@ -3917,7 +3917,7 @@
     },
     {
       "id": "af6554ff-bad2-45e5-8102-f022860a69ab",
-      "question": "Nhìn vào hình 05, để <b style=\"color: var(--primary-color)\">xem các trang</b> của hệ thống bạn chọn?",
+      "question": "Nhìn vào hình 05, để xem các trang của hệ thống bạn chọn?",
       "answers": [
         {
           "id": "d2b931f9-7efa-461c-a92d-34af0e9856d1",
@@ -3941,7 +3941,7 @@
     },
     {
       "id": "c928f527-b567-454b-94cc-14477ccdcb7f",
-      "question": "Nhìn vào hình 05, để <b style=\"color: var(--primary-color)\">xem thông tin cá nhân của tài khoản</b> bạn chọn?",
+      "question": "Nhìn vào hình 05, để xem thông tin cá nhân của tài khoản bạn chọn?",
       "answers": [
         {
           "id": "f3d2e078-3581-4f29-89ab-761691bde919",
@@ -3965,7 +3965,7 @@
     },
     {
       "id": "df334f70-916c-4bba-844a-e8f3f1b76de1",
-      "question": "Nhìn vào hình 05, để <b style=\"color: var(--primary-color)\">lập thẻ đánh dấu</b> một trang bạn chọn?",
+      "question": "Nhìn vào hình 05, để lập thẻ đánh dấu một trang bạn chọn?",
       "answers": [
         {
           "id": "45b95fbd-badc-4983-a144-16cd744a36b0",
@@ -3989,7 +3989,7 @@
     },
     {
       "id": "3fea680d-b55f-4d20-b766-2614a0d01006",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết để <b style=\"color: var(--primary-color)\">thêm một khối</b> bạn chọn?",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết để thêm một khối bạn chọn?",
       "answers": [
         {
           "id": "b131308b-75b8-43e5-a019-8a3214c7cd19",
@@ -4013,7 +4013,7 @@
     },
     {
       "id": "1d728dab-fa75-49c2-a490-865908b42041",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để xem được các thông tin <b style=\"color: var(--primary-color)\">Tài khoản, thêm, sửa, xóa tài khoản</b>?",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để xem được các thông tin Tài khoản, thêm, sửa, xóa tài khoản?",
       "answers": [
         {
           "id": "bd6840b1-bb02-455c-8b71-5b2641977014",
@@ -4037,7 +4037,7 @@
     },
     {
       "id": "029af497-f992-493d-b4b9-5ff85331cc7b",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để có thể <b style=\"color: var(--primary-color)\">thêm được các khóa học, sửa khóa học, xóa khóa học</b>?",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để có thể thêm được các khóa học, sửa khóa học, xóa khóa học?",
       "answers": [
         {
           "id": "be203372-f7cb-4d57-a93c-4e09c2787a68",
@@ -4061,7 +4061,7 @@
     },
     {
       "id": "ab0e425f-531f-46bd-90e3-fa5bd502139c",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để có thể <b style=\"color: var(--primary-color)\">xem điểm số của các học viên</b>?",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để có thể xem điểm số của các học viên?",
       "answers": [
         {
           "id": "e7cc39ee-06a3-4b82-81f7-3f1ee99abebb",
@@ -4085,7 +4085,7 @@
     },
     {
       "id": "cd94a487-1f10-4156-8d25-0e28cea0867e",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để <b style=\"color: var(--primary-color)\">thiết lập lại múi giờ</b>?",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập lại múi giờ?",
       "answers": [
         {
           "id": "446e6e1f-cde5-446d-9585-61913a021ad3",
@@ -4109,7 +4109,7 @@
     },
     {
       "id": "7453076b-0906-4bfc-9a54-4e78d952f4cc",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập lại <b style=\"color: var(--primary-color)\">ngôn ngữ cho website</b>?",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập lại ngôn ngữ cho website?",
       "answers": [
         {
           "id": "b9dc09a3-c16c-40c8-9d5f-76f54e15ff67",
@@ -4133,7 +4133,7 @@
     },
     {
       "id": "6b7ff8eb-e26c-48b6-bcc8-e8a51ea3adec",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập <b style=\"color: var(--primary-color)\">các chính sách bảo mật cho Web</b>?",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập các chính sách bảo mật cho Web?",
       "answers": [
         {
           "id": "575a98bf-a8df-473a-bff1-77da202e7231",
@@ -4157,7 +4157,7 @@
     },
     {
       "id": "90f3705d-eb3e-41ac-a809-b0fb3706c04d",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập <b style=\"color: var(--primary-color)\">hình thức trình bày của web</b>",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập hình thức trình bày của web",
       "answers": [
         {
           "id": "fa1190d6-1914-4793-afe6-3fef89cea494",
@@ -4181,7 +4181,7 @@
     },
     {
       "id": "a420e063-6a9b-4844-963e-d0edbdc8e62a",
-      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để xem <b style=\"color: var(--primary-color)\">đường dẫn hệ thống, thư điện tử, quản lý phiên làm việc</b>",
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để xem đường dẫn hệ thống, thư điện tử, quản lý phiên làm việc",
       "answers": [
         {
           "id": "f49b040d-9a62-4ca1-97c8-79f86646df5b",
@@ -4205,7 +4205,7 @@
     },
     {
       "id": "229545d5-ef81-4287-b968-301e674251a0",
-      "question": "Nhìn vào hình 05, hãy cho biết click vào đâu để xem các <b style=\"color: var(--primary-color)\">lời bình, nhật ký lưu, thống kê,...</b>",
+      "question": "Nhìn vào hình 05, hãy cho biết click vào đâu để xem các lời bình, nhật ký lưu, thống kê,...",
       "answers": [
         {
           "id": "1aeb35b1-1dc6-4612-aed1-d2727eb8fce8",
@@ -4229,7 +4229,7 @@
     },
     {
       "id": "031a687f-1ae6-441f-8282-49bf67011ddb",
-      "question": "Nhìn vào hình 06, bạn hãy cho biết trước khi thêm 1 khóa học mới bạn phải chọn <b style=\"color: var(--primary-color)\">chủ đề 'mục' cho khóa học đó</b>. Bạn phải click chọn?",
+      "question": "Nhìn vào hình 06, bạn hãy cho biết trước khi thêm 1 khóa học mới bạn phải chọn chủ đề 'mục' cho khóa học đó. Bạn phải click chọn?",
       "answers": [
         {
           "id": "606480cd-f40b-4ecb-b258-a0ccab7180f2",
@@ -4253,7 +4253,7 @@
     },
     {
       "id": "b3475c2b-f9d8-49a5-8f35-71830fcc188a",
-      "question": "Nhìn vào hình 06, bạn hãy cho biết để <b style=\"color: var(--primary-color)\">ghi thông tin mã số của khóa học</b> bạn chọn?",
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để ghi thông tin mã số của khóa học bạn chọn?",
       "answers": [
         {
           "id": "0b029dc5-0a1a-4991-a8db-1fc1a06b635c",
@@ -4277,7 +4277,7 @@
     },
     {
       "id": "332f9566-46eb-4046-ba5a-425b30619f48",
-      "question": "Nhìn vào hình 06, bạn hãy cho biết để <b style=\"color: var(--primary-color)\">đưa thông tin tóm tắt về khóa học</b> bạn chọn?",
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để đưa thông tin tóm tắt về khóa học bạn chọn?",
       "answers": [
         {
           "id": "60d05370-7e60-478d-bd5f-77c06da0e158",
@@ -4301,7 +4301,7 @@
     },
     {
       "id": "f0548caf-6c85-4db0-8fd0-57e9e71309c9",
-      "question": "Nhìn vào hình 06, bạn hãy cho biết để <b style=\"color: var(--primary-color)\">định dạng bài giảng theo chuẩn SCOM</b> bạn click chọn?",
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để định dạng bài giảng theo chuẩn SCOM bạn click chọn?",
       "answers": [
         {
           "id": "8aa48af5-6762-4ddb-bdd7-591534359887",
@@ -4325,7 +4325,7 @@
     },
     {
       "id": "5ced18fa-07c1-4160-844b-75884cdf08e1",
-      "question": "Nhìn vào hình 06, bạn hãy cho biết để <b style=\"color: var(--primary-color)\">thiết lập dung lượng của 1 file khi upload lên hệ thống</b> bạn chọn?",
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để thiết lập dung lượng của 1 file khi upload lên hệ thống bạn chọn?",
       "answers": [
         {
           "id": "18ac91a9-6291-463d-8cb8-66571fca7e64",
@@ -4349,7 +4349,7 @@
     },
     {
       "id": "fc49ee18-5a73-4e3e-a149-36f18b1dd60a",
-      "question": "Nhìn vào hình 06, bạn hãy cho biết để <b style=\"color: var(--primary-color)\">thiết lập chế độ xem báo cáo hoạt động</b>, bạn click chọn?",
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để thiết lập chế độ xem báo cáo hoạt động, bạn click chọn?",
       "answers": [
         {
           "id": "f04f9c65-1ab6-441f-800c-4c23cdf71384",
@@ -4373,7 +4373,7 @@
     },
     {
       "id": "403c1583-b7b4-4532-bd99-d3c2f7b28a2e",
-      "question": "Nhìn vào hình 06, bạn hãy cho biết để <b style=\"color: var(--primary-color)\">thiết lập ngày bắt đầu khóa học</b> bạn chọn?",
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để thiết lập ngày bắt đầu khóa học bạn chọn?",
       "answers": [
         {
           "id": "2aca4b9d-3485-4add-adc8-0d4a857d2ab4",
@@ -4397,7 +4397,7 @@
     },
     {
       "id": "3e05a97f-9688-4d01-8713-fd0ece51d76f",
-      "question": "Những phát biểu nào <b style=\"color: var(--primary-color)\">đúng về dự án nguồn mở?</b>",
+      "question": "Những phát biểu nào đúng về dự án nguồn mở?",
       "answers": [
         {
           "id": "271610f9-b2d7-463a-af90-2779145b8e7b",
@@ -4428,7 +4428,7 @@
     },
     {
       "id": "fd4147dc-f15e-466e-a6c0-96768f2c02f5",
-      "question": "Những phát biểu nào <b style=\"color: var(--primary-color)\">sai về dự án mã nguồn mở</b>",
+      "question": "Những phát biểu nào sai về dự án mã nguồn mở",
       "answers": [
         {
           "id": "9cbe98c4-8627-4b01-aeac-bfcbf6880ba7",
@@ -4455,7 +4455,7 @@
     },
     {
       "id": "cc5b30aa-2b09-459e-bca0-6045fe85dced",
-      "question": "Phần mềm tự do nguồn mở mục đích là<b style=\"color: var(--primary-color)\">?</b>",
+      "question": "Phần mềm tự do nguồn mở mục đích là?",
       "answers": [
         {
           "id": "e79e0e31-3ee2-43e2-a3d4-f03213052148",
@@ -4478,7 +4478,7 @@
     },
     {
       "id": "12e710f2-3963-4b2d-b8b8-7a6426d9f06a",
-      "question": "Giấy phép dạng <b style=\"color: var(--primary-color)\">Copyleft</b> nghĩa là gì?",
+      "question": "Giấy phép dạng Copyleft nghĩa là gì?",
       "answers": [
         {
           "id": "cc18b12a-166d-4938-bc6a-34207cd10832",
@@ -4501,7 +4501,7 @@
     },
     {
       "id": "5c4ede33-d2bb-445f-b64c-904f79be128b",
-      "question": "Trong các dự án nguồn mở, <b style=\"color: var(--primary-color)\">Contributor (người đóng góp) </b>là thành viên như thế nào?",
+      "question": "Trong các dự án nguồn mở, Contributor (người đóng góp) là thành viên như thế nào?",
       "answers": [
         {
           "id": "c2e76a91-23d6-46e2-8d2c-0be170fce52c",
@@ -4520,7 +4520,7 @@
     },
     {
       "id": "6233bb0a-0d56-4376-923a-73566960bae9",
-      "question": "Trong các dự án nguồn mở, <b style=\"color: var(--primary-color)\">Commiter (người đề xuất) </b>là thành viên như thế nào?",
+      "question": "Trong các dự án nguồn mở, Commiter (người đề xuất) là thành viên như thế nào?",
       "answers": [
         {
           "id": "7fb627ff-a678-44f6-97bf-1154751c8ab7",
@@ -4539,7 +4539,7 @@
     },
     {
       "id": "27e59876-cd68-4bfd-b225-1d82eb84628f",
-      "question": "Trong các dự án nguồn mở, <b style=\"color: var(--primary-color)\">Reviewer </b>là thành viên như thế nào?",
+      "question": "Trong các dự án nguồn mở, Reviewer là thành viên như thế nào?",
       "answers": [
         {
           "id": "ad8a34bb-6022-4630-89e3-612621536218",
@@ -4558,7 +4558,7 @@
     },
     {
       "id": "72643909-e69f-436d-9dfb-9d36f5163a34",
-      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số <b style=\"color: var(--primary-color)\">0</b> là gì?",
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 0 là gì?",
       "answers": [
         {
           "id": "f5c831ba-0efe-43f7-9ec7-53e5ea4fe371",
@@ -4581,7 +4581,7 @@
     },
     {
       "id": "9894c15d-743c-4cb7-9bda-1fe783da91be",
-      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số <b style=\"color: var(--primary-color)\">1</b> là gì?",
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 1 là gì?",
       "answers": [
         {
           "id": "b089412f-3e42-4552-977c-8f44334fcb33",
@@ -4604,7 +4604,7 @@
     },
     {
       "id": "230e171f-40de-4680-880b-a856943b761d",
-      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số <b style=\"color: var(--primary-color)\">2</b> là gì?",
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 2 là gì?",
       "answers": [
         {
           "id": "b5ad2dbb-672c-481c-a0e1-be5c908a5afa",
@@ -4627,7 +4627,7 @@
     },
     {
       "id": "1ec5dcb1-bc13-401d-826f-dc09578f5f75",
-      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số <b style=\"color: var(--primary-color)\">3</b> là gì?",
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 3 là gì?",
       "answers": [
         {
           "id": "b7d9f260-a9be-4753-b8a3-ddd1e4259f8e",
@@ -4677,7 +4677,7 @@
     },
     {
       "id": "76186c0a-75ad-4317-a104-daf7092f0106",
-      "question": "<b style=\"color: var(--primary-color)\">Phần mềm nguồn mở là</b> gì?",
+      "question": "Phần mềm nguồn mở là gì?",
       "answers": [
         {
           "id": "7228aa97-7bd4-446c-9cdc-9a7c73230972",
@@ -4746,7 +4746,7 @@
     },
     {
       "id": "12c78523-fca4-4c01-be3b-1e4407a7914e",
-      "question": "<b style=\"color: var(--primary-color)\">Phần mềm nguồn mở là</b> gì?",
+      "question": "Phần mềm nguồn mở là gì?",
       "answers": [
         {
           "id": "07c6c6ba-098c-42cd-8bf1-0dd23335b6c9",
@@ -4904,7 +4904,7 @@
     },
     {
       "id": "4e88e504-71a0-4582-a794-8485022099b9",
-      "question": "<b style=\"color: var(--primary-color)\">Hai hệ thống giấy phép tư liệu mở phổ biến là?</b>",
+      "question": "Hai hệ thống giấy phép tư liệu mở phổ biến là?",
       "answers": [
         {
           "id": "7c49b437-5324-4236-9815-2a01a236fb86",
@@ -4927,7 +4927,7 @@
     },
     {
       "id": "da705fec-6083-4a2d-b70b-1c42356e540b",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">CC-BY</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY nghĩa là gì?",
       "answers": [
         {
           "id": "a2b29ac7-829a-4036-a151-c4fc22145524",
@@ -4954,7 +4954,7 @@
     },
     {
       "id": "4c4405f1-2cc8-42b4-8b37-c2aa92f88ad3",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">CC-BY-NC</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-NC nghĩa là gì?",
       "answers": [
         {
           "id": "8ee22bb0-1fb9-4573-aede-0947cf056b7b",
@@ -4977,7 +4977,7 @@
     },
     {
       "id": "8553a8b1-fcdd-42c4-bc53-8807cb8837ad",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">CC-BY-SA</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-SA nghĩa là gì?",
       "answers": [
         {
           "id": "6542386c-6728-407e-8dc8-0ebedab16cac",
@@ -5000,7 +5000,7 @@
     },
     {
       "id": "85f910c7-dd1b-4e4e-8735-0903c9533c3d",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">CC-BY-ND</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-ND nghĩa là gì?",
       "answers": [
         {
           "id": "ab81721a-2340-4771-90a2-f84c8b3c7eb3",
@@ -5023,7 +5023,7 @@
     },
     {
       "id": "53106f68-690f-46fa-80de-0370a8f55dd8",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">CC-BY-NC-SA</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-NC-SA nghĩa là gì?",
       "answers": [
         {
           "id": "c1ff5ac6-583a-4733-a798-a6caf4d857d8",
@@ -5046,7 +5046,7 @@
     },
     {
       "id": "8e6287cd-626e-40f4-9aab-564a6c924a8b",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">CC-BY-NC-ND</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-NC-ND nghĩa là gì?",
       "answers": [
         {
           "id": "84c8d1a4-e330-4994-a012-a64c0070196a",
@@ -5096,7 +5096,7 @@
     },
     {
       "id": "e2277cfb-066c-40fd-9bd0-302a53187bf4",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">Some Right Reserved</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là Some Right Reserved nghĩa là gì?",
       "answers": [
         {
           "id": "368ea5f1-7668-43e8-9a9f-90a2c9e2254e",
@@ -5119,7 +5119,7 @@
     },
     {
       "id": "2d017fe1-dd5f-45f6-ae42-b163cc6f9fad",
-      "question": "Khi giấy phép Creative Commons ghi là <b style=\"color: var(--primary-color)\">All Right Reserved</b> nghĩa là gì?",
+      "question": "Khi giấy phép Creative Commons ghi là All Right Reserved nghĩa là gì?",
       "answers": [
         {
           "id": "2ef9951b-5aeb-472e-895b-9a9f2cab1e76",
@@ -5192,7 +5192,7 @@
     },
     {
       "id": "002ed84b-f65f-4cdf-9ba9-646c78f4628e",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">mã nguồn mở là?</b>",
+      "question": "Phần mềm mã nguồn mở là?",
       "answers": [
         {
           "id": "5571be58-5c32-40ae-9ea7-c894d2aab71d",
@@ -5365,7 +5365,7 @@
     },
     {
       "id": "8bfe2c86-944d-4978-8725-ae63f8b09674",
-      "question": "Bước thực hiện nào <b style=\"color: var(--primary-color)\">không </b>có trong thủ tục đệ trình một yêu cầu cấp giấy phép nguồn mở?",
+      "question": "Bước thực hiện nào không có trong thủ tục đệ trình một yêu cầu cấp giấy phép nguồn mở?",
       "answers": [
         {
           "id": "79a9175d-222d-4d2a-93de-f9ce0b1ee32f",
@@ -5666,7 +5666,7 @@
     },
     {
       "id": "120b0cc6-8fe3-49a5-83ae-0e5b703d5edb",
-      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở<b style=\"color: var(--primary-color)\">?</b>",
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở?",
       "answers": [
         {
           "id": "064ff38b-cb7e-4ea8-83b4-b5bb53f213a3",
@@ -5693,7 +5693,7 @@
     },
     {
       "id": "222b66de-2fa0-4468-b131-fd02f3f1cf13",
-      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở<b style=\"color: var(--primary-color)\">?</b>",
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở?",
       "answers": [
         {
           "id": "ae5954e3-0fd1-4b63-874f-bafa1246186e",
@@ -5720,7 +5720,7 @@
     },
     {
       "id": "3a96e113-39ac-4185-a253-8f06da13fd65",
-      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở<b style=\"color: var(--primary-color)\">?</b>",
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở?",
       "answers": [
         {
           "id": "2ec83bb0-a1b7-402a-9753-f4c21aad7930",
@@ -5824,7 +5824,7 @@
     },
     {
       "id": "e94e664a-e797-448c-a320-ba217090a025",
-      "question": "Trong dự án nguồn mở, thành viên có nhiều đóng góp cho dự án và <b style=\"color: var(--primary-color)\">không </b>được phép truy cập trực tiếp vào mã nguồn là?",
+      "question": "Trong dự án nguồn mở, thành viên có nhiều đóng góp cho dự án và không được phép truy cập trực tiếp vào mã nguồn là?",
       "answers": [
         {
           "id": "feaafe56-2b25-4050-8638-0ac5bca57383",
@@ -6071,7 +6071,7 @@
     },
     {
       "id": "1e46b332-6768-404b-ac3d-b899eb302f68",
-      "question": "Với các dự án nguồn mở, các vai trò nào không có trong mô hình điều hành '<b style=\"color: var(--primary-color)\">nhà độc tài nhân từ</b>'",
+      "question": "Với các dự án nguồn mở, các vai trò nào không có trong mô hình điều hành 'nhà độc tài nhân từ'",
       "answers": [
         {
           "id": "d66898ac-bc29-46d6-a5c9-125a5443229e",
@@ -6094,7 +6094,7 @@
     },
     {
       "id": "348777d6-6745-4413-b84d-f6d9f27f92c5",
-      "question": "Với các dự án nguồn mở, các vai trò nào không có trong mô hình điều hành '<b style=\"color: var(--primary-color)\">chế độ người tài lãnh đạo</b>'",
+      "question": "Với các dự án nguồn mở, các vai trò nào không có trong mô hình điều hành 'chế độ người tài lãnh đạo'",
       "answers": [
         {
           "id": "e18d3e2d-3f57-4d9c-a22e-cbc37d445ce6",
