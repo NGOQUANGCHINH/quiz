@@ -234,7 +234,7 @@
     },
     {
       "id": "f7ebb5eb-3aab-420b-b4bb-278a6df606f4",
-      "question": "Phần mềm mail nào tính phí đắt nhất",
+      "question": "Phần mềm mail nào tính phí <b style=\"color: var(--primary-color)\">đắt nhất</b>",
       "answers": [
         {
           "id": "d814d56b-7982-4f86-9c16-0bb9a43849f3",
