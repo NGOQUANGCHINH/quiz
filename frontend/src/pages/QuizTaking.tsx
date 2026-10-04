@@ -147,8 +147,8 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
     <div className="quiz-taking-grid">
       {/* Left Area - Question */}
       <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexShrink: 0 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+        <div className="quiz-header-row">
+          <div className="quiz-header-group">
             <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={() => navigate('dashboard')}>
               <ArrowLeft /> Quay lại
             </button>
@@ -160,9 +160,9 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             >
               <RefreshCw size={18} /> Cập nhật lỗi
             </button>
-            <h3 style={{ margin: 0 }}>Câu {currentQIndex + 1} / {totalQuestions}</h3>
+            <h3 style={{ margin: 0, whiteSpace: 'nowrap' }}>Câu {currentQIndex + 1} / {totalQuestions}</h3>
           </div>
-          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          <div className="quiz-header-group">
             {timeLeft !== null && (
               <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit' }}>
                 ⏱ {formatTime(timeLeft)}
