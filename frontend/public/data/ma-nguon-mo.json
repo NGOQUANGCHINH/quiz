@@ -73,7 +73,7 @@
     },
     {
       "id": "90599f27-8861-4f19-b670-17c7098baead",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Writer tương đương với chức năng gì trong Micorsoft Office</b>",
+      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Writer</b> tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "b00af3c9-b8e6-4f68-821f-a7d9d1f53274",
@@ -96,7 +96,7 @@
     },
     {
       "id": "62821b62-6ef3-453d-b937-e711a4a319b9",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Impress tương đương với chức năng gì trong Micorsoft Office</b>",
+      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Impress</b> tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "68c08bbb-2e1a-4fc1-b7a9-116c73b89e95",
@@ -119,7 +119,7 @@
     },
     {
       "id": "cbe36284-fc37-495a-9186-2783d0f7637d",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Calc tương đương với chức năng gì trong Micorsoft Office?</b>",
+      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Calc</b> tương đương với chức năng gì trong Micorsoft Office?",
       "answers": [
         {
           "id": "eddb5eb2-59e6-44d8-a918-b1a62a021e9d",
@@ -142,7 +142,7 @@
     },
     {
       "id": "e8e9df1a-f9c9-4643-b3cb-d44a3a1aec1f",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Draw tương đương với chức năng gì trong Micorsoft Office</b>",
+      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Draw</b> tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "d7a354c0-daee-492c-9fdd-5f6b88d5e53f",
@@ -165,7 +165,7 @@
     },
     {
       "id": "c453b11a-8490-4d35-9613-f4a67f547993",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Base tương đương với chức năng gì trong Micorsoft Office</b>",
+      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Base</b> tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "7f21d26b-25a6-4fb1-af00-18a30b2ab65a",
@@ -188,7 +188,7 @@
     },
     {
       "id": "edd1cf9b-60a3-4043-aa6f-b4702adf10b0",
-      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Math tương đương với chức năng gì trong Micorsoft Office</b>",
+      "question": "OpenOffice <b style=\"color: var(--primary-color)\">Math</b> tương đương với chức năng gì trong Micorsoft Office",
       "answers": [
         {
           "id": "9f95bd2e-f4d8-40bb-bfef-0c4c34c63bc3",
