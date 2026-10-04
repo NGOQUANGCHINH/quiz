@@ -16,5 +16,11 @@
     "title": "Mã nguồn mở HUBT - Update 2025",
     "questionCount": 261,
     "fileUrl": "ma-nguon-mo.json"
+  },
+  {
+    "id": "76e33fbd-63b7-4b77-a8b2-132d725d2b1f",
+    "title": "Điện toán đám mây data (Mã nguồn mở Update)",
+    "questionCount": 261,
+    "fileUrl": "dien-toan-dam-may-data.json"
   }
 ]

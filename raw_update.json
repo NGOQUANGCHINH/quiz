@@ -1,0 +1,3494 @@
+{
+  "title": "MÃ NGUỒN MỞ HUBT - UPDATE 2025",
+  "total_questions": 261,
+  "questions": [
+    {
+      "id": 1,
+      "part": 1,
+      "question": "Quan niệm nào sau đây sai về Copyleft:",
+      "options": {
+        "A": "Được đưa ra dựa trên Copyright",
+        "B": "Nghĩa vụ phân phối và cho phép truy xuất công khai các tác phẩm phái sinh",
+        "C": "Người sở hữu quyền cấp quyền để: sử dụng, sữa đổi, phân phối lại",
+        "D": "Cấm sao chép chỉnh sửa, phân phối"
+      },
+      "answer": "D",
+      "answer_text": "Cấm sao chép chỉnh sửa, phân phối"
+    },
+    {
+      "id": 2,
+      "part": 1,
+      "question": "Ký hiệu của Copyleft:",
+      "options": {
+        "A": "Ký hiệu chữ C ngược trong vòng tròn",
+        "B": "Ký hiệu chữ C trong vòng tròn",
+        "C": "Ký hiệu bằng số",
+        "D": "ký hiệu trong hình vuông"
+      },
+      "answer": "A",
+      "answer_text": "Ký hiệu chữ C ngược trong vòng tròn"
+    },
+    {
+      "id": 3,
+      "part": 1,
+      "question": "Ký hiệu của Copyright:",
+      "options": {
+        "A": "Ký hiệu chữ C ngược trong vòng tròn",
+        "B": "Ký hiệu chữ C trong vòng tròn",
+        "C": "Ký hiệu bằng số",
+        "D": "ký hiệu trong hình vuông"
+      },
+      "answer": "B",
+      "answer_text": "Ký hiệu chữ C trong vòng tròn"
+    },
+    {
+      "id": 4,
+      "part": 1,
+      "question": "OpenOffice Writer tương đương với chức năng gì trong Micorsoft Office",
+      "options": {
+        "A": "Word",
+        "B": "PowerPoint",
+        "C": "Excel",
+        "D": "Outlook"
+      },
+      "answer": "A",
+      "answer_text": "Word"
+    },
+    {
+      "id": 5,
+      "part": 1,
+      "question": "OpenOffice Impress tương đương với chức năng gì trong Micorsoft Office",
+      "options": {
+        "A": "Word",
+        "B": "PowerPoint",
+        "C": "Excel",
+        "D": "Outlook"
+      },
+      "answer": "B",
+      "answer_text": "PowerPoint"
+    },
+    {
+      "id": 6,
+      "part": 1,
+      "question": "OpenOffice Calc tương đương với chức năng gì trong Micorsoft Office",
+      "options": {
+        "A": "Word",
+        "B": "PowerPoint",
+        "C": "Excel",
+        "D": "Access"
+      },
+      "answer": "C",
+      "answer_text": "Excel"
+    },
+    {
+      "id": 7,
+      "part": 1,
+      "question": "OpenOffice Draw tương đương với chức năng gì trong Micorsoft Office",
+      "options": {
+        "A": "Word",
+        "B": "PowerPoint",
+        "C": "Excel",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án đúng"
+    },
+    {
+      "id": 8,
+      "part": 1,
+      "question": "OpenOffice Base tương đương với chức năng gì trong Micorsoft Office",
+      "options": {
+        "A": "Word",
+        "B": "PowerPoint",
+        "C": "Excel",
+        "D": "Access"
+      },
+      "answer": "D",
+      "answer_text": "Access"
+    },
+    {
+      "id": 9,
+      "part": 1,
+      "question": "OpenOffice Math tương đương với chức năng gì trong Micorsoft Office",
+      "options": {
+        "A": "Word",
+        "B": "PowerPoint",
+        "C": "Excel",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án đúng"
+    },
+    {
+      "id": 10,
+      "part": 1,
+      "question": "Phần mềm mail nào là mã nguồn mở",
+      "options": {
+        "A": "Microsoft Exchange",
+        "B": "Mail server MDaemon",
+        "C": "Mail server Zimbra",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "C",
+      "answer_text": "Mail server Zimbra"
+    },
+    {
+      "id": 11,
+      "part": 1,
+      "question": "Phần mềm mail nào tính phí đắt nhất",
+      "options": {
+        "A": "Microsoft Exchange",
+        "B": "Mail server MDaemon",
+        "C": "Mail server Zimbra",
+        "D": "Miễn phí toàn bộ"
+      },
+      "answer": "A",
+      "answer_text": "Microsoft Exchange"
+    },
+    {
+      "id": 12,
+      "part": 1,
+      "question": "Mail User Agent (MUA) là gì",
+      "options": {
+        "A": "Trình tương tác với người dùng, soạn thảo, gửi hoặc nhận e-mail",
+        "B": "Chuyển e-mail từ người gửi đến Mail Server",
+        "C": "Lưu các thư nhận được vào hệ thống, sử dụng chương trình mail client lấy các thư này về máy tính để đọc",
+        "D": "Tạo tài khoản Mail"
+      },
+      "answer": "A",
+      "answer_text": "Trình tương tác với người dùng, soạn thảo, gửi hoặc nhận e-mail"
+    },
+    {
+      "id": 13,
+      "part": 1,
+      "question": "Mail server đi, hoặc còn gọi là Giao thức truyền thư đơn giản viết tắt là gì",
+      "options": {
+        "A": "MUA",
+        "B": "IMAP",
+        "C": "SMTP",
+        "D": "SENT"
+      },
+      "answer": "C",
+      "answer_text": "SMTP"
+    },
+    {
+      "id": 14,
+      "part": 1,
+      "question": "Thư mục hiển thị Localhost của Xampp",
+      "options": {
+        "A": "www",
+        "B": "htdocs",
+        "C": "application",
+        "D": "root"
+      },
+      "answer": "B",
+      "answer_text": "htdocs"
+    },
+    {
+      "id": 15,
+      "part": 1,
+      "question": "Thư mục hiển thị Localhost của Appserv",
+      "options": {
+        "A": "www",
+        "B": "htdocs",
+        "C": "application",
+        "D": "root"
+      },
+      "answer": "A",
+      "answer_text": "www"
+    },
+    {
+      "id": 16,
+      "part": 1,
+      "question": "phpmyadmin để làm gì?",
+      "options": {
+        "A": "Quản trị MySQL",
+        "B": "Quản trị MSSQL",
+        "C": "Quản trị Localhost",
+        "D": "Quản trị Web Server"
+      },
+      "answer": "A",
+      "answer_text": "Quản trị MySQL"
+    },
+    {
+      "id": 17,
+      "part": 1,
+      "question": "Cổng mặc định cho dịch vụ web, cấu hình trên web server",
+      "options": {
+        "A": "80",
+        "B": "81",
+        "C": "8080",
+        "D": "Không cần dùng cổng"
+      },
+      "answer": "A",
+      "answer_text": "80"
+    },
+    {
+      "id": 18,
+      "part": 1,
+      "question": "Mail server đến (hay mail server nhận) gồm có mấy giao thức chính",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B",
+      "answer_text": "2"
+    },
+    {
+      "id": 19,
+      "part": 1,
+      "question": "Giao thức chính của Mail server đến, chọn phương án đúng nhất",
+      "options": {
+        "A": "POP3",
+        "B": "IMAP",
+        "C": "POP3, IMAP",
+        "D": "RECEIVE"
+      },
+      "answer": "C",
+      "answer_text": "POP3, IMAP"
+    },
+    {
+      "id": 20,
+      "part": 1,
+      "question": "Theo bạn có những Webserver nào sau đây không tồn tại?",
+      "options": {
+        "A": "a. Apache",
+        "B": "b. ISS của Microsoft",
+        "C": "c. Sun Java System Web",
+        "D": "không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "không có đáp án đúng"
+    },
+    {
+      "id": 21,
+      "part": 1,
+      "question": "Webserver ISS của Microsoft dành cho:",
+      "options": {
+        "A": "*.asp; *.aspx,…",
+        "B": "Php",
+        "C": "jps",
+        "D": "không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "*.asp; *.aspx,…"
+    },
+    {
+      "id": 22,
+      "part": 1,
+      "question": "Webserver Apache dành cho:",
+      "options": {
+        "A": "*.PHP,…",
+        "B": "ASP",
+        "C": "XML",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "*.PHP,…"
+    },
+    {
+      "id": 23,
+      "part": 1,
+      "question": "Webserver SUN Java dành cho:",
+      "options": {
+        "A": "*.jps,…",
+        "B": "php",
+        "C": "asp",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "*.jps,…"
+    },
+    {
+      "id": 24,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết hệ điều hành nào là hệ điều hành mã nguồn mở?",
+      "options": {
+        "A": "Slackware",
+        "B": "AIX",
+        "C": "HP-UX",
+        "D": "Solaris"
+      },
+      "answer": "A",
+      "answer_text": "Slackware"
+    },
+    {
+      "id": 25,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết phần nhân (core) của hệ điều hành Linux gọi là gì?",
+      "options": {
+        "A": "Shell",
+        "B": "Script",
+        "C": "Terminal",
+        "D": "Kernel"
+      },
+      "answer": "D",
+      "answer_text": "Kernel"
+    },
+    {
+      "id": 26,
+      "part": 1,
+      "question": "Câu nào sau đây là đúng",
+      "options": {
+        "A": "Phần mềm mã nguồn mở không mang lại lợi nhuận",
+        "B": "Phần mềm mã nguồn mở không cho phép phân phối lại",
+        "C": "Phần mềm mã nguồn mở không có bản quyền",
+        "D": "Phần mềm mã nguồn mở không có bảo hành"
+      },
+      "answer": "D",
+      "answer_text": "Phần mềm mã nguồn mở không có bảo hành"
+    },
+    {
+      "id": 27,
+      "part": 1,
+      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở :",
+      "options": {
+        "A": "a. Microsoft Office",
+        "B": "b. Libre Office",
+        "C": "Cả a và b",
+        "D": "Không câu nào đúng"
+      },
+      "answer": "B",
+      "answer_text": "b. Libre Office"
+    },
+    {
+      "id": 28,
+      "part": 1,
+      "question": "Bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép BSD :",
+      "options": {
+        "A": "Ubuntu",
+        "B": "Window Xfree86",
+        "C": "JavaFBP toolkit",
+        "D": "Không câu nào đúng"
+      },
+      "answer": "B",
+      "answer_text": "Window Xfree86"
+    },
+    {
+      "id": 29,
+      "part": 1,
+      "question": "Phần mềm GIMP sử dụng giấy phép mã nguồn mở nào :",
+      "options": {
+        "A": "GNU GPL License",
+        "B": "Apache Public License",
+        "C": "BSD License",
+        "D": "Artistic License"
+      },
+      "answer": "A",
+      "answer_text": "GNU GPL License"
+    },
+    {
+      "id": 30,
+      "part": 1,
+      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép mã nguồn mở nào :",
+      "options": {
+        "A": "Mozilla Public License",
+        "B": "BSD License",
+        "C": "Artistic License",
+        "D": "GPL License"
+      },
+      "answer": "A",
+      "answer_text": "Mozilla Public License"
+    },
+    {
+      "id": 31,
+      "part": 1,
+      "question": "Phần mềm Apache Server sử dụng giấy phép nào sau đây :",
+      "options": {
+        "A": "BSD License",
+        "B": "Artistic License",
+        "C": "GPL License",
+        "D": "Apache License"
+      },
+      "answer": "D",
+      "answer_text": "Apache License"
+    },
+    {
+      "id": 32,
+      "part": 1,
+      "question": "Nukeviet được viết bằng ngôn ngữ và sử dụng CSDL nào?",
+      "options": {
+        "A": "PHP và MySQL",
+        "B": "PHP và Access",
+        "C": "PHP và DB4.0",
+        "D": "PHP và O2"
+      },
+      "answer": "A",
+      "answer_text": "PHP và MySQL"
+    },
+    {
+      "id": 33,
+      "part": 1,
+      "question": "Nukeviet sử dụng bộ giấy phép nào?",
+      "options": {
+        "A": "GNU/GPL",
+        "B": "GNU/GPC",
+        "C": "GUI/GPL",
+        "D": "GNU/GPLs"
+      },
+      "answer": "A",
+      "answer_text": "GNU/GPL"
+    },
+    {
+      "id": 34,
+      "part": 1,
+      "question": "Chọn phát biểu đúng?",
+      "options": {
+        "A": "Joomla là mã nguồn mở và được cung cấp hoàn toàn miễn phí",
+        "B": "Joomla là một công cụ lập trình web",
+        "C": "Joomla được phát triển bởi Microsoft",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Joomla là mã nguồn mở và được cung cấp hoàn toàn miễn phí"
+    },
+    {
+      "id": 35,
+      "part": 1,
+      "question": "Quy trình triển khai hệ thống Moodle gồm có mấy bước",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "C",
+      "answer_text": "4"
+    },
+    {
+      "id": 36,
+      "part": 1,
+      "question": "Bước 1 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "A",
+      "answer_text": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost"
+    },
+    {
+      "id": 37,
+      "part": 1,
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ điều hành nguồn mở được ưu tiên mua sắm, sử dụng trong cơ quan, tổ chức nhà nước là gì?",
+      "options": {
+        "A": "Ubuntu, Fedora, OpenBSD, Debian",
+        "B": "FreeBSD, Debian, Ubuntu, Inferno",
+        "C": "OpenSUSE, Ubuntu, ChromeOS, Fedora",
+        "D": "CentOS, Debian, Ubuntu, Fedora"
+      },
+      "answer": "D",
+      "answer_text": "CentOS, Debian, Ubuntu, Fedora"
+    },
+    {
+      "id": 38,
+      "part": 1,
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ quản trị nội dung Web nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
+      "options": {
+        "A": "Joomla, Wordpress, Moodle",
+        "B": "Drupal, Joomla, NukeViet",
+        "C": "Wordpress, Joomla, Alfresco",
+        "D": "Magento, Joomla, Opencart"
+      },
+      "answer": "B",
+      "answer_text": "Drupal, Joomla, NukeViet"
+    },
+    {
+      "id": 39,
+      "part": 1,
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các phần mềm trình duyệt Web nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
+      "options": {
+        "A": "Mozilla Firefox, Opera",
+        "B": "Google Chrome, Mozilla Firefox",
+        "C": "Mozilla Firefox, Microsoft Edge",
+        "D": "Mozilla Firefox, Chromium"
+      },
+      "answer": "D",
+      "answer_text": "Mozilla Firefox, Chromium"
+    },
+    {
+      "id": 40,
+      "part": 1,
+      "question": "Bước 2 trong quy trình triển khai hệ thống Moodle thực hiện công việc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "B",
+      "answer_text": "Cài đặt và cấu hình hệ thống Moodle Elearning"
+    },
+    {
+      "id": 41,
+      "part": 1,
+      "question": "Bước 3 trong quy trình triển khai hệ thống Moodle thực hiện công việc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "C",
+      "answer_text": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống"
+    },
+    {
+      "id": 42,
+      "part": 1,
+      "question": "Bước 4 trong quy trình triển khai hệ thống Moodle thực hiện công việc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "D",
+      "answer_text": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+    },
+    {
+      "id": 43,
+      "part": 1,
+      "question": "Ưu điểm của Moodle Elearning là?",
+      "options": {
+        "A": "a. Can thiệp vào code",
+        "B": "b. Cộng đồng người sử dụng lớn, nên có thể giúp chúng ta vận hành, phát triển",
+        "C": "c. Tương thích với nhiều công cụ tạo bài giảng, dễ quảng trị, cấu hình,..",
+        "D": "Cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 44,
+      "part": 1,
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ quản trị cơ sở dữ liệu nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
+      "options": {
+        "A": "MariaDB, Oracle, MongoDB",
+        "B": "PostgreSQL, MySQL, MariaDB",
+        "C": "MongoDB, Hadoop, Foxpro",
+        "D": "MySQL, Hadoop, Zimbra"
+      },
+      "answer": "B",
+      "answer_text": "PostgreSQL, MySQL, MariaDB"
+    },
+    {
+      "id": 45,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết hai hệ thống giấy phép tư liệu mở phổ biến là ?",
+      "options": {
+        "A": "Giấy phép của GNU và giấy phép của OSI",
+        "B": "Giấy phép Open Document Format (ODF) và giấy phép Open Education Resource (OER)",
+        "C": "Giấy phép Open Public Document (OPD) và giấy phép Open Licence Free (OLF)",
+        "D": "Giấy phép Creative Commons và GNU General Free Document Licence"
+      },
+      "answer": "D",
+      "answer_text": "Giấy phép Creative Commons và GNU General Free Document Licence"
+    },
+    {
+      "id": 46,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết phần có chức năng thực thi các lệnh (command) của hệ điều hành Linux gọi là gì?",
+      "options": {
+        "A": "Shell",
+        "B": "Script",
+        "C": "Terminal",
+        "D": "Kernel"
+      },
+      "answer": "A",
+      "answer_text": "Shell"
+    },
+    {
+      "id": 47,
+      "part": 1,
+      "question": "Chức năng phần mềm nào khác với những phần mềm còn lại?",
+      "options": {
+        "A": "Microsoft Exchange",
+        "B": "Mail server MDaemon",
+        "C": "Mail server Zimbra",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án đúng"
+    },
+    {
+      "id": 48,
+      "part": 1,
+      "question": "Phần mềm nào không có chức năng chống Spam?",
+      "options": {
+        "A": "Microsoft Exchange",
+        "B": "Mail server MDaemon",
+        "C": "Mail server Zimbra",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án đúng"
+    },
+    {
+      "id": 49,
+      "part": 1,
+      "question": "OpenOffice mã nguồn mở được phát triển bởi",
+      "options": {
+        "A": "Sun Microsystems và cộng đổng mở",
+        "B": "Microsoft và cộng đổng mở",
+        "C": "Object Management Group",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Sun Microsystems và cộng đổng mở"
+    },
+    {
+      "id": 50,
+      "part": 1,
+      "question": "Phần mềm nào gọi là Learning Management System – LMS?",
+      "options": {
+        "A": "Opencart",
+        "B": "WordPress",
+        "C": "Moodle",
+        "D": "Phpcoin"
+      },
+      "answer": "C",
+      "answer_text": "Moodle"
+    },
+    {
+      "id": 51,
+      "part": 1,
+      "question": "Moodle (Modular Object-Oriented Dynamic Leanring Environment) được sáng lập năm?",
+      "options": {
+        "A": "1998",
+        "B": "1999",
+        "C": "2000",
+        "D": "2001"
+      },
+      "answer": "B",
+      "answer_text": "1999"
+    },
+    {
+      "id": 52,
+      "part": 1,
+      "question": "CentOS Có nguồn gốc hoàn toàn từ bản phân phối nào?",
+      "options": {
+        "A": "Red Hat",
+        "B": "Ubuntu",
+        "C": "Linux Mint",
+        "D": "Debian"
+      },
+      "answer": "A",
+      "answer_text": "Red Hat"
+    },
+    {
+      "id": 53,
+      "part": 1,
+      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu",
+      "options": {
+        "A": "Wine và CrossOver",
+        "B": "Wine door và Cedega",
+        "C": "Wine và PlayOnlinux",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "C",
+      "answer_text": "Wine và PlayOnlinux"
+    },
+    {
+      "id": 54,
+      "part": 1,
+      "question": "Đâu không phải là hệ điều hành mã nguồn mở?",
+      "options": {
+        "A": "Red Hat",
+        "B": "Fedora",
+        "C": "Debian",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án đúng"
+    },
+    {
+      "id": 55,
+      "part": 1,
+      "question": "BIND là phần mềm mã nguồn mở gì?",
+      "options": {
+        "A": "Máy chủ tên miền",
+        "B": "Mail server",
+        "C": "Website",
+        "D": "Hệ điều hành"
+      },
+      "answer": "A",
+      "answer_text": "Máy chủ tên miền"
+    },
+    {
+      "id": 56,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết phần để người dùng cài đặt ứng dụng của hệ điều hành Linux gọi là gì?",
+      "options": {
+        "A": "Shell",
+        "B": "Application",
+        "C": "Terminal",
+        "D": "Kernel"
+      },
+      "answer": "B",
+      "answer_text": "Application"
+    },
+    {
+      "id": 57,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết định nghĩa phần cứng mở (Open Source Hardware Definition – OSHW) được tạo ra bởi ai?",
+      "options": {
+        "A": "Simon Phipps và tổ chức sáng kiến nguồn mở Open Source Initiative",
+        "B": "Linus Tovalds và tổ chức quốc tế về tiêu chuẩn hóa ISO cho phần cứng",
+        "C": "Richard Stallman và quỹ phát triển phần mềm tự do FSF (Free Software Foundation)",
+        "D": "Bruce Perens và các nhà phát triển Debian như Debian Free Software Guidelines"
+      },
+      "answer": "D",
+      "answer_text": "Bruce Perens và các nhà phát triển Debian như Debian Free Software Guidelines"
+    },
+    {
+      "id": 58,
+      "part": 1,
+      "question": "Bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép GNU GPL:",
+      "options": {
+        "A": "Ubuntu",
+        "B": "Window Xfree86",
+        "C": "JavaFBP toolkit",
+        "D": "Không câu nào đúng"
+      },
+      "answer": "A",
+      "answer_text": "Ubuntu"
+    },
+    {
+      "id": 59,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết định dạng tài liệu mở ( OpenOffice - math ) dưới dạng mẫu tệp mặc định viết tắt là gì?",
+      "options": {
+        "A": "ODS",
+        "B": "ODT",
+        "C": "ODF",
+        "D": "DFD"
+      },
+      "answer": "C",
+      "answer_text": "ODF"
+    },
+    {
+      "id": 60,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết thỏa thuận cộng tác CLA (Contributor License Agreement) có đặc điểm là gì?",
+      "options": {
+        "A": "Người đóng góp thực sự chuyển giao quyền sở hữu bản quyền đối với những đóng góp cho dự án.",
+        "B": "Người đóng góp ban đầu giữ lại quyền sở hữu bản quyền đối với những đóng góp của họ",
+        "C": "Người đóng góp cho phép các dự án phân phối các khoản đóng góp của họ theo bất kỳ giấy phép nào dự án muốn",
+        "D": "Người đóng góp chỉ có quyền phân phối các khoản đóng góp mới theo giấy phép nguồn mở hiện tại của dự án"
+      },
+      "answer": "B",
+      "answer_text": "Người đóng góp ban đầu giữ lại quyền sở hữu bản quyền đối với những đóng góp của họ"
+    },
+    {
+      "id": 61,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết theo định nghĩa phần cứng mở (Open-source Hardware) phát biểu nào là đúng?",
+      "options": {
+        "A": "Nếu thiết kế phần cứng được cấp phép, nó yêu cầu phải có phần mềm nhúng hoặc cách khác để hoạt động đúng và thực hiện các chức năng.",
+        "B": "Phần cứng mở cho phép mọi người tự do kiểm soát công nghệ của họ, chia sẻ kiến thức thông qua việc trao đổi thiết kế mở và phi thương mại",
+        "C": "Phần cứng phải được phát hành cùng với tài liệu bao gồm các tệp thiết kế và phải cho phép sửa đổi và phân phối các tệp thiết kế",
+        "D": "Phần cứng không được trang bị tài liệu kèm theo, tài liệu chỉ được công bố miễn phí qua mạng internet"
+      },
+      "answer": "C",
+      "answer_text": "Phần cứng phải được phát hành cùng với tài liệu bao gồm các tệp thiết kế và phải cho phép sửa đổi và phân phối các tệp thiết kế"
+    },
+    {
+      "id": 62,
+      "part": 1,
+      "question": "Anh (chị) hãy cho biết phần cứng mở (Open-source Hardware) có tài liệu thiết kế là gì?",
+      "options": {
+        "A": "Là tài liệu theo định dạng tài liệu mở.",
+        "B": "Là tài liệu thiết kế độc quyền được chia sẻ.",
+        "C": "Là tài liệu thiết kế dạng hình ảnh hoặc CAD.",
+        "D": "Là tài liệu thiết kế gốc được đóng dấu bản quyền."
+      },
+      "answer": "A",
+      "answer_text": "Là tài liệu theo định dạng tài liệu mở."
+    },
+    {
+      "id": 63,
+      "part": 1,
+      "question": "Chọn phát biểu đúng về Joomla",
+      "options": {
+        "A": "Giúp tiết kiệm thời gian và công sức thiết kế Website",
+        "B": "Tự ngồi lập trình lại từ đầu",
+        "C": "Tự phát triển ngay từ đầu",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Giúp tiết kiệm thời gian và công sức thiết kế Website"
+    },
+    {
+      "id": 64,
+      "part": 1,
+      "question": "Trong các đối tượng sau, đối tượng nào không phục vụ Moodle Elearning",
+      "options": {
+        "A": "a. Quản lý viên",
+        "B": "b. Giảng viên",
+        "C": "c. Sinh viên",
+        "D": "Cả 'a', 'b', 'c' đều sai"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều sai"
+    },
+    {
+      "id": 65,
+      "part": 1,
+      "question": "Trong các đối tượng sau, đối tượng nào phục vụ Moodle Elearning?",
+      "options": {
+        "A": "a. Quản lý viên",
+        "B": "b. Giảng viên",
+        "C": "c. Sinh viên",
+        "D": "Cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 66,
+      "part": 1,
+      "question": "Moodle là một giải pháp học tập lý tưởng trên mạng cho?",
+      "options": {
+        "A": "a. Các trường phổ thông",
+        "B": "b. Các trường đại học, cao đẳng",
+        "C": "c. Các tổ chức doang nghiệp, bệnh viện",
+        "D": "cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 67,
+      "part": 1,
+      "question": "Công cụ Moodle dùng chủ yếu trong site nào?",
+      "options": {
+        "A": "Giáo dục",
+        "B": "Tin tức",
+        "C": "Thương mại điện tử",
+        "D": "Thể thao, giải trí"
+      },
+      "answer": "A",
+      "answer_text": "Giáo dục"
+    },
+    {
+      "id": 68,
+      "part": 1,
+      "question": "Moodle viết tắt của?",
+      "options": {
+        "A": "Modular Object-Oriented Dynamic Learning Environment",
+        "B": "Modular -Oriented Dynamic Learning Environment",
+        "C": "Modular Object- Dynamic Learning Environment",
+        "D": "Modular Object-Oriented Learning Environment"
+      },
+      "answer": "A",
+      "answer_text": "Modular Object-Oriented Dynamic Learning Environment"
+    },
+    {
+      "id": 69,
+      "part": 1,
+      "question": "Joomla có thể sử dụng vào những site?",
+      "options": {
+        "A": "a. Blog cá nhân, tin tức, trường học",
+        "B": "b. Thể thao, giải trí, mua sắm, thương mại điện tử",
+        "C": "c. Danh bạ trực tuyến, mạng xã hội, mạng cộng đồng",
+        "D": "cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 70,
+      "part": 1,
+      "question": "Joomla không thể sử dụng vào những site?",
+      "options": {
+        "A": "a. Blog cá nhân, tin tức, trường học",
+        "B": "b. Thể thao, giải trí, mua sắm, thương mại điện tử",
+        "C": "c. Danh bạ trực tuyến, mạng xã hội, mạng cộng đồng",
+        "D": "d. Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "d. Không có đáp án đúng"
+    },
+    {
+      "id": 71,
+      "part": 1,
+      "question": "Phần mềm mã nguồn mở nào dùng để xây dựng thương mại điện tử?",
+      "options": {
+        "A": "a. Opencart",
+        "B": "b. Joomla",
+        "C": "c. Wordpress",
+        "D": "Cả a, b, c đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả a, b, c đều đúng"
+    },
+    {
+      "id": 72,
+      "part": 1,
+      "question": "Quá trình cài đặt mới, bộ nào không cần tạo cơ sở dữ liệu?",
+      "options": {
+        "A": "Nukeviet",
+        "B": "Wordpress",
+        "C": "Joomla",
+        "D": "Cả a, b, c đều cần database trong quá trình cài"
+      },
+      "answer": "D",
+      "answer_text": "Cả a, b, c đều cần database trong quá trình cài"
+    },
+    {
+      "id": 73,
+      "part": 1,
+      "question": "Để tạo môi trường Web trên localhost bạn chọn cách nào sau đây?",
+      "options": {
+        "A": "Cài đặt IIS trong Window",
+        "B": "Cài đặt SQL Server",
+        "C": "Cài đặt MySQL",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Cài đặt IIS trong Window"
+    },
+    {
+      "id": 74,
+      "part": 1,
+      "question": "Để tạo môi trường Web và CSDL trên Localhost bạn phải cài đặt?",
+      "options": {
+        "A": "Cài đặt XamPP",
+        "B": "Cài đặt XML",
+        "C": "Cài đặt PHP",
+        "D": "Cài đặt IIS"
+      },
+      "answer": "A",
+      "answer_text": "Cài đặt XamPP"
+    },
+    {
+      "id": 75,
+      "part": 1,
+      "question": "Để tạo môi trường Web và CSDL trên Localhost bạn phải cài đặt?",
+      "options": {
+        "A": "a. Appserv",
+        "B": "b. IIS và SQL Server",
+        "C": "Cả 'a', 'b' đều đúng",
+        "D": "Cả 'a', 'b' đều sai"
+      },
+      "answer": "C",
+      "answer_text": "Cả 'a', 'b' đều đúng"
+    },
+    {
+      "id": 76,
+      "part": 1,
+      "question": "Phát biểu nào sau đây không phải là phát biểu đúng",
+      "options": {
+        "A": "Phần mềm mã nguồn mở là phần mềm tự do",
+        "B": "Phần mềm mã nguồn mở là phần mềm miễn phí",
+        "C": "Phần mềm mã nguồn mở cho phép người dùng được sửa mã nguồn",
+        "D": "Phần mềm mã nguồn mở cho phép người dùng được tự do chia sẻ cho người khác"
+      },
+      "answer": "A",
+      "answer_text": "Phần mềm mã nguồn mở là phần mềm tự do"
+    },
+    {
+      "id": 77,
+      "part": 1,
+      "question": "Phần mềm tự do nguồn mở mục đích là ?",
+      "options": {
+        "A": "Giải phóng những cản trở về tư duy tự do trong sáng tạo, phát triển, chia sẻ của phần mềm",
+        "B": "Giải phóng những rào cản của sự phức tạp công nghệ bằng khả năng –tự dộng hóa",
+        "C": "Liên kết nguồn tri thức vô tận trong xã hội, cạnh tranh bình đẳng và tự do trong sáng tạo",
+        "D": "Tất cả các đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Giải phóng những cản trở về tư duy tự do trong sáng tạo, phát triển, chia sẻ của phần mềm"
+    },
+    {
+      "id": 78,
+      "part": 1,
+      "question": "Phát biểu đúng về giấy phép dạng Copyleft?",
+      "options": {
+        "A": "Một loại giấy phép mà hạn chế sự tự do để sử dụng, chỉnh sửa, mở rộng và phân phối lại các phiên bản mã nguồn",
+        "B": "Là loại giấy phép được cấp phép cho tất cả các phần mềm miễn phí",
+        "C": "BSD và MIT là giấy phép ở dạng này",
+        "D": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 79,
+      "part": 1,
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở ?",
+      "options": {
+        "A": "New BSD License",
+        "B": "MIT License",
+        "C": "Eclipse Public License",
+        "D": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 80,
+      "part": 1,
+      "question": "GNU General Public License tất cả các phiên bản là loại giấy phép gì?",
+      "options": {
+        "A": "Copyright",
+        "B": "Copyleft",
+        "C": "Copyfree",
+        "D": "Copyfull"
+      },
+      "answer": "B",
+      "answer_text": "Copyleft"
+    },
+    {
+      "id": 81,
+      "part": 1,
+      "question": "Trong Joomla, chức năng cho member gửi bài viết là",
+      "options": {
+        "A": "Virtuemart",
+        "B": "JoomFish",
+        "C": "Free template",
+        "D": "JA Submit"
+      },
+      "answer": "D",
+      "answer_text": "JA Submit"
+    },
+    {
+      "id": 82,
+      "part": 1,
+      "question": "Phần mềm nào không phải mã nguồn mở",
+      "options": {
+        "A": "Drupal",
+        "B": "Nukeviet",
+        "C": "Photoshop",
+        "D": "Debian"
+      },
+      "answer": "C",
+      "answer_text": "Photoshop"
+    },
+    {
+      "id": 83,
+      "part": 1,
+      "question": "Phần mềm nào không phải mã nguồn mở",
+      "options": {
+        "A": "Drupal",
+        "B": "MongoDB",
+        "C": "Chef",
+        "D": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 84,
+      "part": 1,
+      "question": "Dòng phiên bản Nukeviet 2.0 do những ai phát triển?",
+      "options": {
+        "A": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Nga phát triển",
+        "B": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Đức phát triển",
+        "C": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Pháp phát triển",
+        "D": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Nhật phát triển"
+      },
+      "answer": "A",
+      "answer_text": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Nga phát triển"
+    },
+    {
+      "id": 85,
+      "part": 1,
+      "question": "Akismet (wordpress plugin) chức năng làm gì?",
+      "options": {
+        "A": "Chống spam",
+        "B": "Quản lý link",
+        "C": "Tăng tốc web",
+        "D": "Quản lý quảng cáo"
+      },
+      "answer": "A",
+      "answer_text": "Chống spam"
+    },
+    {
+      "id": 86,
+      "part": 1,
+      "question": "Jetpack (wordpress plugin) có mấy chức năng?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "Nhiều hơn 3 chức năng"
+      },
+      "answer": "A",
+      "answer_text": "1"
+    },
+    {
+      "id": 87,
+      "part": 1,
+      "question": "Plugin nào trong wordpress dùng bán hàng trực tuyến?",
+      "options": {
+        "A": "WooCommerce",
+        "B": "Jetpack",
+        "C": "WP Optimize",
+        "D": "Bloom"
+      },
+      "answer": "A",
+      "answer_text": "WooCommerce"
+    },
+    {
+      "id": 88,
+      "part": 1,
+      "question": "Phát biểu đúng về module 123HOST LSCache trong Nukeviet?",
+      "options": {
+        "A": "Chỉ dành riêng cho khách hàng sử dụng Hosting tại 123HOST",
+        "B": "Dùng thoải mái ở tại các Hosting khác nhau",
+        "C": "Tăng tốc gấp nhiều lần cho Website ở các Hosting khác nhau.",
+        "D": "Tính phí khi tải về cài đặt"
+      },
+      "answer": "A",
+      "answer_text": "Chỉ dành riêng cho khách hàng sử dụng Hosting tại 123HOST"
+    },
+    {
+      "id": 89,
+      "part": 1,
+      "question": "Block Facebook Like Box của tác giả nào?",
+      "options": {
+        "A": "binm8.4356",
+        "B": "mynukeviet",
+        "C": "vinades.,jsc",
+        "D": "info.vndes"
+      },
+      "answer": "C",
+      "answer_text": "vinades.,jsc"
+    },
+    {
+      "id": 90,
+      "part": 1,
+      "question": "Phát biểu đúng Module (Nukeviet) - Hỗ trợ thiết bị di động",
+      "options": {
+        "A": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 1.3 - do admin cấu hình)",
+        "B": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 2.3 - do admin cấu hình)",
+        "C": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 3.3 - do admin cấu hình)",
+        "D": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 4.3 - do admin cấu hình)"
+      },
+      "answer": "C",
+      "answer_text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 3.3 - do admin cấu hình)"
+    },
+    {
+      "id": 91,
+      "part": 2,
+      "question": "Quan niệm nào sau đây sai về copyleft:",
+      "options": {
+        "A": "Được đưa ra dựa trên copyright",
+        "B": "Nghĩa vụ phân phối và cho phép truy xuất công khai các tác phẩm phái sinh",
+        "C": "sử dụng, sữa đổi, phân phối lại",
+        "D": "Tồn tại giấp phép copyleft cho cả phần mềm, âm nhạc và nghệ thuật"
+      },
+      "answer": "D",
+      "answer_text": "Tồn tại giấp phép copyleft cho cả phần mềm, âm nhạc và nghệ thuật"
+    },
+    {
+      "id": 92,
+      "part": 2,
+      "question": "Nếu bạn viết 1 chương trình áp dụng giấy phép GNU–GPL thì bạn cấn đính kèm những thông báo đi cùng phần mềm ở đâu:",
+      "options": {
+        "A": "Một thông báo độc lập đi kèm",
+        "B": "Đính kèm vào phần đầu của tập tin mã nguồn 'dưới dạng ghi chú'",
+        "C": "Đính kèm vào phần cuối của tập tin mã nguồn 'dưới dạng ghi chú)'",
+        "D": "Cả 3 phương pháp trên đều đúng"
+      },
+      "answer": "B",
+      "answer_text": "Đính kèm vào phần đầu của tập tin mã nguồn 'dưới dạng ghi chú'"
+    },
+    {
+      "id": 93,
+      "part": 2,
+      "question": "Giấy phép BSD - Berkeley System Distribution Licenses được sử dụng lần đầu tiên cho phân mềm nào?",
+      "options": {
+        "A": "Free BSD",
+        "B": "BSD Unix",
+        "C": "Net BSD",
+        "D": "Unix"
+      },
+      "answer": "A",
+      "answer_text": "Free BSD"
+    },
+    {
+      "id": 94,
+      "part": 2,
+      "question": "Giấy phép mã nguồn mở là tập hợp các quy tắc đòi hỏi ai là người phải tuân theo:",
+      "options": {
+        "A": "Người sáng chế ra phần mềm mã nguồn mở.",
+        "B": "Nhà bảo hành phần mềm mã nguồn mở.",
+        "C": "Người sử dụng phần mềm mã nguồn mở.",
+        "D": "Cả 3"
+      },
+      "answer": "C",
+      "answer_text": "Người sử dụng phần mềm mã nguồn mở."
+    },
+    {
+      "id": 95,
+      "part": 2,
+      "question": "Tổ chức OSI - Open Source Initiative là một tổ chức như thế nào?",
+      "options": {
+        "A": "Là một tổ chức phi lợi nhuận mà mục đích của nó là thúc đẩy sự phát triển phần mềm nguồn mở.(2)",
+        "B": "Hoạt động quan trọng nhất của tổ chức này là xem xét phê duyệt giấy phép mã nguồn mở.(3)",
+        "C": "Câu (1) và (2)",
+        "D": "Là một tổ chức phần mềm nguồn mở, trực tiếp phát triển các dự án phần mềm nguồn mở.(1)"
+      },
+      "answer": "C",
+      "answer_text": "Câu (1) và (2)"
+    },
+    {
+      "id": 96,
+      "part": 2,
+      "question": "Tổ chức FSF là tổ chức",
+      "options": {
+        "A": "Phần mềm mã nguồn mở",
+        "B": "Phần mềm tự do",
+        "C": "Quỹ phần mềm nguồn mở",
+        "D": "Phần mềm miễn phí"
+      },
+      "answer": "C",
+      "answer_text": "Quỹ phần mềm nguồn mở"
+    },
+    {
+      "id": 97,
+      "part": 2,
+      "question": "phát biểu nào sau đây không phải là phát biểu đúng",
+      "options": {
+        "A": "Phần mềm mã nguồn mở là phần mềm tự do",
+        "B": "Phần mềm mã nguồn mở cho phép người dùng được sửa mã nguồn",
+        "C": "Phần mềm mã nguồn mở là phần mềm miễn phí",
+        "D": "Phần mềm mã nguồn mở cho phép người dùng được tự do chia sẻ cho người khác"
+      },
+      "answer": "A",
+      "answer_text": "Phần mềm mã nguồn mở là phần mềm tự do"
+    },
+    {
+      "id": 98,
+      "part": 2,
+      "question": "Câu nào sau đây không phải là ưu điểm của mã nguồn mở",
+      "options": {
+        "A": "Phần mềm mã nguồn mở giúp cân bằng giá, chống độc quyền",
+        "B": "Phần mềm mã nguồn mở không phải mất tiền mua",
+        "C": "Phần mềm mã nguồn mở có độ ổn định cao",
+        "D": "Phần mềm mã nguồn mở cung cấp kèm mã nguồn"
+      },
+      "answer": "C",
+      "answer_text": "Phần mềm mã nguồn mở có độ ổn định cao"
+    },
+    {
+      "id": 99,
+      "part": 2,
+      "question": "Câu nào sau đây là đúng",
+      "options": {
+        "A": "Phần mềm mã nguồn mở không mang lại lợi nhuận",
+        "B": "Phần mềm mã nguồn mở không cho phép phân phối lại",
+        "C": "Phần mềm mã nguồn mở không có bản quyền",
+        "D": "Phần mềm mã nguồn mở không có bảo hành"
+      },
+      "answer": "D",
+      "answer_text": "Phần mềm mã nguồn mở không có bảo hành"
+    },
+    {
+      "id": 100,
+      "part": 2,
+      "question": "Điều nào sau đây không đúng với các giấy phép mã nguồn mở",
+      "options": {
+        "A": "Các loại giấy phép đều có cơ chế bảo vệ quyền của tác giả ban đầu",
+        "B": "Các loại giấy phép đều yêu cầu không được thay đổi nội dung giấy phép",
+        "C": "Có giấy phép yêu cầu phải sử dụng cùng loại giấy phép với sản phẩm phái sinh",
+        "D": "Không giấy phép nào cấm người dùng sửa đổi chương trình"
+      },
+      "answer": "C",
+      "answer_text": "Có giấy phép yêu cầu phải sử dụng cùng loại giấy phép với sản phẩm phái sinh"
+    },
+    {
+      "id": 101,
+      "part": 2,
+      "question": "Giấy phép GNU GPL phiên bản mới nhất là:",
+      "options": {
+        "A": "1.0",
+        "B": "2.0",
+        "C": "3.0",
+        "D": "4.0"
+      },
+      "answer": "C",
+      "answer_text": "3.0"
+    },
+    {
+      "id": 102,
+      "part": 2,
+      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở:",
+      "options": {
+        "A": "Microsoft Office",
+        "B": "Libre Office",
+        "C": "Cả a và b",
+        "D": "Không câu nào đúng"
+      },
+      "answer": "B",
+      "answer_text": "Libre Office"
+    },
+    {
+      "id": 103,
+      "part": 2,
+      "question": "bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép GNU GPL:",
+      "options": {
+        "A": "Ubuntu",
+        "B": "Window Xfree86",
+        "C": "JavaFBP toolkit",
+        "D": "Không câu nào đúng"
+      },
+      "answer": "A",
+      "answer_text": "Ubuntu"
+    },
+    {
+      "id": 104,
+      "part": 2,
+      "question": "bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép BSD:",
+      "options": {
+        "A": "Ubuntu",
+        "B": "Window Xfree86",
+        "C": "JavaFBP toolkit",
+        "D": "Không câu nào đúng"
+      },
+      "answer": "B",
+      "answer_text": "Window Xfree86"
+    },
+    {
+      "id": 105,
+      "part": 2,
+      "question": "giấy phép nào không cấp phép một phần mềm/ thư viện mã nguồn đóng liên kết với một phần mềm/ thư viện mang giấy phép mở tương ứng.",
+      "options": {
+        "A": "GNU General Public License",
+        "B": "Apache Public License",
+        "C": "BSD License",
+        "D": "Artistic License"
+      },
+      "answer": "A",
+      "answer_text": "GNU General Public License"
+    },
+    {
+      "id": 106,
+      "part": 2,
+      "question": "Giấy phép nào có khả năng kết hợp một phần mềm với một phần mềm/ thư viện mang giấy phép mở tương ứng.",
+      "options": {
+        "A": "Apache Public License",
+        "B": "BSD License",
+        "C": "MIT License",
+        "D": "Cả 3 License"
+      },
+      "answer": "D",
+      "answer_text": "Cả 3 License"
+    },
+    {
+      "id": 107,
+      "part": 2,
+      "question": "Phần mềm GIMP sử dụng giấy phép mã nguồn mở nào:",
+      "options": {
+        "A": "GNU GPL License",
+        "B": "Apache Public License",
+        "C": "BSD License",
+        "D": "Artistic License"
+      },
+      "answer": "A",
+      "answer_text": "GNU GPL License"
+    },
+    {
+      "id": 108,
+      "part": 2,
+      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép mã nguồn mở nào:",
+      "options": {
+        "A": "Mozilla Public License",
+        "B": "BSD License",
+        "C": "Artistic License",
+        "D": "GPL License"
+      },
+      "answer": "A",
+      "answer_text": "Mozilla Public License"
+    },
+    {
+      "id": 109,
+      "part": 2,
+      "question": "Phần mềm Apache Server sử dụng giấy phép nào sau đây:",
+      "options": {
+        "A": "BSD License",
+        "B": "Artistic License",
+        "C": "GPL License",
+        "D": "Apache License"
+      },
+      "answer": "D",
+      "answer_text": "Apache License"
+    },
+    {
+      "id": 110,
+      "part": 2,
+      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu",
+      "options": {
+        "A": "Wine và CrossOver.",
+        "B": "Wine door và Cedega.",
+        "C": "Wine và PlayOnlinux.",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "C",
+      "answer_text": "Wine và PlayOnlinux."
+    },
+    {
+      "id": 111,
+      "part": 2,
+      "question": "Mã nguồn mở Nukeviet có mấy dòng phiên bản chính?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B",
+      "answer_text": "1"
+    },
+    {
+      "id": 112,
+      "part": 2,
+      "question": "Trong các dòng phiên bản sau, dòng phiên bản chính nào của Nukeviet?",
+      "options": {
+        "A": "1. Dòng 2.0 trở về trước",
+        "B": "2. Dòng 3.0 trở về sau",
+        "C": "3. Dòng 4.0",
+        "D": "1 và 2 đúng"
+      },
+      "answer": "B",
+      "answer_text": "2. Dòng 3.0 trở về sau"
+    },
+    {
+      "id": 113,
+      "part": 2,
+      "question": "Dòng phiên bản 2.0 do những ai phát triển?",
+      "options": {
+        "A": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Nga phát triển",
+        "B": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Đức phát triển",
+        "C": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Pháp phát triển",
+        "D": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Nhật phát triển"
+      },
+      "answer": "A",
+      "answer_text": "Nguyễn Anh Tú cùng một số lưu học sinh Việt Nam tại Nga phát triển"
+    },
+    {
+      "id": 114,
+      "part": 2,
+      "question": "Nukeviet được viết bằng ngôn ngữ và sử dụng CSDL nào?",
+      "options": {
+        "A": "PHP và MySQL",
+        "B": "PHP và Access",
+        "C": "PHP và DB4.0",
+        "D": "PHP và O2"
+      },
+      "answer": "A",
+      "answer_text": "PHP và MySQL"
+    },
+    {
+      "id": 115,
+      "part": 2,
+      "question": "Nukeviet sử dụng bộ giấy phép nào?",
+      "options": {
+        "A": "GNU/GPL",
+        "B": "GNU/GPC",
+        "C": "GUI/GPL",
+        "D": "GNU/GPLs"
+      },
+      "answer": "A",
+      "answer_text": "GNU/GPL"
+    },
+    {
+      "id": 116,
+      "part": 2,
+      "question": "Chọn phát biểu đúng?",
+      "options": {
+        "A": "Joomla là mã nguồn mở và được cung cấp hoàn toàn miễn phí",
+        "B": "Joomla là một công cụ lập trình web",
+        "C": "Joomla được phát triển bởi Microsoft",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Joomla là mã nguồn mở và được cung cấp hoàn toàn miễn phí"
+    },
+    {
+      "id": 117,
+      "part": 2,
+      "question": "Chọn phát biểu đúng?",
+      "options": {
+        "A": "Joomla là nền tảng mã nguồn mở được xây dựng và đóng gói bởi những chuyên gia hàng đầu và những thành viên tích cực",
+        "B": "Joomla là nền tảng mã nguồn mở được xây dựng và đóng gói bởi những chuyên gia hàng đầu",
+        "C": "Joomla là nền tảng mã nguồn mở được xây dựng và đóng gói bởi những thành viên tích cực",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Joomla là nền tảng mã nguồn mở được xây dựng và đóng gói bởi những chuyên gia hàng đầu và những thành viên tích cực"
+    },
+    {
+      "id": 118,
+      "part": 2,
+      "question": "Chọn phát biểu đúng",
+      "options": {
+        "A": "khi gặp khó khăn không có ai giúp đỡ",
+        "B": "Khi gặp khó thì tự mình giải quyết",
+        "C": "Không có đáp án đúng",
+        "D": "Joomla có 1 cộng đồng phát triển cũng như sử dụng, điều đó có nghĩa là ngay khi gặp vấn đề khó khăn, rất nhiều người tình nguyện giúp đỡ bạn"
+      },
+      "answer": "D",
+      "answer_text": "Joomla có 1 cộng đồng phát triển cũng như sử dụng, điều đó có nghĩa là ngay khi gặp vấn đề khó khăn, rất nhiều người tình nguyện giúp đỡ bạn"
+    },
+    {
+      "id": 119,
+      "part": 2,
+      "question": "Chọn phát biểu đúng",
+      "options": {
+        "A": "Joomla giúp tiết kiệm thời gian và công sức thiết kế Website",
+        "B": "Tự ngồi lập trình lại từ đầu",
+        "C": "Tự phát triển ngay từ đầu",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Joomla giúp tiết kiệm thời gian và công sức thiết kế Website"
+    },
+    {
+      "id": 120,
+      "part": 2,
+      "question": "Joomla có thể sử dụng vào những site?",
+      "options": {
+        "A": "Blog cá nhân, tin tức, trường học",
+        "B": "Thể thao, giải trí, mua sắm, thương mại điện tử",
+        "C": "Danh bạ trực tuyến, mạng xã hội, mạng cộng đồng",
+        "D": "cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 121,
+      "part": 2,
+      "question": "Joomla không thể sử dụng vào những site?",
+      "options": {
+        "A": "Blog cá nhân, tin tức, trường học",
+        "B": "Thể thao, giải trí, mua sắm, thương mại điện tử",
+        "C": "Danh bạ trực tuyến, mạng xã hội, mạng cộng đồng",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án đúng"
+    },
+    {
+      "id": 122,
+      "part": 2,
+      "question": "Moodle viết tắt của?",
+      "options": {
+        "A": "Modular Object-Oriented Dynamic Learning Environment",
+        "B": "Modular -Oriented Dynamic Learning Environment",
+        "C": "Modular Object- Dynamic Learning Environment",
+        "D": "Modular Object-Oriented Learning Environment"
+      },
+      "answer": "A",
+      "answer_text": "Modular Object-Oriented Dynamic Learning Environment"
+    },
+    {
+      "id": 123,
+      "part": 2,
+      "question": "Công cụ Moodle dùng chủ yếu trong site nào?",
+      "options": {
+        "A": "Giáo dục",
+        "B": "Tin tức",
+        "C": "Thương mại điện tử",
+        "D": "Thể thao, giải trí"
+      },
+      "answer": "A",
+      "answer_text": "Giáo dục"
+    },
+    {
+      "id": 124,
+      "part": 2,
+      "question": "Moodle là một giải pháp học tập lý tưởng trên mạng cho?",
+      "options": {
+        "A": "Các trường phổ thông",
+        "B": "Các trường đại học, cao đẳng",
+        "C": "Các tổ chức doang nghiệp, bệnh viện",
+        "D": "cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 125,
+      "part": 2,
+      "question": "Bài giảng trong Moodle sử dụng chuẩn nào?",
+      "options": {
+        "A": "SCORM",
+        "B": "MCOM",
+        "C": "Powerpoint",
+        "D": "SCOM"
+      },
+      "answer": "A",
+      "answer_text": "SCORM"
+    },
+    {
+      "id": 126,
+      "part": 2,
+      "question": "Cấu trúc của hệ thống Moodle elearning gồm mấy phần?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "A",
+      "answer_text": "5"
+    },
+    {
+      "id": 127,
+      "part": 2,
+      "question": "Trong các tính năng sau, tính năng nào là của Moodle?",
+      "options": {
+        "A": "Tạo và quản lý khóa học",
+        "B": "Đưa nội dung bài học tới học viên",
+        "C": "Quản lý học viên",
+        "D": "Cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 128,
+      "part": 2,
+      "question": "Trong các tính năng sau, tính năng nào là của Moodle?",
+      "options": {
+        "A": "đánh giá, thảo luận, bài học, kiểm tra, bài tập lớn,...",
+        "B": "Quản lý tài nguyên",
+        "C": "Tổ chức hội thảo",
+        "D": "Cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 129,
+      "part": 2,
+      "question": "Trong các tính năng sau, tính năng nào là của Moodle?",
+      "options": {
+        "A": "Quản lý sự kiện",
+        "B": "Báo cáo tiến trình học tập của học viên",
+        "C": "Trợ giúp nội dung khóa học",
+        "D": "Cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 130,
+      "part": 2,
+      "question": "Trong các đối tượng sau, đối tượng nào phục vụ Moodle Elearning?",
+      "options": {
+        "A": "Quản lý viên",
+        "B": "Giảng viên",
+        "C": "Sinh viên",
+        "D": "Cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 131,
+      "part": 2,
+      "question": "Trong các đối tượng sau, đối tượng nào không phục vụ Moodle Elearning",
+      "options": {
+        "A": "Quản lý viên",
+        "B": "Giảng viên",
+        "C": "Sinh viên",
+        "D": "Cả 'a', 'b', 'c' đều sai"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều sai"
+    },
+    {
+      "id": 132,
+      "part": 2,
+      "question": "Quy trình triển khai hệ thống Moodle gồm có mấy bước",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "4"
+    },
+    {
+      "id": 133,
+      "part": 2,
+      "question": "Bước 1 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "A",
+      "answer_text": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost"
+    },
+    {
+      "id": 134,
+      "part": 2,
+      "question": "Bước 2 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "B",
+      "answer_text": "Cài đặt và cấu hình hệ thống Moodle Elearning"
+    },
+    {
+      "id": 135,
+      "part": 2,
+      "question": "Bước 3 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "C",
+      "answer_text": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống"
+    },
+    {
+      "id": 136,
+      "part": 2,
+      "question": "Bước 4 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
+      "options": {
+        "A": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost",
+        "B": "Cài đặt và cấu hình hệ thống Moodle Elearning",
+        "C": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống",
+        "D": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+      },
+      "answer": "D",
+      "answer_text": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
+    },
+    {
+      "id": 137,
+      "part": 2,
+      "question": "Ưu điểm của Moodle Elearning là?",
+      "options": {
+        "A": "Can thiệp vào code",
+        "B": "Cộng đồng người sử dụng lớn, nên có thể giúp chúng ta vận hành, phát triển",
+        "C": "Tương thích với nhiều công cụ tạo bài giảng, dễ quảng trị, cấu hình,..",
+        "D": "Cả 'a', 'b', 'c' đều đúng"
+      },
+      "answer": "D",
+      "answer_text": "Cả 'a', 'b', 'c' đều đúng"
+    },
+    {
+      "id": 138,
+      "part": 2,
+      "question": "Để tạo môi trường Web trên localhost bạn chọn cách nào sau đây?",
+      "options": {
+        "A": "Cài đặt IIS trong Window",
+        "B": "Cài đặt SQL Server",
+        "C": "Cài đặt MySQL",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Cài đặt IIS trong Window"
+    },
+    {
+      "id": 139,
+      "part": 2,
+      "question": "Để tạo môi trường Web và CSDL trên Localhost bạn phải cài đặt?",
+      "options": {
+        "A": "Cài đặt XamPP",
+        "B": "Cài đặt XML",
+        "C": "Cài đặt PHP",
+        "D": "Cài đặt IIS"
+      },
+      "answer": "A",
+      "answer_text": "Cài đặt XamPP"
+    },
+    {
+      "id": 140,
+      "part": 2,
+      "question": "Để tạo môi trường Web và CSDL trên Localhost bạn phải cài đặt?",
+      "options": {
+        "A": "XamPP",
+        "B": "IIS và SQL Server",
+        "C": "Cả 'a', 'b' đều đúng",
+        "D": "Cả 'a', 'b' đều sai"
+      },
+      "answer": "C",
+      "answer_text": "Cả 'a', 'b' đều đúng"
+    },
+    {
+      "id": 141,
+      "part": 2,
+      "question": "Web Server là gì?",
+      "options": {
+        "A": "Là máy tính mà trên đó cài đặt phần mềm phục vụ Web",
+        "B": "Là máy tính cài đặt các phầm mềm ứng dùng",
+        "C": "Là máy tính mà trên đó cài đặt Office",
+        "D": "là máy tính trên đó cài đặt phần mềm"
+      },
+      "answer": "A",
+      "answer_text": "Là máy tính mà trên đó cài đặt phần mềm phục vụ Web"
+    },
+    {
+      "id": 142,
+      "part": 2,
+      "question": "Theo bạn có những Webserver nào sau đây không tồn tại?",
+      "options": {
+        "A": "Apache",
+        "B": "ISS của Microsoft",
+        "C": "Sun Java System Web",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án đúng"
+    },
+    {
+      "id": 143,
+      "part": 2,
+      "question": "Webserver ISS của Microsoft dành cho:",
+      "options": {
+        "A": "asp; .aspx,...",
+        "B": "Php",
+        "C": "jps",
+        "D": "không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "asp; .aspx,..."
+    },
+    {
+      "id": 144,
+      "part": 2,
+      "question": "Webserver Apache dành cho:",
+      "options": {
+        "A": "PHP,...",
+        "B": "ASP",
+        "C": "XML",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "PHP,..."
+    },
+    {
+      "id": 145,
+      "part": 2,
+      "question": "Webserver SUN Java dành cho:",
+      "options": {
+        "A": "jps,...",
+        "B": "php",
+        "C": "asp",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "jps,..."
+    },
+    {
+      "id": 146,
+      "part": 2,
+      "question": "Nhìn vào hình 01, để truy cập vào bảng điều khiển bạn chọn?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "1",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 147,
+      "part": 2,
+      "question": "Nhìn vào hình 01, để truy cập vào thư mục gốc XAMPP bạn chọn?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "A",
+      "answer_text": "2",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 148,
+      "part": 2,
+      "question": "Nhìn vào hình 01, để vô hiệu hóa Hypertext Transfer Protocol Secure bạn chọn?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "A",
+      "answer_text": "3",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 149,
+      "part": 2,
+      "question": "Nhìn vào hình 01, để vô hiệu hóa máy chủ bạn chọn?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "A",
+      "answer_text": "4",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 150,
+      "part": 2,
+      "question": "Nhìn vào hình 01, để cho phép sử dụng địa chỉ ipv4 bạn chọn?",
+      "options": {
+        "A": "1",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B",
+      "answer_text": "5",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 151,
+      "part": 2,
+      "question": "Nhìn vào hình 01, biết để vô hiệu hóa modperl bạn chọn?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "A",
+      "answer_text": "6",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 152,
+      "part": 2,
+      "question": "Nhìn vào hình 01, để vô hiệu hóa môi trường web bạn chọn?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "7",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 153,
+      "part": 2,
+      "question": "Nhìn vào hình 01, để thoát khỏi cửa sổ cài đặt bạn chọn",
+      "options": {
+        "A": "x",
+        "B": "exit",
+        "C": "cmd",
+        "D": "không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "x",
+      "figure": "Hình 01"
+    },
+    {
+      "id": 154,
+      "part": 2,
+      "question": "Nhìn vào hình 02, để tạo môi trường Web và CSDL bạn chọn?",
+      "options": {
+        "A": "9 và 10",
+        "B": "8",
+        "C": "3",
+        "D": "1 và 2"
+      },
+      "answer": "A",
+      "answer_text": "9 và 10",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 155,
+      "part": 2,
+      "question": "Nhìn vào hình 02, để kiểm tra lại các cổng trong công cụ XAMPP bạn chọn?",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "3",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 156,
+      "part": 2,
+      "question": "Nhìn vào hình 02, để làm tươi lại các cổng trong công cụ XAMPP bạn chọn?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "A",
+      "answer_text": "6",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 157,
+      "part": 2,
+      "question": "Nhìn vào hình 02, để xem hướng cẫn cấu hình công cụ XAMPP bạn chọn?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "answer": "A",
+      "answer_text": "7",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 158,
+      "part": 2,
+      "question": "Nhìn vào hình 02, để thoát khỏi công cụ sau khi thiết lập trong XAMPP bạn chọn?",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "11"
+      },
+      "answer": "A",
+      "answer_text": "8",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 159,
+      "part": 2,
+      "question": "Nhìn vào hình 02, để quay trở lại môi trường DOS trong XAMPP bạn chọn?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "1",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 160,
+      "part": 2,
+      "question": "Nhìn vào hình 02, phiên bản XAMPP là?",
+      "options": {
+        "A": "1.7.2",
+        "B": "1.7.2.x",
+        "C": "1.7.7",
+        "D": "1.7.8"
+      },
+      "answer": "A",
+      "answer_text": "1.7.2",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 161,
+      "part": 2,
+      "question": "Nhìn vào hình 02, phiên bản XAMPP là?",
+      "options": {
+        "A": "1.7.2",
+        "B": "1.7.2.x",
+        "C": "1.7.7",
+        "D": "1.7.8"
+      },
+      "answer": "A",
+      "answer_text": "1.7.2",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 162,
+      "part": 2,
+      "question": "Nhìn vào hình 02, bạn hãy cho biết XAMPP được lưu trữ tại?",
+      "options": {
+        "A": "ổ C",
+        "B": "ổ D",
+        "C": "ổ E",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "ổ C",
+      "figure": "Hình 02"
+    },
+    {
+      "id": 163,
+      "part": 2,
+      "question": "Nhìn vào hình 03, để backup được 1 CSDL, sau thao tác chọn CSDL cần Backup bạn chọn?",
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "10",
+        "D": "7"
+      },
+      "answer": "A",
+      "answer_text": "9",
+      "figure": "Hình 03"
+    },
+    {
+      "id": 164,
+      "part": 2,
+      "question": "Nhìn vào hình 03, để khôi phục được 1 CSDL, sau thao tác chọn CSDL cần khôi phục bạn chọn?",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13"
+      },
+      "answer": "A",
+      "answer_text": "10",
+      "figure": "Hình 03"
+    },
+    {
+      "id": 165,
+      "part": 2,
+      "question": "Nhìn vào hình 03, để kiểm tra trong hệ thống có bao nhiêu CSDL bạn chọn?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "1",
+      "figure": "Hình 03"
+    },
+    {
+      "id": 166,
+      "part": 2,
+      "question": "Nhìn vào hình 03, để tạo ra một câu truy vấn trong CSDL bạn chọn?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "A",
+      "answer_text": "2",
+      "figure": "Hình 03"
+    },
+    {
+      "id": 167,
+      "part": 2,
+      "question": "Nhìn vào hình 03, để xem trạng thái của CSDL bạn chọn?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "A",
+      "answer_text": "3",
+      "figure": "Hình 03"
+    },
+    {
+      "id": 168,
+      "part": 2,
+      "question": "Nhìn vào hình 03, để chọn gói ngôn ngữ bạn chọn?",
+      "options": {
+        "A": "11",
+        "B": "1",
+        "C": "12",
+        "D": "14"
+      },
+      "answer": "A",
+      "answer_text": "11",
+      "figure": "Hình 03"
+    },
+    {
+      "id": 169,
+      "part": 2,
+      "question": "Để tạo ra một Database bạn chọn thao tác nào sau sau khi mở trình duyệt Web?",
+      "options": {
+        "A": "localhost/phpMyadmin gõ tên CSDL vào mục 'Create new database'",
+        "B": "localhost/phpMyadmin gõ tên CSDL vào mục 'Create new databas'",
+        "C": "localhost/phpMyadmin gõ tên CSDL vào mục 'Create database'",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "localhost/phpMyadmin gõ tên CSDL vào mục 'Create new database'"
+    },
+    {
+      "id": 170,
+      "part": 2,
+      "question": "Nhìn vào hình 05, để xem trang thông tin cá nhân bạn chọn?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "1",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 171,
+      "part": 2,
+      "question": "Nhìn vào hình 05, để xem các trang của hệ thống bạn chọn?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "2",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 172,
+      "part": 2,
+      "question": "Nhìn vào hình 05, để xem thông tin cá nhân của tài khoản bạn chọn?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "3",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 173,
+      "part": 2,
+      "question": "Nhìn vào hình 05, để lập thẻ đánh dấu một trang bạn chọn?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "A",
+      "answer_text": "4",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 174,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết để thêm một khối bạn chọn?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "A",
+      "answer_text": "5",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 175,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để xem được các thông tin Tài khoản, thêm, sửa, xóa tài khoản?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "answer": "A",
+      "answer_text": "9",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 176,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để có thể thêm được các khóa học, sửa khóa học, xóa khóa học?",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13"
+      },
+      "answer": "A",
+      "answer_text": "10",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 177,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để có thể xem điểm số của các học viên?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14"
+      },
+      "answer": "A",
+      "answer_text": "11",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 178,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập lại múi giờ?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "15"
+      },
+      "answer": "A",
+      "answer_text": "12",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 179,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập lại ngôn ngữ cho website?",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "16"
+      },
+      "answer": "A",
+      "answer_text": "13",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 180,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập các chính sách bảo mật cho Web?",
+      "options": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "17"
+      },
+      "answer": "A",
+      "answer_text": "18",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 181,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để thiết lập hình thức trình bày của web",
+      "options": {
+        "A": "19",
+        "B": "18",
+        "C": "17",
+        "D": "16"
+      },
+      "answer": "A",
+      "answer_text": "19",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 182,
+      "part": 2,
+      "question": "Nhìn vào hình 05, bạn hãy cho biết click vào đâu để xem đường dẫn hệ thống, thư điện tử, quản lý phiên làm việc",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "18"
+      },
+      "answer": "A",
+      "answer_text": "15",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 183,
+      "part": 2,
+      "question": "Nhìn vào hình 05, hãy cho biết click vào đâu để xem các lời bình, nhật ký lưu, thống kê,...",
+      "options": {
+        "A": "16",
+        "B": "17",
+        "C": "18",
+        "D": "19"
+      },
+      "answer": "A",
+      "answer_text": "16",
+      "figure": "Hình 05"
+    },
+    {
+      "id": 184,
+      "part": 2,
+      "question": "Nhìn vào hình 06, bạn hãy cho biết trước khi thêm 1 khóa học mới bạn phải chọn chủ đề 'mục' cho khóa học đó. Bạn phải click chọn?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "1",
+      "figure": "Hình 06"
+    },
+    {
+      "id": 185,
+      "part": 2,
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để ghi thông tin mã số của khóa học bạn chọn?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "A",
+      "answer_text": "4",
+      "figure": "Hình 06"
+    },
+    {
+      "id": 186,
+      "part": 2,
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để đưa thông tin tóm tắt về khóa học bạn chọn?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "A",
+      "answer_text": "5",
+      "figure": "Hình 06"
+    },
+    {
+      "id": 187,
+      "part": 2,
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để định dạng bài giảng theo chuẩn SCOM bạn click chọn?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "7",
+      "figure": "Hình 06"
+    },
+    {
+      "id": 188,
+      "part": 2,
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để thiết lập dung lượng của 1 file khi upload lên hệ thống bạn chọn?",
+      "options": {
+        "A": "13",
+        "B": "12",
+        "C": "11",
+        "D": "10"
+      },
+      "answer": "A",
+      "answer_text": "13",
+      "figure": "Hình 06"
+    },
+    {
+      "id": 189,
+      "part": 2,
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để thiết lập chế độ xem báo cáo hoạt động, bạn click chọn?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "10"
+      },
+      "answer": "A",
+      "answer_text": "12",
+      "figure": "Hình 06"
+    },
+    {
+      "id": 190,
+      "part": 2,
+      "question": "Nhìn vào hình 06, bạn hãy cho biết để thiết lập ngày bắt đầu khóa học bạn chọn?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "5"
+      },
+      "answer": "A",
+      "answer_text": "8",
+      "figure": "Hình 06"
+    },
+    {
+      "id": 191,
+      "part": 2,
+      "question": "Những phát biểu nào đúng về dự án nguồn mở?",
+      "options": {
+        "A": "Bất kỳ ai cũng có thể tải về toàn bộ các tài liệu(2)",
+        "B": "Bất kỳ ai cũng có thể cùng cộng tác đóng góp(3)",
+        "C": "Bất kỳ ai cũng có thể làm tài liệu cho dự án(4)",
+        "D": "Đáp án (3) và (4)",
+        "E": "Tất cả các đáp án",
+        "F": "Bất kỳ ai cũng có thể tải về toàn bộ kho mã nguồn(1)"
+      },
+      "answer": "E",
+      "answer_text": "Tất cả các đáp án"
+    },
+    {
+      "id": 192,
+      "part": 2,
+      "question": "Những phát biểu nào sai về dự án mã nguồn mở",
+      "options": {
+        "A": "Bất kỳ ai cũng có thể tải về toàn bộ kho mã nguồn(1)",
+        "B": "Bất kỳ ai cũng có thể tải về toàn bộ các tài liệu(2)",
+        "C": "Tất cả tài liệu dự án phải có giấy phép CC-BY hoặc CC-BY-SA(3)",
+        "D": "Tất cả những người tham gia vào dự án có thể trở thành người đóng góp (4)",
+        "E": "Bất kỳ ai cũng có quyền cá nhân hóa mã nguồn được chia sẻ (5)"
+      },
+      "answer": "C",
+      "answer_text": "Tất cả tài liệu dự án phải có giấy phép CC-BY hoặc CC-BY-SA(3)"
+    },
+    {
+      "id": 193,
+      "part": 2,
+      "question": "Phần mềm tự do nguồn mở mục đích là?",
+      "options": {
+        "A": "Giải phóng những cản trở về tư duy tự do trong sáng tạo, phát triển, chia sẻ của phần mềm",
+        "B": "Giải phóng những rào cản của sự phức tạp công nghệ bằng khả năng –tự dộng hóa",
+        "C": "Liên kết nguồn tri thức vô tận trong xã hội, cạnh tranh bình đẳng và tự do trong sáng tạo",
+        "D": "Tất cả các đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Giải phóng những cản trở về tư duy tự do trong sáng tạo, phát triển, chia sẻ của phần mềm"
+    },
+    {
+      "id": 194,
+      "part": 2,
+      "question": "Giấy phép dạng Copyleft nghĩa là gì?",
+      "options": {
+        "A": "Một loại giấy phép mà hạn chế sự tự do để sử dụng, chỉnh sửa, mở rộng và phân phối lại các phiên bản mã nguồn",
+        "B": "Là loại giấy phép được cấp phép cho tất cả các phần mềm miễn phí",
+        "C": "BSD và MIT là giấy phép ở dạng này",
+        "D": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 195,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, Contributor (người đóng góp) là thành viên như thế nào?",
+      "options": {
+        "A": "Thành viên đã viết mã nguồn và được chấp nhận đặt trong dự án, tuy nhiên không có quyền truy cập trực tiếp vào mã nguồn của dự án",
+        "B": "Thành viên có quyền truy cập trực tiếp vào mã nguồn của dự án, thường xuyên viết mã nguồn cho các chức năng cũng như sửa các bug cho dự án",
+        "C": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án",
+        "D": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Thành viên đã viết mã nguồn và được chấp nhận đặt trong dự án, tuy nhiên không có quyền truy cập trực tiếp vào mã nguồn của dự án"
+    },
+    {
+      "id": 196,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, Commiter (người đề xuất) là thành viên như thế nào?",
+      "options": {
+        "A": "Thành viên đã viết mã nguồn và được chấp nhận đặt trong dự án, tuy nhiên không có quyền truy cập trực tiếp vào mã nguồn của dự án",
+        "B": "Thành viên có quyền truy cập trực tiếp vào mã nguồn của dự án, thường xuyên viết mã nguồn cho các chức năng cũng như sửa các bug cho dự án",
+        "C": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án",
+        "D": "Không có đáp án"
+      },
+      "answer": "B",
+      "answer_text": "Thành viên có quyền truy cập trực tiếp vào mã nguồn của dự án, thường xuyên viết mã nguồn cho các chức năng cũng như sửa các bug cho dự án"
+    },
+    {
+      "id": 197,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, Reviewer là thành viên như thế nào?",
+      "options": {
+        "A": "Thành viên đã viết mã nguồn và được chấp nhận đặt trong dự án, tuy nhiên không có quyền truy cập trực tiếp vào mã nguồn của dự án",
+        "B": "Thành viên có quyền truy cập trực tiếp vào mã nguồn của dự án, thường xuyên viết mã nguồn cho các chức năng cũng như sửa các bug cho dự án",
+        "C": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án",
+        "D": "Không có đáp án"
+      },
+      "answer": "C",
+      "answer_text": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án"
+    },
+    {
+      "id": 198,
+      "part": 2,
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 0 là gì?",
+      "options": {
+        "A": "Tự do chạy chương trình phần mềm vì bất kỳ mục đích nào",
+        "B": "Tự do nghiên cứu cách mà chương trình phần mềm làm việc, áp dụng nó vào cho các nhu cầu của bạn. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này",
+        "C": "Tự do phân phối các bản sao, sao cho bạn có thể giúp được người hàng xóm của bạn",
+        "D": "Tự do cải tiến chương trình phần mềm, và tung ra những cải tiến của bạn (và các phiên bản đã được sửa đổi nói chung) cho mọi người, sao cho toàn bộ cộng đồng được hưởng lợi. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này"
+      },
+      "answer": "A",
+      "answer_text": "Tự do chạy chương trình phần mềm vì bất kỳ mục đích nào"
+    },
+    {
+      "id": 199,
+      "part": 2,
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 1 là gì?",
+      "options": {
+        "A": "Tự do chạy chương trình phần mềm vì bất kỳ mục đích nào",
+        "B": "Tự do nghiên cứu cách mà chương trình phần mềm làm việc, áp dụng nó vào cho các nhu cầu của bạn. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này",
+        "C": "Tự do phân phối các bản sao, sao cho bạn có thể giúp được người hàng xóm của bạn",
+        "D": "Tự do cải tiến chương trình phần mềm, và tung ra những cải tiến của bạn (và các phiên bản đã được sửa đổi nói chung) cho mọi người, sao cho toàn bộ cộng đồng được hưởng lợi. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này"
+      },
+      "answer": "B",
+      "answer_text": "Tự do nghiên cứu cách mà chương trình phần mềm làm việc, áp dụng nó vào cho các nhu cầu của bạn. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này"
+    },
+    {
+      "id": 200,
+      "part": 2,
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 2 là gì?",
+      "options": {
+        "A": "Tự do chạy chương trình phần mềm vì bất kỳ mục đích nào",
+        "B": "Tự do nghiên cứu cách mà chương trình phần mềm làm việc, áp dụng nó vào cho các nhu cầu của bạn. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này",
+        "C": "Tự do phân phối các bản sao, sao cho bạn có thể giúp được người hàng xóm của bạn",
+        "D": "Tự do cải tiến chương trình phần mềm, và tung ra những cải tiến của bạn (và các phiên bản đã được sửa đổi nói chung) cho mọi người, sao cho toàn bộ cộng đồng được hưởng lợi. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này"
+      },
+      "answer": "C",
+      "answer_text": "Tự do phân phối các bản sao, sao cho bạn có thể giúp được người hàng xóm của bạn"
+    },
+    {
+      "id": 201,
+      "part": 2,
+      "question": "Phần mềm tự do tham chiếu tới 4 quyền tự do cho người sử dụng phần mềm, quyền tự do số 3 là gì?",
+      "options": {
+        "A": "Tự do chạy chương trình phần mềm vì bất kỳ mục đích nào",
+        "B": "Tự do nghiên cứu cách mà chương trình phần mềm làm việc, áp dụng nó vào cho các nhu cầu của bạn. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này",
+        "C": "Tự do phân phối các bản sao, sao cho bạn có thể giúp được người hàng xóm của bạn",
+        "D": "Tự do cải tiến chương trình phần mềm, và tung ra những cải tiến của bạn (và các phiên bản đã được sửa đổi nói chung) cho mọi người, sao cho toàn bộ cộng đồng được hưởng lợi. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này"
+      },
+      "answer": "D",
+      "answer_text": "Tự do cải tiến chương trình phần mềm, và tung ra những cải tiến của bạn (và các phiên bản đã được sửa đổi nói chung) cho mọi người, sao cho toàn bộ cộng đồng được hưởng lợi. Việc truy cập vào mã nguồn là điều kiện tiên quyết để làm được việc này"
+    },
+    {
+      "id": 202,
+      "part": 2,
+      "question": "Tính tương thích của 2 loại giấy phép mã nguồn mở nghĩa là?",
+      "options": {
+        "A": "Bạn có thể tạo ra mã nguồn mà nó xuất xứ từ cả 2 loại giấy phép",
+        "B": "Hai loại giấy phép sử dụng giống y hệt nhau",
+        "C": "Là hai loại giấy phép cùng được cấp phép bởi OSI",
+        "D": "Việc đưa mã nguồn theo giấy phép này đòi hỏi bạn phải thay đổi những điều khoản của giấy phép kia",
+        "E": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "Bạn có thể tạo ra mã nguồn mà nó xuất xứ từ cả 2 loại giấy phép"
+    },
+    {
+      "id": 203,
+      "part": 2,
+      "question": "Phần mềm nguồn mở là gì?",
+      "options": {
+        "A": "Là phần mềm sử dụng giấy phép được cấp phép bởi OSI",
+        "B": "Là phần mềm chia sẻ tự do và mã nguồn là sẵn có",
+        "C": "Là phần mềm sử dụng giấy phép được cấp phép bởi GNU",
+        "D": "Là phần mềm sử dụng giấy phép được cấp phép bởi FSF"
+      },
+      "answer": "A",
+      "answer_text": "Là phần mềm sử dụng giấy phép được cấp phép bởi OSI"
+    },
+    {
+      "id": 204,
+      "part": 2,
+      "question": "Phần mềm tự do là gì?",
+      "options": {
+        "A": "Là phần mềm sử dụng giấy phép được cấp phép bởi OSI",
+        "B": "Là phần mềm chia sẻ tự do và mã nguồn là sẵn có",
+        "C": "Là phần mềm sử dụng giấy phép được cấp phép bởi GNU",
+        "D": "Là phần mềm sử dụng giấy phép được cấp phép bởi FSF"
+      },
+      "answer": "D",
+      "answer_text": "Là phần mềm sử dụng giấy phép được cấp phép bởi FSF"
+    },
+    {
+      "id": 205,
+      "part": 2,
+      "question": "Phần mềm miễn phí (freeware) là gì?",
+      "options": {
+        "A": "Là một loại phần mềm tự do",
+        "B": "Là một loại phần mềm nguồn mở",
+        "C": "Là phần mềm tự do và cũng là phần mềm nguồn mở",
+        "D": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 206,
+      "part": 2,
+      "question": "Phần mềm nguồn mở là gì?",
+      "options": {
+        "A": "Là một loại phần mềm tự do và mã nguồn có sẵn",
+        "B": "Là phần mềm không có chi phí về tài chính",
+        "C": "Là phần mềm vừa được gọi là tự do và được chứng thực là nguồn mở",
+        "D": "Là phần mềm đáp ứng tiêu chí của một loại giấy phép mở",
+        "E": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 207,
+      "part": 2,
+      "question": "Phần mềm tự do là gì?",
+      "options": {
+        "A": "Giống như phần mềm nguồn mở nhưng mã nguồn không được chia sẻ",
+        "B": "Là loại phần mềm sử dụng tự do, không mất chi phí",
+        "C": "Là loại phần mềm tập trung vào vài dạng quyền tự do liên quan tới giấy phép phần mềm",
+        "D": "Là loại phần mềm sử dụng giấy phép GNU",
+        "E": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 208,
+      "part": 2,
+      "question": "Những thành viên nào đóng góp nhiều nhất trong một dự án nguồn mở?",
+      "options": {
+        "A": "Là những lập trình viên phần mềm",
+        "B": "Là những người đóng góp",
+        "C": "Là những người đề xuất",
+        "D": "Là những thành viên mới",
+        "E": "Là tất cả những người tham gia",
+        "F": "Không có đáp án"
+      },
+      "answer": "F",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 209,
+      "part": 2,
+      "question": "Những người mới tham gia vào dự án nguồn mở có thể tham gia vào các công việc nào?",
+      "options": {
+        "A": "Giúp những người sử dụng mới, đưa ra các ý kiến phản hồi...",
+        "B": "Thực thi những đề xuất mới, tham gia thảo luận trong diễn đàn...",
+        "C": "Viết và cập nhật phần mềm, sửa code trong kho code của dự án...",
+        "D": "Đề cử mình để trở thành người đóng góp cho dự án,...",
+        "E": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Giúp những người sử dụng mới, đưa ra các ý kiến phản hồi..."
+    },
+    {
+      "id": 210,
+      "part": 2,
+      "question": "Giấy phép GNU GPLv2 là loại giấy phép gì?",
+      "options": {
+        "A": "Giấy phép được phê chuẩn là mở",
+        "B": "Giấy phép được phê chuẩn là tự do",
+        "C": "Giấy phép riêng của tổ chức GNU",
+        "D": "Giấy phép dạng Copyleft"
+      },
+      "answer": "D",
+      "answer_text": "Giấy phép dạng Copyleft"
+    },
+    {
+      "id": 211,
+      "part": 2,
+      "question": "Việc ra quyết định trong các dự án nguồn mở theo thứ tự như thế nào?",
+      "options": {
+        "A": "Đề xuất, thảo luận, biểu quyết, quyết định",
+        "B": "Thảo luận, đề xuất, biểu quyết, quyết định",
+        "C": "Đề xuất, quyết định, thảo luận, biểu quyết",
+        "D": "Đề xuất, quyết định, thảo luận, rà soát lại"
+      },
+      "answer": "A",
+      "answer_text": "Đề xuất, thảo luận, biểu quyết, quyết định"
+    },
+    {
+      "id": 212,
+      "part": 2,
+      "question": "Hai hệ thống giấy phép tư liệu mở phổ biến là?",
+      "options": {
+        "A": "Giấy phép Creative Commons và GNU General Free Document Licence",
+        "B": "Giấy phép của GNU và giấy phép của OSI",
+        "C": "Giấy phép Open Document Format (ODF) và giấy phép Open Education Resource (OER)",
+        "D": "Giấy phép Open Public Document (OPD) và giấy phép Open Licence Free (OLF)"
+      },
+      "answer": "A",
+      "answer_text": "Giấy phép Creative Commons và GNU General Free Document Licence"
+    },
+    {
+      "id": 213,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY nghĩa là gì?",
+      "options": {
+        "A": "Ghi công – Bắt buộc",
+        "B": "Ghi công – Phi thương mại",
+        "C": "Ghi công – Chia sẻ tương tự",
+        "D": "Ghi công – Không có phái sinh",
+        "E": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Ghi công – Bắt buộc"
+    },
+    {
+      "id": 214,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-NC nghĩa là gì?",
+      "options": {
+        "A": "Ghi công – Bắt buộc",
+        "B": "Ghi công – Phi thương mại",
+        "C": "Ghi công – Chia sẻ tương tự",
+        "D": "Ghi công – Không có phái sinh"
+      },
+      "answer": "B",
+      "answer_text": "Ghi công – Phi thương mại"
+    },
+    {
+      "id": 215,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-SA nghĩa là gì?",
+      "options": {
+        "A": "Ghi công – Bắt buộc",
+        "B": "Ghi công – Phi thương mại",
+        "C": "Ghi công – Chia sẻ tương tự",
+        "D": "Ghi công – Không có phái sinh"
+      },
+      "answer": "C",
+      "answer_text": "Ghi công – Chia sẻ tương tự"
+    },
+    {
+      "id": 216,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-ND nghĩa là gì?",
+      "options": {
+        "A": "Ghi công – Bắt buộc",
+        "B": "Ghi công – Phi thương mại",
+        "C": "Ghi công – Chia sẻ tương tự",
+        "D": "Ghi công – Không có phái sinh"
+      },
+      "answer": "D",
+      "answer_text": "Ghi công – Không có phái sinh"
+    },
+    {
+      "id": 217,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-NC-SA nghĩa là gì?",
+      "options": {
+        "A": "Ghi công – Bắt buộc – Chia sẻ tương tự",
+        "B": "Ghi công – Phi thương mại – Chia sẻ tương tự",
+        "C": "Ghi công – Chia sẻ tương tự – Phi thương mại",
+        "D": "Ghi công – Không có phái sinh – Chia sẻ tương tự"
+      },
+      "answer": "B",
+      "answer_text": "Ghi công – Phi thương mại – Chia sẻ tương tự"
+    },
+    {
+      "id": 218,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là CC-BY-NC-ND nghĩa là gì?",
+      "options": {
+        "A": "Ghi công – Bắt buộc – Chia sẻ tương tự",
+        "B": "Ghi công – Phi thương mại – Chia sẻ tương tự",
+        "C": "Ghi công – Chia sẻ tương tự – Phi thương mại",
+        "D": "Ghi công – Không có phái sinh – Chia sẻ tương tự",
+        "E": "Ghi công – Phi thương mại – Không có phái sinh"
+      },
+      "answer": "E",
+      "answer_text": "Ghi công – Phi thương mại – Không có phái sinh"
+    },
+    {
+      "id": 219,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là Public Domain (No Right Reserved) nghĩa là gì?",
+      "options": {
+        "A": "Miền công cộng",
+        "B": "Giữ lại một số quyền",
+        "C": "Giữ lại tất cả các quyền",
+        "D": "ở mức độ tự do, tin cậy"
+      },
+      "answer": "A",
+      "answer_text": "Miền công cộng"
+    },
+    {
+      "id": 220,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là Some Right Reserved nghĩa là gì?",
+      "options": {
+        "A": "Miền công cộng",
+        "B": "Giữ lại một số quyền",
+        "C": "Giữ lại tất cả các quyền",
+        "D": "ở mức độ tự do, tin cậy"
+      },
+      "answer": "B",
+      "answer_text": "Giữ lại một số quyền"
+    },
+    {
+      "id": 221,
+      "part": 2,
+      "question": "Khi giấy phép Creative Commons ghi là All Right Reserved nghĩa là gì?",
+      "options": {
+        "A": "Miền công cộng",
+        "B": "Giữ lại một số quyền",
+        "C": "Giữ lại tất cả các quyền",
+        "D": "ở mức độ tự do, tin cậy"
+      },
+      "answer": "C",
+      "answer_text": "Giữ lại tất cả các quyền"
+    },
+    {
+      "id": 222,
+      "part": 2,
+      "question": "Giấy phép GNU Gerneral Free Document Licence phiên bản nào có khả năng chuyển tiếp sang giấy phép CC-BY-SA 3.0?",
+      "options": {
+        "A": "GNU Gerneral Free Document Licence 1.1",
+        "B": "GNU Gerneral Free Document Licence 1.2",
+        "C": "GNU Gerneral Free Document Licence 1.3",
+        "D": "GNU Gerneral Free Document Licence 1.4",
+        "E": "Tất cả các phiên bản của giấy phép GFDL"
+      },
+      "answer": "C",
+      "answer_text": "GNU Gerneral Free Document Licence 1.3"
+    },
+    {
+      "id": 223,
+      "part": 2,
+      "question": "Các khái niệm về phần mềm nguồn mở phải tuân thủ theo bao nhiêu tiêu chí?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "8",
+        "D": "4"
+      },
+      "answer": "A",
+      "answer_text": "10"
+    },
+    {
+      "id": 224,
+      "part": 2,
+      "question": "Phần mềm mã nguồn mở là?",
+      "options": {
+        "A": "Hoàn toàn tôn trọng bản quyền và sở hữu trí tuệ",
+        "B": "Không tôn trọng bản quyển, chia sẻ miễn phí",
+        "C": "Tôn trọng quyền sở hữu của cộng đồng hơn là sở hữu cá nhân",
+        "D": "Quyền sở hữu nắm trong tay của cộng đồng nguồn mở",
+        "E": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Hoàn toàn tôn trọng bản quyền và sở hữu trí tuệ"
+    },
+    {
+      "id": 225,
+      "part": 2,
+      "question": "Cộng đồng là gì?",
+      "options": {
+        "A": "Là các nhóm cá nhân chia sẻ những lợi ích chung",
+        "B": "Là những người có khả năng tương tác với nhau",
+        "C": "Là những người có nhiều đóng góp cho một dự án",
+        "D": "Là một nhóm các lập trình viên và người sử dụng"
+      },
+      "answer": "A",
+      "answer_text": "Là các nhóm cá nhân chia sẻ những lợi ích chung"
+    },
+    {
+      "id": 226,
+      "part": 2,
+      "question": "Một giấy phép được coi là copyfree khi nào?",
+      "options": {
+        "A": "Nó phải phù hợp với 'Copyfree Standard Definition'",
+        "B": "Nó không phải là một giấy phép dạng Copyleft",
+        "C": "Nó không đặt bất kỳ hạn chế về việc sửa đổi và phân phối",
+        "D": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Nó phải phù hợp với 'Copyfree Standard Definition'"
+    },
+    {
+      "id": 227,
+      "part": 2,
+      "question": "Các điều kiện để một giấy phép dạng copyfree là?",
+      "options": {
+        "A": "Miễn phí sử dụng",
+        "B": "Phân phối miễn phí",
+        "C": "Sửa đổi miễn phí nguồn và dẫn xuất",
+        "D": "Miễn phí kết hợp",
+        "E": "Phổ cập ứng dụng",
+        "F": "Tất cả các đáp án"
+      },
+      "answer": "F",
+      "answer_text": "Tất cả các đáp án"
+    },
+    {
+      "id": 228,
+      "part": 2,
+      "question": "Đặc trưng chính xác định phần mềm nguồn mở là gì?",
+      "options": {
+        "A": "Là tự do",
+        "B": "Là miễn phí",
+        "C": "Là mã nguồn",
+        "D": "Là giấy phép",
+        "E": "Đáp án khác"
+      },
+      "answer": "D",
+      "answer_text": "Là giấy phép"
+    },
+    {
+      "id": 229,
+      "part": 2,
+      "question": "Nhận định nào là đúng về phần mềm nguồn mở?",
+      "options": {
+        "A": "Phần mềm nguồn mở thực tế là giống hệt như phần mềm tự do",
+        "B": "Phần mềm nguồn mở và phần mềm tự do có điểm giống và khác nhau",
+        "C": "Phần mềm nguồn mở là chia sẻ miễn phí và không được kiếm tiền từ nó",
+        "D": "Phần mềm nguồn mở là sự tự do, nó có thể coi là phần mềm miễn phí"
+      },
+      "answer": "B",
+      "answer_text": "Phần mềm nguồn mở và phần mềm tự do có điểm giống và khác nhau"
+    },
+    {
+      "id": 230,
+      "part": 2,
+      "question": "Trong 4 quyền tự do của phần mềm tự do, nếu không được phép truy cập vào mã nguồn thì quyền tự do nào không thực hiện được",
+      "options": {
+        "A": "Số 0 và số 1",
+        "B": "Số 1 và số 2",
+        "C": "Số 1 và số 3",
+        "D": "Số 0 và số 3",
+        "E": "Số 2 và số 3"
+      },
+      "answer": "C",
+      "answer_text": "Số 1 và số 3"
+    },
+    {
+      "id": 231,
+      "part": 2,
+      "question": "Bước thực hiện nào không có trong thủ tục đệ trình một yêu cầu cấp giấy phép nguồn mở?",
+      "options": {
+        "A": "Đọc định nghĩa nguồn mở và đảm bảo rằng giấy phép của bạn phù hợp",
+        "B": "Xác định dạng đệ trình (để rút lui, để chấp thuận phiên bản giấy phép đã có, để phê chuẩn)",
+        "C": "Đảm bảo đơn vị có tư cách phù hợp để đệ trình một yêu cầu như vậy",
+        "D": "Đăng ký để được cấp giấy phép đánh giá (nếu bạn chưa có sẵn)",
+        "E": "Đệ trình một yêu cầu chính thức để xét duyệt giấy phép",
+        "F": "Gửi thư điện tử yêu cầu (bao gồm thủ tục cần thiết)",
+        "G": "Cộng đồng xét duyệt trên danh sách thư điện tử ít nhất 30 ngày"
+      },
+      "answer": "G",
+      "answer_text": "Cộng đồng xét duyệt trên danh sách thư điện tử ít nhất 30 ngày"
+    },
+    {
+      "id": 232,
+      "part": 2,
+      "question": "Quá trình xét duyệt giấy phép nguồn mở nhằm mục đích gì?",
+      "options": {
+        "A": "Đảm bảo các giấy phép được phê duyệt tuân thủ định nghĩa nguồn mở",
+        "B": "Xác định chủng loại giấy phép",
+        "C": "Không khuyến khích các giấy phép hư danh và trùng lặp",
+        "D": "Đảm bảo việc xét duyệt tỉ mỉ, minh bạch và đủ thời gian (60 ngày)",
+        "E": "Tất cả các đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Tất cả các đáp án"
+    },
+    {
+      "id": 233,
+      "part": 2,
+      "question": "Với mục đích xin cấp giấy phép mới hoàn toàn, bạn sẽ xác định dạng đệ trình nào?",
+      "options": {
+        "A": "Để phê chuẩn",
+        "B": "Để rút lui",
+        "C": "Để nâng cấp",
+        "D": "Để cho một chủng loại mới",
+        "E": "Để chấp thuận phiên bản giấy phép",
+        "F": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Để phê chuẩn"
+    },
+    {
+      "id": 234,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, việc báo cáo các lỗi (về mã nguồn) và sửa chữa thực hiện thông qua đâu?",
+      "options": {
+        "A": "Bản vá",
+        "B": "Phiên bản mới",
+        "C": "Mô đun mới",
+        "D": "Người đề xuất",
+        "E": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Bản vá"
+    },
+    {
+      "id": 235,
+      "part": 2,
+      "question": "Bước thực hiện nào không có trong thủ tục đệ trình một yêu cầu cấp giấy phép nguồn mở?",
+      "options": {
+        "A": "Đọc định nghĩa nguồn mở và đảm bảo rằng giấy phép của bạn phù hợp",
+        "B": "Xác định dạng đệ trình (để rút lui, để chấp thuận phiên bản giấy phép đã có, để phê chuẩn)",
+        "C": "Đệ trình một yêu cầu chính thức để xét duyệt giấy phép",
+        "D": "Gửi thư điện tử yêu cầu (bao gồm thủ tục cần thiết)",
+        "E": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 236,
+      "part": 2,
+      "question": "Bước thực hiện nào không có trong thủ tục đệ trình một yêu cầu cấp giấy phép nguồn mở?",
+      "options": {
+        "A": "Xác định dạng đệ trình (để rút lui, để chấp thuận phiên bản giấy phép đã có, để phê chuẩn)",
+        "B": "Đảm bảo đơn vị có tư cách phù hợp để đệ trình một yêu cầu như vậy",
+        "C": "Đệ trình một yêu cầu chính thức để xét duyệt giấy phép",
+        "D": "Gửi thư điện tử yêu cầu (bao gồm thủ tục cần thiết)",
+        "E": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 237,
+      "part": 2,
+      "question": "Bước thực hiện nào không có trong thủ tục đệ trình một yêu cầu cấp giấy phép nguồn mở?",
+      "options": {
+        "A": "Đọc định nghĩa nguồn mở và đảm bảo rằng giấy phép của bạn phù hợp",
+        "B": "Đảm bảo đơn vị có tư cách phù hợp để đệ trình một yêu cầu như vậy",
+        "C": "Đăng ký để được cấp giấy phép đánh giá (nếu bạn chưa có sẵn)",
+        "D": "Cộng đồng xét duyệt trên danh sách thư điện tử ít nhất 30 ngày",
+        "E": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Cộng đồng xét duyệt trên danh sách thư điện tử ít nhất 30 ngày"
+    },
+    {
+      "id": 238,
+      "part": 2,
+      "question": "Bước thực hiện nào có trong thủ tục đệ trình một yêu cầu cấp giấy phép nguồn mở?",
+      "options": {
+        "A": "Đọc định nghĩa nguồn mở và đảm bảo rằng giấy phép của bạn phù hợp (i)",
+        "B": "Cộng đồng xét duyệt trên danh sách thư điện tử ít nhất 30 ngày (ii)",
+        "C": "Bước thực hiện i",
+        "D": "Bước thực hiện ii",
+        "E": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Đọc định nghĩa nguồn mở và đảm bảo rằng giấy phép của bạn phù hợp (i)"
+    },
+    {
+      "id": 239,
+      "part": 2,
+      "question": "Thời gian phê duyệt giấy phép nguồn mở là bao nhiêu ngày",
+      "options": {
+        "A": "ít nhất 30 ngày",
+        "B": "ít nhất 60 ngày",
+        "C": "ít nhất 20 ngày",
+        "D": "ít nhất 40 ngày"
+      },
+      "answer": "A",
+      "answer_text": "ít nhất 30 ngày"
+    },
+    {
+      "id": 240,
+      "part": 2,
+      "question": "Trong các giấy phép nguồn mở, giấy phép không sử dụng lại được nghĩa là?",
+      "options": {
+        "A": "Chỉ tác giả của chúng dùng được còn người khác thì không sử dụng lại được",
+        "B": "Giấy phép nằm trong chủng loại giấy phép hư danh và đặc biệt với tác giả",
+        "C": "Giấy phép bỏ đi không dùng bởi có những phiên bản mới hơn của chúng",
+        "D": "Không có đáp án"
+      },
+      "answer": "A",
+      "answer_text": "Chỉ tác giả của chúng dùng được còn người khác thì không sử dụng lại được"
+    },
+    {
+      "id": 241,
+      "part": 2,
+      "question": "Trong các giấy phép nguồn mở, giấy phép chưa được xếp loại nghĩa là?",
+      "options": {
+        "A": "Giấy phép hiện đang tìm kiếm sự chấp nhận",
+        "B": "Giấy phép mà mã nguồn sẵn có nhưng không do OSI cấp",
+        "C": "Giấy phép mà mã nguồn sẵn có và không phải là phần mềm tự do",
+        "D": "Giấy phép cấm sử dụng và phân phối vì mục đích thương mại",
+        "E": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 242,
+      "part": 2,
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở?",
+      "options": {
+        "A": "Apache License 2.0",
+        "B": "New BSD License",
+        "C": "MIT License",
+        "D": "Eclipse Public License",
+        "E": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 243,
+      "part": 2,
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở?",
+      "options": {
+        "A": "Mozilla Public License 1.1",
+        "B": "NASA Open Source Agreement 1.3",
+        "C": "W3C License",
+        "D": "Xamp Public License",
+        "E": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Xamp Public License"
+    },
+    {
+      "id": 244,
+      "part": 2,
+      "question": "Loại giấy phép nào không phải là giấy phép nguồn mở?",
+      "options": {
+        "A": "GNU Open Software License",
+        "B": "Simplified BSD License",
+        "C": "MIT License",
+        "D": "W3C License",
+        "E": "Không có đáp án đúng"
+      },
+      "answer": "A",
+      "answer_text": "GNU Open Software License"
+    },
+    {
+      "id": 245,
+      "part": 2,
+      "question": "GNU General Public License tất cả các phiên bản là loại giấy phép gì?",
+      "options": {
+        "A": "Copyright",
+        "B": "Copyleft",
+        "C": "Copyfree",
+        "D": "Copyfull"
+      },
+      "answer": "B",
+      "answer_text": "Copyleft"
+    },
+    {
+      "id": 246,
+      "part": 2,
+      "question": "Phát biểu nào sau đây là đúng về phần mềm nguồn mở?",
+      "options": {
+        "A": "Là một loại phần mềm tự do",
+        "B": "Là một loại phần mềm miễn phí",
+        "C": "Là không tôn trọng bản quyền",
+        "D": "Là không thể cài đặt bình thường",
+        "E": "Là được phép chia sẻ mã nguồn với hàng xóm",
+        "F": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Là được phép chia sẻ mã nguồn với hàng xóm"
+    },
+    {
+      "id": 247,
+      "part": 2,
+      "question": "Trong dự án nguồn mở, thành viên có nhiều đóng góp cho dự án và được phép truy cập trực tiếp vào mã nguồn là?",
+      "options": {
+        "A": "Commiter",
+        "B": "Contributor",
+        "C": "Reviewer",
+        "D": "Code leader"
+      },
+      "answer": "A",
+      "answer_text": "Commiter"
+    },
+    {
+      "id": 248,
+      "part": 2,
+      "question": "Trong dự án nguồn mở, thành viên có nhiều đóng góp cho dự án và không được phép truy cập trực tiếp vào mã nguồn là?",
+      "options": {
+        "A": "Là Commiter",
+        "B": "Là Committee",
+        "C": "Là Commuter",
+        "D": "Là Commentator",
+        "E": "Không có đáp án"
+      },
+      "answer": "E",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 249,
+      "part": 2,
+      "question": "Giấy phép tư liệu mở chỉ có các loại giấy phép là?",
+      "options": {
+        "A": "Creative Common và GNU General Free Document License",
+        "B": "Apache License và GNU General Public License",
+        "C": "BSD License và MIT License",
+        "D": "Không có đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Không có đáp án"
+    },
+    {
+      "id": 250,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, tài liệu điều hành của dự án đóng vai trò như thế nào?",
+      "options": {
+        "A": "Một tài liệu điều hành rõ ràng và minh bạch là phần chính của bất kỳ dự án phát triển mở nào",
+        "B": "Nó xác định các quy tắc tham gia trong cộng đồng và mô tả mức độ ảnh hưởng của thành viên với dự án",
+        "C": "Nó cho phép các thành viên quyết định mức độ tham gia của họ với cộng đồng đó",
+        "D": "Tất cả các đáp án"
+      },
+      "answer": "D",
+      "answer_text": "Tất cả các đáp án"
+    },
+    {
+      "id": 251,
+      "part": 2,
+      "question": "Hai mô hình điều hành phổ biến trong các dự án nguồn mở là gì?",
+      "options": {
+        "A": "Nhà độc tài nhân từ (1)",
+        "B": "Chế độ người tài lãnh đạo (2)",
+        "C": "Kiểm soát tập trung như nhà thờ lớn (3)",
+        "D": "Kiểm soát phi tập trung như cái chợ (4)",
+        "E": "Kiểm soát tập trung như hội đồng (5)",
+        "F": "Đáp án (1) và (2)",
+        "G": "Đáp án (3) và (4)",
+        "H": "Đáp án (4) và (5)"
+      },
+      "answer": "F",
+      "answer_text": "Đáp án (1) và (2)"
+    },
+    {
+      "id": 252,
+      "part": 2,
+      "question": "Các mô hình điều hành phổ biến của các dự án phần mềm tự do là gì?",
+      "options": {
+        "A": "Nhà độc tài nhân từ (1)",
+        "B": "Chế độ người tài lãnh đạo (2)",
+        "C": "Kiểm soát tập trung như nhà thờ lớn (3)",
+        "D": "Kiểm soát phi tập trung như cái chợ (4)",
+        "E": "Kiểm soát tập trung như hội đồng (5)",
+        "F": "Đáp án (1) và (2)",
+        "G": "Đáp án (3), (4) và (5)",
+        "H": "Đáp án (4) và (5)"
+      },
+      "answer": "G",
+      "answer_text": "Đáp án (3), (4) và (5)"
+    },
+    {
+      "id": 253,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, mô hình nhà độc tài nhân từ là?",
+      "options": {
+        "A": "Do một cá nhân lãnh đạo",
+        "B": "Do một ban lãnh đạo dự án",
+        "C": "Do tất cả các thành viên tham gia quyết định",
+        "D": "Do một tổ chức lãnh đạo"
+      },
+      "answer": "A",
+      "answer_text": "Do một cá nhân lãnh đạo"
+    },
+    {
+      "id": 254,
+      "part": 2,
+      "question": "Với các dự án nguồn mở, mô hình điều hành 'nhà độc tài nhân từ', quyết định cuối cùng thuộc về ai?",
+      "options": {
+        "A": "Người lãnh đạo dự án",
+        "B": "Người đề xuất",
+        "C": "Người đóng góp",
+        "D": "Người sử dụng",
+        "E": "Ban quản lý dự án"
+      },
+      "answer": "A",
+      "answer_text": "Người lãnh đạo dự án"
+    },
+    {
+      "id": 255,
+      "part": 2,
+      "question": "Với các dự án nguồn mở, mô hình điều hành 'chế độ người tài lãnh đạo', quyết định cuối cùng thuộc về ai?",
+      "options": {
+        "A": "Người lãnh đạo dự án",
+        "B": "Người đề xuất",
+        "C": "Người đóng góp",
+        "D": "Người sử dụng",
+        "E": "Ban quản lý dự án"
+      },
+      "answer": "E",
+      "answer_text": "Ban quản lý dự án"
+    },
+    {
+      "id": 256,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, ai có thể trở thành người đóng góp (contributor) cho dự án?",
+      "options": {
+        "A": "Có thể là bất kỳ ai",
+        "B": "Người được người đóng góp khác giới thiệu",
+        "C": "Người được người đề xuất khác giới thiệu",
+        "D": "Người được chỉ định"
+      },
+      "answer": "A",
+      "answer_text": "Có thể là bất kỳ ai"
+    },
+    {
+      "id": 257,
+      "part": 2,
+      "question": "Với các dự án nguồn mở, các vai trò nào không có trong mô hình điều hành 'nhà độc tài nhân từ'",
+      "options": {
+        "A": "Người đề xuất (Commiter)",
+        "B": "Người đóng góp (Contributor)",
+        "C": "Lãnh đạo dự án (Project lead)",
+        "D": "Chủ tịch ban quản lý dự án"
+      },
+      "answer": "D",
+      "answer_text": "Chủ tịch ban quản lý dự án"
+    },
+    {
+      "id": 258,
+      "part": 2,
+      "question": "Với các dự án nguồn mở, các vai trò nào không có trong mô hình điều hành 'chế độ người tài lãnh đạo'",
+      "options": {
+        "A": "Người đề xuất (Commiter)",
+        "B": "Người đóng góp (Contributor)",
+        "C": "Lãnh đạo dự án (Project lead)",
+        "D": "Chủ tịch ban quản lý dự án"
+      },
+      "answer": "C",
+      "answer_text": "Lãnh đạo dự án (Project lead)"
+    },
+    {
+      "id": 259,
+      "part": 2,
+      "question": "Trong các dự án nguồn mở, sự 'đồng thuận lười' sẽ có hiệu lực khi nào?",
+      "options": {
+        "A": "ít nhất 72 giờ đồng hồ khi giả thiết rằng không có sự phản đối",
+        "B": "ít nhất 24 giờ đồng hồ khi giả thiết rằng không có sự phản đối",
+        "C": "ít nhất 48 giờ đồng hồ khi giả thiết rằng không có sự phản đối",
+        "D": "ít nhất 36 giờ đồng hồ khi giả thiết rằng không có sự phản đối"
+      },
+      "answer": "A",
+      "answer_text": "ít nhất 72 giờ đồng hồ khi giả thiết rằng không có sự phản đối"
+    },
+    {
+      "id": 260,
+      "part": 2,
+      "question": "Khi khởi xướng dự án nguồn mở, tài liệu điều hành phiên bản đầu tiên cần phải?",
+      "options": {
+        "A": "Chi tiết hóa đầy đủ khung công việc và đưa ra các quan điểm (1)",
+        "B": "Phải tính tới mọi kịch bản có thể trong tương lai (2)",
+        "C": "Đưa ra một mô hình đơn giản có khả năng quản lý được (3)",
+        "D": "Ngắn gọn, súc tích, truy cập được và dễ dàng tham chiếu tới (4)",
+        "E": "Đáp án (1) và (2)",
+        "F": "Đáp án (3) và (4)"
+      },
+      "answer": "F",
+      "answer_text": "Đáp án (3) và (4)"
+    },
+    {
+      "id": 261,
+      "part": 2,
+      "question": "Các công cụ cốt lõi mà tất cả các dự án nguồn mở nên bắt đầu là?",
+      "options": {
+        "A": "Website của dự án (1)",
+        "B": "Danh sách thư của những người lập trình (2)",
+        "C": "Kiểm soát phiên bản (3)",
+        "D": "Trình theo dõi các vấn đề (4)",
+        "E": "Trình tự động cập nhật các bản vá (5)",
+        "F": "Các trang wiki, diễn đàn (6)",
+        "G": "Đáp án (1), (2), (3), (4)",
+        "H": "Đáp án (1), (2), (4), (5), (6)"
+      },
+      "answer": "G",
+      "answer_text": "Đáp án (1), (2), (3), (4)"
+    }
+  ]
+}

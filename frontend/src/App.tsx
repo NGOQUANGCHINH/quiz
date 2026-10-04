@@ -7,8 +7,7 @@ import QuizResult from './pages/QuizResult';
 import QuizReview from './pages/QuizReview';
 import type {  ProgressData  } from './types';
 
-import { Moon, Sun } from 'lucide-react';
-
+import { Moon, Sun, RefreshCw } from 'lucide-react';
 function App() {
   const [currentPage, setCurrentPage] = useState<string>(() => sessionStorage.getItem('quiz-current-page') || 'dashboard');
   const [selectedQuizId, setSelectedQuizId] = useState<string | null>(() => sessionStorage.getItem('quiz-selected-id'));
@@ -65,9 +64,14 @@ function App() {
         <h1 style={{ cursor: 'pointer', margin: 0, fontSize: '1.5rem', color: 'var(--primary-color)' }} onClick={() => navigate('dashboard')}>
           QuizMaster Local
         </h1>
-        <button onClick={toggleTheme} className="btn btn-neutral">
-          {theme === 'light' ? <><Moon /> Dark Mode</> : <><Sun /> Light Mode</>}
-        </button>
+        <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+          <button onClick={() => window.location.reload()} className="btn btn-neutral" title="Cập nhật tất cả bộ đề">
+            <RefreshCw size={18} /> Update
+          </button>
+          <button onClick={toggleTheme} className="btn btn-neutral">
+            {theme === 'light' ? <><Moon size={18} /> Dark Mode</> : <><Sun size={18} /> Light Mode</>}
+          </button>
+        </div>
       </header>
       
       <main className="container">
