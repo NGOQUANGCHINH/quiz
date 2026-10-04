@@ -160,9 +160,9 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             >
               <RefreshCw size={18} /> Cập nhật lỗi
             </button>
-            <h3 style={{ margin: 0, whiteSpace: 'nowrap' }}>Câu {currentQIndex + 1} / {totalQuestions}</h3>
           </div>
           <div className="quiz-header-group">
+            <h3 style={{ margin: 0, whiteSpace: 'nowrap' }}>Câu {currentQIndex + 1} / {totalQuestions}</h3>
             {timeLeft !== null && (
               <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit' }}>
                 ⏱ {formatTime(timeLeft)}
