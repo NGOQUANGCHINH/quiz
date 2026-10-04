@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": "7ecb82f1-fd4a-47bb-9c5f-b8d5636e497e",
-      "question": "Quan niệm nào sau đây sai về Copyleft:",
+      "question": "Quan niệm nào sau đây sai về <b style=\"color: var(--primary-color)\">Copyleft</b>:",
       "answers": [
         {
           "id": "57ef0697-f996-4a12-8859-a99fc3621aa2",
@@ -27,7 +27,7 @@
     },
     {
       "id": "495dc5c5-827b-48c2-a2a1-b07d2030e337",
-      "question": "Ký hiệu của Copyleft:",
+      "question": "Ký hiệu của <b style=\"color: var(--primary-color)\">Copyleft</b>:",
       "answers": [
         {
           "id": "04f949e7-11e2-4a70-b37a-54fa3d5ee58d",
@@ -50,7 +50,7 @@
     },
     {
       "id": "25033507-3ecd-468f-8894-54092ac5b84f",
-      "question": "Ký hiệu của Copyright:",
+      "question": "Ký hiệu của <b style=\"color: var(--primary-color)\">Copyright</b>:",
       "answers": [
         {
           "id": "16dd5550-eeb7-4a9a-8517-b1143ab89ae3",
@@ -1775,7 +1775,7 @@
     },
     {
       "id": "69b767cc-bceb-4e73-9216-16c98b98e668",
-      "question": "Phát biểu đúng về giấy phép dạng Copyleft?",
+      "question": "Phát biểu đúng về giấy phép dạng <b style=\"color: var(--primary-color)\">Copyleft</b>?",
       "answers": [
         {
           "id": "e38d8038-b42d-4bbf-9a0a-a79c6507196d",
@@ -2074,7 +2074,7 @@
     },
     {
       "id": "2648d470-a439-4e5d-8c80-1cced3fb5e26",
-      "question": "Quan niệm nào sau đây sai về copyleft:",
+      "question": "Quan niệm nào sau đây sai về <b style=\"color: var(--primary-color)\">copyleft</b>:",
       "answers": [
         {
           "id": "badf59e1-8052-47d1-8c4c-056487ec0eab",
@@ -4478,7 +4478,7 @@
     },
     {
       "id": "12e710f2-3963-4b2d-b8b8-7a6426d9f06a",
-      "question": "Giấy phép dạng Copyleft nghĩa là gì?",
+      "question": "Giấy phép dạng <b style=\"color: var(--primary-color)\">Copyleft</b> nghĩa là gì?",
       "answers": [
         {
           "id": "cc18b12a-166d-4938-bc6a-34207cd10832",
