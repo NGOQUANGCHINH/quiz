@@ -60,9 +60,10 @@ export default function QuizReview({ progress, navigate }: Props) {
                 )}
               </div>
 
-              <div style={{ fontSize: '1.1rem', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}>
-                {q.question}
-              </div>
+              <div 
+                style={{ fontSize: '1.1rem', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}
+                dangerouslySetInnerHTML={{ __html: q.question }}
+              />
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                 {q.answers.map((ans, aIdx) => {

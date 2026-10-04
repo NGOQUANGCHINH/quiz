@@ -181,9 +181,10 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         </div>
 
         <div className="card" style={{ flex: 1, marginBottom: '1.5rem', display: 'flex', flexDirection: 'column' }}>
-          <div style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}>
-            {currentQuestion.question}
-          </div>
+          <div 
+            style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}
+            dangerouslySetInnerHTML={{ __html: currentQuestion.question }}
+          />
           {currentQuestion.image && (
             <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
               <img src={import.meta.env.DEV ? `http://localhost:3001${currentQuestion.image}` : currentQuestion.image} alt="Question figure" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
