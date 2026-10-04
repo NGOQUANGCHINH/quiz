@@ -648,7 +648,7 @@
     },
     {
       "id": "7d9efc28-c603-43e5-85d2-31d9c072ca2a",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">GIMP sử dụng giấy phép mã nguồn mở nào :</b>",
+      "question": "Phần mềm <b style=\"color: var(--primary-color)\">GIMP</b> sử dụng giấy phép mã nguồn mở nào :",
       "answers": [
         {
           "id": "0e725158-5d39-4e26-be5c-7422840a155e",
@@ -671,7 +671,7 @@
     },
     {
       "id": "6d9bfaa1-661f-47e4-8a97-92fc70f8785a",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Mozilla Firefox sử dụng giấy phép mã nguồn mở nào :</b>",
+      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Mozilla Firefox</b> sử dụng giấy phép mã nguồn mở nào :",
       "answers": [
         {
           "id": "1c6a4d54-5fbe-4651-940b-505da860f032",
@@ -694,7 +694,7 @@
     },
     {
       "id": "cc158a55-2f07-4ed1-b191-73f38836b8df",
-      "question": "Phần mềm Apache Server sử dụng giấy phép nào sau đây<b style=\"color: var(--primary-color)\"> :</b>",
+      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Apache</b> Server sử dụng giấy phép nào sau đây :",
       "answers": [
         {
           "id": "5c00e251-97ef-4d9f-84c2-1784f9d60c8c",
@@ -763,7 +763,7 @@
     },
     {
       "id": "03547f18-e2eb-43bc-989d-07442942c5bf",
-      "question": "Chọn phát biểu đúng<b style=\"color: var(--primary-color)\">?</b>",
+      "question": "Chọn phát biểu đúng?",
       "answers": [
         {
           "id": "bf6a398d-4d71-436f-832a-ecfc66c41a4c",
@@ -809,7 +809,7 @@
     },
     {
       "id": "11ee75b4-075f-4a61-9df7-fcdca7139e07",
-      "question": "Bước <b style=\"color: var(--primary-color)\">1 trong quy trình triển khai hệ thống Moodle thực hiện công viêc</b>?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 1</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
       "answers": [
         {
           "id": "a4aaca3e-5e28-4344-8e41-a3057fb61506",
@@ -901,7 +901,7 @@
     },
     {
       "id": "37507794-963f-4723-999a-1ba2fb116dd7",
-      "question": "Bước <b style=\"color: var(--primary-color)\">2 trong quy trình triển khai hệ thống Moodle thực hiện công việc</b>?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 2</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công việc?",
       "answers": [
         {
           "id": "e0cbe216-0130-49df-817b-df5151c12ffd",
@@ -924,7 +924,7 @@
     },
     {
       "id": "97c27d59-e30a-4ad1-b02a-50e3a1aaf609",
-      "question": "Bước <b style=\"color: var(--primary-color)\">3 trong quy trình triển khai hệ thống Moodle thực hiện công việc</b>?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 3</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công việc?",
       "answers": [
         {
           "id": "f7b786b3-0296-4120-92a6-aed8db45d76d",
@@ -947,7 +947,7 @@
     },
     {
       "id": "7b5c43d4-513c-4f6e-bfcb-add12dd6a8e2",
-      "question": "Bước <b style=\"color: var(--primary-color)\">4 trong quy trình triển khai hệ thống Moodle thực hiện công việc</b>?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 4</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công việc?",
       "answers": [
         {
           "id": "a8e90c07-f75b-484d-9133-ac8a3c2b8c20",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": "cc785e36-4fe1-40d2-9032-6e27327a9eaf",
-      "question": "Phần mềm <b style=\"color: var(--primary-color)\">GIMP sử dụng giấy phép mã nguồn mở nào:</b>",
+      "question": "Phần mềm <b style=\"color: var(--primary-color)\">GIMP</b> sử dụng giấy phép mã nguồn mở nào:",
       "answers": [
         {
           "id": "a3b90364-278a-4ece-84b5-7b3a878e7df9",
@@ -2469,7 +2469,7 @@
     },
     {
       "id": "5ab3d71d-36a6-4bb7-a031-163fbe07aea6",
-      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép mã nguồn mở nào:",
+      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Mozilla Firefox</b> sử dụng giấy phép mã nguồn mở nào:",
       "answers": [
         {
           "id": "286b64f4-793b-4d7a-94c0-948d4f27acd2",
@@ -2488,7 +2488,7 @@
     },
     {
       "id": "a70c259c-131e-49eb-b295-37c4ca61f8c9",
-      "question": "Phần mềm Apache Server sử dụng giấy phép nào sau đây<b style=\"color: var(--primary-color)\">:</b>",
+      "question": "Phần mềm <b style=\"color: var(--primary-color)\">Apache</b> Server sử dụng giấy phép nào sau đây:",
       "answers": [
         {
           "id": "35557006-18fb-4a3e-a7cd-ea060d691f10",
@@ -3036,7 +3036,7 @@
     },
     {
       "id": "165f9009-ada2-4e27-8f78-e91e775cb39b",
-      "question": "Bước 1 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 1</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
       "answers": [
         {
           "id": "e58b00df-71fe-4d29-883e-5c71f67ea7e1",
@@ -3059,7 +3059,7 @@
     },
     {
       "id": "d9ef2572-d537-41d6-95dd-4bcd7a7f6393",
-      "question": "Bước <b style=\"color: var(--primary-color)\">2 trong quy trình triển khai hệ thống Moodle thực hiện công viêc</b>?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 2</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
       "answers": [
         {
           "id": "80d7fd0e-dcfa-4fda-b97d-fd9611ec5452",
@@ -3082,7 +3082,7 @@
     },
     {
       "id": "1e84c4aa-3edb-41f3-87fe-474693701382",
-      "question": "Bước <b style=\"color: var(--primary-color)\">3 trong quy trình triển khai hệ thống Moodle thực hiện công viêc</b>?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 3</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
       "answers": [
         {
           "id": "30173121-8547-4286-9971-3618fc6b33d2",
@@ -3105,7 +3105,7 @@
     },
     {
       "id": "e4758d89-a30a-4963-91ca-60fe7040bda1",
-      "question": "Bước <b style=\"color: var(--primary-color)\">4 trong quy trình triển khai hệ thống Moodle thực hiện công viêc</b>?",
+      "question": "<b style=\"color: var(--primary-color)\">Bước 4</b> trong quy trình triển khai hệ thống <b style=\"color: var(--primary-color)\">Moodle</b> thực hiện công viêc?",
       "answers": [
         {
           "id": "dc2828bd-6211-4a1d-93f8-2259b4f53c77",
