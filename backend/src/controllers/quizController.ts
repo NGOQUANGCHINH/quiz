@@ -11,7 +11,8 @@ const QUIZ_SOURCES = [
 
 const loadDynamicQuizzes = (): QuizData[] => {
   return QUIZ_SOURCES.map(source => {
-    const questions = readJsonFile<any[]>(source.file, []);
+    const data = readJsonFile<any>(source.file, []);
+    const questions = Array.isArray(data) ? data : (data.questions || []);
     return {
       id: source.id,
       title: source.title,
