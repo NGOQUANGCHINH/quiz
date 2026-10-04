@@ -191,6 +191,20 @@ h1, h2, h3, h4 {
   align-items: stretch;
 }
 
+.quiz-right-area {
+  height: 0;
+  min-height: 100%;
+}
+
+.quiz-question-list-card {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  height: 100%;
+}
+
 .quiz-header-row {
   display: flex;
   justify-content: space-between;
@@ -233,6 +247,7 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
     height: auto;
     overflow: visible;
+    gap: 0;
   }
   
   .quiz-header-row {
@@ -247,6 +262,17 @@ h1, h2, h3, h4 {
   
   .quiz-header-group .btn {
     white-space: nowrap;
+  }
+
+  .quiz-right-area {
+    height: auto;
+    min-height: auto;
+  }
+  
+  .quiz-question-list-card {
+    position: static;
+    height: auto;
+    max-height: none;
   }
 }
 
