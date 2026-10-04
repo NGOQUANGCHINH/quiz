@@ -273,6 +273,10 @@ h1, h2, h3, h4 {
     position: static;
     height: auto;
     max-height: none;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
   }
 }
 
