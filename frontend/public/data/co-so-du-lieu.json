@@ -1319,7 +1319,7 @@
     },
     {
       "id": "46301853-9f41-4697-9ad8-1681fb0810ab",
-      "question": "OQL là ngôn ngữ <span style='color:red'>truy vấn</span> CSDL hướng đối tượng đã được đề xuất trong:",
+      "question": "OQL là ngôn ngữ truy vấn CSDL hướng đối tượng <span style='color:red'>đã được đề xuất trong</span>:",
       "answers": [
         {
           "id": "5ab1855b-6c42-46c6-811a-322b3042beb3",
@@ -1342,7 +1342,7 @@
     },
     {
       "id": "8310c81d-4e5b-4fe4-ae0a-0a5f910f13d7",
-      "question": "<span style='color:red'>OQL là ngôn ngữ truy vấn</span> CSDL hướng đối tượng <span style='color:red'>dựa trên</span>: .",
+      "question": "OQL là ngôn ngữ truy vấn CSDL hướng đối tượng <span style='color:red'>dựa trên</span>:",
       "answers": [
         {
           "id": "8046364b-949f-4af4-a604-fa532108cca7",
