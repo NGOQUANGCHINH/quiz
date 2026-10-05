@@ -4355,7 +4355,7 @@
     },
     {
       "id": "94e76001-fed7-484a-ba35-d0a9e80003c3",
-      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style='color:red'>sau:</span>\nSELECT <span style='color:red'>s.number</span>\nFROM s IN Software\nKết quả của câu lệnh truy vấn <span style='color:red'>này</span> là: (hình ảnh)",
+      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style='color:red'>sau:</span>\n```sql\nSELECT <span style='color:red'>s.number</span>\nFROM s IN Software\n```\nKết quả của câu lệnh truy vấn <span style='color:red'>này</span> là: (hình ảnh)",
       "answers": [
         {
           "id": "ec704129-4176-48f1-b3a6-2dd133b32035",
@@ -4379,7 +4379,7 @@
     },
     {
       "id": "bf4bddde-6adf-4152-b043-f78bbda885f6",
-      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style='color:red'>trên.</span>\nSELECT <span style='color:red'>p</span>\nFROM <span style='color:red'>p IN s.team,</span> s IN Software\n<span style='color:red'>WHERE s.number =111</span>\nKết quả của câu lệnh truy vấn là: (hình ảnh)",
+      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style='color:red'>trên.</span>\n```sql\nSELECT <span style='color:red'>p</span>\nFROM <span style='color:red'>p IN s.team,</span> s IN Software\n<span style='color:red'>WHERE s.number =111</span>\n```\nKết quả của câu lệnh truy vấn là: (hình ảnh)",
       "answers": [
         {
           "id": "f6a769cf-132f-49c4-acbd-75ff44143bc2",
@@ -4472,7 +4472,7 @@
     },
     {
       "id": "ca26189a-b40d-4ef4-9dc6-cc890a638ad5",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.<span style='color:red'>name</span> là:",
+      "question": "Cho truy vấn sau:\n```sql\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\n```\nÝ nghĩa của biểu thực p.<span style='color:red'>name</span> là:",
       "answers": [
         {
           "id": "b19fbfd4-1259-4021-8365-28bdf72bea05",
@@ -4495,7 +4495,7 @@
     },
     {
       "id": "407c5af0-7359-4360-a5c8-0f74844bba0e",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực <span style='color:red'>s</span>.<span style='color:red'>number</span>:",
+      "question": "Cho truy vấn sau:\n```sql\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\n```\nÝ nghĩa của biểu thực <span style='color:red'>s</span>.<span style='color:red'>number</span>:",
       "answers": [
         {
           "id": "9b351830-794c-47fc-8450-718b1ff813d9",
@@ -4518,7 +4518,7 @@
     },
     {
       "id": "465385eb-bddd-4485-ab6d-6d3ad146d5a9",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.<span style='color:red'>role(p,s)</span> là:",
+      "question": "Cho truy vấn sau:\n```sql\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\n```\nÝ nghĩa của biểu thực p.<span style='color:red'>role(p,s)</span> là:",
       "answers": [
         {
           "id": "c3ef379e-68de-49fa-88eb-84708cd5f645",
@@ -4541,7 +4541,7 @@
     },
     {
       "id": "e76f4123-16b2-48b6-b02e-4958cf1b7d9a",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.<span style='color:red'>work_on</span> là:",
+      "question": "Cho truy vấn sau:\n```sql\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\n```\nÝ nghĩa của biểu thực p.<span style='color:red'>work_on</span> là:",
       "answers": [
         {
           "id": "5f79cf06-f5a0-41b2-ad02-5bf1f4320751",
@@ -4610,7 +4610,7 @@
     },
     {
       "id": "f4f2a362-ada5-4d75-b148-c6ff11e8a2ac",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp <span style='color:red'>lệnh</span> trên thì e <span style='color:red'>là</span>:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\n```sql\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\n```\nTrong cú pháp <span style='color:red'>lệnh</span> trên thì e <span style='color:red'>là</span>:",
       "answers": [
         {
           "id": "8a8cc1a6-dd53-425b-96e5-5f70a0c7883c",
@@ -4633,7 +4633,7 @@
     },
     {
       "id": "905985d6-4256-40d8-8b23-3c9b6a8e0a55",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp lệnh trên thì E là:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\n```sql\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\n```\nTrong cú pháp lệnh trên thì E là:",
       "answers": [
         {
           "id": "355218d9-bde0-40ed-ae78-fc6a378d3ff7",
@@ -4656,7 +4656,7 @@
     },
     {
       "id": "9c80b081-5b15-4b83-98f6-5de18a3eb741",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp trên thì mệnh đề <span style='color:red'>From</span> chỉ ra:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\n```sql\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\n```\nTrong cú pháp trên thì mệnh đề <span style='color:red'>From</span> chỉ ra:",
       "answers": [
         {
           "id": "67269b50-d9f0-4bb5-82a1-c380c440799b",
@@ -4679,7 +4679,7 @@
     },
     {
       "id": "038c0ba5-03b5-4aaf-aed5-f86cab83ceec",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp trên thì mệnh đề <span style='color:red'>Where</span> chỉ ra:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\n```sql\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\n```\nTrong cú pháp trên thì mệnh đề <span style='color:red'>Where</span> chỉ ra:",
       "answers": [
         {
           "id": "94fd5ff5-bbc0-4a7e-acd8-9276cd0136fa",
@@ -4726,7 +4726,7 @@
     },
     {
       "id": "83d09855-bc67-4100-870b-da8cc3666a7e",
-      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT <span style='color:red'>g</span>.name, g.phone_no<span style='color:red'>, g.manager.name</span>\nFROM <span style='color:red'>g In</span> Group;\nSai ở <span style='color:red'>đâu</span>: (hình ảnh)",
+      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\n```sql\nSELECT <span style='color:red'>g</span>.name, g.phone_no<span style='color:red'>, g.manager.name</span>\nFROM <span style='color:red'>g In</span> Group;\n```\nSai ở <span style='color:red'>đâu</span>: (hình ảnh)",
       "answers": [
         {
           "id": "45e57198-08ac-4e25-982f-dc949baa5c6a",
@@ -4750,7 +4750,7 @@
     },
     {
       "id": "f771e29c-31a8-4c70-8c6e-f4119a2d0f88",
-      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT p.name, <span style='color:red'>p.</span>group.name, p.phone_no\nFROM p IN <span style='color:red'>Group</span>\nWHERE p.floor= 2;\nSai ở: (hình ảnh)",
+      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\n```sql\nSELECT p.name, <span style='color:red'>p.</span>group.name, p.phone_no\nFROM p IN <span style='color:red'>Group</span>\nWHERE p.floor= 2;\n```\nSai ở: (hình ảnh)",
       "answers": [
         {
           "id": "572290ca-f4ca-48d6-b017-918ec8da1d77",
@@ -4797,7 +4797,7 @@
     },
     {
       "id": "33cd386b-d803-46bc-a5d3-4570272bdd80",
-      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT p.name, group.name, p.phone_no\nFROM p IN <span style='color:red'>Programmer</span>\nWHERE p.floor= 2;\nSai ở: (hình ảnh)",
+      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\n```sql\nSELECT p.name, group.name, p.phone_no\nFROM p IN <span style='color:red'>Programmer</span>\nWHERE p.floor= 2;\n```\nSai ở: (hình ảnh)",
       "answers": [
         {
           "id": "d62274ef-d1bc-4beb-8f55-350687df756a",
@@ -4843,7 +4843,7 @@
     },
     {
       "id": "0edfce50-c3f4-408d-96e9-7b7edd661b5e",
-      "question": "Cho các lớp như trên, cho câu lệnh truy vấn:\nSELECT p.name, p.phone_no\nFROM p IN Programmer<span style='color:red'>;</span>\nWHERE <span style='color:red'>(</span>p.<span style='color:red'>group.name</span> = <span style='color:red'>‘Analysis’)\nAND (p.number > 111)</span>;\n<span style='color:red'>Câu lệnh sai</span> ở: (hình ảnh)",
+      "question": "Cho các lớp như trên, cho câu lệnh truy vấn:\n```sql\nSELECT p.name, p.phone_no\nFROM p IN Programmer<span style='color:red'>;</span>\nWHERE <span style='color:red'>(</span>p.<span style='color:red'>group.name</span> = <span style='color:red'>‘Analysis’)\nAND (p.number > 111)</span>;\n```\n<span style='color:red'>Câu lệnh sai</span> ở: (hình ảnh)",
       "answers": [
         {
           "id": "1031a5b5-08d2-4f28-a263-b5c6aac07269",
@@ -4912,7 +4912,7 @@
     },
     {
       "id": "28c364d6-2225-4537-ad0f-6bf59e730655",
-      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.number, p.name, p.group, p.role(p, s)\nFROM p IN Programmer, s IN Software\nWHERE (s.number = 101) AND (s IN p.works_on);\ncâu lệnh <span style='color:red'>sai ở</span>: <span style='color:red'>(hình ảnh)</span>",
+      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\n```sql\nSELECT p.number, p.name, p.group, p.role(p, s)\nFROM p IN Programmer, s IN Software\nWHERE (s.number = 101) AND (s IN p.works_on);\n```\ncâu lệnh <span style='color:red'>sai ở</span>: <span style='color:red'>(hình ảnh)</span>",
       "answers": [
         {
           "id": "61a5ebb9-b609-45c9-bfa5-da4072952cde",
@@ -4935,7 +4935,7 @@
     },
     {
       "id": "d0ad68b1-e5ba-4cbb-9e65-6c61f8db1dda",
-      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.<span style='color:red'>number</span>, p.<span style='color:red'>name</span>, p.group<span style='color:red'>, p</span>.<span style='color:red'>role(p, s)</span>\nFROM p IN Programmer, s IN Software\nWHERE (<span style='color:red'>s</span>.number = <span style='color:red'>101</span>) AND (s IN p.works_on);\nCâu lệnh này sẽ hiển thị <span style='color:red'>mã</span> số<span style='color:red'>, tên</span>, tên nhóm các nhà lập trình <span style='color:red'>tham gia trong</span> dự án phần mềm số <span style='color:red'>101 và vai trò của họ trong dự án</span>. Tuy nhiên câu lệnh này bị lỗi tại <span style='color:red'>p.group</span> cần sửa lại là <span style='color:red'>:</span>",
+      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\n```sql\nSELECT p.<span style='color:red'>number</span>, p.<span style='color:red'>name</span>, p.group<span style='color:red'>, p</span>.<span style='color:red'>role(p, s)</span>\nFROM p IN Programmer, s IN Software\nWHERE (<span style='color:red'>s</span>.number = <span style='color:red'>101</span>) AND (s IN p.works_on);\n```\nCâu lệnh này sẽ hiển thị <span style='color:red'>mã</span> số<span style='color:red'>, tên</span>, tên nhóm các nhà lập trình <span style='color:red'>tham gia trong</span> dự án phần mềm số <span style='color:red'>101 và vai trò của họ trong dự án</span>. Tuy nhiên câu lệnh này bị lỗi tại <span style='color:red'>p.group</span> cần sửa lại là <span style='color:red'>:</span>",
       "answers": [
         {
           "id": "0a1cb3ac-8348-4027-8f27-99884f95ac8a",
@@ -4958,7 +4958,7 @@
     },
     {
       "id": "8d2d6245-4dbd-45eb-8103-5853244723a6",
-      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.name, p.phone_no, p.group.name\nFROM p IN Programmer, s IN Software\nWHERE (p.number = 111)\nAND NOT(s IN p.works_on);\nCâu lệnh này sẽ hiển thị tên, số điện thoại, tên nhóm, của các nhà lập trình không làm việc ở dự án phần mềm số 111. Tuy nhiên câu lệnh này bị lỗi tại: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\n```sql\nSELECT p.name, p.phone_no, p.group.name\nFROM p IN Programmer, s IN Software\nWHERE (p.number = 111)\nAND NOT(s IN p.works_on);\n```\nCâu lệnh này sẽ hiển thị tên, số điện thoại, tên nhóm, của các nhà lập trình không làm việc ở dự án phần mềm số 111. Tuy nhiên câu lệnh này bị lỗi tại: (hình ảnh)",
       "answers": [
         {
           "id": "577d740d-8105-41e8-aeff-ec90d88683bb",
@@ -4981,7 +4981,7 @@
     },
     {
       "id": "29369685-5fd2-4db5-ad8b-4fdcf94a30ee",
-      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.name, p.phone_no, p.group.name\nFROM p IN Programmer, s IN Software\nWHERE (p.number = 111)\nAND NOT(s IN p.works_on);\nCâu lệnh này sẽ hiển thị tên, số điện thoại, tên nhóm, của các nhà lập trình không làm việc ở dự án phần mềm số 111. Tuy nhiên câu lệnh này bị lỗi tại <span style='color:red'>điều kiện Where cần sửa lại là</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\n```sql\nSELECT p.name, p.phone_no, p.group.name\nFROM p IN Programmer, s IN Software\nWHERE (p.number = 111)\nAND NOT(s IN p.works_on);\n```\nCâu lệnh này sẽ hiển thị tên, số điện thoại, tên nhóm, của các nhà lập trình không làm việc ở dự án phần mềm số 111. Tuy nhiên câu lệnh này bị lỗi tại <span style='color:red'>điều kiện Where cần sửa lại là</span>: (hình ảnh)",
       "answers": [
         {
           "id": "05ed9756-79c5-4e7b-97ca-e53c52279190",
@@ -5050,7 +5050,7 @@
     },
     {
       "id": "b871980e-f322-4707-ab86-8a46b9a161a8",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (<span style='color:red'>s</span>.number = 111) AND (p IN s.team) AND\n(role(p<span style='color:red'>,s</span>) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại: <span style='color:red'>(hình ảnh)</span>",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\n```sql\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (<span style='color:red'>s</span>.number = 111) AND (p IN s.team) AND\n(role(p<span style='color:red'>,s</span>) = ‘Manage’) AND (year(s.date) >1997);\n```\nTuy nhiên câu lệnh trên bị lỗi tại: <span style='color:red'>(hình ảnh)</span>",
       "answers": [
         {
           "id": "f51650c3-0900-442e-a691-940aff1fc236",
@@ -5073,7 +5073,7 @@
     },
     {
       "id": "e211d47f-8d50-401d-aa92-8ab2d85c258d",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (<span style='color:red'>p</span>.number = 111) AND (p IN s.team) AND\n(role(p) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại:",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\n```sql\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (<span style='color:red'>p</span>.number = 111) AND (p IN s.team) AND\n(role(p) = ‘Manage’) AND (year(s.date) >1997);\n```\nTuy nhiên câu lệnh trên bị lỗi tại:",
       "answers": [
         {
           "id": "f02ec808-0295-47cb-ae49-40c72d9b9ca6",
@@ -5096,7 +5096,7 @@
     },
     {
       "id": "3ff86148-cb04-47b0-a264-bc89cb7037a3",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (s IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\n```sql\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (s IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(s.date) >1997);\n```\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
       "answers": [
         {
           "id": "df7ca674-8032-4997-8bc4-3d8764f7cc0c",
@@ -5119,7 +5119,7 @@
     },
     {
       "id": "c329868f-2e2f-4117-ae3b-6d6c25d16127",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (p IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(p.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\n```sql\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (p IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(p.date) >1997);\n```\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
       "answers": [
         {
           "id": "f451967e-9128-4e94-a53d-9c73c91b30cd",
@@ -5165,7 +5165,7 @@
     },
     {
       "id": "79d4fbb3-d73c-4239-9090-684506cd1d39",
-      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\nOID được gọi là thuộc tính:",
+      "question": "Cho lớp Giao viên như sau:\n```\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n```\nOID được gọi là thuộc tính:",
       "answers": [
         {
           "id": "489d941b-738a-4125-ba52-be8cc6c962c2",
@@ -5188,7 +5188,7 @@
     },
     {
       "id": "1afc3463-2189-473a-8f0a-25a0f976b699",
-      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style='color:red'>Sothich</span> được gọi là thuộc tính:",
+      "question": "Cho lớp Giao viên như sau:\n```\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n```\n<span style='color:red'>Sothich</span> được gọi là thuộc tính:",
       "answers": [
         {
           "id": "59d173d8-54c5-4153-bbb5-b38256f9c99d",
@@ -5211,7 +5211,7 @@
     },
     {
       "id": "33320b82-0721-4cb0-bfbe-c748120a1af7",
-      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style='color:red'>Thuoc</span> được gọi là thuộc tính:",
+      "question": "Cho lớp Giao viên như sau:\n```\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n```\n<span style='color:red'>Thuoc</span> được gọi là thuộc tính:",
       "answers": [
         {
           "id": "3f342ed4-07bc-4d27-9b2f-c0dfa225acb6",
@@ -5234,7 +5234,7 @@
     },
     {
       "id": "a20dabff-efbe-4038-b6a8-ac91dc9bc82c",
-      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style='color:red'>Diachi</span> được gọi là thuộc tính:",
+      "question": "Cho lớp Giao viên như sau:\n```\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n```\n<span style='color:red'>Diachi</span> được gọi là thuộc tính:",
       "answers": [
         {
           "id": "8eda5026-58b0-4e7a-8e3c-9ca894dc3544",
@@ -5257,7 +5257,7 @@
     },
     {
       "id": "f01cee9f-aa3f-4c3b-a8a4-0f40d1e4d8f8",
-      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT <span style='color:red'>p.</span>Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n<span style='color:red'>Làm nhiệm vụ</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\n```sql\nSELECT <span style='color:red'>p.</span>Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n```\n<span style='color:red'>Làm nhiệm vụ</span>: (hình ảnh)",
       "answers": [
         {
           "id": "002dc967-0440-4b6c-bb46-6579f6a2e178",
@@ -5280,7 +5280,7 @@
     },
     {
       "id": "f11d5158-e26d-4fa7-b6cf-a934ebb784b5",
-      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n<span style='color:red'>Câu lệnh trên sai ở</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\n```sql\nSELECT Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n```\n<span style='color:red'>Câu lệnh trên sai ở</span>: (hình ảnh)",
       "answers": [
         {
           "id": "d91f93c4-038e-448c-9b73-bdce4a12da63",
@@ -5372,7 +5372,7 @@
     },
     {
       "id": "1cee2caa-cb56-4eda-ab7f-f186327207b6",
-      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê <span style='color:red'>tất cả</span> tên giáo viên <span style='color:red'>có sở thich là xem tivi như sau</span>:\nSELECT p.Name\nFROM p in <span style='color:red'>GIAOVIEN</span>\nWHERE <span style='color:red'>‘xem TV’ in</span> p.<span style='color:red'>Sothich</span>\nHãy cho biết câu lệnh trên sai ở <span style='color:red'>đâu?</span> (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê <span style='color:red'>tất cả</span> tên giáo viên <span style='color:red'>có sở thich là xem tivi như sau</span>:\n```sql\nSELECT p.Name\nFROM p in <span style='color:red'>GIAOVIEN</span>\nWHERE <span style='color:red'>‘xem TV’ in</span> p.<span style='color:red'>Sothich</span>\n```\nHãy cho biết câu lệnh trên sai ở <span style='color:red'>đâu?</span> (hình ảnh)",
       "answers": [
         {
           "id": "3b979a7a-4f93-4edf-8ee8-ff77252e4fd8",
@@ -5395,7 +5395,7 @@
     },
     {
       "id": "c6aa6f57-e7e1-4f4a-9c61-e6be090781aa",
-      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tên <span style='color:red'>của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của</span> giáo viên <span style='color:red'>hướng dẫn</span>:\nSELECT\np.Name\nFROM\np in <span style='color:red'>SV_TOTNGHIEP,</span>\nWHERE p.<span style='color:red'>Tuoi > f.Tuoi</span>\nHãy cho biết câu lệnh trên sai ở<span style='color:red'>:</span> (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tên <span style='color:red'>của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của</span> giáo viên <span style='color:red'>hướng dẫn</span>:\n```sql\nSELECT\np.Name\nFROM\np in <span style='color:red'>SV_TOTNGHIEP,</span>\nWHERE p.<span style='color:red'>Tuoi > f.Tuoi</span>\n```\nHãy cho biết câu lệnh trên sai ở<span style='color:red'>:</span> (hình ảnh)",
       "answers": [
         {
           "id": "d03f1396-5c9e-4f15-a66c-5b5eebfd6d50",
@@ -5418,7 +5418,7 @@
     },
     {
       "id": "ffca810f-4a76-4b47-abd9-0c1bf33b74d9",
-      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn <span style='color:red'>liệt kê tên của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của giáo viên hướng dẫn</span>\nSELECT\np.Name\nFROM p in SV_TOTNGHIEP,\nWHERE p.Tuoi > f.Tuoi\n<span style='color:red'>Câu</span> lệnh truy vấn <span style='color:red'>sai tại mệnh đề From cần sửa</span> là: <span style='color:red'>(hình ảnh)</span>",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn <span style='color:red'>liệt kê tên của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của giáo viên hướng dẫn</span>\n```sql\nSELECT\np.Name\nFROM p in SV_TOTNGHIEP,\nWHERE p.Tuoi > f.Tuoi\n```\n<span style='color:red'>Câu</span> lệnh truy vấn <span style='color:red'>sai tại mệnh đề From cần sửa</span> là: <span style='color:red'>(hình ảnh)</span>",
       "answers": [
         {
           "id": "3c1db788-fa06-4a57-b3c2-d73f2fe16fe5",
@@ -5441,7 +5441,7 @@
     },
     {
       "id": "59ea75c3-7b07-4b16-9173-41358f579a0b",
-      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn\nSELECT p.Name\nFROM\np in SV_TOTNGHIEP,\n<span style='color:red'>f in p.GVhuongdan</span>\nWHERE p.Tuoi > f.Tuoi\n<span style='color:red'>Kết quả của câu</span> lệnh truy vấn <span style='color:red'>trên</span> là:",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn\n```sql\nSELECT p.Name\nFROM\np in SV_TOTNGHIEP,\n<span style='color:red'>f in p.GVhuongdan</span>\nWHERE p.Tuoi > f.Tuoi\n```\n<span style='color:red'>Kết quả của câu</span> lệnh truy vấn <span style='color:red'>trên</span> là:",
       "answers": [
         {
           "id": "39e629cc-3c35-4102-bfb1-40cd8675cd66",
