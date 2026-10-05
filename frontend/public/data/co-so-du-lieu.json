@@ -505,7 +505,7 @@
     },
     {
       "id": "6fd2e2b1-aa46-4ffe-a1cb-d04e3943cdcc",
-      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style='color:red'>Kiểu thực</span> thể là:",
+      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style='color:red'>Kiểu thực thể</span> là:",
       "answers": [
         {
           "id": "24a7b8f8-4628-4022-ae36-e3319456ec42",
@@ -528,7 +528,7 @@
     },
     {
       "id": "5593d7ac-c9a4-48e2-889a-6d5bcc4275c3",
-      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style='color:red'>Thực</span> thể là:",
+      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style='color:red'>Thực thể</span> là:",
       "answers": [
         {
           "id": "9df19d2a-c383-420b-b342-78c578d9b2fd",
