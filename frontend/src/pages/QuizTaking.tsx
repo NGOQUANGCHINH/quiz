@@ -237,7 +237,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           {currentQuestion.image && (
             <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
               <img 
-                src={`${import.meta.env.BASE_URL}${currentQuestion.image.replace(/^\\//, '')}`} 
+                src={`${import.meta.env.BASE_URL}${currentQuestion.image.startsWith('/') ? currentQuestion.image.slice(1) : currentQuestion.image}`} 
                 alt="Question figure" 
                 style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} 
               />
