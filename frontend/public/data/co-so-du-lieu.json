@@ -1622,7 +1622,7 @@
     },
     {
       "id": "73ec8755-354d-4ef6-bb61-d68085d9359f",
-      "question": "<span style='color:red'>Khi</span> chuyển đổi mô hình ER sang mô hình quan hệ, ta thực hiện. Chọn đáp án đúng nhất:",
+      "question": "<span style='color:red'>Khi</span> chuyển đổi mô hình <span style='color:red'>ER sang mô hình quan hệ</span>, ta thực hiện. Chọn đáp án <span style='color:red'>đúng nhất</span>:",
       "answers": [
         {
           "id": "72ac0d04-6808-4ed0-a3c0-05d8edc171b1",
@@ -1645,7 +1645,7 @@
     },
     {
       "id": "43dc4d33-5f82-4784-b150-99390e642f33",
-      "question": "<span style='color:red'>Trong</span> chuyển đổi mô hình ER sang mô hình quan hệ, ta thực hiện. Chọn đáp án đúng nhất: <span style='color:red'>.</span>",
+      "question": "<span style='color:red'>Trong</span> chuyển đổi mô hình <span style='color:red'>ER sang mô hình quan hệ</span>, ta thực hiện. Chọn đáp án <span style='color:red'>đúng nhất</span>: .",
       "answers": [
         {
           "id": "69cc3d7e-42a5-4eec-a230-ef32f32bbf84",
