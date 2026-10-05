@@ -4,7 +4,7 @@ const getBaseUrl = () => import.meta.env.BASE_URL || '/';
 
 export const api = {
   getQuizzes: async (): Promise<(QuizSummary & { fileUrl?: string })[]> => {
-    const res = await fetch(`${getBaseUrl()}data/quizzes.json`);
+    const res = await fetch(`${getBaseUrl()}data/quizzes.json?t=${Date.now()}`);
     return res.json();
   },
   
@@ -14,7 +14,7 @@ export const api = {
     if (!quizInfo || !quizInfo.fileUrl) {
       throw new Error('Quiz not found');
     }
-    const res = await fetch(`${getBaseUrl()}data/${quizInfo.fileUrl}`);
+    const res = await fetch(`${getBaseUrl()}data/${quizInfo.fileUrl}?t=${Date.now()}`);
     if (!res.ok) throw new Error('Failed to fetch quiz');
     return res.json();
   },
