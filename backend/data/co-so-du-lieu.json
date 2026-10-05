@@ -1687,7 +1687,8 @@
           "text": "4."
         }
       ],
-      "correctAnswerId": "ddb53d55-2179-4dd4-afd9-1048cbeb141a"
+      "correctAnswerId": "ddb53d55-2179-4dd4-afd9-1048cbeb141a",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "00f93a56-b66d-4ead-87b3-6148543a9218",
@@ -1710,7 +1711,8 @@
           "text": "họ tên."
         }
       ],
-      "correctAnswerId": "c7bebd0d-9395-48b8-b4ad-281d2b9a7bf7"
+      "correctAnswerId": "c7bebd0d-9395-48b8-b4ad-281d2b9a7bf7",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "7612565c-7cae-40eb-886b-d6b450455db4",
@@ -1802,7 +1804,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "96f1c887-1626-48a7-b9c2-282f69184050"
+      "correctAnswerId": "96f1c887-1626-48a7-b9c2-282f69184050",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "0abf28b4-0a9b-4435-943f-094c110a74b4",
@@ -1848,7 +1851,8 @@
           "text": "Có."
         }
       ],
-      "correctAnswerId": "bad7545d-0817-4c61-a21c-a2467e64283a"
+      "correctAnswerId": "bad7545d-0817-4c61-a21c-a2467e64283a",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "23d6b6c3-fbed-49f5-b9ee-927bbc6b6076",
@@ -1871,7 +1875,8 @@
           "text": "Tất cả các phương án trên."
         }
       ],
-      "correctAnswerId": "c6bf678f-dfc6-4b5b-b313-c9003ff20920"
+      "correctAnswerId": "c6bf678f-dfc6-4b5b-b313-c9003ff20920",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "f3242bd6-077e-441e-abb6-db4abfae38ad",
@@ -1894,7 +1899,8 @@
           "text": "Tất cả các phương án trên."
         }
       ],
-      "correctAnswerId": "0c016996-c41d-47e9-b39e-eb335d3ce0b4"
+      "correctAnswerId": "0c016996-c41d-47e9-b39e-eb335d3ce0b4",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "d04fe4c0-4ab3-4e34-b167-0a748c594a1f",
@@ -1917,7 +1923,8 @@
           "text": "Tất cả các phương án trên đều sai."
         }
       ],
-      "correctAnswerId": "35e55efe-64ee-46c7-90f2-5b2b28b46396"
+      "correctAnswerId": "35e55efe-64ee-46c7-90f2-5b2b28b46396",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "cb2e0abf-34c9-4973-a258-fde0def62985",
@@ -1940,7 +1947,8 @@
           "text": "Giới tính."
         }
       ],
-      "correctAnswerId": "0e034f25-744c-4acf-be84-2808d6b35d2c"
+      "correctAnswerId": "0e034f25-744c-4acf-be84-2808d6b35d2c",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "566f7a3a-c000-416c-a9c5-c92ea98e7b47",
@@ -1963,7 +1971,8 @@
           "text": "Giới tính."
         }
       ],
-      "correctAnswerId": "2b4b1a5d-4771-414c-8eb1-120b85e26162"
+      "correctAnswerId": "2b4b1a5d-4771-414c-8eb1-120b85e26162",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "95d18c0f-9dca-4d21-ae94-7bea15aa69eb",
@@ -1986,7 +1995,8 @@
           "text": "Đơn vị."
         }
       ],
-      "correctAnswerId": "b7643c82-ee67-4d76-b79d-c6f56abe011f"
+      "correctAnswerId": "b7643c82-ee67-4d76-b79d-c6f56abe011f",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "80aef0ef-493d-4184-88e3-aaaa671828e2",
@@ -2009,7 +2019,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "8159bb3b-6417-4821-a7ac-1608111267ae"
+      "correctAnswerId": "8159bb3b-6417-4821-a7ac-1608111267ae",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "445643ac-4a00-48b6-92e2-7ce54b0a7e9a",
@@ -2032,7 +2043,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "f6abdc07-94a1-43f2-9352-6d6370951b6b"
+      "correctAnswerId": "f6abdc07-94a1-43f2-9352-6d6370951b6b",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "affdb488-e895-4be8-b5c7-6dc14d51839a",
@@ -2055,7 +2067,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "ce260c0b-2f22-4ff8-8ffc-79b1f04669ba"
+      "correctAnswerId": "ce260c0b-2f22-4ff8-8ffc-79b1f04669ba",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "bb17508f-6897-4435-ae81-a47781869f3b",
@@ -2078,7 +2091,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "ea2c851f-efb5-41bf-abfc-c6984812a25c"
+      "correctAnswerId": "ea2c851f-efb5-41bf-abfc-c6984812a25c",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "8a030b52-0849-4b99-b08c-a50033b2adb9",
@@ -2101,7 +2115,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "f30324e8-5824-450a-9188-92e0d09ffce3"
+      "correctAnswerId": "f30324e8-5824-450a-9188-92e0d09ffce3",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "59b8f214-c222-4687-9c0c-7051614009c7",
@@ -2124,7 +2139,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "cc239a33-f8d8-4b2e-a85c-f7d6b607d763"
+      "correctAnswerId": "cc239a33-f8d8-4b2e-a85c-f7d6b607d763",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "f3173b4c-f023-4197-a269-d847c4cf0dcf",
@@ -2147,7 +2163,8 @@
           "text": "Tất cả đều sai."
         }
       ],
-      "correctAnswerId": "72df07d6-1c25-4566-b5be-0b34d9bafdd7"
+      "correctAnswerId": "72df07d6-1c25-4566-b5be-0b34d9bafdd7",
+      "image": "/img-csdl/image.png"
     },
     {
       "id": "6e77ec5c-c96c-4f9d-a2c2-32a3581246a6",
@@ -2781,7 +2798,8 @@
           "text": "Quy tắc số 4."
         }
       ],
-      "correctAnswerId": "5e56b380-ad1c-48d9-92cf-2b5627870a44"
+      "correctAnswerId": "5e56b380-ad1c-48d9-92cf-2b5627870a44",
+      "image": "/img-csdl/image copy.png"
     },
     {
       "id": "268b44be-e5ee-445f-8e45-074bde5a3ea0",
@@ -2804,7 +2822,8 @@
           "text": "Tại lớp Nhân viên sẽ có thêm thuộc tính inherits: Nguoi và tại lớp Nguoi có thêm thuộc tính inherits: Nhân viên."
         }
       ],
-      "correctAnswerId": "eee3e5a6-f77f-4f95-ab67-a938e25f28ae"
+      "correctAnswerId": "eee3e5a6-f77f-4f95-ab67-a938e25f28ae",
+      "image": "/img-csdl/image copy.png"
     },
     {
       "id": "260cb167-386c-4fdd-a4b0-6b1de3a952d9",
@@ -2827,7 +2846,8 @@
           "text": "Quy tắc số 4."
         }
       ],
-      "correctAnswerId": "c44b2b68-9208-468b-b1f2-f6a211027aa0"
+      "correctAnswerId": "c44b2b68-9208-468b-b1f2-f6a211027aa0",
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "eb3f05de-114e-45df-97a5-497cc1cb6700",
@@ -2850,7 +2870,8 @@
           "text": "Tại lớp Trưởng khoa có thêm thuộc tính quanly: Khoa và tại lớp Khoa có thêm thuộc tính quanly: Truongkhoa."
         }
       ],
-      "correctAnswerId": "5270150b-e54f-4545-9bd3-9868b9b81b50"
+      "correctAnswerId": "5270150b-e54f-4545-9bd3-9868b9b81b50",
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "a04ee150-1ca7-4611-a5c3-6f25293b5cb8",
@@ -2873,7 +2894,8 @@
           "text": "Quy tắc số 4."
         }
       ],
-      "correctAnswerId": "a91d2320-fa65-4120-a58e-26f29e187a86"
+      "correctAnswerId": "a91d2320-fa65-4120-a58e-26f29e187a86",
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "56b87f4e-18d8-42ce-9c90-dfc9b96707d0",
@@ -2896,7 +2918,8 @@
           "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: Khoa và tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
         }
       ],
-      "correctAnswerId": "d3f7218d-8235-488d-9bd4-ac937f770161"
+      "correctAnswerId": "d3f7218d-8235-488d-9bd4-ac937f770161",
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "0994a8a2-b2fc-4ce9-9b49-d389a3ed1f2f",
@@ -2923,7 +2946,8 @@
           "text": "Không có phương án đúng."
         }
       ],
-      "correctAnswerId": "c8f81f5e-dff1-4a24-a3fd-d6db6167319b"
+      "correctAnswerId": "c8f81f5e-dff1-4a24-a3fd-d6db6167319b",
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "cda52924-75e6-4200-a33f-ec10455f4528",
@@ -2946,7 +2970,8 @@
           "text": "Quy tắc số 4."
         }
       ],
-      "correctAnswerId": "831db5c2-e28f-4cb3-98d4-f8543674e8df"
+      "correctAnswerId": "831db5c2-e28f-4cb3-98d4-f8543674e8df",
+      "image": "/img-csdl/image copy 4.png"
     },
     {
       "id": "b4ec2db8-3572-4bf1-b18f-31ce70452ed8",
@@ -2973,7 +2998,8 @@
           "text": "Không có phương án đúng."
         }
       ],
-      "correctAnswerId": "56810e0c-29a0-4ea5-ab67-88a15b14b165"
+      "correctAnswerId": "56810e0c-29a0-4ea5-ab67-88a15b14b165",
+      "image": "/img-csdl/image copy 4.png"
     },
     {
       "id": "28086b08-90ea-46e7-b67e-d7eaeb0faf75",
@@ -3023,7 +3049,8 @@
           "text": "Không có phương án đúng."
         }
       ],
-      "correctAnswerId": "48307612-8df3-4bb4-befe-4abf3e775e9d"
+      "correctAnswerId": "48307612-8df3-4bb4-befe-4abf3e775e9d",
+      "image": "/img-csdl/image copy 5.png"
     },
     {
       "id": "8f42efea-d147-4e50-9768-a8ab65a3c110",
@@ -3046,7 +3073,8 @@
           "text": "Quy tắc số 4."
         }
       ],
-      "correctAnswerId": "0d19d01e-f88f-457b-bff6-a200dad566e2"
+      "correctAnswerId": "0d19d01e-f88f-457b-bff6-a200dad566e2",
+      "image": "/img-csdl/image copy 5.png"
     },
     {
       "id": "cc8f6a8b-9e6f-43da-a6f0-3fd75092f96f",
@@ -3069,7 +3097,8 @@
           "text": "Không có phương án nào đúng."
         }
       ],
-      "correctAnswerId": "e23fc4a3-bc57-4271-9596-47440978693f"
+      "correctAnswerId": "e23fc4a3-bc57-4271-9596-47440978693f",
+      "image": "/img-csdl/image copy 5.png"
     },
     {
       "id": "da1b0971-7538-4b02-b6cd-22346e13dc46",
@@ -3092,7 +3121,8 @@
           "text": "Không có phương án nào đúng."
         }
       ],
-      "correctAnswerId": "7c3000d9-def8-46f5-b848-6bffc6d44651"
+      "correctAnswerId": "7c3000d9-def8-46f5-b848-6bffc6d44651",
+      "image": "/img-csdl/image copy 5.png"
     },
     {
       "id": "ec07582a-1348-4be7-a021-aa5086120ead",
@@ -3115,7 +3145,8 @@
           "text": "Không có phương án nào đúng."
         }
       ],
-      "correctAnswerId": "6635b154-6da6-4336-9dbc-24c5f112511a"
+      "correctAnswerId": "6635b154-6da6-4336-9dbc-24c5f112511a",
+      "image": "/img-csdl/image copy 5.png"
     },
     {
       "id": "9e17d7fc-e09c-410d-88a2-f5579201d272",
@@ -3138,7 +3169,8 @@
           "text": "6."
         }
       ],
-      "correctAnswerId": "fb113b65-40f9-4f19-b5ce-388d832e56b2"
+      "correctAnswerId": "fb113b65-40f9-4f19-b5ce-388d832e56b2",
+      "image": "/img-csdl/image copy 5.png"
     },
     {
       "id": "2ffab6ac-d8b4-4c71-bd2f-6b752b589404",
@@ -3161,7 +3193,8 @@
           "text": "6."
         }
       ],
-      "correctAnswerId": "50389f7c-8982-455d-8dcb-3254fc87a689"
+      "correctAnswerId": "50389f7c-8982-455d-8dcb-3254fc87a689",
+      "image": "/img-csdl/image copy 4.png"
     },
     {
       "id": "f21bef64-c461-4578-ab51-f0ec170924d5",
@@ -3184,7 +3217,8 @@
           "text": "Giáo viên."
         }
       ],
-      "correctAnswerId": "ab51342f-2054-48e3-baf6-3248dc5aa29d"
+      "correctAnswerId": "ab51342f-2054-48e3-baf6-3248dc5aa29d",
+      "image": "/img-csdl/image copy 4.png"
     },
     {
       "id": "19fadd90-5cd8-42fb-a285-a47ae3d98191",
@@ -3207,7 +3241,8 @@
           "text": "Không có phương án đúng."
         }
       ],
-      "correctAnswerId": "db7757b7-8e4f-403d-ad10-40f81a07593c"
+      "correctAnswerId": "db7757b7-8e4f-403d-ad10-40f81a07593c",
+      "image": "/img-csdl/image copy 4.png"
     },
     {
       "id": "58905b3f-117c-4d59-be39-48255b74edc1",
@@ -3230,7 +3265,8 @@
           "text": "Truongkhoa(id_tk, hodem, ten, tuoi, id_khoa), Khoa(id_k, tenkhoa. sodienthoai)."
         }
       ],
-      "correctAnswerId": "807e411b-b737-4b52-aeeb-edc0846f0d6a"
+      "correctAnswerId": "807e411b-b737-4b52-aeeb-edc0846f0d6a",
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "029e43cc-2488-4d08-9309-2bc6f1c3175e",
@@ -3253,7 +3289,8 @@
           "text": "7."
         }
       ],
-      "correctAnswerId": "fd68b225-3d06-41b4-b710-54719dde18ad"
+      "correctAnswerId": "fd68b225-3d06-41b4-b710-54719dde18ad",
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "a357ffc6-5d91-4987-a1d5-f7b037152a21",
@@ -3483,7 +3520,8 @@
           "text": "Cung nét mỏng;."
         }
       ],
-      "correctAnswerId": "d49f3048-b05a-4609-bc0a-bc877a470430"
+      "correctAnswerId": "d49f3048-b05a-4609-bc0a-bc877a470430",
+      "image": "/img-csdl/Screenshot 2026-10-05 at 4.47.23 PM.png"
     },
     {
       "id": "e44f9a8d-e071-4aac-b654-655b5858aa7d",
@@ -3552,7 +3590,8 @@
           "text": "Tất cả các phương án đều sai."
         }
       ],
-      "correctAnswerId": "766fba0b-602a-4143-9257-1fa5341d2e1e"
+      "correctAnswerId": "766fba0b-602a-4143-9257-1fa5341d2e1e",
+      "image": "/img-csdl/image copy 6.png"
     },
     {
       "id": "19a1b4c7-bb92-4547-887b-cc91b00aa724",
@@ -3621,7 +3660,8 @@
           "text": "id: allID, Hoten: String, Tuoi: Integer,."
         }
       ],
-      "correctAnswerId": "0611f6df-d2a4-4a05-b8ee-c7f6b3979810"
+      "correctAnswerId": "0611f6df-d2a4-4a05-b8ee-c7f6b3979810",
+      "image": "/img-csdl/image copy 7.png"
     },
     {
       "id": "baa2a453-1619-4980-aa0d-2588de500eb3",
@@ -3644,7 +3684,8 @@
           "text": "Nguoi(id, hoten, tuoi)."
         }
       ],
-      "correctAnswerId": "4685728a-e859-41c9-8297-1376f5d3bb19"
+      "correctAnswerId": "4685728a-e859-41c9-8297-1376f5d3bb19",
+      "image": "/img-csdl/image copy 7.png"
     },
     {
       "id": "9abfd991-77b3-4a9e-b7ef-9eec42f0a084",
@@ -3667,7 +3708,8 @@
           "text": "Giáo viên, Lịch dạy, Lớp."
         }
       ],
-      "correctAnswerId": "bbee807a-225b-47cb-8e7c-1d8f998557e8"
+      "correctAnswerId": "bbee807a-225b-47cb-8e7c-1d8f998557e8",
+      "image": "/img-csdl/image copy 8.png"
     },
     {
       "id": "d5374d7b-cef9-4df2-9c74-60ad8c7c1468",
@@ -3690,7 +3732,8 @@
           "text": "2."
         }
       ],
-      "correctAnswerId": "a2f4ee49-1e38-4ac1-8859-74885f0d1d3a"
+      "correctAnswerId": "a2f4ee49-1e38-4ac1-8859-74885f0d1d3a",
+      "image": "/img-csdl/image copy 8.png"
     },
     {
       "id": "8044c285-4e12-4dac-ab6c-0b684f607baf",
@@ -3713,7 +3756,8 @@
           "text": "Thời gian: String, Giang: Giaovien, Gomco: Monhoc."
         }
       ],
-      "correctAnswerId": "658b7d6c-7c4a-4138-9117-122e99fdffbc"
+      "correctAnswerId": "658b7d6c-7c4a-4138-9117-122e99fdffbc",
+      "image": "/img-csdl/image copy 8.png"
     },
     {
       "id": "9ccce621-c966-4811-82e1-256e1870637a",
@@ -3736,7 +3780,8 @@
           "text": "Quan hệ đa trị."
         }
       ],
-      "correctAnswerId": "93714528-d932-4fc7-b4bc-7bb4f041e267"
+      "correctAnswerId": "93714528-d932-4fc7-b4bc-7bb4f041e267",
+      "image": "/img-csdl/image copy 8.png"
     },
     {
       "id": "713eb8ab-5096-4739-a4fa-d015c4304007",
@@ -3759,7 +3804,8 @@
           "text": "2."
         }
       ],
-      "correctAnswerId": "2bc600f1-a15c-4dc9-b1c8-727c6e67a6b3"
+      "correctAnswerId": "2bc600f1-a15c-4dc9-b1c8-727c6e67a6b3",
+      "image": "/img-csdl/image copy 8.png"
     },
     {
       "id": "f22902be-5f11-419a-87ae-8f70b9daa69f",
@@ -3782,7 +3828,8 @@
           "text": "id_lop, id_gv, id_monhoc, thoigian, hoten, sotiet."
         }
       ],
-      "correctAnswerId": "3697149d-18f1-487e-b20d-d363528b845d"
+      "correctAnswerId": "3697149d-18f1-487e-b20d-d363528b845d",
+      "image": "/img-csdl/image copy 8.png"
     },
     {
       "id": "738d6247-a2b4-475f-8c21-7f22dfbf128e",
@@ -3828,7 +3875,8 @@
           "text": "PHIEU_GIAO_HANG, DM_KHACH."
         }
       ],
-      "correctAnswerId": "080339d1-fc21-4c44-aa3f-d063d72737c0"
+      "correctAnswerId": "080339d1-fc21-4c44-aa3f-d063d72737c0",
+      "image": "/img-csdl/image copy 9.png"
     },
     {
       "id": "8fb7d1c7-5f7c-4185-9ca0-115bf1915f49",
@@ -3851,7 +3899,8 @@
           "text": "Tất cả đều đúng"
         }
       ],
-      "correctAnswerId": "1827c564-fd37-4d9f-a5e9-b6e5d0021109"
+      "correctAnswerId": "1827c564-fd37-4d9f-a5e9-b6e5d0021109",
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "45574d0c-45a7-46e1-8c47-405f30308b7e",
@@ -3874,7 +3923,8 @@
           "text": "Tất cả đều đúng"
         }
       ],
-      "correctAnswerId": "9af9a9f9-9e23-4c74-8fb5-5168fbb047a7"
+      "correctAnswerId": "9af9a9f9-9e23-4c74-8fb5-5168fbb047a7",
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "d8d2988f-a66c-4192-bef1-39ec87bdfae2",
@@ -3897,7 +3947,8 @@
           "text": "Tất cả đều sai"
         }
       ],
-      "correctAnswerId": "f1621959-ade0-469d-9ded-eb01128da777"
+      "correctAnswerId": "f1621959-ade0-469d-9ded-eb01128da777",
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "4e67ce37-fd0f-483f-ac46-9cef72dac45d",
@@ -3920,7 +3971,8 @@
           "text": "Tất cả đều sai"
         }
       ],
-      "correctAnswerId": "ee006815-bec5-4d61-bf93-a64fa5bf1c5c"
+      "correctAnswerId": "ee006815-bec5-4d61-bf93-a64fa5bf1c5c",
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "d502dd49-66d9-4bfb-884a-b5dc16e14275",
@@ -3943,7 +3995,8 @@
           "text": "Không có phương án đúng"
         }
       ],
-      "correctAnswerId": "a58b3fd1-efdb-42d2-8435-861267ed2f0d"
+      "correctAnswerId": "a58b3fd1-efdb-42d2-8435-861267ed2f0d",
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "3ed74d8b-f908-42f1-a609-d9a5dcf1aea0",
@@ -3966,7 +4019,8 @@
           "text": "8."
         }
       ],
-      "correctAnswerId": "0411d210-b12e-4cda-ba48-3c45249662d0"
+      "correctAnswerId": "0411d210-b12e-4cda-ba48-3c45249662d0",
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "814b18ab-603a-40cb-a504-7820455e5d30",
@@ -4127,7 +4181,8 @@
           "text": "Ngôn ngữ định nghĩa cấu trúc."
         }
       ],
-      "correctAnswerId": "3b0c257d-ee7a-4945-a8de-a7932e1779fc"
+      "correctAnswerId": "3b0c257d-ee7a-4945-a8de-a7932e1779fc",
+      "image": "/img-csdl/Screenshot 2026-10-05 at 4.47.23 PM.png"
     },
     {
       "id": "d050a48e-ecc4-43ff-8b9b-4e4c5d94f058",
@@ -4319,7 +4374,8 @@
           "text": "Trả về thuộc tính mã số của đối tượng s."
         }
       ],
-      "correctAnswerId": "ec704129-4176-48f1-b3a6-2dd133b32035"
+      "correctAnswerId": "ec704129-4176-48f1-b3a6-2dd133b32035",
+      "image": "/img-csdl/image copy 11.png"
     },
     {
       "id": "bf4bddde-6adf-4152-b043-f78bbda885f6",
@@ -4342,7 +4398,8 @@
           "text": "Trả về thuộc tính mã số của đối tượng s."
         }
       ],
-      "correctAnswerId": "57ac1749-cfbf-4d69-87cc-5c020a2d7c7b"
+      "correctAnswerId": "57ac1749-cfbf-4d69-87cc-5c020a2d7c7b",
+      "image": "/img-csdl/image copy 11.png"
     },
     {
       "id": "4c0d2f52-3531-4fed-97d7-45d42c8239c8",
@@ -4664,7 +4721,8 @@
           "text": "Tất cả đều sai"
         }
       ],
-      "correctAnswerId": "e5faea4e-2245-487e-a9a2-e1f645dda633"
+      "correctAnswerId": "e5faea4e-2245-487e-a9a2-e1f645dda633",
+      "image": "/img-csdl/image copy 11.png"
     },
     {
       "id": "83d09855-bc67-4100-870b-da8cc3666a7e",
@@ -4687,7 +4745,8 @@
           "text": "Câu lệnh truy vấn đúng không sai"
         }
       ],
-      "correctAnswerId": "694c8176-e1fa-4338-b41f-83a3951aac4a"
+      "correctAnswerId": "694c8176-e1fa-4338-b41f-83a3951aac4a",
+      "image": "/img-csdl/image copy 11.png"
     },
     {
       "id": "f771e29c-31a8-4c70-8c6e-f4119a2d0f88",
@@ -4710,7 +4769,8 @@
           "text": "Câu lệnh truy vấn đúng không sai"
         }
       ],
-      "correctAnswerId": "c1f7e6ef-2f26-40de-8018-4d3c8d91a32c"
+      "correctAnswerId": "c1f7e6ef-2f26-40de-8018-4d3c8d91a32c",
+      "image": "/img-csdl/image copy 11.png"
     },
     {
       "id": "0867a953-3165-496e-a422-d28fd6109432",
@@ -5419,7 +5479,8 @@
           "text": "4"
         }
       ],
-      "correctAnswerId": "5ad070b4-789f-451e-a511-5197479b25db"
+      "correctAnswerId": "5ad070b4-789f-451e-a511-5197479b25db",
+      "image": "/img-csdl/image copy 7.png"
     }
   ]
 }
