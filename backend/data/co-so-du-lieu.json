@@ -3222,19 +3222,19 @@
     },
     {
       "id": "19fadd90-5cd8-42fb-a285-a47ae3d98191",
-      "question": "Cho lược đồ ER trên, chuyển đổi <span style='color:red'>lược</span> đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
       "answers": [
         {
           "id": "db7757b7-8e4f-403d-ad10-40f81a07593c",
-          "text": "Giáo viên( id_gv, hodem, ten, tuoi, id_k); Khoa(id_k, tenkhoa. sodienthoai)."
+          "text": "Giáo viên( id_gv, <span style='color:red'>hodem,</span> ten, tuoi<span style='color:red'>, id_k</span>); Khoa(id_k, tenkhoa. sodienthoai)."
         },
         {
           "id": "7c810da2-219c-48f0-ab39-70efb81f10de",
-          "text": "Giáo viên(id_gv, hoten, tuoi); Khoa(id_k, tenkhoa. sodienthoai)."
+          "text": "<span style='color:red'>Giáo</span> viên(id_gv, hoten, tuoi); Khoa(id_k, tenkhoa. sodienthoai)."
         },
         {
           "id": "5baa0e9a-e3eb-4466-80ff-a807588c1d14",
-          "text": "Gáo viên(id_gv, hoten, tuoi); Khoa(id_k, tenkhoa. sodienthoai, id_gv)."
+          "text": "Gáo viên(id_gv, hoten, tuoi); Khoa(id_k, tenkhoa. sodienthoai<span style='color:red'>, id_gv</span>)."
         },
         {
           "id": "c352f074-33ed-440b-96f9-a7fccb7b6e2b",
@@ -3246,23 +3246,23 @@
     },
     {
       "id": "58905b3f-117c-4d59-be39-48255b74edc1",
-      "question": "Cho lược đồ ER trên, chuyển đổi lợc đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
       "answers": [
         {
           "id": "807e411b-b737-4b52-aeeb-edc0846f0d6a",
-          "text": "Truongkhoa(id_tk, hodem, ten, tuoi); Khoa(id_k, tenkhoa. sodienthoai, id_tk)."
+          "text": "Truongkhoa(id_tk, <span style='color:red'>hodem,</span> ten, tuoi); Khoa(id_k, tenkhoa. sodienthoai, id_tk)."
         },
         {
           "id": "c20ad95c-a650-4224-bbab-e7b7c74709f1",
-          "text": "Truongkhoa(id_tk, hoten, tuoi, id_khoa); Khoa(id_k, tenkhoa. sodienthoai, id_tk)."
+          "text": "Truongkhoa(id_tk, hoten, tuoi, id_khoa)<span style='color:red'>;</span> Khoa(id_k, tenkhoa. sodienthoai<span style='color:red'>, id_tk</span>)."
         },
         {
           "id": "b29b72a3-0700-4250-99aa-4d8cdba3171e",
-          "text": "Truongkhoa(id_tk, hodem, ten, tuoi); Quanly(id_tk, id_khoa); Khoa(id_k, tenkhoa. sodienthoai, id_tk)."
+          "text": "Truongkhoa(id_tk, <span style='color:red'>hodem,</span> ten, tuoi<span style='color:red'>); Quanly(id_tk</span>, id_khoa); Khoa(id_k, tenkhoa. sodienthoai, id_tk)."
         },
         {
           "id": "d51f54e5-629e-48c2-a144-89d2cbb81944",
-          "text": "Truongkhoa(id_tk, hodem, ten, tuoi, id_khoa), Khoa(id_k, tenkhoa. sodienthoai)."
+          "text": "Truongkhoa(id_tk, <span style='color:red'>hodem,</span> ten, tuoi, id_khoa)<span style='color:red'>,</span> Khoa(id_k, tenkhoa. sodienthoai)."
         }
       ],
       "correctAnswerId": "807e411b-b737-4b52-aeeb-edc0846f0d6a",
