@@ -1415,7 +1415,7 @@
     },
     {
       "id": "49d8fc52-f5fe-429f-94e5-821f3b34aeaf",
-      "question": "Trong mô hình EER, khái niệm <span style='color:red'>chuyên biệt</span> hóa nghĩa là: .",
+      "question": "Trong mô hình <span style='color:red'>EER</span>, khái niệm <span style='color:red'>chuyên biệt hóa</span> nghĩa là:",
       "answers": [
         {
           "id": "5d832942-f5d7-4d7e-b610-ce6f9429ec67",
@@ -1438,7 +1438,7 @@
     },
     {
       "id": "4ec968be-cae9-42b5-97bf-6a70f93db876",
-      "question": "Trong mô hình EER, khái niệm <span style='color:red'>tổng quát</span> hóa nghĩa là: .",
+      "question": "Trong mô hình <span style='color:red'>EER</span>, khái niệm <span style='color:red'>tổng quát hóa</span> nghĩa là: .",
       "answers": [
         {
           "id": "6d242dbf-8902-4b7b-8891-72de07e47ea3",
