@@ -76,10 +76,25 @@ const formatQuestionText = (text: string) => {
     });
     return `<pre class="code-block"><code>${highlighted.join('\n')}</code></pre>`;
   });
-  // Highlight specific uppercase keywords in red
-  const keywords = /(ĐÚNG|SAI|KHÔNG|CHÍNH XÁC|NHẤT)/g;
-  html = html.replace(keywords, '<strong style="color: var(--primary-color);">$1</strong>');
   
+  // Danh sách các từ khóa quan trọng cần bôi đậm (chỉ bôi đậm, không đổi màu)
+  const importantKeywords = /\b(không được|ngoại trừ|ngoại lệ|không thể|không|chưa|sai|nhất|tất cả|chỉ|duy nhất|luôn luôn|bắt buộc|tối đa|tối thiểu|cơ bản|chủ yếu|đặc trưng|quan trọng|bao gồm|chức năng|mục đích|nguyên tắc|tính chất|phân biệt|nào sau đây|là gì|tại sao|như thế nào|khi nào|đúng|chính xác)\b/gi;
+  
+  // Tạm thời bảo vệ các khối code (không bôi đậm bừa bãi trong code)
+  const codeBlocks: string[] = [];
+  html = html.replace(/<pre class="code-block"><code>[\s\S]*?<\/code><\/pre>/gi, match => {
+    codeBlocks.push(match);
+    return `__CODE_BLOCK_${codeBlocks.length - 1}__`;
+  });
+
+  // Bôi đậm từ khóa trong phần text thường (bỏ qua dấu phân cách nếu cần)
+  html = html.replace(importantKeywords, '<strong>$&</strong>');
+
+  // Khôi phục lại khối code
+  html = html.replace(/__CODE_BLOCK_(\d+)__/g, (_, index) => {
+    return codeBlocks[parseInt(index)];
+  });
+
   return html;
 };
 
