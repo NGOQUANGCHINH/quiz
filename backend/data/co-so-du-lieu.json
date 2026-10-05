@@ -5028,5 +5028,392 @@
       }
     ],
     "correctAnswerId": "cae4838c-d2b4-4a1c-b9df-a38b7eeedd0c"
+  },
+  {
+    "id": "3ff86148-cb04-47b0-a264-bc89cb7037a3",
+    "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (s IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
+    "answers": [
+      {
+        "id": "df7ca674-8032-4997-8bc4-3d8764f7cc0c",
+        "text": "s.name"
+      },
+      {
+        "id": "c87fa57d-a062-481f-83ec-127b9fd994c7",
+        "text": "p.number=111"
+      },
+      {
+        "id": "c8262c43-61d0-4f6a-b4a2-c367b82d33d8",
+        "text": "s IN s.team"
+      },
+      {
+        "id": "2d77afd8-9979-42ac-afd2-b0615897c9f2",
+        "text": "role(p,s)= ‘Manage’"
+      }
+    ],
+    "correctAnswerId": "c8262c43-61d0-4f6a-b4a2-c367b82d33d8"
+  },
+  {
+    "id": "c329868f-2e2f-4117-ae3b-6d6c25d16127",
+    "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (p IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(p.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
+    "answers": [
+      {
+        "id": "f451967e-9128-4e94-a53d-9c73c91b30cd",
+        "text": "year(p.date)>1997"
+      },
+      {
+        "id": "89463fdc-ed8d-4a7b-9f9f-49863f1de54d",
+        "text": "p.number=111"
+      },
+      {
+        "id": "d3fb616b-7781-41ba-b313-9293c295a10c",
+        "text": "p IN s.team"
+      },
+      {
+        "id": "d336eaf1-20e7-4c76-85e0-c4cab523fb62",
+        "text": "role(p,s)= ‘Manage’"
+      }
+    ],
+    "correctAnswerId": "f451967e-9128-4e94-a53d-9c73c91b30cd"
+  },
+  {
+    "id": "d3dea0bf-a512-4415-aa0e-1087fb712d63",
+    "question": "Hãy cho biết đặc trưng của OQL:",
+    "answers": [
+      {
+        "id": "b4d1aa24-274a-406d-8c35-b058e78e5734",
+        "text": "OQL hỗi trợ kiểu phong phú hơn."
+      },
+      {
+        "id": "ab1d4c71-f8fb-44f5-9b3f-2c1232407ece",
+        "text": "OQL có thể tích hợp với các tính năng của ngôn ngữ lập trình hướng đối tượng như Smalltalk, C++, Java"
+      },
+      {
+        "id": "a0ecc62c-7c78-464d-90f3-7e72908c1ab0",
+        "text": "Truy vấn trên tất cả các thể hiện thuộc lớp chỉ ra trong đồ thị truy vấn"
+      },
+      {
+        "id": "03fae81a-0825-4ac3-b87a-fe9e3df3cc2c",
+        "text": "Tất cả các phương án"
+      }
+    ],
+    "correctAnswerId": "03fae81a-0825-4ac3-b87a-fe9e3df3cc2c"
+  },
+  {
+    "id": "79d4fbb3-d73c-4239-9090-684506cd1d39",
+    "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\nOID được gọi là thuộc tính:",
+    "answers": [
+      {
+        "id": "489d941b-738a-4125-ba52-be8cc6c962c2",
+        "text": "Định danh."
+      },
+      {
+        "id": "dee73b0e-a066-4865-a793-ea79da371bed",
+        "text": "Khóa"
+      },
+      {
+        "id": "12b85aed-48c4-4173-b021-54f2c702c8c0",
+        "text": "Thuộc tính đa trị"
+      },
+      {
+        "id": "8a093429-3a27-4fe8-a904-65d50b8e16d5",
+        "text": "Thuộc tính mỗi quan hệ"
+      }
+    ],
+    "correctAnswerId": "489d941b-738a-4125-ba52-be8cc6c962c2"
+  },
+  {
+    "id": "1afc3463-2189-473a-8f0a-25a0f976b699",
+    "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\nSothich được gọi là thuộc tính:",
+    "answers": [
+      {
+        "id": "59d173d8-54c5-4153-bbb5-b38256f9c99d",
+        "text": "Định danh."
+      },
+      {
+        "id": "ec2ed5ab-9663-4772-a9f6-e50d1d5b3f13",
+        "text": "Khóa"
+      },
+      {
+        "id": "7a090dd9-1fb2-4d09-924c-57c84f2491d2",
+        "text": "Thuộc tính đa trị"
+      },
+      {
+        "id": "3d7887f7-321f-4803-8958-2ba08001c55c",
+        "text": "Thuộc tính mỗi quan hệ"
+      }
+    ],
+    "correctAnswerId": "7a090dd9-1fb2-4d09-924c-57c84f2491d2"
+  },
+  {
+    "id": "33320b82-0721-4cb0-bfbe-c748120a1af7",
+    "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\nThuoc được gọi là thuộc tính:",
+    "answers": [
+      {
+        "id": "3f342ed4-07bc-4d27-9b2f-c0dfa225acb6",
+        "text": "Định danh."
+      },
+      {
+        "id": "0cf015ba-e8ca-4f0a-b141-364f47836bfe",
+        "text": "Khóa"
+      },
+      {
+        "id": "51c929db-aa8d-4418-bca0-9283f5253c83",
+        "text": "Thuộc tính đa trị"
+      },
+      {
+        "id": "d563a20e-1eb5-47f6-988f-4a26c1684a45",
+        "text": "Thuộc tính mỗi quan hệ"
+      }
+    ],
+    "correctAnswerId": "d563a20e-1eb5-47f6-988f-4a26c1684a45"
+  },
+  {
+    "id": "a20dabff-efbe-4038-b6a8-ac91dc9bc82c",
+    "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\nDiachi được gọi là thuộc tính:",
+    "answers": [
+      {
+        "id": "8eda5026-58b0-4e7a-8e3c-9ca894dc3544",
+        "text": "Định danh."
+      },
+      {
+        "id": "ca85e908-2c9b-4a14-bc11-4e70213c8ad7",
+        "text": "Phức hợp"
+      },
+      {
+        "id": "8ba15353-a5a6-4651-9e8b-10acf38ed158",
+        "text": "Thuộc tính đa trị"
+      },
+      {
+        "id": "5ccf2ad6-3e1b-483e-b874-cdac18e3dbd0",
+        "text": "Thuộc tính mỗi quan hệ"
+      }
+    ],
+    "correctAnswerId": "ca85e908-2c9b-4a14-bc11-4e70213c8ad7"
+  },
+  {
+    "id": "f01cee9f-aa3f-4c3b-a8a4-0f40d1e4d8f8",
+    "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT p.Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\nLàm nhiệm vụ: (hình ảnh)",
+    "answers": [
+      {
+        "id": "002dc967-0440-4b6c-bb46-6579f6a2e178",
+        "text": "Liệt kê tên những sin h viên đã tốt nghiệp có điểm trung bình >=7"
+      },
+      {
+        "id": "276ab061-f10e-4317-8337-8e2562cffbe5",
+        "text": "Liệt kê tên những sinh viên đã tốt nghiệp"
+      },
+      {
+        "id": "368bfdbb-79fd-4691-9991-355df688e2b0",
+        "text": "Liệt kê tên những sinh viên có trong bảng SV_Tốt nghiệp và có điểm trung bình >=7"
+      },
+      {
+        "id": "481a2a2a-76d3-4e0b-9e22-97917397f2f9",
+        "text": "Câu lệnh sai cú pháp"
+      }
+    ],
+    "correctAnswerId": "002dc967-0440-4b6c-bb46-6579f6a2e178"
+  },
+  {
+    "id": "f11d5158-e26d-4fa7-b6cf-a934ebb784b5",
+    "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\nCâu lệnh trên sai ở: (hình ảnh)",
+    "answers": [
+      {
+        "id": "d91f93c4-038e-448c-9b73-bdce4a12da63",
+        "text": "Không có lỗi sai"
+      },
+      {
+        "id": "e7251bc9-0a81-43d1-ba01-35358d84ebc4",
+        "text": "Sai ở Select Name"
+      },
+      {
+        "id": "45957fc3-a516-42c5-9453-cf4ada29acc9",
+        "text": "Sai ở p in SV_TOTNGHIÊP"
+      },
+      {
+        "id": "f20f5b2f-d284-4b67-a6f6-037479536c27",
+        "text": "Sai ở mệnh đề Where"
+      }
+    ],
+    "correctAnswerId": "e7251bc9-0a81-43d1-ba01-35358d84ebc4"
+  },
+  {
+    "id": "86c59fc2-c6c5-4534-8b69-0d68f32c1a54",
+    "question": "Cho các lớp đối tượng như trên. Để hiển thị ra tên những sinh viên đã tốt nghiệp với điểm trung bình >=8 ta chọn câu lệnh nào? (hình ảnh)",
+    "answers": [
+      {
+        "id": "b2363979-0fa3-47e9-bc6f-0a26b7a3c5c6",
+        "text": "SELECT p.Name FROM p in SV_TOTNGHIEP WHERE p.DiemTB > = 7"
+      },
+      {
+        "id": "259d8d63-3873-4fb4-adee-b1bf094c3668",
+        "text": "SELECT s.Name FROM p in SV_TOTNGHIEP WHERE p.DiemTB > = 7"
+      },
+      {
+        "id": "ce0aba0f-1242-4c5b-a8fb-5449d70c4b3a",
+        "text": "SELECT Name FROM p in SV_TOTNGHIEP WHERE DiemTB > = 7"
+      },
+      {
+        "id": "e9b30803-29d8-4e7e-b339-0cc324da0b55",
+        "text": "SELECT Name FROM SV_TOTNGHIEP WHERE p.DiemTB > = 7"
+      }
+    ],
+    "correctAnswerId": "b2363979-0fa3-47e9-bc6f-0a26b7a3c5c6"
+  },
+  {
+    "id": "aac82eee-314f-412d-bada-638cd549871d",
+    "question": "Cho các lớp đối tượng như trên. Để hiển thị ra tên những sinh viên đã tốt nghiệp mà trưởng khoa quản lý sinh viên đó là Le An ta chọn câu lệnh: (hình ảnh)",
+    "answers": [
+      {
+        "id": "916f87dd-a89f-48d3-8ea4-87878044beb6",
+        "text": "SELECT p.Name FROM p in SV_TOTNGHIEP WHERE p.Khoa.Truongkhoa.Hoten =‘Le An’"
+      },
+      {
+        "id": "526c3672-3614-4508-94d4-2a15a23fc0b3",
+        "text": "SELECT p.Name FROM p in SV_TOTNGHIEP WHERE p.Khoa.Hoten =‘Le An’"
+      },
+      {
+        "id": "0765001e-34a4-426b-bfcc-b4364170381e",
+        "text": "SELECT p.Name FROM p in SV_TOTNGHIEP WHERE p.Khoa.Truongkhoa =‘Le An’"
+      },
+      {
+        "id": "dc697b15-ae6d-416d-b464-6d75b734fded",
+        "text": "SELECT p.Name FROM p in SV_TOTNGHIEP WHERE p. Truongkhoa.Hoten =‘Le An’"
+      }
+    ],
+    "correctAnswerId": "916f87dd-a89f-48d3-8ea4-87878044beb6"
+  },
+  {
+    "id": "78846845-54b9-465f-afc2-10c3a5c5a0c0",
+    "question": "Cho các lớp đối tượng như trên. Để liệt kê ra tên những giáo viên có sở thích là Xem TV ta chọn câu lệnh: (hình ảnh)",
+    "answers": [
+      {
+        "id": "870864db-96e8-4d21-bf7f-f8a89df73829",
+        "text": "SELECT p.Name FROM p in GIAOVIEN WHERE ‘xem TV’ in p.Sothich"
+      },
+      {
+        "id": "dd1e0960-1824-4086-8df8-9f35ce0fff27",
+        "text": "SELECT Name FROM p in GIAOVIEN WHERE ‘xem TV’ in p.Sothich"
+      },
+      {
+        "id": "1bce3f20-eecf-41df-ba7a-12d8dcb6d6ba",
+        "text": "SELECT p.Name FROM GIAOVIEN WHERE ‘xem TV’ in p.Sothich"
+      },
+      {
+        "id": "24cc1632-b568-4472-b67d-1c5c9061526e",
+        "text": "SELECT p.Name FROM p in GIAOVIEN WHERE Sothich= ‘xem TV’"
+      }
+    ],
+    "correctAnswerId": "870864db-96e8-4d21-bf7f-f8a89df73829"
+  },
+  {
+    "id": "1cee2caa-cb56-4eda-ab7f-f186327207b6",
+    "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tất cả tên giáo viên có sở thich là xem tivi như sau:\nSELECT p.Name\nFROM p in GIAOVIEN\nWHERE ‘xem TV’ in p.Sothich\nHãy cho biết câu lệnh trên sai ở đâu? (hình ảnh)",
+    "answers": [
+      {
+        "id": "3b979a7a-4f93-4edf-8ee8-ff77252e4fd8",
+        "text": "Sai ở mệnh đề Where"
+      },
+      {
+        "id": "54a0f0f8-5444-473f-a8c4-9802d61913ac",
+        "text": "Sai ở mệnh đề From"
+      },
+      {
+        "id": "09eca9ce-3e7c-4969-a043-e92de2d2ab01",
+        "text": "Sai ở mệnh đề Select"
+      },
+      {
+        "id": "076e96ed-7fc9-40a0-bb81-09e9bbf55431",
+        "text": "Câu lệnh trên đúng"
+      }
+    ],
+    "correctAnswerId": "076e96ed-7fc9-40a0-bb81-09e9bbf55431"
+  },
+  {
+    "id": "c6aa6f57-e7e1-4f4a-9c61-e6be090781aa",
+    "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tên của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của giáo viên hướng dẫn:\nSELECT\np.Name\nFROM\np in SV_TOTNGHIEP,\nWHERE p.Tuoi > f.Tuoi\nHãy cho biết câu lệnh trên sai ở: (hình ảnh)",
+    "answers": [
+      {
+        "id": "d03f1396-5c9e-4f15-a66c-5b5eebfd6d50",
+        "text": "Sai ở mệnh đề Where"
+      },
+      {
+        "id": "4a3cc7fa-b4a0-4841-9012-fe28e4158eef",
+        "text": "Sai ở mệnh đề From"
+      },
+      {
+        "id": "ca7d2676-673a-40f7-aeab-5f7ccc736186",
+        "text": "Sai ở mệnh đề Select"
+      },
+      {
+        "id": "085384e5-a354-4a76-bbe9-f8d47c0af181",
+        "text": "Câu lệnh trên đúng"
+      }
+    ],
+    "correctAnswerId": "4a3cc7fa-b4a0-4841-9012-fe28e4158eef"
+  },
+  {
+    "id": "ffca810f-4a76-4b47-abd9-0c1bf33b74d9",
+    "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tên của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của giáo viên hướng dẫn\nSELECT\np.Name\nFROM p in SV_TOTNGHIEP,\nWHERE p.Tuoi > f.Tuoi\nCâu lệnh truy vấn sai tại mệnh đề From cần sửa là: (hình ảnh)",
+    "answers": [
+      {
+        "id": "3c1db788-fa06-4a57-b3c2-d73f2fe16fe5",
+        "text": "FROM p in SV_TOTNGHIEP, f in p.GVhuongdan"
+      },
+      {
+        "id": "72c95bbc-5edd-42ef-8dc4-b99af5c9dbf1",
+        "text": "FROM SV_TOTNGHIEP, GVhuongdan"
+      },
+      {
+        "id": "3f352e7b-0b67-42a3-a8ce-a32b3508f00b",
+        "text": "FROM p in SV_TOTNGHIEP, f in GVhuongdan"
+      },
+      {
+        "id": "03cd31e0-809b-41a3-bb43-f130910d21ca",
+        "text": "FROM SV_TOTNGHIEP,"
+      }
+    ],
+    "correctAnswerId": "3c1db788-fa06-4a57-b3c2-d73f2fe16fe5"
+  },
+  {
+    "id": "59ea75c3-7b07-4b16-9173-41358f579a0b",
+    "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn\nSELECT p.Name\nFROM\np in SV_TOTNGHIEP,\nf in p.GVhuongdan\nWHERE p.Tuoi > f.Tuoi\nKết quả của câu lệnh truy vấn trên là:",
+    "answers": [
+      {
+        "id": "39e629cc-3c35-4102-bfb1-40cd8675cd66",
+        "text": "Liệt kê tên những sinh viên đã tốt nghiệp mà có tuổi lớn hơn tuổi của giáo viên hướng dẫn"
+      },
+      {
+        "id": "214f3d8b-870d-4ffb-949b-7510d4f196aa",
+        "text": "Liệt kê những sinh viên đã t ốt nghiệp mà có tuổi nhỏ hơn tuổi của giáo viên hướng dẫn"
+      },
+      {
+        "id": "9e3c4982-1e4b-48fe-bb4d-faf68ea36537",
+        "text": "Lliệt kê tên của những giáo viên mà có tuổi nhỏ hơn tuổi của sinh viên mình hướng dẫn"
+      }
+    ],
+    "correctAnswerId": "39e629cc-3c35-4102-bfb1-40cd8675cd66"
+  },
+  {
+    "id": "3328d7be-3b7e-4f81-be8c-32273e2717c7",
+    "question": "Cho lược đồ ER như trê. Để chuyển đổi mối quan hệ phản xạ như trên ta sử dụng quy tắc chuyển đổi thứ: (hình ảnh)",
+    "answers": [
+      {
+        "id": "52a454ba-7d4e-4129-80bf-488d87a15782",
+        "text": "1"
+      },
+      {
+        "id": "3ee8756b-d16c-453b-8ae9-530c742f99d6",
+        "text": "2"
+      },
+      {
+        "id": "71ac37cb-730e-498b-bdb5-c1bd977693b2",
+        "text": "3"
+      },
+      {
+        "id": "5ad070b4-789f-451e-a511-5197479b25db",
+        "text": "4"
+      }
+    ],
+    "correctAnswerId": "5ad070b4-789f-451e-a511-5197479b25db"
   }
 ]
