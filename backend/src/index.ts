@@ -14,6 +14,7 @@ import path from 'path';
 app.use('/api/quizzes', quizRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/img', express.static(path.join(__dirname, 'public/img')));
+app.use('/img-csdl', express.static(path.join(__dirname, 'public/img-csdl')));
 
 const frontendDist = path.join(__dirname, '../../frontend/dist');
 app.use(express.static(frontendDist));
