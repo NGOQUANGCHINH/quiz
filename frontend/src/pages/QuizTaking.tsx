@@ -18,20 +18,45 @@ const tokenize = (text: string) => text.split(/(\s+|[:;,(){}\[\]])/).filter(Bool
 const highlightDiffs = (answers: { id: string; text: string }[]) => {
   if (answers.length < 2) return answers.map(a => a.text);
   const tokenized = answers.map(a => tokenize(a.text));
-  // Tìm các token xuất hiện ở mọi đáp án => chung, còn lại là khác biệt
-  const commonSet = new Set(tokenized[0]);
-  for (let i = 1; i < tokenized.length; i++) {
-    const s = new Set(tokenized[i]);
-    for (const t of commonSet) { if (!s.has(t)) commonSet.delete(t); }
-  }
-  return tokenized.map(tokens =>
-    tokens.map(tok => {
+  
+  // Tính tần suất xuất hiện của mỗi token trong các đáp án
+  const tokenFreq = new Map<string, number>();
+  tokenized.forEach(tokens => {
+    const uniqueTokens = new Set(tokens);
+    for (const t of uniqueTokens) {
+      if (!/^\s+$/.test(t)) {
+        const key = t.toLowerCase();
+        tokenFreq.set(key, (tokenFreq.get(key) || 0) + 1);
+      }
+    }
+  });
+
+  return tokenized.map(tokens => {
+    let diffCharCount = 0;
+    let totalCharCount = 0;
+    
+    const highlightedTokens = tokens.map(tok => {
       if (/^\s+$/.test(tok)) return tok;
-      if (!commonSet.has(tok))
+      
+      totalCharCount += tok.length;
+      
+      const freq = tokenFreq.get(tok.toLowerCase()) || 0;
+      // Token xuất hiện ở duy nhất 1 đáp án thì được coi là điểm khác biệt
+      if (freq === 1) {
+        diffCharCount += tok.length;
         return `<strong style="color: var(--primary-color);">${tok}</strong>`;
+      }
       return tok;
-    }).join('')
-  );
+    });
+
+    // Nếu phần khác biệt chiếm hơn 70% tổng số ký tự của câu thì không bôi đỏ nữa 
+    // (tránh việc nguyên một câu dài bị bôi đỏ chót, ví dụ: "Tất cả các ý trên")
+    if (totalCharCount > 0 && (diffCharCount / totalCharCount) > 0.7) {
+      return tokens.join('');
+    }
+
+    return highlightedTokens.join('');
+  });
 };
 
 
