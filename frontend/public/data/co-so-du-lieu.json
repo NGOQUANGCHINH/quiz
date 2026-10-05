@@ -1461,7 +1461,7 @@
     },
     {
       "id": "191e1ee2-8358-4650-b83c-a85ab14758aa",
-      "question": "Trong <span style='color:red'>mô hình</span> EER, quá trình tổng quát hóa dùng cách thiết kế:",
+      "question": "Trong mô hình <span style='color:red'>EER</span>, quá trình <span style='color:red'>tổng quát hóa</span> dùng cách thiết kế:",
       "answers": [
         {
           "id": "4578fccb-92f2-4661-bf5d-9b6e59a64bcd",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": "1a545ffb-52ef-4db3-ace1-5f99ae0969dc",
-      "question": "Trong mô hình EER, <span style='color:red'>quá trình</span> chuyên biệt hóa <span style='color:red'>dùng cách thiết kế:</span>",
+      "question": "Trong mô hình <span style='color:red'>EER</span>, quá trình <span style='color:red'>chuyên biệt hóa</span> dùng cách thiết kế:",
       "answers": [
         {
           "id": "14087ac2-3f75-4bda-b857-1acf0ce72b02",
