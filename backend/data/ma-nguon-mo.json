@@ -211,7 +211,7 @@
     },
     {
       "id": "2e1b6668-ce0c-4e6a-8f1b-962f309d2ab9",
-      "question": "Phần mềm mail nào là mã nguồn mở",
+      "question": "Phần mềm mail nào là <span style='color:red'>mã nguồn mở</span>",
       "answers": [
         {
           "id": "ef0a9fe8-f70c-47b7-bcb8-5d912ed81c86",
@@ -533,7 +533,7 @@
     },
     {
       "id": "25dacaf4-7e6d-45ca-a047-5a1d8c085f69",
-      "question": "Anh (chị) hãy cho biết hệ điều hành nào là hệ điều hành mã nguồn mở?",
+      "question": "Anh (chị) hãy cho biết hệ điều hành nào là hệ điều hành <span style='color:red'>mã nguồn mở</span>?",
       "answers": [
         {
           "id": "d0c7d9a1-5332-4ab0-b29d-31e1efeb550e",
@@ -602,7 +602,7 @@
     },
     {
       "id": "61c33e02-5501-4492-8488-3f58278e334e",
-      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở :",
+      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép <span style='color:red'>mã nguồn mở</span> :",
       "answers": [
         {
           "id": "211e3042-1ab5-44bc-ba4c-478284288b43",
@@ -648,7 +648,7 @@
     },
     {
       "id": "7d9efc28-c603-43e5-85d2-31d9c072ca2a",
-      "question": "Phần mềm GIMP sử dụng giấy phép mã nguồn mở nào :",
+      "question": "Phần mềm GIMP sử dụng giấy phép <span style='color:red'>mã nguồn mở</span> nào :",
       "answers": [
         {
           "id": "0e725158-5d39-4e26-be5c-7422840a155e",
@@ -671,7 +671,7 @@
     },
     {
       "id": "6d9bfaa1-661f-47e4-8a97-92fc70f8785a",
-      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép mã nguồn mở nào :",
+      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép <span style='color:red'>mã nguồn mở</span> nào :",
       "answers": [
         {
           "id": "1c6a4d54-5fbe-4651-940b-505da860f032",
@@ -1108,7 +1108,7 @@
     },
     {
       "id": "1789ed45-1f55-41be-8673-9c469de1d73c",
-      "question": "OpenOffice mã nguồn mở được phát triển bởi",
+      "question": "OpenOffice <span style='color:red'>mã nguồn mở</span> được phát triển bởi",
       "answers": [
         {
           "id": "516949fb-3f57-4d9c-a22e-cbc37d445ce6",
@@ -1200,7 +1200,7 @@
     },
     {
       "id": "b8f6c6cb-b8c9-497e-b6f1-9a64c1b7707b",
-      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu?",
+      "question": "Những phần mềm <span style='color:red'>mã nguồn mở</span> miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu?",
       "answers": [
         {
           "id": "b70680d1-f6b8-42de-915b-a698c56352ce",
@@ -1223,7 +1223,7 @@
     },
     {
       "id": "607efa49-a927-4946-bfb4-6da2d8a7738d",
-      "question": "Đâu không phải là hệ điều hành mã nguồn mở?",
+      "question": "Đâu không phải là hệ điều hành <span style='color:red'>mã nguồn mở</span>?",
       "answers": [
         {
           "id": "99ec5d9a-d89d-4f40-8245-6effe5a2ead9",
@@ -1246,7 +1246,7 @@
     },
     {
       "id": "017fc344-54b6-407f-87a9-c7122ca244c3",
-      "question": "BIND là phần mềm mã nguồn mở gì?",
+      "question": "BIND là phần mềm <span style='color:red'>mã nguồn mở</span> gì?",
       "answers": [
         {
           "id": "20e7a22e-0eee-4b97-9b94-b80b2d18df0d",
@@ -1614,7 +1614,7 @@
     },
     {
       "id": "e5dec13d-850e-4ca4-bf30-0a626e861c67",
-      "question": "Phần mềm mã nguồn mở nào dùng để xây dựng thương mại điện tử?",
+      "question": "Phần mềm <span style='color:red'>mã nguồn mở</span> nào dùng để xây dựng thương mại điện tử?",
       "answers": [
         {
           "id": "d28bc5c3-274a-49ec-a41b-a692a1c61ec6",
@@ -1867,7 +1867,7 @@
     },
     {
       "id": "7649f511-661e-4660-8115-85ade6344dd3",
-      "question": "Phần mềm nào không phải mã nguồn mở",
+      "question": "Phần mềm nào không phải <span style='color:red'>mã nguồn mở</span>",
       "answers": [
         {
           "id": "4bbe6bd2-758a-4b9f-be30-1c34ff011035",
@@ -1890,7 +1890,7 @@
     },
     {
       "id": "03e406e5-4bef-47fd-87c0-fca1eafde628",
-      "question": "Phần mềm nào không phải mã nguồn mở",
+      "question": "Phần mềm nào không phải <span style='color:red'>mã nguồn mở</span>",
       "answers": [
         {
           "id": "277881c6-1135-46fc-b284-c6f3483c9230",
@@ -2139,7 +2139,7 @@
     },
     {
       "id": "7e80056c-8aba-49a9-9cba-8b6d87115d0d",
-      "question": "Giấy phép mã nguồn mở là tập hợp các quy tắc đòi hỏi ai là người phải tuân theo:",
+      "question": "Giấy phép <span style='color:red'>mã nguồn mở</span> là tập hợp các quy tắc đòi hỏi ai là người phải tuân theo:",
       "answers": [
         {
           "id": "e643472f-a6a9-4d2f-a61a-2824fc3926e0",
@@ -2231,7 +2231,7 @@
     },
     {
       "id": "334627e1-60a9-42a3-839f-fef99c5d744f",
-      "question": "Câu nào sau đây không phải là ưu điểm của mã nguồn mở",
+      "question": "Câu nào sau đây không phải là ưu điểm của <span style='color:red'>mã nguồn mở</span>",
       "answers": [
         {
           "id": "51613fd7-1302-4d10-9507-d276776497cb",
@@ -2277,7 +2277,7 @@
     },
     {
       "id": "c705797a-ccdd-4ff5-9b2c-c0aed8502c5c",
-      "question": "Điều nào sau đây không đúng với các giấy phép mã nguồn mở",
+      "question": "Điều nào sau đây không đúng với các giấy phép <span style='color:red'>mã nguồn mở</span>",
       "answers": [
         {
           "id": "5cb1e4b5-b41f-486e-9ed2-cf8e0aadb8c9",
@@ -2323,7 +2323,7 @@
     },
     {
       "id": "f9ba9ecb-4831-4b0d-b141-1af2666ce85c",
-      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép mã nguồn mở:",
+      "question": "Bạn hãy cho biết phần mềm văn phòng nào sau đây sử dụng giấy phép <span style='color:red'>mã nguồn mở</span>:",
       "answers": [
         {
           "id": "bd7c487a-4a90-415e-849b-9804350c3f53",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": "cc785e36-4fe1-40d2-9032-6e27327a9eaf",
-      "question": "Phần mềm GIMP sử dụng giấy phép mã nguồn mở nào:",
+      "question": "Phần mềm GIMP sử dụng giấy phép <span style='color:red'>mã nguồn mở</span> nào:",
       "answers": [
         {
           "id": "a3b90364-278a-4ece-84b5-7b3a878e7df9",
@@ -2469,7 +2469,7 @@
     },
     {
       "id": "5ab3d71d-36a6-4bb7-a031-163fbe07aea6",
-      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép mã nguồn mở nào:",
+      "question": "Phần mềm Mozilla Firefox sử dụng giấy phép <span style='color:red'>mã nguồn mở</span> nào:",
       "answers": [
         {
           "id": "286b64f4-793b-4d7a-94c0-948d4f27acd2",
@@ -2511,7 +2511,7 @@
     },
     {
       "id": "09530db9-9b73-43b9-ab4c-2ad76a1fa39d",
-      "question": "Những phần mềm mã nguồn mở miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu Wine và CrossOver.",
+      "question": "Những phần mềm <span style='color:red'>mã nguồn mở</span> miễn phí nào sau đây giúp chạy các ứng dụng windows trên môi trường Ubuntu Wine và CrossOver.",
       "answers": [
         {
           "id": "8632576f-7b72-4956-99e6-e95bee69cee4",
@@ -2530,7 +2530,7 @@
     },
     {
       "id": "e5becb49-07ce-4c35-a89f-7658674bd0b8",
-      "question": "Mã nguồn mở Nukeviet có mấy dòng phiên bản chính?",
+      "question": "<span style='color:red'>Mã nguồn mở</span> Nukeviet có mấy dòng phiên bản chính?",
       "answers": [
         {
           "id": "10cd69a3-cb99-4e2a-8c38-504978e09825",
@@ -4428,7 +4428,7 @@
     },
     {
       "id": "fd4147dc-f15e-466e-a6c0-96768f2c02f5",
-      "question": "Những phát biểu nào sai về dự án mã nguồn mở",
+      "question": "Những phát biểu nào sai về dự án <span style='color:red'>mã nguồn mở</span>",
       "answers": [
         {
           "id": "9cbe98c4-8627-4b01-aeac-bfcbf6880ba7",
@@ -4650,7 +4650,7 @@
     },
     {
       "id": "11f754ee-e17f-4b9d-bba8-53a6d0486fec",
-      "question": "Tính tương thích của 2 loại giấy phép mã nguồn mở nghĩa là?",
+      "question": "Tính tương thích của 2 loại giấy phép <span style='color:red'>mã nguồn mở</span> nghĩa là?",
       "answers": [
         {
           "id": "901d64a1-4aba-4846-9816-7e94d2479317",
@@ -5192,7 +5192,7 @@
     },
     {
       "id": "002ed84b-f65f-4cdf-9ba9-646c78f4628e",
-      "question": "Phần mềm mã nguồn mở là?",
+      "question": "Phần mềm <span style='color:red'>mã nguồn mở</span> là?",
       "answers": [
         {
           "id": "5571be58-5c32-40ae-9ea7-c894d2aab71d",
