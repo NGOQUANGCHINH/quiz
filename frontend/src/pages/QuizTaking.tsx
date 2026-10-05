@@ -12,7 +12,7 @@ interface Props {
 const LABELS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
 // Tách text thành tokens (mỗi ký tự đặc biệt là 1 token riêng)
-const tokenize = (text: string) => text.split(/(\s+|[:;,(){}\[\]])/).filter(Boolean);
+const tokenize = (text: string) => text.split(/(\s+|[:;,(){}\[\]\.?!'"])/).filter(Boolean);
 
 // Highlight các phần khác nhau giữa các đáp án
 const highlightDiffs = (answers: { id: string; text: string }[]) => {
