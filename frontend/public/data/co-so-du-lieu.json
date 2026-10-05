@@ -1365,7 +1365,7 @@
     },
     {
       "id": "84d43f1b-3119-46f7-a3d9-d82346999cbc",
-      "question": "<span style='color:red'>Mô hình</span> EER là <span style='color:red'>mô hình</span> có khái niệm:",
+      "question": "Mô hình <span style='color:red'>EER</span> là mô hình có <span style='color:red'>khái niệm</span>:",
       "answers": [
         {
           "id": "c8d30c07-c511-4d42-a78a-6fa9077553c1",
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "cf1c85d7-7b11-497f-9c5d-de76b8e1da4a",
-      "question": "<span style='color:red'>Mô hình</span> ER là <span style='color:red'>mô hình</span> có khái niệm:",
+      "question": "Mô hình <span style='color:red'>ER</span> là mô hình có <span style='color:red'>khái niệm</span>:",
       "answers": [
         {
           "id": "c1d6c268-da3f-4345-82db-301814064d29",
