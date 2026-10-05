@@ -446,17 +446,17 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           display: 'flex', justifyContent: 'center', alignItems: 'center',
           zIndex: 1000
         }}>
-          <div className="card" style={{ width: '400px', textAlign: 'center' }}>
+          <div className="card" style={{ width: '90%', maxWidth: '450px', textAlign: 'center' }}>
             <AlertTriangle style={{ width: '48px', height: '48px', color: 'var(--wrong-color)', margin: '0 auto 1rem' }} />
             <h3 style={{ marginBottom: '1rem' }}>Bạn chưa hoàn thành bài!</h3>
             <p style={{ marginBottom: '2rem', color: 'var(--text-secondary)' }}>
               Vẫn còn {totalQuestions - Object.keys(progress.answers).length} câu chưa trả lời. Bạn có chắc chắn muốn nộp bài?
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <button className="btn btn-neutral" style={{ flex: 1 }} onClick={() => setShowSubmitConfirm(false)}>
+              <button className="btn btn-neutral" style={{ flex: 1, whiteSpace: 'nowrap' }} onClick={() => setShowSubmitConfirm(false)}>
                 Làm tiếp
               </button>
-              <button className="btn btn-primary" style={{ flex: 1 }} onClick={() => handleSubmit(true)}>
+              <button className="btn btn-primary" style={{ flex: 1, whiteSpace: 'nowrap' }} onClick={() => handleSubmit(true)}>
                 Vẫn nộp bài
               </button>
             </div>
