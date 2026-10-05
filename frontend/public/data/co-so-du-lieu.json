@@ -927,7 +927,7 @@
     },
     {
       "id": "0207bf53-4c23-41a1-9b8f-b2f43dc9fd4a",
-      "question": "Trong lược đồ ER, phát biểu không đúng về thực thể <span style='color:red'>mạnh là</span>:",
+      "question": "Trong lược đồ ER, phát biểu <span style='color:red'>không</span> đúng về <span style='color:red'>thực thể mạnh</span> là:",
       "answers": [
         {
           "id": "864fb94b-0e48-40d9-9ec4-9b98ca8883a8",
@@ -950,7 +950,7 @@
     },
     {
       "id": "c0a2c69d-adb7-41ed-819d-57d790184064",
-      "question": "Trong lược đồ ER, phát biểu <span style='color:red'>không</span> đúng về thực thể yếu:",
+      "question": "Trong lược đồ ER, phát biểu <span style='color:red'>không</span> đúng về <span style='color:red'>thực thể yếu</span>:",
       "answers": [
         {
           "id": "9973b974-5c16-44ad-96a1-abc6296daa3c",
