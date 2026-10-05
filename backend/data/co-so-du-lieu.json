@@ -1215,7 +1215,7 @@
     },
     {
       "id": "288dd57c-4df9-4c0d-a8b4-2b366966093c",
-      "question": "<span style='color:red'>Gemtone</span> là một OODB được mở rộng theo hướng phát triển: <span style='color:red'>.</span>",
+      "question": "<span style='color:red'>Gemtone</span> là một OODB được mở rộng theo hướng phát triển:",
       "answers": [
         {
           "id": "7ba76e9c-7ce4-4f22-a726-83d2597f1cee",
@@ -1238,7 +1238,7 @@
     },
     {
       "id": "a30f50f4-1592-4767-9bf2-2878582f1b31",
-      "question": "<span style='color:red'>INGRES</span> là một OODB được mở rộng theo hướng phát triển <span style='color:red'>từ:</span>",
+      "question": "<span style='color:red'>INGRES</span> là một OODB được mở rộng theo hướng phát triển:",
       "answers": [
         {
           "id": "d90fe030-43d1-4e28-8910-98020d91d500",
