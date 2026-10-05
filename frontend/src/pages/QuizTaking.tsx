@@ -236,7 +236,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           />
           {currentQuestion.image && (
             <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
-              <img src={import.meta.env.DEV ? `http://localhost:3001${currentQuestion.image}` : currentQuestion.image} alt="Question figure" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
+              <img src={currentQuestion.image} alt="Question figure" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
             </div>
           )}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0 }}>
