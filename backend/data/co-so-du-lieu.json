@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": "dc9d2ae7-8e4f-4458-ab6b-5cef2b398679",
-      "question": "<span style=\"color:red\">Cơ</span> <span style=\"color:red\">sở</span> dữ liệu là:",
+      "question": "<span style='color:red'>Cơ</span> <span style='color:red'>sở</span> dữ liệu là:",
       "answers": [
         {
           "id": "343e2241-7c16-4208-9c65-3f06d2aa39a1",
@@ -27,7 +27,7 @@
     },
     {
       "id": "1826f3db-1887-48c0-95ea-f613caa0c018",
-      "question": "<span style=\"color:red\">Tí</span>n<span style=\"color:red\">h</span> <span style=\"color:red\">d</span>ị <span style=\"color:red\">thường</span> <span style=\"color:red\">của</span> dữ liệu là:",
+      "question": "<span style='color:red'>Tí</span>n<span style='color:red'>h</span> <span style='color:red'>d</span>ị <span style='color:red'>thường</span> <span style='color:red'>của</span> dữ liệu là:",
       "answers": [
         {
           "id": "55b003ee-a0f0-4bd1-bc1e-aa3db6968eda",
@@ -73,7 +73,7 @@
     },
     {
       "id": "639479cb-bfd5-4816-898b-61b1f7303bf1",
-      "question": "Các thông tin của khách hàng đã có trong hệ thống khách hàng cuả một ngân hàng. Nay ngân hàng mở rộng thêm một số loại hình kinh doanh khác, phần mở rộng này <span style=\"color:red\">không</span> được tính đến trong hệ thống cũ vì vậy các thông tin của khách hàng trong hệ thống <span style=\"color:red\">cũ không </span>được cập nhật tự động sang hệ thống<span style=\"color:red\"> mới, nên hệ thống mới phải tự cập nhật</span> mới. Tình huống trên làm dữ liệu trong hệ thống ngân hàng<span style=\"color:red\"> bị:</span>",
+      "question": "Các thông tin của khách hàng đã có trong hệ thống khách hàng cuả một ngân hàng. Nay ngân hàng mở rộng thêm một số loại hình kinh doanh khác, phần mở rộng này <span style='color:red'>không</span> được tính đến trong hệ thống cũ vì vậy các thông tin của khách hàng trong hệ thống <span style='color:red'>cũ không </span>được cập nhật tự động sang hệ thống<span style='color:red'> mới, nên hệ thống mới phải tự cập nhật</span> mới. Tình huống trên làm dữ liệu trong hệ thống ngân hàng<span style='color:red'> bị:</span>",
       "answers": [
         {
           "id": "b82d97b0-c2d1-4eca-a81e-3cd6c01cff2b",
@@ -96,7 +96,7 @@
     },
     {
       "id": "917515a7-a6ad-40f4-bf86-58389ada956b",
-      "question": "Các thông tin của khách hàng đã có trong hệ thống khách hàng cuả một ngân hàng. Nay ngân hàng mở rộng thêm một số loại hình kinh doanh khác, phần mở rộng này <span style=\"color:red\">đã</span> được tính đến trong hệ thống cũ vì vậy các thông tin của khách hàng trong hệ thống được cập nhật tự động sang hệ thống mới. Tình huống trên làm dữ liệu trong hệ thống ngân hàng<span style=\"color:red\">?</span>",
+      "question": "Các thông tin của khách hàng đã có trong hệ thống khách hàng cuả một ngân hàng. Nay ngân hàng mở rộng thêm một số loại hình kinh doanh khác, phần mở rộng này <span style='color:red'>đã</span> được tính đến trong hệ thống cũ vì vậy các thông tin của khách hàng trong hệ thống được cập nhật tự động sang hệ thống mới. Tình huống trên làm dữ liệu trong hệ thống ngân hàng<span style='color:red'>?</span>",
       "answers": [
         {
           "id": "3b30b08b-c850-4cf7-bec9-68c598aea070",
@@ -142,7 +142,7 @@
     },
     {
       "id": "33652e6e-702c-49a8-8aaa-882021d8f71b",
-      "question": "<span style=\"color:red\">Các</span> <span style=\"color:red\">mức</span> <span style=\"color:red\">của mộ</span>t<span style=\"color:red\"> hệ</span> cơ sở dữ liệu là:",
+      "question": "<span style='color:red'>Các</span> <span style='color:red'>mức</span> <span style='color:red'>của mộ</span>t<span style='color:red'> hệ</span> cơ sở dữ liệu là:",
       "answers": [
         {
           "id": "079939fd-a0d8-4c4e-8296-6943eb743d04",
@@ -280,7 +280,7 @@
     },
     {
       "id": "4f6e4d8a-6cd5-4799-a56b-8f4a535b3d46",
-      "question": "<span style=\"color:red\">Hệ quản trị c</span>ơ sở dữ liệu là:",
+      "question": "<span style='color:red'>Hệ quản trị c</span>ơ sở dữ liệu là:",
       "answers": [
         {
           "id": "66d68cbe-ad14-416a-9257-31d2ce47305d",
@@ -303,7 +303,7 @@
     },
     {
       "id": "5fb15cda-4691-4df8-8c7c-3d014007d723",
-      "question": "Hệ <span style=\"color:red\">quả</span>n t<span style=\"color:red\">rị</span> CSDL <span style=\"color:red\">có</span> các chức năng:",
+      "question": "Hệ <span style='color:red'>quả</span>n t<span style='color:red'>rị</span> CSDL <span style='color:red'>có</span> các chức năng:",
       "answers": [
         {
           "id": "11d0c37e-c030-4228-bc1d-ee1713c75e09",
@@ -330,7 +330,7 @@
     },
     {
       "id": "398d7fed-9148-4af7-a044-17b84d296982",
-      "question": "<span style=\"color:red\">M</span>ô hình thực thể liên kết c<span style=\"color:red\">ó</span> <span style=\"color:red\">v</span>a<span style=\"color:red\">i</span> tr<span style=\"color:red\">ò</span> <span style=\"color:red\">gì tro</span>ng <span style=\"color:red\">việc</span> <span style=\"color:red\">thiết kế CSDL:</span>",
+      "question": "<span style='color:red'>M</span>ô hình thực thể liên kết c<span style='color:red'>ó</span> <span style='color:red'>v</span>a<span style='color:red'>i</span> tr<span style='color:red'>ò</span> <span style='color:red'>gì tro</span>ng <span style='color:red'>việc</span> <span style='color:red'>thiết kế CSDL:</span>",
       "answers": [
         {
           "id": "e847e6df-fc5e-4cbe-872e-103bb65c9290",
@@ -353,7 +353,7 @@
     },
     {
       "id": "1a5be6c2-c67f-4c6d-b694-073298bc3afe",
-      "question": "<span style=\"color:red\">Lược</span> <span style=\"color:red\">đồ</span> của CSDL là gì:",
+      "question": "<span style='color:red'>Lược</span> <span style='color:red'>đồ</span> của CSDL là gì:",
       "answers": [
         {
           "id": "039d40b7-e7cc-4e5e-9939-1801f17b06ba",
@@ -376,7 +376,7 @@
     },
     {
       "id": "c24e87ae-1189-4a99-8a08-7f5a80be4377",
-      "question": "<span style=\"color:red\">Kiểu</span> thực thể (Entity t<span style=\"color:red\">ype</span>) là:",
+      "question": "<span style='color:red'>Kiểu</span> thực thể (Entity t<span style='color:red'>ype</span>) là:",
       "answers": [
         {
           "id": "c3215fd5-196c-4363-9fb3-0a0c56ecabc4",
@@ -399,7 +399,7 @@
     },
     {
       "id": "a6cbc239-15d0-4848-bb35-ddc7890cab86",
-      "question": "Trong các thuộc tính của thực thể<span style=\"color:red\">,</span> th<span style=\"color:red\">ế</span> nào <span style=\"color:red\">l</span>à thuộc tính phức <span style=\"color:red\">hợ</span>p (comp<span style=\"color:red\">osit</span>e attribute):",
+      "question": "Trong các thuộc tính của thực thể<span style='color:red'>,</span> th<span style='color:red'>ế</span> nào <span style='color:red'>l</span>à thuộc tính phức <span style='color:red'>hợ</span>p (comp<span style='color:red'>osit</span>e attribute):",
       "answers": [
         {
           "id": "c3220614-42c3-43af-96ff-815ce85b860c",
@@ -430,7 +430,7 @@
     },
     {
       "id": "8e644484-e424-4723-9b28-a96392810e4d",
-      "question": "<span style=\"color:red\">Thể</span> <span style=\"color:red\">hiện</span> của CSDL là gì:",
+      "question": "<span style='color:red'>Thể</span> <span style='color:red'>hiện</span> của CSDL là gì:",
       "answers": [
         {
           "id": "1b10d744-3e09-4c82-b7fd-f34e5454439f",
@@ -480,7 +480,7 @@
     },
     {
       "id": "ecbe6f91-84f6-4505-ac4f-ccbe327d8760",
-      "question": "T<span style=\"color:red\">ập t</span>hực thể (Entity<span style=\"color:red\"> set</span>) là:",
+      "question": "T<span style='color:red'>ập t</span>hực thể (Entity<span style='color:red'> set</span>) là:",
       "answers": [
         {
           "id": "a096114e-c36d-440a-b75d-a1cdb8c751c8",
@@ -503,7 +503,7 @@
     },
     {
       "id": "6fd2e2b1-aa46-4ffe-a1cb-d04e3943cdcc",
-      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style=\"color:red\">Kiểu t</span>hực thể là:",
+      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style='color:red'>Kiểu t</span>hực thể là:",
       "answers": [
         {
           "id": "24a7b8f8-4628-4022-ae36-e3319456ec42",
@@ -526,7 +526,7 @@
     },
     {
       "id": "5593d7ac-c9a4-48e2-889a-6d5bcc4275c3",
-      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style=\"color:red\">T</span>hực thể là:",
+      "question": "Theo ví dụ sau: (1)NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. <span style='color:red'>T</span>hực thể là:",
       "answers": [
         {
           "id": "9df19d2a-c383-420b-b342-78c578d9b2fd",
@@ -549,7 +549,7 @@
     },
     {
       "id": "2151876b-105c-4d19-87fc-6b774d216f0b",
-      "question": "Trong các thuộc tính của thực thể<span style=\"color:red\"> có</span> th<span style=\"color:red\">ể lồng các thuộc tính</span> nào <span style=\"color:red\">v</span>à<span style=\"color:red\">o nhau để biểu diễn một</span> thuộc tính phức <span style=\"color:red\">tạ</span>p (comp<span style=\"color:red\">l</span>e<span style=\"color:red\">x</span> attribute):",
+      "question": "Trong các thuộc tính của thực thể<span style='color:red'> có</span> th<span style='color:red'>ể lồng các thuộc tính</span> nào <span style='color:red'>v</span>à<span style='color:red'>o nhau để biểu diễn một</span> thuộc tính phức <span style='color:red'>tạ</span>p (comp<span style='color:red'>l</span>e<span style='color:red'>x</span> attribute):",
       "answers": [
         {
           "id": "68340cf7-c6ad-4943-b530-c8b4a6e20003",
@@ -622,7 +622,7 @@
     },
     {
       "id": "4e991998-698d-4a70-b12c-aeff515b4865",
-      "question": "T<span style=\"color:red\">huộc tính định danh t</span>rong mô hình thực thể liên kết đ<span style=\"color:red\">ược</span> h<span style=\"color:red\">iểu</span> là:",
+      "question": "T<span style='color:red'>huộc tính định danh t</span>rong mô hình thực thể liên kết đ<span style='color:red'>ược</span> h<span style='color:red'>iểu</span> là:",
       "answers": [
         {
           "id": "203ad818-5572-4f68-8b19-7eb59281e263",
@@ -691,7 +691,7 @@
     },
     {
       "id": "08c20d61-5669-4c86-8f80-78543a4be961",
-      "question": "<span style=\"color:red\">P</span>h<span style=\"color:red\">ương</span> th<span style=\"color:red\">ức</span> được hiểu là:",
+      "question": "<span style='color:red'>P</span>h<span style='color:red'>ương</span> th<span style='color:red'>ức</span> được hiểu là:",
       "answers": [
         {
           "id": "58d2b4be-a923-4adb-a5d2-8f3865f4df7e",
@@ -783,7 +783,7 @@
     },
     {
       "id": "8405ca25-61a1-47e2-8d3d-6b141fd88cdb",
-      "question": "Tính <span style=\"color:red\">kế</span> <span style=\"color:red\">thừa</span> được hiểu là:",
+      "question": "Tính <span style='color:red'>kế</span> <span style='color:red'>thừa</span> được hiểu là:",
       "answers": [
         {
           "id": "6bb50546-95b6-43db-a62f-0645a44e91f4",
@@ -806,7 +806,7 @@
     },
     {
       "id": "c36db930-96e1-4914-929b-3203eb01025d",
-      "question": "Với phiếu giao hàng trên. Lớp <span style=\"color:red\">H</span>àng gồm <span style=\"color:red\">những</span> thuộc tính<span style=\"color:red\"> nào?.</span> (hình ảnh)",
+      "question": "Với phiếu giao hàng trên. Lớp <span style='color:red'>H</span>àng gồm <span style='color:red'>những</span> thuộc tính<span style='color:red'> nào?.</span> (hình ảnh)",
       "answers": [
         {
           "id": "8c18334b-f301-42f5-badc-2eb9c5042218",
@@ -829,7 +829,7 @@
     },
     {
       "id": "c82a4472-2d70-4a68-ad90-73834dd5f25a",
-      "question": "Với phiếu giao hàng trên. Lớp <span style=\"color:red\">Phiếu_giao_h</span>àng gồm <span style=\"color:red\">các</span> thuộc tính<span style=\"color:red\">:</span> (hình ảnh)",
+      "question": "Với phiếu giao hàng trên. Lớp <span style='color:red'>Phiếu_giao_h</span>àng gồm <span style='color:red'>các</span> thuộc tính<span style='color:red'>:</span> (hình ảnh)",
       "answers": [
         {
           "id": "22e2d635-1780-4a37-ae79-4a04bf4f0916",
@@ -925,7 +925,7 @@
     },
     {
       "id": "0207bf53-4c23-41a1-9b8f-b2f43dc9fd4a",
-      "question": "Trong lược đồ ER, phát biểu không đúng về thực thể <span style=\"color:red\">mạnh là</span>:",
+      "question": "Trong lược đồ ER, phát biểu không đúng về thực thể <span style='color:red'>mạnh là</span>:",
       "answers": [
         {
           "id": "864fb94b-0e48-40d9-9ec4-9b98ca8883a8",
@@ -948,7 +948,7 @@
     },
     {
       "id": "c0a2c69d-adb7-41ed-819d-57d790184064",
-      "question": "Trong lược đồ ER, phát biểu <span style=\"color:red\">khô</span>n<span style=\"color:red\">g</span> đúng về thực thể yếu:",
+      "question": "Trong lược đồ ER, phát biểu <span style='color:red'>khô</span>n<span style='color:red'>g</span> đúng về thực thể yếu:",
       "answers": [
         {
           "id": "9973b974-5c16-44ad-96a1-abc6296daa3c",
@@ -975,7 +975,7 @@
     },
     {
       "id": "8c8fbc3c-9648-418a-b7a2-a955fbd165b3",
-      "question": "Trong lược đồ ER, phát biểu n<span style=\"color:red\">ào</span> đúng về thực thể yếu:",
+      "question": "Trong lược đồ ER, phát biểu n<span style='color:red'>ào</span> đúng về thực thể yếu:",
       "answers": [
         {
           "id": "fabec50a-364b-47bf-919d-4aa6f0621c02",
@@ -1002,7 +1002,7 @@
     },
     {
       "id": "f86f633c-403e-4b5a-a199-06ff1470fb95",
-      "question": "<span style=\"color:red\">Mô</span> <span style=\"color:red\">hình</span> dữ liệu là:",
+      "question": "<span style='color:red'>Mô</span> <span style='color:red'>hình</span> dữ liệu là:",
       "answers": [
         {
           "id": "806f7095-e7a3-4e78-b7c8-be6f702d9648",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "c68f6ea9-0234-4e61-a01c-fba809960dbd",
-      "question": "Trong t<span style=\"color:red\">iêu chuẩ</span>n ODMG<span style=\"color:red\"> hỗ trợ</span> bộ sưu tập các đối tượng<span style=\"color:red\">,</span> <span style=\"color:red\">gồm</span>:",
+      "question": "Trong t<span style='color:red'>iêu chuẩ</span>n ODMG<span style='color:red'> hỗ trợ</span> bộ sưu tập các đối tượng<span style='color:red'>,</span> <span style='color:red'>gồm</span>:",
       "answers": [
         {
           "id": "b6769bb3-a7d8-4766-9abb-e784fd64cc1c",
@@ -1121,7 +1121,7 @@
     },
     {
       "id": "b975cc37-df45-43d1-8e0f-588fd6736908",
-      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng <span style=\"color:red\">Clas</span>s tương đương với: (hình ảnh)",
+      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng <span style='color:red'>Clas</span>s tương đương với: (hình ảnh)",
       "answers": [
         {
           "id": "b212ffdb-a9c8-4ec6-9981-768462fd3680",
@@ -1144,7 +1144,7 @@
     },
     {
       "id": "1a2f6e02-aeb7-4769-9b31-3ee558449988",
-      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng <span style=\"color:red\">ObjectIn</span>s<span style=\"color:red\">tance</span> tương đương với: (hình ảnh)",
+      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng <span style='color:red'>ObjectIn</span>s<span style='color:red'>tance</span> tương đương với: (hình ảnh)",
       "answers": [
         {
           "id": "c26dbca8-6750-40b8-90a8-99089c9a9c7e",
@@ -1167,7 +1167,7 @@
     },
     {
       "id": "24eea456-0b7f-4084-8b22-2e447f01c64c",
-      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng <span style=\"color:red\">Attribute</span>s tương đương với: (hình ảnh)",
+      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng <span style='color:red'>Attribute</span>s tương đương với: (hình ảnh)",
       "answers": [
         {
           "id": "03567446-0710-48bc-8d00-bf82be6254fa",
@@ -1190,7 +1190,7 @@
     },
     {
       "id": "06fc1c26-52ea-4fb5-a297-326674db1925",
-      "question": "<span style=\"color:red\">Có</span> <span style=\"color:red\">hai</span> <span style=\"color:red\">hướ</span>ng <span style=\"color:red\">phát</span> tr<span style=\"color:red\">iể</span>n<span style=\"color:red\"> thành</span> CSDL hướng đối tượng <span style=\"color:red\">đó</span> <span style=\"color:red\">là</span>: .",
+      "question": "<span style='color:red'>Có</span> <span style='color:red'>hai</span> <span style='color:red'>hướ</span>ng <span style='color:red'>phát</span> tr<span style='color:red'>iể</span>n<span style='color:red'> thành</span> CSDL hướng đối tượng <span style='color:red'>đó</span> <span style='color:red'>là</span>: .",
       "answers": [
         {
           "id": "6dfae4cb-5643-4bb0-b15f-01a87b231c3f",
@@ -1213,7 +1213,7 @@
     },
     {
       "id": "288dd57c-4df9-4c0d-a8b4-2b366966093c",
-      "question": "G<span style=\"color:red\">emtone</span> là một OODB được mở rộng theo hướng phát triển:<span style=\"color:red\"> .</span>",
+      "question": "G<span style='color:red'>emtone</span> là một OODB được mở rộng theo hướng phát triển:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "7ba76e9c-7ce4-4f22-a726-83d2597f1cee",
@@ -1236,7 +1236,7 @@
     },
     {
       "id": "a30f50f4-1592-4767-9bf2-2878582f1b31",
-      "question": "<span style=\"color:red\">IN</span>G<span style=\"color:red\">RES</span> là một OODB được mở rộng theo hướng phát triển <span style=\"color:red\">từ:</span>",
+      "question": "<span style='color:red'>IN</span>G<span style='color:red'>RES</span> là một OODB được mở rộng theo hướng phát triển <span style='color:red'>từ:</span>",
       "answers": [
         {
           "id": "d90fe030-43d1-4e28-8910-98020d91d500",
@@ -1259,7 +1259,7 @@
     },
     {
       "id": "0258c125-7d17-4252-9d84-cc51013f4996",
-      "question": "O<span style=\"color:red\">D</span>L là ngôn ngữ <span style=\"color:red\">đặc</span> <span style=\"color:red\">tả</span> đối tượng <span style=\"color:red\">phổ</span> <span style=\"color:red\">biế</span>n<span style=\"color:red\">, có đặc điểm</span>: .",
+      "question": "ODL là ngôn ngữ đặc tả đối tượng phổ biến, có đặc điểm: .",
       "answers": [
         {
           "id": "4e25f055-5e16-4abe-8d73-b3b9ab8d59db",
@@ -1317,7 +1317,7 @@
     },
     {
       "id": "46301853-9f41-4697-9ad8-1681fb0810ab",
-      "question": "OQL là ngôn ngữ truy vấn CSDL hướng đối tượng <span style=\"color:red\">đã được đề xuất</span> tr<span style=\"color:red\">o</span>n<span style=\"color:red\">g</span>:",
+      "question": "OQL là ngôn ngữ truy vấn CSDL hướng đối tượng đã được đề xuất trong:",
       "answers": [
         {
           "id": "5ab1855b-6c42-46c6-811a-322b3042beb3",
@@ -1340,7 +1340,7 @@
     },
     {
       "id": "8310c81d-4e5b-4fe4-ae0a-0a5f910f13d7",
-      "question": "<span style=\"color:red\">OQL là</span> n<span style=\"color:red\">gô</span>n n<span style=\"color:red\">gữ truy vấn CSDL</span> hướng đối tượng <span style=\"color:red\">dựa</span> <span style=\"color:red\">trên</span>: .",
+      "question": "<span style='color:red'>OQL</span> <span style='color:red'>là</span> ng<span style='color:red'>ôn</span> <span style='color:red'>ngữ</span> tr<span style='color:red'>uy</span> <span style='color:red'>vấ</span>n CSDL hướng đối tượng <span style='color:red'>dựa</span> <span style='color:red'>trên</span>: .",
       "answers": [
         {
           "id": "8046364b-949f-4af4-a604-fa532108cca7",
@@ -1413,7 +1413,7 @@
     },
     {
       "id": "49d8fc52-f5fe-429f-94e5-821f3b34aeaf",
-      "question": "Trong mô hình EER, khái niệm <span style=\"color:red\">ch</span>u<span style=\"color:red\">yên biệ</span>t hóa nghĩa là: .",
+      "question": "Trong mô hình EER, khái niệm <span style='color:red'>ch</span>u<span style='color:red'>yên biệ</span>t hóa nghĩa là: .",
       "answers": [
         {
           "id": "5d832942-f5d7-4d7e-b610-ce6f9429ec67",
@@ -1436,7 +1436,7 @@
     },
     {
       "id": "4ec968be-cae9-42b5-97bf-6a70f93db876",
-      "question": "Trong mô hình EER, <span style=\"color:red\">k</span>h<span style=\"color:red\">ái niệm</span> tổng quát hóa ngh<span style=\"color:red\">ĩa</span> <span style=\"color:red\">là</span>:<span style=\"color:red\"> .</span>",
+      "question": "Trong mô hình EER, khái niệm <span style='color:red'>tổ</span>n<span style='color:red'>g</span> <span style='color:red'>quá</span>t hóa nghĩa là: .",
       "answers": [
         {
           "id": "6d242dbf-8902-4b7b-8891-72de07e47ea3",
@@ -1459,7 +1459,7 @@
     },
     {
       "id": "191e1ee2-8358-4650-b83c-a85ab14758aa",
-      "question": "Trong mô hình EER, quá trình <span style=\"color:red\">tổ</span>n<span style=\"color:red\">g</span> <span style=\"color:red\">quá</span>t hóa dùng cách thiết kế:",
+      "question": "Trong mô hình EER, quá trình tổng quát hóa dùng cách thiết kế:",
       "answers": [
         {
           "id": "4578fccb-92f2-4661-bf5d-9b6e59a64bcd",
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "1a545ffb-52ef-4db3-ace1-5f99ae0969dc",
-      "question": "Trong mô hình EER, quá trình <span style=\"color:red\">ch</span>u<span style=\"color:red\">yên biệ</span>t hóa dùng cách thiết kế:",
+      "question": "Trong mô hình EER, <span style='color:red'>qu</span>á <span style='color:red'>trì</span>n<span style='color:red'>h</span> chuyên biệt hóa <span style='color:red'>dù</span>ng <span style='color:red'>cách</span> <span style='color:red'>thiết kế:</span>",
       "answers": [
         {
           "id": "14087ac2-3f75-4bda-b857-1acf0ce72b02",
@@ -1505,7 +1505,7 @@
     },
     {
       "id": "4949b685-73be-422f-afad-7dde0ab155b0",
-      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style=\"color:red\">dẫn</span> <span style=\"color:red\">xuấ</span>t ta d<span style=\"color:red\">ù</span>ng <span style=\"color:red\">ký hiệu:</span>",
+      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style='color:red'>dẫn</span> <span style='color:red'>xuấ</span>t ta d<span style='color:red'>ù</span>ng <span style='color:red'>ký hiệu:</span>",
       "answers": [
         {
           "id": "c5ca2d59-2395-4601-8a15-873ab0a244bf",
@@ -1528,7 +1528,7 @@
     },
     {
       "id": "d7333487-4dc5-4d5c-946a-5c708399e1c4",
-      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style=\"color:red\">đa</span> t<span style=\"color:red\">rị</span> ta <span style=\"color:red\">sử </span>d<span style=\"color:red\">ụ</span>ng:<span style=\"color:red\"> .</span>",
+      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style='color:red'>đa</span> t<span style='color:red'>rị</span> ta <span style='color:red'>sử </span>d<span style='color:red'>ụ</span>ng:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "9c590c12-1f69-49ad-9f59-c75825879a94",
@@ -1551,7 +1551,7 @@
     },
     {
       "id": "c321c82d-0f7a-4723-a1bd-1838ba2389e4",
-      "question": "Chọn phương án ứng với thuộc tính <span style=\"color:red\">đa</span> <span style=\"color:red\">trị</span> :",
+      "question": "Chọn phương án ứng với thuộc tính <span style='color:red'>đa</span> <span style='color:red'>trị</span> :",
       "answers": [
         {
           "id": "622f3ba0-102b-4ef6-9499-b9a2c99fe0a5",
@@ -1574,7 +1574,7 @@
     },
     {
       "id": "93d52faf-1527-4410-a38f-ca8d2094bd7f",
-      "question": "Chọn phương án ứng với thuộc tính <span style=\"color:red\">phức</span> <span style=\"color:red\">hợp</span> :",
+      "question": "Chọn phương án ứng với thuộc tính <span style='color:red'>phức</span> <span style='color:red'>hợp</span> :",
       "answers": [
         {
           "id": "21b2ff90-b303-436e-8aeb-1236ccbc54a6",
@@ -1597,7 +1597,7 @@
     },
     {
       "id": "a62cc73a-ccf9-462c-941f-ee4765e61db9",
-      "question": "<span style=\"color:red\">M</span>ỗi một thực thể<span style=\"color:red\"> chuyển</span> thành một quan hệ. Là một bước trong việc chuyển đổi:",
+      "question": "<span style='color:red'>M</span>ỗi một thực thể<span style='color:red'> chuyển</span> thành một quan hệ. Là một bước trong việc chuyển đổi:",
       "answers": [
         {
           "id": "a87a0a0d-e8c1-4ef4-abe2-a13aa08822c5",
@@ -1620,7 +1620,7 @@
     },
     {
       "id": "73ec8755-354d-4ef6-bb61-d68085d9359f",
-      "question": "<span style=\"color:red\">Khi</span> chuyển đổi mô hình ER sang mô hình quan hệ, ta thực hiện. Chọn đáp án đúng nhất:",
+      "question": "<span style='color:red'>Khi</span> chuyển đổi mô hình ER sang mô hình quan hệ, ta thực hiện. Chọn đáp án đúng nhất:",
       "answers": [
         {
           "id": "72ac0d04-6808-4ed0-a3c0-05d8edc171b1",
@@ -1643,7 +1643,7 @@
     },
     {
       "id": "43dc4d33-5f82-4784-b150-99390e642f33",
-      "question": "<span style=\"color:red\">Trong</span> chuyển đổi mô hình ER sang mô hình quan hệ, ta thực hiện. Chọn đáp án đúng nhất:<span style=\"color:red\"> .</span>",
+      "question": "<span style='color:red'>Trong</span> chuyển đổi mô hình ER sang mô hình quan hệ, ta thực hiện. Chọn đáp án đúng nhất:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "69cc3d7e-42a5-4eec-a230-ef32f32bbf84",
@@ -1666,7 +1666,7 @@
     },
     {
       "id": "4dcbe741-c03d-4a2d-81f2-0977935ad857",
-      "question": "<span style=\"color:red\">Mô hình ER (h</span>ình trên<span style=\"color:red\">) có mấy</span> mối quan hệ <span style=\"color:red\">sở</span> h<span style=\"color:red\">ữu, phụ</span> thuộc: (hình ảnh)",
+      "question": "<span style='color:red'>Mô hình ER (h</span>ình trên<span style='color:red'>) có mấy</span> mối quan hệ <span style='color:red'>sở</span> h<span style='color:red'>ữu, phụ</span> thuộc: (hình ảnh)",
       "answers": [
         {
           "id": "7b968f79-5ab1-4314-ac7b-760a60eed01f",
@@ -1689,7 +1689,7 @@
     },
     {
       "id": "00f93a56-b66d-4ead-87b3-6148543a9218",
-      "question": "Trong <span style=\"color:red\">mô</span> <span style=\"color:red\">hình</span> ER trên<span style=\"color:red\">.</span> <span style=\"color:red\">T</span>huộc tính nào là phức<span style=\"color:red\"> hợp:</span> (hình ảnh)",
+      "question": "Trong <span style='color:red'>mô</span> <span style='color:red'>hình</span> ER trên<span style='color:red'>.</span> <span style='color:red'>T</span>huộc tính nào là phức<span style='color:red'> hợp:</span> (hình ảnh)",
       "answers": [
         {
           "id": "89e803aa-6ab0-42e5-aeae-f5a97de64290",
@@ -1712,7 +1712,7 @@
     },
     {
       "id": "7612565c-7cae-40eb-886b-d6b450455db4",
-      "question": "Để chuyển đổi thuộc tính <span style=\"color:red\">đa</span> tr<span style=\"color:red\">ị từ</span> mô hình ER sang mô hình hướng đối tượng ta thực hiện: .",
+      "question": "Để chuyển đổi thuộc tính <span style='color:red'>đa</span> tr<span style='color:red'>ị từ</span> mô hình ER sang mô hình hướng đối tượng ta thực hiện: .",
       "answers": [
         {
           "id": "f8b13dfc-e436-47c5-8316-d93c54b6272f",
@@ -1735,7 +1735,7 @@
     },
     {
       "id": "2d495c5d-5847-42b1-bc20-109499225f32",
-      "question": "Để chuyển đổi thuộc tính <span style=\"color:red\">phức hợp</span> tr<span style=\"color:red\">ong</span> mô hình ER sang mô hình hướng đối tượng<span style=\"color:red\">,</span> ta thực hiện: .",
+      "question": "Để chuyển đổi thuộc tính <span style='color:red'>phức hợp</span> tr<span style='color:red'>ong</span> mô hình ER sang mô hình hướng đối tượng<span style='color:red'>,</span> ta thực hiện: .",
       "answers": [
         {
           "id": "73273289-dda0-4471-94d3-10f29b8687d1",
@@ -1758,7 +1758,7 @@
     },
     {
       "id": "ae94b6a7-8228-4c7a-91bd-afea5b48b98f",
-      "question": "<span style=\"color:red\">Chuyển đổi m</span>ỗi<span style=\"color:red\"> một thuộc tính đa trị của</span> một thực thể thành một quan hệ<span style=\"color:red\"> mới </span>. Là một bước trong việc chuyển đổi:<span style=\"color:red\"> .</span>",
+      "question": "<span style='color:red'>Chuyển đổi m</span>ỗi<span style='color:red'> một thuộc tính đa trị của</span> một thực thể thành một quan hệ<span style='color:red'> mới </span>. Là một bước trong việc chuyển đổi:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "36062f26-4887-4da8-ba2d-c34ba2348054",
@@ -1781,7 +1781,7 @@
     },
     {
       "id": "573af0b3-e6e8-4e8f-b043-2ad2a18faa84",
-      "question": "Chuyển đổi từ mô hình ER sang mô hình <span style=\"color:red\">Q</span>uan hệ ta được <span style=\"color:red\">các</span> quan hệ: (hình ảnh)",
+      "question": "Chuyển đổi từ mô hình ER sang mô hình <span style='color:red'>Q</span>uan hệ ta được <span style='color:red'>các</span> quan hệ: (hình ảnh)",
       "answers": [
         {
           "id": "539cce75-0f20-4d75-a8aa-11ac7114ffa5",
@@ -1804,7 +1804,7 @@
     },
     {
       "id": "0abf28b4-0a9b-4435-943f-094c110a74b4",
-      "question": "Chuyển đổi từ mô hình ER sang mô hình qu<span style=\"color:red\">an</span> <span style=\"color:red\">hệ . Việ</span>c chuyển đổi<span style=\"color:red\"> mối liên kết là chuyển đổi mối liên kết</span>: .",
+      "question": "<span style='color:red'>C</span>huyển đổi<span style='color:red'> từ</span> mô hình ER sang mô hình quan hệ . <span style='color:red'>Việc c</span>h<span style='color:red'>uyể</span>n đ<span style='color:red'>ổi</span> <span style='color:red'>mối liên kết là chuyể</span>n đ<span style='color:red'>ổi</span> <span style='color:red'>mối liê</span>n<span style='color:red'> kế</span>t: .",
       "answers": [
         {
           "id": "52c95b0f-6223-4f23-8a3e-f8bf9837d872",
@@ -1827,7 +1827,7 @@
     },
     {
       "id": "c34e5c94-cdad-4bfb-8754-0f539f22bdf4",
-      "question": "<span style=\"color:red\">H</span>ình trên mối quan hệ <span style=\"color:red\">nào</span> <span style=\"color:red\">c</span>h<span style=\"color:red\">ứa</span> thuộc<span style=\"color:red\"> tính riêng của quan hệ</span>: (hình ảnh)",
+      "question": "<span style='color:red'>H</span>ình trên mối quan hệ <span style='color:red'>nào</span> <span style='color:red'>c</span>h<span style='color:red'>ứa</span> thuộc<span style='color:red'> tính riêng của quan hệ</span>: (hình ảnh)",
       "answers": [
         {
           "id": "bad7545d-0817-4c61-a21c-a2467e64283a",
@@ -1850,7 +1850,7 @@
     },
     {
       "id": "23d6b6c3-fbed-49f5-b9ee-927bbc6b6076",
-      "question": "<span style=\"color:red\">Hình trên, khi c</span>huyển đổi từ mô hình ER sang mô hình quan hệ<span style=\"color:red\">,</span> các mối quan hệ nào sẽ được chuyển đổi <span style=\"color:red\">bằng các</span>h<span style=\"color:red\"> lấy khoá chí</span>nh <span style=\"color:red\">của</span> quan hệ <span style=\"color:red\">này</span> <span style=\"color:red\">đưa vào quan hệ kia làm khoá liên kết ?</span>. (hình ảnh)",
+      "question": "<span style='color:red'>Hình trên, khi c</span>huyển đổi từ mô hình ER sang mô hình quan hệ<span style='color:red'>,</span> các mối quan hệ nào sẽ được chuyển đổi <span style='color:red'>bằng các</span>h<span style='color:red'> lấy khoá chí</span>nh <span style='color:red'>của</span> quan hệ <span style='color:red'>này</span> <span style='color:red'>đưa vào quan hệ kia làm khoá liên kết ?</span>. (hình ảnh)",
       "answers": [
         {
           "id": "97706d6c-3f0a-45c5-8fbc-18e3f143f226",
@@ -1919,7 +1919,7 @@
     },
     {
       "id": "cb2e0abf-34c9-4973-a258-fde0def62985",
-      "question": "Trong lược đồ ER Công Ty trên cho biết thuộc tính nào là thuộc tính <span style=\"color:red\">đa trị</span>? (hình ảnh)",
+      "question": "Trong lược đồ ER Công Ty trên cho biết thuộc tính nào là thuộc tính <span style='color:red'>đa trị</span>? (hình ảnh)",
       "answers": [
         {
           "id": "0e034f25-744c-4acf-be84-2808d6b35d2c",
@@ -1942,7 +1942,7 @@
     },
     {
       "id": "566f7a3a-c000-416c-a9c5-c92ea98e7b47",
-      "question": "Trong lược đồ ER Công Ty trên cho biết thuộc tính nào là thuộc tính <span style=\"color:red\">phức</span>? (hình ảnh)",
+      "question": "Trong lược đồ ER Công Ty trên cho biết thuộc tính nào là thuộc tính <span style='color:red'>phức</span>? (hình ảnh)",
       "answers": [
         {
           "id": "0d011c1b-3f7f-4c15-8849-8c874b408c92",
@@ -1965,7 +1965,7 @@
     },
     {
       "id": "95d18c0f-9dca-4d21-ae94-7bea15aa69eb",
-      "question": "Trong lược đồ ER Công Ty trên cho biết <span style=\"color:red\">q</span>u<span style=\"color:red\">a</span>n h<span style=\"color:red\">ệ</span> nào là <span style=\"color:red\">q</span>u<span style=\"color:red\">an hệ</span> tha<span style=\"color:red\">m gia vào 3 mối liên kết</span> tr<span style=\"color:red\">ở lên</span>?<span style=\"color:red\">.</span> (hình ảnh)",
+      "question": "<span style='color:red'>Tr</span>o<span style='color:red'>ng</span> lược đồ ER <span style='color:red'>Công Ty </span>trên ch<span style='color:red'>o</span> <span style='color:red'>b</span>i<span style='color:red'>ết</span> <span style='color:red'>qu</span>an h<span style='color:red'>ệ </span>n<span style='color:red'>ào là</span> quan hệ t<span style='color:red'>ham gi</span>a <span style='color:red'>vào</span> <span style='color:red'>3</span> <span style='color:red'>mối liê</span>n <span style='color:red'>kết</span> <span style='color:red'>trở</span> <span style='color:red'>lên?</span>. (hình ảnh)",
       "answers": [
         {
           "id": "418c7184-72db-4626-9e11-38aacaa5b1d0",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "80aef0ef-493d-4184-88e3-aaaa671828e2",
-      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ <span style=\"color:red\">n</span>h<span style=\"color:red\">ất</span> ta được quan hệ Nhân viên (Mã số, Họ đệm, Tên, Ngày sinh, Giới tính, L<span style=\"color:red\">ư</span>ơng, Địa chỉ). Nếu <span style=\"color:red\">t</span>h<span style=\"color:red\">ực</span> t<span style=\"color:red\">iếp b</span>ư<span style=\"color:red\">ớc</span> th<span style=\"color:red\">ứ hai ta được</span> quan hệ <span style=\"color:red\">N</span>hân viên gồm các thuộc tính <span style=\"color:red\">sau:</span> (hình ảnh)",
+      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ <span style='color:red'>n</span>h<span style='color:red'>ất</span> ta được quan hệ Nhân viên (Mã số, Họ đệm, Tên, Ngày sinh, Giới tính, L<span style='color:red'>ư</span>ơng, Địa chỉ). Nếu <span style='color:red'>t</span>h<span style='color:red'>ực</span> t<span style='color:red'>iếp b</span>ư<span style='color:red'>ớc</span> th<span style='color:red'>ứ hai ta được</span> quan hệ <span style='color:red'>N</span>hân viên gồm các thuộc tính <span style='color:red'>sau:</span> (hình ảnh)",
       "answers": [
         {
           "id": "8159bb3b-6417-4821-a7ac-1608111267ae",
@@ -2011,7 +2011,7 @@
     },
     {
       "id": "445643ac-4a00-48b6-92e2-7ce54b0a7e9a",
-      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ hai ta được quan hệ <span style=\"color:red\">Nhâ</span>n v<span style=\"color:red\">iên</span> (Mã số, <span style=\"color:red\">Họ đệm, </span>Tên<span style=\"color:red\">, Ngày sinh, Giới tính, Lơng</span>, Địa <span style=\"color:red\">chỉ</span>). Nếu ch<span style=\"color:red\">uyể</span>n <span style=\"color:red\">đổ</span>i <span style=\"color:red\">sang mô hình h</span>ướ<span style=\"color:red\">ng đối tượng</span> th<span style=\"color:red\">ì</span> quan hệ <span style=\"color:red\">nhâ</span>n v<span style=\"color:red\">iên</span> gồm các thuộc tính: . (hình ảnh)",
+      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ hai ta được quan hệ <span style='color:red'>Nhâ</span>n v<span style='color:red'>iên</span> (Mã số, <span style='color:red'>Họ đệm, </span>Tên<span style='color:red'>, Ngày sinh, Giới tính, Lơng</span>, Địa <span style='color:red'>chỉ</span>). Nếu ch<span style='color:red'>uyể</span>n <span style='color:red'>đổ</span>i <span style='color:red'>sang mô hình h</span>ướ<span style='color:red'>ng đối tượng</span> th<span style='color:red'>ì</span> quan hệ <span style='color:red'>nhâ</span>n v<span style='color:red'>iên</span> gồm các thuộc tính: . (hình ảnh)",
       "answers": [
         {
           "id": "f6abdc07-94a1-43f2-9352-6d6370951b6b",
@@ -2034,7 +2034,7 @@
     },
     {
       "id": "affdb488-e895-4be8-b5c7-6dc14d51839a",
-      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ<span style=\"color:red\">.</span> <span style=\"color:red\">Để</span> ch<span style=\"color:red\">uyể</span>n đ<span style=\"color:red\">ối mối quan hệ làm việ</span>c<span style=\"color:red\"> cho đối với</span> quan hệ Nhân viên (Mã số, Họ đệm, Tên, Ngày sinh, Giới tính, Lương, Địa chỉ<span style=\"color:red\">, Người giám sát</span>). <span style=\"color:red\">T</span>a được quan hệ Nhân viên <span style=\"color:red\">mới </span>gồm thuộc tính :<span style=\"color:red\"> .</span> (hình ảnh)",
+      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ<span style='color:red'>.</span> <span style='color:red'>Để</span> ch<span style='color:red'>uyể</span>n đ<span style='color:red'>ối mối quan hệ làm việ</span>c<span style='color:red'> cho đối với</span> quan hệ Nhân viên (Mã số, Họ đệm, Tên, Ngày sinh, Giới tính, Lương, Địa chỉ<span style='color:red'>, Người giám sát</span>). <span style='color:red'>T</span>a được quan hệ Nhân viên <span style='color:red'>mới </span>gồm thuộc tính :<span style='color:red'> .</span> (hình ảnh)",
       "answers": [
         {
           "id": "b3222ed2-804a-4e9e-b74c-8fa568da51e7",
@@ -2057,7 +2057,7 @@
     },
     {
       "id": "bb17508f-6897-4435-ae81-a47781869f3b",
-      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ<span style=\"color:red\">.</span> <span style=\"color:red\">Để</span> ch<span style=\"color:red\">uyển đổi</span> hai <span style=\"color:red\">mối</span> <span style=\"color:red\">liên kết là Kiêm và làm việ</span>c<span style=\"color:red\"> cho của</span> quan hệ <span style=\"color:red\">Dự</span> <span style=\"color:red\">án</span> (Mã số, Tên, Địa điểm)<span style=\"color:red\">,</span> ta được quan hệ <span style=\"color:red\">Dự</span> <span style=\"color:red\">án</span> gồm các thuộc tính sau: . (hình ảnh)",
+      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ<span style='color:red'>.</span> <span style='color:red'>Để</span> ch<span style='color:red'>uyển đổi</span> hai <span style='color:red'>mối</span> <span style='color:red'>liên kết là Kiêm và làm việ</span>c<span style='color:red'> cho của</span> quan hệ <span style='color:red'>Dự</span> <span style='color:red'>án</span> (Mã số, Tên, Địa điểm)<span style='color:red'>,</span> ta được quan hệ <span style='color:red'>Dự</span> <span style='color:red'>án</span> gồm các thuộc tính sau: . (hình ảnh)",
       "answers": [
         {
           "id": "9c3131c9-cf3b-436f-8390-5a86340279de",
@@ -2080,7 +2080,7 @@
     },
     {
       "id": "8a030b52-0849-4b99-b08c-a50033b2adb9",
-      "question": "<span style=\"color:red\">K</span>hi chuyển đổi từ mô hình ER sang mô hình quan hệ <span style=\"color:red\">.</span> <span style=\"color:red\">Để</span> chuyển đổi <span style=\"color:red\">mô</span>í quan hệ <span style=\"color:red\">Kiêm</span> đ<span style=\"color:red\">ối</span> v<span style=\"color:red\">ới</span> quan hệ <span style=\"color:red\">Đơnv</span>i <span style=\"color:red\">(Mã</span> <span style=\"color:red\">số,</span> <span style=\"color:red\">T</span>ên<span style=\"color:red\">,</span> <span style=\"color:red\">Địa</span> <span style=\"color:red\">điểm) ta được quan hệ Đơn vị mới gồm các thuộc tính sau: </span>. (hình ảnh)",
+      "question": "<span style='color:red'>K</span>hi chuyển đổi từ mô hình ER sang mô hình quan hệ <span style='color:red'>.</span> <span style='color:red'>Để</span> chuyển đổi <span style='color:red'>mô</span>í quan hệ <span style='color:red'>Kiêm</span> đ<span style='color:red'>ối</span> v<span style='color:red'>ới</span> quan hệ <span style='color:red'>Đơnv</span>i <span style='color:red'>(Mã</span> <span style='color:red'>số,</span> <span style='color:red'>T</span>ên<span style='color:red'>,</span> <span style='color:red'>Địa</span> <span style='color:red'>điểm) ta được quan hệ Đơn vị mới gồm các thuộc tính sau: </span>. (hình ảnh)",
       "answers": [
         {
           "id": "db4a016a-a353-46e9-8208-ded6b02bfb05",
@@ -2103,7 +2103,7 @@
     },
     {
       "id": "59b8f214-c222-4687-9c0c-7051614009c7",
-      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ <span style=\"color:red\">h</span>a<span style=\"color:red\">i</span> ta được quan hệ Đơn vị (Mã số, Tên, Địa điểm). Nếu thực hiện tiếp bước thứ <span style=\"color:red\">ba</span> ta được quan hệ Đơn vị gồm các thuộc tính sau: . (hình ảnh)",
+      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ <span style='color:red'>h</span>a<span style='color:red'>i</span> ta được quan hệ Đơn vị (Mã số, Tên, Địa điểm). Nếu thực hiện tiếp bước thứ <span style='color:red'>ba</span> ta được quan hệ Đơn vị gồm các thuộc tính sau: . (hình ảnh)",
       "answers": [
         {
           "id": "77c69b44-4452-41f2-9fd2-d7c1d263847c",
@@ -2126,7 +2126,7 @@
     },
     {
       "id": "f3173b4c-f023-4197-a269-d847c4cf0dcf",
-      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ <span style=\"color:red\">b</span>a ta được quan hệ Đơn vị (Mã số, Tên, Địa điểm<span style=\"color:red\">, Ngời quản lý</span>). Nếu thực hiện tiếp bước thứ <span style=\"color:red\">tư</span> ta được quan hệ Đơn vị gồm các thuộc tính sau: . (hình ảnh)",
+      "question": "Khi chuyển đổi từ mô hình ER sang mô hình quan hệ tại bước thứ <span style='color:red'>b</span>a ta được quan hệ Đơn vị (Mã số, Tên, Địa điểm<span style='color:red'>, Ngời quản lý</span>). Nếu thực hiện tiếp bước thứ <span style='color:red'>tư</span> ta được quan hệ Đơn vị gồm các thuộc tính sau: . (hình ảnh)",
       "answers": [
         {
           "id": "72df07d6-1c25-4566-b5be-0b34d9bafdd7",
@@ -2149,7 +2149,7 @@
     },
     {
       "id": "6e77ec5c-c96c-4f9d-a2c2-32a3581246a6",
-      "question": "Trong mô hình thực thể liên kết, thuộc tính đ<span style=\"color:red\">ơn</span> nghĩa là: .",
+      "question": "Trong mô hình thực thể liên kết<span style='color:red'>,</span> <span style='color:red'>thuộ</span>c <span style='color:red'>tín</span>h<span style='color:red'> đơn nghĩa</span> là:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "26eca9bc-d09e-4dd6-a692-61877eda8362",
@@ -2172,7 +2172,7 @@
     },
     {
       "id": "e279907d-effa-4b12-b642-f0d53dab4949",
-      "question": "Trong mô hình thực thể liên kết<span style=\"color:red\">,</span> thuộc tính <span style=\"color:red\">phức</span> <span style=\"color:red\">hợp</span> ng<span style=\"color:red\">hĩa là</span>: .",
+      "question": "Trong <span style='color:red'>mô</span> h<span style='color:red'>ì</span>nh thực thể l<span style='color:red'>iên kết,</span> thuộc tính phức hợp <span style='color:red'>nghĩ</span>a<span style='color:red'> là</span>:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "8aaa8502-cde3-4a48-b063-1b6369f26628",
@@ -2195,7 +2195,7 @@
     },
     {
       "id": "f410792b-8742-439a-8314-f63120c2ea74",
-      "question": "Trong mô hình thực thể liên kết, thuộc tính đ<span style=\"color:red\">a trị</span> nghĩa là: .",
+      "question": "<span style='color:red'>Trong m</span>ô hình thực thể liên kết<span style='color:red'>,</span> th<span style='color:red'>uộc</span> <span style='color:red'>tính</span> <span style='color:red'>đa trị nghĩa là</span>:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "21f971f0-0004-4912-a689-717e8ea1ca23",
@@ -2218,7 +2218,7 @@
     },
     {
       "id": "239e1396-8926-456e-98f6-bc028b529015",
-      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy ch<span style=\"color:red\">o</span> <span style=\"color:red\">biết</span> <span style=\"color:red\">các</span> <span style=\"color:red\">kiểu</span> <span style=\"color:red\">t</span>h<span style=\"color:red\">ực thể có</span> trong bài toán trên?.",
+      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy ch<span style='color:red'>o</span> <span style='color:red'>biết</span> <span style='color:red'>các</span> <span style='color:red'>kiểu</span> <span style='color:red'>t</span>h<span style='color:red'>ực thể có</span> trong bài toán trên?.",
       "answers": [
         {
           "id": "a79978e7-f434-4ef3-afa9-2f51e4503c78",
@@ -2241,7 +2241,7 @@
     },
     {
       "id": "c41c5256-3bbe-4ef8-914b-34ec944ab1d9",
-      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy ch<span style=\"color:red\">o</span> <span style=\"color:red\">biết các mối</span> quan hệ có t<span style=\"color:red\">ro</span>n<span style=\"color:red\">g</span> <span style=\"color:red\">bà</span>i <span style=\"color:red\">toán trên</span>?.",
+      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy cho biết các mối quan hệ có trong bài toán trên?.",
       "answers": [
         {
           "id": "151ffd20-9fda-469e-82e2-5d36572e47fb",
@@ -2264,7 +2264,7 @@
     },
     {
       "id": "d841baca-9b85-4075-918a-0bab3cbc7be0",
-      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy ch<span style=\"color:red\">ỉ</span> <span style=\"color:red\">ra</span> quan hệ có t<span style=\"color:red\">huộc</span> t<span style=\"color:red\">í</span>n<span style=\"color:red\">h</span> <span style=\"color:red\">đi kèm</span>?.",
+      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy chỉ ra quan hệ <span style='color:red'>có</span> t<span style='color:red'>huộc</span> t<span style='color:red'>í</span>n<span style='color:red'>h</span> <span style='color:red'>đi kèm</span>?.",
       "answers": [
         {
           "id": "4921c9df-63d9-4378-8387-b90cbf5037f7",
@@ -2287,7 +2287,7 @@
     },
     {
       "id": "d68cc22b-63b0-40f0-9d54-23b31d377b97",
-      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy ch<span style=\"color:red\">ỉ</span> <span style=\"color:red\">ra</span> <span style=\"color:red\">q</span>u<span style=\"color:red\">an</span> h<span style=\"color:red\">ệ</span> <span style=\"color:red\">n</span> <span style=\"color:red\">phân</span> trong bài toán trên?.",
+      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy ch<span style='color:red'>ỉ</span> <span style='color:red'>ra</span> <span style='color:red'>q</span>u<span style='color:red'>an</span> h<span style='color:red'>ệ</span> <span style='color:red'>n</span> <span style='color:red'>phân</span> trong bài toán trên?.",
       "answers": [
         {
           "id": "32f128ee-eb93-4803-857b-64032b97c304",
@@ -2310,7 +2310,7 @@
     },
     {
       "id": "aa11f4ba-e277-4718-b252-3998a92aac09",
-      "question": "Trong mô hình đối tượng<span style=\"color:red\"> ODMG bộ</span> s<span style=\"color:red\">ưu</span> t<span style=\"color:red\">ập</span> các đối tượng <span style=\"color:red\">là</span>: .",
+      "question": "Trong <span style='color:red'>mô</span> h<span style='color:red'>ì</span>n<span style='color:red'>h đối tượng</span> ODMG bộ sưu tập các đối tượng <span style='color:red'>là</span>:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "548637ec-25a9-47a3-8814-e0f0c27fd51b",
@@ -2337,7 +2337,7 @@
     },
     {
       "id": "79e0d86a-58cc-440f-a548-35f4a8a266a2",
-      "question": "T<span style=\"color:red\">huộc tính đa trị t</span>rong lược đồ hướng đối tượng được <span style=\"color:red\">xác</span> đ<span style=\"color:red\">ị</span>nh <span style=\"color:red\">với</span> <span style=\"color:red\">từ</span> <span style=\"color:red\">khóa</span>:",
+      "question": "T<span style='color:red'>huộc tính đa trị t</span>rong lược đồ hướng đối tượng được <span style='color:red'>xác</span> đ<span style='color:red'>ị</span>nh <span style='color:red'>với</span> <span style='color:red'>từ</span> <span style='color:red'>khóa</span>:",
       "answers": [
         {
           "id": "c29d3db7-4a22-448e-81bf-d78df6470b5b",
@@ -2360,7 +2360,7 @@
     },
     {
       "id": "2fd7a374-7102-468e-8aa6-da595231833f",
-      "question": "Từ khóa <span style=\"color:red\">Se</span>t chỉ ra rằng bộ các đối tượng yêu cầu: .",
+      "question": "Từ khóa <span style='color:red'>Se</span>t chỉ ra rằng bộ các đối tượng yêu cầu: .",
       "answers": [
         {
           "id": "8314751d-20b5-4b5e-8749-fbf1491d4850",
@@ -2387,7 +2387,7 @@
     },
     {
       "id": "7cbfaf93-11ac-44a0-a330-9f0d41d0281d",
-      "question": "Từ khóa <span style=\"color:red\">B</span>a<span style=\"color:red\">g</span> chỉ ra rằng bộ các đối tượng yêu cầu: .",
+      "question": "Từ khóa <span style='color:red'>B</span>a<span style='color:red'>g</span> chỉ ra rằng bộ các đối tượng yêu cầu: .",
       "answers": [
         {
           "id": "9f90989d-ed5c-46d4-9ca8-1e0258c8fffa",
@@ -2414,7 +2414,7 @@
     },
     {
       "id": "dd633449-de9e-41d2-b805-d1cc622c73f3",
-      "question": "Từ khóa <span style=\"color:red\">Lis</span>t chỉ ra rằng bộ các đối tượng yêu cầu: .",
+      "question": "Từ khóa <span style='color:red'>Lis</span>t chỉ ra rằng bộ các đối tượng yêu cầu: .",
       "answers": [
         {
           "id": "fcbd6576-d6e7-42dd-97be-362b5adbc60a",
@@ -2441,7 +2441,7 @@
     },
     {
       "id": "ff915a93-d4f3-4934-8f80-9cee882409d9",
-      "question": "Từ khóa <span style=\"color:red\">Arr</span>a<span style=\"color:red\">y</span> chỉ ra rằng bộ các đối tượng yêu cầu: .",
+      "question": "Từ khóa <span style='color:red'>Arr</span>a<span style='color:red'>y</span> chỉ ra rằng bộ các đối tượng yêu cầu: .",
       "answers": [
         {
           "id": "62743595-f29d-445a-ac54-f09535b48272",
@@ -2468,7 +2468,7 @@
     },
     {
       "id": "98005b38-db74-4798-9323-64da912c2f67",
-      "question": "<span style=\"color:red\">C</span>huyển đổi từ mô hình ER sang mô hình hướng đối tượng <span style=\"color:red\">gồm</span> <span style=\"color:red\">mấy quy tắc chuyển đổi</span>: .",
+      "question": "<span style='color:red'>C</span>huyển đổi từ mô hình ER sang mô hình hướng đối tượng <span style='color:red'>gồm</span> <span style='color:red'>mấy quy tắc chuyển đổi</span>: .",
       "answers": [
         {
           "id": "9c50f801-c06e-4d12-8e7d-a2fcc6c6a6b7",
@@ -2491,7 +2491,7 @@
     },
     {
       "id": "20aa83cf-6ad0-4575-b56a-c191b26ae517",
-      "question": "<span style=\"color:red\">Q</span>uy tắc chuyển đổi thứ nhất từ mô hình ER sang mô hình hớng đối tượng là : .",
+      "question": "Quy tắc chuyển đổi thứ <span style='color:red'>n</span>h<span style='color:red'>ất</span> từ mô hình ER sang mô hình hớng đối tượng là : .",
       "answers": [
         {
           "id": "3f10ac14-4c8e-4481-a883-459c2b0b9b45",
@@ -2537,7 +2537,7 @@
     },
     {
       "id": "aababcd0-58a2-469d-931f-a27bad750034",
-      "question": "Quy tắc chuyển đổi thứ hai từ mô hình ER sang mô hình h<span style=\"color:red\">ư</span>ớng đối t<span style=\"color:red\">ư</span>ợng là : .",
+      "question": "Quy tắc chuyển đổi thứ hai từ mô hình ER sang mô hình h<span style='color:red'>ư</span>ớng đối t<span style='color:red'>ư</span>ợng là : .",
       "answers": [
         {
           "id": "1a923e46-6a3b-4080-8e55-5287aa068501",
@@ -2583,7 +2583,7 @@
     },
     {
       "id": "ad75c400-f5a4-4374-8d04-cc5f557a8e79",
-      "question": "Quy tắc chuyển đổi thứ <span style=\"color:red\">ba</span> từ mô hình ER sang mô hình hướng đối tượng là :",
+      "question": "Quy tắc chuyển đổi thứ <span style='color:red'>ba</span> từ mô hình ER sang mô hình hướng đối tượng là :",
       "answers": [
         {
           "id": "1f6714cf-bff6-48c3-b84a-b5f7ff448579",
@@ -2610,7 +2610,7 @@
     },
     {
       "id": "18a5c1f1-6ffe-4cc7-81d7-db7fea76362f",
-      "question": "Quy tắc chuyển đổi thứ <span style=\"color:red\">tư</span> từ mô hình ER sang mô hình hướng đối tượng là :",
+      "question": "Quy tắc chuyển đổi thứ <span style='color:red'>tư</span> từ mô hình ER sang mô hình hướng đối tượng là :",
       "answers": [
         {
           "id": "b0b900f6-c112-46c9-ac3b-9f53d4b97fa8",
@@ -2691,7 +2691,7 @@
     },
     {
       "id": "c72dfa27-3560-4136-97be-dda2580eef86",
-      "question": "Nội dung của quy tắc chuyển đổi thứ <span style=\"color:red\">n</span>h<span style=\"color:red\">ất</span> từ mô hình ER sang mô hình hướng đối tượng là : .",
+      "question": "Nội dung của quy tắc chuyển đổi thứ <span style='color:red'>n</span>h<span style='color:red'>ất</span> từ mô hình ER sang mô hình hướng đối tượng là : .",
       "answers": [
         {
           "id": "706bc108-446d-47a7-af07-d36e6b5c9718",
@@ -2714,7 +2714,7 @@
     },
     {
       "id": "7adad909-2c9c-4ad2-b2e7-b26e6ff29172",
-      "question": "Nội dung của quy tắc chuyển đổi thứ <span style=\"color:red\">h</span>a<span style=\"color:red\">i</span> từ mô hình ER sang mô hình hướng đối tượng là : .",
+      "question": "Nội dung của quy tắc chuyển đổi thứ <span style='color:red'>h</span>a<span style='color:red'>i</span> từ mô hình ER sang mô hình hướng đối tượng là : .",
       "answers": [
         {
           "id": "c14780b2-39ed-45e7-b164-778c46aee537",
@@ -2737,7 +2737,7 @@
     },
     {
       "id": "c26132c9-b0fb-4c43-ad60-8af5de6274c1",
-      "question": "Nội dung của quy tắc chuyển đổi thứ <span style=\"color:red\">b</span>a từ mô hình ER sang mô hình hướng đối tượng là : .",
+      "question": "Nội dung của quy tắc chuyển đổi thứ <span style='color:red'>b</span>a từ mô hình ER sang mô hình hướng đối tượng là : .",
       "answers": [
         {
           "id": "26dbb774-af4f-4c9a-bf56-7f3fa3b62df0",
@@ -2760,7 +2760,7 @@
     },
     {
       "id": "c1259fb5-d212-496b-b0d9-cd7e43c6c09c",
-      "question": "Cho lược đồ ER trên <span style=\"color:red\">t</span>a <span style=\"color:red\">p</span>h<span style=\"color:red\">ả</span>i áp dụng quy tắc số mấy để chuyển mối quan hệ quan<span style=\"color:red\"> is-a</span> sang mô hình hướng đối tượng : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên <span style='color:red'>t</span>a <span style='color:red'>p</span>h<span style='color:red'>ả</span>i áp dụng quy tắc số mấy để chuyển mối quan hệ quan<span style='color:red'> is-a</span> sang mô hình hướng đối tượng : . (hình ảnh)",
       "answers": [
         {
           "id": "5e56b380-ad1c-48d9-92cf-2b5627870a44",
@@ -2898,7 +2898,7 @@
     },
     {
       "id": "0994a8a2-b2fc-4ce9-9b49-d389a3ed1f2f",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hớng đối tượng ta sẽ được kết quả : . (hình ảnh)",
+      "question": "<span style='color:red'>Cho lược đồ ER trên sau kh</span>i <span style='color:red'>áp </span>d<span style='color:red'>ụ</span>ng quy tắc chuyển đổi mô hình ER sang mô hình hớng đối tượng <span style='color:red'>ta sẽ được kết quả</span> : .<span style='color:red'> (hình ảnh)</span>",
       "answers": [
         {
           "id": "bd8decdc-d909-40b7-96a3-2651dc438dae",
@@ -2975,7 +2975,7 @@
     },
     {
       "id": "28086b08-90ea-46e7-b67e-d7eaeb0faf75",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ <span style=\"color:red\">ph</span>ản<span style=\"color:red\"> xạ</span> sang mô hình hướng đối tượng : .",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ <span style='color:red'>phả</span>n<span style='color:red'> xạ</span> sang mô hình hướng đối tượng : .",
       "answers": [
         {
           "id": "ad2fa56d-563d-4d0e-b3a7-b40e265f7ad6",
@@ -3025,7 +3025,7 @@
     },
     {
       "id": "8f42efea-d147-4e50-9768-a8ab65a3c110",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ <span style=\"color:red\">Giả</span>n<span style=\"color:red\">g</span> sang mô hình hướng đối tượng : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc <span style='color:red'>số mấy để </span>chuyển <span style='color:red'>mố</span>i <span style='color:red'>quan</span> h<span style='color:red'>ệ</span> <span style='color:red'>Giảng</span> sang mô hình hướng đối tượng : . (hình ảnh)",
       "answers": [
         {
           "id": "e794413e-e9f8-41b9-b36c-36358e4c38a9",
@@ -3048,7 +3048,7 @@
     },
     {
       "id": "cc8f6a8b-9e6f-43da-a6f0-3fd75092f96f",
-      "question": "Cho lược đồ ER trên, <span style=\"color:red\">tên các thực thể có tr</span>ong <span style=\"color:red\">l</span>ược <span style=\"color:red\">đồ</span> là : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, <span style='color:red'>tên các thực thể có tr</span>ong <span style='color:red'>l</span>ược <span style='color:red'>đồ</span> là : . (hình ảnh)",
       "answers": [
         {
           "id": "fb627c59-926f-49ee-a010-a8f4ff77758d",
@@ -3071,7 +3071,7 @@
     },
     {
       "id": "da1b0971-7538-4b02-b6cd-22346e13dc46",
-      "question": "Cho lược đồ ER trên, <span style=\"color:red\">To</span>n<span style=\"color:red\">gsotiet</span> được gọi là : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, <span style='color:red'>To</span>n<span style='color:red'>gsotiet</span> được gọi là : . (hình ảnh)",
       "answers": [
         {
           "id": "7c3000d9-def8-46f5-b848-6bffc6d44651",
@@ -3094,7 +3094,7 @@
     },
     {
       "id": "ec07582a-1348-4be7-a021-aa5086120ead",
-      "question": "Cho lược đồ ER trên, sau khi chuyển đổi<span style=\"color:red\"> từ mô hình ER</span> sang mô hình quan hệ ta sẽ được <span style=\"color:red\">những </span>quan hệ <span style=\"color:red\">nào </span>: . (hình ảnh)",
+      "question": "C<span style='color:red'>ho lược đồ ER trên, sau khi c</span>huyển đổi từ mô hình ER sang mô hình <span style='color:red'>q</span>uan hệ ta <span style='color:red'>sẽ </span>được <span style='color:red'>những</span> quan hệ<span style='color:red'> nào </span>:<span style='color:red'> .</span> (hình ảnh)",
       "answers": [
         {
           "id": "6635b154-6da6-4336-9dbc-24c5f112511a",
@@ -3117,7 +3117,7 @@
     },
     {
       "id": "9e17d7fc-e09c-410d-88a2-f5579201d272",
-      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết <span style=\"color:red\">Giảng</span> sang mô hình quan hệ ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết <span style='color:red'>Giảng</span> sang mô hình quan hệ ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
       "answers": [
         {
           "id": "295414bd-b6f3-4777-a2db-8c9cf1ac43c8",
@@ -3140,7 +3140,7 @@
     },
     {
       "id": "2ffab6ac-d8b4-4c71-bd2f-6b752b589404",
-      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết <span style=\"color:red\">Thuộc</span> sang mô hình quan hệ ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết <span style='color:red'>Thuộc</span> sang mô hình quan hệ ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
       "answers": [
         {
           "id": "85ff21b0-967a-4d4b-910a-2082382fbeb3",
@@ -3163,7 +3163,7 @@
     },
     {
       "id": "f21bef64-c461-4578-ab51-f0ec170924d5",
-      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang mô hình quan hệ ta <span style=\"color:red\">đ</span>ư<span style=\"color:red\">ợ</span>c c<span style=\"color:red\">ác q</span>u<span style=\"color:red\">a</span>n h<span style=\"color:red\">ệ</span> : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi<span style='color:red'> lược đồ</span> sang mô hình quan hệ ta được <span style='color:red'>cá</span>c <span style='color:red'>quan</span> <span style='color:red'>hệ </span>: . (hình ảnh)",
       "answers": [
         {
           "id": "ab51342f-2054-48e3-baf6-3248dc5aa29d",
@@ -3186,7 +3186,7 @@
     },
     {
       "id": "19fadd90-5cd8-42fb-a285-a47ae3d98191",
-      "question": "Cho lược đồ ER trên, chuyển đổi l<span style=\"color:red\">ư</span>ợc đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi l<span style='color:red'>ư</span>ợc đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
       "answers": [
         {
           "id": "db7757b7-8e4f-403d-ad10-40f81a07593c",
@@ -3232,7 +3232,7 @@
     },
     {
       "id": "029e43cc-2488-4d08-9309-2bc6f1c3175e",
-      "question": "Cho lược đồ ER trên, <span style=\"color:red\">c</span>hu<span style=\"color:red\">yể</span>n đ<span style=\"color:red\">ổi l</span>ư<span style=\"color:red\">ợ</span>c <span style=\"color:red\">đồ</span> <span style=\"color:red\">sang mô hình</span> quan hệ t<span style=\"color:red\">a áp dụng</span> bước chuyển đổi thứ :<span style=\"color:red\"> .</span> (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi<span style='color:red'> lược đồ</span> sang mô hình quan hệ ta <span style='color:red'>áp</span> <span style='color:red'>dụng b</span>ư<span style='color:red'>ớ</span>c <span style='color:red'>ch</span>u<span style='color:red'>yể</span>n <span style='color:red'>đổ</span>i<span style='color:red'> thứ </span>: . (hình ảnh)",
       "answers": [
         {
           "id": "fd68b225-3d06-41b4-b710-54719dde18ad",
@@ -3255,7 +3255,7 @@
     },
     {
       "id": "a357ffc6-5d91-4987-a1d5-f7b037152a21",
-      "question": "<span style=\"color:red\">Hạ</span>t nh<span style=\"color:red\">â</span>n <span style=\"color:red\">củ</span>a mô hình hướng đối tượng là : .",
+      "question": "Hạt nhân của mô hình hướng đối tượng là : .",
       "answers": [
         {
           "id": "59420257-663f-4aed-9017-d48f2d47737e",
@@ -3278,7 +3278,7 @@
     },
     {
       "id": "dd2f35fb-61c8-4ba2-b3b6-b4edbeda576d",
-      "question": "Trong mô hình hướng đối tượng, <span style=\"color:red\">sự</span> <span style=\"color:red\">liê</span>n <span style=\"color:red\">kết</span> giữa các lớp đ<span style=\"color:red\">ối t</span>ượ<span style=\"color:red\">ng</span> th<span style=\"color:red\">ực</span> hiện <span style=\"color:red\">t</span>h<span style=\"color:red\">ông qua</span>: .",
+      "question": "Trong mô hình hướng đối tượng, <span style='color:red'>sự</span> <span style='color:red'>liê</span>n <span style='color:red'>kết</span> giữa các lớp đ<span style='color:red'>ối t</span>ượ<span style='color:red'>ng</span> th<span style='color:red'>ực</span> hiện <span style='color:red'>t</span>h<span style='color:red'>ông qua</span>: .",
       "answers": [
         {
           "id": "8742dfb9-4d92-4905-8083-87b76c43a588",
@@ -3301,7 +3301,7 @@
     },
     {
       "id": "c2aa8cda-c93b-4f0e-a97e-ec4e5c970a23",
-      "question": "Trong mô hình hướng đối tượng, <span style=\"color:red\">mỗ</span>i <span style=\"color:red\">q</span>u<span style=\"color:red\">an hệ giữa các</span> lớp <span style=\"color:red\">đượ</span>c <span style=\"color:red\">thể</span> <span style=\"color:red\">hiện</span> nh<span style=\"color:red\">ư</span>: .",
+      "question": "Trong mô hình hướng đối tượng, <span style='color:red'>mỗ</span>i<span style='color:red'> qua</span>n <span style='color:red'>hệ</span> giữa các lớp đượ<span style='color:red'>c</span> th<span style='color:red'>ể</span> hiện n<span style='color:red'>hư</span>: .",
       "answers": [
         {
           "id": "e697d83d-7345-4a6c-bcf6-1351435b07d6",
@@ -3324,7 +3324,7 @@
     },
     {
       "id": "5686ffac-33d6-4379-9795-466f6fade85d",
-      "question": "Trong mô hình hướng đối tượng, <span style=\"color:red\">lớp</span> <span style=\"color:red\">A</span> <span style=\"color:red\">có</span> thuộc tính <span style=\"color:red\">mố</span>i <span style=\"color:red\">quan</span> <span style=\"color:red\">hệ R với lớp B thì thuộc tí</span>nh <span style=\"color:red\">mối q</span>u<span style=\"color:red\">an hệ R có</span>: .",
+      "question": "Trong mô hình hướng đối tượng, <span style='color:red'>lớp A có thuộc tính </span>m<span style='color:red'>ố</span>i quan hệ <span style='color:red'>R</span> <span style='color:red'>với</span> lớp <span style='color:red'>B</span> th<span style='color:red'>ì</span> <span style='color:red'>t</span>h<span style='color:red'>uộc</span> <span style='color:red'>tí</span>nh<span style='color:red'> mối quan hệ R có</span>: .",
       "answers": [
         {
           "id": "b72f777f-8d49-4604-83c0-b54cc38a6e3b",
@@ -3347,7 +3347,7 @@
     },
     {
       "id": "286da795-9c05-4cbf-bb75-5916905fbe0f",
-      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B <span style=\"color:red\">, nếu mỗi đối tượng thuộc lớp A có quan hệ với nhiều đối tượng thuộc lớp B </span>thì<span style=\"color:red\"> R được xem như</span> thuộc tính: .",
+      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B , <span style='color:red'>nếu mỗi đối tượng thuộc lớp A có quan hệ </span>v<span style='color:red'>ới nhiều đối tượng thuộc lớp B thì R được xem như</span> thuộc tính: .",
       "answers": [
         {
           "id": "f0698810-cb59-4bf2-8254-fbfbd6518f7c",
@@ -3370,7 +3370,7 @@
     },
     {
       "id": "6c7b76a5-08f3-4109-b007-b164024df978",
-      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B <span style=\"color:red\">, và</span> thuộc tính R <span style=\"color:red\">là thuộ</span>c<span style=\"color:red\"> tính đa trị thì trong lớp A ta sẽ khai báo</span>: .",
+      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B , v<span style='color:red'>à</span> thuộc tính<span style='color:red'> R là thuộc tính đa trị thì trong lớp A ta sẽ khai báo</span>: .",
       "answers": [
         {
           "id": "41af36d5-d8c2-495d-aeba-e65b07832b29",
@@ -3393,7 +3393,7 @@
     },
     {
       "id": "06c1cdef-aedc-4767-b4c5-6e8d1a8c2b4c",
-      "question": "Trong mô hình hướng đối tượng, để khai báo thuộc tính p<span style=\"color:red\">hức</span> ta <span style=\"color:red\">sử dụng từ </span>kh<span style=\"color:red\">ó</span>a:",
+      "question": "Trong <span style='color:red'>mô</span> <span style='color:red'>hình</span> hướng đối tượng, để k<span style='color:red'>hai báo</span> th<span style='color:red'>uộc</span> <span style='color:red'>tính</span> ph<span style='color:red'>ứ</span>c ta sử dụng <span style='color:red'>từ khóa:</span>",
       "answers": [
         {
           "id": "c9890453-12ec-4f0c-b49c-9a4f7e547461",
@@ -3416,7 +3416,7 @@
     },
     {
       "id": "1b400a45-df8b-45ec-a797-3eb6b608127b",
-      "question": "Trong mô hình hướng đối tượng, để khai báo thuộc tính <span style=\"color:red\">bằng </span>c<span style=\"color:red\">ấp</span> ta kha<span style=\"color:red\">i báo như sau</span>:<span style=\"color:red\"> .</span>",
+      "question": "Trong mô hình hướng đối tượng, <span style='color:red'>để</span> k<span style='color:red'>h</span>ai <span style='color:red'>báo</span> th<span style='color:red'>uộ</span>c t<span style='color:red'>ín</span>h<span style='color:red'> bằ</span>ng <span style='color:red'>cấp t</span>a<span style='color:red'> khai báo như sau</span>: .",
       "answers": [
         {
           "id": "223e7d9a-c492-427b-9792-c851038c8dda",
@@ -3439,7 +3439,7 @@
     },
     {
       "id": "d835ef1b-8ef8-48a8-a997-7fdc0d479f94",
-      "question": "Trong mô hình hướng đối tượng, <span style=\"color:red\">gọ</span>i <span style=\"color:red\">C1</span> <span style=\"color:red\">là</span> <span style=\"color:red\">s</span>i<span style=\"color:red\">êu</span> lớp <span style=\"color:red\">(super</span>c<span style=\"color:red\">lass)</span> <span style=\"color:red\">của</span> <span style=\"color:red\">lớp C2 có</span> n<span style=\"color:red\">g</span>h<span style=\"color:red\">ĩa</span> <span style=\"color:red\">là:</span>.",
+      "question": "Trong mô hình hướng đối tượng, gọi C1 là siêu lớp (superclass) của lớp C2 có nghĩa là:.",
       "answers": [
         {
           "id": "87976dfc-dd98-46eb-8d02-2e2be4782633",
@@ -3462,7 +3462,7 @@
     },
     {
       "id": "150581be-c81c-49e0-8ff8-11a08cc96d53",
-      "question": "Trong <span style=\"color:red\">lược</span> <span style=\"color:red\">đồ CSDL</span> hướng đối tượng, để <span style=\"color:red\">mô</span> <span style=\"color:red\">tả quan hệ kế</span> th<span style=\"color:red\">ừa</span> <span style=\"color:red\">(sự</span> ph<span style=\"color:red\">ân </span>c<span style=\"color:red\">ấp lớp)</span> ta sử dụng:<span style=\"color:red\"> .</span>",
+      "question": "Trong <span style='color:red'>lược</span> <span style='color:red'>đồ CSDL</span> hướng đối tượng, để <span style='color:red'>mô</span> <span style='color:red'>tả quan hệ kế</span> th<span style='color:red'>ừa</span> <span style='color:red'>(sự</span> ph<span style='color:red'>ân </span>c<span style='color:red'>ấp lớp)</span> ta sử dụng:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "d49f3048-b05a-4609-bc0a-bc877a470430",
@@ -3485,7 +3485,7 @@
     },
     {
       "id": "e44f9a8d-e071-4aac-b654-655b5858aa7d",
-      "question": "Trong <span style=\"color:red\">lược</span> <span style=\"color:red\">đồ CSDL</span> hướng đối tượng,<span style=\"color:red\"> để mô tả</span> mỗi quan hệ giữa các lớp <span style=\"color:red\">bằ</span>n<span style=\"color:red\">g</span>: .",
+      "question": "Trong <span style='color:red'>lược</span> <span style='color:red'>đồ CSDL</span> hướng đối tượng,<span style='color:red'> để mô tả</span> mỗi quan hệ giữa các lớp <span style='color:red'>bằ</span>n<span style='color:red'>g</span>: .",
       "answers": [
         {
           "id": "87fa2fbf-982c-4f7b-a0d7-2f0dc2ce70dc",
@@ -3508,7 +3508,7 @@
     },
     {
       "id": "7614acae-1a20-4aa2-9cf4-82bb3a956efa",
-      "question": "Trong lược đồ<span style=\"color:red\"> CSDL</span> hướng đối tượng<span style=\"color:red\">, kiêu phạm vi</span> được <span style=\"color:red\">bảo vệ</span> đ<span style=\"color:red\">á</span>nh <span style=\"color:red\">dấu</span> <span style=\"color:red\">bằng</span> <span style=\"color:red\">dấu</span>:<span style=\"color:red\"> .</span>",
+      "question": "Trong lược đồ<span style='color:red'> CSDL</span> hướng đối tượng<span style='color:red'>, kiêu phạm vi</span> được <span style='color:red'>bảo vệ</span> đ<span style='color:red'>á</span>nh <span style='color:red'>dấu</span> <span style='color:red'>bằng</span> <span style='color:red'>dấu</span>:<span style='color:red'> .</span>",
       "answers": [
         {
           "id": "077c6936-7104-44cf-af08-a3a1104f6a55",
@@ -3531,7 +3531,7 @@
     },
     {
       "id": "70dffa6f-b930-4d65-9444-43c48d553da9",
-      "question": "<span style=\"color:red\">Hãy</span> <span style=\"color:red\">c</span>ho <span style=\"color:red\">biết, </span>h<span style=\"color:red\">ì</span>n<span style=\"color:red\">h vẽ</span> trên m<span style=\"color:red\">ô</span> <span style=\"color:red\">p</span>h<span style=\"color:red\">ỏ</span>ng cho<span style=\"color:red\">:</span> . (hình ảnh)",
+      "question": "Hãy cho biết, hình vẽ trên mô phỏng cho: . (hình ảnh)",
       "answers": [
         {
           "id": "766fba0b-602a-4143-9257-1fa5341d2e1e",
@@ -3554,7 +3554,7 @@
     },
     {
       "id": "19a1b4c7-bb92-4547-887b-cc91b00aa724",
-      "question": "<span style=\"color:red\">Mối quan hệ k</span>ết tập là một kiểu kết hợp đặc biệt <span style=\"color:red\">đượ</span>c<span style=\"color:red\"> sử dụng để</span>: .",
+      "question": "<span style='color:red'>Mối quan hệ k</span>ết tập là một kiểu kết hợp đặc biệt <span style='color:red'>đượ</span>c<span style='color:red'> sử dụng để</span>: .",
       "answers": [
         {
           "id": "f5571bf1-582e-4527-9913-68272810db5a",
@@ -3577,7 +3577,7 @@
     },
     {
       "id": "926b331f-374c-4d09-91c0-b8498107a4d6",
-      "question": "<span style=\"color:red\">K</span>ết tập là một kiểu kết hợp đặc biệt<span style=\"color:red\">,</span> g<span style=\"color:red\">ồm</span> <span style=\"color:red\">có</span>: .",
+      "question": "<span style='color:red'>K</span>ết tập là một kiểu kết hợp đặc biệt<span style='color:red'>,</span> g<span style='color:red'>ồm</span> <span style='color:red'>có</span>: .",
       "answers": [
         {
           "id": "0b07b1e4-12af-47de-b110-d0eec90f60d5",
@@ -3600,7 +3600,7 @@
     },
     {
       "id": "74442912-3e8d-4ac8-a8fc-43b266fd8c9b",
-      "question": "Cho lược đồ ER nh trên, sau khi thực hiện chuyển đổi sang mô hình h<span style=\"color:red\">ư</span>ớng đối tượng <span style=\"color:red\">bằng quy tắc số 4 </span>ta sẽ được <span style=\"color:red\">lớp Người gồm </span>các <span style=\"color:red\">thuộc tính</span>:. (hình ảnh)",
+      "question": "Cho lược đồ ER nh trên, sau khi thực hiện chuyển đổi sang mô hình hướng đối tượng <span style='color:red'>bằ</span>ng quy tắc <span style='color:red'>số</span> <span style='color:red'>4</span> t<span style='color:red'>a</span> s<span style='color:red'>ẽ</span> <span style='color:red'>được</span> lớp <span style='color:red'>N</span>g<span style='color:red'>ườ</span>i gồm <span style='color:red'>các</span> thuộc tính<span style='color:red'>:</span>. (hình ảnh)",
       "answers": [
         {
           "id": "0611f6df-d2a4-4a05-b8ee-c7f6b3979810",
@@ -3623,7 +3623,7 @@
     },
     {
       "id": "baa2a453-1619-4980-aa0d-2588de500eb3",
-      "question": "Cho lược đồ ER nh trên,<span style=\"color:red\"> sau khi</span> thực hiện chuyển đổi sang mô hình quan hệ ta sẽ được <span style=\"color:red\">quan</span> h<span style=\"color:red\">ệ</span> <span style=\"color:red\">Người</span>: . (hình ảnh)",
+      "question": "Cho lược đồ ER nh trên, sau khi thực hiện chuyển đổi sang mô hình <span style='color:red'>qua</span>n <span style='color:red'>hệ</span> ta sẽ được <span style='color:red'>quan</span> <span style='color:red'>hệ Người</span>: . (hình ảnh)",
       "answers": [
         {
           "id": "4685728a-e859-41c9-8297-1376f5d3bb19",
@@ -3646,7 +3646,7 @@
     },
     {
       "id": "9abfd991-77b3-4a9e-b7ef-9eec42f0a084",
-      "question": "Cho lược đồ ER nh<span style=\"color:red\">ư</span> trên, sau khi thực hiện chuyển đổi sang mô hình h<span style=\"color:red\">ớng đối tượng</span> ta sẽ được <span style=\"color:red\">các</span> <span style=\"color:red\">lớp</span>:. (hình ảnh)",
+      "question": "Cho lược đồ ER nh<span style='color:red'>ư</span> trên, sau khi thực hiện chuyển đổi sang mô hình h<span style='color:red'>ớng đối tượng</span> ta sẽ được <span style='color:red'>các</span> <span style='color:red'>lớp</span>:. (hình ảnh)",
       "answers": [
         {
           "id": "bbee807a-225b-47cb-8e7c-1d8f998557e8",
@@ -3669,7 +3669,7 @@
     },
     {
       "id": "d5374d7b-cef9-4df2-9c74-60ad8c7c1468",
-      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang mô hình h<span style=\"color:red\">ư</span>ớng đối tượng ta sẽ <span style=\"color:red\">áp dụng quy tắ</span>c c<span style=\"color:red\">huyển</span> <span style=\"color:red\">đổi thứ</span>: . (hình ảnh)",
+      "question": "C<span style='color:red'>ho lược đồ ER như trên, sau khi thực hiện c</span>huyển đổi sang mô hình hướng đối tượng <span style='color:red'>ta</span> <span style='color:red'>sẽ áp dụng</span> quy tắc chuyển đổi<span style='color:red'> thứ</span>: .<span style='color:red'> (hình ảnh)</span>",
       "answers": [
         {
           "id": "a2f4ee49-1e38-4ac1-8859-74885f0d1d3a",
@@ -3692,7 +3692,7 @@
     },
     {
       "id": "8044c285-4e12-4dac-ab6c-0b684f607baf",
-      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang mô hình hướng đối tượng ta sẽ áp dụng quy tắc chuyển đổi thứ <span style=\"color:red\">5, quy tắc này làm phát sinh thêm một lớp mới từ quan hệ Day gọi là Lịch Dạy, Lịch Dạy sẽ gồm những thuộc tính gì?</span>. (hình ảnh)",
+      "question": "Cho lược đồ ER như trên,<span style='color:red'> sau khi</span> thực hiện chuyển đổi sang mô hình h<span style='color:red'>ướng đối tượng ta</span> sẽ<span style='color:red'> áp dụng quy tắc chuyển đổi thứ 5, quy tắc này làm</span> phát sinh thêm một <span style='color:red'>lớp</span> mới <span style='color:red'>từ</span> quan hệ <span style='color:red'>Day gọi là </span>Lịch <span style='color:red'>D</span>ạy, <span style='color:red'>Lịc</span>h <span style='color:red'>Dạ</span>y<span style='color:red'> sẽ</span> gồm những thuộc tính <span style='color:red'>gì?</span>. (hình ảnh)",
       "answers": [
         {
           "id": "658b7d6c-7c4a-4138-9117-122e99fdffbc",
@@ -3715,7 +3715,7 @@
     },
     {
       "id": "9ccce621-c966-4811-82e1-256e1870637a",
-      "question": "Cho lược đồ ER như trên, quan hệ <span style=\"color:red\">Dạy</span> được <span style=\"color:red\">gọi</span> là: . (hình ảnh)",
+      "question": "Cho lược đồ ER <span style='color:red'>như </span>trên, <span style='color:red'>qua</span>n<span style='color:red'> hệ Dạy</span> được gọi là: . (hình ảnh)",
       "answers": [
         {
           "id": "93714528-d932-4fc7-b4bc-7bb4f041e267",
@@ -3738,7 +3738,7 @@
     },
     {
       "id": "713eb8ab-5096-4739-a4fa-d015c4304007",
-      "question": "Cho lược đồ ER nh<span style=\"color:red\">ư</span> trên, thực hiện chuyển đổi sang mô hình quan hệ ta sẽ được <span style=\"color:red\">số</span> <span style=\"color:red\">t</span>h<span style=\"color:red\">ực</span> <span style=\"color:red\">thể là</span>: . (hình ảnh)",
+      "question": "Cho lược đồ ER <span style='color:red'>như </span>trên,<span style='color:red'> thực hiện</span> chuyển đổi sang mô hình quan hệ ta <span style='color:red'>sẽ </span>được <span style='color:red'>số thự</span>c <span style='color:red'>t</span>h<span style='color:red'>ể</span> <span style='color:red'>là</span>: . (hình ảnh)",
       "answers": [
         {
           "id": "2bc600f1-a15c-4dc9-b1c8-727c6e67a6b3",
@@ -3761,7 +3761,7 @@
     },
     {
       "id": "f22902be-5f11-419a-87ae-8f70b9daa69f",
-      "question": "Cho lược đồ ER như trên, thực hiện chuyển đổi sang mô hình quan hệ sẽ <span style=\"color:red\">phát</span> s<span style=\"color:red\">inh</span> th<span style=\"color:red\">êm</span> <span style=\"color:red\">mộ</span>t<span style=\"color:red\"> quan </span>h<span style=\"color:red\">ệ mới</span> là<span style=\"color:red\"> quan hệ Lịch dạy, quan hệ này gồm những thuộc tính</span>: . (hình ảnh)",
+      "question": "Cho lược đồ ER nh<span style='color:red'>ư</span> trên, thực hiện chuyển đổi sang mô hình qua<span style='color:red'>n hệ</span> sẽ <span style='color:red'>phát sinh thêm một quan hệ mới</span> l<span style='color:red'>à</span> <span style='color:red'>quan hệ Lịch dạy, quan hệ này</span> gồm <span style='color:red'>những</span> thuộc tính: . (hình ảnh)",
       "answers": [
         {
           "id": "ee6eda8b-7484-4d06-9006-e171a60f0c86",
@@ -3784,7 +3784,7 @@
     },
     {
       "id": "738d6247-a2b4-475f-8c21-7f22dfbf128e",
-      "question": "<span style=\"color:red\">Chuyển</span> m<span style=\"color:red\">ỗi</span> thực thể thành một quan hệ <span style=\"color:red\">l</span>à việc<span style=\"color:red\">?.</span>",
+      "question": "<span style='color:red'>Chuyển</span> m<span style='color:red'>ỗi</span> thực thể thành một quan hệ <span style='color:red'>l</span>à việc<span style='color:red'>?.</span>",
       "answers": [
         {
           "id": "f335ab4c-b797-4e8d-bbd9-d1878f46e217",
@@ -3807,7 +3807,7 @@
     },
     {
       "id": "c249063c-2e6d-41e1-939c-a42569d3bb99",
-      "question": "<span style=\"color:red\">Với</span> <span style=\"color:red\">p</span>hiế<span style=\"color:red\">u giao</span> h<span style=\"color:red\">à</span>n<span style=\"color:red\">g</span> trên <span style=\"color:red\">ta</span> <span style=\"color:red\">tìm được n</span>h<span style=\"color:red\">ữ</span>ng <span style=\"color:red\">t</span>h<span style=\"color:red\">ực thể nà</span>o<span style=\"color:red\">?</span> . (hình ảnh)",
+      "question": "Với phiếu giao hàng trên <span style='color:red'>ta</span> <span style='color:red'>tì</span>m<span style='color:red'> được</span> những th<span style='color:red'>ự</span>c th<span style='color:red'>ể</span> nào? . (hình ảnh)",
       "answers": [
         {
           "id": "080339d1-fc21-4c44-aa3f-d063d72737c0",
@@ -3830,7 +3830,7 @@
     },
     {
       "id": "8fb7d1c7-5f7c-4185-9ca0-115bf1915f49",
-      "question": "Cho lược đồ ER như trên, các quan hệ sinh ra t<span style=\"color:red\">ạ</span>i bước chuyển đ<span style=\"color:red\">ố</span>i<span style=\"color:red\"> thứ nhất</span> từ mô hình ER sang mô hình quan hệ là: (hình ảnh)",
+      "question": "Cho lược đồ ER <span style='color:red'>như </span>trên, c<span style='color:red'>ác</span> quan hệ si<span style='color:red'>nh ra</span> t<span style='color:red'>ạ</span>i<span style='color:red'> bước</span> chuyển đ<span style='color:red'>ố</span>i t<span style='color:red'>hứ nhất t</span>ừ<span style='color:red'> mô hình</span> ER sang<span style='color:red'> mô hình quan hệ</span> là: (hình ảnh)",
       "answers": [
         {
           "id": "1827c564-fd37-4d9f-a5e9-b6e5d0021109",
@@ -3853,7 +3853,7 @@
     },
     {
       "id": "45574d0c-45a7-46e1-8c47-405f30308b7e",
-      "question": "Cho lược đồ ER như trên, các quan hệ sinh ra <span style=\"color:red\">sau kh</span>i<span style=\"color:red\"> thực hiện bảy</span> bước chuyển đ<span style=\"color:red\">ổ</span>i từ mô hình ER sang mô hình quan hệ là: (hình ảnh)",
+      "question": "Cho lược đồ ER nh<span style='color:red'>ư</span> trên,<span style='color:red'> các quan hệ sinh ra</span> sau khi thực hiện <span style='color:red'>bảy bước </span>chuyển đổi<span style='color:red'> từ mô hình ER</span> sang mô hình qua<span style='color:red'>n</span> <span style='color:red'>hệ</span> l<span style='color:red'>à</span>: (hình ảnh)",
       "answers": [
         {
           "id": "e7d8bc0c-c909-4084-971e-5366f0863e4b",
@@ -3876,7 +3876,7 @@
     },
     {
       "id": "d8d2988f-a66c-4192-bef1-39ec87bdfae2",
-      "question": "Cho lược đồ ER như trên, các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ mô hình ER sang mô hình hướng đối tượng <span style=\"color:red\">là: </span>(hình ảnh)",
+      "question": "Cho lược đồ ER như trên, các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ mô hình ER sang mô hình hướng đối tượng <span style='color:red'>là: </span>(hình ảnh)",
       "answers": [
         {
           "id": "c1286d97-76f9-4e58-a6e7-c75422189354",
@@ -3922,7 +3922,7 @@
     },
     {
       "id": "d502dd49-66d9-4bfb-884a-b5dc16e14275",
-      "question": "Cho lược đồ ER trên, <span style=\"color:red\">lượ</span>c<span style=\"color:red\"> đồ</span> quan hệ <span style=\"color:red\">kết</span> <span style=\"color:red\">quả</span> sau khi thực hiện chuyển đổi từ ER sang là: (hình ảnh)",
+      "question": "Cho lược đồ ER trên, <span style='color:red'>lượ</span>c<span style='color:red'> đồ</span> quan hệ <span style='color:red'>kế</span>t<span style='color:red'> quả sau kh</span>i <span style='color:red'>thự</span>c<span style='color:red'> hiện</span> chuyển đ<span style='color:red'>ổ</span>i từ ER sang là: (hình ảnh)",
       "answers": [
         {
           "id": "a58b3fd1-efdb-42d2-8435-861267ed2f0d",
@@ -3968,7 +3968,7 @@
     },
     {
       "id": "814b18ab-603a-40cb-a504-7820455e5d30",
-      "question": "Cho lược đồ ER trên, thuộc tính <span style=\"color:red\">mã</span> <span style=\"color:red\">ck</span> đư<span style=\"color:red\">ơ</span>c thêm vào quan hệ B<span style=\"color:red\">ác</span> <span style=\"color:red\">Sĩ</span> tại bước chuyển đổi thứ:<span style=\"color:red\"> (hình ảnh)</span>",
+      "question": "Cho lược đồ ER trê<span style='color:red'>n,</span> <span style='color:red'>t</span>hu<span style='color:red'>ộc</span> <span style='color:red'>tính</span> m<span style='color:red'>ã ck đươc thêm vào</span> quan hệ <span style='color:red'>Bác</span> <span style='color:red'>Sĩ</span> t<span style='color:red'>ại</span> <span style='color:red'>bướ</span>c chuyển đổi thứ: (hình ảnh)",
       "answers": [
         {
           "id": "256bffe2-a938-47c9-b49d-aed7fb602379",
@@ -3991,7 +3991,7 @@
     },
     {
       "id": "f273ef81-cb74-451e-9484-87388ba83fa5",
-      "question": "Cho lược đồ ER trên, thuộc tính <span style=\"color:red\">Bá</span>c<span style=\"color:red\"> sĩ theo dõi</span> đư<span style=\"color:red\">ợ</span>c thêm<span style=\"color:red\"> vào</span> vào quan hệ B<span style=\"color:red\">ệnh</span> <span style=\"color:red\">nhân</span> tại bước chuyển đổi thứ:",
+      "question": "Cho lược đồ ER trên, thuộc tính Bác sĩ theo dõi được thêm vào vào quan hệ Bệnh nhân tại bước chuyển đổi thứ:",
       "answers": [
         {
           "id": "e90e6438-30a8-45d2-8060-33840c692dc9",
@@ -4014,7 +4014,7 @@
     },
     {
       "id": "454bbb80-d363-404b-9ad7-4ca788dc950e",
-      "question": "Ngôn ngữ D<span style=\"color:red\">D</span>L là:",
+      "question": "Ngôn ngữ D<span style='color:red'>D</span>L là:",
       "answers": [
         {
           "id": "2f3bce38-38ca-4565-b8da-43da5ec5585d",
@@ -4106,7 +4106,7 @@
     },
     {
       "id": "2fb168f9-790e-4b5b-a26e-bbedf9ff1150",
-      "question": "Ngôn ngữ D<span style=\"color:red\">D</span>L là:",
+      "question": "Ngôn ngữ DDL là:",
       "answers": [
         {
           "id": "2eb895ad-f809-471d-b5e8-2700179f2e54",
@@ -4198,7 +4198,7 @@
     },
     {
       "id": "f0738984-ca83-4a16-aaac-9ab27fb325ce",
-      "question": "Hệ <span style=\"color:red\">thống O2 liê</span>n <span style=\"color:red\">kế</span>t<span style=\"color:red\"> với thế giới</span> CSDL <span style=\"color:red\">bằng</span> các chức năng:",
+      "question": "Hệ <span style='color:red'>thống O2 liê</span>n <span style='color:red'>kế</span>t<span style='color:red'> với thế giới</span> CSDL <span style='color:red'>bằng</span> các chức năng:",
       "answers": [
         {
           "id": "60326685-cb01-4bea-90e1-80317e5c3122",
@@ -4252,7 +4252,7 @@
     },
     {
       "id": "c53ef4fc-0d01-46d9-a39d-79bba61c7804",
-      "question": "Đầu <span style=\"color:red\">vào</span> của một truy vấn OQL là:",
+      "question": "Đầu <span style='color:red'>vào</span> của một truy vấn OQL là:",
       "answers": [
         {
           "id": "4c4a214b-6e35-43bd-b81b-e5250dd689db",
@@ -4275,7 +4275,7 @@
     },
     {
       "id": "114b77b3-d8b2-4fcd-80b6-8b5578b4aa42",
-      "question": "Đầu <span style=\"color:red\">ra</span> của một truy vấn OQL là:",
+      "question": "Đầu <span style='color:red'>ra</span> của một truy vấn OQL là:",
       "answers": [
         {
           "id": "cc5f946c-7a5b-4cfa-8425-66297805dac6",
@@ -4298,7 +4298,7 @@
     },
     {
       "id": "94e76001-fed7-484a-ba35-d0a9e80003c3",
-      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style=\"color:red\">sau:</span>\nSELECT <span style=\"color:red\">s.number</span>\nFROM s IN Software\nKết quả của câu lệnh truy vấn <span style=\"color:red\">này </span>là: (hình ảnh)",
+      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style='color:red'>sau:</span>\nSELECT <span style='color:red'>s.number</span>\nFROM s IN Software\nKết quả của câu lệnh truy vấn <span style='color:red'>này </span>là: (hình ảnh)",
       "answers": [
         {
           "id": "ec704129-4176-48f1-b3a6-2dd133b32035",
@@ -4321,7 +4321,7 @@
     },
     {
       "id": "bf4bddde-6adf-4152-b043-f78bbda885f6",
-      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style=\"color:red\">trên.</span>\nSELECT <span style=\"color:red\">p</span>\nFROM<span style=\"color:red\"> p IN s.team,</span> s IN Software<span style=\"color:red\">\nWHERE s.number =111</span>\nKết quả của câu lệnh truy vấn là: (hình ảnh)",
+      "question": "Cho các lớp đối tượng tron lược đồ hướng đối tượng như <span style='color:red'>trên.</span>\nSELECT <span style='color:red'>p</span>\nFROM<span style='color:red'> p IN s.team,</span> s IN Software<span style='color:red'>\nWHERE s.number =111</span>\nKết quả của câu lệnh truy vấn là: (hình ảnh)",
       "answers": [
         {
           "id": "f6a769cf-132f-49c4-acbd-75ff44143bc2",
@@ -4367,7 +4367,7 @@
     },
     {
       "id": "253a6b17-a035-43fe-a20b-07998a71076e",
-      "question": "Nếu x là một đối tượng, <span style=\"color:red\">a</span> là một thuộc tính <span style=\"color:red\">của đ</span>ối <span style=\"color:red\">tượ</span>n<span style=\"color:red\">g</span> <span style=\"color:red\">x</span>, khi đó biểu thức đường dẫn <span style=\"color:red\">để t</span>r<span style=\"color:red\">uy cập đến giá trị thuộc tính a của đối tượng x</span> là:",
+      "question": "Nếu x là một đối tượng, <span style='color:red'>a</span> là một thuộc tính <span style='color:red'>của đ</span>ối <span style='color:red'>tượ</span>n<span style='color:red'>g</span> <span style='color:red'>x</span>, khi đó biểu thức đường dẫn <span style='color:red'>để t</span>r<span style='color:red'>uy cập đến giá trị thuộc tính a của đối tượng x</span> là:",
       "answers": [
         {
           "id": "4d1205bf-c90d-4d7b-8775-cfb485602f2e",
@@ -4390,7 +4390,7 @@
     },
     {
       "id": "b37e12bb-3e38-4eb2-b8bf-356577931592",
-      "question": "Nếu x là một đối tượng, <span style=\"color:red\">r</span> là một thuộc tính <span style=\"color:red\">m</span>ối <span style=\"color:red\">qua</span>n <span style=\"color:red\">hệ</span>, khi đó biểu thức đường dẫn x<span style=\"color:red\">.r</span> là:",
+      "question": "Nếu x là một đối tượng, <span style='color:red'>r</span> là một thuộc tính <span style='color:red'>m</span>ối <span style='color:red'>qua</span>n <span style='color:red'>hệ</span>, khi đó biểu thức đường dẫn x<span style='color:red'>.r</span> là:",
       "answers": [
         {
           "id": "bc363b53-7155-452d-bc6a-3d857d1c0aca",
@@ -4413,7 +4413,7 @@
     },
     {
       "id": "ca26189a-b40d-4ef4-9dc6-cc890a638ad5",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.n<span style=\"color:red\">ame</span> là:",
+      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.n<span style='color:red'>ame</span> là:",
       "answers": [
         {
           "id": "b19fbfd4-1259-4021-8365-28bdf72bea05",
@@ -4436,7 +4436,7 @@
     },
     {
       "id": "407c5af0-7359-4360-a5c8-0f74844bba0e",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực <span style=\"color:red\">s</span>.n<span style=\"color:red\">u</span>m<span style=\"color:red\">b</span>e<span style=\"color:red\">r</span>:",
+      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực <span style='color:red'>s</span>.n<span style='color:red'>u</span>m<span style='color:red'>b</span>e<span style='color:red'>r</span>:",
       "answers": [
         {
           "id": "9b351830-794c-47fc-8450-718b1ff813d9",
@@ -4459,7 +4459,7 @@
     },
     {
       "id": "465385eb-bddd-4485-ab6d-6d3ad146d5a9",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.<span style=\"color:red\">rol</span>e<span style=\"color:red\">(p,s)</span> là:",
+      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.<span style='color:red'>rol</span>e<span style='color:red'>(p,s)</span> là:",
       "answers": [
         {
           "id": "c3ef379e-68de-49fa-88eb-84708cd5f645",
@@ -4482,7 +4482,7 @@
     },
     {
       "id": "e76f4123-16b2-48b6-b02e-4958cf1b7d9a",
-      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.<span style=\"color:red\">work_o</span>n là:",
+      "question": "Cho truy vấn sau:\nSELECT p.name, p.role(p,s);\nFROM p IN Programmer, s IN p.works_on;\nWHERE s.number =111\nÝ nghĩa của biểu thực p.<span style='color:red'>work_o</span>n là:",
       "answers": [
         {
           "id": "5f79cf06-f5a0-41b2-ad02-5bf1f4320751",
@@ -4551,7 +4551,7 @@
     },
     {
       "id": "f4f2a362-ada5-4d75-b148-c6ff11e8a2ac",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp <span style=\"color:red\">lệnh </span>trên thì e <span style=\"color:red\">là</span>:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp <span style='color:red'>lệnh </span>trên thì e <span style='color:red'>là</span>:",
       "answers": [
         {
           "id": "8a8cc1a6-dd53-425b-96e5-5f70a0c7883c",
@@ -4574,7 +4574,7 @@
     },
     {
       "id": "905985d6-4256-40d8-8b23-3c9b6a8e0a55",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp <span style=\"color:red\">lệnh </span>trên thì <span style=\"color:red\">E</span> <span style=\"color:red\">là</span>:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp lệnh trên thì E là:",
       "answers": [
         {
           "id": "355218d9-bde0-40ed-ae78-fc6a378d3ff7",
@@ -4597,7 +4597,7 @@
     },
     {
       "id": "9c80b081-5b15-4b83-98f6-5de18a3eb741",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp trên thì mệnh đề <span style=\"color:red\">F</span>r<span style=\"color:red\">om</span> chỉ ra:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp trên thì mệnh đề <span style='color:red'>F</span>r<span style='color:red'>om</span> chỉ ra:",
       "answers": [
         {
           "id": "67269b50-d9f0-4bb5-82a1-c380c440799b",
@@ -4620,7 +4620,7 @@
     },
     {
       "id": "038c0ba5-03b5-4aaf-aed5-f86cab83ceec",
-      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp trên thì mệnh đề <span style=\"color:red\">Whe</span>r<span style=\"color:red\">e</span> chỉ ra:",
+      "question": "Cho cú pháp câu lệnh Select như sau:\nSELECT E(e)\nFROM e IN E\nWHERE C(e)\nTrong cú pháp trên thì mệnh đề <span style='color:red'>Whe</span>r<span style='color:red'>e</span> chỉ ra:",
       "answers": [
         {
           "id": "94fd5ff5-bbc0-4a7e-acd8-9276cd0136fa",
@@ -4643,7 +4643,7 @@
     },
     {
       "id": "4b0d0619-ffe5-449b-b45b-9787f791c295",
-      "question": "Cho các lớp như trên:\nCâu truy vấn để hiển thị tên <span style=\"color:red\">nhóm</span>, số điện thoại và tên nh<span style=\"color:red\">à quản lý</span> của <span style=\"color:red\">các</span> nh<span style=\"color:red\">óm</span> lập t<span style=\"color:red\">r</span>ình c<span style=\"color:red\">ủa</span> <span style=\"color:red\">cô</span>ng <span style=\"color:red\">ty</span> là: (hình ảnh)",
+      "question": "Cho các lớp như trên:\nCâu truy vấn để hiển thị tên <span style='color:red'>nhóm</span>, số điện thoại và tên nh<span style='color:red'>à quản lý</span> của <span style='color:red'>các</span> nh<span style='color:red'>óm</span> lập t<span style='color:red'>r</span>ình c<span style='color:red'>ủa</span> <span style='color:red'>cô</span>ng <span style='color:red'>ty</span> là: (hình ảnh)",
       "answers": [
         {
           "id": "e5faea4e-2245-487e-a9a2-e1f645dda633",
@@ -4666,7 +4666,7 @@
     },
     {
       "id": "83d09855-bc67-4100-870b-da8cc3666a7e",
-      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT <span style=\"color:red\">g</span>.name, g.phone_no<span style=\"color:red\">, g.manager.name</span>\nFROM <span style=\"color:red\">g</span> I<span style=\"color:red\">n</span> Group;\nSai ở<span style=\"color:red\"> đâu</span>: (hình ảnh)",
+      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT <span style='color:red'>g</span>.name, g.phone_no<span style='color:red'>, g.manager.name</span>\nFROM <span style='color:red'>g</span> I<span style='color:red'>n</span> Group;\nSai ở<span style='color:red'> đâu</span>: (hình ảnh)",
       "answers": [
         {
           "id": "45e57198-08ac-4e25-982f-dc949baa5c6a",
@@ -4689,7 +4689,7 @@
     },
     {
       "id": "f771e29c-31a8-4c70-8c6e-f4119a2d0f88",
-      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT p.name, <span style=\"color:red\">p.</span>group.name, p.phone_no\nFROM p IN <span style=\"color:red\">G</span>ro<span style=\"color:red\">up</span>\nWHERE p.floor= 2;\nSai ở: (hình ảnh)",
+      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT p.name, <span style='color:red'>p.</span>group.name, p.phone_no\nFROM p IN <span style='color:red'>G</span>ro<span style='color:red'>up</span>\nWHERE p.floor= 2;\nSai ở: (hình ảnh)",
       "answers": [
         {
           "id": "572290ca-f4ca-48d6-b017-918ec8da1d77",
@@ -4712,7 +4712,7 @@
     },
     {
       "id": "0867a953-3165-496e-a422-d28fd6109432",
-      "question": "Cho các lớp như trên:\nCâu truy vấn để hiển thị tên , số điện thoại và tên nh<span style=\"color:red\">óm</span> của <span style=\"color:red\">những</span> nh<span style=\"color:red\">à</span> lập tình <span style=\"color:red\">làm</span> <span style=\"color:red\">việ</span>c<span style=\"color:red\"> ở tầ</span>ng <span style=\"color:red\">2</span> là: (hình ảnh)",
+      "question": "Cho các lớp như trên:\nCâu truy vấn để hiển thị tên , số điện thoại và tên nh<span style='color:red'>óm</span> của <span style='color:red'>những</span> nh<span style='color:red'>à</span> lập tình <span style='color:red'>làm</span> <span style='color:red'>việ</span>c<span style='color:red'> ở tầ</span>ng <span style='color:red'>2</span> là: (hình ảnh)",
       "answers": [
         {
           "id": "797cafba-4f71-4435-b063-add43440523c",
@@ -4735,7 +4735,7 @@
     },
     {
       "id": "33cd386b-d803-46bc-a5d3-4570272bdd80",
-      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT p.name, group.name, p.phone_no\nFROM p IN <span style=\"color:red\">P</span>ro<span style=\"color:red\">grammer</span>\nWHERE p.floor= 2;\nSai ở: (hình ảnh)",
+      "question": "Cho các lớp như trên, hãy cho biết câu lệnh truy vấn sau:\nSELECT p.name, group.name, p.phone_no\nFROM p IN <span style='color:red'>P</span>ro<span style='color:red'>grammer</span>\nWHERE p.floor= 2;\nSai ở: (hình ảnh)",
       "answers": [
         {
           "id": "d62274ef-d1bc-4beb-8f55-350687df756a",
@@ -4758,7 +4758,7 @@
     },
     {
       "id": "4c60610c-6c3a-43a3-9d82-22f3d023aa72",
-      "question": "Cho các lớp như trên:\nCâu truy vấn <span style=\"color:red\">l</span>i<span style=\"color:red\">ệ</span>t<span style=\"color:red\"> kê</span> tên, số điện thoại của các nh<span style=\"color:red\">à</span> lập tình c<span style=\"color:red\">ó</span> <span style=\"color:red\">mã</span> <span style=\"color:red\">số</span> l<span style=\"color:red\">ớn hơn 111 v</span>à<span style=\"color:red\"> thuộc nhóm phân tích</span>: (hình ảnh)",
+      "question": "Cho các lớp như trên:\nCâu truy vấn <span style='color:red'>l</span>i<span style='color:red'>ệ</span>t<span style='color:red'> kê</span> tên, số điện thoại của các nh<span style='color:red'>à</span> lập tình c<span style='color:red'>ó</span> <span style='color:red'>mã</span> <span style='color:red'>số</span> l<span style='color:red'>ớn hơn 111 v</span>à<span style='color:red'> thuộc nhóm phân tích</span>: (hình ảnh)",
       "answers": [
         {
           "id": "7679edc4-26a8-4805-b288-cf0e8743dd29",
@@ -4781,7 +4781,7 @@
     },
     {
       "id": "0edfce50-c3f4-408d-96e9-7b7edd661b5e",
-      "question": "Cho các lớp như trên, cho câu lệnh truy vấn:\nSELECT p.name, p.phone_no\nFROM p IN Programmer<span style=\"color:red\">;</span>\nWHERE <span style=\"color:red\">(</span>p.<span style=\"color:red\">g</span>r<span style=\"color:red\">oup.name </span>= <span style=\"color:red\">‘Analysis’)\nAND (p.number > 111)</span>;\n<span style=\"color:red\">Câu lệnh s</span>ai ở: (hình ảnh)",
+      "question": "Cho các lớp như trên, cho câu lệnh truy vấn:\nSELECT p.name, p.phone_no\nFROM p IN Programmer<span style='color:red'>;</span>\nWHERE <span style='color:red'>(</span>p.<span style='color:red'>g</span>r<span style='color:red'>oup.name </span>= <span style='color:red'>‘Analysis’)\nAND (p.number > 111)</span>;\n<span style='color:red'>Câu lệnh s</span>ai ở: (hình ảnh)",
       "answers": [
         {
           "id": "1031a5b5-08d2-4f28-a263-b5c6aac07269",
@@ -4827,7 +4827,7 @@
     },
     {
       "id": "d5405186-17f7-41de-acae-e6ed6ab42d30",
-      "question": "Cho các lớp đối tượng như trên. Để hiển thị <span style=\"color:red\">mã</span> số, tên nhóm của các nhà lập trình <span style=\"color:red\">t</span>h<span style=\"color:red\">a</span>m <span style=\"color:red\">g</span>i<span style=\"color:red\">a</span> <span style=\"color:red\">trong</span> dự án phần mềm số 1<span style=\"color:red\">0</span>1 <span style=\"color:red\">và v</span>a<span style=\"color:red\">i trò</span> c<span style=\"color:red\">ủa </span>họ trong <span style=\"color:red\">dự</span> án <span style=\"color:red\">đó t</span>a<span style=\"color:red\"> chọn câ</span>u<span style=\"color:red\"> lệnh</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Để hiển thị <span style='color:red'>mã số,</span> tên nh<span style='color:red'>óm</span> <span style='color:red'>của</span> <span style='color:red'>các</span> nhà<span style='color:red'> lập</span> tr<span style='color:red'>ì</span>nh <span style='color:red'>tham g</span>i<span style='color:red'>a trong dự án phần mềm số 101 và vai trò của họ trong dự á</span>n đó ta chọn câu lệnh: (hình ảnh)",
       "answers": [
         {
           "id": "07cedb43-f105-48aa-9dce-fc514c75a18d",
@@ -4850,7 +4850,7 @@
     },
     {
       "id": "28c364d6-2225-4537-ad0f-6bf59e730655",
-      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.number, p.name, p.group, p.role(p, s)\nFROM p IN Programmer, s IN Software\nWHERE (s.number = 101) AND (s IN p.works_on);\ncâu lệnh <span style=\"color:red\">sa</span>i <span style=\"color:red\">ở</span>:<span style=\"color:red\"> (hình ảnh)</span>",
+      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.number, p.name, p.group, p.role(p, s)\nFROM p IN Programmer, s IN Software\nWHERE (s.number = 101) AND (s IN p.works_on);\ncâu lệnh <span style='color:red'>sa</span>i <span style='color:red'>ở</span>:<span style='color:red'> (hình ảnh)</span>",
       "answers": [
         {
           "id": "61a5ebb9-b609-45c9-bfa5-da4072952cde",
@@ -4873,7 +4873,7 @@
     },
     {
       "id": "d0ad68b1-e5ba-4cbb-9e65-6c61f8db1dda",
-      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.n<span style=\"color:red\">u</span>m<span style=\"color:red\">b</span>e<span style=\"color:red\">r</span>, p.n<span style=\"color:red\">am</span>e, p.group<span style=\"color:red\">, p</span>.<span style=\"color:red\">rol</span>e<span style=\"color:red\">(p, s)</span>\nFROM p IN Programmer, s IN Software\nWHERE (<span style=\"color:red\">s</span>.number = 1<span style=\"color:red\">0</span>1) AND (s IN p.works_on);\nCâu lệnh này sẽ hiển thị <span style=\"color:red\">mã</span> số<span style=\"color:red\">,</span> t<span style=\"color:red\">ên</span>, tên nhóm các nhà lập trình <span style=\"color:red\">t</span>h<span style=\"color:red\">a</span>m <span style=\"color:red\">g</span>i<span style=\"color:red\">a</span> <span style=\"color:red\">trong</span> dự án phần mềm số 1<span style=\"color:red\">0</span>1<span style=\"color:red\"> và vai trò của họ trong dự án</span>. Tuy nhiên câu lệnh này bị lỗi tại <span style=\"color:red\">p.g</span>r<span style=\"color:red\">oup</span> cần sửa lại là <span style=\"color:red\">:</span>",
+      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.n<span style='color:red'>u</span>m<span style='color:red'>b</span>e<span style='color:red'>r</span>, p.n<span style='color:red'>am</span>e, p.group<span style='color:red'>, p</span>.<span style='color:red'>rol</span>e<span style='color:red'>(p, s)</span>\nFROM p IN Programmer, s IN Software\nWHERE (<span style='color:red'>s</span>.number = 1<span style='color:red'>0</span>1) AND (s IN p.works_on);\nCâu lệnh này sẽ hiển thị <span style='color:red'>mã</span> số<span style='color:red'>,</span> t<span style='color:red'>ên</span>, tên nhóm các nhà lập trình <span style='color:red'>t</span>h<span style='color:red'>a</span>m <span style='color:red'>g</span>i<span style='color:red'>a</span> <span style='color:red'>trong</span> dự án phần mềm số 1<span style='color:red'>0</span>1<span style='color:red'> và vai trò của họ trong dự án</span>. Tuy nhiên câu lệnh này bị lỗi tại <span style='color:red'>p.g</span>r<span style='color:red'>oup</span> cần sửa lại là <span style='color:red'>:</span>",
       "answers": [
         {
           "id": "0a1cb3ac-8348-4027-8f27-99884f95ac8a",
@@ -4919,7 +4919,7 @@
     },
     {
       "id": "29369685-5fd2-4db5-ad8b-4fdcf94a30ee",
-      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.name, p.phone_no, p.group.name\nFROM p IN Programmer, s IN Software\nWHERE (p.number = 111)\nAND NOT(s IN p.works_on);\nCâu lệnh này sẽ hiển thị tên, số điện thoại, tên nhóm, của các nhà lập trình không làm việc ở dự án phần mềm số 111. Tuy nhiên câu lệnh này bị lỗi tại<span style=\"color:red\"> điều kiện Where cần sửa lại là</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên.Và câu lệnh OQL như sau:\nSELECT p.name, p.phone_no, p.group.name\nFROM p IN Programmer, s IN Software\nWHERE (p.number = 111)\nAND NOT(s IN p.works_on);\nCâu lệnh này sẽ hiển thị tên, số điện thoại, tên nhóm, của các nhà lập trình không làm việc ở dự án phần mềm số 111. Tuy nhiên câu lệnh này bị lỗi tại<span style='color:red'> điều kiện Where cần sửa lại là</span>: (hình ảnh)",
       "answers": [
         {
           "id": "05ed9756-79c5-4e7b-97ca-e53c52279190",
@@ -4942,7 +4942,7 @@
     },
     {
       "id": "4f4deb7c-f03f-4485-997e-2598e791c286",
-      "question": "Cho các lớp đối tượng như trên. <span style=\"color:red\">Để</span> <span style=\"color:red\">hiển</span> <span style=\"color:red\">thị</span> tên, <span style=\"color:red\">số đ</span>i<span style=\"color:red\">ện thoại, tên </span>nh<span style=\"color:red\">óm,</span> của các<span style=\"color:red\"> nhà lập trình không làm việc ở</span> dự án phần mềm số 111. Ta chọn phương án nào trong các phương án sau: (hình ảnh)",
+      "question": "Cho các lớp <span style='color:red'>đối tượng </span>như trên<span style='color:red'>.</span> <span style='color:red'>Đ</span>ể hiển thị tên, số điện thoại<span style='color:red'>,</span> tên nhóm<span style='color:red'>,</span> của <span style='color:red'>các</span> nhà lập t<span style='color:red'>r</span>ình<span style='color:red'> không</span> làm việc ở <span style='color:red'>dự án ph</span>ầ<span style='color:red'>n mềm số 111. Ta chọn phươ</span>ng <span style='color:red'>án</span> <span style='color:red'>n</span>à<span style='color:red'>o trong các phương án sau</span>: (hình ảnh)",
       "answers": [
         {
           "id": "611e3ee1-73ef-47ea-9c2e-f128a15e5b70",
@@ -4965,7 +4965,7 @@
     },
     {
       "id": "a7514de8-69bd-4ae8-a245-4905b3631d95",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta c<span style=\"color:red\">họn phương án nào trong</span> c<span style=\"color:red\">ác</span> <span style=\"color:red\">p</span>h<span style=\"color:red\">ương</span> <span style=\"color:red\">án</span> sau: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. <span style='color:red'>L</span>i<span style='color:red'>ệ</span>t<span style='color:red'> kê</span> mã số, tên<span style='color:red'>,</span> <span style='color:red'>ki</span>nh<span style='color:red'> phí</span> của các dự án phần mềm s<span style='color:red'>au năm</span> 1<span style='color:red'>997</span> <span style='color:red'>do nh</span>à <span style='color:red'>lập</span> tr<span style='color:red'>ình</span> có <span style='color:red'>mã số 111 quản lý. T</span>a chọn <span style='color:red'>p</span>h<span style='color:red'>ương án nào trong các phương án sau</span>: (hình ảnh)",
       "answers": [
         {
           "id": "e4d07e19-ac25-4836-92a6-dcc41e81cb86",
@@ -4988,7 +4988,7 @@
     },
     {
       "id": "b871980e-f322-4707-ab86-8a46b9a161a8",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (<span style=\"color:red\">s</span>.number = 111) AND (p IN s.team) AND\n(role(p<span style=\"color:red\">,s</span>) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại:<span style=\"color:red\"> (hình ảnh)</span>",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (<span style='color:red'>s</span>.number = 111) AND (p IN s.team) AND\n(role(p<span style='color:red'>,s</span>) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại:<span style='color:red'> (hình ảnh)</span>",
       "answers": [
         {
           "id": "f51650c3-0900-442e-a691-940aff1fc236",
@@ -5011,7 +5011,7 @@
     },
     {
       "id": "e211d47f-8d50-401d-aa92-8ab2d85c258d",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (p IN s.team) AND\n(role(p) = ‘Manage’) AND (year(<span style=\"color:red\">s</span>.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại:",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (<span style='color:red'>p</span>.number = 111) AND (p IN s.team) AND\n(role(p) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại:",
       "answers": [
         {
           "id": "f02ec808-0295-47cb-ae49-40c72d9b9ca6",
@@ -5034,7 +5034,7 @@
     },
     {
       "id": "3ff86148-cb04-47b0-a264-bc89cb7037a3",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (<span style=\"color:red\">s</span> IN s.team) AND\n(role(p<span style=\"color:red\">,s</span>) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại:<span style=\"color:red\"> (hình ảnh)</span>",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (s IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(s.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
       "answers": [
         {
           "id": "df7ca674-8032-4997-8bc4-3d8764f7cc0c",
@@ -5057,7 +5057,7 @@
     },
     {
       "id": "c329868f-2e2f-4117-ae3b-6d6c25d16127",
-      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (p IN s.team) AND\n(role(p<span style=\"color:red\">,s</span>) = ‘Manage’) AND (year(<span style=\"color:red\">p</span>.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại:<span style=\"color:red\"> (hình ảnh)</span>",
+      "question": "Cho các lớp đối tượng như trên. Liệt kê mã số, tên, kinh phí của các dự án phần mềm sau năm 1997 do nhà lập trình có mã số 111 quản lý. Ta có câu lệnh OQL sau:\nSELECT s.number, s.name, s.budget\nFROM s IN Software, p IN Programmer\nWHERE (p.number = 111) AND (p IN s.team) AND\n(role(p,s) = ‘Manage’) AND (year(p.date) >1997);\nTuy nhiên câu lệnh trên bị lỗi tại: (hình ảnh)",
       "answers": [
         {
           "id": "f451967e-9128-4e94-a53d-9c73c91b30cd",
@@ -5126,7 +5126,7 @@
     },
     {
       "id": "1afc3463-2189-473a-8f0a-25a0f976b699",
-      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style=\"color:red\">S</span>o<span style=\"color:red\">thi</span>c<span style=\"color:red\">h</span> được gọi là thuộc tính:",
+      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style='color:red'>S</span>o<span style='color:red'>thi</span>c<span style='color:red'>h</span> được gọi là thuộc tính:",
       "answers": [
         {
           "id": "59d173d8-54c5-4153-bbb5-b38256f9c99d",
@@ -5149,7 +5149,7 @@
     },
     {
       "id": "33320b82-0721-4cb0-bfbe-c748120a1af7",
-      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style=\"color:red\">T</span>h<span style=\"color:red\">uoc</span> được gọi là thuộc tính:",
+      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style='color:red'>T</span>h<span style='color:red'>uoc</span> được gọi là thuộc tính:",
       "answers": [
         {
           "id": "3f342ed4-07bc-4d27-9b2f-c0dfa225acb6",
@@ -5172,7 +5172,7 @@
     },
     {
       "id": "a20dabff-efbe-4038-b6a8-ac91dc9bc82c",
-      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style=\"color:red\">Dia</span>c<span style=\"color:red\">hi</span> được gọi là thuộc tính:",
+      "question": "Cho lớp Giao viên như sau:\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.\n<span style='color:red'>Dia</span>c<span style='color:red'>hi</span> được gọi là thuộc tính:",
       "answers": [
         {
           "id": "8eda5026-58b0-4e7a-8e3c-9ca894dc3544",
@@ -5195,7 +5195,7 @@
     },
     {
       "id": "f01cee9f-aa3f-4c3b-a8a4-0f40d1e4d8f8",
-      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT <span style=\"color:red\">p.</span>Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n<span style=\"color:red\">Làm</span> nhi<span style=\"color:red\">ệm</span> <span style=\"color:red\">vụ</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT <span style='color:red'>p.</span>Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n<span style='color:red'>Làm</span> nhi<span style='color:red'>ệm</span> <span style='color:red'>vụ</span>: (hình ảnh)",
       "answers": [
         {
           "id": "002dc967-0440-4b6c-bb46-6579f6a2e178",
@@ -5218,7 +5218,7 @@
     },
     {
       "id": "f11d5158-e26d-4fa7-b6cf-a934ebb784b5",
-      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n<span style=\"color:red\">Câu</span> <span style=\"color:red\">lệ</span>nh <span style=\"color:red\">trên sai ở</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Câu lệnh truy vấn sau:\nSELECT Name\nFROM p in SV_TOTNGHIEP\nWHERE p.DiemTB > = 7\n<span style='color:red'>Câu</span> <span style='color:red'>lệ</span>nh <span style='color:red'>trên sai ở</span>: (hình ảnh)",
       "answers": [
         {
           "id": "d91f93c4-038e-448c-9b73-bdce4a12da63",
@@ -5241,7 +5241,7 @@
     },
     {
       "id": "86c59fc2-c6c5-4534-8b69-0d68f32c1a54",
-      "question": "Cho các lớp đối tượng như trên. Để hiển thị ra tên những sinh viên đã tốt nghiệp <span style=\"color:red\">với điể</span>m tr<span style=\"color:red\">u</span>ng <span style=\"color:red\">bì</span>nh <span style=\"color:red\">>=8</span> ta chọn câu lệnh<span style=\"color:red\"> nào?</span> (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Để hiển thị ra tên những sinh viên đã tốt nghiệp <span style='color:red'>với điể</span>m tr<span style='color:red'>u</span>ng <span style='color:red'>bì</span>nh <span style='color:red'>>=8</span> ta chọn câu lệnh<span style='color:red'> nào?</span> (hình ảnh)",
       "answers": [
         {
           "id": "b2363979-0fa3-47e9-bc6f-0a26b7a3c5c6",
@@ -5264,7 +5264,7 @@
     },
     {
       "id": "aac82eee-314f-412d-bada-638cd549871d",
-      "question": "Cho các lớp đối tượng như trên. Để hiển thị ra tên những sinh viên đã tốt nghiệp m<span style=\"color:red\">à</span> tr<span style=\"color:red\">ưở</span>ng <span style=\"color:red\">khoa quản lý si</span>nh <span style=\"color:red\">viên đó là Le An</span> ta chọn câu lệnh<span style=\"color:red\">:</span> (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Để hiển thị ra tên những sinh viên đã tốt nghiệp m<span style='color:red'>à</span> tr<span style='color:red'>ưở</span>ng <span style='color:red'>khoa quản lý si</span>nh <span style='color:red'>viên đó là Le An</span> ta chọn câu lệnh<span style='color:red'>:</span> (hình ảnh)",
       "answers": [
         {
           "id": "916f87dd-a89f-48d3-8ea4-87878044beb6",
@@ -5287,7 +5287,7 @@
     },
     {
       "id": "78846845-54b9-465f-afc2-10c3a5c5a0c0",
-      "question": "Cho các lớp đối tượng như trên. <span style=\"color:red\">Để</span> liệt kê <span style=\"color:red\">ra</span> tên<span style=\"color:red\"> những</span> giáo viên có sở th<span style=\"color:red\">í</span>ch là <span style=\"color:red\">X</span>em TV t<span style=\"color:red\">a</span> ch<span style=\"color:red\">ọn</span> câu lệnh<span style=\"color:red\">:</span> (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Để <span style='color:red'>l</span>i<span style='color:red'>ệ</span>t<span style='color:red'> kê</span> ra tên những <span style='color:red'>g</span>i<span style='color:red'>áo</span> viên <span style='color:red'>có sở</span> th<span style='color:red'>íc</span>h <span style='color:red'>là Xem TV</span> ta chọn câu lệnh<span style='color:red'>:</span> (hình ảnh)",
       "answers": [
         {
           "id": "870864db-96e8-4d21-bf7f-f8a89df73829",
@@ -5310,7 +5310,7 @@
     },
     {
       "id": "1cee2caa-cb56-4eda-ab7f-f186327207b6",
-      "question": "Cho các lớp đối tượng như trên. C<span style=\"color:red\">ho c</span>âu lệnh truy vấn <span style=\"color:red\">liệt kê tất cả tên giáo viên có sở thich là xem tivi như </span>sau:\nSELECT <span style=\"color:red\">p.</span>Name\nFROM p in G<span style=\"color:red\">IAOV</span>IE<span style=\"color:red\">N</span>\nWHERE <span style=\"color:red\">‘x</span>em <span style=\"color:red\">TV’</span> <span style=\"color:red\">in</span> <span style=\"color:red\">p.Sothich</span>\n<span style=\"color:red\">Hãy cho biết c</span>âu lệnh trên sai ở<span style=\"color:red\"> đâu?</span> (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê t<span style='color:red'>ấ</span>t <span style='color:red'>cả</span> tên giáo viên <span style='color:red'>có sở thich là xem tivi n</span>hư <span style='color:red'>sau</span>:\nSELECT p.Name\nFROM p in G<span style='color:red'>IAOV</span>IE<span style='color:red'>N</span>\nWHERE <span style='color:red'>‘xem TV’ in </span>p.<span style='color:red'>S</span>o<span style='color:red'>th</span>i<span style='color:red'>ch</span>\nHãy cho biết câu lệnh trên sai ở<span style='color:red'> đâu?</span> (hình ảnh)",
       "answers": [
         {
           "id": "3b979a7a-4f93-4edf-8ee8-ff77252e4fd8",
@@ -5333,7 +5333,7 @@
     },
     {
       "id": "c6aa6f57-e7e1-4f4a-9c61-e6be090781aa",
-      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tên của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của giáo viên hướng dẫn<span style=\"color:red\">:</span>\nSELECT\np.Name\nFROM\np in SV_TOTNGHIEP,\nWHERE p.Tuoi > f.Tuoi\n<span style=\"color:red\">Hãy cho biết c</span>âu lệnh tr<span style=\"color:red\">ê</span>n sai <span style=\"color:red\">ở</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tên<span style='color:red'> của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của</span> giáo viên hư<span style='color:red'>ớng</span> <span style='color:red'>dẫn</span>:\nSELECT\np.Name\nFROM\np in <span style='color:red'>S</span>V<span style='color:red'>_TOTNGH</span>IE<span style='color:red'>P,</span>\nWHERE p.<span style='color:red'>Tu</span>oi<span style='color:red'> > f.Tuoi</span>\nHãy cho biết câu lệnh trên sai ở<span style='color:red'>:</span> (hình ảnh)",
       "answers": [
         {
           "id": "d03f1396-5c9e-4f15-a66c-5b5eebfd6d50",
@@ -5356,7 +5356,7 @@
     },
     {
       "id": "ffca810f-4a76-4b47-abd9-0c1bf33b74d9",
-      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn liệt kê tên của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của giáo viên hướng dẫn\nSELECT\np.Name\nFROM p in SV_TOTNGHIEP,\nWHERE p.Tuoi > f.Tuoi\n<span style=\"color:red\">C</span>âu lệnh tr<span style=\"color:red\">uy vấ</span>n sai <span style=\"color:red\">tại mệnh đề From cần sửa là</span>: (hình ảnh)",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn<span style='color:red'> liệt kê tên của những sinh viên đã tốt nghiệp mà tuổi của sinh viên đó lơn hơn tuổi của giáo viên hướng dẫn</span>\nSELECT\np.Name\nFROM p in SV_TOTNGHIEP,\nWHERE p.Tuoi > f.Tuoi\n<span style='color:red'>C</span>âu lệnh truy vấn <span style='color:red'>sai </span>t<span style='color:red'>ại mệ</span>n<span style='color:red'>h đề From cần sửa</span> là:<span style='color:red'> (hình ảnh)</span>",
       "answers": [
         {
           "id": "3c1db788-fa06-4a57-b3c2-d73f2fe16fe5",
@@ -5379,7 +5379,7 @@
     },
     {
       "id": "59ea75c3-7b07-4b16-9173-41358f579a0b",
-      "question": "Cho các lớp đối tượng như trên. C<span style=\"color:red\">ho c</span>âu lệnh truy vấn\nSELECT <span style=\"color:red\">p.</span>Name\nFROM\np in SV_TOTNGHIEP<span style=\"color:red\">,\nf in p.GVhuongdan</span>\nWHERE p.T<span style=\"color:red\">uoi</span> > <span style=\"color:red\">f.Tuoi</span>\n<span style=\"color:red\">Kết quả của c</span>âu lệnh tr<span style=\"color:red\">uy vấn tr</span>ên <span style=\"color:red\">là</span>:",
+      "question": "Cho các lớp đối tượng như trên. Cho câu lệnh truy vấn\nSELECT p.Name\nFROM\np in SV_TOTNGHIEP,<span style='color:red'>\nf in p.GVhuongdan</span>\nWHERE p.Tuoi > f.Tuoi\n<span style='color:red'>Kết quả của c</span>âu lệnh truy vấn tr<span style='color:red'>ê</span>n là:",
       "answers": [
         {
           "id": "39e629cc-3c35-4102-bfb1-40cd8675cd66",
@@ -5398,7 +5398,7 @@
     },
     {
       "id": "3328d7be-3b7e-4f81-be8c-32273e2717c7",
-      "question": "Cho lược đồ ER <span style=\"color:red\">như </span>trê<span style=\"color:red\">. Để</span> chuyển đổi m<span style=\"color:red\">ối</span> quan hệ <span style=\"color:red\">phản xạ như trên </span>ta <span style=\"color:red\">sử</span> dụng <span style=\"color:red\">quy tắ</span>c chuyển đổi thứ: (hình ảnh)",
+      "question": "Cho lược đồ ER <span style='color:red'>như </span>trê<span style='color:red'>.</span> <span style='color:red'>Để</span> c<span style='color:red'>huyển</span> đ<span style='color:red'>ổi</span> m<span style='color:red'>ối</span> quan hệ <span style='color:red'>phản</span> <span style='color:red'>xạ như</span> t<span style='color:red'>rên</span> <span style='color:red'>ta sử dụng quy tắ</span>c chuyển đổi thứ: (hình ảnh)",
       "answers": [
         {
           "id": "52a454ba-7d4e-4129-80bf-488d87a15782",
