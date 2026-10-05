@@ -189,6 +189,14 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
     return `${m}:${s}`;
   };
 
+  useEffect(() => {
+    const handleGlobalUpdate = () => {
+      handleReload();
+    };
+    window.addEventListener('global-update', handleGlobalUpdate);
+    return () => window.removeEventListener('global-update', handleGlobalUpdate);
+  }, [progress.quizId, isReloading]); // Add dependencies needed by handleReload
+
   // Layout styles
   const gridTemplate = '1fr 300px';
 
@@ -201,16 +209,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={() => navigate('dashboard')}>
               <ArrowLeft /> Quay lại
             </button>
-            {import.meta.env.DEV && (
-              <button 
-                className="btn btn-neutral" 
-                style={{ padding: '0.5rem 1rem' }} 
-                onClick={handleReload}
-                disabled={isReloading}
-              >
-                <RefreshCw size={18} /> Cập nhật lỗi
-              </button>
-            )}
+            {isReloading && <span style={{ fontSize: '0.9rem', color: 'var(--primary-color)' }}>Đang cập nhật...</span>}
           </div>
           <div className="quiz-header-group">
             <h3 style={{ margin: 0, whiteSpace: 'nowrap' }}>Câu {currentQIndex + 1} / {totalQuestions}</h3>

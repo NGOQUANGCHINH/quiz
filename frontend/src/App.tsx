@@ -66,7 +66,17 @@ function App() {
         </h1>
         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
           {import.meta.env.DEV && (
-            <button onClick={() => window.location.reload()} className="btn btn-neutral" title="Cập nhật tất cả bộ đề">
+            <button 
+              onClick={() => {
+                if (currentPage === 'taking' || currentPage === 'review') {
+                  window.dispatchEvent(new CustomEvent('global-update'));
+                } else {
+                  window.location.reload();
+                }
+              }} 
+              className="btn btn-neutral" 
+              title="Cập nhật bộ đề"
+            >
               <RefreshCw size={18} /> Update
             </button>
           )}
