@@ -1507,7 +1507,7 @@
     },
     {
       "id": "4949b685-73be-422f-afad-7dde0ab155b0",
-      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style='color:red'>dẫn xuất</span> ta <span style='color:red'>dùng ký hiệu:</span>",
+      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style='color:red'>dẫn xuất</span> ta dùng ký hiệu:",
       "answers": [
         {
           "id": "c5ca2d59-2395-4601-8a15-873ab0a244bf",
@@ -1530,7 +1530,7 @@
     },
     {
       "id": "d7333487-4dc5-4d5c-946a-5c708399e1c4",
-      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style='color:red'>đa trị</span> ta <span style='color:red'>sử dụng</span>: <span style='color:red'>.</span>",
+      "question": "Trong mô hình thực thể liên kết (ER) để biểu diễn một thuộc tính <span style='color:red'>đa trị</span> ta sử dụng:",
       "answers": [
         {
           "id": "9c590c12-1f69-49ad-9f59-c75825879a94",
