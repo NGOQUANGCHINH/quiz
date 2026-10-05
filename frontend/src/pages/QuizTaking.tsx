@@ -81,7 +81,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         setProgress(prev => {
           const updatedQuestions = prev.questions.map(oldQ => {
             const newQ = latestQuiz.questions.find(q => q.id === oldQ.id);
-            return newQ ? { ...oldQ, question: newQ.question, answers: newQ.answers } : oldQ;
+            return newQ ? { ...oldQ, ...newQ } : oldQ;
           });
           return { ...prev, questions: updatedQuestions };
         });
