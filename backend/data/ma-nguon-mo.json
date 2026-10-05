@@ -3562,7 +3562,8 @@
           "text": "4"
         }
       ],
-      "correctAnswerId": "95fb6f2d-f43c-406f-bb40-8a155c503824"
+      "correctAnswerId": "95fb6f2d-f43c-406f-bb40-8a155c503824",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "d24f1905-f5d3-4623-8136-cf1287b42522",
@@ -3585,7 +3586,8 @@
           "text": "8"
         }
       ],
-      "correctAnswerId": "03d08f6e-9a2e-4320-83a3-1a0000c21573"
+      "correctAnswerId": "03d08f6e-9a2e-4320-83a3-1a0000c21573",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "20bbcca2-5e81-421b-9fb6-5bd45fa54d75",
@@ -3608,7 +3610,8 @@
           "text": "10"
         }
       ],
-      "correctAnswerId": "6eef25db-74c9-44aa-b671-fdf943caaa17"
+      "correctAnswerId": "6eef25db-74c9-44aa-b671-fdf943caaa17",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "ca95d75f-7205-4533-a661-f64d53079639",
@@ -3631,7 +3634,8 @@
           "text": "11"
         }
       ],
-      "correctAnswerId": "26322426-7a48-45b5-8774-9983d183d3b0"
+      "correctAnswerId": "26322426-7a48-45b5-8774-9983d183d3b0",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "7bb37f45-fe02-49f3-b983-f4c59c36a1c9",
@@ -3654,7 +3658,8 @@
           "text": "4"
         }
       ],
-      "correctAnswerId": "cb47a35f-2407-4c5f-bc2a-74defcaa1e22"
+      "correctAnswerId": "cb47a35f-2407-4c5f-bc2a-74defcaa1e22",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "30f2849b-e3bf-467b-a33d-5d9fa16082ca",
@@ -3677,7 +3682,8 @@
           "text": "7.8"
         }
       ],
-      "correctAnswerId": "853418ef-ab0d-4e57-a821-11282881e32a"
+      "correctAnswerId": "853418ef-ab0d-4e57-a821-11282881e32a",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "5de24aa6-536b-4f4d-bb94-bc49b3e1808f",
@@ -3700,7 +3706,8 @@
           "text": "7.8"
         }
       ],
-      "correctAnswerId": "d14999a7-c403-4ef8-a172-5a9d6ef8fcbd"
+      "correctAnswerId": "d14999a7-c403-4ef8-a172-5a9d6ef8fcbd",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "b5c08c15-0c25-486d-b787-d0c8474b0387",
@@ -3723,7 +3730,8 @@
           "text": "Không có đáp án đúng"
         }
       ],
-      "correctAnswerId": "a073638a-1e97-4eb1-9d6b-e0dec39b187d"
+      "correctAnswerId": "a073638a-1e97-4eb1-9d6b-e0dec39b187d",
+      "image": "/img/hinh_02.png"
     },
     {
       "id": "fab7709a-ca3b-4263-9f9a-919a38c2ec21",
