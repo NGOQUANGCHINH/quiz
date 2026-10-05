@@ -16,5 +16,11 @@
     "title": "Lập trình C++ / Hướng đối tượng HUBT",
     "fileUrl": "lap-trinh-c-plus-plus.json",
     "questionCount": 226
+  },
+  {
+    "id": "544ae8be-7678-4ffc-808f-9fa265a53eca",
+    "title": "Cơ sở dữ liệu",
+    "fileUrl": "co-so-du-lieu.json",
+    "questionCount": 214
   }
 ]
