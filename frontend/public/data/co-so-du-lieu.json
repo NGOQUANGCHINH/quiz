@@ -121,7 +121,7 @@
     },
     {
       "id": "7cc182c6-8eee-44ac-a5ca-9eca2d069b5e",
-      "question": "Ưu điểm của cách lưu trữ dữ liệu trong CSDL là:",
+      "question": "<span style='color:red'>Ưu điểm</span> của cách lưu trữ dữ liệu trong CSDL là:",
       "answers": [
         {
           "id": "b1254c2c-aead-47cb-b07e-dcc081df923e",
@@ -167,7 +167,7 @@
     },
     {
       "id": "0b606fa1-5f4d-4359-af73-a88e7ae46560",
-      "question": "Mức khung nhìn trong kiến trúc cơ sở dữ liệu là mức có đặc điểm:",
+      "question": "Mức khung nhìn trong kiến trúc <span style='color:red'>cơ sở dữ liệu</span> là mức có đặc điểm:",
       "answers": [
         {
           "id": "ff359b1b-3123-4315-8f03-ab85b29a4db8",
@@ -190,7 +190,7 @@
     },
     {
       "id": "b73b468a-c270-4337-b1b2-d416408c0125",
-      "question": "Trong hướng đối tượng, tập hợp các thực thể hay các đối tượng có cùng đặc tính được gọi là:",
+      "question": "Trong hướng đối tượng, <span style='color:red'>tập hợp</span> các <span style='color:red'>thực thể</span> hay các đối tượng có cùng đặc tính được gọi là:",
       "answers": [
         {
           "id": "9101bf6b-ccce-4a4f-9578-525f2111123e",
@@ -259,7 +259,7 @@
     },
     {
       "id": "66a9a298-3cca-4e09-b653-c8f640e5d510",
-      "question": "Mức mà mô hình dữ liệu phản ánh thế giới thực để lưu trữ trong CSDL là mức nào:",
+      "question": "Mức mà <span style='color:red'>mô hình</span> dữ liệu phản ánh thế giới thực để lưu trữ trong CSDL là mức nào:",
       "answers": [
         {
           "id": "b5bfc4e7-8930-43f2-a7c5-4cd99b207a81",
@@ -459,7 +459,7 @@
     },
     {
       "id": "34f7494b-3c42-4123-b458-a7f461f0c47d",
-      "question": "Thực thể (Entity) là:",
+      "question": "<span style='color:red'>Thực thể</span> (Entity) là:",
       "answers": [
         {
           "id": "fa9f2447-0fc3-4a90-9ca4-b1134513c44b",
@@ -578,7 +578,7 @@
     },
     {
       "id": "031c361d-716d-47cb-91e8-fc7e8012f561",
-      "question": "Thuộc tính của thực thể sử dụng giá trị rỗng (null) khi:",
+      "question": "<span style='color:red'>Thuộc tính</span> của <span style='color:red'>thực thể</span> sử dụng <span style='color:red'>giá trị</span> rỗng (null) khi:",
       "answers": [
         {
           "id": "eeacecce-e92f-4e4c-872b-daa4d0dcbd99",
@@ -601,7 +601,7 @@
     },
     {
       "id": "a2ab5a22-00ac-4a32-b6e5-3dc5a386fec4",
-      "question": "Trong phân tích thiết kế hệ thống thường phân ra làm 3 loại thuộc tính của thực thể, đó là:",
+      "question": "Trong phân tích thiết kế hệ thống thường phân ra làm <span style='color:red'>3 loại thuộc tính</span> của <span style='color:red'>thực thể</span>, đó là:",
       "answers": [
         {
           "id": "2dd36067-a2fa-4282-807f-cbcf203947d0",
@@ -647,7 +647,7 @@
     },
     {
       "id": "21dcefb1-c665-4009-8943-35adef62ac6b",
-      "question": "Cho thực thể PHIEUTHU(so_phieu, tên_khách, dia_chi_khach, ngay_ lap, ma_hang, ten_hang, so_luong,don_gia).\nThuộc tính nào là định danh?",
+      "question": "Cho <span style='color:red'>thực thể</span> PHIEUTHU(so_phieu, tên_khách, dia_chi_khach, ngay_ lap, ma_hang, ten_hang, so_luong,don_gia).\n<span style='color:red'>Thuộc tính</span> nào là định danh?",
       "answers": [
         {
           "id": "c3f0f9aa-86f2-4551-8348-d36e170aafb1",
@@ -670,7 +670,7 @@
     },
     {
       "id": "4033f4f4-10d1-4f67-93b3-23c0aeb24966",
-      "question": "Thuộc tính khóa là thuộc tính mà các giá trị của nó nhận dạng một thực thể một cách duy nhất trong một kiểu thực thể. Vậy thuộc tính này gồm:",
+      "question": "<span style='color:red'>Thuộc tính</span> <span style='color:red'>khóa</span> là <span style='color:red'>thuộc tính</span> mà các <span style='color:red'>giá trị</span> của nó nhận dạng một <span style='color:red'>thực thể</span> một cách duy nhất trong một kiểu <span style='color:red'>thực thể</span>. Vậy <span style='color:red'>thuộc tính</span> này gồm:",
       "answers": [
         {
           "id": "254785f2-ac8e-422f-8df2-04a5882c27fb",
@@ -716,7 +716,7 @@
     },
     {
       "id": "63368cda-ce72-49b8-97cb-90f406f1be24",
-      "question": "Giả sử ta có kiểu thực thể SV(MSV, hoten, ngaysinh,gioitinh) và ta có thông tin : msv=’01’, ngaysinh={1/5/1980}, gioitinh=nam. Thông tin chi tiết bên được hiểu là gì?.",
+      "question": "Giả sử ta có kiểu <span style='color:red'>thực thể</span> SV(MSV, hoten, ngaysinh,gioitinh) và ta có thông tin : msv=’01’, ngaysinh={1/5/1980}, gioitinh=nam. Thông tin chi tiết bên được hiểu là gì?.",
       "answers": [
         {
           "id": "bbcf4ab7-ae0b-4d24-b4d6-8f85b8dc5ec2",
@@ -739,7 +739,7 @@
     },
     {
       "id": "006a551b-ee88-4d4f-bc88-df82aa09e57d",
-      "question": "Trong lược đồ ER, hình e-líp cạnh đôi ký hiệu cho loại thuộc tính nào:",
+      "question": "Trong lược đồ ER, hình e-líp cạnh đôi ký hiệu cho loại <span style='color:red'>thuộc tính</span> nào:",
       "answers": [
         {
           "id": "6dce6e1b-19a6-41ae-887c-389bcae9fd25",
@@ -854,7 +854,7 @@
     },
     {
       "id": "3f590557-6de9-4670-9a34-192f7af0f9d6",
-      "question": "Nếu lớp Cây_ăn_quả và lớp Cây_bóng_mát gộp thành một lớp mới lấy tên là Cây. Lớp Cây có đầy đủ các tính chất cũng như thuộc tính của 2 lớp trên. Lớp Cây đã sử dụng tính chất:",
+      "question": "Nếu lớp Cây_ăn_quả và lớp Cây_bóng_mát gộp thành một lớp mới lấy tên là Cây. Lớp Cây có đầy đủ các tính chất cũng như <span style='color:red'>thuộc tính</span> của 2 lớp trên. Lớp Cây đã sử dụng tính chất:",
       "answers": [
         {
           "id": "3d05ad84-a1db-4089-8bb2-2085162d8be8",
@@ -1027,7 +1027,7 @@
     },
     {
       "id": "59fc6a4a-4ce2-4ecb-b3bd-5d5b9132f4d7",
-      "question": "Trong tuyên ngôn thứ nhất về hệ quản trị CSDL hướng đối tượng, tác giả đưa ra số lượng đặc trưng của hệ quản trị CSDL hướng đối tượng buộc phải có:",
+      "question": "Trong tuyên ngôn thứ nhất về <span style='color:red'>hệ quản trị</span> CSDL hướng đối tượng, tác giả đưa ra số lượng <span style='color:red'>đặc trưng</span> của <span style='color:red'>hệ quản trị</span> CSDL hướng đối tượng buộc phải có:",
       "answers": [
         {
           "id": "247fc246-8f7b-4485-806d-90ab2445e3e7",
@@ -1296,7 +1296,7 @@
     },
     {
       "id": "93073fcd-d8db-442b-86e8-c48f58101b00",
-      "question": "Trong ngôn ngữ định nghĩa đối tượng (ODL), từ khóa mô tả tên chung của các cá thể trong lớp đối tượng là:",
+      "question": "Trong ngôn ngữ <span style='color:red'>định nghĩa</span> đối tượng (ODL), từ <span style='color:red'>khóa</span> mô tả tên chung của các cá thể trong lớp đối tượng là:",
       "answers": [
         {
           "id": "cbb9a2ad-c6b2-4124-905b-b7e4d9d6d0be",
@@ -1319,7 +1319,7 @@
     },
     {
       "id": "46301853-9f41-4697-9ad8-1681fb0810ab",
-      "question": "OQL là ngôn ngữ truy vấn CSDL hướng đối tượng đã được đề xuất trong:",
+      "question": "OQL là ngôn ngữ <span style='color:red'>truy vấn</span> CSDL hướng đối tượng đã được đề xuất trong:",
       "answers": [
         {
           "id": "5ab1855b-6c42-46c6-811a-322b3042beb3",
@@ -1365,7 +1365,7 @@
     },
     {
       "id": "84d43f1b-3119-46f7-a3d9-d82346999cbc",
-      "question": "Mô hình EER là mô hình có khái niệm:",
+      "question": "<span style='color:red'>Mô hình</span> EER là <span style='color:red'>mô hình</span> có khái niệm:",
       "answers": [
         {
           "id": "c8d30c07-c511-4d42-a78a-6fa9077553c1",
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "cf1c85d7-7b11-497f-9c5d-de76b8e1da4a",
-      "question": "Mô hình ER là mô hình có khái niệm:",
+      "question": "<span style='color:red'>Mô hình</span> ER là <span style='color:red'>mô hình</span> có khái niệm:",
       "answers": [
         {
           "id": "c1d6c268-da3f-4345-82db-301814064d29",
@@ -1461,7 +1461,7 @@
     },
     {
       "id": "191e1ee2-8358-4650-b83c-a85ab14758aa",
-      "question": "Trong mô hình EER, quá trình tổng quát hóa dùng cách thiết kế:",
+      "question": "Trong <span style='color:red'>mô hình</span> EER, quá trình tổng quát hóa dùng cách thiết kế:",
       "answers": [
         {
           "id": "4578fccb-92f2-4661-bf5d-9b6e59a64bcd",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "f3242bd6-077e-441e-abb6-db4abfae38ad",
-      "question": "Chuyển đổi từ mô hình ER sang mô hình quan hệ hãy cho biết các mối quan hệ nào trong lược đồ ER trên sẽ được chuyển đổi thành một quan hệ mới: . (hình ảnh)",
+      "question": "Chuyển đổi từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> hãy cho biết các mối <span style='color:red'>quan hệ</span> nào trong lược đồ ER trên sẽ được chuyển đổi thành một <span style='color:red'>quan hệ</span> mới: . (hình ảnh)",
       "answers": [
         {
           "id": "0c016996-c41d-47e9-b39e-eb335d3ce0b4",
@@ -1904,7 +1904,7 @@
     },
     {
       "id": "d04fe4c0-4ab3-4e34-b167-0a748c594a1f",
-      "question": "Chuyển đổi từ mô hình ER sang mô hình quan hệ hãy cho biết các mối quan hệ nào trong lược đồ ER trên sẽ được chuyển đổi thành một quan hệ mới: . (hình ảnh)",
+      "question": "Chuyển đổi từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> hãy cho biết các mối <span style='color:red'>quan hệ</span> nào trong lược đồ ER trên sẽ được chuyển đổi thành một <span style='color:red'>quan hệ</span> mới: . (hình ảnh)",
       "answers": [
         {
           "id": "9241bcd8-bb1f-4571-aa02-3c7a4f0c47e9",
@@ -2260,7 +2260,7 @@
     },
     {
       "id": "c41c5256-3bbe-4ef8-914b-34ec944ab1d9",
-      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy cho biết các mối quan hệ có trong bài toán trên?.",
+      "question": "Cho mô tả bài toán sau: Một bệnh viện có một số lượng lớn các bác sĩ đăng ký. Mỗi bác sĩ có một mã số duy nhất, họ tên, địa chỉ và số điện thoại. Mỗi bác sĩ đều có ít nhất một chuyên khoa. Thông tin về chuyên khoa gồm mã chuyên khoa. tên chuyên khoa. Bệnh viện lưu trữ tên, địa chỉ của bệnh nhân, và gán cho mỗi bệnh nhân mã số duy nhất. Bất cứ bệnh nhân nhập viện phải được theo dõi bởi một và chỉ một bác sĩ. Khi nhập viện, bệnh nhân phải được điều trị bởi ít nhất một bác sĩ. Một bác sĩ có thể điều trị nhiều bệnh nhân, hoặc không điều trị bất kỳ bệnh nhân nào. Bất cứ khi nào bệnh nhân được điều trị bởi một bác sĩ, bệnh viện đều ghi lại ngày và giờ và liều pháp điều trị. Hãy cho biết các mối <span style='color:red'>quan hệ</span> có trong bài toán trên?.",
       "answers": [
         {
           "id": "151ffd20-9fda-469e-82e2-5d36572e47fb",
@@ -2533,7 +2533,7 @@
     },
     {
       "id": "fad37d12-1acd-429d-a0e3-15704c8bc8b5",
-      "question": "Quy tắc chuyển đổi thứ hai từ mô hình ER sang mô hình hớng đối tợng là : .",
+      "question": "Quy tắc chuyển đổi thứ hai từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hớng đối tợng là : .",
       "answers": [
         {
           "id": "322b7fb5-58da-4154-a3a9-be2e6816f815",
@@ -2579,7 +2579,7 @@
     },
     {
       "id": "8168b32f-6068-4e36-9cdd-bc6f73e71efc",
-      "question": "Quan hệ nhị nguyên không thuộc tính là : .",
+      "question": "<span style='color:red'>Quan hệ</span> nhị nguyên không <span style='color:red'>thuộc tính</span> là : .",
       "answers": [
         {
           "id": "303018a3-8f23-4d10-9b6e-833f84047a9f",
@@ -2656,7 +2656,7 @@
     },
     {
       "id": "f90acf3d-0c44-446a-b906-da001cf5b096",
-      "question": "Quy tắc chuyển đổi thứ năm từ mô hình ER sang mô hình hướng đối tượng là : .",
+      "question": "Quy tắc chuyển đổi thứ năm từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng là : .",
       "answers": [
         {
           "id": "bb916c7c-d2de-4983-a94d-01565046882a",
@@ -2683,7 +2683,7 @@
     },
     {
       "id": "fcb9dedf-5c49-4f63-b594-b3206441a873",
-      "question": "Quy tắc chuyển đổi thứ năm từ mô hình ER sang mô hình hướng đối tượng là : .",
+      "question": "Quy tắc chuyển đổi thứ năm từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng là : .",
       "answers": [
         {
           "id": "67e7d919-d232-443a-a560-ca7c161c38fb",
@@ -2779,7 +2779,7 @@
     },
     {
       "id": "c1259fb5-d212-496b-b0d9-cd7e43c6c09c",
-      "question": "Cho lược đồ ER trên ta phải áp dụng quy tắc số mấy để chuyển mối quan hệ quan is-a sang mô hình hướng đối tượng : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên ta phải áp dụng quy tắc số mấy để chuyển mối <span style='color:red'>quan hệ</span> quan is-a sang <span style='color:red'>mô hình</span> hướng đối tượng : . (hình ảnh)",
       "answers": [
         {
           "id": "5e56b380-ad1c-48d9-92cf-2b5627870a44",
@@ -2803,7 +2803,7 @@
     },
     {
       "id": "268b44be-e5ee-445f-8e45-074bde5a3ea0",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
       "answers": [
         {
           "id": "eee3e5a6-f77f-4f95-ab67-a938e25f28ae",
@@ -2827,7 +2827,7 @@
     },
     {
       "id": "260cb167-386c-4fdd-a4b0-6b1de3a952d9",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ quanly sang mô hình hướng đối tượng : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối <span style='color:red'>quan hệ</span> quanly sang <span style='color:red'>mô hình</span> hướng đối tượng : . (hình ảnh)",
       "answers": [
         {
           "id": "b619adef-43e2-4f19-be6e-af9ecf8904f1",
@@ -2851,7 +2851,7 @@
     },
     {
       "id": "eb3f05de-114e-45df-97a5-497cc1cb6700",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
       "answers": [
         {
           "id": "7daa6243-ba9f-4e4c-874b-2677f4a51579",
@@ -2875,7 +2875,7 @@
     },
     {
       "id": "a04ee150-1ca7-4611-a5c3-6f25293b5cb8",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ quanly sang mô hình hướng đối tượng : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối <span style='color:red'>quan hệ</span> quanly sang <span style='color:red'>mô hình</span> hướng đối tượng : . (hình ảnh)",
       "answers": [
         {
           "id": "2c15c8c8-fa90-4e3d-bce6-5a1887852fd9",
@@ -2899,7 +2899,7 @@
     },
     {
       "id": "56b87f4e-18d8-42ce-9c90-dfc9b96707d0",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
       "answers": [
         {
           "id": "2747f7a3-58ec-4a59-b2f1-0e5b14c7217a",
@@ -2923,7 +2923,7 @@
     },
     {
       "id": "0994a8a2-b2fc-4ce9-9b49-d389a3ed1f2f",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hớng đối tượng ta sẽ được kết quả : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hớng đối tượng ta sẽ được kết quả : . (hình ảnh)",
       "answers": [
         {
           "id": "bd8decdc-d909-40b7-96a3-2651dc438dae",
@@ -2951,7 +2951,7 @@
     },
     {
       "id": "cda52924-75e6-4200-a33f-ec10455f4528",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ quanly sang mô hình hướng đối tượng : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối <span style='color:red'>quan hệ</span> quanly sang <span style='color:red'>mô hình</span> hướng đối tượng : . (hình ảnh)",
       "answers": [
         {
           "id": "3d1440a3-ae2f-4bc5-9f41-3294170c6781",
@@ -2975,7 +2975,7 @@
     },
     {
       "id": "b4ec2db8-3572-4bf1-b18f-31ce70452ed8",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
       "answers": [
         {
           "id": "ef42f1f0-9602-4fa7-bdc4-9d6767974bb3",
@@ -3003,7 +3003,7 @@
     },
     {
       "id": "28086b08-90ea-46e7-b67e-d7eaeb0faf75",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ phản xạ sang mô hình hướng đối tượng : .",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối <span style='color:red'>quan hệ</span> phản xạ sang <span style='color:red'>mô hình</span> hướng đối tượng : .",
       "answers": [
         {
           "id": "ad2fa56d-563d-4d0e-b3a7-b40e265f7ad6",
@@ -3026,7 +3026,7 @@
     },
     {
       "id": "05647c6e-e7cb-438a-a56c-e3681397b595",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc chuyển đổi <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng ta sẽ được kết quả : . (hình ảnh)",
       "answers": [
         {
           "id": "d675d00a-4389-4391-b0f5-cae74ccd8e71",
@@ -3054,7 +3054,7 @@
     },
     {
       "id": "8f42efea-d147-4e50-9768-a8ab65a3c110",
-      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối quan hệ Giảng sang mô hình hướng đối tượng : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên sau khi áp dụng quy tắc số mấy để chuyển mối <span style='color:red'>quan hệ</span> Giảng sang <span style='color:red'>mô hình</span> hướng đối tượng : . (hình ảnh)",
       "answers": [
         {
           "id": "e794413e-e9f8-41b9-b36c-36358e4c38a9",
@@ -3078,7 +3078,7 @@
     },
     {
       "id": "cc8f6a8b-9e6f-43da-a6f0-3fd75092f96f",
-      "question": "Cho lược đồ ER trên, tên các thực thể có trong lược đồ là : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, tên các <span style='color:red'>thực thể</span> có trong lược đồ là : . (hình ảnh)",
       "answers": [
         {
           "id": "fb627c59-926f-49ee-a010-a8f4ff77758d",
@@ -3126,7 +3126,7 @@
     },
     {
       "id": "ec07582a-1348-4be7-a021-aa5086120ead",
-      "question": "Cho lược đồ ER trên, sau khi chuyển đổi từ mô hình ER sang mô hình quan hệ ta sẽ được những quan hệ nào : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, sau khi chuyển đổi từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta sẽ được những <span style='color:red'>quan hệ</span> nào : . (hình ảnh)",
       "answers": [
         {
           "id": "6635b154-6da6-4336-9dbc-24c5f112511a",
@@ -3150,7 +3150,7 @@
     },
     {
       "id": "9e17d7fc-e09c-410d-88a2-f5579201d272",
-      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết Giảng sang mô hình quan hệ ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết Giảng sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
       "answers": [
         {
           "id": "295414bd-b6f3-4777-a2db-8c9cf1ac43c8",
@@ -3174,7 +3174,7 @@
     },
     {
       "id": "2ffab6ac-d8b4-4c71-bd2f-6b752b589404",
-      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết Thuộc sang mô hình quan hệ ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, để chuyển đổi liên kết Thuộc sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta phải thực hiện bước chuyển đổi thứ : . (hình ảnh)",
       "answers": [
         {
           "id": "85ff21b0-967a-4d4b-910a-2082382fbeb3",
@@ -3198,7 +3198,7 @@
     },
     {
       "id": "f21bef64-c461-4578-ab51-f0ec170924d5",
-      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang mô hình quan hệ ta được các quan hệ : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta được các <span style='color:red'>quan hệ</span> : . (hình ảnh)",
       "answers": [
         {
           "id": "ab51342f-2054-48e3-baf6-3248dc5aa29d",
@@ -3222,7 +3222,7 @@
     },
     {
       "id": "19fadd90-5cd8-42fb-a285-a47ae3d98191",
-      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta được các <span style='color:red'>thuộc tính</span> của <span style='color:red'>quan hệ</span> như sau : . (hình ảnh)",
       "answers": [
         {
           "id": "db7757b7-8e4f-403d-ad10-40f81a07593c",
@@ -3246,7 +3246,7 @@
     },
     {
       "id": "58905b3f-117c-4d59-be39-48255b74edc1",
-      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang mô hình quan hệ ta được các thuộc tính của quan hệ như sau : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta được các <span style='color:red'>thuộc tính</span> của <span style='color:red'>quan hệ</span> như sau : . (hình ảnh)",
       "answers": [
         {
           "id": "807e411b-b737-4b52-aeeb-edc0846f0d6a",
@@ -3270,7 +3270,7 @@
     },
     {
       "id": "029e43cc-2488-4d08-9309-2bc6f1c3175e",
-      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang mô hình quan hệ ta áp dụng bước chuyển đổi thứ : . (hình ảnh)",
+      "question": "Cho lược đồ ER trên, chuyển đổi lược đồ sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta áp dụng bước chuyển đổi thứ : . (hình ảnh)",
       "answers": [
         {
           "id": "fd68b225-3d06-41b4-b710-54719dde18ad",
@@ -3294,7 +3294,7 @@
     },
     {
       "id": "a357ffc6-5d91-4987-a1d5-f7b037152a21",
-      "question": "Hạt nhân của mô hình hướng đối tượng là : .",
+      "question": "Hạt nhân của <span style='color:red'>mô hình</span> hướng đối tượng là : .",
       "answers": [
         {
           "id": "59420257-663f-4aed-9017-d48f2d47737e",
@@ -3478,7 +3478,7 @@
     },
     {
       "id": "d835ef1b-8ef8-48a8-a997-7fdc0d479f94",
-      "question": "Trong mô hình hướng đối tượng, gọi C1 là siêu lớp (superclass) của lớp C2 có nghĩa là:.",
+      "question": "Trong <span style='color:red'>mô hình</span> hướng đối tượng, gọi C1 là siêu lớp (superclass) của lớp C2 có nghĩa là:.",
       "answers": [
         {
           "id": "87976dfc-dd98-46eb-8d02-2e2be4782633",
@@ -3641,7 +3641,7 @@
     },
     {
       "id": "74442912-3e8d-4ac8-a8fc-43b266fd8c9b",
-      "question": "Cho lược đồ ER nh trên, sau khi thực hiện chuyển đổi sang mô hình hướng đối tượng bằng quy tắc số 4 ta sẽ được lớp Người gồm các thuộc tính:. (hình ảnh)",
+      "question": "Cho lược đồ ER nh trên, sau khi thực hiện chuyển đổi sang <span style='color:red'>mô hình</span> hướng đối tượng bằng quy tắc số 4 ta sẽ được lớp Người gồm các <span style='color:red'>thuộc tính</span>:. (hình ảnh)",
       "answers": [
         {
           "id": "0611f6df-d2a4-4a05-b8ee-c7f6b3979810",
@@ -3665,7 +3665,7 @@
     },
     {
       "id": "baa2a453-1619-4980-aa0d-2588de500eb3",
-      "question": "Cho lược đồ ER nh trên, sau khi thực hiện chuyển đổi sang mô hình quan hệ ta sẽ được quan hệ Người: . (hình ảnh)",
+      "question": "Cho lược đồ ER nh trên, sau khi thực hiện chuyển đổi sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta sẽ được <span style='color:red'>quan hệ</span> Người: . (hình ảnh)",
       "answers": [
         {
           "id": "4685728a-e859-41c9-8297-1376f5d3bb19",
@@ -3689,7 +3689,7 @@
     },
     {
       "id": "9abfd991-77b3-4a9e-b7ef-9eec42f0a084",
-      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang mô hình hớng đối tượng ta sẽ được các lớp:. (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang <span style='color:red'>mô hình</span> hớng đối tượng ta sẽ được các lớp:. (hình ảnh)",
       "answers": [
         {
           "id": "bbee807a-225b-47cb-8e7c-1d8f998557e8",
@@ -3713,7 +3713,7 @@
     },
     {
       "id": "d5374d7b-cef9-4df2-9c74-60ad8c7c1468",
-      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang mô hình hướng đối tượng ta sẽ áp dụng quy tắc chuyển đổi thứ: . (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang <span style='color:red'>mô hình</span> hướng đối tượng ta sẽ áp dụng quy tắc chuyển đổi thứ: . (hình ảnh)",
       "answers": [
         {
           "id": "a2f4ee49-1e38-4ac1-8859-74885f0d1d3a",
@@ -3737,7 +3737,7 @@
     },
     {
       "id": "8044c285-4e12-4dac-ab6c-0b684f607baf",
-      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang mô hình hướng đối tượng ta sẽ áp dụng quy tắc chuyển đổi thứ 5, quy tắc này làm phát sinh thêm một lớp mới từ quan hệ Day gọi là Lịch Dạy, Lịch Dạy sẽ gồm những thuộc tính gì?. (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, sau khi thực hiện chuyển đổi sang <span style='color:red'>mô hình</span> hướng đối tượng ta sẽ áp dụng quy tắc chuyển đổi thứ 5, quy tắc này làm phát sinh <span style='color:red'>thêm</span> một lớp mới từ <span style='color:red'>quan hệ</span> Day gọi là Lịch Dạy, Lịch Dạy sẽ gồm những <span style='color:red'>thuộc tính</span> gì?. (hình ảnh)",
       "answers": [
         {
           "id": "658b7d6c-7c4a-4138-9117-122e99fdffbc",
@@ -3761,7 +3761,7 @@
     },
     {
       "id": "9ccce621-c966-4811-82e1-256e1870637a",
-      "question": "Cho lược đồ ER như trên, quan hệ Dạy được gọi là: . (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, <span style='color:red'>quan hệ</span> Dạy được gọi là: . (hình ảnh)",
       "answers": [
         {
           "id": "93714528-d932-4fc7-b4bc-7bb4f041e267",
@@ -3785,7 +3785,7 @@
     },
     {
       "id": "713eb8ab-5096-4739-a4fa-d015c4304007",
-      "question": "Cho lược đồ ER như trên, thực hiện chuyển đổi sang mô hình quan hệ ta sẽ được số thực thể là: . (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, thực hiện chuyển đổi sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> ta sẽ được số <span style='color:red'>thực thể</span> là: . (hình ảnh)",
       "answers": [
         {
           "id": "2bc600f1-a15c-4dc9-b1c8-727c6e67a6b3",
@@ -3809,7 +3809,7 @@
     },
     {
       "id": "f22902be-5f11-419a-87ae-8f70b9daa69f",
-      "question": "Cho lược đồ ER như trên, thực hiện chuyển đổi sang mô hình quan hệ sẽ phát sinh thêm một quan hệ mới là quan hệ Lịch dạy, quan hệ này gồm những thuộc tính: . (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, thực hiện chuyển đổi sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> sẽ phát sinh <span style='color:red'>thêm</span> một <span style='color:red'>quan hệ</span> mới là <span style='color:red'>quan hệ</span> Lịch dạy, <span style='color:red'>quan hệ</span> này gồm những <span style='color:red'>thuộc tính</span>: . (hình ảnh)",
       "answers": [
         {
           "id": "ee6eda8b-7484-4d06-9006-e171a60f0c86",
@@ -3880,7 +3880,7 @@
     },
     {
       "id": "8fb7d1c7-5f7c-4185-9ca0-115bf1915f49",
-      "question": "Cho lược đồ ER như trên, các quan hệ sinh ra tại bước chuyển đối thứ nhất từ mô hình ER sang mô hình quan hệ là: (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, các <span style='color:red'>quan hệ</span> sinh ra tại bước chuyển đối thứ nhất từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> là: (hình ảnh)",
       "answers": [
         {
           "id": "1827c564-fd37-4d9f-a5e9-b6e5d0021109",
@@ -3904,7 +3904,7 @@
     },
     {
       "id": "45574d0c-45a7-46e1-8c47-405f30308b7e",
-      "question": "Cho lược đồ ER như trên, các quan hệ sinh ra sau khi thực hiện bảy bước chuyển đổi từ mô hình ER sang mô hình quan hệ là: (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, các <span style='color:red'>quan hệ</span> sinh ra sau khi thực hiện bảy bước chuyển đổi từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> <span style='color:red'>quan hệ</span> là: (hình ảnh)",
       "answers": [
         {
           "id": "e7d8bc0c-c909-4084-971e-5366f0863e4b",
@@ -3928,7 +3928,7 @@
     },
     {
       "id": "d8d2988f-a66c-4192-bef1-39ec87bdfae2",
-      "question": "Cho lược đồ ER như trên, các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ mô hình ER sang mô hình hướng đối tượng là: (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng là: (hình ảnh)",
       "answers": [
         {
           "id": "c1286d97-76f9-4e58-a6e7-c75422189354",
@@ -3952,7 +3952,7 @@
     },
     {
       "id": "4e67ce37-fd0f-483f-ac46-9cef72dac45d",
-      "question": "Cho lược đồ ER như trên, các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ mô hình ER sang mô hình hướng đối tượng (hình ảnh)",
+      "question": "Cho lược đồ ER như trên, các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ <span style='color:red'>mô hình</span> ER sang <span style='color:red'>mô hình</span> hướng đối tượng (hình ảnh)",
       "answers": [
         {
           "id": "d25e342e-f141-42b2-a7e1-e378aba6ec8a",
@@ -3976,7 +3976,7 @@
     },
     {
       "id": "d502dd49-66d9-4bfb-884a-b5dc16e14275",
-      "question": "Cho lược đồ ER trên, lược đồ quan hệ kết quả sau khi thực hiện chuyển đổi từ ER sang là: (hình ảnh)",
+      "question": "Cho lược đồ ER trên, lược đồ <span style='color:red'>quan hệ</span> kết quả sau khi thực hiện chuyển đổi từ ER sang là: (hình ảnh)",
       "answers": [
         {
           "id": "a58b3fd1-efdb-42d2-8435-861267ed2f0d",
@@ -4000,7 +4000,7 @@
     },
     {
       "id": "3ed74d8b-f908-42f1-a609-d9a5dcf1aea0",
-      "question": "Cho lược đồ ER trên, Kết quả sau khi thực hiện chuyển đổi từ ER sang quan hệ là : Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ, mã ck), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ, Bác sĩ theo dõi), Chuyên khoa(mã ck, Tên ck), Bảng điều trị (mã bn, mã bs, ngày đt, liệu pháp). Quan hệ Bảng điều trị sẽ được phát sinh tại bước chuyển đổi thứ: (hình ảnh)",
+      "question": "Cho lược đồ ER trên, Kết quả sau khi thực hiện chuyển đổi từ ER sang <span style='color:red'>quan hệ</span> là : Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ, mã ck), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ, Bác sĩ theo dõi), Chuyên khoa(mã ck, Tên ck), <span style='color:red'>Bảng</span> điều trị (mã bn, mã bs, ngày đt, liệu pháp). <span style='color:red'>Quan hệ</span> <span style='color:red'>Bảng</span> điều trị sẽ được phát sinh tại bước chuyển đổi thứ: (hình ảnh)",
       "answers": [
         {
           "id": "0411d210-b12e-4cda-ba48-3c45249662d0",
@@ -4024,7 +4024,7 @@
     },
     {
       "id": "814b18ab-603a-40cb-a504-7820455e5d30",
-      "question": "Cho lược đồ ER trên, thuộc tính mã ck đươc thêm vào quan hệ Bác Sĩ tại bước chuyển đổi thứ: (hình ảnh)",
+      "question": "Cho lược đồ ER trên, <span style='color:red'>thuộc tính</span> mã ck đươc <span style='color:red'>thêm</span> vào <span style='color:red'>quan hệ</span> Bác Sĩ tại bước chuyển đổi thứ: (hình ảnh)",
       "answers": [
         {
           "id": "256bffe2-a938-47c9-b49d-aed7fb602379",
@@ -4047,7 +4047,7 @@
     },
     {
       "id": "f273ef81-cb74-451e-9484-87388ba83fa5",
-      "question": "Cho lược đồ ER trên, thuộc tính Bác sĩ theo dõi được thêm vào vào quan hệ Bệnh nhân tại bước chuyển đổi thứ:",
+      "question": "Cho lược đồ ER trên, <span style='color:red'>thuộc tính</span> Bác sĩ theo dõi được <span style='color:red'>thêm</span> vào vào <span style='color:red'>quan hệ</span> Bệnh nhân tại bước chuyển đổi thứ:",
       "answers": [
         {
           "id": "e90e6438-30a8-45d2-8060-33840c692dc9",
@@ -4093,7 +4093,7 @@
     },
     {
       "id": "abaef2af-be9a-4e1b-a486-73dea4a76ed0",
-      "question": "Một lớp mới có thể được định nghĩa bằng lệnh:",
+      "question": "Một lớp mới có thể được <span style='color:red'>định nghĩa</span> bằng lệnh:",
       "answers": [
         {
           "id": "a9e62cbe-4cbc-4a2a-bc82-09b2c8782535",
@@ -4866,7 +4866,7 @@
     },
     {
       "id": "78a8674d-3de9-4e35-aae4-194a14bc2d3a",
-      "question": "Trong truy vấn OQL cho phép truy vấn tối đa:",
+      "question": "Trong <span style='color:red'>truy vấn</span> OQL cho phép <span style='color:red'>truy vấn</span> <span style='color:red'>tối đa</span>:",
       "answers": [
         {
           "id": "9cdb41da-ad4d-43ec-9a6b-8fb3257e42ca",
@@ -5142,7 +5142,7 @@
     },
     {
       "id": "d3dea0bf-a512-4415-aa0e-1087fb712d63",
-      "question": "Hãy cho biết đặc trưng của OQL:",
+      "question": "Hãy cho biết <span style='color:red'>đặc trưng</span> của OQL:",
       "answers": [
         {
           "id": "b4d1aa24-274a-406d-8c35-b058e78e5734",
@@ -5460,7 +5460,7 @@
     },
     {
       "id": "3328d7be-3b7e-4f81-be8c-32273e2717c7",
-      "question": "Cho lược đồ ER như trê. Để chuyển đổi mối quan hệ phản xạ như trên ta sử dụng quy tắc chuyển đổi thứ: (hình ảnh)",
+      "question": "Cho lược đồ ER như trê. Để chuyển đổi mối <span style='color:red'>quan hệ</span> phản xạ như trên ta sử dụng quy tắc chuyển đổi thứ: (hình ảnh)",
       "answers": [
         {
           "id": "52a454ba-7d4e-4129-80bf-488d87a15782",
