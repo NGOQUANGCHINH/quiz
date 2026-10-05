@@ -11,52 +11,9 @@ interface Props {
 
 const LABELS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-// Tách text thành tokens (mỗi ký tự đặc biệt là 1 token riêng)
-const tokenize = (text: string) => text.split(/(\s+|[:;,(){}\[\]\.?!'"])/).filter(Boolean);
-
-// Highlight các phần khác nhau giữa các đáp án
+// Trả về text đáp án nguyên bản, không bôi màu đỏ
 const highlightDiffs = (answers: { id: string; text: string }[]) => {
-  if (answers.length < 2) return answers.map(a => a.text);
-  const tokenized = answers.map(a => tokenize(a.text));
-  
-  // Tính tần suất xuất hiện của mỗi token trong các đáp án
-  const tokenFreq = new Map<string, number>();
-  tokenized.forEach(tokens => {
-    const uniqueTokens = new Set(tokens);
-    for (const t of uniqueTokens) {
-      if (!/^\s+$/.test(t)) {
-        const key = t.toLowerCase();
-        tokenFreq.set(key, (tokenFreq.get(key) || 0) + 1);
-      }
-    }
-  });
-
-  return tokenized.map(tokens => {
-    let diffCharCount = 0;
-    let totalCharCount = 0;
-    
-    const highlightedTokens = tokens.map(tok => {
-      if (/^\s+$/.test(tok)) return tok;
-      
-      totalCharCount += tok.length;
-      
-      const freq = tokenFreq.get(tok.toLowerCase()) || 0;
-      // Token xuất hiện ở duy nhất 1 đáp án thì được coi là điểm khác biệt
-      if (freq === 1) {
-        diffCharCount += tok.length;
-        return `<strong style="color: var(--primary-color);">${tok}</strong>`;
-      }
-      return tok;
-    });
-
-    // Nếu phần khác biệt chiếm hơn 70% tổng số ký tự của câu thì không bôi đỏ nữa 
-    // (tránh việc nguyên một câu dài bị bôi đỏ chót, ví dụ: "Tất cả các ý trên")
-    if (totalCharCount > 0 && (diffCharCount / totalCharCount) > 0.7) {
-      return tokens.join('');
-    }
-
-    return highlightedTokens.join('');
-  });
+  return answers.map(a => a.text);
 };
 
 
