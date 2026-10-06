@@ -113,6 +113,10 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   }, [timeLeft]);
 
   const handleSelectAnswer = (answerId: string) => {
+    const hasAnswered = !!progress.answers[currentQuestion.id];
+    const canSelect = !hasAnswered || progress.config.mode === 'exam';
+    if (!canSelect) return;
+
     setProgress(prev => ({
       ...prev,
       answers: { ...prev.answers, [currentQuestion.id]: answerId }
@@ -282,15 +286,17 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                   }
                 }
 
+                const canSelect = !hasAnswered || progress.config.mode === 'exam';
+                
                 return (
                   <div 
                     key={ans.id}
-                    onClick={() => !hasAnswered && handleSelectAnswer(ans.id)}
+                    onClick={() => canSelect && handleSelectAnswer(ans.id)}
                     style={{ 
                       padding: '1rem', 
                       border: `2px solid ${borderColor}`,
                       borderRadius: '0.5rem',
-                      cursor: hasAnswered ? 'default' : 'pointer',
+                      cursor: canSelect ? 'pointer' : 'default',
                       display: 'flex',
                       alignItems: 'flex-start',
                       gap: '1rem',
