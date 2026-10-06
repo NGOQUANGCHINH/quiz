@@ -4164,7 +4164,7 @@
     },
     {
       "id": "5c4ede33-d2bb-445f-b64c-904f79be128b",
-      "question": "Trong các dự án nguồn mở, Contributor (người đóng góp) là thành viên như thế nào?",
+      "question": "Trong các dự án nguồn mở, <span style='color:red'>Contributor (người đóng góp)</span> là thành viên như thế nào?",
       "answers": [
         {
           "id": "c2e76a91-23d6-46e2-8d2c-0be170fce52c",
@@ -4176,14 +4176,18 @@
         },
         {
           "id": "8e2830c4-dee3-4888-9a6e-3e93318db8cb",
-          "text": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án Không có đáp án"
+          "text": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án"
+        },
+        {
+          "id": "ecf1446f-80a8-4bb0-b4e3-90cd070a1191",
+          "text": "Không có đáp án"
         }
       ],
       "correctAnswerId": "c2e76a91-23d6-46e2-8d2c-0be170fce52c"
     },
     {
       "id": "6233bb0a-0d56-4376-923a-73566960bae9",
-      "question": "Trong các dự án nguồn mở, Commiter (người đề xuất) là thành viên như thế nào?",
+      "question": "Trong các dự án nguồn mở, <span style='color:red'>Commiter (người đề xuất)</span> là thành viên như thế nào?",
       "answers": [
         {
           "id": "7fb627ff-a678-44f6-97bf-1154751c8ab7",
@@ -4195,14 +4199,18 @@
         },
         {
           "id": "595bdfc3-b9c5-4d74-9110-e3e122d482f8",
-          "text": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án Không có đáp án"
+          "text": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án"
+        },
+        {
+          "id": "3f5460e4-8013-46c3-b76f-1a49e667410c",
+          "text": "Không có đáp án"
         }
       ],
       "correctAnswerId": "1e0eef98-f962-4759-bfdf-d4e7c19e6c6d"
     },
     {
       "id": "27e59876-cd68-4bfd-b225-1d82eb84628f",
-      "question": "Trong các dự án nguồn mở, Reviewer là thành viên như thế nào?",
+      "question": "Trong các dự án nguồn mở, <span style='color:red'>Reviewer</span> là thành viên như thế nào?",
       "answers": [
         {
           "id": "ad8a34bb-6022-4630-89e3-612621536218",
@@ -4214,7 +4222,11 @@
         },
         {
           "id": "96096600-2955-49af-9ce9-5119d60d5e8c",
-          "text": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án Không có đáp án"
+          "text": "Thành viên thực hiện việc xét duyệt các bản đóng góp vào dự án, thăng cấp hoặc giám cấp thành viên và quản lý tổng thể cả dự án"
+        },
+        {
+          "id": "7144c7d3-c923-4fe3-95e1-6ca63cb5a7ec",
+          "text": "Không có đáp án"
         }
       ],
       "correctAnswerId": "96096600-2955-49af-9ce9-5119d60d5e8c"
