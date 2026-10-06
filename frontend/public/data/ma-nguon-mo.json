@@ -2207,29 +2207,6 @@
       "correctAnswerId": "3580d0f9-835c-4a25-b4fa-9a19f1c5637f"
     },
     {
-      "id": "9e7b536a-f55d-4018-99b3-754c4323a0dd",
-      "question": "phát biểu nào sau đây không phải là phát biểu đúng",
-      "answers": [
-        {
-          "id": "e9be2972-bcce-47d8-a6e9-c03e7d84462b",
-          "text": "Phần mềm mã nguồn mở là phần mềm tự do"
-        },
-        {
-          "id": "ecd1b48d-d1ee-4c91-912b-ad42acbb796b",
-          "text": "Phần mềm mã nguồn mở cho phép người dùng được sửa mã nguồn"
-        },
-        {
-          "id": "a199bbf7-9d7a-4907-8e8a-127ecd0451a2",
-          "text": "Phần mềm mã nguồn mở là phần mềm miễn phí"
-        },
-        {
-          "id": "8d28827a-6daf-4671-8e8f-33d8132ecc85",
-          "text": "Phần mềm mã nguồn mở cho phép người dùng được tự do chia sẻ cho người khác"
-        }
-      ],
-      "correctAnswerId": "e9be2972-bcce-47d8-a6e9-c03e7d84462b"
-    },
-    {
       "id": "334627e1-60a9-42a3-839f-fef99c5d744f",
       "question": "Câu nào sau đây không phải là ưu điểm của <span style='color:red'>mã nguồn mở</span>",
       "answers": [
@@ -2251,29 +2228,6 @@
         }
       ],
       "correctAnswerId": "8aabb622-a2a9-4df0-81da-200dcc2b5b05"
-    },
-    {
-      "id": "a01f6f27-b911-4cc3-8a7c-a68ec1086e76",
-      "question": "Câu nào sau đây là đúng",
-      "answers": [
-        {
-          "id": "5102276e-4500-482b-8b46-5162ebda7571",
-          "text": "Phần mềm mã nguồn mở không mang lại lợi nhuận"
-        },
-        {
-          "id": "56390ddd-4e17-49ef-9447-8115d63b2227",
-          "text": "Phần mềm mã nguồn mở không cho phép phân phối lại"
-        },
-        {
-          "id": "ec465a31-0af3-43b4-9488-3008874329bb",
-          "text": "Phần mềm mã nguồn mở không có bản quyền"
-        },
-        {
-          "id": "5a7944ea-a0a6-4df5-928d-afb492790688",
-          "text": "Phần mềm mã nguồn mở không có bảo hành"
-        }
-      ],
-      "correctAnswerId": "5a7944ea-a0a6-4df5-928d-afb492790688"
     },
     {
       "id": "c705797a-ccdd-4ff5-9b2c-c0aed8502c5c",
@@ -2343,29 +2297,6 @@
         }
       ],
       "correctAnswerId": "b65ca5fa-8107-4024-b35f-7ef05ab08c94"
-    },
-    {
-      "id": "35da76f9-f549-44cc-a8bc-e07623de9200",
-      "question": "bạn hãy cho biết phần mềm nào sau đây sử dụng giấp phép GNU GPL:",
-      "answers": [
-        {
-          "id": "496943a8-91b0-4977-8eec-ddf329adc01f",
-          "text": "Ubuntu"
-        },
-        {
-          "id": "7debb95e-6335-4dc6-a5f6-823fdbd6bea3",
-          "text": "Window Xfree86"
-        },
-        {
-          "id": "e8db595f-30ac-4b9c-ae21-8da9325f2605",
-          "text": "JavaFBP toolkit"
-        },
-        {
-          "id": "ab8286a5-047b-48a5-9670-c9c4291563a8",
-          "text": "Không câu nào đúng"
-        }
-      ],
-      "correctAnswerId": "496943a8-91b0-4977-8eec-ddf329adc01f"
     },
     {
       "id": "28e06514-67ee-4369-a3ba-ccc5aa9a4006",
@@ -2598,75 +2529,6 @@
       "correctAnswerId": "c1c7040f-f352-41c6-b873-aca4b2ae94b6"
     },
     {
-      "id": "8d93558d-c79f-43a4-9f5e-eb32ababf3b8",
-      "question": "Nukeviet được viết bằng ngôn ngữ và sử dụng CSDL nào?",
-      "answers": [
-        {
-          "id": "ba96ca7f-ee9b-4a46-815d-b137668cfcab",
-          "text": "PHP và MySQL"
-        },
-        {
-          "id": "4f6d2f13-b909-456f-8373-dd5dbd35173f",
-          "text": "PHP và Access"
-        },
-        {
-          "id": "0a206e5c-3b20-4459-acff-3c61be4dcb40",
-          "text": "PHP và DB4.0"
-        },
-        {
-          "id": "f841fc0e-8eb2-4d19-be57-ab1751764772",
-          "text": "PHP và O2"
-        }
-      ],
-      "correctAnswerId": "ba96ca7f-ee9b-4a46-815d-b137668cfcab"
-    },
-    {
-      "id": "f4ed30c9-1e2a-42e7-81cd-dbcf7501e03b",
-      "question": "Nukeviet sử dụng bộ giấy phép nào?",
-      "answers": [
-        {
-          "id": "5aa0d8e3-57c9-4901-b3ba-ed0a3b24def0",
-          "text": "GNU/GPL"
-        },
-        {
-          "id": "0a9a8609-01b4-4f04-92bb-54de619a2974",
-          "text": "GNU/GPC"
-        },
-        {
-          "id": "cfb93170-ff8e-48ea-b5ae-2a33a124caa5",
-          "text": "GUI/GPL"
-        },
-        {
-          "id": "d17f6016-e5ef-4bc4-bdb5-6fbb148af003",
-          "text": "GNU/GPLs"
-        }
-      ],
-      "correctAnswerId": "5aa0d8e3-57c9-4901-b3ba-ed0a3b24def0"
-    },
-    {
-      "id": "bc0286a9-f7d6-4099-8cdd-f33cb8ecfbff",
-      "question": "Chọn phát biểu đúng?",
-      "answers": [
-        {
-          "id": "31ab43f9-a85f-4d93-b607-52a9b005539d",
-          "text": "Joomla là mã nguồn mở và được cung cấp hoàn toàn miễn phí"
-        },
-        {
-          "id": "efd55ecd-3c98-4aaf-9648-d1fecca653d5",
-          "text": "Joomla là một công cụ lập trình web"
-        },
-        {
-          "id": "55019666-6c20-4fa1-961f-bf7f0b29f748",
-          "text": "Joomla được phát triển bởi Microsoft"
-        },
-        {
-          "id": "f91d3e2d-3f57-4d9c-a22e-cbc37d445ce6",
-          "text": "Không có đáp án đúng"
-        }
-      ],
-      "correctAnswerId": "31ab43f9-a85f-4d93-b607-52a9b005539d"
-    },
-    {
       "id": "99655352-3279-4f6b-b56d-61fc73c2485f",
       "question": "Chọn phát biểu đúng?",
       "answers": [
@@ -2757,75 +2619,6 @@
         }
       ],
       "correctAnswerId": "03d84642-a7cd-495e-8675-516fa6eccc05"
-    },
-    {
-      "id": "696cafda-f615-4736-bf14-2f4b732691db",
-      "question": "Joomla không thể sử dụng vào những site?",
-      "answers": [
-        {
-          "id": "02e8d697-d7c8-42b0-a656-798751c2265f",
-          "text": "Blog cá nhân, tin tức, trường học"
-        },
-        {
-          "id": "87858574-b46f-48fe-9c02-0e334f79aa82",
-          "text": "Thể thao, giải trí, mua sắm, thương mại điện tử"
-        },
-        {
-          "id": "d7cf5821-614d-445a-b354-48548f309d6e",
-          "text": "Danh bạ trực tuyến, mạng xã hội, mạng cộng đồng"
-        },
-        {
-          "id": "70188bd9-37c4-4d49-ad33-9ec54606df2b",
-          "text": "Không có đáp án đúng"
-        }
-      ],
-      "correctAnswerId": "70188bd9-37c4-4d49-ad33-9ec54606df2b"
-    },
-    {
-      "id": "fc64cf38-eb60-4476-878f-06019ead90d7",
-      "question": "Moodle viết tắt của?",
-      "answers": [
-        {
-          "id": "1bf38020-f959-4321-a0dd-55f5e10f4c87",
-          "text": "Modular Object-Oriented Dynamic Learning Environment"
-        },
-        {
-          "id": "a6bdc7a4-478a-465a-ad58-5396e67ddd99",
-          "text": "Modular -Oriented Dynamic Learning Environment"
-        },
-        {
-          "id": "e99c4797-6df5-4047-b323-385f46025be0",
-          "text": "Modular Object- Dynamic Learning Environment"
-        },
-        {
-          "id": "40fe4399-08a7-41a8-8894-37a9623deba2",
-          "text": "Modular Object-Oriented Learning Environment"
-        }
-      ],
-      "correctAnswerId": "1bf38020-f959-4321-a0dd-55f5e10f4c87"
-    },
-    {
-      "id": "580804e3-c332-45e0-8105-721ae513b13c",
-      "question": "Công cụ Moodle dùng chủ yếu trong site nào?",
-      "answers": [
-        {
-          "id": "d7e7c186-e656-4703-86f7-fc0b27782555",
-          "text": "Giáo dục"
-        },
-        {
-          "id": "befb074e-4293-4a04-9fc1-a22c071275a5",
-          "text": "Tin tức"
-        },
-        {
-          "id": "30b6f123-e9e1-4ef9-977d-24417d715c3f",
-          "text": "Thương mại điện tử"
-        },
-        {
-          "id": "f51d3e2d-3f57-4d9c-a22e-cbc37d445ce6",
-          "text": "Thể thao, giải trí"
-        }
-      ],
-      "correctAnswerId": "d7e7c186-e656-4703-86f7-fc0b27782555"
     },
     {
       "id": "fd6d1e73-70d0-4cf8-bdf2-4d5703de42e2",
@@ -3012,52 +2805,6 @@
       "correctAnswerId": "5d59b307-a4ba-4a92-b078-22c7dd436133"
     },
     {
-      "id": "30b37317-06f7-455a-aa47-17463a7140bf",
-      "question": "Quy trình triển khai hệ thống Moodle gồm có mấy bước",
-      "answers": [
-        {
-          "id": "6586e0ba-ea77-4742-bb05-5ca67ae2def6",
-          "text": "4"
-        },
-        {
-          "id": "ca0e23f0-7e00-4d56-9abd-f9a9584c6207",
-          "text": "3"
-        },
-        {
-          "id": "78e55c35-7025-4a51-a8d9-e68e89346417",
-          "text": "2"
-        },
-        {
-          "id": "e0a1d59f-d083-4532-973a-c55f9d841d5e",
-          "text": "Không có đáp án đúng"
-        }
-      ],
-      "correctAnswerId": "6586e0ba-ea77-4742-bb05-5ca67ae2def6"
-    },
-    {
-      "id": "165f9009-ada2-4e27-8f78-e91e775cb39b",
-      "question": "Bước 1 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
-      "answers": [
-        {
-          "id": "e58b00df-71fe-4d29-883e-5c71f67ea7e1",
-          "text": "Thuê tên miền, webhosting hoặc cài đặt hệ thống Moodle trên serer localhost"
-        },
-        {
-          "id": "3652eaa4-5967-4b96-8c59-eb2fe916ac88",
-          "text": "Cài đặt và cấu hình hệ thống Moodle Elearning"
-        },
-        {
-          "id": "7fea0974-cdf0-4e0a-85cd-a9aa5bcd575c",
-          "text": "Tạo các tài khoản cho người dùng và phân quyền cho người dùng trong hệ thống"
-        },
-        {
-          "id": "e2ef5ebf-1caf-4b70-996f-320c6d04a553",
-          "text": "Hỗ trợ thường xuyên người dùng trong quá trình sử dụng hệ thống Moodle Elearning"
-        }
-      ],
-      "correctAnswerId": "e58b00df-71fe-4d29-883e-5c71f67ea7e1"
-    },
-    {
       "id": "d9ef2572-d537-41d6-95dd-4bcd7a7f6393",
       "question": "Bước 2 trong quy trình triển khai hệ thống Moodle thực hiện công viêc?",
       "answers": [
@@ -3150,52 +2897,6 @@
       "correctAnswerId": "deed08aa-75c9-4380-9604-f3289227333a"
     },
     {
-      "id": "14246646-e7b1-4217-863b-4d06d7e2a240",
-      "question": "Để tạo môi trường Web trên localhost bạn chọn cách nào sau đây?",
-      "answers": [
-        {
-          "id": "fe3c40ae-c107-47e3-a144-b6d494ce664e",
-          "text": "Cài đặt IIS trong Window"
-        },
-        {
-          "id": "577c571d-48d1-469a-82b7-3327795c5d25",
-          "text": "Cài đặt SQL Server"
-        },
-        {
-          "id": "6328b7bd-bf63-472a-acfd-e4cd7bf2b2a1",
-          "text": "Cài đặt MySQL"
-        },
-        {
-          "id": "526c057e-df21-42a3-af9d-f8eddcaf04fe",
-          "text": "Không có đáp án đúng"
-        }
-      ],
-      "correctAnswerId": "fe3c40ae-c107-47e3-a144-b6d494ce664e"
-    },
-    {
-      "id": "76df8b10-e279-4786-b751-e0c63d66ea12",
-      "question": "Để tạo môi trường Web và CSDL trên Localhost bạn phải cài đặt?",
-      "answers": [
-        {
-          "id": "978f5bb8-5f72-42fd-b14c-fb8a6546231f",
-          "text": "Cài đặt XamPP"
-        },
-        {
-          "id": "666d1d90-250c-45c6-a720-bc83728aa181",
-          "text": "Cài đặt XML"
-        },
-        {
-          "id": "4749cfc9-9073-462e-bca9-ffc631bac41c",
-          "text": "Cài đặt PHP"
-        },
-        {
-          "id": "c81d3e2d-3f57-4d9c-a22e-cbc37d445ce6",
-          "text": "Cài đặt IIS"
-        }
-      ],
-      "correctAnswerId": "978f5bb8-5f72-42fd-b14c-fb8a6546231f"
-    },
-    {
       "id": "6c8c35bb-66c8-4684-9ce5-db8c6ac3f5ef",
       "question": "Để tạo môi trường Web và CSDL trên Localhost bạn phải cài đặt?",
       "answers": [
@@ -3240,29 +2941,6 @@
         }
       ],
       "correctAnswerId": "d2f6991c-90bd-4b21-bec3-fd54b4b3515b"
-    },
-    {
-      "id": "09325e2f-c959-46ac-8e64-9e45932a0928",
-      "question": "Theo bạn có những Webserver nào sau đây không tồn tại?",
-      "answers": [
-        {
-          "id": "9ea6e974-a2f8-449c-96dc-8425738328cf",
-          "text": "Apache"
-        },
-        {
-          "id": "78b4b18b-0d66-455b-85f2-a7f71c3082a4",
-          "text": "ISS của Microsoft"
-        },
-        {
-          "id": "b67b290e-20e8-4e60-a4b7-065f61d48a2d",
-          "text": "Sun Java System Web"
-        },
-        {
-          "id": "19c4e6de-2e75-403b-90a6-6f7b23876b43",
-          "text": "Không có đáp án đúng"
-        }
-      ],
-      "correctAnswerId": "19c4e6de-2e75-403b-90a6-6f7b23876b43"
     },
     {
       "id": "2060bb25-0405-4e9a-ae2c-0ca19c00c368",
@@ -3683,30 +3361,6 @@
         }
       ],
       "correctAnswerId": "853418ef-ab0d-4e57-a821-11282881e32a",
-      "image": "/img/hinh_02.png"
-    },
-    {
-      "id": "5de24aa6-536b-4f4d-bb94-bc49b3e1808f",
-      "question": "Nhìn vào hình 02, phiên bản XAMPP là?",
-      "answers": [
-        {
-          "id": "d14999a7-c403-4ef8-a172-5a9d6ef8fcbd",
-          "text": "7.2"
-        },
-        {
-          "id": "e35b347f-e822-4e9f-8ab0-9e158ca968d1",
-          "text": "7.2.x"
-        },
-        {
-          "id": "9bdec421-eb38-4792-baf5-34fae214d43e",
-          "text": "7.7"
-        },
-        {
-          "id": "dd2ca57d-af14-4187-a26d-af8c22c118fe",
-          "text": "7.8"
-        }
-      ],
-      "correctAnswerId": "d14999a7-c403-4ef8-a172-5a9d6ef8fcbd",
       "image": "/img/hinh_02.png"
     },
     {
