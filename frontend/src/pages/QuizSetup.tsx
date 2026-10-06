@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { api } from '../utils/api';
 import type {  Quiz, QuizConfig, ProgressData  } from '../types';
 import { v4 as uuidv4 } from 'uuid';
-import { ArrowLeft, Check } from 'lucide-react';
+import { ArrowLeft, Check, AlertTriangle } from 'lucide-react';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
 interface Props {
@@ -50,8 +50,16 @@ export default function QuizSetup({ quizId, navigate }: Props) {
     autoNextQuestion: true
   });
 
+  const [error, setError] = useState<string | null>(null);
+
   useEffect(() => {
-    api.getQuizById(quizId).then(setQuiz);
+    setError(null);
+    api.getQuizById(quizId)
+      .then(setQuiz)
+      .catch(err => {
+        console.error(err);
+        setError('Không thể tải bộ đề. Vui lòng kiểm tra lại kết nối hoặc file dữ liệu.');
+      });
   }, [quizId]);
 
   const handleStart = async () => {
@@ -92,6 +100,16 @@ export default function QuizSetup({ quizId, navigate }: Props) {
     await api.saveProgress(newProgress);
     navigate('taking', { progress: newProgress });
   };
+
+  if (error) return (
+    <div style={{ textAlign: 'center', padding: '3rem 1rem' }}>
+      <AlertTriangle size={48} color="var(--wrong-color)" style={{ marginBottom: '1rem' }} />
+      <h3 style={{ color: 'var(--wrong-color)' }}>{error}</h3>
+      <button className="btn btn-primary" style={{ marginTop: '1rem' }} onClick={() => navigate('dashboard')}>
+        Quay lại trang chủ
+      </button>
+    </div>
+  );
 
   if (!quiz) return <div>Đang tải...</div>;
 
