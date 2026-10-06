@@ -2783,19 +2783,19 @@
       "answers": [
         {
           "id": "5e56b380-ad1c-48d9-92cf-2b5627870a44",
-          "text": "Quy tắc số <span style='color:red'>1</span>."
+          "text": "Quy tắc số 1."
         },
         {
           "id": "eccf96c3-ed8c-4226-9d8d-9d6940821094",
-          "text": "Quy tắc số <span style='color:red'>2</span>."
+          "text": "Quy tắc số 2."
         },
         {
           "id": "06960dfd-0d1a-4046-b048-17aab22c9319",
-          "text": "Quy tắc số <span style='color:red'>3</span>."
+          "text": "Quy tắc số 3."
         },
         {
           "id": "5e90f2bf-8c1e-43f2-98c0-b0aafa6a4219",
-          "text": "Quy tắc số <span style='color:red'>4</span>."
+          "text": "Quy tắc số 4."
         }
       ],
       "correctAnswerId": "5e56b380-ad1c-48d9-92cf-2b5627870a44",
@@ -2807,19 +2807,19 @@
       "answers": [
         {
           "id": "eee3e5a6-f77f-4f95-ab67-a938e25f28ae",
-          "text": "Tại lớp <span style='color:red'>Nhân viên sẽ</span> có thêm thuộc tính inherits: <span style='color:red'>Nguoi</span>."
+          "text": "Tại lớp Nhân viên sẽ có thêm thuộc tính inherits: Nguoi."
         },
         {
           "id": "72b3c1c9-8a70-42a0-bc26-ac61afa41faa",
-          "text": "<span style='color:red'>Không có gì thay đổi ở lược đồ hai</span> lớp."
+          "text": "Không có gì thay đổi ở lược đồ hai lớp."
         },
         {
           "id": "9c4604bb-2194-443a-9723-cae12a411118",
-          "text": "Tại lớp <span style='color:red'>Nguoi</span> có thêm thuộc tính inherits: <span style='color:red'>Nhân viên</span>."
+          "text": "Tại lớp Nguoi có thêm thuộc tính inherits: Nhân viên."
         },
         {
           "id": "977282b1-2dbf-4fa5-b6e9-d8e082bc4e9e",
-          "text": "Tại lớp Nhân viên sẽ có thêm thuộc tính inherits: Nguoi <span style='color:red'>và tại lớp Nguoi có thêm thuộc tính inherits: Nhân viên</span>."
+          "text": "Tại lớp Nhân viên sẽ có thêm thuộc tính inherits: Nguoi và tại lớp Nguoi có thêm thuộc tính inherits: Nhân viên."
         }
       ],
       "correctAnswerId": "eee3e5a6-f77f-4f95-ab67-a938e25f28ae",
@@ -2831,19 +2831,19 @@
       "answers": [
         {
           "id": "b619adef-43e2-4f19-be6e-af9ecf8904f1",
-          "text": "Quy tắc số <span style='color:red'>1</span>."
+          "text": "Quy tắc số 1."
         },
         {
           "id": "c44b2b68-9208-468b-b1f2-f6a211027aa0",
-          "text": "Quy tắc số <span style='color:red'>2</span>."
+          "text": "Quy tắc số 2."
         },
         {
           "id": "b9add116-27b7-4fb3-8a20-ff135dccd728",
-          "text": "Quy tắc số <span style='color:red'>3</span>."
+          "text": "Quy tắc số 3."
         },
         {
           "id": "2c7d757a-d7b6-4523-aa84-d9458a1f02ce",
-          "text": "Quy tắc số <span style='color:red'>4</span>."
+          "text": "Quy tắc số 4."
         }
       ],
       "correctAnswerId": "c44b2b68-9208-468b-b1f2-f6a211027aa0",
@@ -2855,19 +2855,19 @@
       "answers": [
         {
           "id": "7daa6243-ba9f-4e4c-874b-2677f4a51579",
-          "text": "Tại lớp <span style='color:red'>Trởng khoa sẽ</span> có thêm thuộc tính quanly: <span style='color:red'>Khoa</span>."
+          "text": "Tại lớp Trởng khoa sẽ có thêm thuộc tính quanly: Khoa."
         },
         {
           "id": "b5a0d5ec-72af-428e-ac05-4081ce4ae400",
-          "text": "<span style='color:red'>Không có gì thay đổi ở lợc đồ hai</span> lớp."
+          "text": "Không có gì thay đổi ở lợc đồ hai lớp."
         },
         {
           "id": "9dbb8680-24f4-4d96-afb7-84555ebb35bf",
-          "text": "Tại lớp <span style='color:red'>Khoa</span> có thêm thuộc tính quanly: <span style='color:red'>Truongkhoa</span>."
+          "text": "Tại lớp Khoa có thêm thuộc tính quanly: Truongkhoa."
         },
         {
           "id": "5270150b-e54f-4545-9bd3-9868b9b81b50",
-          "text": "<span style='color:red'>Tại lớp Trưởng khoa có thêm thuộc tính quanly: Khoa và tại</span> lớp Khoa có thêm thuộc tính quanly: Truongkhoa."
+          "text": "Tại lớp Trưởng khoa có thêm thuộc tính quanly: Khoa và tại lớp Khoa có thêm thuộc tính quanly: Truongkhoa."
         }
       ],
       "correctAnswerId": "5270150b-e54f-4545-9bd3-9868b9b81b50",
@@ -2879,19 +2879,19 @@
       "answers": [
         {
           "id": "2c15c8c8-fa90-4e3d-bce6-5a1887852fd9",
-          "text": "Quy tắc số <span style='color:red'>1</span>."
+          "text": "Quy tắc số 1."
         },
         {
           "id": "a91d2320-fa65-4120-a58e-26f29e187a86",
-          "text": "Quy tắc số <span style='color:red'>2</span>."
+          "text": "Quy tắc số 2."
         },
         {
           "id": "96cb02b3-51d8-4d75-95bb-f03ce511003b",
-          "text": "Quy tắc số <span style='color:red'>3</span>."
+          "text": "Quy tắc số 3."
         },
         {
           "id": "ca57163e-9854-48e1-bd0a-eb80b7a5e34f",
-          "text": "Quy tắc số <span style='color:red'>4</span>."
+          "text": "Quy tắc số 4."
         }
       ],
       "correctAnswerId": "a91d2320-fa65-4120-a58e-26f29e187a86",
@@ -2903,15 +2903,15 @@
       "answers": [
         {
           "id": "2747f7a3-58ec-4a59-b2f1-0e5b14c7217a",
-          "text": "Tại lớp <span style='color:red'>Giáo viên sẽ</span> có thêm thuộc tính Thuoc: <span style='color:red'>Khoa</span>."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: Khoa."
         },
         {
           "id": "ec136e69-7c15-48e3-aebc-bad9fdcc1a48",
-          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: <span style='color:red'>set(</span>Khoa<span style='color:red'>)</span> và tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien).<span style='color:red'>.</span>"
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: set(Khoa) và tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien).."
         },
         {
           "id": "3b10ed80-3962-4b6a-bf01-b2e59cb6a4bf",
-          "text": "Tại lớp <span style='color:red'>Khoa</span> có thêm thuộc tính Thuoc: <span style='color:red'>set(Giaovien)</span>."
+          "text": "Tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
         },
         {
           "id": "d3f7218d-8235-488d-9bd4-ac937f770161",
@@ -2927,15 +2927,15 @@
       "answers": [
         {
           "id": "bd8decdc-d909-40b7-96a3-2651dc438dae",
-          "text": "Tại lớp <span style='color:red'>Giáo viên sẽ</span> có thêm thuộc tính Thuoc: set(<span style='color:red'>Khoa</span>)."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: set(Khoa)."
         },
         {
           "id": "829231b6-5cb3-4762-95d0-05e0f8b546b5",
-          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: <span style='color:red'>set(</span>Khoa<span style='color:red'>)</span> và tại lớp Khoa có thêm thuộc tính Thuoc: <span style='color:red'>set</span>(Giaovien)."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: set(Khoa) và tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
         },
         {
           "id": "515943b3-eb53-47fe-a36b-619a85c05843",
-          "text": "Tại lớp <span style='color:red'>Khoa</span> có thêm thuộc tính Thuoc: set(<span style='color:red'>Giaovien</span>)."
+          "text": "Tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
         },
         {
           "id": "51da0cbe-c18f-4fa8-bff6-1c1b41e82e24",
@@ -2955,19 +2955,19 @@
       "answers": [
         {
           "id": "3d1440a3-ae2f-4bc5-9f41-3294170c6781",
-          "text": "Quy tắc số <span style='color:red'>1</span>."
+          "text": "Quy tắc số 1."
         },
         {
           "id": "831db5c2-e28f-4cb3-98d4-f8543674e8df",
-          "text": "Quy tắc số <span style='color:red'>2</span>."
+          "text": "Quy tắc số 2."
         },
         {
           "id": "f6e41489-5a9f-4db9-8cf9-3c31a68eca92",
-          "text": "Quy tắc số <span style='color:red'>3</span>."
+          "text": "Quy tắc số 3."
         },
         {
           "id": "2e6e5d12-4bf0-44c9-aea1-e3c0f0406181",
-          "text": "Quy tắc số <span style='color:red'>4</span>."
+          "text": "Quy tắc số 4."
         }
       ],
       "correctAnswerId": "831db5c2-e28f-4cb3-98d4-f8543674e8df",
@@ -2979,19 +2979,19 @@
       "answers": [
         {
           "id": "ef42f1f0-9602-4fa7-bdc4-9d6767974bb3",
-          "text": "Tại lớp <span style='color:red'>Giáo viên sẽ</span> có thêm thuộc tính Giang: set(<span style='color:red'>Mon</span>)."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang: set(Mon)."
         },
         {
           "id": "56810e0c-29a0-4ea5-ab67-88a15b14b165",
-          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính <span style='color:red'>Giang</span>: <span style='color:red'>set(Mon)</span> và tại lớp <span style='color:red'>Mon</span> có thêm thuộc tính <span style='color:red'>Giang</span>: <span style='color:red'>Set</span>(Giaovien)."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang: set(Mon) và tại lớp Mon có thêm thuộc tính Giang: Set(Giaovien)."
         },
         {
           "id": "94f63c40-b077-4030-90e8-21641806a4fd",
-          "text": "Tại lớp <span style='color:red'>Mon</span> có thêm thuộc tính Giang: set(<span style='color:red'>Giaovien</span>)."
+          "text": "Tại lớp Mon có thêm thuộc tính Giang: set(Giaovien)."
         },
         {
           "id": "cc842e8a-b137-4c3c-b456-8d864d19e273",
-          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính <span style='color:red'>Thuoc</span>: <span style='color:red'>Khoa</span> và tại lớp <span style='color:red'>Khoa</span> có thêm thuộc tính <span style='color:red'>Thuoc</span>: (Giaovien)."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: Khoa và tại lớp Khoa có thêm thuộc tính Thuoc: (Giaovien)."
         },
         {
           "id": "12c0f490-9d9d-4fa9-8b45-09cc7118c092",
@@ -3007,19 +3007,19 @@
       "answers": [
         {
           "id": "ad2fa56d-563d-4d0e-b3a7-b40e265f7ad6",
-          "text": "Quy tắc số <span style='color:red'>1</span>."
+          "text": "Quy tắc số 1."
         },
         {
           "id": "0fb82b19-1c99-458f-ad8f-6f7e399e8a42",
-          "text": "Quy tắc số <span style='color:red'>2</span>."
+          "text": "Quy tắc số 2."
         },
         {
           "id": "d8c576d4-ffa8-4443-8fc1-f843baf43b38",
-          "text": "Quy tắc số <span style='color:red'>3</span>."
+          "text": "Quy tắc số 3."
         },
         {
           "id": "d26dcb69-9807-4ad1-bfb5-eb1beed5a480",
-          "text": "Quy tắc số <span style='color:red'>4</span>."
+          "text": "Quy tắc số 4."
         }
       ],
       "correctAnswerId": "d8c576d4-ffa8-4443-8fc1-f843baf43b38"
@@ -3030,19 +3030,19 @@
       "answers": [
         {
           "id": "d675d00a-4389-4391-b0f5-cae74ccd8e71",
-          "text": "Tại lớp <span style='color:red'>Giáo viên sẽ</span> có thêm thuộc tính <span style='color:red'>Giang1</span>: set(Gvien_Khoa)."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa)."
         },
         {
           "id": "2da44e00-4960-4369-ac14-e76483e7bbcb",
-          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa) <span style='color:red'>và tại lớp Khoa có thêm thuộc tính Giang2: Set(Gvien_Khoa)</span>."
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa) và tại lớp Khoa có thêm thuộc tính Giang2: Set(Gvien_Khoa)."
         },
         {
           "id": "ae1e7e9a-5324-42e6-88df-79749be56df0",
-          "text": "Tại lớp <span style='color:red'>Khoa</span> có thêm thuộc tính <span style='color:red'>Giang2</span>: set(Gvien_Khoa)."
+          "text": "Tại lớp Khoa có thêm thuộc tính Giang2: set(Gvien_Khoa)."
         },
         {
           "id": "48307612-8df3-4bb4-befe-4abf3e775e9d",
-          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa) và tại lớp Khoa có thêm thuộc tính Giang2: Set(Gvien_Khoa). <span style='color:red'>Và lớp Gvien_Khoa sẽ có thuộc tính là( ID_gvien_khoa: AllID, Giang1: Giaovien, Giang2: Khoa. tongsotiet: integer).</span>"
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa) và tại lớp Khoa có thêm thuộc tính Giang2: Set(Gvien_Khoa). Và lớp Gvien_Khoa sẽ có thuộc tính là( ID_gvien_khoa: AllID, Giang1: Giaovien, Giang2: Khoa. tongsotiet: integer)."
         },
         {
           "id": "5928e999-523c-4256-9ce9-0460e0633dd0",
@@ -3058,19 +3058,19 @@
       "answers": [
         {
           "id": "e794413e-e9f8-41b9-b36c-36358e4c38a9",
-          "text": "Quy tắc số <span style='color:red'>1</span>."
+          "text": "Quy tắc số 1."
         },
         {
           "id": "7805594b-0e58-4283-9adf-ad4a7b2174f9",
-          "text": "Quy tắc số <span style='color:red'>2</span>."
+          "text": "Quy tắc số 2."
         },
         {
           "id": "77fc4677-44a0-4217-abbe-a3cfbdc61646",
-          "text": "Quy tắc số <span style='color:red'>3</span>."
+          "text": "Quy tắc số 3."
         },
         {
           "id": "0d19d01e-f88f-457b-bff6-a200dad566e2",
-          "text": "Quy tắc số <span style='color:red'>4</span>."
+          "text": "Quy tắc số 4."
         }
       ],
       "correctAnswerId": "0d19d01e-f88f-457b-bff6-a200dad566e2",
@@ -3082,7 +3082,7 @@
       "answers": [
         {
           "id": "fb627c59-926f-49ee-a010-a8f4ff77758d",
-          "text": "Giaovien, <span style='color:red'>Giang,</span> Khoa."
+          "text": "Giaovien, Giang, Khoa."
         },
         {
           "id": "e23fc4a3-bc57-4271-9596-47440978693f",
@@ -3090,7 +3090,7 @@
         },
         {
           "id": "e0cd8ac1-d33c-4d65-bf5f-711c3e64f052",
-          "text": "Giaovien, Khoa. <span style='color:red'>Tongsotiet, Giang.</span>"
+          "text": "Giaovien, Khoa. Tongsotiet, Giang."
         },
         {
           "id": "0356a679-56a9-4190-9b29-9095b0cb413b",
@@ -3106,15 +3106,15 @@
       "answers": [
         {
           "id": "7c3000d9-def8-46f5-b848-6bffc6d44651",
-          "text": "Thuộc tính <span style='color:red'>của liên kết Giang</span>."
+          "text": "Thuộc tính của liên kết Giang."
         },
         {
           "id": "7a5d38fa-69cb-4a50-bd3d-8a230cff1f11",
-          "text": "Thuộc tính của <span style='color:red'>kiểu thực thể Khoa và Giáo viên</span>."
+          "text": "Thuộc tính của kiểu thực thể Khoa và Giáo viên."
         },
         {
           "id": "943e078a-7b51-46d7-906a-98330307b151",
-          "text": "Thuộc tính <span style='color:red'>không</span> thể <span style='color:red'>sử dụng</span>."
+          "text": "Thuộc tính không thể sử dụng."
         },
         {
           "id": "586e2c53-8aac-4a39-b7ee-8ee3bb0b0669",
@@ -3130,7 +3130,7 @@
       "answers": [
         {
           "id": "6635b154-6da6-4336-9dbc-24c5f112511a",
-          "text": "Quan hệ: Giáo viên, Khoa. <span style='color:red'>Gvien_Khoa (sinh ra do liên kết Giang).</span>"
+          "text": "Quan hệ: Giáo viên, Khoa. Gvien_Khoa (sinh ra do liên kết Giang)."
         },
         {
           "id": "cfb77320-3fc7-4008-b5d8-2eadd740c606",
@@ -3138,7 +3138,7 @@
         },
         {
           "id": "d030b2bb-16f8-496f-88bd-35794b80e2ef",
-          "text": "<span style='color:red'>Không thể chuyển đổi mô hình sang mô hình quan</span> hệ."
+          "text": "Không thể chuyển đổi mô hình sang mô hình quan hệ."
         },
         {
           "id": "817cb73f-9130-4cc0-b5d2-b02602505577",
@@ -3154,19 +3154,19 @@
       "answers": [
         {
           "id": "295414bd-b6f3-4777-a2db-8c9cf1ac43c8",
-          "text": "<span style='color:red'>3</span>."
+          "text": "3."
         },
         {
           "id": "fd0b41b4-35ed-4e6b-aded-33b8893fac04",
-          "text": "<span style='color:red'>4</span>."
+          "text": "4."
         },
         {
           "id": "fb113b65-40f9-4f19-b5ce-388d832e56b2",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "62af6995-4d47-443c-96b9-f5a915f0bcf4",
-          "text": "<span style='color:red'>6</span>."
+          "text": "6."
         }
       ],
       "correctAnswerId": "fb113b65-40f9-4f19-b5ce-388d832e56b2",
@@ -3178,19 +3178,19 @@
       "answers": [
         {
           "id": "85ff21b0-967a-4d4b-910a-2082382fbeb3",
-          "text": "<span style='color:red'>3</span>."
+          "text": "3."
         },
         {
           "id": "50389f7c-8982-455d-8dcb-3254fc87a689",
-          "text": "<span style='color:red'>4</span>."
+          "text": "4."
         },
         {
           "id": "78bde25b-f059-4ca0-8542-a82afecb4a12",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "c504f5e5-01f0-45e0-8d6f-974759463ba7",
-          "text": "<span style='color:red'>6</span>."
+          "text": "6."
         }
       ],
       "correctAnswerId": "50389f7c-8982-455d-8dcb-3254fc87a689",
@@ -3202,11 +3202,11 @@
       "answers": [
         {
           "id": "ab51342f-2054-48e3-baf6-3248dc5aa29d",
-          "text": "<span style='color:red'>Giáo viên,</span> Giáo <span style='color:red'>viên_thuộc_Khoa</span>. <span style='color:red'>Khoa.</span>"
+          "text": "Giáo viên, Giáo viên_thuộc_Khoa. Khoa."
         },
         {
           "id": "d09fd52d-d57d-4ed6-8f29-25090f59b7e1",
-          "text": "<span style='color:red'>Khoa.</span> Giáo viên."
+          "text": "Khoa. Giáo viên."
         },
         {
           "id": "1b990677-8d97-4ca2-bf40-77d869abea81",
@@ -3226,7 +3226,7 @@
       "answers": [
         {
           "id": "db7757b7-8e4f-403d-ad10-40f81a07593c",
-          "text": "Giáo viên( id_gv, <span style='color:red'>hodem,</span> ten, tuoi<span style='color:red'>, id_k</span>); Khoa(id_k, tenkhoa. sodienthoai)."
+          "text": "Giáo viên( id_gv, hodem, ten, tuoi, id_k); Khoa(id_k, tenkhoa. sodienthoai)."
         },
         {
           "id": "7c810da2-219c-48f0-ab39-70efb81f10de",
@@ -3254,7 +3254,7 @@
         },
         {
           "id": "c20ad95c-a650-4224-bbab-e7b7c74709f1",
-          "text": "Truongkhoa(id_tk, hoten, tuoi<span style='color:red'>, id_khoa</span>); Khoa(id_k, tenkhoa. sodienthoai, id_tk)."
+          "text": "Truongkhoa(id_tk, hoten, tuoi, id_khoa); Khoa(id_k, tenkhoa. sodienthoai, id_tk)."
         },
         {
           "id": "b29b72a3-0700-4250-99aa-4d8cdba3171e",
@@ -3262,7 +3262,7 @@
         },
         {
           "id": "d51f54e5-629e-48c2-a144-89d2cbb81944",
-          "text": "Truongkhoa(id_tk, hodem, ten, tuoi<span style='color:red'>, id_khoa</span>)<span style='color:red'>,</span> Khoa(id_k, tenkhoa. sodienthoai)."
+          "text": "Truongkhoa(id_tk, hodem, ten, tuoi, id_khoa), Khoa(id_k, tenkhoa. sodienthoai)."
         }
       ],
       "correctAnswerId": "807e411b-b737-4b52-aeeb-edc0846f0d6a",
@@ -3274,19 +3274,19 @@
       "answers": [
         {
           "id": "fd68b225-3d06-41b4-b710-54719dde18ad",
-          "text": "<span style='color:red'>3</span>."
+          "text": "3."
         },
         {
           "id": "6319f5f2-2f81-4edb-ba46-ee622f159cda",
-          "text": "<span style='color:red'>4</span>."
+          "text": "4."
         },
         {
           "id": "777475d8-7501-4464-9d1b-e1be9ffd51c4",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "af43c5e4-8fae-42b3-9fef-22d3eb065644",
-          "text": "<span style='color:red'>7</span>."
+          "text": "7."
         }
       ],
       "correctAnswerId": "fd68b225-3d06-41b4-b710-54719dde18ad",
@@ -3645,15 +3645,15 @@
       "answers": [
         {
           "id": "0611f6df-d2a4-4a05-b8ee-c7f6b3979810",
-          "text": "id: allID, Hoten: String, Tuoi: Integer, Con: Set(Nguoi)<span style='color:red'>, Cha</span>. <span style='color:red'>Me: Nguoi;.</span>"
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Con: Set(Nguoi), Cha. Me: Nguoi;."
         },
         {
           "id": "ce711200-11a9-482d-b338-b517944dbcd2",
-          "text": "id: allID, Hoten: String, Tuoi: Integer, <span style='color:red'>Cha. Me</span>: Nguoi."
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Cha. Me: Nguoi."
         },
         {
           "id": "15ac60ba-2c58-4b7f-a7f7-5a3465428698",
-          "text": "id: allID, Hoten: String, Tuoi: Integer, <span style='color:red'>Con</span>: <span style='color:red'>Set(</span>Nguoi<span style='color:red'>)</span>."
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Con: Set(Nguoi)."
         },
         {
           "id": "c947b463-9a56-4d8b-af65-8eb3b86c07be",
@@ -3673,7 +3673,7 @@
         },
         {
           "id": "52966d56-62a0-4705-8d0b-4c66f03b7eca",
-          "text": "Nguoi(id, hoten, tuoi, id_cha. id_me<span style='color:red'>, id_con</span>)."
+          "text": "Nguoi(id, hoten, tuoi, id_cha. id_me, id_con)."
         },
         {
           "id": "b7e53abb-8fe4-41d7-b4be-0e5581af6cb4",
@@ -3693,19 +3693,19 @@
       "answers": [
         {
           "id": "bbee807a-225b-47cb-8e7c-1d8f998557e8",
-          "text": "Giáo viên, Lớp, Môn học<span style='color:red'>, Lịch dạy;</span>."
+          "text": "Giáo viên, Lớp, Môn học, Lịch dạy;."
         },
         {
           "id": "c10a0b6c-a684-4e1a-acf2-813049ab1413",
-          "text": "Giáo viên, <span style='color:red'>Lớp</span>, Môn học."
+          "text": "Giáo viên, Lớp, Môn học."
         },
         {
           "id": "350a26d5-c683-4ecd-80df-a2528af24dd7",
-          "text": "Giáo viên, <span style='color:red'>Lịch dạy</span>, Môn học."
+          "text": "Giáo viên, Lịch dạy, Môn học."
         },
         {
           "id": "e9f7ee2c-0d36-45ce-8890-ffe28f9c4d4a",
-          "text": "Giáo viên, Lịch dạy, <span style='color:red'>Lớp</span>."
+          "text": "Giáo viên, Lịch dạy, Lớp."
         }
       ],
       "correctAnswerId": "bbee807a-225b-47cb-8e7c-1d8f998557e8",
@@ -3717,19 +3717,19 @@
       "answers": [
         {
           "id": "a2f4ee49-1e38-4ac1-8859-74885f0d1d3a",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "42375cb1-32af-49ec-b685-7876553d941f",
-          "text": "<span style='color:red'>4</span>."
+          "text": "4."
         },
         {
           "id": "e05b306b-a450-4d38-91cc-fe0a3d27c1c1",
-          "text": "<span style='color:red'>3</span>."
+          "text": "3."
         },
         {
           "id": "fb45c123-974e-4d2f-af5f-f34585ccc8ab",
-          "text": "<span style='color:red'>2</span>."
+          "text": "2."
         }
       ],
       "correctAnswerId": "a2f4ee49-1e38-4ac1-8859-74885f0d1d3a",
@@ -3741,7 +3741,7 @@
       "answers": [
         {
           "id": "658b7d6c-7c4a-4138-9117-122e99fdffbc",
-          "text": "Thời gian: String, Giang: Giaovien, Gomco: Monhoc<span style='color:red'>, Botri: Lop</span>."
+          "text": "Thời gian: String, Giang: Giaovien, Gomco: Monhoc, Botri: Lop."
         },
         {
           "id": "b6db2db0-3e51-4b26-9fd7-77a1ed66d428",
@@ -3765,19 +3765,19 @@
       "answers": [
         {
           "id": "93714528-d932-4fc7-b4bc-7bb4f041e267",
-          "text": "Quan hệ <span style='color:red'>đa</span> nguyên."
+          "text": "Quan hệ đa nguyên."
         },
         {
           "id": "6b344561-7685-41d1-8da3-ebbac94e5024",
-          "text": "Quan hệ <span style='color:red'>nhị</span> nguyên."
+          "text": "Quan hệ nhị nguyên."
         },
         {
           "id": "b1accc6c-1b70-4ec9-bd42-00cec11e8d98",
-          "text": "Quan hệ <span style='color:red'>phức hợp</span>."
+          "text": "Quan hệ phức hợp."
         },
         {
           "id": "72748610-538a-461c-b7e3-6c1b162fcece",
-          "text": "Quan hệ đa <span style='color:red'>trị</span>."
+          "text": "Quan hệ đa trị."
         }
       ],
       "correctAnswerId": "93714528-d932-4fc7-b4bc-7bb4f041e267",
@@ -3789,19 +3789,19 @@
       "answers": [
         {
           "id": "2bc600f1-a15c-4dc9-b1c8-727c6e67a6b3",
-          "text": "<span style='color:red'>4</span>."
+          "text": "4."
         },
         {
           "id": "f4cb1386-d23b-4db6-ad1e-199faceabaf0",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "eaf64382-1987-4657-89b7-a0eb46bf3b98",
-          "text": "<span style='color:red'>3</span>."
+          "text": "3."
         },
         {
           "id": "3a72edb2-4833-42af-8559-3945a3bede50",
-          "text": "<span style='color:red'>2</span>."
+          "text": "2."
         }
       ],
       "correctAnswerId": "2bc600f1-a15c-4dc9-b1c8-727c6e67a6b3",
@@ -3817,7 +3817,7 @@
         },
         {
           "id": "3697149d-18f1-487e-b20d-d363528b845d",
-          "text": "id_gv, id_lop, id_monhoc<span style='color:red'>, thoigian</span>."
+          "text": "id_gv, id_lop, id_monhoc, thoigian."
         },
         {
           "id": "6bd237fe-6f44-4678-b332-e017c633e441",
@@ -3825,7 +3825,7 @@
         },
         {
           "id": "99288c9b-e987-41c2-9b0c-413e0a3a2872",
-          "text": "id_lop<span style='color:red'>, id_gv</span>, id_monhoc, thoigian<span style='color:red'>, hoten, sotiet</span>."
+          "text": "id_lop, id_gv, id_monhoc, thoigian, hoten, sotiet."
         }
       ],
       "correctAnswerId": "3697149d-18f1-487e-b20d-d363528b845d",
@@ -3888,11 +3888,11 @@
         },
         {
           "id": "9cb004ef-97ac-405d-8666-012d2a2501d6",
-          "text": "Bác sĩ, Chuyên khoa, Bệnh nhân<span style='color:red'>, Liệu pháp điều trị</span>"
+          "text": "Bác sĩ, Chuyên khoa, Bệnh nhân, Liệu pháp điều trị"
         },
         {
           "id": "5d723d0f-f43e-45ee-8e67-3308d79e1e81",
-          "text": "Bệnh nhân<span style='color:red'>, Bác Sĩ</span>, Liệu pháp điều trị"
+          "text": "Bệnh nhân, Bác Sĩ, Liệu pháp điều trị"
         },
         {
           "id": "705f8d47-5b61-42fe-8cca-b59ecd4d8461",
@@ -3912,11 +3912,11 @@
         },
         {
           "id": "9af9a9f9-9e23-4c74-8fb5-5168fbb047a7",
-          "text": "Bác sĩ, Chuyên khoa, Bệnh nhân<span style='color:red'>, Bảng theo dõi điều trị</span>"
+          "text": "Bác sĩ, Chuyên khoa, Bệnh nhân, Bảng theo dõi điều trị"
         },
         {
           "id": "967bc8cd-72ba-4e93-8d3e-6ae6d0b498b8",
-          "text": "Bệnh nhân, <span style='color:red'>Bác Sĩ, Liệu pháp</span> điều trị"
+          "text": "Bệnh nhân, Bác Sĩ, Liệu pháp điều trị"
         },
         {
           "id": "4bb40dae-99ef-403a-82dc-fcf51693179b",
@@ -3936,11 +3936,11 @@
         },
         {
           "id": "f1621959-ade0-469d-9ded-eb01128da777",
-          "text": "Lớp đối tượng Bác sĩ, Lớp đối tượng Chuyên khoa, Lớp đối tượng Bệnh nhân<span style='color:red'>, Lớp đối tượng Bảng theo dõi điều trị</span>"
+          "text": "Lớp đối tượng Bác sĩ, Lớp đối tượng Chuyên khoa, Lớp đối tượng Bệnh nhân, Lớp đối tượng Bảng theo dõi điều trị"
         },
         {
           "id": "5961f90d-9066-4659-8caf-9c406d2cf812",
-          "text": "Lớp Bệnh nhân, Lớp <span style='color:red'>Bác Sĩ, Lớp Liệu pháp</span> điều trị"
+          "text": "Lớp Bệnh nhân, Lớp Bác Sĩ, Lớp Liệu pháp điều trị"
         },
         {
           "id": "cd46066f-267b-445c-8130-21255639074a",
@@ -3960,11 +3960,11 @@
         },
         {
           "id": "ee006815-bec5-4d61-bf93-a64fa5bf1c5c",
-          "text": "Lớp đối tượng Bác sĩ, Lớp đối tượng Chuyên khoa, Lớp đối tượng Bệnh nhân<span style='color:red'>, Lớp đối tượng Bảng theo dõi điều trị</span>"
+          "text": "Lớp đối tượng Bác sĩ, Lớp đối tượng Chuyên khoa, Lớp đối tượng Bệnh nhân, Lớp đối tượng Bảng theo dõi điều trị"
         },
         {
           "id": "e6be88bf-e650-4da2-9011-313aea3c0391",
-          "text": "Lớp Bệnh nhân, Lớp <span style='color:red'>Bác Sĩ, Lớp Liệu pháp</span> điều trị"
+          "text": "Lớp Bệnh nhân, Lớp Bác Sĩ, Lớp Liệu pháp điều trị"
         },
         {
           "id": "5440e32a-c325-49e4-a011-edc1821139db",
@@ -3980,15 +3980,15 @@
       "answers": [
         {
           "id": "a58b3fd1-efdb-42d2-8435-861267ed2f0d",
-          "text": "Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ, mã ck), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ<span style='color:red'>, Bác sĩ theo dõi</span>), Chuyên khoa(mã ck, Tên ck), Bảng điều trị (mã bn, mã bs, ngày đt, liệu pháp)."
+          "text": "Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ, mã ck), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ, Bác sĩ theo dõi), Chuyên khoa(mã ck, Tên ck), Bảng điều trị (mã bn, mã bs, ngày đt, liệu pháp)."
         },
         {
           "id": "62710ca5-ec66-4dee-a821-54c1cd133f01",
-          "text": "Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ<span style='color:red'>,</span>), Chuyênkhoa(mã ck, Tên ck), Bảng điều trị (mã bn, mã bs, ngày đt, liệu pháp)."
+          "text": "Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ,), Chuyênkhoa(mã ck, Tên ck), Bảng điều trị (mã bn, mã bs, ngày đt, liệu pháp)."
         },
         {
           "id": "45f579af-181f-4a4b-916d-1f48173253f5",
-          "text": "Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ<span style='color:red'>, mã ck</span>), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ), Chuyênkhoa(mã ck, Tên ck), Bảng điều trị (mã bn, mã bs, ngày đt, liệu pháp)."
+          "text": "Bác Sĩ(Mã bs, Họ đêm, Tên, Số đt, Địa chỉ, mã ck), Bệnh nhân( Mã bn, Họ đêm, tên, địa chỉ), Chuyênkhoa(mã ck, Tên ck), Bảng điều trị (mã bn, mã bs, ngày đt, liệu pháp)."
         },
         {
           "id": "cb02c378-bfb5-48e4-8653-d43f688f7959",
@@ -4004,19 +4004,19 @@
       "answers": [
         {
           "id": "0411d210-b12e-4cda-ba48-3c45249662d0",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "4e4f9a9d-11e7-4151-af95-cc623081484f",
-          "text": "<span style='color:red'>6</span>."
+          "text": "6."
         },
         {
           "id": "6f6200bf-32df-47cd-99bd-fe3c0f70f969",
-          "text": "<span style='color:red'>7</span>."
+          "text": "7."
         },
         {
           "id": "f595f8ae-1d4e-4a2d-84c4-181d88209c2a",
-          "text": "<span style='color:red'>8</span>."
+          "text": "8."
         }
       ],
       "correctAnswerId": "0411d210-b12e-4cda-ba48-3c45249662d0",
@@ -4028,19 +4028,19 @@
       "answers": [
         {
           "id": "256bffe2-a938-47c9-b49d-aed7fb602379",
-          "text": "<span style='color:red'>4</span>."
+          "text": "4."
         },
         {
           "id": "2c73a779-ea33-48fd-9603-4c5c5b94f109",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "1feb191e-e136-4e33-ab60-d31a4e515274",
-          "text": "<span style='color:red'>6</span>."
+          "text": "6."
         },
         {
           "id": "d9a473f9-69f8-47e9-bc35-38ae011979f2",
-          "text": "<span style='color:red'>7</span>."
+          "text": "7."
         }
       ],
       "correctAnswerId": "256bffe2-a938-47c9-b49d-aed7fb602379"
@@ -4051,19 +4051,19 @@
       "answers": [
         {
           "id": "e90e6438-30a8-45d2-8060-33840c692dc9",
-          "text": "<span style='color:red'>4</span>."
+          "text": "4."
         },
         {
           "id": "1173dfc0-819c-4ea9-86af-3776176924fd",
-          "text": "<span style='color:red'>5</span>."
+          "text": "5."
         },
         {
           "id": "c244b2e1-3d7f-4abb-8e85-85d3101e1109",
-          "text": "<span style='color:red'>6</span>."
+          "text": "6."
         },
         {
           "id": "0bc1650b-620b-4ea4-ba1c-d9edd58b2568",
-          "text": "<span style='color:red'>8</span>."
+          "text": "8."
         }
       ],
       "correctAnswerId": "e90e6438-30a8-45d2-8060-33840c692dc9"
@@ -5464,19 +5464,19 @@
       "answers": [
         {
           "id": "52a454ba-7d4e-4129-80bf-488d87a15782",
-          "text": "<span style='color:red'>1</span>"
+          "text": "1"
         },
         {
           "id": "3ee8756b-d16c-453b-8ae9-530c742f99d6",
-          "text": "<span style='color:red'>2</span>"
+          "text": "2"
         },
         {
           "id": "71ac37cb-730e-498b-bdb5-c1bd977693b2",
-          "text": "<span style='color:red'>3</span>"
+          "text": "3"
         },
         {
           "id": "5ad070b4-789f-451e-a511-5197479b25db",
-          "text": "<span style='color:red'>4</span>"
+          "text": "4"
         }
       ],
       "correctAnswerId": "5ad070b4-789f-451e-a511-5197479b25db",
