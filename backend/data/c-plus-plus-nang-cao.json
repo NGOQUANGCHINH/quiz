@@ -800,19 +800,19 @@
       "answers": [
         {
           "id": "81968f77-08aa-42aa-a50d-a61878d624dd",
-          "text": "Kiểu_trả_về_của_hàm Tên_lớp:Tên_hàm(danh sách tham số) {[nội dung hàm]}"
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_lớp:Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
         },
         {
           "id": "902aef27-9c0d-4bdb-937d-946b089d1c98",
-          "text": "Kiểu_trả_về_của_hàm Tên_hàm:Tên_lớp(danh sách tham số) {[nội dung hàm]}"
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_hàm:Tên_lớp</span>(danh sách tham số) {[nội dung hàm]}"
         },
         {
           "id": "74dc3a35-9cd7-446a-a232-9740bdd07666",
-          "text": "Kiểu_trả_về_của_hàm Tên_hàm(danh sách tham số) {[nội dung hàm]}"
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
         },
         {
           "id": "6a51e4b0-c3d5-49a2-b9f3-708f2e997af9",
-          "text": "Kiểu_trả_về_của_hàm Tên_lớp::Tên_hàm(danh sách tham số) {[nội dung hàm]}"
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_lớp::Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
         }
       ],
       "correctAnswerId": "6a51e4b0-c3d5-49a2-b9f3-708f2e997af9",
