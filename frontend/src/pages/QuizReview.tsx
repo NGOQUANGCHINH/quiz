@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type {  ProgressData  } from '../types';
 import { ArrowLeft, Check, X } from 'lucide-react';
+import { formatQuestionText } from './QuizTaking';
 
 interface Props {
   progress: ProgressData;
@@ -62,7 +63,7 @@ export default function QuizReview({ progress, navigate }: Props) {
 
               <div 
                 style={{ fontSize: '1.1rem', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}
-                dangerouslySetInnerHTML={{ __html: q.question }}
+                dangerouslySetInnerHTML={{ __html: formatQuestionText(q.question) }}
               />
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>

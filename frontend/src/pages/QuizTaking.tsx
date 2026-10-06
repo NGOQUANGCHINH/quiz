@@ -17,39 +17,37 @@ const highlightDiffs = (answers: { id: string; text: string }[]) => {
 };
 
 
-const formatQuestionText = (text: string) => {
-  // Render code blocks, and inside them highlight the "key" lines
+const escapeHtml = (str: string) => {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+};
+
+export const formatQuestionText = (text: string) => {
+  // Render code blocks with clean formatting and escaped HTML entities
   let html = text.replace(/```[a-z]*\n([\s\S]*?)\n?```/gi, (_match, code: string) => {
-    const lines = code.split('\n');
-    const highlighted = lines.map(line => {
-      const trimmed = line.trim();
-      // Key lines: contain operators or expressions that are typically the "point" of the code
-      const isKeyLine = /(\+\+|--|[+\-*\/]=|\bcout\b|\bcin\b|\breturn\b|\bif\b|\bfor\b|\bwhile\b)/.test(trimmed)
-        && trimmed !== '' && !trimmed.startsWith('#') && !trimmed.startsWith('int main') && !trimmed.startsWith('{') && !trimmed.startsWith('}');
-      if (isKeyLine) {
-        return `<strong style="color: var(--primary-color);">${line}</strong>`;
-      }
-      return line;
-    });
-    return `<pre class="code-block"><code>${highlighted.join('\n')}</code></pre>`;
+    const cleanCode = code.replace(/<span[^>]*>(.*?)<\/span>/gi, '$1');
+    const escapedCode = escapeHtml(cleanCode.trimEnd());
+    return `<pre class="code-block"><code>${escapedCode}</code></pre>`;
   });
   
   // Danh sách các từ khóa quan trọng cần bôi đậm (chỉ bôi đậm, không đổi màu)
   const importantKeywords = /\b(không được|ngoại trừ|ngoại lệ|không thể|không|chưa|sai|nhất|tất cả|chỉ|duy nhất|luôn luôn|bắt buộc|tối đa|tối thiểu|cơ bản|chủ yếu|đặc trưng|quan trọng|bao gồm|chức năng|mục đích|nguyên tắc|tính chất|phân biệt|nào sau đây|là gì|tại sao|như thế nào|khi nào|đúng|chính xác)\b/gi;
   
-  // Bảo vệ cả code blocks VÀ các thẻ <span style='color:red'> đã có (từ JSON - bôi đỏ điểm khác biệt)
+  // Bảo vệ cả code blocks VÀ các thẻ <span style='...'> đã có
   const codeBlocks: string[] = [];
   html = html.replace(/<pre class="code-block"><code>[\s\S]*?<\/code><\/pre>/gi, match => {
     codeBlocks.push(match);
     return `__CODE_BLOCK_${codeBlocks.length - 1}__`;
   });
-  // Bảo vệ span đỏ từ JSON (cả single-quote và double-quote variants)
-  html = html.replace(/<span style=['"]color:red['"]>[\s\S]*?<\/span>/gi, match => {
+  // Bảo vệ span đã có (cả single-quote và double-quote variants)
+  html = html.replace(/<span style=['"][^'"]*['"]>[\s\S]*?<\/span>/gi, match => {
     codeBlocks.push(match);
     return `__CODE_BLOCK_${codeBlocks.length - 1}__`;
   });
 
-  // Bôi đậm từ khóa trong phần text thường (đã bảo vệ span đỏ)
+  // Bôi đậm từ khóa trong phần text thường (đã bảo vệ span và code blocks)
   html = html.replace(importantKeywords, '<strong>$&</strong>');
 
   // Khôi phục lại tất cả protected blocks
@@ -59,6 +57,7 @@ const formatQuestionText = (text: string) => {
 
   return html;
 };
+
 
 export default function QuizTaking({ progress: initialProgress, navigate }: Props) {
   const [progress, setProgress] = useState<ProgressData>(initialProgress);
