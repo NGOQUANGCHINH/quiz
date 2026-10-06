@@ -832,7 +832,7 @@
     },
     {
       "id": "0bf1ffb9-c7ff-440b-a5d2-5cc1943ecd5f",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ điều hành nguồn mở được ưu tiên mua sắm, sử dụng trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <span style='color:red'>hệ điều hành</span> nguồn mở được ưu tiên <span style='color:red'>mua sắm, sử dụng</span> trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "b80e021e-e6a1-47b1-9dac-f1e1d972e9ad",
@@ -855,7 +855,7 @@
     },
     {
       "id": "27bcd6dd-31a5-4690-acaf-48e93f9b57a4",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ quản trị nội dung Web nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <span style='color:red'>hệ quản trị nội dung Web</span> nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "81f3e8e0-e7ef-46b3-a100-0547172dc186",
