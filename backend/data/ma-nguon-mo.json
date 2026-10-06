@@ -993,7 +993,7 @@
     },
     {
       "id": "82645fa9-97f5-46f0-aa9f-242678b894e8",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các hệ quản trị cơ sở dữ liệu nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <span style='color:red'>hệ quản trị cơ sở dữ liệu</span> nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "0593d932-6013-4f0a-b384-41bb4f374d2c",
