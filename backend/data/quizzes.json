@@ -22,5 +22,12 @@
     "title": "Cơ sở dữ liệu",
     "fileUrl": "co-so-du-lieu.json",
     "questionCount": 231
+  },
+  {
+    "id": "c-plus-plus-nang-cao",
+    "title": "C++ Nâng Cao",
+    "description": "229 Câu trắc nghiệm C++ Nâng cao",
+    "questionCount": 229,
+    "timeLimitMinutes": 60
   }
 ]

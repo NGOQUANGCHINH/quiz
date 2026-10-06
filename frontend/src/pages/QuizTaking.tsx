@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
-import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw } from 'lucide-react';
+import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X } from 'lucide-react';
 import classNames from 'classnames';
 
 interface Props {
@@ -72,6 +72,11 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   const currentQIndex = progress.currentQuestionIndex;
   const currentQuestion = progress.questions[currentQIndex];
   const [isReloading, setIsReloading] = useState(false);
+  const [showHint, setShowHint] = useState(false);
+
+  useEffect(() => {
+    setShowHint(false);
+  }, [currentQIndex]);
 
   const handleReload = async () => {
     setIsReloading(true);
@@ -209,10 +214,40 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       {/* Left Area - Question */}
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div className="quiz-header-row">
-          <div className="quiz-header-group">
+          <div className="quiz-header-group" style={{ position: 'relative' }}>
             <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={() => navigate('dashboard')}>
               <ArrowLeft /> Quay lại
             </button>
+            {currentQuestion.hint && (
+              <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={() => setShowHint(!showHint)}>
+                <Lightbulb /> Gợi ý
+              </button>
+            )}
+            {showHint && currentQuestion.hint && (
+              <div style={{
+                position: 'absolute',
+                top: '110%',
+                left: '0',
+                backgroundColor: 'var(--surface-color)',
+                border: '1px solid var(--border-color)',
+                padding: '1rem',
+                borderRadius: '8px',
+                boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                zIndex: 100,
+                minWidth: '250px',
+                maxWidth: '400px'
+              }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
+                  <h4 style={{ margin: 0, color: 'var(--primary-color)' }}>💡 Gợi ý</h4>
+                  <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} onClick={() => setShowHint(false)}>
+                    <X size={16} />
+                  </button>
+                </div>
+                <div style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>
+                  {currentQuestion.hint}
+                </div>
+              </div>
+            )}
             {isReloading && <span style={{ fontSize: '0.9rem', color: 'var(--primary-color)' }}>Đang cập nhật...</span>}
           </div>
           <div className="quiz-header-group">

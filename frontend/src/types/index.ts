@@ -9,6 +9,7 @@ export interface Question {
   image?: string;
   answers: Answer[];
   correctAnswerId: string | null;
+  hint?: string;
 }
 
 export interface Quiz {
