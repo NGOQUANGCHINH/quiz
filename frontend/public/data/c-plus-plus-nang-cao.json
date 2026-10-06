@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": "7bfba27d-5914-47a1-9e67-a4c757231bb0",
-      "question": "Cho đoạn chương trình sau\n```cpp\n#include   <iostream.h>\nint main (void) {\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\nLệnh #include dùng để làm gì?\n```",
+      "question": "Cho đoạn chương trình sau\n```cpp\n<span style='color:red; font-weight:bold'>#include</span>   <iostream.h>\nint main (void) {\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\nLệnh <span style='color:red; font-weight:bold'>#include</span> dùng để làm gì?\n```",
       "answers": [
         {
           "id": "cd8d0258-0cc3-468b-a42d-b310cd1c4b95",
@@ -28,7 +28,7 @@
     },
     {
       "id": "cecfbd8d-95fd-43f7-9a73-1d5020a1a997",
-      "question": "Cho đoạn chương trình sau\n```cpp\n#include   <iostream.h>\nint main (void)\n{\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\n```\nMột chương trình C++ có bao nhiêu hàm main?",
+      "question": "Cho đoạn chương trình sau\n```cpp\n#include   <iostream.h>\nint main (void)\n{\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\n```\nMột chương trình C++ có bao nhiêu <span style='color:red; font-weight:bold'>hàm main?</span>",
       "answers": [
         {
           "id": "54d9814f-c8ea-413b-b02b-79aff24faa70",
@@ -52,7 +52,7 @@
     },
     {
       "id": "3d6825f0-2045-4c78-8831-938383646824",
-      "question": "Đối tượng là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Đối tượng</span> là gì?",
       "answers": [
         {
           "id": "6df3b205-dc30-4c20-a4d3-e7e68ceecec8",
@@ -100,7 +100,7 @@
     },
     {
       "id": "c1532118-55dd-47cd-b310-202726b6927a",
-      "question": "Các file .h trong C++ có tác dụng gì?",
+      "question": "Các <span style='color:red; font-weight:bold'>file .h</span> trong C++ có tác dụng gì?",
       "answers": [
         {
           "id": "0eac9173-28f1-4f59-8c09-2c2b130503f2",
@@ -124,7 +124,7 @@
     },
     {
       "id": "7d96da8b-7c78-4da4-a4e2-f256d41d900c",
-      "question": "Một khối lệnh trong C++ được biểu diễn dưới dạng nào?",
+      "question": "Một <span style='color:red; font-weight:bold'>khối lệnh trong C++ được</span> biểu diễn dưới dạng nào?",
       "answers": [
         {
           "id": "363530af-cc19-417d-afe2-5f362884237b",
@@ -148,7 +148,7 @@
     },
     {
       "id": "1ccf5feb-3621-4e8c-9eed-b1cde7d66de8",
-      "question": "File C++ sau khi biên dịch có đuôi là gì?",
+      "question": "File C<span style='color:red; font-weight:bold'>++ sau</span> khi <span style='color:red; font-weight:bold'>biên dịch có đuô</span>i là gì?",
       "answers": [
         {
           "id": "0b213ffd-4fc4-427a-b534-a2c110314869",
@@ -172,7 +172,7 @@
     },
     {
       "id": "3d77dbd9-df30-4c36-bfce-1aba9118bceb",
-      "question": "Lệnh nào sau đây dùng để vào dữ liệu chuẩn trong C++?",
+      "question": "Lệnh nào sau đây dùng <span style='color:red; font-weight:bold'>để vào dữ</span> liệu chuẩn trong C++?",
       "answers": [
         {
           "id": "72200ae1-ed45-47a5-a73a-bdbbecf6aa78",
@@ -196,7 +196,7 @@
     },
     {
       "id": "abcd31b9-7bf3-43b6-a124-43a5e8693da9",
-      "question": "Lệnh nào sau đây dùng để in dữ liệu chuẩn trong C++?",
+      "question": "Lệnh nào sau đây <span style='color:red; font-weight:bold'>dùng để in</span> dữ liệu chuẩn trong C++?",
       "answers": [
         {
           "id": "42135c3b-68f5-4839-a003-402c07df4dcf",
@@ -220,7 +220,7 @@
     },
     {
       "id": "ee1d07b5-0424-473f-b393-0aa2a6c4a5df",
-      "question": "Câu nào sau đây là SAI?",
+      "question": "Câu nào sau đây là <span style='color:red; font-weight:bold'>SAI</span>?",
       "answers": [
         {
           "id": "8c7288f7-d1b3-4cc7-80f7-2d2890613a3f",
@@ -244,7 +244,7 @@
     },
     {
       "id": "83129f7e-9530-4e27-a9a2-81e29d9437f8",
-      "question": "Trong các khai báo dưới đây, lệnh nào khai báo biến số nguyên?",
+      "question": "Trong các khai báo dưới đây, lệnh nào khai báo biến <span style='color:red; font-weight:bold'>số nguyên?</span>",
       "answers": [
         {
           "id": "c8d283c3-c4d0-4624-9503-91f6750ffec9",
@@ -268,7 +268,7 @@
     },
     {
       "id": "3a687d5f-7d4c-4720-b74b-d520071269f8",
-      "question": "Trong các khai báo dưới đây, lệnh nào khai báo số nguyên có dấu?",
+      "question": "Trong các khai báo dưới đây, lệnh nào khai báo <span style='color:red; font-weight:bold'>số nguyên có dấu?</span>",
       "answers": [
         {
           "id": "20baf6f2-163b-4c9f-afcf-b6bd38d74f60",
@@ -292,7 +292,7 @@
     },
     {
       "id": "7f5b1c6f-2dcf-414e-8e81-73fb2edd8703",
-      "question": "Chọn phát biểu ĐÚNG?",
+      "question": "Chọn phát <span style='color:red; font-weight:bold'>biểu ĐÚNG?</span>",
       "answers": [
         {
           "id": "1a6f843d-d9c9-4751-97fb-a886c50201d1",
@@ -316,7 +316,7 @@
     },
     {
       "id": "5f962125-e02e-4807-985a-31d67d716e97",
-      "question": "```cpp\nCho class tinhtong được định nghĩa như sau:\nclass tinhtong {\nint a,b;\npublic: int tong(void);\n};\n```\nHai biến a, b có quyền truy cập là gì?",
+      "question": "```cpp\nCho class <span style='color:red; font-weight:bold'>tinhtong</span> được định nghĩa như sau:\nclass <span style='color:red; font-weight:bold'>tinhtong</span> {\nint a,b;\npublic: int tong(void);\n};\n```\nHai biến a<span style='color:red; font-weight:bold'>, b có quyền truy cập</span> là gì?",
       "answers": [
         {
           "id": "641571de-ce2c-476b-b096-0a456403aaa8",
@@ -340,7 +340,7 @@
     },
     {
       "id": "58b14f37-9ead-408b-90ff-05be17ed6bcf",
-      "question": "Khai báo nào sau đây là SAI?",
+      "question": "Khai báo nào sau đây là <span style='color:red; font-weight:bold'>SAI?</span>",
       "answers": [
         {
           "id": "ffcf07cb-64e6-4053-bc2a-44f37e28c304",
@@ -364,7 +364,7 @@
     },
     {
       "id": "5c5f342f-ae98-4a70-898a-017f642b38ff",
-      "question": "Lệnh nào sau đây sẽ báo lỗi khi biên dịch?",
+      "question": "Lệnh nào sau đây sẽ <span style='color:red; font-weight:bold'>báo lỗi khi biên dịch</span>?",
       "answers": [
         {
           "id": "6521b738-f898-45e3-b28b-5375b062b20f",
@@ -388,7 +388,7 @@
     },
     {
       "id": "deed7f15-0724-4ceb-b9af-90d4a6012a31",
-      "question": "Một lớp trong C++ có bao nhiêu lớp con?",
+      "question": "Một lớp trong C++ có bao nhiêu <span style='color:red; font-weight:bold'>lớp con?</span>",
       "answers": [
         {
           "id": "28a20f53-7690-4834-8b50-576daa775774",
@@ -412,7 +412,7 @@
     },
     {
       "id": "4a760e07-38eb-4ffe-9eab-51fc3046d957",
-      "question": "Tên nào sau đây là KHÔNG hợp lệ?",
+      "question": "T<span style='color:red; font-weight:bold'>ên</span> nào sau đây là <span style='color:red; font-weight:bold'>KHÔNG hợp lệ</span>?",
       "answers": [
         {
           "id": "94191cfc-2922-4789-a332-6cc9425e32ea",
@@ -436,7 +436,7 @@
     },
     {
       "id": "9dfd259c-4f6e-4643-936c-3b19cd63e21c",
-      "question": "Khai báo nào sau đây là hợp lệ?",
+      "question": "Khai báo nào sau đây <span style='color:red; font-weight:bold'>là hợp lệ?</span>",
       "answers": [
         {
           "id": "e3d65ef4-8b9c-4b3b-9954-80b912fdcaf4",
@@ -460,7 +460,7 @@
     },
     {
       "id": "6706afab-3ea5-4c45-8eff-43a29b6d83e6",
-      "question": "Một lớp trong C++ có thể có bao nhiêu lớp cha?",
+      "question": "Một lớp trong C++ có thể có bao nhiêu <span style='color:red; font-weight:bold'>lớp cha?</span>",
       "answers": [
         {
           "id": "9444ba77-b599-4f52-9feb-4fc1e6692d9d",
@@ -484,7 +484,7 @@
     },
     {
       "id": "20a46c76-1091-4242-8c75-830b302ab65f",
-      "question": "Định nghĩa nào sau đây là định nghĩa về tính đóng kín trong lập trình hướng đối tượng của C++?",
+      "question": "Định nghĩa nào sau đây là <span style='color:red; font-weight:bold'>định nghĩa về tính đóng kín</span> trong lập trình hướng đối tượng của C++?",
       "answers": [
         {
           "id": "4ef30bbf-ab6f-43ba-8645-365e5b779be8",
@@ -508,7 +508,7 @@
     },
     {
       "id": "39c15272-cd1b-48f8-b11f-709d6eb76ded",
-      "question": "Định nghĩa nào sau đây là định nghĩa về tính kế thừa trong lập trình hướng đối tượng của C++?",
+      "question": "Định nghĩa nào sau đây là định nghĩa về <span style='color:red; font-weight:bold'>tính kế thừa trong</span> lập trình hướng đối tượng của C++?",
       "answers": [
         {
           "id": "fbe20b7a-249e-4817-acab-4ca20750bb06",
@@ -532,7 +532,7 @@
     },
     {
       "id": "35a0ae02-273c-4f38-a7b4-2cf3bba35d45",
-      "question": "Định nghĩa nào sau đây là định nghĩa về tính đa hình trong lập trình hướng đối tượng của C++?",
+      "question": "Định nghĩa nào sau đây là định nghĩa về <span style='color:red; font-weight:bold'>tính đa hình</span> trong lập trình hướng đối tượng của C++?",
       "answers": [
         {
           "id": "2ea21f62-0efd-418a-96da-b044dbc2b4f8",
@@ -556,7 +556,7 @@
     },
     {
       "id": "bf1e4338-e6ab-4236-bf05-7f337819ad27",
-      "question": "Con trỏ là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Con trỏ là</span> gì?",
       "answers": [
         {
           "id": "a398ace4-48b0-499b-8381-5a5759b01b1b",
@@ -580,7 +580,7 @@
     },
     {
       "id": "8ed2a430-1c45-41ca-8a19-a5ed8beb00ee",
-      "question": "Trường dữ liệu tĩnh (static) còn gọi là gì?",
+      "question": "Trường <span style='color:red; font-weight:bold'>dữ liệu tĩnh (static)</span> còn gọi là gì?",
       "answers": [
         {
           "id": "9474c2fb-e84a-4bf4-8f6a-ce716b18524a",
@@ -604,7 +604,7 @@
     },
     {
       "id": "e1df2d2c-5ba0-4fde-b1d9-f32bb2ed9dfe",
-      "question": "Trong các câu sau, câu nào biểu diễn địa chỉ của biến p?",
+      "question": "Trong các câu sau, câu nào <span style='color:red; font-weight:bold'>biểu diễn địa chỉ của biến p</span>?",
       "answers": [
         {
           "id": "b43dba67-4317-45e1-90d2-1b99d2717ce2",
@@ -628,7 +628,7 @@
     },
     {
       "id": "e466ff73-c747-4058-8ff5-9969ea047a8a",
-      "question": "Lập trình hướng đối tượng là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Lập trình hướng đối tượng là</span> gì?",
       "answers": [
         {
           "id": "82ab7bc7-459f-4e3e-a36e-8464712fd1c8",
@@ -652,7 +652,7 @@
     },
     {
       "id": "08327999-a859-43e2-b1aa-142aa985a4f5",
-      "question": "Trong lập trình hướng đối tượng, thành viên có quyền private có nghĩa:",
+      "question": "Trong lập trình hướng đối tượng, thành viên có <span style='color:red; font-weight:bold'>quyền private</span> có nghĩa:",
       "answers": [
         {
           "id": "38d75305-701d-4dbd-a0aa-0cda0334bda9",
@@ -676,7 +676,7 @@
     },
     {
       "id": "8e6c50ec-fcf0-4cfc-b3ee-919c938b8b71",
-      "question": "Trạng thái của đối tượng trong thế giới thực mô tả trong lập trình hướng đối tượng của C++ được gọi là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Trạng thái của đối tượng trong thế giới thực mô tả</span> trong <span style='color:red; font-weight:bold'>lập trình hướng đối tượng</span> của C++ được gọi là gì?",
       "answers": [
         {
           "id": "306cada7-1a8f-4425-be40-08f069f75ee3",
@@ -700,7 +700,7 @@
     },
     {
       "id": "c6cc9656-ba48-4a63-a9c2-526ccaa0efba",
-      "question": "Các hành vi của đối tượng trong thế giới thực mô tả trong lập trình hướng đối tượng C++ được gọi là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Các hành vi của đối tượng trong thế giới thực mô tả</span> trong lập trình hướng đối tượng C++ được gọi là gì?",
       "answers": [
         {
           "id": "4d693fff-bbbc-4e0e-a3f7-5ffb4a651fbf",
@@ -724,7 +724,7 @@
     },
     {
       "id": "4e9ffee9-bd71-4caf-89cd-3cf33871d239",
-      "question": "Đoạn lệnh sau cho kết quả là bao nhiêu:\n```cpp\nfor (int i = 1; i <= 5; i++)\ncout << i < “, “ ;\ncout << “LAUNCH! << endl;\n```",
+      "question": "Đoạn lệnh sau cho kết quả là bao nhiêu:\n```cpp\nfor (<span style='color:red; font-weight:bold'>int i = 1; i <= 5; i++)</span>\n<span style='color:red; font-weight:bold'>cout << i < “, “ ;</span>\ncout << “LAUNCH! << endl;\n```",
       "answers": [
         {
           "id": "a4a4d37b-dc33-4e5b-a8db-a914a966952c",
@@ -796,7 +796,7 @@
     },
     {
       "id": "b5e26cd8-4968-428f-943f-a475ddc38eee",
-      "question": "Khi định nghĩa hàm thành viên ở ngoài lớp, ta dùng cú pháp nào?",
+      "question": "Khi <span style='color:red; font-weight:bold'>định nghĩa hàm thành viên ở ngoài lớp</span>, ta dùng cú pháp nào?",
       "answers": [
         {
           "id": "81968f77-08aa-42aa-a50d-a61878d624dd",
@@ -820,7 +820,7 @@
     },
     {
       "id": "60f28d7d-446a-4ccf-8057-118ddb7da9a4",
-      "question": "Cho đoạn mã sau:\n```cpp\n#include <iostream.h>\nint main()\nint a = 5;\n++a;\ncout << a;\nreturn 0;\n}\n```\nKết quả khi in ra a là bao nhiêu?",
+      "question": "Cho đoạn mã s<span style='color:red; font-weight:bold'>a</span>u:\n```cpp\n#include <iostre<span style='color:red; font-weight:bold'>a</span>m.h>\nint m<span style='color:red; font-weight:bold'>a</span>in()\nint <span style='color:red; font-weight:bold'>a</span> = 5;\n++<span style='color:red; font-weight:bold'>a</span>;\ncout << <span style='color:red; font-weight:bold'>a</span>;\nreturn 0;\n}\n```\nKết quả khi in r<span style='color:red; font-weight:bold'>a</span> <span style='color:red; font-weight:bold'>a</span> là b<span style='color:red; font-weight:bold'>a</span>o nhiêu?",
       "answers": [
         {
           "id": "32484d89-1f85-4247-ba23-2f5f3a01f487",
@@ -916,7 +916,7 @@
     },
     {
       "id": "fb5dc446-9158-46c7-9164-508aeec3c6ff",
-      "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu?\n```cpp\nchar hoten[] = “Dai hoc Kinh doanh va Cong nghe Ha noi”;  = 38 CHAR\nint l = strlen(hoten);\ncout << ++l << endl;\n```",
+      "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu?\n```cpp\nchar hoten[] = “<span style='color:red; font-weight:bold'>Dai hoc Kinh doanh va Cong nghe Ha noi”;</span>  = 38 CHAR\nint l = strlen(hoten);\ncout << ++l << endl;\n```",
       "answers": [
         {
           "id": "b2bb6349-e563-49d6-ac12-6255061ef20e",
@@ -940,7 +940,7 @@
     },
     {
       "id": "db2cae2f-9c7a-430d-b782-d71d9a9d587b",
-      "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu?\n```cpp\nclass nhanvien {\ndouble luong;\npublic:\nvoid setLuong(double d) { luong = d; }\ndouble getLuong() { return luong; }\nvoid tangLuong(double d) { luong += d; }\n}\nclass quanly:public nhanvien {\ndouble phucap;\npublic: quanly() {\nsetLuong(100);\nphucap = getLuong() * 0.5\ncout << phucap;\n}\n};\nvoid main() { quanly q; }\n```",
+      "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu?\n```cpp\nclass nhanvien {\ndouble luong;\npublic:\nvoid setLuong(double d) { luong = d; }\ndouble getLuong() { return luong; }\nvoid tangLuong(double d) { luong += d; }\n}\nclass quanly:public nhanvien {\ndouble phucap;\npublic: quanly() {\nsetLuong(100);\nphucap = <span style='color:red; font-weight:bold'>getLuong() * 0.5</span>\ncout << phucap;\n}\n};\nvoid main() { quanly q; }\n```",
       "answers": [
         {
           "id": "ecd037c4-0bd6-4cbb-9984-b8b35f02f71e",
@@ -964,7 +964,7 @@
     },
     {
       "id": "0f1569ad-7ac4-4892-b2cf-56187600c20d",
-      "question": "Kế thừa là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Kế thừa</span> là gì?",
       "answers": [
         {
           "id": "db1701f2-4c62-4864-952f-5a822487fcbb",
@@ -988,7 +988,7 @@
     },
     {
       "id": "66539dfb-3027-461c-9949-445ffea7795f",
-      "question": "Con trỏ là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Con trỏ</span> là gì?",
       "answers": [
         {
           "id": "2b44cef8-a19c-43a6-a2fb-5e7306852b51",
@@ -1036,7 +1036,7 @@
     },
     {
       "id": "981d4891-4e98-453a-8dc7-bd71c0ec3d94",
-      "question": "Khi chạy chương trình cho kết quả là bao nhiêu\n```cpp\nclass nhanvien {\ndouble luong;\npublic:\nvoid setLuong(double d) { luong = d; }\ndouble getLuong() { return luong; }\nvoid tangLuong(double d) { luong += d; }\n}\nint main() {\nnhanvien A, *p;\np = &A;\np->setLuong(100);\ncout << p->luong;\n}\n```",
+      "question": "Khi chạy chương trình cho kết quả là bao nhiêu\n```cpp\nclass nhanvien {\ndouble <span style='color:red; font-weight:bold'>luong</span>;\npublic:\nvoid setLuong(double d) { <span style='color:red; font-weight:bold'>luong</span> = d; }\ndouble getLuong() { return <span style='color:red; font-weight:bold'>luong</span>; }\nvoid tangLuong(double d) { <span style='color:red; font-weight:bold'>luong</span> += d; }\n}\nint main() {\nnhanvien A, *p;\np = &A;\np->setLuong(100);\ncout << p-><span style='color:red; font-weight:bold'>luong</span>;\n}\n```",
       "answers": [
         {
           "id": "be5a26fb-defc-4f95-8574-5f3e38b5a362",
@@ -1060,7 +1060,7 @@
     },
     {
       "id": "74863d22-d4dd-4e39-b403-2d7a629b5ede",
-      "question": "Hàm constructor là gì?",
+      "question": "Hàm c<span style='color:red; font-weight:bold'>onstructor</span> là gì?",
       "answers": [
         {
           "id": "35179921-0b58-41ac-a36b-a6dfef9d5bee",
@@ -1084,7 +1084,7 @@
     },
     {
       "id": "2ad1ff6b-a68c-4458-a12f-f22fa1ab1104",
-      "question": "Cho khối lệnh như sau:\n```cpp\nswitch (thu) {\ncase 2:\ncout <<“Van, Toan”;\nbreak;\ncase 3:\ncout << “Hoa, Ly”;\nbreak;\ndefault:\ncout << “Ngay nghi”;\nbreak;\n}\n```\nKhối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 1?",
+      "question": "Cho khối lệnh như sau:\n```cpp\nswitch (thu) {\ncase 2:\ncout <<“Van, Toan”;\nbreak;\ncase 3:\ncout << “Hoa, Ly”;\nbreak;\ndefault:\ncout << “N<span style='color:red; font-weight:bold'>gay nghi</span>”;\nbreak;\n}\n```\nKhối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 1?",
       "answers": [
         {
           "id": "3d877650-2fb9-45e1-ab3b-7a591b12f60b",
@@ -1156,7 +1156,7 @@
     },
     {
       "id": "6f469ae0-cbf5-4546-8df4-c01f30f992fe",
-      "question": "Cho khối lệnh như sau:\n```cpp\nenum mausac { DEN, LAM, LUC, TRANG };\nmausac color;\nchar * t;\nswitch (color) {\ncase 0:\nt = “Mau trang”;\nbreak;\ncase 1:\nt = “Mau den”;\nbreak;\ncase 2:\nt = “Mau lam”;\nbreak;\ncase 3:\nt = “Mau luc”;\nbreak;\ndefault:\nt = “Khong co trong danh sach mau”;\nbreak;\n}\ncout << t;\n```\nNếu cho color = DEN thì đoạn lệnh trên in kết quả là bao nhiêu?",
+      "question": "Cho khối lệnh như sau:\n```cpp\nenum mausac { <span style='color:red; font-weight:bold'>DEN</span>, LAM, LUC, TRANG };\nmausac color;\nchar * t;\nswitch (color) {\ncase 0:\n<span style='color:red; font-weight:bold'>t = “Mau trang”;</span>\nbreak;\ncase 1:\nt = “Mau den”;\nbreak;\ncase 2:\nt = “Mau lam”;\nbreak;\ncase 3:\nt = “Mau luc”;\nbreak;\ndefault:\nt = “Khong co trong danh sach mau”;\nbreak;\n}\ncout << t;\n```\nNếu cho color = <span style='color:red; font-weight:bold'>DEN</span> thì đoạn lệnh trên in kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "2a39455c-1101-4fd5-b830-c055df2f7cde",
@@ -1180,7 +1180,7 @@
     },
     {
       "id": "fd0ffb74-79ca-4b12-9478-725e44c02ccd",
-      "question": "Cho khối lệnh như sau:\n```cpp\nenum mausac { DEN = 3, LAM, LUC, TRANG };\nmausac color;\nchar * t;\nswitch (color) {\ncase 0:\nt = “Mau trang”;\nbreak;\ncase 1:\nt = “Mau den”;\nbreak;\ncase 2:\nt = “Mau lam”;\nbreak;\ncase 3:\nt = “Mau luc”;\nbreak;\ndefault:\nt = “Khong co trong danh sach mau”;\nbreak;\n}\ncout << t;\n```\nNếu cho color = DEN thì đoạn lệnh trên in kết quả là bao nhiêu?",
+      "question": "Cho khối lệnh như sau:\n```cpp\nenum mausac { <span style='color:red; font-weight:bold'>DEN = 3,</span> LAM, LUC, TRANG };\nmausac color;\nchar * t;\nswitch (color) {\ncase 0:\nt = “Mau trang”;\nbreak;\ncase 1:\nt = “Mau den”;\nbreak;\ncase 2:\nt = “Mau lam”;\nbreak;\ncase 3:\n<span style='color:red; font-weight:bold'>t = “Mau luc”;</span>\nbreak;\ndefault:\nt = “Khong co trong danh sach mau”;\nbreak;\n}\ncout << t;\n```\nNếu cho color = DEN thì đoạn lệnh trên in kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "0e413d9c-834a-43c8-acca-b047fdb7bc95",
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "752462ec-5e39-4016-97d1-0a2e59b536ba",
-      "question": "Cho khối lệnh sau:\n```cpp\nint s = 0;\nfor (int i = 0; i < 10; i++)\ns+=i;\ncout << s << endl;\n```\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho khối lệnh sau:\n```cpp\nint s = 0;\nfor (int i = 0; <span style='color:red; font-weight:bold'>i < 10</span>; i++)\ns+=i;\ncout << s << endl;\n```\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "54dd5841-1fb8-4b98-85cd-37b6ae6ff19b",
@@ -1228,7 +1228,7 @@
     },
     {
       "id": "d43b53ed-9ebb-4089-9499-cfb2e2ed37eb",
-      "question": "Cho khối lệnh sau:\n```cpp\nint s = 0;\nfor (int i = 0; i <= 10; i++)\ns+=i;\ncout << s << endl;\n```\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho khối lệnh sau:\n```cpp\nint s = 0;\nfor (int i = 0; i <span style='color:red; font-weight:bold'><= 10</span>; i++)\ns+=i;\ncout << s << endl;\n```\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "ac3262ea-4129-4c1f-aa9a-a312d165320b",
@@ -1276,7 +1276,7 @@
     },
     {
       "id": "756f0633-9c9f-459e-90f7-861e9ff71765",
-      "question": "Cho khối lệnh sau:\n```cpp\nint i = 0;\nint s = 0;\nfor (int i = 0; i < 10; i++)\ns+=i;\ncout << i << end;\n```\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho khối lệnh sau:\n```cpp\n<span style='color:red; font-weight:bold'>int i = 0;</span>\n<span style='color:red; font-weight:bold'>int s = 0;</span>\nfor (<span style='color:red; font-weight:bold'>int i = 0;</span> i < 10; i++)\ns+=i;\ncout << i << <span style='color:red; font-weight:bold'>end;</span>\n```\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "b830feab-adb6-4ef9-9a95-d1757c7c9dd6",
@@ -1372,7 +1372,7 @@
     },
     {
       "id": "e54c54ad-dabd-4820-b6fa-142b1bf081ca",
-      "question": "Chương trình sai ở dòng nào?\n```cpp\n1. int i = 0;\n2. int s = 0;\n3. for ( ; ; ) {\n4.     if  i == 3 break;\n5.     s = s + i;\n6.     i++;\n7. }\n```",
+      "question": "Chương trình sai ở dòng nào?\n```cpp\n1. int i = 0;\n2. int s = 0;\n3. for ( ; ; ) {\n<span style='color:red; font-weight:bold'>4.     if  i == 3 break;</span>\n5.     s = s + i;\n6.     i++;\n7. }\n```",
       "answers": [
         {
           "id": "2c6e4f10-7b3f-4032-9dd5-f4f81424d0fa",
@@ -1396,7 +1396,7 @@
     },
     {
       "id": "0e642eeb-ba7c-479d-ae84-7a67d759efa0",
-      "question": "Cho đoạn chương trình sau:\n```cpp\ndouble i = 0, n = 10;\nwhile (i < n) {\ndouble s = s + n;\nn--;\n}\ncout << s;\n```\nĐoạn lệnh trên cho kết quả là bao nhiêu khi chạy?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\ndouble i = 0, n = 10;\nwhile (i < n) {\n<span style='color:red; font-weight:bold'>double s</span> = s + n;\nn--;\n}\ncout << s;\n```\nĐoạn lệnh trên cho kết quả là bao nhiêu khi chạy?",
       "answers": [
         {
           "id": "f6319bb7-9c3b-4659-bc02-bd70a685fbf6",
@@ -1420,7 +1420,7 @@
     },
     {
       "id": "407c4052-c635-4c48-879b-29b457fcd893",
-      "question": "Cho đoạn chương trình sau:\n```cpp\ndouble i = 0, n = 10, s = 0;\nwhile (i < n) {\ndouble s = s + n;\nn--;\n}\ncout << s;\n```\nĐoạn lệnh trên cho kết quả là bao nhiêu khi chạy?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\ndouble i = 0, n = 10, <span style='color:red; font-weight:bold'>s = 0;</span>\nwhile (i < n) {\nd<span style='color:red; font-weight:bold'>ouble s</span> = s + n;\nn--;\n}\ncout << s;\n```\nĐoạn lệnh trên cho kết quả là bao nhiêu khi chạy?",
       "answers": [
         {
           "id": "8ed5b996-5017-425d-b45a-6cdf45318a0a",
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "b141d8aa-607f-4f03-9f41-eb95b57e2637",
-      "question": "Chương trình thực hiện công việc gì?\n#define    length(a)   (sizeof(a) / sizeof(*a))\n```cpp\nint main() {\nint mang[] = {12, 37, 48, 51, 2, 9};\nint tk = 51, i;\nbool check = false;\nfor (i = 0; i < length(mang); i++) {\nif (mang[i] == tk) {\ncheck = true;\nbreak;\n}\n}\nif (check) cout << “Found “ << tk << “ at index “ << i << endl;\nelse cout <<“Not found”;\nreturn 0;\n}\n```",
+      "question": "Chương trình thực hiện công việc gì?\n#define    length(a)   (sizeof(a) / sizeof(*a))\n```cpp\nint main() {\nint mang[] = {12, 37, 48, 51, 2, 9};\nint tk = 51, i;\nbool check = false;\nfor (i = 0; i < length(mang); i++) {\nif (mang[i] == tk) {\ncheck = true;\nbreak;\n}\n}\nif (check) cout << “<span style='color:red; font-weight:bold'>Found</span> “ << tk << “ at index “ << i << endl;\nelse cout <<“Not found”;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "1cb6e1e5-499f-4a54-b764-02187de1bc2b",
@@ -1468,7 +1468,7 @@
     },
     {
       "id": "64510d48-a656-4417-9702-fa3b3bf49b30",
-      "question": "Chương trình sai ở dòng nào?\n```cpp\n1.define   length(a)   (sizeof(a) / sizeof(*a))\n2.int main() {\n3. int mang[] = {12, 37, 48, 51, 2, 9};\n4. int tk = 51, i;\n5. bool check = false;\n6. for (i = 0; i < length(mang); i++) {\n7.     if (mang[i] = tk) {\n8.         check = true;\n9.         break;\n10.        }\n11.    }\n12.    cout << i ;\n14.    return 0;\n15.}\n```",
+      "question": "Chương <span style='color:red; font-weight:bold'>trình sai ở</span> dòng nào?\n```cpp\n1<span style='color:red; font-weight:bold'>.define</span>   length(a)   (sizeof(a) / sizeof(*a))\n2.int main() {\n3. int mang[] = {12, 37, 48, 51, 2, 9};\n4. int tk = 51, i;\n5. bool check = false;\n6. for (i = 0; i < length(mang); i++) {\n7.     if (mang[i] <span style='color:red; font-weight:bold'>= t</span>k) {\n8.         check <span style='color:red; font-weight:bold'>= t</span>rue;\n9.         break;\n10.        }\n11.    }\n12.    cout << i ;\n14.    return 0;\n15.}\n```",
       "answers": [
         {
           "id": "bd8f34c9-7ae2-4dbb-bc9c-a4720b0d3548",
@@ -1492,7 +1492,7 @@
     },
     {
       "id": "cafd4d99-c225-4d24-8527-a8dbedd73426",
-      "question": "Đoạn lệnh sau cho kết quả là bao nhiêu:\n```cpp\nchar chuoi[] = “peter pan put a pepper into pen”;\nint max = strlen(chuoi);\nint number = 0;\nfor (int i = 0; i < max; i++) {\nif (chuoi[i] != 'p') continue;\nnumber++;\n}\ncout << number << endl;\n```",
+      "question": "Đoạn lệnh sau cho kết quả là bao nhiêu:\n```c<span style='color:red; font-weight:bold'>pp</span>\nchar chuoi[] = “<span style='color:red; font-weight:bold'>p</span>eter <span style='color:red; font-weight:bold'>p</span>an <span style='color:red; font-weight:bold'>p</span>ut a <span style='color:red; font-weight:bold'>p</span>e<span style='color:red; font-weight:bold'>pp</span>er into <span style='color:red; font-weight:bold'>p</span>en”;\nint max = strlen(chuoi);\nint number = 0;\nfor (int i = 0; i < max; i++) {\nif (chuoi[i] != <span style='color:red; font-weight:bold'>'p')</span> continue;\nnumber++;\n}\ncout << number << endl;\n```",
       "answers": [
         {
           "id": "04676297-3434-4e40-856b-3aa859fb28b6",
@@ -1516,7 +1516,7 @@
     },
     {
       "id": "9f0e4f63-db37-4d8d-bd05-aa674dfa6ff6",
-      "question": "Đoạn lệnh sau cho kết quả là bao nhiêu:\n```cpp\nchar chuoi[] = “hoi dong dang di den huyen dinh dong”;\nint max = strlen(chuoi);\nint number = 0;\nfor (int i = 0; i < max; i++) {\nif (chuoi[i] != 'd') continue;\nnumber++;\n}\ncout << number << endl;\n```",
+      "question": "Đoạn lệnh sau cho kết quả là bao nhiêu:\n```cpp\nchar chuoi[] = “hoi <span style='color:red; font-weight:bold'>d</span>ong <span style='color:red; font-weight:bold'>d</span>ang <span style='color:red; font-weight:bold'>di</span> <span style='color:red; font-weight:bold'>d</span>en huyen <span style='color:red; font-weight:bold'>di</span>nh <span style='color:red; font-weight:bold'>d</span>ong”;\nint max = strlen(chuoi);\nint number = 0;\nfor (int i = 0; i < max; i++) {\nif (chuoi[i] != <span style='color:red; font-weight:bold'>'d')</span> continue;\nnumber++;\n}\ncout << number << en<span style='color:red; font-weight:bold'>d</span>l;\n```",
       "answers": [
         {
           "id": "77c4d2dc-d860-4c7a-a455-92d0cab08f4a",
@@ -1540,7 +1540,7 @@
     },
     {
       "id": "a2ee2151-f982-4d9e-8475-03a41fbaf4cc",
-      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int *a) {\ncout << *a;\n}\nint main() {\nint a = 10;\nindl (&a);\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int *a) {\ncout <span style='color:red; font-weight:bold'><< *a;</span>\n}\nint main() {\nint a = 10;\nindl (&a);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "513f4ecb-059f-43c1-9aaf-8f3eb0306086",
@@ -1564,7 +1564,7 @@
     },
     {
       "id": "34c4fd46-fc10-4e19-8bf3-8583723fc4f4",
-      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int *a) {\ncout << ++*a;\n}\nint main() {\nint a = 10;\nindl (&a);\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int *a) {\ncout << <span style='color:red; font-weight:bold'>++*a;</span>\n}\nint main() {\nint a = 10;\nindl (&a);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "5903fbe2-74e1-4d22-876f-e8e5a4b8c79e",
@@ -1588,7 +1588,7 @@
     },
     {
       "id": "ca563a49-a18c-42d4-aaba-6e912f25d39c",
-      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int a[4]) {\nint *p = &a[1];\ncout << *(p++);\n}\nint main() {\nint a[4] = { 1, 2, 3, 4 };\nindl (&a);\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int a[4]) {\nint *p = &a[1];\ncout <span style='color:red; font-weight:bold'><< *(p++);</span>\n}\nint main() {\nint a[4] = { 1, 2, 3, 4 };\nindl <span style='color:red; font-weight:bold'>(&a</span>);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "42e38059-83d7-4b99-aedd-d5d56c8c8d9d",
@@ -1612,7 +1612,7 @@
     },
     {
       "id": "9e2468e3-5c6d-4484-9cd7-271978e8a4be",
-      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int a[4]) {\nint *p = &a[1];\ncout << ++*p;\n}\nint main() {\nint a[4] = { 2, 4, 6, 8 };\nindl (&a);\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int a[4]) {\nint *p = &a[1];\ncout <span style='color:red; font-weight:bold'><< ++*p;</span>\n}\nint main() {\nint a[4] = { 2, 4, 6, 8 };\nindl <span style='color:red; font-weight:bold'>(&a);</span>\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "3a62a79d-82c4-4caa-9d56-95dcd1c662f6",
@@ -1636,7 +1636,7 @@
     },
     {
       "id": "9dbf9d1e-4863-4693-a579-b539b60a9450",
-      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int a[4]) {\nint *p = &a[1];\ncout << *++p;\n}\nint main() {\nint a[4] = { 2, 4, 6, 8 };\nindl (&a);\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int a[4]) {\nint *p = &a[1];\ncout << <span style='color:red; font-weight:bold'>*++p;</span>\n}\nint main() {\nint a[4] = { 2, 4, 6, 8 };\nindl <span style='color:red; font-weight:bold'>(&a);</span>\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "5d14c6bf-5f6e-4f53-b89d-555998b8cc49",
@@ -1660,7 +1660,7 @@
     },
     {
       "id": "d4722991-1892-4720-9d9b-3e2e3d5b5eff",
-      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int &a) {\na--;\n}\nint main() {\nint x = 5\nindl (x);\ncout << x;\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int &a) {\na--;\n}\nint main() {\n<span style='color:red; font-weight:bold'>int x = 5</span>\nindl (x);\ncout << x;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "3467dca8-dd5c-4532-8a65-f76fe22b6957",
@@ -1684,7 +1684,7 @@
     },
     {
       "id": "e7501997-6728-4764-a026-4cf1b1ab9c03",
-      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (int *a) {\na--;\n}\nint main() {\nint x = 5\nindl (x);\ncout << x;\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau in ra kết quả bao nhiêu:\n```cpp\nvoid indl (<span style='color:red; font-weight:bold'>int *a</span>) {\na--;\n}\nint main() {\nint x = 5\n<span style='color:red; font-weight:bold'>indl (x);</span>\ncout << x;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "45f19c11-1a7f-4bac-ae52-f9646c2f4204",
@@ -1708,7 +1708,7 @@
     },
     {
       "id": "d540d142-5df1-4148-910e-11df48b30105",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str, “Juliet”) == 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi Juliet, chương trình sẽ in ra kết quả?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str, “<span style='color:red; font-weight:bold'>Juliet</span>”) == 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi <span style='color:red; font-weight:bold'>Juliet</span>, chương trình sẽ in ra kết quả?",
       "answers": [
         {
           "id": "2d4a4669-12a7-49f1-919a-1bdb80bb98cd",
@@ -1732,7 +1732,7 @@
     },
     {
       "id": "60160633-17a5-45cf-a7ae-a1916aabfc23",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str, “Juliet”) == 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi Rome, chương trình sẽ in ra kết quả?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str, “Juliet”) == 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi <span style='color:red; font-weight:bold'>Rome</span>, chương trình sẽ in ra kết quả?",
       "answers": [
         {
           "id": "a5863f17-80d6-4322-b62f-89f4b42af6ad",
@@ -1756,7 +1756,7 @@
     },
     {
       "id": "6d4bf1cc-ebb7-4be9-917c-d4969a785180",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str,”Juliet”) = 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi Alvata, chương trình sẽ in ra kết quả?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str,”Juliet”) <span style='color:red; font-weight:bold'>=</span> 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi <span style='color:red; font-weight:bold'>Alvata</span>, chương trình sẽ in ra kết quả?",
       "answers": [
         {
           "id": "7123234d-44a6-46b1-9915-3a83dd41b83f",
@@ -1780,7 +1780,7 @@
     },
     {
       "id": "ac6bddc2-5fe2-4900-8626-f6d7e70bd3e1",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str, “Rome”) == 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi Rome, chương trình sẽ in ra kết quả?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nchar str[40];\ncin.getline (str,40);\nif ( strcmp(str, “<span style='color:red; font-weight:bold'>Rome</span>”) == 0) cout << “Same here”;\nelse cout << str;\n```\nNếu nhập vào từ bàn phím chuỗi <span style='color:red; font-weight:bold'>Rome</span>, chương trình sẽ in ra kết quả?",
       "answers": [
         {
           "id": "09bcf815-ea0a-4279-9d45-666eaf40ab9c",
@@ -1804,7 +1804,7 @@
     },
     {
       "id": "90758e8c-e87f-4164-8831-0c9333752ef7",
-      "question": "Cho khối lệnh sau:\n```cpp\nint i = 10;\nint n = ++i%5\n```\nSau khi thực hiện khối lệnh, kết quả sẽ là:",
+      "question": "Cho khối lệnh sau:\n```cpp\nint i = 10;\nint n = ++i%<span style='color:red; font-weight:bold'>5</span>\n```\nSau khi thực hiện khối lệnh, kết quả sẽ là:",
       "answers": [
         {
           "id": "58e0e063-5da1-4872-8cf3-1b5554a71f7f",
@@ -1828,7 +1828,7 @@
     },
     {
       "id": "4c63c76c-1ee7-43c8-b3fe-696ce7c6294d",
-      "question": "Đoạn lệnh sau in ra kết quả nào?\n```cpp\nint s = 0;\nstring str;\nfor (int i = 0; i < 5; i++) {\nint k = 0;\nk += i;\ns = k;\n}\nstr = ((k % 2 == 0) ? “true” : “false”;\ncout << str << endl;\n```",
+      "question": "Đoạn lệnh sau in ra <span style='color:red; font-weight:bold'>k</span>ết quả nào?\n```cpp\nint s = 0;\nstring str;\nfor (int i = 0; i < 5; i++) {\n<span style='color:red; font-weight:bold'>int k</span> = 0;\n<span style='color:red; font-weight:bold'>k</span> += i;\ns = <span style='color:red; font-weight:bold'>k</span>;\n}\nstr = ((<span style='color:red; font-weight:bold'>k</span> % 2 == 0) ? “true” : “false”;\ncout << str << endl;\n```",
       "answers": [
         {
           "id": "5d93121a-404e-4825-a1fd-16ba5800dae2",
@@ -1852,7 +1852,7 @@
     },
     {
       "id": "9535863a-c68a-4e68-93f0-4007c4bc5e03",
-      "question": "Mảng là gì?",
+      "question": "<span style='color:red; font-weight:bold'>Mảng</span> là gì?",
       "answers": [
         {
           "id": "38a1e009-deab-43da-9692-c134ccbb2a01",
@@ -1900,7 +1900,7 @@
     },
     {
       "id": "ff3dd93f-e5cb-4239-bcd8-076ba505d4ea",
-      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint functionM (temp[row][col]) {\nint m = 0;\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\nif (temp[i][j] > m) m = temp[i][j];\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint functionM (temp[row][col]) {\nint m = 0;\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\n<span style='color:red; font-weight:bold'>if (temp[i][j] > m) m = temp[i][j];</span>\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "1ab78fcc-2c69-4202-812b-f58cb2b61207",
@@ -1924,7 +1924,7 @@
     },
     {
       "id": "c91dc4a4-ccd9-4b1a-8ced-5ba04c3e2190",
-      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint functionM (temp[row][col]) {\nint m = 0;\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\nif (temp[i][j] < m) m = temp[i][j];\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint functionM (temp[row][col]) {\n<span style='color:red; font-weight:bold'>int m = 0;</span>\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\n<span style='color:red; font-weight:bold'>if (temp[i][j] < m) m = temp[i][j];</span>\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "b9d0bae4-9e04-433c-9a33-95777822cf21",
@@ -1948,7 +1948,7 @@
     },
     {
       "id": "f6232d55-cba8-4c84-a176-ceb79666fcde",
-      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint function (temp[row][col]) {\nint m = 0;\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\nif (temp[i][j] > m) m += temp[i][j];\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ <span style='color:red; font-weight:bold'>26, 34</span>, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint function (temp[row][col]) {\n<span style='color:red; font-weight:bold'>int m = 0;</span>\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\n<span style='color:red; font-weight:bold'>if (temp[i][j] > m) m += temp[i][j];</span>\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "da30d3c5-b160-4883-abee-2f41a1c2505d",
@@ -1972,7 +1972,7 @@
     },
     {
       "id": "692bae1f-ce70-4a00-a9f5-3df47b5612e7",
-      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint function (temp[row][col]) {\nint m = temp[0][0];\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\nif (temp[i][j] < m) m += temp[i][j];\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint function (temp[row][col]) {\n<span style='color:red; font-weight:bold'>int m = temp[0][0];</span>\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\n<span style='color:red; font-weight:bold'>if (temp[i][j] < m) m += temp[i][j];</span>\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "9b26b992-dfd1-4511-a525-5fece0d0486e",
@@ -1996,7 +1996,7 @@
     },
     {
       "id": "3294f62a-d7f2-471d-9993-cbc563fd5bdc",
-      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint function (temp[row][col]) {\nint m = 38;\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\nif (temp[i][j] < m) m = temp[i][j];\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nconst int row = 3;\nconst int col = 4;\nint seasonTemp[row][col] = {\n{ 26, 34, 22, 17 },\n{ 24, 32, 19, 13 },\n{ 28, 38, 25, 20 }\n};\nint function (temp[row][col]) {\n<span style='color:red; font-weight:bold'>int m = 38;</span>\nfor (int i = 0; i < row; i++)\nfor (int j = 0; j < col; j++)\n<span style='color:red; font-weight:bold'>if (temp[i][j] < m) m = temp[i][j];</span>\nreturn m;\n}\nint main() {\ncout << functionM (seasonTemp) << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "5cc5875b-b831-47b3-ac6c-dee62ba187ea",
@@ -2044,7 +2044,7 @@
     },
     {
       "id": "751f2856-eeae-4a1e-8629-a8e54c887c45",
-      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nint BinSearch (char *item,char *table[],int n, int (*Sosanh)(const char*,const char*)) {\nint bot = 0, top = n - 1, mid, cmp;\nwhile (bot < top) {\nmid = (bot + top) / 2;\nif ((cmp = Sosanh(item,table[mid])) == 0) return mid;\nelse if (cmp < 0) top = mid - 1;\nelse bot = mid + 1;\n}\nreturn -1;\n}\nint main() {\nchar *cities[] = { “Boston”, “London”, “Sydney”, “Tokyo” };\ncout << BinSearch (“Sydney”,cities,4,strcmp) << endl;\n}\n```",
+      "question": "Chương trình sau in ra kết quả là bao nhiêu:\n```cpp\nint BinSearch (char *item,char *table[],int n, int (*Sosanh)(const char*,const char*)) {\nint bot = 0, top = n - 1, mid, cmp;\nwhile (bot < top) {\nmid = (bot + top) / 2;\nif ((cmp = Sosanh(item,table[mid])) == 0) return mid;\nelse if (cmp < 0) top = mid - 1;\nelse bot = mid + 1;\n}\nreturn -1;\n}\nint main() {\nchar *cities[] = { “Boston”, “London”, “Sydney”, “Tokyo” };\ncout << BinSearch (“Sydney”,cities,4,<span style='color:red; font-weight:bold'>strcmp</span>) << endl;\n}\n```",
       "answers": [
         {
           "id": "7ef9f2ff-7038-4468-bd3a-8e34741c363e",
@@ -2068,7 +2068,7 @@
     },
     {
       "id": "91883f8a-74b0-425e-9a4c-786005af70b0",
-      "question": "Chương trình sau thực hiện công việc gì?\n```cpp\nint BinSearch (char *item,char *table[],int n, int (*Sosanh)(const char*,const char*)) {\nint bot = 0, top = n - 1, mid, cmp;\nwhile (bot < top) {\nmid = (bot + top) / 2;\nif ((cmp = Sosanh(item,table[mid])) == 0) return mid;\nelse if (cmp < 0) top = mid - 1;\nelse bot = mid + 1;\n}\nreturn -1;\n}\nint main() {\nchar *cities[] = { “Boston”, “London”, “Sydney”, “Tokyo” };\ncout << BinSearch (“Sydney”,cities,4,strcmp) << endl;\n}\n```",
+      "question": "Chương trình sau thực hiện công việc gì?\n```cpp\nint <span style='color:red; font-weight:bold'>BinSearch</span> (char *item,char *table[],int n, int (*Sosanh)(const char*,const char*)) {\nint bot = 0, top = n - 1, mid, cmp;\nwhile (bot < top) {\nmid = (bot + top) / 2;\nif ((cmp = Sosanh(item,table[mid])) == 0) return mid;\nelse if (cmp < 0) top = mid - 1;\nelse bot = mid + 1;\n}\nreturn -1;\n}\nint main() {\nchar *cities[] = { “Boston”, “London”, “Sydney”, “Tokyo” };\ncout << <span style='color:red; font-weight:bold'>BinSearch</span> (“Sydney”,cities,4,strcmp) << endl;\n}\n```",
       "answers": [
         {
           "id": "42439733-00a4-40fa-aa5d-38fbcd208b34",
@@ -2092,7 +2092,7 @@
     },
     {
       "id": "dd1de442-2b20-4465-b5ec-da7557e44746",
-      "question": "Chương trình sau in ra kết quả bao nhiêu\n```cpp\nvoid functionSw (int &x, int &y) {\nint tmp = x;\nx = y;\ny = tmp;\n}\nint main() {\nint i = 10, j = 20;\nfunctionSw (i,j);\ncout << i << “, “ << j << endl;\n}\n```",
+      "question": "Chương trình sau in ra kết quả bao nhiêu\n```cpp\nvoid functionSw (<span style='color:red; font-weight:bold'>int &x, int &y)</span> {\n<span style='color:red; font-weight:bold'>int tmp = x;</span>\n<span style='color:red; font-weight:bold'>x = y;</span>\n<span style='color:red; font-weight:bold'>y = tmp;</span>\n}\nint main() {\nint i = 10, j = 20;\n<span style='color:red; font-weight:bold'>functionSw (i,j);</span>\ncout << i << “, “ << j << endl;\n}\n```",
       "answers": [
         {
           "id": "5bf8ac1e-030f-49eb-8c47-814cc9b85ee2",
@@ -2116,7 +2116,7 @@
     },
     {
       "id": "e163b436-8e75-41c8-b749-6eff54a0f9c6",
-      "question": "Chương trình sau in ra kết quả bao nhiêu\n```cpp\nvoid functionSw (int x, int y) {\nint tmp = x;\nx = y;\ny = tmp;\n}\nint main() {\nint i = 10, j = 20;\nfunctionSw (i,j);\ncout << i << “, “ << j << endl;\n}\n```",
+      "question": "Chương trình sau in ra kết quả bao nhiêu\n```cpp\nvoid functionSw (<span style='color:red; font-weight:bold'>int x, int y)</span> {\nint tmp = x;\nx = y;\ny = tmp;\n}\nint main() {\nint i = 10, j = 20;\nfunctionSw (i,j);\ncout << i << “, “ << j << endl;\n}\n```",
       "answers": [
         {
           "id": "7c6cbf62-6c7e-4d24-bf6a-f0430af1cb8f",
@@ -2140,7 +2140,7 @@
     },
     {
       "id": "c6399779-f635-4b5e-81cb-964812839523",
-      "question": "Chương trình sau in ra kết quả bao nhiêu\n```cpp\nvoid functionS w (int *x, int *y) {\nint tmp = *x;\n*x =* y;\n*y = tmp;\n}\nint main() {\nint i = 10, j = 20;\nfunctionSw (i,j);\ncout << i << “, “ << j << endl;\n}\n```",
+      "question": "Chương trình sau in ra kết quả bao nhiêu\n```cpp\nvoid functionS w (<span style='color:red; font-weight:bold'>int *x, int *y</span>) {\nint tmp = *x;\n*x =* y;\n*y = tmp;\n}\nint main() {\nint i = 10, j = 20;\nfunctionSw (i,j);\ncout << i << “, “ << j << endl;\n}\n```",
       "answers": [
         {
           "id": "e74d170b-4e1c-4cc8-8b56-eecacc97b2ef",
@@ -2164,7 +2164,7 @@
     },
     {
       "id": "fd300f10-5f0f-4525-873b-b584e146c4b7",
-      "question": "Chương trình sau thực hiện công việc gì?\n```cpp\nchar* ReChar (char* str) {\nint len = strlen (str);\nchar* ketqua = new char[len+1];\nfor (int i = 0; i < len; i++) ketqua[i] = str[len-i-1];\nketqua[len] = '\\0';\nreturn ketqua;\n}\nint main() {\nchar *p = 178892”;\ncout << ReChar (p) << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau thực hiện công việc gì?\n```cpp\nchar* ReChar (char* str) {\nint len = strlen (str);\nchar* ketqua = new char[len+1];\nfor (int i = 0; i < len; i++) <span style='color:red; font-weight:bold'>ketqua[i] = str[len-i-1];</span>\nketqua[len] = '\\0';\nreturn ketqua;\n}\nint main() {\nchar *p = <span style='color:red; font-weight:bold'>178892”</span>;\ncout << ReChar (p) << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "c3b66ca3-c2f2-43c7-9998-bca17531babe",
@@ -2212,7 +2212,7 @@
     },
     {
       "id": "b160c995-0a55-4dd2-bdc4-eeb81f2d2e23",
-      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. char ReChar (char str) {\n2. int len = strlen (str);\n3. char ketqua = new char[len+1];\n4. for (int i = 0; i < len; i++) ketqua[i] = str[len-i-1];\n5. ketqua[len] = '\\0';\n6. return ketqua;\n7. }\n8. int main() {\n9. char p[] = 178892”;\n10.    cout << ReChar (p) << endl;\n11.    return 0;\n12.}\n```",
+      "question": "Chương trình sau <span style='color:red; font-weight:bold'>sai ở</span> dòng nào?\n```cpp\n1. <span style='color:red; font-weight:bold'>char ReChar (char str)</span> {\n2. int len = strlen (str);\n3. <span style='color:red; font-weight:bold'>char k</span>etqua = new char[len+1];\n4. for (int i = 0; i < len; i++) ketqua[i] = str[len-i-1];\n5. ketqua[len] = '\\0';\n6. return ketqua;\n7. }\n8. int main() {\n9. char p[] = 178892”;\n10.    cout << ReChar (p) << endl;\n11.    return 0;\n12.}\n```",
       "answers": [
         {
           "id": "4e301935-9d36-445b-b217-728d41431455",
@@ -2236,7 +2236,7 @@
     },
     {
       "id": "09373bc3-8581-4939-8438-4ff201fcd49f",
-      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu?\n```cpp\nint val1, val2;\nint * pointer;\npointer = &val1;\n*pointer = 10;\npointer = &val2;\n*pointer = 20;\ncout << val1 * val2 << endl;\n```",
+      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu?\n```cpp\nint val1, val2;\nint * pointer;\npointer = &val1;\n*<span style='color:red; font-weight:bold'>pointer = 10</span>;\npointer = &val2;\n*<span style='color:red; font-weight:bold'>pointer = 20;</span>\ncout << <span style='color:red; font-weight:bold'>val1 * val</span>2 << endl;\n```",
       "answers": [
         {
           "id": "8a5edb86-cb82-471e-b565-e55dc88470d2",
@@ -2260,7 +2260,7 @@
     },
     {
       "id": "7b4a2eb2-bf09-4f3d-8ec5-8f87a8ce6e58",
-      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu?\n```cpp\nint val1, val2;\nint * pointer;\npointer = val1;\n*pointer = 10;\npointer = val2;\n*pointer = 20;\ncout << val1 * val2 << endl;\n```",
+      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu?\n```cpp\nint val1, val2;\nint * pointer;\n<span style='color:red; font-weight:bold'>pointer = val1;</span>\n*pointer = 10;\n<span style='color:red; font-weight:bold'>pointer = val2;</span>\n*pointer = 20;\ncout << val1 * val2 << endl;\n```",
       "answers": [
         {
           "id": "7e6f9840-a733-4938-8396-7e58aae8a379",
@@ -2284,7 +2284,7 @@
     },
     {
       "id": "41d14407-9af6-4d12-b150-0706f71521eb",
-      "question": "Cho đoạn chương trình sau:\n```cpp\n1. int val1 = 5, val2 = 15;\n2. int *p1, *p2;\n3. p1 = &val1;\n4. p2 = &val2;\n5. *p1 = 10;\n6. *p2 = *p1;\n7. p1 = p2;\n8. *p2 = 20;\n```\nTại dòng lệnh thứ 6, val2 có giá trị bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\n1. int val1 = 5, val2 = 15;\n2. int *p1, *p2;\n3. p1 = &val1;\n4. p2 = &val2;\n5. *p1 = 10;\n6. *p2 = *p1;\n7. p1 = p2;\n8. *p2 = 20;\n```\nTại dòng lệnh thứ <span style='color:red; font-weight:bold'>6, val2</span> có giá trị bao nhiêu?",
       "answers": [
         {
           "id": "e9728168-7ee2-4e62-80a2-78d43f01ae5d",
@@ -2308,7 +2308,7 @@
     },
     {
       "id": "6c22db70-d6c3-46c2-b9c7-620333d2778b",
-      "question": "Cho đoạn chương trình sau:\n```cpp\n1. int val1 = 5, val2 = 15;\n2. int *p1, *p2;\n3. p1 = &val1;\n4. p2 = &val2;\n5. *p1 = 10;\n6. *p2 = *p1;\n7. p1 = p2;\n8. *p2 = 20;\n9. cout << *p1 << endl;\n```\nChương trình sau in ra kết quả bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\n1. int val1 = 5, val2 = 15;\n2. int *p1, *p2;\n3. p1 = &val1;\n4. p2 = &val2;\n5. *p1 = 10;\n6. *p2 = *p1;\n7. p1 = p2;\n8. *p2 = 20;\n9. cout <span style='color:red; font-weight:bold'><< *p1</span> << endl;\n```\nChương trình sau <span style='color:red; font-weight:bold'>in ra kết quả bao</span> nhiêu?",
       "answers": [
         {
           "id": "9866468f-7dae-4d99-ab6a-74714e616b8e",
@@ -2332,7 +2332,7 @@
     },
     {
       "id": "6b4bb014-6e85-4ad1-8ea8-56a5e28af07b",
-      "question": "Cho đoạn chương trình sau:\n```cpp\n1. int val1 = 5, val2 = 15;\n2. int *p1, *p2;\n3. p1 = &val1;\n4. p2 = &val2;\n5. *p1 = 10;\n6. *p2 = *p1;\n7. p1 = p2;\n8. *p2 = 20;\n9. cout << *p1 * val2 << endl;\n```\nChương trình in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\n1. int val1 = 5, val2 = 15;\n2. int *p1, *p2;\n3. p1 = &val1;\n4. p2 = &val2;\n5. *p1 = 10;\n6. *p2 = *p1;\n7. p1 = p2;\n8. *p2 = 20;\n9. cout << <span style='color:red; font-weight:bold'>*p1 * val2</span> << endl;\n```\nChương trình in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "eea592c0-5654-4cb4-b567-cff6e060b011",
@@ -2356,7 +2356,7 @@
     },
     {
       "id": "9499f7ef-176b-4c91-bdc6-a31062e94bdd",
-      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu:\n```cpp\nint number[5] = { 10, 20, 30, 40, 50 };\nint *p;\np = number;\np++;\n*p += 60;\ncout << number[1] << endl;\n```",
+      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu:\n```cpp\nint number[5] = { 10, 20, 30, 40, 50 };\nint *p;\np = number;\np++;\n<span style='color:red; font-weight:bold'>*p += 60;</span>\ncout << <span style='color:red; font-weight:bold'>number[1] <<</span> endl;\n```",
       "answers": [
         {
           "id": "9b6115ff-c60f-4202-a792-03d00d0c9df3",
@@ -2380,7 +2380,7 @@
     },
     {
       "id": "a3a40300-595b-40ba-abfe-05fc72fc1e0a",
-      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu:\n```cpp\nint number[5] = { 10, 20, 30, 40, 50 };\nint *p;\np = number;\np++;\n*p = number + 3;\ncout << number[3] / 2 << endl;\n```",
+      "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu:\n```cpp\nint number[5] = { 10, 20, 30, 40, 50 };\nint *p;\np = number;\np++;\n<span style='color:red; font-weight:bold'>*p = number + 3;</span>\ncout << <span style='color:red; font-weight:bold'>number[3] / 2</span> << endl;\n```",
       "answers": [
         {
           "id": "f4319af5-8ba1-4940-ab01-d2033ca41e0d",
@@ -2428,7 +2428,7 @@
     },
     {
       "id": "5f7955a8-d10c-4269-9d17-bef727fa352a",
-      "question": "Cho khối lệnh sau:\nif (yourSale >= target)\n```cpp\nbonus = 100 + 0.01 * (yourSale - target);\n```\nelse\nbonus = 0\nVới yourSale = 3000, target = 2500, vậy bonus = ?",
+      "question": "Cho khối lệnh sau:\nif (yourSale >= target)\n```cpp\nbonus = 1<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span> + <span style='color:red; font-weight:bold'>0</span>.<span style='color:red; font-weight:bold'>0</span>1 * (yourSale - target);\n```\nelse\nbonus = <span style='color:red; font-weight:bold'>0</span>\nVới yourSale = 3<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, target = 25<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, vậy bonus = ?",
       "answers": [
         {
           "id": "013f7fe2-1645-49ea-9e51-efe8b256b1f8",
@@ -2472,7 +2472,7 @@
     },
     {
       "id": "12b8078c-9e83-4ae6-bd27-82ea1b927e1c",
-      "question": "Sau khi thực hiện khối lệnh, balance = ?\n```cpp\ndouble balance = 10, goal = 20, payment = 5;\nint years = 0;\nwhile (balance < goal) {\nbalance += payment;\ndouble interest = balance * 0.1 / 100;\nbalance += interest;\nyears ++;\n}\n```",
+      "question": "Sau khi thực hiện khối lệnh, balance = ?\n```cpp\ndouble balance = <span style='color:red; font-weight:bold'>10</span>, goal = 20, payment = 5;\nint years = 0;\nwhile (balance < goal) {\nbalance += payment;\ndouble interest = balance * 0.1 / <span style='color:red; font-weight:bold'>10</span>0;\nbalance += interest;\nyears ++;\n}\n```",
       "answers": [
         {
           "id": "823d0fcb-36b2-44dc-a735-86452c970120",
@@ -2496,7 +2496,7 @@
     },
     {
       "id": "b71e31fa-758e-42f2-b135-00c4895dc60f",
-      "question": "Sau khi thực hiện khối lệnh, balance = ?\n```cpp\ndouble balance = 20, goal = 20, payment = 5;\nint years = 0;\nwhile (balance <= goal) {\nbalance += payment;\ndouble interest = balance * 0.1 / 100;\nbalance += interest;\nyears ++;\n}\n```",
+      "question": "Sau khi thực hiện khối lệnh, balance = ?\n```cpp\ndouble balance <span style='color:red; font-weight:bold'>= 20,</span> goal <span style='color:red; font-weight:bold'>= 20,</span> payment = 5;\nint years = 0;\nwhile (balance <= goal) {\nbalance += payment;\ndouble interest = balance * 0.1 / 100;\nbalance += interest;\nyears ++;\n}\n```",
       "answers": [
         {
           "id": "5ceb66df-fa3e-487c-a4dd-833a9b95ad46",
@@ -2520,7 +2520,7 @@
     },
     {
       "id": "1bba29d2-8393-460d-8082-c9a520e8880b",
-      "question": "Khi thực hiện đoạn lệnh, balance = ?\n```cpp\ndouble balance = 10, goal = 20, payment = 5;\nint years = 0;\nwhile (balance < goal) {\nbalance += payment;\ndouble interest = balance * 0.1 / 100;\nbalance += interest;\nyears ++\n}\n```",
+      "question": "Khi thực hiện đoạn lệnh, balance = ?\n```cpp\ndouble balance = 10, goal = 20, payment = 5;\nint years = 0;\nwhile (balance < goal) {\nbalance += payment;\ndouble interest = balance * 0.1 / 100;\nbalance += interest;\n<span style='color:red; font-weight:bold'>years ++</span>\n}\n```",
       "answers": [
         {
           "id": "3e9baf24-f83f-48e4-b528-3c2e5414c3b3",
@@ -2568,7 +2568,7 @@
     },
     {
       "id": "84aad502-9018-4efd-bacc-e16f64b3b998",
-      "question": "Khi thực hiện, balance = ?\n```cpp\ndouble balance = 20, goal = 20, payment = 5;\nint years = 0;\ndo {\nbalance += payment;\ndouble interest = balance * 0.1 / 100;\nbalance += interest;\nyears ++;\n} while (balance < goal)\"\n```",
+      "question": "Khi thực hiện, <span style='color:red; font-weight:bold'>balance =</span> ?\n```cpp\ndouble <span style='color:red; font-weight:bold'>balance =</span> 20, goal = 20, payment = 5;\nint years = 0;\ndo {\nbalance += payment;\ndouble interest = balance * 0.1 / 100;\nbalance += interest;\nyears ++;\n} while (balance < goal)<span style='color:red; font-weight:bold'>\"</span>\n```",
       "answers": [
         {
           "id": "b777ca94-cdb2-4f16-a225-e21dab138729",
@@ -2616,7 +2616,7 @@
     },
     {
       "id": "11271f9b-5c2e-4e4d-8ca5-30ab211e20a1",
-      "question": "Cho khối lệnh sau:\n```cpp\nint s = 0;\nfor (int i = 0; i < 10; i++)\ns += i;\ns -= 10;\n```\nSau khi chạy khối lệnh s = ?",
+      "question": "Cho khối lệnh sau:\n```cpp\nint s = 0;\nfor (int i = 0; i < 10; i++)\ns += i;\n<span style='color:red; font-weight:bold'>s -= 10;</span>\n```\nSau khi chạy khối lệnh s = ?",
       "answers": [
         {
           "id": "ba9b86d5-4445-451c-bce1-5e64014c0055",
@@ -2640,7 +2640,7 @@
     },
     {
       "id": "a6af4f79-3fa4-4861-a521-2637f42e03ee",
-      "question": "Cho khối lệnh sau:\n```cpp\nfor (int i = 0; i <= 10; i++) {\nint s = 0;\ns += i;}\ncout << s;\n```\nSau khi chạy khối lệnh s = ?",
+      "question": "Cho khối lệnh sau:\n```cpp\nfor (int i = 0; i <= 10; i++) {\nint s = 0;\ns += i;}\ncout << <span style='color:red; font-weight:bold'>s;</span>\n```\nSau khi chạy khối lệnh s = ?",
       "answers": [
         {
           "id": "e3fbc4fc-c31a-4934-89a1-02480f035dd2",
@@ -2688,7 +2688,7 @@
     },
     {
       "id": "80fe0e8c-2da0-4a4c-9110-46b92a4d4d6d",
-      "question": "Cho khối lệnh sau:\n```cpp\nint s = 0;\nfor (int i = 0; i < 10; i++) {\ns = 0;\n\"s += i;\n}\n```\nSau khi chạy khối lệnh s = ?",
+      "question": "Cho khối lệnh sau:\n```cpp\nint <span style='color:red; font-weight:bold'>s = 0;</span>\nfor (int i = 0; i < 10; i++) {\n<span style='color:red; font-weight:bold'>s = 0;</span>\n<span style='color:red; font-weight:bold'>\"</span>s += i;\n}\n```\nSau khi chạy khối lệnh s = ?",
       "answers": [
         {
           "id": "37ffc573-e437-4c80-b667-3d3faf5ec82c",
@@ -2712,7 +2712,7 @@
     },
     {
       "id": "bb957cf4-c56f-4c96-ac0f-9a27aba2886e",
-      "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu?\n```cpp\nvoid inc (void* data, int psize) {\nif (psize == sizeof (char)) {\nchar* pchar;\npchar = (char*)data;\n++(*pchar);\n} else if (psize == sizeof(int)) {\nint* pint;\npint = (int*)data;\n++(*pint);\n}\n}\nint main() {\nint s = 1642;\ninc (&s,sizeof(s));\ncout << s << endl;\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu?\n```cpp\nvoid inc (void* data, int psize) {\nif (psize == sizeof (char)) {\nchar* pchar;\npchar = (char*)data;\n++(*pchar);\n} else if (psize == sizeof(int)) {\n<span style='color:red; font-weight:bold'>int* pint;</span>\n<span style='color:red; font-weight:bold'>pint = (int*)data;</span>\n<span style='color:red; font-weight:bold'>++(*pint);</span>\n}\n}\nint main() {\n<span style='color:red; font-weight:bold'>int s</span> = 1642;\ninc (&s,sizeof(s));\ncout << s << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "e46bcbb1-b8bf-4325-8f50-6425f7826a7f",
@@ -2736,7 +2736,7 @@
     },
     {
       "id": "19da631f-eb77-454e-b9bd-48c196423836",
-      "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu?\n```cpp\nvoid inc (void* data, int psize) {\nif (psize == sizeof (char)) {\nchar* pchar;\npchar = (char*)data;\n++(*pchar);\n} else if (psize == sizeof(int)) {\nint* pint;\npint = (int*)data;\n++(*pint);\n}\n}\nint main() {\nchar c = 'y';\ninc (&s,sizeof(s));\ncout << s << endl;\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu?\n```cpp\nvoid inc (void* data, int psize) {\nif (psize == sizeof (char)) {\nchar* pchar;\npchar = (char*)data;\n++(*pchar);\n} else if (psize == sizeof(int)) {\nint* pint;\npint = (int*)data;\n++(*pint);\n}\n}\nint main() {\n<span style='color:red; font-weight:bold'>char c = 'y';</span>\ninc (&s,sizeof(s));\n<span style='color:red; font-weight:bold'>cout << s << endl;</span>\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "f513e8da-5de2-4c03-a30e-a1d13dd0f3d4",
@@ -2760,7 +2760,7 @@
     },
     {
       "id": "5eee4ec7-fb03-49f9-8171-8587254a0aeb",
-      "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu?\n```cpp\nvoid inc (void* data, int psize) {\nif (psize == sizeof (char)) {\nchar* pchar;\npchar = (char*)data;\n++(*pchar);\n} else if (psize == sizeof(int)) {\nint* pint;\npint = (char*)data;\n++(*pint);\n}\n}\nint main() {\nint s = 1642;\ninc (s);\nvoid << s << endl;\nreturn 0;\n}\n```",
+      "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu?\n```cpp\nvoid inc (void* data, int psize) {\nif (psize == sizeof (char)) {\nchar* pchar;\npchar = <span style='color:red; font-weight:bold'>(char*)data;</span>\n++(*pchar);\n} else if (psize == sizeof(int)) {\nint* pint;\npint = <span style='color:red; font-weight:bold'>(char*)data;</span>\n++(*pint);\n}\n}\nint main() {\nint s = 1642;\ninc (s);\nvoid << s << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "132ae0f1-3a2a-4705-aa11-540ed99eed46",
@@ -2784,7 +2784,7 @@
     },
     {
       "id": "7de896bb-6f8f-4409-9949-69e47b841318",
-      "question": "Chương trinh test.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = 0;\nfor (int i = 1; i < argc; i++)  s += atof(argv[i]);\ncout << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: test 32.1 4 5.6, chương trình sẽ cho kết quả là bao nhiêu?",
+      "question": "Chương trinh <span style='color:red; font-weight:bold'>test</span>.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = 0;\nfor (int i = 1; i < argc; i++)  s <span style='color:red; font-weight:bold'>+= atof(argv[i]);</span>\ncout << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: <span style='color:red; font-weight:bold'>test</span> <span style='color:red; font-weight:bold'>32.1 4 5.6</span>, chương trình sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "dd62ad9f-c7bb-4640-b127-a71a0f55c3c0",
@@ -2808,7 +2808,7 @@
     },
     {
       "id": "ade0a3f4-1081-4e6a-9ff8-984a9d2946e7",
-      "question": "Chương trinh test.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = atof(argv[1]);\nfor (int i = 2; i < argc; i++)  s -= atof(argv[i]);\ncout << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: test 40 5 12 7, chương trình sẽ cho kết quả là bao nhiêu?",
+      "question": "Chương trinh <span style='color:red; font-weight:bold'>test</span>.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = atof(argv[1]);\nfor (int i = 2; i < argc; i++)  <span style='color:red; font-weight:bold'>s -= atof(argv[i]);</span>\ncout << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: <span style='color:red; font-weight:bold'>test</span> <span style='color:red; font-weight:bold'>40 5 12 7</span>, chương trình sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "5e68858e-7594-4f88-9b35-c5ee74730b69",
@@ -2832,7 +2832,7 @@
     },
     {
       "id": "27475d93-5f5f-401a-be4c-5bdbef6103dc",
-      "question": "Chương trinh test.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = 1;\nfor (int i = 0; i < atof(argv[2]); i++)  s *= atof(argv[1]);\ncout << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: test 3 3, chương trình sẽ cho kết quả là bao nhiêu?",
+      "question": "Chương trinh test.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = 1;\nfor (int i = 0; i < atof(argv[2]); i++)  <span style='color:red; font-weight:bold'>s *= atof(argv[1]);</span>\ncout << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: <span style='color:red; font-weight:bold'>test 3 3</span>, chương trình sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "aaaf440d-bbd0-4081-9baa-55b12d161219",
@@ -2856,7 +2856,7 @@
     },
     {
       "id": "10312d73-05e3-4f7e-9514-2c21e034ce3a",
-      "question": "Chương trinh test.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = 1;\nfor (int i = 0; i < argv[2]; i++)  s += atof(argv[1]);\ncou << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: test 3 3, chương trình sẽ cho kết quả là bao nhiêu?",
+      "question": "Chương trinh test.exe có code như sau:\n```cpp\nint main(int argc,char* argv[]) {\ndouble s = 1;\nfor (int i = 0; i < <span style='color:red; font-weight:bold'>argv[2];</span> i++)  s += atof(argv[1]);\n<span style='color:red; font-weight:bold'>cou</span> << s << endl;\nreturn 0;\n}\n```\nTại dấu nhắc DOS, chạy chương trình: test 3 3, chương trình sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "af35a44a-8ccb-4a82-a9ad-a36f6d9872e5",
@@ -2880,7 +2880,7 @@
     },
     {
       "id": "259eace4-987e-4d64-9e57-30e505e5c56e",
-      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y, int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\nint m,n;\nint (*minus)(int,int) = sub;\nm = (7,5,add);\nn = (20,m,minus);\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y, int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\n<span style='color:red; font-weight:bold'>int m,n;</span>\nint (*minus)(int,int) = sub;\nm = <span style='color:red; font-weight:bold'>(7,5,add</span>);\n<span style='color:red; font-weight:bold'>n = (20,m,minus</span>);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "6fa94c12-0b54-4677-ba79-90181f92e049",
@@ -2904,7 +2904,7 @@
     },
     {
       "id": "397be73c-85a5-4190-bf8f-0af2d65da641",
-      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y, int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\nint m,n;\nint (*minus)(int,int) = sub;\nm = (7,5,add);\nn = (operation(20,3,minus),m,minus);\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y, int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\n<span style='color:red; font-weight:bold'>int m,n;</span>\nint (*minus)(int,int) = sub;\nm <span style='color:red; font-weight:bold'>= (7,5,add);</span>\nn <span style='color:red; font-weight:bold'>= (operation(20,3,minus</span>),m,minus);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "2e21a81b-257a-4cc1-b236-36b70e033928",
@@ -2928,7 +2928,7 @@
     },
     {
       "id": "4800e648-d882-476c-a793-5bdb0f5430c4",
-      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y,int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\nint s = 0;\nint *p = new int[5];\nfor (int i = 0; i < 5; i++) {\np[i] = i + 1;\ns = operation (s,p[i],add);\n}\ncout << s << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y,int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\nint s = 0;\n<span style='color:red; font-weight:bold'>int *p = new int[5];</span>\n<span style='color:red; font-weight:bold'>for (int i = 0; i < 5; i++)</span> {\np[i] = i + 1;\ns = operation (s,p[i],add);\n}\ncout << s << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "8ea6e7d6-c2a0-4521-9eab-13c4b088b19d",
@@ -2952,7 +2952,7 @@
     },
     {
       "id": "d7d4974f-2ce2-409f-9cd9-6ba52966381a",
-      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y,int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\nint s = 0, n = 10;\nint *p = new int[5];\nfor (int i = 0; i < 5; i++) {\np[i] = n--;\ns = operation (s,p[i],add);\n}\ncout << s << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in ra kết quả gì:\n```cpp\nint add (int a, int b) { return (a + b); }\nint sub (int a, int b) { return (a - b); }\nint operation (int x, int y,int (*functocall) (int,int)) {\nint s = (*functocall) (x,y);\nreturn s;\n}\nint main() {\n<span style='color:red; font-weight:bold'>int s = 0, n = 10;</span>\n<span style='color:red; font-weight:bold'>int *p = new int[5];</span>\n<span style='color:red; font-weight:bold'>for (int i = 0; i < 5; i++) {</span>\np[i] = n--;\ns = operation (s,p[i],add);\n}\ncout << s << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "25218fc5-84c8-49cb-9ed3-496e7b1037e3",
@@ -2976,7 +2976,7 @@
     },
     {
       "id": "71beb971-6e0d-48bc-94dd-800efd19b16d",
-      "question": "Thực hiện đoạn lệnh sau đưa ra kết quả bao nhiêu:\n```cpp\nint s = 0, n = 10;\nint number[3][3];\nfor (int i = 0,j = 0; i < 3,j < 3; i++, j++) {\nnumber[i][j] = n --;\ns += number[i][j];\n}\ncout << s << endl;\n```",
+      "question": "Thực hiện đoạn lệnh sau đưa ra kết quả bao nhiêu:\n```cpp\nint s = 0, n = 10;\n<span style='color:red; font-weight:bold'>int number[3][3];</span>\n<span style='color:red; font-weight:bold'>for (int i = 0,j = 0; i < 3,j < 3; i++, j++) {</span>\n<span style='color:red; font-weight:bold'>number[i][j] = n --;</span>\n<span style='color:red; font-weight:bold'>s += number[i][j];</span>\n}\ncout << s << endl;\n```",
       "answers": [
         {
           "id": "a550016b-879c-4862-b554-6e805b559a29",
@@ -3000,7 +3000,7 @@
     },
     {
       "id": "91c7f5b6-99dd-4b59-88e3-0c4ce44d2a2d",
-      "question": "Thực hiện đoạn lệnh sau đưa ra kết quả bao nhiêu:\n```cpp\nint s = 0, n = 10;\nint number[3][4];\nfor (int i = 0,j = 0; i < 3,j < 4; i++, j++) {\nnumber[i][j] = n --;\ns += number[i][j];\n}\ncout << s << endl;\n```",
+      "question": "Thực hiện đoạn lệnh sau đưa ra kết quả bao nhiêu:\n```cpp\nint s = 0, n = 10;\n<span style='color:red; font-weight:bold'>int number[3][4];</span>\n<span style='color:red; font-weight:bold'>for (int i = 0,j = 0; i < 3,j < 4; i++, j++) {</span>\n<span style='color:red; font-weight:bold'>number[i][j] = n --;</span>\n<span style='color:red; font-weight:bold'>s += number[i][j];</span>\n}\ncout << s << endl;\n```",
       "answers": [
         {
           "id": "0d30fef6-57e6-41b4-83ef-5cc4469b0480",
@@ -3024,7 +3024,7 @@
     },
     {
       "id": "3b4874e0-c225-4b89-a4d5-4452e02b413e",
-      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nvoid inc (void* data,int psize) {\nif (psize == sizeof(char)) {\nchar *p;\np = (char*)data;\n++(*p);\n}\n}\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nchar ten = 'A';\nhocsinh hs[3];\nfor (int i = 0; i < 3; i++) {\nhs[i].hoten = ten;\nhs[i].namsinh = 1990 + i;\ninc (&ten,sizeof(ten));\n}\ncout << hs[1].hoten << “ - “ << hs[1].namsinh << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nvoid inc (void* data,int psize) {\nif (psize == sizeof(char)) {\nchar *p;\np = (<span style='color:red; font-weight:bold'>char*)data;</span>\n++(*p);\n}\n}\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nchar ten = 'A';\nhocsinh hs[3];\nfor (int i = 0; i < 3; i++) {\nhs[i].hoten = ten;\nhs[i].namsinh = 1990 + i;\ninc (&ten,sizeof(ten));\n}\ncout << <span style='color:red; font-weight:bold'>hs[1].</span>hoten << “ - “ << <span style='color:red; font-weight:bold'>hs[1].</span>namsinh << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "783db800-ec37-4e97-b6b6-2d96f66290ca",
@@ -3048,7 +3048,7 @@
     },
     {
       "id": "44ac2aaa-3bf4-403b-ae83-b6128c3d9313",
-      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nvoid inc (void* data,int psize) {\nif (psize == sizeof(char)) {\nchar *p;\np = (char*)data;\n++(*p);\n}\n}\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nchar ten = 'A';\nhocsinh hs[3];\nfor (int i = 0; i < 3; i++) {\nhs[i].hoten = ten;\nhs[i].namsinh = 1990 + i;\ninc (&ten,sizeof(ten));\n}\ncout << hs[0].hoten << “ - “ << hs[1].namsinh << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nvoid inc (void* data,int psize) {\nif (psize == sizeof(char)) {\nchar *p;\np = (char*)data;\n++(*p);\n}\n}\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nchar ten = 'A';\nhocsinh hs[3];\nfor (int i = 0; i < 3; i++) {\nhs[i].hoten = ten;\nhs[i].namsinh = 1990 + i;\ninc (&ten,sizeof(ten));\n}\ncout << <span style='color:red; font-weight:bold'>hs[0].</span>hoten << “ - “ << hs[1].namsinh << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "4d844abb-c7ce-48e3-bbff-2dd8a7e519e4",
@@ -3072,7 +3072,7 @@
     },
     {
       "id": "1550ce20-09b9-43cb-a15a-24870a8e9748",
-      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nvoid inc (void* data,int psize) {\nif (psize == sizeof(char)) {\nchar *p;\np = (char)data;\n++(*p);\n}\n}\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nchar ten = 'A';\nhocsinh hs[3];\nfor (int i = 0; i < 3; i++) {\nhs[i].hoten = ten;\nhs[i].namsinh = 1990 + i;\ninc (&ten,sizeof(ten));\n}\ncout << hs[0].hoten << “ - “ << hs[2].namsinh << endl;\n}\n```",
+      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nvoid inc (void* data,int psize) {\nif (psize == sizeof(char)) {\nchar *p;\np = (<span style='color:red; font-weight:bold'>char)data;</span>\n++(*p);\n}\n}\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nchar ten = 'A';\nhocsinh hs[3];\nfor (int i = 0; i < 3; i++) {\nhs[i].hoten = ten;\nhs[i].namsinh = 1990 + i;\ninc (&ten,sizeof(ten));\n}\ncout << hs[0].hoten << “ - “ << hs[2].namsinh << endl;\n}\n```",
       "answers": [
         {
           "id": "46854a87-5290-4617-90cf-1b86a54ca1f9",
@@ -3096,7 +3096,7 @@
     },
     {
       "id": "ca1d1591-ef68-4d25-b42a-05c20edff9ad",
-      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nhocsinh hs[3];\nhocsinh *p = hs;\nfor (int i = 0; i < 3; i++) {\np->namsinh = 1991 + i;\np++;\n}\np = hs+1;\np->namsinh -= 20;\ncout << hs[1].namsinh << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nhocsinh hs[3];\nhocsinh *p = hs;\nfor (int i = 0; i < 3; i++) {\np->namsinh = 1991 + i;\np++;\n}\np = hs+1;\n<span style='color:red; font-weight:bold'>p->namsinh -= 20;</span>\ncout << <span style='color:red; font-weight:bold'>hs[1].</span>namsinh << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "822e4090-5e48-4b6d-81fc-843ee3c667c3",
@@ -3120,7 +3120,7 @@
     },
     {
       "id": "cf3fae04-bcb8-4f83-8417-8d422e06041c",
-      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nhocsinh hs[3];\nhocsinh *p = hs;\nfor (int i = 0; i < 3; i++) {\np->namsinh = 1991 + i;\np++;\n}\np = hs+1;\np->namsinh -= 20;\ncout << hs[0].namsinh << endl;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau in kết quả là bao nhiêu:\n```cpp\nstruct hocsinh {\nstring hoten;\nint namsinh;\n};\nint main() {\nhocsinh hs[3];\nhocsinh *p = hs;\nfor (int i = 0; i < 3; i++) {\np->namsinh = 1991 + i;\np++;\n}\np = hs+1;\np->nams<span style='color:red; font-weight:bold'>inh -= 20;</span>\ncout << <span style='color:red; font-weight:bold'>hs[0].</span>namsinh << endl;\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "7cf8c2ba-9277-4f43-a76d-ca1985f5d7db",
@@ -3144,7 +3144,7 @@
     },
     {
       "id": "77603f0c-4a0b-45bd-8c40-0e3c5bf95e39",
-      "question": "Chương trình sau sai ở dòng nào:\n```cpp\n1.struct hocsinh {\n2. string hoten;\n3. int namsinh;\n4.};\n5.int main() {\n6. hocsinh hs[3];\n7. hocsinh *p = hs;\n8. for (int i = 0; i < 3; i++) {\n9.     p->namsinh = 1991 + i;\n10.        p++;\n11.    }\n12.    *p = hs+1;\n13.    p.namsinh -= 20;\n14.    cout << *p.namsinh << endl;\n15.    return 0;\n16.}\n```",
+      "question": "Chương trình sau <span style='color:red; font-weight:bold'>sai ở</span> dòng nào:\n```cpp\n1.struct hocsinh {\n2. string hoten;\n3. int namsinh;\n4.};\n5.int main() {\n6. hocsinh hs[3];\n7. hocsinh *p = hs;\n8. for (int i = 0; i < 3; i++) {\n9.     p->namsinh = 1991 + i;\n10.        p++;\n11.    }\n<span style='color:red; font-weight:bold'>12.    *p = hs+1;</span>\n<span style='color:red; font-weight:bold'>13.    p.namsinh -= 20;</span>\n<span style='color:red; font-weight:bold'>14.    cout << *p.namsinh << endl;</span>\n15.    return 0;\n16.}\n```",
       "answers": [
         {
           "id": "a18287d6-439b-4fc9-91d9-2692ea28d397",
@@ -3168,7 +3168,7 @@
     },
     {
       "id": "2498ac1c-9bbb-4028-a3ba-e354bc61e422",
-      "question": "Chương trình sau sai ở dòng nào:\n```cpp\n1.struct hocsinh {\n2. string hoten;\n3. int namsinh;\n4.};\n5.int main() {\n6. hocsinh hs[3];\n7. hocsinh *p = hs;\n8. for (int i = 0; i < 3; i++) {\n9.     (*p).namsinh = 1991 + i;\n10.        p++;\n11.    }\n12.    p = hs+1;\n13.    (*p).namsinh -= 20;\n14.    cout << (*p).namsinh << endl;\n15.    return 0;\n16.}\n```",
+      "question": "Chương trình sau sai ở dòng nào:\n```cpp\n1.struct hocsinh {\n2. string hoten;\n3. int namsinh;\n4.};\n5.int main() {\n6. hocsinh hs[3];\n7. hocsinh *p = hs;\n8. for (int i = 0; i < 3; i++) {\n9<span style='color:red; font-weight:bold'>.     (*p).namsinh = 1991 + i;</span>\n10.        p++;\n11.    }\n12.    <span style='color:red; font-weight:bold'>p = hs+1;</span>\n13<span style='color:red; font-weight:bold'>.    (*p).namsinh -= 20;</span>\n<span style='color:red; font-weight:bold'>14.    cout << (*p).namsinh << endl;</span>\n15.    return 0;\n16.}\n```",
       "answers": [
         {
           "id": "eb9b0d75-477d-49d2-8b21-32f33af322ab",
@@ -3240,7 +3240,7 @@
     },
     {
       "id": "5bf6a1f4-a487-43b5-8902-322e4a4991e7",
-      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\nclass nhanvien {\ndouble luong;\npublic:\nvoid setLuong(double d) { luong = d; }\ndouble getLuong() { return luong; }\nvoid tangLuong(double d) { luong += d; }\n};\nint main() {\n```\nnhanvien A;",
+      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\nclass nhanvien {\n<span style='color:red; font-weight:bold'>double luong;</span>\n<span style='color:red; font-weight:bold'>public:</span>\nvoid setLuong(double d) { luong = d; }\ndouble getLuong() { return luong; }\nvoid tangLuong(double d) { luong += d; }\n};\nint main() {\n```\nnhanvien A;",
       "answers": [
         {
           "id": "c4b6d21e-6663-4f78-9b98-68b4a1b57884",
@@ -3264,7 +3264,7 @@
     },
     {
       "id": "649a9350-1c14-4405-97d7-c8e0f1c596f4",
-      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\nclass nhanvien {\ndouble luong;\npublic:\nvoid setLuong(double d) { luong = d; }\nvoid getLuong() { return luong; }\nvoid tangLuong(double d) { luong += d; }\n};\nint main() {\n```\nnhanvien A;",
+      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\nclass nhanvien {\ndouble luong;\npublic:\n<span style='color:red; font-weight:bold'>void</span> setLuong(double d) { luong = d; }\n<span style='color:red; font-weight:bold'>void</span> getLuong() { return luong; }\n<span style='color:red; font-weight:bold'>void</span> tangLuong(double d) { luong += d; }\n};\nint main() {\n```\nnhanvien A;",
       "answers": [
         {
           "id": "5575e404-6f7e-4b12-9a4a-738ff417ded2",
@@ -3288,7 +3288,7 @@
     },
     {
       "id": "8baf1ab4-f3e8-49d3-bf8d-5e977e484552",
-      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nint DT () { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nint main() {\nCRect cn (7,7);\ncout << cn.DT();\nreturn 0;\n}\n```",
+      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\n<span style='color:red; font-weight:bold'>int DT () { return (height * width); }</span>\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nint main() {\nCRect cn (7,7);\ncout << cn.DT();\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "c5b615a4-fa11-44f2-9223-da77fa7ef065",
@@ -3312,7 +3312,7 @@
     },
     {
       "id": "b28c439b-f408-41f8-ad33-b827b37a6686",
-      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nint DT () { return (height + width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nint main() {\nCRect cn (7,7);\ncout << cn.DT();\nreturn 0;\n}\n```",
+      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\n<span style='color:red; font-weight:bold'>int DT () { return (height + width);</span> }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nint main() {\nCRect cn (7,7);\ncout << cn.DT();\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "5a5c2f0c-bb45-41f0-8a9e-c8819149d718",
@@ -3336,7 +3336,7 @@
     },
     {
       "id": "aa19b29d-46e2-44e9-8641-beb7f8834120",
-      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nint DT () { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nint main() {\nCRect cn;\ncout << cn.DT();\nreturn 0;\n}\n```",
+      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nint DT () { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nint main() {\n<span style='color:red; font-weight:bold'>CRect cn;</span>\ncout << cn.DT();\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "a59b6d74-5759-42a5-a9f6-19bf0a561f39",
@@ -3360,7 +3360,7 @@
     },
     {
       "id": "0f38b21d-1817-4a57-bb17-0f8201dacd41",
-      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nCRect ();\nint DT (void) { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nCRect::CRect () {\nheight = 5;\nwidth = 5;\n}\nint main() {\nCRect cn1 (3,4);\nCRect cn2;\ncout << cn1.DT() + cn2.DT();\nreturn 0;\n}\n```",
+      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nCRect ();\nint DT (void) { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nCRect::CRect () {\nheight = 5;\nwidth = 5;\n}\nint main() {\n<span style='color:red; font-weight:bold'>CRect cn1 (3,4);</span>\n<span style='color:red; font-weight:bold'>CRect cn2;</span>\n<span style='color:red; font-weight:bold'>cout << cn1.DT() + cn2.DT();</span>\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "157bae5a-7e1e-41c6-9863-6491046f2619",
@@ -3384,7 +3384,7 @@
     },
     {
       "id": "3e43513f-0367-4bd9-8c55-dc54c92b383c",
-      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nCRect ();\nint DT (void) { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nCRect::CRect () {\nheight = 5;\nwidth = 5;\n}\nint main() {\nCRect cn1 (3,4);\nCRect cn2;\ncout << cn2.DT();\nreturn 0;\n}\n```",
+      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\n<span style='color:red; font-weight:bold'>class CRect {</span>\n<span style='color:red; font-weight:bold'>int height, width;</span>\n<span style='color:red; font-weight:bold'>public:</span>\n<span style='color:red; font-weight:bold'>CRect (int,int);</span>\n<span style='color:red; font-weight:bold'>CRect ();</span>\n<span style='color:red; font-weight:bold'>int DT (void) { return (height * width); }</span>\n<span style='color:red; font-weight:bold'>};</span>\n<span style='color:red; font-weight:bold'>CRect::CRect (int a, int b) {</span>\n<span style='color:red; font-weight:bold'>height = a;</span>\n<span style='color:red; font-weight:bold'>width = b;</span>\n<span style='color:red; font-weight:bold'>}</span>\n<span style='color:red; font-weight:bold'>CRect::CRect () {</span>\n<span style='color:red; font-weight:bold'>height = 5;</span>\n<span style='color:red; font-weight:bold'>width = 5;</span>\n<span style='color:red; font-weight:bold'>}</span>\nint main() {\nCRect cn1 (3,4);\n<span style='color:red; font-weight:bold'>CRect cn2;</span>\ncout << cn2.DT();\nreturn 0;\n<span style='color:red; font-weight:bold'>}</span>\n```",
       "answers": [
         {
           "id": "a15e62e4-2ffc-4830-9880-a5c5d5544328",
@@ -3408,7 +3408,7 @@
     },
     {
       "id": "4e1fa928-0dc3-4023-8c15-c4c5b124e2aa",
-      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nCRect ();\nint DT (void) { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nCRect::CRect () {\nheight = 5;\nwidth = 5;\n}\nint main() {\nCRect cn1 (3,4);\nCRect cn2;\ncout << cn2.height * cn2.width;\nreturn 0;\n}\n```",
+      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint height, width;\npublic:\nCRect (int,int);\nCRect ();\nint DT (void) { return (height * width); }\n};\nCRect::CRect (int a, int b) {\nheight = a;\nwidth = b;\n}\nCRect::CRect () {\nheight = 5;\nwidth = 5;\n}\nint main() {\nCRect cn1 (3,4);\nCRect cn2;\ncout << <span style='color:red; font-weight:bold'>cn2.height * cn2.width;</span>\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "eef89f75-bce9-4f16-9444-b4744f1b178d",
@@ -3432,7 +3432,7 @@
     },
     {
       "id": "0ab7ac77-b47e-4f80-8e09-5cfc5b46b4f1",
-      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint *height, *width;\npublic:\nCRect (int,int);\n~CRect ();\nint DT (void) { return (*height * *width); }\n};\nCRect::CRect (int a, int b) {\nheight = new int;\nwidth = new int;\n*height = a;\n*width = b;\n}\nCRect::~CRect() {\ndelete height;\ndelete width;\n}\nint main() {\nCRect cn1 (3,4);\ncout << cn1.DT();\nreturn 0;\n}\n```",
+      "question": "Chương trình sau cho kết quả bao nhiêu khi chạy?\n```cpp\nclass CRect {\nint *height, *width;\npublic:\nCRect (int,int);\n~CRect ();\nint DT (void) { return (*height * *width); }\n};\nCRect::CRect (int a, int b) {\nheight = new int;\nwidth = new int;\n*height = a;\n*width = b;\n}\nCRect::~CRect() {\ndelete height;\ndelete width;\n}\nint main() {\n<span style='color:red; font-weight:bold'>CRect cn1 (3,4);</span>\n<span style='color:red; font-weight:bold'>cout << cn1.DT();</span>\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "d9271830-2783-42d3-9cd4-e8c7050e7d30",
@@ -3480,7 +3480,7 @@
     },
     {
       "id": "fede5c6e-420c-42b0-bd9b-739e7e84d968",
-      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2.  int *height, *width;\n3.   public:\n4.       CRect (int,int);\n5.       ~CRect ();\n6.       int DT (void) { return (height * width); }\n7. }\n8. CRect::CRect (int a, int b) {\n9.    height = new int;\n10.   width = new int;\n11.   *height = a;\n12.   *width = b;\n13.}\n14. CRect::~CRect() {\n15.    delete height;\n16.    delete width;\n17. }\n18. int main() {\n19.   CRect cn1 (3,4);\n20.   cout << cn1.DT();\n21.   return 0;\n22. }\n```",
+      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2.  int *height, *width;\n3.   public:\n4.       CRect (int,int);\n5.       ~CRect ();\n6.       int DT (void) { return (height * width); <span style='color:red; font-weight:bold'>}</span>\n7. <span style='color:red; font-weight:bold'>}</span>\n8. CRect::CRect (int a, int b) {\n9.    height = new int;\n10.   width = new int;\n11.   *height = a;\n12.   *width = b;\n13.<span style='color:red; font-weight:bold'>}</span>\n14. CRect::~CRect() {\n15.    delete height;\n16.    delete width;\n17. <span style='color:red; font-weight:bold'>}</span>\n18. int main() {\n19.   CRect cn1 (3,4);\n20.   cout << cn1.DT();\n21.   return 0;\n22. <span style='color:red; font-weight:bold'>}</span>\n```",
       "answers": [
         {
           "id": "20388583-4961-4c9f-a877-6605a7270213",
@@ -3504,7 +3504,7 @@
     },
     {
       "id": "bfe3539b-ca2f-49cb-ae42-220a01aa129b",
-      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2.  int *height, *width;\n3.   public:\n4.       CRect (int,int);\n5.       ~CRect ();\n6.       int DT (void) { return (*height * *width); }\n7. };\n8. CRect::CRect (int a, int b) {\n9.    height = new short int;\n10.   width = new short int;\n11.   *height = a;\n12.   *width = b;\n13.}\n14. CRect::~CRect() {\n15.    delete height;\n16.    delete width;\n17. }\n18. int main() {\n19.   CRect cn1 (3,4);\n20.   cout << cn1.DT();\n21.   return 0;\n22. }\n```",
+      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2.  int *height, *width;\n3.   public:\n4.       CRect (int,int);\n5.       ~CRect ();\n6.       int DT (void) { return (*height * *width); }\n7. };\n8. CRect::CRect (int a, int b) {\n<span style='color:red; font-weight:bold'>9.    height = new short int;</span>\n<span style='color:red; font-weight:bold'>10.   width = new short int;</span>\n11.   *height = a;\n12.   *width = b;\n13.}\n14. CRect::~CRect() {\n15.    delete height;\n16.    delete width;\n17. }\n18. int main() {\n19.   CRect cn1 (3,4);\n20.   cout << cn1.DT();\n21.   return 0;\n22. }\n```",
       "answers": [
         {
           "id": "1d36f660-3f3c-4079-abc7-558bdc8f7954",
@@ -3528,7 +3528,7 @@
     },
     {
       "id": "98455df8-5bac-4b6b-abb9-04696476d3f8",
-      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2.  int *height, *width;\n3.   public:\n4.       CRect (int,int);\n5.       ~CRect ();\n6.       int DT (void) { return (*height * width); }\n7. };\n8. CRect::CRect (int a, int b) {\n9.    height = new int;\n10.   width = new int;\n11.   height = a;\n12.   width = b;\n13.}\n14. CRect::~CRect() {\n15.    delete height;\n16.    delete width;\n17. }\n18. int main() {\n19.   CRect cn1 (3,4);\n20.   cout << cn1.DT();\n21.   return 0;\n22. }\n```",
+      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2.  int *height, *width;\n3.   public:\n4.       CRect (int,int);\n5.       ~CRect ();\n6.       int DT (void) { return <span style='color:red; font-weight:bold'>(*height * width);</span> }\n7. };\n8. CRect::CRect (int a, int b) {\n9.    height = new int;\n10.   width = new int;\n<span style='color:red; font-weight:bold'>11.   height = a;</span>\n<span style='color:red; font-weight:bold'>12.   width = b;</span>\n13.}\n14. CRect::~CRect() {\n15.    delete height;\n16.    delete width;\n17. }\n18. int main() {\n19.   CRect cn1 (3,4);\n20.   cout << cn1.DT();\n21.   return 0;\n22. }\n```",
       "answers": [
         {
           "id": "025afd84-7139-429e-a6c3-c193fb812b67",
@@ -3552,7 +3552,7 @@
     },
     {
       "id": "cb22178c-4353-4ac2-a103-ea7acb14e62f",
-      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (height * width); }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, *d;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n18.    d[1].setGiatri(7,8);\n19.    cout << c->DT() << endl;\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
+      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (<span style='color:red; font-weight:bold'>height * width);</span> }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, *d;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n18.    d[1].setGiatri(7,8);\n19.    cout << c->DT() << endl;\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
       "answers": [
         {
           "id": "48ae3f1e-0133-4f67-883b-02e70486a4e4",
@@ -3576,7 +3576,7 @@
     },
     {
       "id": "030dd556-2649-4af6-82f0-9baf94136307",
-      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (height * width); }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, d*;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n18.    d[1].setGiatri(7,8);\n19.    cout << c->DT() * (*b).DT() << endl;\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
+      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (<span style='color:red; font-weight:bold'>height * width</span>); }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, d*;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n18.    d[1].setGiatri(7,8);\n19.    cout << c->DT() * (*b).DT() << endl;\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
       "answers": [
         {
           "id": "1f3f8897-67e9-4c5b-9304-a16830f2401b",
@@ -3600,7 +3600,7 @@
     },
     {
       "id": "2115fec2-f356-4254-aa25-c4b5b445479e",
-      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (height + width); }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, *d;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n18.    d[1].setGiatri(7,8);\n19.    cout << d->DT() << endl;\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
+      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (<span style='color:red; font-weight:bold'>height + width);</span> }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, *d;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n18.    d[1].setGiatri(7,8);\n19.    cout << d->DT() << endl;\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
       "answers": [
         {
           "id": "052aeef3-902f-4a31-90d3-ba436558f9f0",
@@ -3624,7 +3624,7 @@
     },
     {
       "id": "562be162-9e39-4f39-86b5-87a48b4c4332",
-      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (height * width); }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, *d;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n18.    d[1]->setGiatri(7,8);\n19.    cout << c->DT() * b.DT() << endl;\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
+      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CRect {\n2. int height, width;\n3. public:\n4.     void setGiatri(int a, int b) {\n5.         height = a;\n6.         width = b;\n7.     }\n8.     int DT() { return (height * width); }\n9. };\n10. int main() {\n11.    CRect a, *b, *c, *d;\n12.    d = new CRect[2];\n13.    b = new CRect;\n14.    c = &a;\n15.    a.setGiatri(1,2);\n16.    b->setGiatri(3,4);\n17.    d->setGiatri(5,6);\n<span style='color:red; font-weight:bold'>18.    d[1]->setGiatri(7,8);</span>\n<span style='color:red; font-weight:bold'>19.    cout << c->DT() * b.DT() << endl;</span>\n20.    delete b;\n21.    delete[] d;\n22.    return 0;\n23. }\n```",
       "answers": [
         {
           "id": "064954d1-1034-4a7d-a4ba-0f590fc89360",
@@ -3648,7 +3648,7 @@
     },
     {
       "id": "e76b00f1-26d2-4888-a815-0c70f327a12b",
-      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\n1. class CVector {\n2.     public:\n3.     int x,y;\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n7. };\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n13.    CVector tmp;\n14.    tmp.x = x + v.x;\n15.    tmp.y = y + v.y;\n16.    return tmp;\n17.}\n18.int main () {\n19.    CVector a (3,1);\n20.    CVector b(8,4);\n21.    CVector c;\n22.    c = a + b;\n23.    cout << c.x + c.y << endl;\n24.    return 0;\n25.}\n```",
+      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\n1. class CVector {\n2.     public:\n3.     int x,y;\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n7. };\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n<span style='color:red; font-weight:bold'>13.    CVector tmp;</span>\n<span style='color:red; font-weight:bold'>14.    tmp.x = x + v.x;</span>\n<span style='color:red; font-weight:bold'>15.    tmp.y = y + v.y;</span>\n16.    return tmp;\n17.}\n18.int main () {\n<span style='color:red; font-weight:bold'>19.    CVector a (3,1);</span>\n<span style='color:red; font-weight:bold'>20.    CVector b(8,4);</span>\n21.    CVector c;\n<span style='color:red; font-weight:bold'>22.    c = a + b;</span>\n23.    cout << c.x + c.y << endl;\n24.    return 0;\n25.}\n```",
       "answers": [
         {
           "id": "d83c2460-f31a-4ed0-a226-7d1bf0037d1f",
@@ -3672,7 +3672,7 @@
     },
     {
       "id": "2f05b0f4-5f64-4f72-9827-6ca07787b2ed",
-      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\n1. class CVector {\n2.    public:\n3.     int x,y;\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n7. };\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n13.    CVector tmp;\n14.    tmp.x = x - v.x;\n15.    tmp.y = y - v.y;\n16.    return tmp;\n17.}\n18.int main () {\n19.    CVector a (3,1);\n20.    CVector b(8,4);\n21.    CVector c;\n22.    c = a + b;\n23.    cout << c.x + c.y << endl;\n24.    return 0;\n25.}\n```",
+      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\n1. class CVector {\n2.    public:\n3.     int x,y;\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n7. };\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n<span style='color:red; font-weight:bold'>13.    CVector tmp;</span>\n<span style='color:red; font-weight:bold'>14.    tmp.x = x - v.x;</span>\n<span style='color:red; font-weight:bold'>15.    tmp.y = y - v.y;</span>\n16.    return tmp;\n17.}\n18.int main () {\n19.    CVector a (3,1);\n20.    CVector b(8,4);\n21.    CVector c;\n22.    c = a + b;\n23.    cout << c.x + c.y << endl;\n24.    return 0;\n25.}\n```",
       "answers": [
         {
           "id": "6eae5843-8eb0-4b78-a8b9-2185d2513db8",
@@ -3696,7 +3696,7 @@
     },
     {
       "id": "575228af-7613-4c9c-9a6b-1b544a656a4e",
-      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\n1. class CVector {\n2.    public:\n3.     int x,y;\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n7. };\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n13.    CVector tmp;\n14.    tmp.x = x % v.x;\n15.    tmp.y = y % v.y;\n16.    return tmp;\n17.}\n18.int main () {\n19.    CVector a (3,1);\n20.    CVector b(8,4);\n21.    CVector c;\n22.    c = a + b;\n23.    cout << c.x + c.y << endl;\n24.    return 0;\n25.}\n```",
+      "question": "Chương trình sau cho kết quả là bao nhiêu?\n```cpp\n1. class CVector {\n2.    public:\n3.     int x,y;\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n7. };\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n13.    CVector tmp;\n<span style='color:red; font-weight:bold'>14.    tmp.x = x % v.x;</span>\n<span style='color:red; font-weight:bold'>15.    tmp.y = y % v.y;</span>\n16.    return tmp;\n17.}\n18.int main () {\n19.    CVector a (3,1);\n20.    CVector b(8,4);\n21.    CVector c;\n22.    c = a + b;\n23.    cout << c.x + c.y << endl;\n24.    return 0;\n25.}\n```",
       "answers": [
         {
           "id": "c7824627-bc1c-4b88-8b31-7082e5d91d2f",
@@ -3720,7 +3720,7 @@
     },
     {
       "id": "b60382db-24ff-4d17-bba7-ff06213adb2b",
-      "question": "Khi chạy đoạn chương trình sau cho kết quả bằng bao nhiêu?\n```cpp\nint i;\nfloat p;\np=1;\nfor(i=1;i<3;i++) {\np=p*i;\np=p*p;\n}\ncout << p << endl;\n```",
+      "question": "Khi chạy đoạn chương trình sau cho kết quả bằng bao nhiêu?\n```cpp\nint i;\nfloat p;\np=1;\nfor(i=1;<span style='color:red; font-weight:bold'>i<3</span>;i++) {\np=p*i;\np=p*p;\n}\ncout << p << endl;\n```",
       "answers": [
         {
           "id": "16f6098c-4955-4b27-afe7-65006ce8cdf0",
@@ -3744,7 +3744,7 @@
     },
     {
       "id": "0da1400c-4ead-410c-9f3f-17c360ba6d66",
-      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\nclass tinh {\npublic:\nint a;\ntinh() {}\ntinh(int i) {a = i;}\ntinh operator+(tinh t) {\ntinh tmp;\ntmp.a = a % t.a;\nreturn tmp\n}\n};\nvoid main() {\ntinh t1(1), t2(3),t3;\nt3 = t1 + t2;\ncout << t.a;\n}\n```",
+      "question": "Chương trình cho kết quả là bao nhiêu?\n```cpp\nclass tinh {\npublic:\nint a;\ntinh() {}\ntinh(int i) {a = i;}\ntinh operator+(tinh t) {\ntinh tmp;\ntmp.a = a % t.a;\nreturn tmp\n}\n};\nvoid main() {\ntinh t1(1), t2(3),t3;\nt3 = t1 + t2;\n<span style='color:red; font-weight:bold'>cout << t.a;</span>\n}\n```",
       "answers": [
         {
           "id": "504108af-32ac-47c3-845a-76eb7177aab2",
@@ -3792,7 +3792,7 @@
     },
     {
       "id": "66206ce7-56e7-4433-b6db-24b9ae89a6ae",
-      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CVector {\n2.    int x,y;\n3.     public:\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n7. }\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n13.    CVector tmp;\n14.    tmp.x = x % v.x;\n15.    tmp.y = y % v.y;\n16.    return tmp;\n17.}\n18.int main () {\n19.    CVector a (3,1);\n20.    CVector b(8,4);\n21.    CVector c;\n22.    c = a + b;\n23.    cout << c.x + c.y << endl;\n24.    return 0;\n25.}\n```",
+      "question": "Chương trình sau sai ở dòng nào?\n```cpp\n1. class CVector {\n2.    int x,y;\n3.     public:\n4.     CVector () {}\n5.     CVector (int,int);\n6.     CVector operator+ (CVector);\n<span style='color:red; font-weight:bold'>7. }</span>\n8. CVector::CVector (int a,int b) {\n9.     x = a;\n10.    y = b;\n11. }\n12. CVector CVector::operator+ (CVector v) {\n13.    CVector tmp;\n14.    tmp.x = x % v.x;\n15.    tmp.y = y % v.y;\n16.    return tmp;\n17.}\n18.int main () {\n19.    CVector a (3,1);\n20.    CVector b(8,4);\n21.    CVector c;\n22.    c = a + b;\n<span style='color:red; font-weight:bold'>23.    cout << c.x + c.y << endl;</span>\n24.    return 0;\n25.}\n```",
       "answers": [
         {
           "id": "a2467d8e-c0f4-4480-b907-d7bb8636356b",
@@ -3888,7 +3888,7 @@
     },
     {
       "id": "759c2519-46d5-48ac-90d1-6992ea3bfe6d",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nvoid stringRear (char s[], char d[], int x) {\nfor (int i = strlen(s); i > x; i--) d[i-x] = s[i];\nd[0] = s[x];\n}\nint main() {\nchar str[11], tmp[11];\nchar *p;\nchar a[3];\np = strchr(str, “/ “);\nint num = p - str;\nstrncpy(a,str,num);\na[2] = “\\0”;\ncout << a << endl;\nreturn 0;\n}\n```\nĐoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nvoid stringRear (char s[], char d[], int x) {\nfor (int i = strlen(s); i > x; i--) d[i-x] = s[i];\nd[0] = s[x];\n}\nint main() {\nchar str[11], tmp[11];\nchar *p;\nchar a[3];\np = strchr(str, “/ “);\nint num = p - str;\nstrncpy(a,str,num);\na[2] = “\\0”;\ncout << a << endl;\nreturn 0;\n}\n```\nĐoạn chương trình trên in ra kết quả bao nhiêu nếu cho <span style='color:red; font-weight:bold'>str = 30/04/2011?</span>",
       "answers": [
         {
           "id": "aac648e0-7dd3-4230-acfe-7b0f1d2f4cc0",
@@ -3912,7 +3912,7 @@
     },
     {
       "id": "2a4bbee9-745e-4f7d-a00f-cc55f52f6bb0",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nvoid stringRear (char s[], char d[], int x) {\nfor (int i = strlen(s); i > x; i--) d[i-x] = s[i];\nd[0] = s[x];\n}\nint main() {\nchar str[11], tmp[11];\nchar *p;\nchar a[3];\np = strchr(str, “/”);\nint num = p - str;\nstrncpy(a,str,num);\na[2] = “\\0”;\ncout << (atof(a) - 26) << endl;\nreturn 0;\n}\n```\nĐoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nvoid stringRear (char s[], char d[], int x) {\nfor (int i = strlen(s); i > x; i--) d[i-x] = s[i];\nd[0] = s[x];\n}\nint main() {\nchar str[11], tmp[11];\nchar *p;\nchar a[3];\np = strchr(str, “/”);\nint num = p - str;\nstrncpy(a,str,num);\na[2] = “\\0”;\n<span style='color:red; font-weight:bold'>cout << (atof(a) - 26) << endl;</span>\nreturn 0;\n}\n```\nĐoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
       "answers": [
         {
           "id": "af8d7029-b5c1-49c1-998d-44507d2af3ec",
@@ -3960,7 +3960,7 @@
     },
     {
       "id": "88cb9a4e-b680-4784-b46e-26f3ceab76be",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nvoid stringRear (char s[], char d[], int x) {\nfor (int i = strlen(s); i > x; i--) d[i-x] = s[i];\nd[0] = s[x];\n}\nint main() {\nchar str[11], tmp[11];\nchar *p;\nchar a[3];\np = strchr(str, “/”);\nint num = p - str;\nstrncpy(a,str,num);\na[2] = “\\0”;\nstringRear (str,tmp,p-str+1);\np = strchr(tmp,”/”);\nstrncpy(a,tmp,p-tmp);\na[2] = “\\0”;\nstringRear (tmp,str,p-tmp+1);\ncout << str << endl;\nreturn 0;\n}\n```\nĐoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nvoid stringRear (char s[], char d[], int x) {\nfor (int i = strlen(s); i > x; i--) d[i-x] = s[i];\nd[0] = s[x];\n}\nint main() {\nchar str[11], tmp[11];\nchar *p;\nchar a[3];\np = strchr(str, “/”);\nint num = p - str;\nstrncpy(a,str,num);\na[2] = “\\0”;\nstringRear (str,tmp,p-str+1);\np = strchr(tmp,”/”);\nstrncpy(a,tmp,p-tmp);\na[2] = “\\0”;\n<span style='color:red; font-weight:bold'>stringRear (tmp,str,p-tmp+1);</span>\ncout << str << endl;\nreturn 0;\n}\n```\nĐoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
       "answers": [
         {
           "id": "a2a56b8c-81b5-4e50-9f9a-44cd213ba9d8",
@@ -4056,7 +4056,7 @@
     },
     {
       "id": "aba82a4e-3eff-436f-8cac-653757ce41f1",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint num, dv, c, t;\nfor (num = 100; num < 160; num++) {\ndv = num % 10;\nc = (num / 10) % 10;\nt = num / 100;\nif (dv * dv * dv + c * c * c + t * t * t == num) cout << num << “ “;\n}\nreturn 0;\n```\nĐoạn chương trình trên in ra kết quả bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\n<span style='color:red; font-weight:bold'>int num, dv, c, t;</span>\n<span style='color:red; font-weight:bold'>for (num = 100; num < 160; num++) {</span>\n<span style='color:red; font-weight:bold'>dv = num % 10;</span>\n<span style='color:red; font-weight:bold'>c = (num / 10) % 10;</span>\n<span style='color:red; font-weight:bold'>t = num / 100;</span>\n<span style='color:red; font-weight:bold'>if (dv * dv * dv + c * c * c + t * t * t == num) cout << num << “ “;</span>\n<span style='color:red; font-weight:bold'>}</span>\n<span style='color:red; font-weight:bold'>return 0;</span>\n```\n<span style='color:red; font-weight:bold'>Đoạn chương trình trên in ra kết quả bao nhiêu?</span>",
       "answers": [
         {
           "id": "cd582a3a-45a8-4a47-bd23-6549ae5822db",
@@ -4128,7 +4128,7 @@
     },
     {
       "id": "b0ec492b-2210-4c50-bc9e-f67c557f4edf",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint n,k,dem;\nfor ( k = 1; k < 10; k++ ) {\ndem = 0;\nfor ( n = 2; n <= k; n++ ) {\nif ( k%n==0) dem++;\nif (dem > 1) cout << k;\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() <span style='color:red; font-weight:bold'>{</span>\nint n,k,dem;\nfor ( k = 1; k < 10; k++ ) <span style='color:red; font-weight:bold'>{</span>\ndem = 0;\nfor ( n = 2; n <= k; n++ ) <span style='color:red; font-weight:bold'>{</span>\nif ( k%n==0) dem++;\nif (dem > 1) cout << k;\n<span style='color:red; font-weight:bold'>}</span>\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "6900a53e-8d92-4e6c-9e2a-d705b8f398f8",
@@ -4152,7 +4152,7 @@
     },
     {
       "id": "0b7505a7-1149-400e-ad06-8eab84dc2648",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint n,k,dem;\nfor ( k = 7; k <= 10; k++ ) {\ndem = 0;\nfor ( n = 2; n <= k; n++ )\nif ( k%n==0) dem++;\nif (dem > 1) cout << k;\n}\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint n,k,dem;\nfor ( k = 7; k <= 10; k++ ) {\ndem = 0;\nfor ( n = 2; n <= k; n++ )\nif ( k%n==0) dem++;\nif (dem > 1) cout << k;\n<span style='color:red; font-weight:bold'>}</span>\n<span style='color:red; font-weight:bold'>}</span>\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "ad4d6df5-8e65-424e-bcdc-41adeb2dc9e8",
@@ -4224,7 +4224,7 @@
     },
     {
       "id": "6d83c038-74eb-4c7d-907e-d11be11968a5",
-      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n} complex;\nfloat modul (complex a) {\nreturn sqrt(a.thuc * a.thuc + a.ao * a.ao);\n}\nint main() {\n```\ncomplex a;",
+      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n} complex;\nfloat modul (complex a) {\nreturn <span style='color:red; font-weight:bold'>sqrt(a.thuc * a.thuc + a.ao * a.ao);</span>\n}\nint main() {\n```\ncomplex a;",
       "answers": [
         {
           "id": "fbc7bdd4-2bb2-42b3-bc70-bcbe10d810d3",
@@ -4248,7 +4248,7 @@
     },
     {
       "id": "9eca6339-d789-4bb4-a13e-60aa3c9c9643",
-      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n} complex;\nfloat doiso (complex a) {\nreturn acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao));\n}\nint main() {\n```\ncomplex a;",
+      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n<span style='color:red; font-weight:bold'>}</span> complex;\n<span style='color:red; font-weight:bold'>float doiso (complex a) {</span>\n<span style='color:red; font-weight:bold'>return acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao));</span>\n<span style='color:red; font-weight:bold'>}</span>\nint main() {\n```\ncomplex a;",
       "answers": [
         {
           "id": "8e31c52f-7664-44f0-bd54-f26c8efb6534",
@@ -4272,7 +4272,7 @@
     },
     {
       "id": "e89e844c-56e9-404c-bd92-f5b9861cb1d8",
-      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n} complex;\nfloat doiso (complex a) {\nreturn acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao));\n}\nfloat modul (complex a) {\nreturn sqrt (a.thuc * a.thuc + a.ao * a.ao);\n}\nint main() {\n```\ncomplex a;",
+      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n<span style='color:red; font-weight:bold'>}</span> complex;\n<span style='color:red; font-weight:bold'>float doiso (complex a) {</span>\n<span style='color:red; font-weight:bold'>return acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao));</span>\n<span style='color:red; font-weight:bold'>}</span>\n<span style='color:red; font-weight:bold'>float modul (complex a) {</span>\n<span style='color:red; font-weight:bold'>return sqrt (a.thuc * a.thuc + a.ao * a.ao);</span>\n<span style='color:red; font-weight:bold'>}</span>\nint main() {\n```\ncomplex a;",
       "answers": [
         {
           "id": "5b949cde-8d97-455c-aa58-3c7139ba41dd",
@@ -4296,7 +4296,7 @@
     },
     {
       "id": "d1bb2732-db58-4b39-9e53-56e04503ddc6",
-      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n} complex;\nfloat doiso (complex a) {\nreturn acos (a.thuc / modul(a));\n}\nfloat modul (complex a) {\nreturn sqrt (a.thuc * a.thuc + a.ao * a.ao);\n}\nint main() {\n```\ncomplex a;",
+      "question": "Cho đoạn chương trình sau:\n```cpp\n#include <math.h>\ntypedef struct tagcomplex {\nfloat thuc,ao;\n} complex;\nfloat doiso (complex a) {\n<span style='color:red; font-weight:bold'>return acos (a.thuc / modul(a));</span>\n}\nfloat modul (complex a) {\nreturn sqrt (a.thuc * a.thuc + a.ao * a.ao);\n}\nint main() {\n```\ncomplex a;",
       "answers": [
         {
           "id": "8105d8ab-19c2-4c33-b22b-4296969bbd5c",
@@ -4320,7 +4320,7 @@
     },
     {
       "id": "f0351a0a-e336-4f0f-9e9f-8614560cf402",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint k=0,n,dem,j=0;\nwhile(j<3) {\nk++;\ndem=0;\nfor(n=2;n<=k;n++)  if(k%n==0) dem++;\nif(dem==1) {\ncout << k << “ “;\nj++;\n}\n}\nreturn 0;\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint k=0,n,dem,j=0;\nwhile(<span style='color:red; font-weight:bold'>j<3</span>) {\nk++;\ndem=0;\nfor(n=2;n<=k;n++)  if(k%n==0) dem++;\nif(dem==1) {\ncout << k << “ “;\nj++;\n}\n}\nreturn 0;\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "52816363-68bd-42f8-9a70-2b2016e9ee7f",
@@ -4344,7 +4344,7 @@
     },
     {
       "id": "a6c61eaf-bea6-46ae-becc-34ba5c675963",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint k=0,n,dem,j=0;\nwhile(j<5) {\nk++;\ndem=0;\nfor(n=2;n<=k;n++)  if(k%n==0) dem++;\nif(dem==1) {\ncout << k << “ “;\nj++;\n}\n}\nreturn 0;\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint k=0,n,dem,j=0;\nwhi<span style='color:red; font-weight:bold'>le(j<5)</span> {\nk++;\ndem=0;\nfor(n=2;n<=k;n++)  if(k%n==0) dem++;\nif(dem==1) {\ncout << k << “ “;\nj++;\n}\n}\nreturn 0;\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "4a858934-0b56-4dfa-9d18-1824b022690f",
@@ -4368,7 +4368,7 @@
     },
     {
       "id": "14ade11c-ee0c-446d-b45b-4bdb7e6814c1",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nint k=0,n,dem,j=0;\nwhile(j<3) {\nk++;\ndem=0; {\nfor(n=2;n<=k;n++)  if(k%n==0) dem++;\nif(dem==1) {\ncout << k << “ “;\nj++;\n}\n}\nreturn 0;\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() <span style='color:red; font-weight:bold'>{</span>\nint k=0,n,dem,j=0;\nwhile<span style='color:red; font-weight:bold'>(j<3)</span> <span style='color:red; font-weight:bold'>{</span>\nk++;\ndem=0; <span style='color:red; font-weight:bold'>{</span>\nfor(n=2;n<=k;n++)  if(k%n==0) dem++;\nif(dem==1) <span style='color:red; font-weight:bold'>{</span>\ncout << k << “ “;\nj++;\n}\n}\nreturn 0;\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "892d40f0-7f35-4358-868a-490215f9544c",
@@ -4392,7 +4392,7 @@
     },
     {
       "id": "c018fc6e-8ef9-4204-9677-d3e19387ed6d",
-      "question": "Cho đoạn chương trình sau:\n```cpp\npublic class Test {\npublic static void main(String[] args) {\nint k=0,n,dem,j=0;\nwhile(j<3) {\nk=8;\ndem=0; {\nfor(n=3;n<=k;n++) {\nif(k%n==0)\ndem++;\n}\nif(dem==1) {\nSystem.out.print(k+” “);\nj++;\n}\n}\n}\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\npublic class Test {\npublic static void main(String[] args) {\nint k=0,n,dem,j=0;\nwhile(j<3) {\n<span style='color:red; font-weight:bold'>k=8</span>;\ndem=0; {\nfor(n=3;n<=k;n++) {\nif(k%n==0)\ndem++;\n}\nif(dem==1) {\nSystem.out.print(k+” “);\nj++;\n}\n}\n}\n}\n```\nĐoạn chương trình trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "546f1f6e-2775-413f-aa8b-b86d80ab3cf8",
@@ -4440,7 +4440,7 @@
     },
     {
       "id": "85eea801-220e-4238-ad66-a02d7732cf25",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = 1952;\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” };\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty.”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << can[(nam+6)%10] << chi[(nam+8)%12];\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam <span style='color:red; font-weight:bold'>= 1952;</span>\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” };\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty.”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << can[(nam+6)%10] << chi[(<span style='color:red; font-weight:bold'>nam+8)%12];</span>\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "231462a5-0195-4a1b-a68f-49c76dd9a939",
@@ -4464,7 +4464,7 @@
     },
     {
       "id": "ed6d81a3-fef2-41d3-a00f-e56043d5cfd0",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = 1971;\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” };\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty.”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << can[(nam+6)%10] << chi[(nam+8)%12];\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = <span style='color:red; font-weight:bold'>1971;</span>\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” };\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty.”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << can[(nam+6)%10] << chi[(<span style='color:red; font-weight:bold'>nam+8)%12];</span>\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "982558d2-80e6-42f2-8c38-f57fdddc34bc",
@@ -4488,7 +4488,7 @@
     },
     {
       "id": "d6a7184f-b3e8-4f08-a067-0ef0808076b4",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = 1952;\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” };\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty.”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << can[(nam+4)%10] << chi[(nam+10)%12];\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = <span style='color:red; font-weight:bold'>1952;</span>\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” };\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty.”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << can[(nam+4)%10] << chi[(n<span style='color:red; font-weight:bold'>am+10)%12];</span>\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "5fe2f299-973c-4245-a7bd-bc54c3cf4393",
@@ -4512,7 +4512,7 @@
     },
     {
       "id": "dbff1ef5-f1a9-4075-be1c-996121ac78d5",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = 1952;\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” }\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << ca[(nam+6)%10] << chi[(nam+8)%12];\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = <span style='color:red; font-weight:bold'>1952;</span>\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” }\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << ca[(nam+6)%10] << chi[(nam+8)%12];\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "f2928546-53e1-4c47-a512-fa7ef424ae00",
@@ -4536,7 +4536,7 @@
     },
     {
       "id": "c2bd90c2-f075-458f-8fb2-b0845942a8d2",
-      "question": "Đoạn chương trình sau thực hiện công việc gì:\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 2;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau <span style='color:red; font-weight:bold'>thực hiện công việc gì:</span>\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 2;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "43acf428-9c6f-4fc2-b819-cdd95fd476e2",
@@ -4560,7 +4560,7 @@
     },
     {
       "id": "a4e8bc6b-f0a6-40e1-a489-e3cd3952721a",
-      "question": "Đoạn chương trình sau in ra kết quả bao nhiêu:\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 2;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau in ra <span style='color:red; font-weight:bold'>kết quả bao nhiêu:</span>\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10<span style='color:red; font-weight:bold'>,m = 2;</span>\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "873c15f5-9e99-4681-a00d-e071e52f9750",
@@ -4584,7 +4584,7 @@
     },
     {
       "id": "92f45636-c8ae-4e80-a1fc-e44546ffed0b",
-      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 9;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m <span style='color:red; font-weight:bold'>= 9;</span>\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "d5759e36-0e1e-418a-a109-2b7201fd9ef8",
@@ -4608,7 +4608,7 @@
     },
     {
       "id": "f3394e4f-279f-4c43-9c08-536e33e2a72e",
-      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 8;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,<span style='color:red; font-weight:bold'>m = 8;</span>\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "194a6fdc-0f8e-4217-8db3-8413308caea3",
@@ -4632,7 +4632,7 @@
     },
     {
       "id": "510a3dbd-132c-40c0-83e8-19f4141ca404",
-      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 16;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = <span style='color:red; font-weight:bold'>16;</span>\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = <span style='color:red; font-weight:bold'>16;</span>\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "91b4dd73-9982-4d82-bf82-ba413ea4a1c1",
@@ -4656,7 +4656,7 @@
     },
     {
       "id": "4883cf38-34d5-4e3b-82c0-97813f5b6e9a",
-      "question": "Đoạn chương trình sau thực hiện công việc gì:\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 12;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau thực hiện công việc gì:\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 1<span style='color:red; font-weight:bold'>2;</span>\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "fc3937ff-9068-4a3b-8f06-3b08f38e4484",
@@ -4680,7 +4680,7 @@
     },
     {
       "id": "b3875f52-3f03-42f7-9d3c-5441fa4c8a16",
-      "question": "Cho đoạn mã sau:\n```cpp\n1:int [] a={3,1,7,0,10}\n2:int n=5,k,max;\n3:max=a[0];\n4:   for(k=0;k<n;k++)\n5:       if(max<a[k])\n6:           max=a[k];\n7:    cout << max << endl;\n8:    for(k=0;k<n;k++)\n9:           if(max==a[k])\n10:                cout << k << endl;\n```\nKết quả cho ở dòng lệnh 7 là:\"",
+      "question": "Cho đoạn mã sau:\n```cpp\n1:int [] a={3,1,7,0,10}\n2:int n=5,k,max;\n3:max=a[0];\n4:   for(k=0;k<n;k++)\n5:       if(max<a[k])\n6:           max=a[k];\n7:    cout << max << endl;\n8:    for(k=0;k<n;k++)\n9:           if(max==a[k])\n10:                cout << k << endl;\n```\nKết quả cho ở dòng <span style='color:red; font-weight:bold'>lệnh 7 là:\"</span>",
       "answers": [
         {
           "id": "5be595c9-ca34-4eee-952c-6d1e74d68180",
@@ -4752,7 +4752,7 @@
     },
     {
       "id": "bf250f9f-87e1-41f9-b5ab-284be2569afb",
-      "question": "Cho đoạn mã sau:\n```cpp\n1: for(int i=0;i<2;i++)\n2:     for(int j=0;j<3;j++){\n3:             if(i==j) continue;\n6:     cout << “i = “ << i << “ j = “ << j << endl;\n7:   }\n```\n\"Dòng nào sẽ là một trong các kết quả được in ra?",
+      "question": "Cho đoạn mã sau:\n```cpp\n1: for(int i=0;i<2;i++)\n2:     for(int j=0;j<3;j++){\n3:             if(i<span style='color:red; font-weight:bold'>==</span>j) continue;\n6:     cout << “i = “ << i << “ j = “ << j << endl;\n7:   }\n```\n\"Dòng nào sẽ là một trong các kết quả được in ra?",
       "answers": [
         {
           "id": "8e71db44-b63c-47ce-88da-0b0d39167821",
@@ -4776,7 +4776,7 @@
     },
     {
       "id": "6f2d6bce-e78c-49cf-beec-41cc1493a972",
-      "question": "Cho đoạn mã sau:\n```cpp\n1: for(i=0;i<2;i++)\n2:     for(j=0;j<3;j++){\n3:             if(i = j) continue;\n6:     cout << “i = “ << i << “ j = “ << j << endl;\n7:   }\n```\n\"Dòng nào sẽ là một trong các kết quả được in ra?",
+      "question": "Cho đoạn mã sau:\n```cpp\n1: for(i<span style='color:red; font-weight:bold'>=</span>0;i<2;i++)\n2:     for(j<span style='color:red; font-weight:bold'>=</span>0;j<3;j++){\n3:             if(i <span style='color:red; font-weight:bold'>=</span> j) continue;\n6:     cout << “i <span style='color:red; font-weight:bold'>=</span> “ << i << “ j <span style='color:red; font-weight:bold'>=</span> “ << j << endl;\n7:   }\n```\n\"Dòng nào sẽ là một trong các kết quả được in ra?",
       "answers": [
         {
           "id": "71fbad54-3d9f-4b03-b4c6-c644779c7c7a",
@@ -4800,7 +4800,7 @@
     },
     {
       "id": "6244e95f-b2b4-4c7b-abcb-fdb8431948f6",
-      "question": "Cho đoạn mã sau:\n```cpp\nint n=10,k;\nfor (k = 2;k <= n;k++) {\nint dem = 0;\nfor (int i = 2; i <= k; i++) if (n % k == 0)  dem++;\nif ((n % k == 0) && (dem == 1)) cout << k << “ “;\n}\n```\nKết quả đoạn mã là bao nhiêu khi thực hiện?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint n=10,k;\nfor (k = 2;k <= n;k++) {\nint dem = 0;\nfor (int i = 2; i <= k; i++) if (n % k == 0)  dem++;\nif ((n % k == 0) <span style='color:red; font-weight:bold'>&&</span> (dem == 1)) cout << k << “ “;\n}\n```\nKết quả đoạn mã <span style='color:red; font-weight:bold'>là bao nhiêu khi thực</span> hiện?",
       "answers": [
         {
           "id": "47f34765-7f81-49f4-a297-e362dcc1c643",
@@ -4824,7 +4824,7 @@
     },
     {
       "id": "8d75134a-92ca-47c2-863c-0226df24c806",
-      "question": "Cho đoạn mã sau:\n```cpp\nint n=10,k;\nfor (k = 2;k <= n;k++) {\nint dem = 0;\nfor (int i = 2; i <= k; i++) if (n % k == 0)  dem++;\nif ((n % k == 0) || (dem == 1)) cout << k << “ “;\n}\n```\nKết quả đoạn mã là bao nhiêu khi thực hiện?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint n=10,k;\nfor (k = 2;k <= n;k++) {\nint dem = 0;\nfor (int i = 2; i <= k; i++) if (n % k == 0)  dem++;\nif ((n % k == 0) <span style='color:red; font-weight:bold'>||</span> (dem == 1)) cout << k << “ “;\n}\n```\nKết quả đoạn mã là bao nhiêu khi thực hiện?",
       "answers": [
         {
           "id": "c65430e3-4112-4b9f-ae59-6bbd8d6a3709",
@@ -4848,7 +4848,7 @@
     },
     {
       "id": "e11cf410-506a-4194-a1e4-adb538ea60a1",
-      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho N =12, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho N <span style='color:red; font-weight:bold'>=12,</span> khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "12ced847-3fa1-44b0-acc8-2c2d03012a9d",
@@ -4872,7 +4872,7 @@
     },
     {
       "id": "6187fcf1-0bb2-48bb-8326-70c3af923efb",
-      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho N =9, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho <span style='color:red; font-weight:bold'>N =9,</span> khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "3095c0fc-ed01-44ef-a842-0cb271dab7e7",
@@ -4896,7 +4896,7 @@
     },
     {
       "id": "1907e419-4eb0-478f-88e8-7eee4b43185d",
-      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho N =25, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho <span style='color:red; font-weight:bold'>N =25,</span> khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "69023b17-bf46-48c9-9a70-e2d0fbc06cfe",
@@ -4920,7 +4920,7 @@
     },
     {
       "id": "2ecfe8c8-fb51-489e-9e55-31b4244e17d8",
-      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho N =42, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk--;\n}\n```\nNếu cho <span style='color:red; font-weight:bold'>N =42,</span> khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "0400985e-d69e-496d-ae50-be8ad25bb80a",
@@ -4944,7 +4944,7 @@
     },
     {
       "id": "03eddeca-e937-495d-a948-e54658b63b86",
-      "question": "Cho đoạn mã sau:\n```cpp\nint n,k;\nfor (k = 2;k <= N;k++)\nif (n % k == 0) {\ncout << k << “ “;\nn = N/k;\nk--;\n}\n```\nNếu cho N =12, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho đoạ<span style='color:red; font-weight:bold'>n</span> mã sau:\n```cpp\ni<span style='color:red; font-weight:bold'>n</span>t <span style='color:red; font-weight:bold'>n</span>,k;\nfor (k = 2;k <= N;k++)\nif (<span style='color:red; font-weight:bold'>n</span> % k == 0) {\ncout << k << “ “;\n<span style='color:red; font-weight:bold'>n</span> = N/k;\nk--;\n}\n```\nNếu cho <span style='color:red; font-weight:bold'>N =12,</span> khi thực hiệ<span style='color:red; font-weight:bold'>n</span> đoạ<span style='color:red; font-weight:bold'>n</span> mã sẽ cho kết quả là bao <span style='color:red; font-weight:bold'>n</span>hiêu?",
       "answers": [
         {
           "id": "783931a0-00dd-4e9e-8958-97cd22ef3061",
@@ -4968,7 +4968,7 @@
     },
     {
       "id": "d23f30b2-01e1-4889-b93e-e736f52ecb40",
-      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk++;\n}\n```\nNếu cho N =12, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint N,k;\nfor (k = 2;k <= N;k++)\nif (N % k == 0) {\ncout << k << “ “;\nN = N/k;\nk++;\n}\n```\nNếu cho <span style='color:red; font-weight:bold'>N =12</span>, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "27b8b492-157e-4bee-95e7-5747cd4992cf",
@@ -5088,7 +5088,7 @@
     },
     {
       "id": "61aab535-59ba-41cc-a1e2-c5811c349cdf",
-      "question": "Cho đoạn mã sau:\n```cpp\nfloat sum(int);\nint main() {\nfloat S = 0.0;\nint N=2,k;\nfor (k = 1; k <= N; k++)\nS += 1/sum(k);\ncout << S;\nreturn 0;\n}\nfloat sum(int k) {\nint tong = 0;\nfor (int x = 1; x <= k; x++) tong += x;\nreturn tong;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên?",
+      "question": "Cho đoạn mã sau:\n```cpp\n<span style='color:red; font-weight:bold'>float sum(int);</span>\nint main() {\nfloat S = 0.0;\n<span style='color:red; font-weight:bold'>int N=2,k</span>;\nfor (k = 1; k <= N; k++)\nS += 1/sum(k);\ncout << S;\nreturn 0;\n}\nfloat sum(int k) {\nint tong = 0;\nfor (int x = 1; x <= k; x++) tong += x;\nreturn tong;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên?",
       "answers": [
         {
           "id": "15ca8302-bde9-419e-bc10-f2a5bd4c371e",
@@ -5112,7 +5112,7 @@
     },
     {
       "id": "dd58e483-c167-4c5f-8227-a6b20132ce78",
-      "question": "Cho đoạn mã sau:\n```cpp\nfloat sum(int);\nint main() {\nfloat S = 0.0;\nint N=4,k;\nfor (k = 1; k <= N; k++)\nS += 1/sum(k);\ncout << S;\nreturn 0;\n}\nfloat sum(int k) {\nint tong = 0;\nfor (int x = 1; x <= k; x++) tong += x;\nreturn tong;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên?",
+      "question": "Cho đoạn mã sau:\n```cpp\nfloat sum(int);\nint main() {\nfloat S = 0.0;\n<span style='color:red; font-weight:bold'>int N=4,k</span>;\nfor (k = 1; k <= N; k++)\nS += 1/sum(k);\ncout << S;\nreturn 0;\n}\nfloat sum(int k) {\nint tong = 0;\nfor (int x = 1; x <= k; x++) tong += x;\nreturn tong;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên?",
       "answers": [
         {
           "id": "c4898d0a-2182-43c9-b557-62f6cc796813",
@@ -5136,7 +5136,7 @@
     },
     {
       "id": "72038b6b-5d0e-42e0-94cc-656b380fddbd",
-      "question": "Cho đoạn mã sau:\n```cpp\nfloat sum(int);\nint main() {\nfloat S = 0.0;\nint N=5,k;\nfor (k = 1; k <= N; k++)\nS += 1/sum(k);\ncout << S;\nreturn 0;\n}\nfloat sum(int k) {\nint tong = 0;\nfor (int x = 1; x <= k; x++) tong += x;\nreturn tong;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên?",
+      "question": "Cho đoạn mã sau:\n```cpp\nfloat sum(int);\nint main() {\nfloat S = 0.0;\n<span style='color:red; font-weight:bold'>int N=5,k;</span>\nfor (k = 1; k <= N; k++)\nS += 1/sum(k);\ncout << S;\nreturn 0;\n}\nfloat sum(int k) {\nint tong = 0;\nfor (int x = 1; x <= k; x++) tong += x;\nreturn tong;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên?",
       "answers": [
         {
           "id": "83c9cf5b-4502-444c-9c9b-f9ae05a01371",
@@ -5160,7 +5160,7 @@
     },
     {
       "id": "f5bfe345-0d0d-4544-8c61-ef5a509b4340",
-      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\ndouble a = 4, xn, kq, dem = 0;\nxn = (a + 1) / 2;\ndo {\nkq = xn;\nxn = 0.5 * (xn + a/xn);\ndem++;\n} while (fabs(xn - kq) > 0.001);\ncout << kq;\nreturn 0;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên (lấy kết quả làm tròn 2 số thập phân)?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\ndouble a = 4, xn, kq, dem = 0;\nxn = (a + 1) / 2;\ndo {\nkq = xn;\nxn = 0.5 * (xn + a/xn);\ndem++;\n} while (fabs(xn - kq) > 0.001);\ncout << <span style='color:red; font-weight:bold'>kq;</span>\nreturn 0;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên (<span style='color:red; font-weight:bold'>lấy kết quả làm tròn 2 số thập phân</span>)?",
       "answers": [
         {
           "id": "c5986e92-1a8e-44ba-bc8c-cef0905cb58a",
@@ -5184,7 +5184,7 @@
     },
     {
       "id": "56365171-02b7-4514-ac2f-15e1a0d45f36",
-      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\ndouble a = 4, xn, kq, dem = 0;\nxn = (a + 1) / 2;\ndo {\nkq = xn;\nxn = 0.5 * (xn + a/xn);\ndem++;\n} while (fabs(xn - kq) > 0.001);\ncout << dem;\nreturn 0;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên (lấy kết quả làm tròn 2 số thập phân)?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\ndouble a = 4, xn, kq, <span style='color:red; font-weight:bold'>dem</span> = 0;\nxn = (a + 1) / 2;\ndo {\nkq = xn;\nxn = 0.5 * (xn + a/xn);\n<span style='color:red; font-weight:bold'>dem</span>++;\n} while (fabs(xn - kq) > 0.001);\ncout << <span style='color:red; font-weight:bold'>dem</span>;\nreturn 0;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên (lấy kết quả làm tròn 2 số thập phân)?",
       "answers": [
         {
           "id": "20bc2c14-bb35-4dbf-804c-0b752178c8b8",
@@ -5208,7 +5208,7 @@
     },
     {
       "id": "7a763c33-886a-4931-b34a-c87210c62678",
-      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\ndouble a = 3, xn, kq, dem = 0;\nxn = (a + 1) / 2;\ndo {\nkq = xn;\nxn = 0.5 * (xn + a/xn);\ndem++;\n} while (fabs(xn - kq) > 0.001);\ncout << kq;\nreturn 0;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên (lấy kết quả làm tròn 2 số thập phân)?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\ndouble <span style='color:red; font-weight:bold'>a = 3,</span> xn, kq, dem = 0;\nxn = (a + 1) / 2;\ndo {\nkq = xn;\nxn = 0.5 * (xn + a/xn);\ndem++;\n} while (fabs(xn - kq) > 0.001);\ncout << kq;\nreturn 0;\n}\n```\nKết quả là bao nhiêu khi thực hiện đoạn lệnh trên (lấy kết quả làm tròn 2 số thập phân)?",
       "answers": [
         {
           "id": "f850e22e-9ab2-46ed-8886-e4336e4fc7bd",
@@ -5232,7 +5232,7 @@
     },
     {
       "id": "e596e133-aef6-4938-8fed-8b822cb9af72",
-      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\nchar chuoi[] = “tinhoc”;\nint khoa = 1,i,len;\nlen = strlen(chuoi);\nfor (i = 0; i < len; i++) chuoi[i] = (char) ((int)chuoi[i] + khoa);\ncout << chuoi;\n```\nĐoạn chương trình trên in ra kết quả là?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\nchar chuoi[] = “tinhoc”;\nint khoa = <span style='color:red; font-weight:bold'>1</span>,i,len;\nlen = strlen(chuoi);\nfor (i = 0; i < len; i++) chuoi[i] = (char) ((int)chuoi[i] + khoa);\ncout << chuoi;\n```\nĐoạn chương trình trên in ra kết quả là?",
       "answers": [
         {
           "id": "4c94e361-990c-44b0-b432-4c926126e193",
@@ -5256,7 +5256,7 @@
     },
     {
       "id": "30289850-c8b5-4d8b-8bad-66e88d75fa53",
-      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\nchar chuoi[] = “tinhoc”;\nint khoa = 32,i,len;\nlen = strlen(chuoi);\nfor (i = 0; i < len; i++) chuoi[i] = (char) ((int)chuoi[i] - khoa);\ncout << chuoi;\n```\nĐoạn chương trình trên in ra kết quả là?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\nchar chuoi[] = “tinhoc”;\nint khoa = <span style='color:red; font-weight:bold'>32,</span>i,len;\nlen = strlen(chuoi);\nfor (i = 0; i < len; i++) <span style='color:red; font-weight:bold'>chuoi[i]</span> = (char) ((int)<span style='color:red; font-weight:bold'>chuoi[i]</span> - khoa);\ncout << chuoi;\n```\nĐoạn chương trình trên in ra kết quả là?",
       "answers": [
         {
           "id": "5b05e40c-6c51-4a8b-9d83-e400556c80bf",
@@ -5280,7 +5280,7 @@
     },
     {
       "id": "90b1be35-fd40-4c1f-b497-b7976eaa15a4",
-      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\nchar chuoi[] = “tinhoc”;\nint khoa = 32,i,len;\nlen = strlen(chuoi);\nfor (i = 0; i < len; i++) chuoi = (char) ((int)chuoi[i] - khoa);\ncout << chuoi;\n```\nĐoạn chương trình trên in ra kết quả là?",
+      "question": "Cho đoạn mã sau:\n```cpp\nint main() {\nchar chuoi[] = “tinhoc”;\nint khoa = 32,i,len;\nlen = strlen(chuoi);\nfor (i = 0; i < len; i++) <span style='color:red; font-weight:bold'>chuoi =</span> (char) ((int)chuoi[i] - khoa);\ncout << chuoi;\n```\nĐoạn chương trình trên in ra kết quả là?",
       "answers": [
         {
           "id": "c0b31620-d9b9-44b2-9c9f-b49b3be0a689",
@@ -5304,7 +5304,7 @@
     },
     {
       "id": "d9979454-123f-48cf-8f45-f9ff46d7d8ed",
-      "question": "Cho đoạn mã sau:\n```cpp\n1. float tinhtich (int k) {\n2.     float tich =1;\n3.     for (int i = 1; i <=k; i++) tich *= i;\n4.     return tich;\n5. }\n6. float tinhtong (int k) {\n7.     float tong = 0;\n8.     for (int i = 1; i <= k; i++) tong += tinhtich(i);\n9.     return tong;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13.        int n = 3, k;\n14.        for (k = 1; k <= n; k++) s += 1/tinhtong(k);\n15.        cout << s;\n16.        return 0;\n17.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\n<span style='color:red; font-weight:bold'>1. float tinhtich (int k) {</span>\n<span style='color:red; font-weight:bold'>2.     float tich =1;</span>\n<span style='color:red; font-weight:bold'>3.     for (int i = 1; i <=k; i++) tich *= i;</span>\n<span style='color:red; font-weight:bold'>4.     return tich;</span>\n<span style='color:red; font-weight:bold'>5. }</span>\n6. float tinhtong (int k) {\n7.     float tong = 0;\n8.     for (int i = 1; i <= k; i++) tong += tinhtich(i);\n9.     return tong;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13.        <span style='color:red; font-weight:bold'>int n = 3, k;</span>\n14.        for (k = 1; k <= n; k++) s += 1/tinhtong(k);\n15.        cout << s;\n16.        return 0;\n17.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "3735c4ef-437b-4af7-beb6-d727238c8600",
@@ -5328,7 +5328,7 @@
     },
     {
       "id": "292c48ab-800d-44f3-a33e-15d476d973be",
-      "question": "Cho đoạn mã sau:\n```cpp\n1. float tinhtong (int k) {\n2.     float tong = 0;\n2.     for (int i = 1; i <= k; i++) tong += tinhtich(i);\n2.     return tong;\n5. }\n6. float tinhtich (int k) {\n7.     float tich =1;\n8.     for (int i = 1; i <=k; i++) tich *= i;\n9.     return tich;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13.        int n = 3, k;\n14.        for (k = 1; k <= n; k++) s += 1/tinhtong(k);\n15.        cout << s;\n16.        return 0;\n17.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\n1. float tinhtong (int k) {\n2<span style='color:red; font-weight:bold'>.     float tong = 0;</span>\n2.     for (int i = 1; i <= k; i++) tong += <span style='color:red; font-weight:bold'>tinhtich(</span>i);\n2.     return tong;\n5. }\n6<span style='color:red; font-weight:bold'>. float tinhtich</span> (int k) {\n7.     float tich =1;\n8.     for (int i = 1; i <=k; i++) tich *= i;\n9.     return tich;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13.        int n = 3, k;\n14.        for (k = 1; k <= n; k++) s += 1/tinhtong(k);\n15.        cout << s;\n16.        return 0;\n17.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "27469a0f-ead4-4271-81a3-fce523684e9f",
@@ -5352,7 +5352,7 @@
     },
     {
       "id": "3d41d214-0f96-48bb-8915-422c1b587f3b",
-      "question": "Cho đoạn mã sau:\n```cpp\n1. float tinhtich (int k) {\n2.     float tich =1;\n3.     for (int i = 1; i <=k; i++) tich *= i;\n4.     return tich;\n5. }\n6. float tinhtong (int k) {\n7.     float tong = 0;\n8.     for (int i = 1; i <= k; i++) tong += tinhtich(i);\n9.     return tong;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13.        int n = 4, k;\n14.        for (k = 1; k <= n; k++) s += 1/tinhtong(k);\n15.        cout << s;\n16.        return 0;\n17.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\n1. float tinhtich (int k) {\n2.     float tich =1;\n3.     for (int i = 1; i <=k; i++) tich *= i;\n4.     return tich;\n5. }\n6. float tinhtong (int k) {\n7.     float tong = 0;\n8.     for (int i = 1; i <= k; i++) tong += tinhtich(i);\n9.     return tong;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13<span style='color:red; font-weight:bold'>.        int n = 4, k;</span>\n14.        for (k = 1; k <= n; k++) s += 1/tinhtong(k);\n15.        cout << s;\n16.        return 0;\n17.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "be5aa5b4-0f7f-41a0-af10-22899c4170e4",
@@ -5376,7 +5376,7 @@
     },
     {
       "id": "cb58be21-5130-40ee-8399-3a7e80b11f4a",
-      "question": "Cho đoạn mã sau:\n```cpp\n1. float tinhtich (int k) {\n2.     float tich =1;\n3.     for (int i = 1; i <=k; i++) tich *= i;\n4.     return tich;\n5. }\n6. float tinhtong (int k) {\n7.     float tong = 0;\n8.     for (int i = 1; i <= k; i++) tong += tinhtich(i);\n9.     return tong;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13.        int n = 4, k;\n14.        for (k = 1; k <= n; k++) {\n15.            s += 1/tinhtong(k);\n16.            s = 1;\n17.        }\n18.        cout << s;\n19.        return 0;\n20.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\n1. float tinhtich (int k) {\n2.     float tich =1;\n3.     for (int i = 1; i <=k; i++) tich *= i;\n4.     return tich;\n5. }\n6. float tinhtong (int k) {\n7.     float tong = 0;\n8.     for (int i = 1; i <= k; i++) tong += tinhtich(i);\n9.     return tong;\n10.    }\n11.    int main() {\n12.        float s = 0.0;\n13.        int n = 4, k;\n14.        for (k = 1; k <= n; k++) {\n15.            s += 1/tinhtong(k);\n16<span style='color:red; font-weight:bold'>.            s = 1;</span>\n17.        }\n18<span style='color:red; font-weight:bold'>.        cout << s;</span>\n19.        return 0;\n20.    }\n```\nKhi thực hiện, đoạn mã trên cho kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "8f90af0a-2d48-464c-8871-8d15dad9e1f6",
@@ -5400,7 +5400,7 @@
     },
     {
       "id": "8647fb78-0b34-44c6-9ec9-3eecced4e9ee",
-      "question": "Cho đoạn mã sau:\n```cpp\n1. int main () {\n2.     int n = 5, i, j, tong;\n3.     for (i = 2; i <= n; i++) {\n4.         tong = 1;\n5.         for (j = 2; j <= i/2; j++)\n6.             if ( i % j == 0 ) tong += j;\n7.             if ( tong == j ) cout << i << “ “;\n8.     }\n9.     return 0;\n10.    }\n```\nĐoạn chương trình trên in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\n1. int main () {\n2.     int n = 5, i, <span style='color:red; font-weight:bold'>j</span>, tong;\n3.     for (i = 2; i <= n; i++) {\n4.         tong = 1;\n5.         for (<span style='color:red; font-weight:bold'>j</span> = 2; <span style='color:red; font-weight:bold'>j</span> <span style='color:red; font-weight:bold'><= i/2;</span> <span style='color:red; font-weight:bold'>j</span>++)\n6.             if ( i % <span style='color:red; font-weight:bold'>j</span> == 0 ) tong += <span style='color:red; font-weight:bold'>j</span>;\n7.             if ( tong == <span style='color:red; font-weight:bold'>j</span> ) cout << i << “ “;\n8.     }\n9.     return 0;\n10.    }\n```\nĐoạn chương trình trên in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "ef58ec71-f96a-4a89-8480-dac0eac80083",
@@ -5424,7 +5424,7 @@
     },
     {
       "id": "93fe9c3a-feb2-4200-bfee-b235e22e8465",
-      "question": "Cho đoạn mã sau:\n```cpp\n1. int main () {\n2.     int n = 5, i, j, tong;\n3.     for (i = 2; i <= n; i++) {\n4.         tong = 1;\n5.         for (j = 2; j <= i; j++)\n6.             if ( i % j == 0 ) tong += j;\n7.             if ( tong == j ) cout << i << “ “;\n8.     }\n9.     return 0;\n10.    }\n```\nĐoạn chương trình trên in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn mã sau:\n```cpp\n1. int main () {\n2.     int n = 5, i, j, tong;\n3.     for (i = 2; i <= n; i++) {\n4.         tong = 1;\n5.         for (j = 2; j <span style='color:red; font-weight:bold'><= i;</span> j++)\n6.             if ( i % j == 0 ) tong += j;\n7.             if ( tong == j ) cout << i << “ “;\n8.     }\n9.     return 0;\n10.    }\n```\nĐoạn chương trình trên in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "99c7e48f-9571-4d98-8cb0-26472de2783f",
@@ -5448,7 +5448,7 @@
     },
     {
       "id": "d0a99d4a-a69a-41ab-9aef-40213b146f18",
-      "question": "Chương trình có kết quả là bao nhiêu khi thực hiện:\n```cpp\nunsigned long giaithua (int k) {\nunsigned long kq = 1;\nfor (int i = 2; i <= k; i++) kq *= i;\nreturn kq;\n}\nunsigned long th (int k, int n) {\nreturn giaithua (n) / (giaithua (k) *  giaithua (n-k));\n}\nint main() {\nint n = 3, k= 2;\ncout << th(k,n);\nreturn 0;\n}\n```",
+      "question": "Chương trình có kết quả là bao nhiêu khi thực hiện:\n```cpp\nunsigned long giaithua (int k) {\nunsigned long kq = 1;\nfor (int i = 2; i <= k; i++) kq *= i;\nreturn kq;\n}\nunsigned long th (int k, int n) {\nreturn giaithua (n) / (giaithua (k) *  giaithua (n-k));\n}\nint main() {\n<span style='color:red; font-weight:bold'>int n = 3, k= 2;</span>\ncout << th(k,n);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "63517d9d-a6f9-43a9-9841-ea3a7142c62c",
@@ -5472,7 +5472,7 @@
     },
     {
       "id": "5b59f7a7-3feb-488c-b8fa-2b66cf2d4923",
-      "question": "Chương trình có kết quả là bao nhiêu khi thực hiện:\n```cpp\nunsigned long giaithua (int k) {\nunsigned long kq = 1;\nfor (int i = 2; i <= k; i++) kq *= i;\nreturn kq;\n}\nunsigned long th (int k, int n) {\nreturn giaithua (n) / (giaithua (k) *  giaithua (n-k));\n}\nint main() {\nint n = 4, k= 2;\ncout << th(k,n);\nreturn 0;\n}\n```",
+      "question": "Chương trình có kết quả là bao nhiêu khi thực hiện:\n```cpp\nunsigned long giaithua (int k) {\nunsigned long kq = 1;\nfor (int i = 2; i <= k; i++) kq *= i;\nreturn kq;\n}\nunsigned long th (int k, int n) {\nreturn giaithua (n) / (giaithua (k) *  giaithua (n-k));\n}\nint main() {\n<span style='color:red; font-weight:bold'>int n = 4, k= 2;</span>\ncout << th(k,n);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "0b00ebf5-ce22-4159-9cf1-7620847d60bc",
