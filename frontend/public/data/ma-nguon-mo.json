@@ -1361,7 +1361,7 @@
     },
     {
       "id": "097ee6ce-2eda-4d6e-b1f9-1bdd41764590",
-      "question": "Anh (chị) hãy cho biết thỏa thuận cộng tác CLA (Contributor License Agreement) có đặc điểm là gì?”",
+      "question": "Anh (chị) hãy cho biết <span style='color:red'>thỏa thuận cộng tác CLA (Contributor License Agreement)</span> có đặc điểm là gì?",
       "answers": [
         {
           "id": "9863bc4e-2062-44af-b364-674d522de15b",
@@ -1384,7 +1384,7 @@
     },
     {
       "id": "195a761e-2fef-42b6-aae8-6317d4f83f6b",
-      "question": "Anh (chị) hãy cho biết theo định nghĩa phần cứng mở (Open-source Hardware) phát biểu nào là đúng?",
+      "question": "Anh (chị) hãy cho biết theo <span style='color:red'>định nghĩa phần cứng mở (Open-source Hardware)</span> phát biểu nào là đúng?",
       "answers": [
         {
           "id": "a67a044b-90b8-4da7-a965-ba63038b6fde",
@@ -1407,7 +1407,7 @@
     },
     {
       "id": "a0ff2bba-1c93-45d8-bf82-afda0275b981",
-      "question": "Anh (chị) hãy cho biết phần cứng mở (Open-source Hardware) có tài liệu thiết kế là gì?",
+      "question": "Anh (chị) hãy cho biết <span style='color:red'>phần cứng mở (Open-source Hardware) có tài liệu thiết kế</span> là gì?",
       "answers": [
         {
           "id": "8b32e4d0-62d4-4de7-8869-7102b045519e",
