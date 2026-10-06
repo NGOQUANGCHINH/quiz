@@ -2055,19 +2055,19 @@
       "answers": [
         {
           "id": "20558a46-13da-45a7-8c05-db26838cf806",
-          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 1.3 - do admin cấu hình)"
+          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản <span style='color:red'>1.3</span> - do admin cấu hình)"
         },
         {
           "id": "15949712-6ede-443a-9d16-06c8e1478950",
-          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 2.3 - do admin cấu hình)"
+          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản <span style='color:red'>2.3</span> - do admin cấu hình)"
         },
         {
           "id": "3dd6cc40-92b3-4c1b-a113-96b16916cd14",
-          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 3.3 - do admin cấu hình)"
+          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản <span style='color:red'>3.3</span> - do admin cấu hình)"
         },
         {
           "id": "d57efa56-d4ec-477a-8122-4ece71c8db9e",
-          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản 4.3 - do admin cấu hình)"
+          "text": "Cho phép người dùng thay đổi giao diện tương thích (từ phiên bản <span style='color:red'>4.3</span> - do admin cấu hình)"
         }
       ],
       "correctAnswerId": "3dd6cc40-92b3-4c1b-a113-96b16916cd14"
