@@ -878,7 +878,7 @@
     },
     {
       "id": "0733a5e1-146a-4e0b-805d-c5f692dc03f6",
-      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các phần mềm trình duyệt Web nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
+      "question": "Theo thông tư số 20/2014/TT-BTTTT của Bộ Thông tin và Truyền thông danh sách các <span style='color:red'>phần mềm trình duyệt Web</span> nguồn mở được ưu tiên trong cơ quan, tổ chức nhà nước là gì?",
       "answers": [
         {
           "id": "0fe2204e-6b85-43b5-85cd-ba16cccde3cd",
