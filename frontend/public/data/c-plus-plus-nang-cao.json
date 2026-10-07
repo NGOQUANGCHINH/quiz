@@ -2852,7 +2852,7 @@
         }
       ],
       "correctAnswerId": "476f62e7-ca84-4d3f-8a89-b6c13fcc00d4",
-      "hint": "test 3 3: lặp i < 3 (3 lần) nhân s với 3: 1·3·3·3 = 27."
+      "hint": "test 3 3: lặp i < 3 (3 lần) nhân s với 3: 1×3×3×3 = 27."
     },
     {
       "id": "10312d73-05e3-4f7e-9514-2c21e034ce3a",
@@ -4604,7 +4604,7 @@
         }
       ],
       "correctAnswerId": "82aef6e6-f92c-4310-9ffa-2c518090a74f",
-      "hint": "123 sang cơ số 9: 123 = 1·81 + 4·9 + 6 → 146. Lỗi nhỏ như câu trên."
+      "hint": "123 sang cơ số 9: 123 = 1×81 + 4×9 + 6 → 146. Lỗi nhỏ như câu trên."
     },
     {
       "id": "f3394e4f-279f-4c43-9c08-536e33e2a72e",
@@ -4628,7 +4628,7 @@
         }
       ],
       "correctAnswerId": "194a6fdc-0f8e-4217-8db3-8413308caea3",
-      "hint": "123 sang cơ số 8: 123 = 1·64 + 7·8 + 3 → 173. Lỗi nhỏ như câu trên."
+      "hint": "123 sang cơ số 8: 123 = 1×64 + 7×8 + 3 → 173. Lỗi nhỏ như câu trên."
     },
     {
       "id": "510a3dbd-132c-40c0-83e8-19f4141ca404",
@@ -4652,7 +4652,7 @@
         }
       ],
       "correctAnswerId": "74f0e179-32d2-4be3-a006-c640f40b6b13",
-      "hint": "123 sang cơ số 16: 123 = 7·16 + 11 → '7B'. Lỗi nhỏ như câu trên."
+      "hint": "123 sang cơ số 16: 123 = 7 × 16 + 11 → '7B' (dấu × là phép nhân; 11 viết là chữ B trong hệ 16). Lỗi nhỏ như câu trên."
     },
     {
       "id": "4883cf38-34d5-4e3b-82c0-97813f5b6e9a",
@@ -4676,7 +4676,7 @@
         }
       ],
       "correctAnswerId": "225861ee-2381-47da-bfa0-97df97da859a",
-      "hint": "123 sang cơ số 12: 123 = 10·12 + 3 → 'A3' (A = 10). Lỗi nhỏ như câu trên."
+      "hint": "123 sang cơ số 12: 123 = 10×12 + 3 → 'A3' (A = 10). Lỗi nhỏ như câu trên."
     },
     {
       "id": "b3875f52-3f03-42f7-9d3c-5441fa4c8a16",
@@ -5468,7 +5468,7 @@
         }
       ],
       "correctAnswerId": "63517d9d-a6f9-43a9-9841-ea3a7142c62c",
-      "hint": "th(k,n) = C(n,k) = n!/(k!(n-k)!). n=3, k=2: 6/(2·1) = 3."
+      "hint": "th(k,n) = C(n,k) = n!/(k!(n-k)!). n=3, k=2: 6/(2×1) = 3."
     },
     {
       "id": "5b59f7a7-3feb-488c-b8fa-2b66cf2d4923",
@@ -5492,7 +5492,7 @@
         }
       ],
       "correctAnswerId": "2b55a357-7ffc-4a68-b50c-dc7633a91033",
-      "hint": "n=4, k=2: 24/(2·2) = 6."
+      "hint": "n=4, k=2: 24/(2×2) = 6."
     }
   ]
 }

@@ -40,19 +40,52 @@
       "stt": 5,
       "cauHoi": "Khai báo SAI: char kytu = “A”; ...",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: char kytu = “A”; – “A” là chuỗi (2 byte, có '\\0'), không gán được cho char. Phải viết 'A' (nháy đơn). Các dòng còn lại hợp lệ."
+      "explanation": "Phần gây sai: char kytu = “A”; – “A” là chuỗi (2 byte, có '\\0'), không gán được cho char. Phải viết 'A' (nháy đơn). Các dòng còn lại hợp lệ.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "char kytu = “A”;",
+            "lyDo": "“A” là chuỗi (gồm 'A' và '\\0'), còn biến char chỉ chứa 1 ký tự."
+          }
+        ],
+        "cachSua": "Viết char kytu = 'A'; (nháy đơn).",
+        "ketQuaSauKhiSua": "Khai báo hợp lệ."
+      }
     },
     "5c5f342f-ae98-4a70-898a-017f642b38ff": {
       "stt": 6,
       "cauHoi": "Lệnh báo lỗi khi biên dịch: signed char = -1782; ...",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: signed char = -1782; – thiếu tên biến. Các dòng khác biên dịch được: signed int i = 2.9; (cắt thành 2, chỉ cảnh báo); float y = y * 2; (dùng y chưa khởi tạo, không lỗi biên dịch)."
+      "explanation": "Phần gây lỗi: signed char = -1782; – thiếu tên biến. Các dòng khác biên dịch được: signed int i = 2.9; (cắt thành 2, chỉ cảnh báo); float y = y * 2; (dùng y chưa khởi tạo, không lỗi biên dịch).",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "signed char = -1782;",
+            "lyDo": "Thiếu tên biến sau kiểu dữ liệu."
+          }
+        ],
+        "cachSua": "signed char c = -1782; (và -1782 vượt khoảng -128..127 của char nên bị cắt, có cảnh báo).",
+        "ketQuaSauKhiSua": "Biên dịch được (có cảnh báo tràn)."
+      }
     },
     "4a760e07-38eb-4ffe-9eab-51fc3046d957": {
       "stt": 7,
       "cauHoi": "Tên KHÔNG hợp lệ: int object.oriented; ...",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: int object.oriented; – tên biến không được chứa dấu chấm. _static, average_weight_of_large_size, variable đều hợp lệ."
+      "explanation": "Phần gây sai: int object.oriented; – tên biến không được chứa dấu chấm. _static, average_weight_of_large_size, variable đều hợp lệ.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "int object.oriented;",
+            "lyDo": "Tên biến chỉ gồm chữ, số, gạch dưới; dấu chấm không được dùng trong tên."
+          }
+        ],
+        "cachSua": "Đổi thành object_oriented.",
+        "ketQuaSauKhiSua": "Hợp lệ."
+      }
     },
     "9dfd259c-4f6e-4643-936c-3b19cd63e21c": {
       "stt": 8,
@@ -70,14 +103,44 @@
       "stt": 10,
       "cauHoi": "for (i=1; i<=5; i++) cout << i < “, “; ... LAUNCH!",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: (1) cout << i < “, “ – dùng '<' thay vì '<<'; (2) “LAUNCH! << endl; thiếu dấu \" đóng chuỗi. Nếu sửa: i chạy 1..5, in '1, 2, 3, 4, 5, LAUNCH!'."
+      "explanation": "Phần gây lỗi: (1) cout << i < “, “ – dùng '<' thay vì '<<'; (2) “LAUNCH! << endl; thiếu dấu \" đóng chuỗi. Nếu sửa: i chạy 1..5, in '1, 2, 3, 4, 5, LAUNCH!'.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "cout << i < “, “ ;",
+            "lyDo": "Dùng '<' (so sánh) thay vì '<<'."
+          },
+          {
+            "doan": "cout << “LAUNCH! << endl;",
+            "lyDo": "Chuỗi mở bằng \" nhưng không có dấu \" đóng."
+          }
+        ],
+        "cachSua": "cout << i << \", \"; và cout << \"LAUNCH!\" << endl;",
+        "ketQuaSauKhiSua": "In: 1, 2, 3, 4, 5, LAUNCH!"
+      }
     },
     "e62e63a6-ab04-42cd-9c68-b27a6842e329": {
       "stt": 11,
       "cauHoi": "for (i=5; i>=1; i++) ... LAUNCH!",
       "status": "Đáp án trong file cần xem lại",
       "explanation": "Phần gây sai: for (int i = 5; i >= 1; i++) – i++ làm i tăng nên điều kiện i >= 1 luôn đúng → vòng lặp vô hạn. Ngoài ra còn lỗi 'i < “, “' và thiếu dấu \" đóng chuỗi. Đáp án '5, 4, 3, 2, 1, LAUNCH!' chỉ đúng nếu sửa thành i--.",
-      "answerWarning": "Đáp án trong file chỉ đúng khi sửa i++ thành i--."
+      "answerWarning": "Đáp án trong file chỉ đúng khi sửa i++ thành i--.",
+      "loi": {
+        "loaiLoi": "Lỗi lúc chạy",
+        "doanGayLoi": [
+          {
+            "doan": "for (int i = 5; i >= 1; i++)",
+            "lyDo": "i++ làm i tăng nên i >= 1 luôn đúng → vòng lặp vô hạn."
+          },
+          {
+            "doan": "cout << i < “, “ ;  và  “LAUNCH! << endl;",
+            "lyDo": "Cùng hai lỗi cú pháp như câu trước."
+          }
+        ],
+        "cachSua": "Đổi i++ thành i-- và sửa hai lỗi cú pháp.",
+        "ketQuaSauKhiSua": "In: 5, 4, 3, 2, 1, LAUNCH!"
+      }
     },
     "ee651166-1c47-4242-9688-03dc5c1f3ff4": {
       "stt": 12,
@@ -89,13 +152,35 @@
       "stt": 13,
       "cauHoi": "int a=5; ++a; cout << a; (in ra a)",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: int main() thiếu dấu { mở thân hàm. Nếu sửa: a=5, ++a → a=6, in 6."
+      "explanation": "Phần gây lỗi: int main() thiếu dấu { mở thân hàm. Nếu sửa: a=5, ++a → a=6, in 6.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "int main()",
+            "lyDo": "Thiếu dấu { mở thân hàm."
+          }
+        ],
+        "cachSua": "int main() {",
+        "ketQuaSauKhiSua": "In 6."
+      }
     },
     "4b5bca17-ee27-49b2-ae9a-f8de02ffaa4f": {
       "stt": 14,
       "cauHoi": "int a=5; a++; cout << a;",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: int main() thiếu dấu {. Nếu sửa: a=5, a++ → a=6; câu lệnh a++; đứng riêng nên a=6, in 6."
+      "explanation": "Phần gây lỗi: int main() thiếu dấu {. Nếu sửa: a=5, a++ → a=6; câu lệnh a++; đứng riêng nên a=6, in 6.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "int main()",
+            "lyDo": "Thiếu dấu { mở thân hàm."
+          }
+        ],
+        "cachSua": "int main() {",
+        "ketQuaSauKhiSua": "In 6."
+      }
     },
     "8a248561-4c71-45ca-8262-ae5d29c3c8de": {
       "stt": 15,
@@ -114,25 +199,81 @@
       "cauHoi": "strlen(hoten) rồi cout << ++l",
       "status": "Đáp án trong file cần xem lại",
       "explanation": "Chuỗi 'Dai hoc Kinh doanh va Cong nghe Ha noi' có 38 ký tự nên strlen = 38; sau ++l (tăng trước) l = 39, in 39. Phần ' = 38 CHAR' ở cuối dòng khai báo là chú thích bị dính vào code, gây lỗi cú pháp nếu giữ nguyên.",
-      "answerWarning": "Tôi tính ra kết quả là 39, không phải 38 như đáp án trong file."
+      "answerWarning": "Tôi tính ra kết quả là 39, không phải 38 như đáp án trong file.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "char hoten[] = “...”;  = 38 CHAR",
+            "lyDo": "Phần ' = 38 CHAR' là ghi chú bị dính vào code, không phải C++ hợp lệ."
+          }
+        ],
+        "cachSua": "Xóa phần ' = 38 CHAR'.",
+        "ketQuaSauKhiSua": "strlen = 38, ++l → in 39."
+      }
     },
     "db2cae2f-9c7a-430d-b782-d71d9a9d587b": {
       "stt": 18,
       "cauHoi": "class nhanvien/quanly: setLuong(100), phucap = getLuong()*0.5",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: (1) thiếu ; sau dấu } đóng class nhanvien; (2) thiếu ; sau 'phucap = getLuong() * 0.5'. Nếu sửa: quanly q gọi constructor quanly → setLuong(100) → phucap = 100*0.5 = 50, in 50. nhanvien không cần constructor vì trình biên dịch tự sinh constructor mặc định."
+      "explanation": "Phần gây lỗi: (1) thiếu ; sau dấu } đóng class nhanvien; (2) thiếu ; sau 'phucap = getLuong() * 0.5'. Nếu sửa: quanly q gọi constructor quanly → setLuong(100) → phucap = 100*0.5 = 50, in 50. nhanvien không cần constructor vì trình biên dịch tự sinh constructor mặc định.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "} (kết thúc class nhanvien)",
+            "lyDo": "Class phải kết thúc bằng '};', thiếu dấu ;."
+          },
+          {
+            "doan": "phucap = getLuong() * 0.5",
+            "lyDo": "Thiếu dấu ; cuối lệnh."
+          }
+        ],
+        "cachSua": "Thêm ; sau } của class nhanvien và sau 0.5.",
+        "ketQuaSauKhiSua": "In 50."
+      }
     },
     "0b9f7410-eda0-4198-bbf0-23b40c1631c8": {
       "stt": 19,
       "cauHoi": "nhanvien A; A.setLuong(700); A.tangLuong(10)",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Đề thiếu các lệnh sau 'nhanvien A;' (theo gợi ý: A.setLuong(700); A.tangLuong(10);). Chạy: luong = 700 rồi cộng 10 → 710. Class thiếu ; sau dấu } đóng."
+      "explanation": "Đề thiếu các lệnh sau 'nhanvien A;' (theo gợi ý: A.setLuong(700); A.tangLuong(10);). Chạy: luong = 700 rồi cộng 10 → 710. Class thiếu ; sau dấu } đóng.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "} (kết thúc class nhanvien)",
+            "lyDo": "Class thiếu dấu ; sau }."
+          },
+          {
+            "doan": "int main() { ... (đề bị cắt)",
+            "lyDo": "Thiếu các lệnh A.setLuong(700); A.tangLuong(10); và đóng }."
+          }
+        ],
+        "cachSua": "Thêm ; sau class và đủ lệnh.",
+        "ketQuaSauKhiSua": "luong = 700 + 10 = 710."
+      }
     },
     "981d4891-4e98-453a-8dc7-bd71c0ec3d94": {
       "stt": 20,
       "cauHoi": "nhanvien A, *p; p->setLuong(100); cout << p->luong;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: cout << p->luong; – luong mặc định là private (khai báo trước 'public:') nên không truy cập được từ main. Ngoài ra class thiếu ; sau }. Nếu luong là public thì in 100."
+      "explanation": "Phần gây lỗi: cout << p->luong; – luong mặc định là private (khai báo trước 'public:') nên không truy cập được từ main. Ngoài ra class thiếu ; sau }. Nếu luong là public thì in 100.",
+      "loi": {
+        "loaiLoi": "Sai quyền truy cập",
+        "doanGayLoi": [
+          {
+            "doan": "cout << p->luong;",
+            "lyDo": "luong là private (mặc định của class), main không được truy cập trực tiếp."
+          },
+          {
+            "doan": "} (kết thúc class)",
+            "lyDo": "Thiếu dấu ; sau class."
+          }
+        ],
+        "cachSua": "Khai báo public: double luong; hoặc dùng p->getLuong().",
+        "ketQuaSauKhiSua": "In 100."
+      }
     },
     "2ad1ff6b-a68c-4458-a12f-f22fa1ab1104": {
       "stt": 21,
@@ -180,13 +321,35 @@
       "stt": 28,
       "cauHoi": "for i=1; i<10; cout << i << end;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: cout << i << end; – (1) i khai báo trong for nên ngoài vòng lặp không còn tồn tại; (2) 'end' không phải endl, chưa khai báo."
+      "explanation": "Phần gây lỗi: cout << i << end; – (1) i khai báo trong for nên ngoài vòng lặp không còn tồn tại; (2) 'end' không phải endl, chưa khai báo.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "cout << i << end;",
+            "lyDo": "(1) i khai báo trong for nên hết vòng lặp là không còn; (2) 'end' không tồn tại, phải là endl."
+          }
+        ],
+        "cachSua": "Khai báo i ngoài vòng for và dùng endl.",
+        "ketQuaSauKhiSua": "Sau sửa in i = 10."
+      }
     },
     "756f0633-9c9f-459e-90f7-861e9ff71765": {
       "stt": 29,
       "cauHoi": "int i=0; int s=0; for (int i...) cout << i << end;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: 'end' chưa khai báo (phải là endl). Nếu sửa thành endl thì in i = 0 (i ngoài vòng for, vòng for dùng i riêng bên trong)."
+      "explanation": "Phần gây lỗi: 'end' chưa khai báo (phải là endl). Nếu sửa thành endl thì in i = 0 (i ngoài vòng for, vòng for dùng i riêng bên trong).",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "cout << i << end;",
+            "lyDo": "'end' chưa khai báo, phải là endl."
+          }
+        ],
+        "cachSua": "Dùng endl.",
+        "ketQuaSauKhiSua": "In 0 (i ngoài for không đổi)."
+      }
     },
     "c8d1d5ef-7f20-4e01-a0ab-271f90a47797": {
       "stt": 30,
@@ -210,13 +373,39 @@
       "stt": 33,
       "cauHoi": "for(;;) dòng 4: if i == 3 break; – sai ở dòng nào",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: dòng 4 'if i == 3 break;' – điều kiện của if phải nằm trong ngoặc đơn: if (i == 3) break;"
+      "explanation": "Phần gây lỗi: dòng 4 'if i == 3 break;' – điều kiện của if phải nằm trong ngoặc đơn: if (i == 3) break;",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "4.     if  i == 3 break;",
+            "lyDo": "Điều kiện if bắt buộc nằm trong ngoặc đơn."
+          }
+        ],
+        "cachSua": "if (i == 3) break;",
+        "ketQuaSauKhiSua": "s = 0+1+2 = 3."
+      }
     },
     "0e642eeb-ba7c-479d-ae84-7a67d759efa0": {
       "stt": 34,
       "cauHoi": "double i=0,n=10; while: double s = s + n; cout << s;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: cout << s; nằm ngoài vòng while, mà s chỉ khai báo bên trong while (double s = s + n;) nên ngoài vòng không tồn tại. Ngoài ra 'double s = s + n' dùng s chính nó khi chưa khởi tạo."
+      "explanation": "Phần gây lỗi: cout << s; nằm ngoài vòng while, mà s chỉ khai báo bên trong while (double s = s + n;) nên ngoài vòng không tồn tại. Ngoài ra 'double s = s + n' dùng s chính nó khi chưa khởi tạo.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "double s = s + n;",
+            "lyDo": "s chỉ tồn tại trong thân while và dùng chính nó khi chưa khởi tạo."
+          },
+          {
+            "doan": "cout << s;",
+            "lyDo": "Nằm ngoài while nên không thấy s."
+          }
+        ],
+        "cachSua": "Khai báo double s = 0; trước vòng while, bỏ chữ 'double' trong thân.",
+        "ketQuaSauKhiSua": "Vòng while chạy khi n = 10, 9, ..., 1 → s = 10+9+...+1 = 55."
+      }
     },
     "407c4052-c635-4c48-879b-29b457fcd893": {
       "stt": 35,
@@ -234,7 +423,22 @@
       "stt": 37,
       "cauHoi": "length(a) macro, if (mang[i] = tk) – sai ở dòng nào?",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: dòng 1 '1.define length(a)...' thiếu dấu # (#define); dòng 7 'if (mang[i] = tk)' dùng phép gán '=' thay vì so sánh '=='."
+      "explanation": "Phần gây lỗi: dòng 1 '1.define length(a)...' thiếu dấu # (#define); dòng 7 'if (mang[i] = tk)' dùng phép gán '=' thay vì so sánh '=='.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "1.define length(a) ...",
+            "lyDo": "Thiếu dấu # (phải #define)."
+          },
+          {
+            "doan": "7.  if (mang[i] = tk)",
+            "lyDo": "Dùng = (gán) thay vì == (so sánh) → điều kiện luôn đúng và làm hỏng mảng."
+          }
+        ],
+        "cachSua": "#define ... và if (mang[i] == tk).",
+        "ketQuaSauKhiSua": "Dừng tại i = 3, in 3."
+      }
     },
     "cafd4d99-c225-4d24-8527-a8dbedd73426": {
       "stt": 38,
@@ -265,33 +469,92 @@
       "cauHoi": "indl(int a[4]): cout << *(p++);",
       "status": "Đáp án trong file cần xem lại",
       "explanation": "Phần gây lỗi: indl(&a) – a là mảng int[4], &a có kiểu con trỏ-tới-mảng, không chuyển được sang int* (tham số int a[4]) → lỗi biên dịch. Nếu gọi indl(a): p = &a[1]; *(p++) in giá trị cũ a[1] = 2 rồi p mới tăng.",
-      "answerWarning": "Đáp án 2 chỉ đúng khi gọi indl(a) thay cho indl(&a)."
+      "answerWarning": "Đáp án 2 chỉ đúng khi gọi indl(a) thay cho indl(&a).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "indl (&a);",
+            "lyDo": "a là mảng int[4]; &a có kiểu con trỏ-tới-mảng, không chuyển được thành int* (tham số int a[4])."
+          }
+        ],
+        "cachSua": "Gọi indl(a);",
+        "ketQuaSauKhiSua": "p = &a[1]; in a[1] = 2."
+      }
     },
     "9e2468e3-5c6d-4484-9cd7-271978e8a4be": {
       "stt": 43,
       "cauHoi": "indl: cout << ++*p;",
       "status": "Đáp án trong file cần xem lại",
       "explanation": "Phần gây lỗi: indl(&a) (như câu trên) không biên dịch được. Nếu gọi indl(a): p = &a[1] (giá trị 4); ++*p tăng giá trị đó lên 5 rồi in 5.",
-      "answerWarning": "Đáp án 5 chỉ đúng khi gọi indl(a)."
+      "answerWarning": "Đáp án 5 chỉ đúng khi gọi indl(a).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "indl (&a);",
+            "lyDo": "Như câu trên: &a không khớp kiểu tham số."
+          }
+        ],
+        "cachSua": "Gọi indl(a);",
+        "ketQuaSauKhiSua": "++*p: a[1] = 4 → 5, in 5."
+      }
     },
     "9dbf9d1e-4863-4693-a579-b539b60a9450": {
       "stt": 44,
       "cauHoi": "indl: cout << *++p;",
       "status": "Đáp án trong file cần xem lại",
       "explanation": "Phần gây lỗi: indl(&a) không biên dịch được. Nếu gọi indl(a): p = &a[1]; *++p tăng p lên &a[2] rồi lấy giá trị = 6.",
-      "answerWarning": "Đáp án 6 chỉ đúng khi gọi indl(a)."
+      "answerWarning": "Đáp án 6 chỉ đúng khi gọi indl(a).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "indl (&a);",
+            "lyDo": "Như câu trên."
+          }
+        ],
+        "cachSua": "Gọi indl(a);",
+        "ketQuaSauKhiSua": "*++p trỏ a[2], in 6."
+      }
     },
     "d4722991-1892-4720-9d9b-3e2e3d5b5eff": {
       "stt": 45,
       "cauHoi": "indl(int &a) { a--; } int x = 5",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: 'int x = 5' thiếu dấu ;. Nếu sửa: indl(int &a) nhận tham chiếu nên a-- làm x = 4, in 4."
+      "explanation": "Phần gây lỗi: 'int x = 5' thiếu dấu ;. Nếu sửa: indl(int &a) nhận tham chiếu nên a-- làm x = 4, in 4.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "int x = 5",
+            "lyDo": "Thiếu dấu ; cuối lệnh."
+          }
+        ],
+        "cachSua": "int x = 5;",
+        "ketQuaSauKhiSua": "a-- trên tham chiếu → x = 4, in 4."
+      }
     },
     "e7501997-6728-4764-a026-4cf1b1ab9c03": {
       "stt": 46,
       "cauHoi": "indl(int *a) { a--; } indl(x)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: indl(x) truyền int vào tham số int* (phải indl(&x)) và 'int x = 5' thiếu dấu ;."
+      "explanation": "Phần gây lỗi: indl(x) truyền int vào tham số int* (phải indl(&x)) và 'int x = 5' thiếu dấu ;.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "indl (x);",
+            "lyDo": "Hàm cần int* nhưng truyền int; phải truyền địa chỉ &x."
+          },
+          {
+            "doan": "int x = 5",
+            "lyDo": "Thiếu dấu ;."
+          }
+        ],
+        "cachSua": "indl(&x); và thêm ;",
+        "ketQuaSauKhiSua": "a-- chỉ giảm bản sao con trỏ nên x vẫn 5, in 5."
+      }
     },
     "d540d142-5df1-4148-910e-11df48b30105": {
       "stt": 47,
@@ -309,7 +572,18 @@
       "stt": 49,
       "cauHoi": "strcmp(...) = 0 – nhập Alvata",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: if ( strcmp(str,”Juliet”) = 0 ) – dùng '=' (gán) thay vì '=='; không thể gán cho kết quả hàm."
+      "explanation": "Phần gây lỗi: if ( strcmp(str,”Juliet”) = 0 ) – dùng '=' (gán) thay vì '=='; không thể gán cho kết quả hàm.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "if ( strcmp(str,”Juliet”) = 0)",
+            "lyDo": "Dùng = (gán) thay vì ==; không thể gán cho kết quả hàm."
+          }
+        ],
+        "cachSua": "if (strcmp(str,\"Juliet\") == 0)",
+        "ketQuaSauKhiSua": "Nhập Alvata → in Alvata."
+      }
     },
     "ac6bddc2-5fe2-4900-8626-f6d7e70bd3e1": {
       "stt": 50,
@@ -327,7 +601,18 @@
       "stt": 52,
       "cauHoi": "str = ((k % 2 == 0) ? “true” : “false”;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: 'str = ((k % 2 == 0) ? “true” : “false”;' – (1) k khai báo trong for nên ngoài vòng lặp không tồn tại; (2) thiếu dấu ngoặc đóng."
+      "explanation": "Phần gây lỗi: 'str = ((k % 2 == 0) ? “true” : “false”;' – (1) k khai báo trong for nên ngoài vòng lặp không tồn tại; (2) thiếu dấu ngoặc đóng.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "str = ((k % 2 == 0) ? “true” : “false”;",
+            "lyDo": "Thiếu dấu ) đóng; k khai báo trong for nên ngoài vòng lặp không dùng được."
+          }
+        ],
+        "cachSua": "Khai báo k ngoài for và đóng ngoặc: str = ((k % 2) == 0) ? \"true\" : \"false\";",
+        "ketQuaSauKhiSua": "Phụ thuộc giá trị k (đề không khai báo k ngoài vòng for)."
+      }
     },
     "c12c85a3-5cb3-406b-9d6b-2a7708165f84": {
       "stt": 53,
@@ -339,31 +624,86 @@
       "stt": 54,
       "cauHoi": "seasonTemp, functionM (tìm max)",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: int functionM (temp[row][col]) – tham số thiếu kiểu (phải int temp[row][col]). Nếu sửa: hàm tìm số lớn nhất của mảng → 38."
+      "explanation": "Phần gây lỗi: int functionM (temp[row][col]) – tham số thiếu kiểu (phải int temp[row][col]). Nếu sửa: hàm tìm số lớn nhất của mảng → 38.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "int functionM (temp[row][col])",
+            "lyDo": "Tham số temp thiếu kiểu dữ liệu."
+          }
+        ],
+        "cachSua": "int functionM (int temp[row][col])",
+        "ketQuaSauKhiSua": "In 38."
+      }
     },
     "c91dc4a4-ccd9-4b1a-8ced-5ba04c3e2190": {
       "stt": 55,
       "cauHoi": "functionM, if (temp[i][j] < m), m = 0",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Lỗi tham số thiếu kiểu như câu trên. Nếu sửa: m = 0 và chỉ cập nhật khi phần tử < m; mọi phần tử đều dương nên m giữ 0 → in 0."
+      "explanation": "Lỗi tham số thiếu kiểu như câu trên. Nếu sửa: m = 0 và chỉ cập nhật khi phần tử < m; mọi phần tử đều dương nên m giữ 0 → in 0.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "int functionM (temp[row][col])",
+            "lyDo": "Tham số temp thiếu kiểu."
+          }
+        ],
+        "cachSua": "int functionM (int temp[row][col])",
+        "ketQuaSauKhiSua": "m = 0 không đổi → in 0."
+      }
     },
     "f6232d55-cba8-4c84-a176-ceb79666fcde": {
       "stt": 56,
       "cauHoi": "function, m += temp[i][j] khi > m, m = 0",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: hàm khai báo tên 'function' nhưng main gọi functionM (chưa định nghĩa); tham số thiếu kiểu. Nếu sửa tên: m += phần tử khi phần tử > m → 26, 60, rồi không phần tử nào > 60 → m = 60."
+      "explanation": "Phần gây lỗi: hàm khai báo tên 'function' nhưng main gọi functionM (chưa định nghĩa); tham số thiếu kiểu. Nếu sửa tên: m += phần tử khi phần tử > m → 26, 60, rồi không phần tử nào > 60 → m = 60.",
+      "loi": {
+        "loaiLoi": "Sai tên / sai cách gọi hàm",
+        "doanGayLoi": [
+          {
+            "doan": "int function (temp[row][col])",
+            "lyDo": "Hàm tên 'function' nhưng main gọi functionM; tham số thiếu kiểu."
+          }
+        ],
+        "cachSua": "Đổi tên thành functionM và thêm int cho tham số.",
+        "ketQuaSauKhiSua": "m = 26 + 34 = 60 → in 60."
+      }
     },
     "692bae1f-ce70-4a00-a9f5-3df47b5612e7": {
       "stt": 57,
       "cauHoi": "function, m = temp[0][0], m += khi < m",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: tên hàm 'function' ≠ functionM gọi trong main; tham số thiếu kiểu. Nếu sửa: m khởi tạo 26 rồi m += phần tử khi phần tử < m, cộng dồn lần lượt → 264."
+      "explanation": "Phần gây lỗi: tên hàm 'function' ≠ functionM gọi trong main; tham số thiếu kiểu. Nếu sửa: m khởi tạo 26 rồi m += phần tử khi phần tử < m, cộng dồn lần lượt → 264.",
+      "loi": {
+        "loaiLoi": "Sai tên / sai cách gọi hàm",
+        "doanGayLoi": [
+          {
+            "doan": "int function (temp[row][col])",
+            "lyDo": "Tên hàm khác với lời gọi functionM; tham số thiếu kiểu."
+          }
+        ],
+        "cachSua": "Đổi tên functionM, thêm int.",
+        "ketQuaSauKhiSua": "In 264."
+      }
     },
     "3294f62a-d7f2-471d-9993-cbc563fd5bdc": {
       "stt": 58,
       "cauHoi": "function, m = 38, tìm nhỏ nhất",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: tên hàm 'function' ≠ functionM; tham số thiếu kiểu. Nếu sửa: m khởi tạo 38, tìm số nhỏ nhất → 13."
+      "explanation": "Phần gây lỗi: tên hàm 'function' ≠ functionM; tham số thiếu kiểu. Nếu sửa: m khởi tạo 38, tìm số nhỏ nhất → 13.",
+      "loi": {
+        "loaiLoi": "Sai tên / sai cách gọi hàm",
+        "doanGayLoi": [
+          {
+            "doan": "int function (temp[row][col])",
+            "lyDo": "Tên hàm khác với lời gọi functionM; tham số thiếu kiểu."
+          }
+        ],
+        "cachSua": "Đổi tên functionM, thêm int.",
+        "ketQuaSauKhiSua": "In 13."
+      }
     },
     "848f5ca2-3849-409b-b155-29a50b175f2a": {
       "stt": 59,
@@ -399,25 +739,81 @@
       "stt": 64,
       "cauHoi": "functionS w (int *x, int *y)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: (1) tên hàm 'functionS w' có khoảng trắng; (2) gọi functionSw(i,j) truyền int vào tham số int* (phải functionSw(&i,&j))."
+      "explanation": "Phần gây lỗi: (1) tên hàm 'functionS w' có khoảng trắng; (2) gọi functionSw(i,j) truyền int vào tham số int* (phải functionSw(&i,&j)).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "void functionS w (int *x, int *y)",
+            "lyDo": "Tên hàm có khoảng trắng."
+          },
+          {
+            "doan": "functionSw (i,j);",
+            "lyDo": "Truyền int cho tham số int*; phải truyền &i, &j."
+          }
+        ],
+        "cachSua": "Đặt tên functionSw và gọi functionSw(&i,&j).",
+        "ketQuaSauKhiSua": "In 20, 10."
+      }
     },
     "fd300f10-5f0f-4525-873b-b584e146c4b7": {
       "stt": 65,
       "cauHoi": "ReChar – chương trình thực hiện công việc gì?",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "ReChar cấp phát mảng mới và chép ngược chuỗi: đảo ngược chuỗi ký tự. Lỗi nhỏ trong đề: char *p = 178892”; thiếu dấu \" mở (phải \"178892\")."
+      "explanation": "ReChar cấp phát mảng mới và chép ngược chuỗi: đảo ngược chuỗi ký tự. Lỗi nhỏ trong đề: char *p = 178892”; thiếu dấu \" mở (phải \"178892\").",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char *p = 178892”;",
+            "lyDo": "Thiếu dấu \" mở đầu chuỗi."
+          }
+        ],
+        "cachSua": "char *p = \"178892\";",
+        "ketQuaSauKhiSua": "Đảo ngược chuỗi: 298871."
+      }
     },
     "c90c2686-9910-4b4f-96a4-6df69954aef7": {
       "stt": 66,
       "cauHoi": "ReChar(“178892”) – hiển thị kết quả nào?",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Đảo ngược '178892' → '298871'. Lỗi nhỏ trong đề: thiếu dấu \" mở ở char *p = 178892”;."
+      "explanation": "Đảo ngược '178892' → '298871'. Lỗi nhỏ trong đề: thiếu dấu \" mở ở char *p = 178892”;.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char *p = 178892”;",
+            "lyDo": "Thiếu dấu \" mở đầu chuỗi."
+          }
+        ],
+        "cachSua": "char *p = \"178892\";",
+        "ketQuaSauKhiSua": "In 298871."
+      }
     },
     "b160c995-0a55-4dd2-bdc4-eeb81f2d2e23": {
       "stt": 67,
       "cauHoi": "char ReChar (char str) – sai ở dòng nào?",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: dòng 1 'char ReChar (char str)' phải là char* ReChar (char* str); dòng 3 'char ketqua = new char[len+1]' phải là char* ketqua. Dòng 9 cũng thiếu dấu \" mở trong char p[] = 178892”."
+      "explanation": "Phần gây sai: dòng 1 'char ReChar (char str)' phải là char* ReChar (char* str); dòng 3 'char ketqua = new char[len+1]' phải là char* ketqua. Dòng 9 cũng thiếu dấu \" mở trong char p[] = 178892”.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "1. char ReChar (char str)",
+            "lyDo": "Phải là char* ReChar (char* str) vì truyền chuỗi."
+          },
+          {
+            "doan": "3. char ketqua = new char[len+1];",
+            "lyDo": "new char[...] trả về char*, không gán được cho char."
+          },
+          {
+            "doan": "9. char p[] = 178892”;",
+            "lyDo": "Thiếu dấu \" mở đầu."
+          }
+        ],
+        "cachSua": "char* ReChar(char* str), char* ketqua = new char[len+1], char p[] = \"178892\";",
+        "ketQuaSauKhiSua": "In 298871."
+      }
     },
     "09373bc3-8581-4939-8438-4ff201fcd49f": {
       "stt": 68,
@@ -429,7 +825,18 @@
       "stt": 69,
       "cauHoi": "pointer = val1; ... (gán không có &)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: pointer = val1; và pointer = val2; – gán int cho con trỏ; phải là pointer = &val1;"
+      "explanation": "Phần gây lỗi: pointer = val1; và pointer = val2; – gán int cho con trỏ; phải là pointer = &val1;",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "pointer = val1;  và  pointer = val2;",
+            "lyDo": "Gán int cho con trỏ; phải gán địa chỉ &val1, &val2."
+          }
+        ],
+        "cachSua": "pointer = &val1; pointer = &val2;",
+        "ketQuaSauKhiSua": "In 200."
+      }
     },
     "41d14407-9af6-4d12-b150-0706f71521eb": {
       "stt": 70,
@@ -459,7 +866,18 @@
       "stt": 74,
       "cauHoi": "*p = number + 3; cout << number[3] / 2",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: *p = number + 3; – vế trái *p là int, vế phải number + 3 là con trỏ (int*) nên không gán được."
+      "explanation": "Phần gây lỗi: *p = number + 3; – vế trái *p là int, vế phải number + 3 là con trỏ (int*) nên không gán được.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "*p = number + 3;",
+            "lyDo": "Vế trái *p là int, vế phải number + 3 là con trỏ int*."
+          }
+        ],
+        "cachSua": "p = number + 3;",
+        "ketQuaSauKhiSua": "number[3]/2 = 40/2 = 20."
+      }
     },
     "866bf99b-a2af-4232-ad4e-568fe76a1566": {
       "stt": 75,
@@ -471,7 +889,18 @@
       "stt": 76,
       "cauHoi": "bonus = 0 (thiếu ;), yourSale = 3000",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: 'bonus = 0' ở nhánh else thiếu dấu ; ở cuối lệnh."
+      "explanation": "Phần gây lỗi: 'bonus = 0' ở nhánh else thiếu dấu ; ở cuối lệnh.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "bonus = 0",
+            "lyDo": "Thiếu dấu ; cuối lệnh else."
+          }
+        ],
+        "cachSua": "bonus = 0;",
+        "ketQuaSauKhiSua": "Với 3000/2500 vẫn chạy nhánh if: bonus = 105."
+      }
     },
     "cf23d55c-9320-4042-802e-0c097a2f8df7": {
       "stt": 77,
@@ -496,7 +925,18 @@
       "stt": 80,
       "cauHoi": "balance = 10, years ++ (thiếu ;)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: 'years ++' thiếu dấu ; ở cuối lệnh."
+      "explanation": "Phần gây lỗi: 'years ++' thiếu dấu ; ở cuối lệnh.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "years ++",
+            "lyDo": "Thiếu dấu ; sau years++."
+          }
+        ],
+        "cachSua": "years++;",
+        "ketQuaSauKhiSua": "balance = 20.035015."
+      }
     },
     "09d40dd4-1cbe-459f-9a57-7f1eebebc7ae": {
       "stt": 81,
@@ -508,7 +948,18 @@
       "stt": 82,
       "cauHoi": "do-while ... while (balance < goal)\"",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: '} while (balance < goal)\"' – có dấu \" thừa và thiếu dấu ; sau while."
+      "explanation": "Phần gây lỗi: '} while (balance < goal)\"' – có dấu \" thừa và thiếu dấu ; sau while.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "} while (balance < goal)\"",
+            "lyDo": "Dấu \" thừa và thiếu ; sau điều kiện while."
+          }
+        ],
+        "cachSua": "} while (balance < goal);",
+        "ketQuaSauKhiSua": "balance = 25.025."
+      }
     },
     "d43f7a75-83d6-47fc-ae81-e8b279ba1f53": {
       "stt": 83,
@@ -526,7 +977,18 @@
       "stt": 85,
       "cauHoi": "for { int s = 0; s += i; } cout << s;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: cout << s; – s khai báo trong thân for (int s = 0;) nên ngoài vòng lặp không tồn tại."
+      "explanation": "Phần gây lỗi: cout << s; – s khai báo trong thân for (int s = 0;) nên ngoài vòng lặp không tồn tại.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "cout << s;",
+            "lyDo": "s khai báo trong thân for ({ int s = 0; ... }) nên ngoài vòng lặp không tồn tại."
+          }
+        ],
+        "cachSua": "Khai báo int s = 0; trước vòng for.",
+        "ketQuaSauKhiSua": "In 55."
+      }
     },
     "551d740c-3704-4d3a-8bba-a7e35fcee101": {
       "stt": 86,
@@ -538,7 +1000,18 @@
       "stt": 87,
       "cauHoi": "for { s = 0; \"s += i; }",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: dòng '\"s += i;' có dấu \" thừa. Nếu bỏ: mỗi vòng s = 0 rồi s += i nên s = i; vòng cuối i = 9 → s = 9."
+      "explanation": "Phần gây lỗi: dòng '\"s += i;' có dấu \" thừa. Nếu bỏ: mỗi vòng s = 0 rồi s += i nên s = i; vòng cuối i = 9 → s = 9.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "\"s += i;",
+            "lyDo": "Dấu \" thừa ở đầu lệnh."
+          }
+        ],
+        "cachSua": "s += i;",
+        "ketQuaSauKhiSua": "s = 0 mỗi vòng rồi += i → cuối s = 9."
+      }
     },
     "bb957cf4-c56f-4c96-ac0f-9a27aba2886e": {
       "stt": 88,
@@ -550,13 +1023,43 @@
       "stt": 89,
       "cauHoi": "inc: char c = 'y'; cout << s;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: biến khai báo là c (char c = 'y') nhưng dòng sau dùng s (inc(&s, sizeof(s)); cout << s;) – s chưa khai báo. Nếu dùng đúng c: ++ cho 'z'."
+      "explanation": "Phần gây lỗi: biến khai báo là c (char c = 'y') nhưng dòng sau dùng s (inc(&s, sizeof(s)); cout << s;) – s chưa khai báo. Nếu dùng đúng c: ++ cho 'z'.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "inc (&s,sizeof(s)); cout << s;",
+            "lyDo": "Biến khai báo là c (char c = 'y') nhưng gọi s – s chưa tồn tại."
+          }
+        ],
+        "cachSua": "inc(&c, sizeof(c)); cout << c;",
+        "ketQuaSauKhiSua": "In z."
+      }
     },
     "5eee4ec7-fb03-49f9-8171-8587254a0aeb": {
       "stt": 90,
       "cauHoi": "inc (s); void << s",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: inc (s) thiếu tham số; pint = (char*)data gán char* cho int*; 'void << s' sai (phải cout)."
+      "explanation": "Phần gây lỗi: inc (s) thiếu tham số; pint = (char*)data gán char* cho int*; 'void << s' sai (phải cout).",
+      "loi": {
+        "loaiLoi": "Sai tên / sai cách gọi hàm",
+        "doanGayLoi": [
+          {
+            "doan": "inc (s);",
+            "lyDo": "Hàm inc cần 2 tham số (con trỏ void* và kích thước)."
+          },
+          {
+            "doan": "pint = (char*)data;",
+            "lyDo": "Ép kiểu sang char* nhưng gán cho int*."
+          },
+          {
+            "doan": "void << s << endl;",
+            "lyDo": "Phải là cout << s."
+          }
+        ],
+        "cachSua": "inc(&s, sizeof(s)); pint = (int*)data; cout << s << endl;",
+        "ketQuaSauKhiSua": "In 1643."
+      }
     },
     "7de896bb-6f8f-4409-9949-69e47b841318": {
       "stt": 91,
@@ -574,25 +1077,70 @@
       "stt": 93,
       "cauHoi": "test.exe: s *= atof(argv[1]) – test 3 3",
       "status": "Chạy bình thường",
-      "explanation": "test 3 3: lặp i < 3 (3 lần) nhân s với 3: 1·3·3·3 = 27."
+      "explanation": "test 3 3: lặp i < 3 (3 lần) nhân s với 3: 1×3×3×3 = 27."
     },
     "10312d73-05e3-4f7e-9514-2c21e034ce3a": {
       "stt": 94,
       "cauHoi": "test.exe: i < argv[2]; cou << s",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: 'i < argv[2]' so sánh int với chuỗi (char*); và 'cou' viết sai (phải cout)."
+      "explanation": "Phần gây lỗi: 'i < argv[2]' so sánh int với chuỗi (char*); và 'cou' viết sai (phải cout).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "i < argv[2]",
+            "lyDo": "So sánh int với chuỗi (char*); phải đổi sang số, ví dụ atoi(argv[2])."
+          },
+          {
+            "doan": "cou << s << endl;",
+            "lyDo": "Viết sai, phải là cout."
+          }
+        ],
+        "cachSua": "i < atoi(argv[2]); cout << s << endl;",
+        "ketQuaSauKhiSua": "test 3 3: s = 1 + 3 + 3 + 3 = 10."
+      }
     },
     "259eace4-987e-4d64-9e57-30e505e5c56e": {
       "stt": 95,
       "cauHoi": "add/sub/operation: m = (7,5,add); n = (20,m,minus)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: m = (7,5,add); – dấu phẩy trả về giá trị cuối là hàm add (con trỏ hàm), gán cho int là sai; n = (20,m,minus) tương tự. Phải gọi operation(7,5,add)."
+      "explanation": "Phần gây lỗi: m = (7,5,add); – dấu phẩy trả về giá trị cuối là hàm add (con trỏ hàm), gán cho int là sai; n = (20,m,minus) tương tự. Phải gọi operation(7,5,add).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "m = (7,5,add);",
+            "lyDo": "Toán tử phẩy lấy giá trị cuối là hàm add (con trỏ hàm), không gán được cho int."
+          },
+          {
+            "doan": "n = (20,m,minus);",
+            "lyDo": "Tương tự: giá trị cuối là minus."
+          }
+        ],
+        "cachSua": "m = operation(7,5,add); n = operation(20,m,minus);",
+        "ketQuaSauKhiSua": "m = 12, n = 8."
+      }
     },
     "397be73c-85a5-4190-bf8f-0af2d65da641": {
       "stt": 96,
       "cauHoi": "n = (operation(20,3,minus),m,minus)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: m = (7,5,add); gán con trỏ hàm cho int (phải m = operation(7,5,add)); n = (operation(20,3,minus),m,minus) cũng sai."
+      "explanation": "Phần gây lỗi: m = (7,5,add); gán con trỏ hàm cho int (phải m = operation(7,5,add)); n = (operation(20,3,minus),m,minus) cũng sai.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "m = (7,5,add);",
+            "lyDo": "Gán con trỏ hàm cho int."
+          },
+          {
+            "doan": "n = (operation(20,3,minus),m,minus);",
+            "lyDo": "Dùng toán tử phẩy sai; phải gọi operation(operation(20,3,minus), m, minus)."
+          }
+        ],
+        "cachSua": "m = operation(7,5,add); n = operation(operation(20,3,minus), m, minus);",
+        "ketQuaSauKhiSua": "m = 12, n = 17 - 12 = 5."
+      }
     },
     "4800e648-d882-476c-a793-5bdb0f5430c4": {
       "stt": 97,
@@ -617,7 +1165,18 @@
       "cauHoi": "number[3][4], i<3,j<4",
       "status": "Hành vi không xác định",
       "explanation": "Điều kiện 'i < 3, j < 4' chỉ xét j < 4 → vòng lặp chạy 4 lần với i = 0..3. Lần thứ 4 ghi number[3][3] nhưng mảng chỉ có 3 hàng (vượt biên). Nếu bộ nhớ cho phép: 10+9+8+7 = 34.",
-      "answerWarning": "Tôi không suy ra được đáp án 14 như trong file; kết quả tính tay là 34 (và có truy cập ngoài mảng)."
+      "answerWarning": "Tôi không suy ra được đáp án 14 như trong file; kết quả tính tay là 34 (và có truy cập ngoài mảng).",
+      "loi": {
+        "loaiLoi": "Lỗi lúc chạy",
+        "doanGayLoi": [
+          {
+            "doan": "number[i][j] = n--;  (i từ 0 đến 3)",
+            "lyDo": "Điều kiện 'i < 3, j < 4' chỉ xét j < 4, vòng lặp chạy 4 lần với i = 0..3; lần 4 ghi number[3][3] nhưng mảng chỉ có hàng 0..2 (ghi ngoài mảng)."
+          }
+        ],
+        "cachSua": "Dùng i < 3 && j < 4.",
+        "ketQuaSauKhiSua": "Sau khi sửa: s = 10 + 9 + 8 = 27."
+      }
     },
     "3b4874e0-c225-4b89-a4d5-4452e02b413e": {
       "stt": 101,
@@ -635,7 +1194,18 @@
       "stt": 103,
       "cauHoi": "p = (char)data;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: p = (char)data; ép void* thành char rồi gán cho char* – phải là (char*)data."
+      "explanation": "Phần gây lỗi: p = (char)data; ép void* thành char rồi gán cho char* – phải là (char*)data.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "p = (char)data;",
+            "lyDo": "Ép void* thành char (một ký tự) rồi gán cho char*."
+          }
+        ],
+        "cachSua": "p = (char*)data;",
+        "ketQuaSauKhiSua": "hs[0] = A, hs[2].namsinh = 1992 → in A - 1992."
+      }
     },
     "ca1d1591-ef68-4d25-b42a-05c20edff9ad": {
       "stt": 104,
@@ -653,7 +1223,26 @@
       "stt": 106,
       "cauHoi": "hocsinh *p, *p = hs+1; p.namsinh -= 20 – sai ở dòng nào",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: dòng 12 '*p = hs+1;' (phải p = hs+1); dòng 13 'p.namsinh' (p là con trỏ, phải p->namsinh hoặc (*p).namsinh); dòng 14 '*p.namsinh' (. ưu tiên cao hơn *, phải (*p).namsinh)."
+      "explanation": "Phần gây sai: dòng 12 '*p = hs+1;' (phải p = hs+1); dòng 13 'p.namsinh' (p là con trỏ, phải p->namsinh hoặc (*p).namsinh); dòng 14 '*p.namsinh' (. ưu tiên cao hơn *, phải (*p).namsinh).",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "12.    *p = hs+1;",
+            "lyDo": "Vế trái *p là cả struct, vế phải là con trỏ; phải viết p = hs+1."
+          },
+          {
+            "doan": "13.    p.namsinh -= 20;",
+            "lyDo": "p là con trỏ, dùng p->namsinh (hoặc (*p).namsinh)."
+          },
+          {
+            "doan": "14.    cout << *p.namsinh << endl;",
+            "lyDo": "Toán tử . ưu tiên hơn *, nên hiểu thành *(p.namsinh); phải (*p).namsinh."
+          }
+        ],
+        "cachSua": "p = hs+1; p->namsinh -= 20; cout << p->namsinh;",
+        "ketQuaSauKhiSua": "In 1972."
+      }
     },
     "2498ac1c-9bbb-4028-a3ba-e354bc61e422": {
       "stt": 107,
@@ -678,13 +1267,35 @@
       "stt": 110,
       "cauHoi": "class nhanvien ... nhanvien A; (kết quả?)",
       "status": "Lỗi biên dịch",
-      "explanation": "Đoạn code trong đề bị cắt: main chỉ có 'nhanvien A;' rồi dừng, không đóng }. Không có lệnh in nào; luong là private nên không thể dùng A.luong. Theo đáp án của file: lỗi biên dịch."
+      "explanation": "Đoạn code trong đề bị cắt: main chỉ có 'nhanvien A;' rồi dừng, không đóng }. Không có lệnh in nào; luong là private nên không thể dùng A.luong. Theo đáp án của file: lỗi biên dịch.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "int main() {  nhanvien A;  (đề bị cắt)",
+            "lyDo": "Thân main không có lệnh nào tiếp theo và không đóng }."
+          }
+        ],
+        "cachSua": "Bổ sung các lệnh còn thiếu và dấu }.",
+        "ketQuaSauKhiSua": "Không có kết quả để in."
+      }
     },
     "649a9350-1c14-4405-97d7-c8e0f1c596f4": {
       "stt": 111,
       "cauHoi": "void getLuong() { return luong; }",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: void getLuong() { return luong; } – hàm void không được trả về giá trị."
+      "explanation": "Phần gây lỗi: void getLuong() { return luong; } – hàm void không được trả về giá trị.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "void getLuong() { return luong; }",
+            "lyDo": "Hàm kiểu void không được trả về giá trị."
+          }
+        ],
+        "cachSua": "double getLuong() { return luong; }",
+        "ketQuaSauKhiSua": "Biên dịch được."
+      }
     },
     "8baf1ab4-f3e8-49d3-bf8d-5e977e484552": {
       "stt": 112,
@@ -702,7 +1313,18 @@
       "stt": 114,
       "cauHoi": "CRect cn; (không có constructor mặc định)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: CRect cn; – lớp chỉ có constructor CRect(int,int), không có constructor mặc định (đã tự khai báo constructor thì trình biên dịch không sinh thêm)."
+      "explanation": "Phần gây lỗi: CRect cn; – lớp chỉ có constructor CRect(int,int), không có constructor mặc định (đã tự khai báo constructor thì trình biên dịch không sinh thêm).",
+      "loi": {
+        "loaiLoi": "Sai tên / sai cách gọi hàm",
+        "doanGayLoi": [
+          {
+            "doan": "CRect cn;",
+            "lyDo": "Lớp chỉ có constructor CRect(int,int); khi đã tự khai báo constructor thì trình biên dịch không sinh constructor mặc định."
+          }
+        ],
+        "cachSua": "Thêm constructor CRect(); hoặc khai báo CRect cn(7,7);",
+        "ketQuaSauKhiSua": "Với CRect cn(7,7): in 49."
+      }
     },
     "0f38b21d-1817-4a57-bb17-0f8201dacd41": {
       "stt": 115,
@@ -720,7 +1342,18 @@
       "stt": 117,
       "cauHoi": "cout << cn2.height * cn2.width;",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: cn2.height * cn2.width – height, width là private (mặc định) nên không truy cập được từ main."
+      "explanation": "Phần gây lỗi: cn2.height * cn2.width – height, width là private (mặc định) nên không truy cập được từ main.",
+      "loi": {
+        "loaiLoi": "Sai quyền truy cập",
+        "doanGayLoi": [
+          {
+            "doan": "cn2.height * cn2.width",
+            "lyDo": "height, width là private (mặc định của class), không truy cập từ main."
+          }
+        ],
+        "cachSua": "Dùng cn2.DT() hoặc chuyển height, width sang public.",
+        "ketQuaSauKhiSua": "cn2.DT() = 25."
+      }
     },
     "0ab7ac77-b47e-4f80-8e09-5cfc5b46b4f1": {
       "stt": 118,
@@ -738,19 +1371,60 @@
       "stt": 120,
       "cauHoi": "CRect con trỏ, return (height * width), thiếu ; sau class",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: dòng 6 'return (height * width)' nhân hai con trỏ (phải *height * *width); dòng 7 '}' thiếu ; sau dấu đóng class."
+      "explanation": "Phần gây sai: dòng 6 'return (height * width)' nhân hai con trỏ (phải *height * *width); dòng 7 '}' thiếu ; sau dấu đóng class.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "6. int DT (void) { return (height * width); }",
+            "lyDo": "height, width là con trỏ int*; nhân hai con trỏ không hợp lệ (phải *height * *width)."
+          },
+          {
+            "doan": "7. }",
+            "lyDo": "Class phải kết thúc bằng };"
+          }
+        ],
+        "cachSua": "return (*height * *width); và };",
+        "ketQuaSauKhiSua": "In 12."
+      }
     },
     "bfe3539b-ca2f-49cb-ae42-220a01aa129b": {
       "stt": 121,
       "cauHoi": "new short int – sai ở dòng nào",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: dòng 9, 10 'new short int' cấp phát short nhưng gán cho int* – không tương thích kiểu."
+      "explanation": "Phần gây sai: dòng 9, 10 'new short int' cấp phát short nhưng gán cho int* – không tương thích kiểu.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "9.  height = new short int;  10. width = new short int;",
+            "lyDo": "new short int trả về short*, không gán được cho int*."
+          }
+        ],
+        "cachSua": "height = new int; width = new int;",
+        "ketQuaSauKhiSua": "In 12."
+      }
     },
     "98455df8-5bac-4b6b-abb9-04696476d3f8": {
       "stt": 122,
       "cauHoi": "*height * width; height = a; – sai ở dòng nào",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: dòng 6 '*height * width' (width là con trỏ); dòng 11, 12 'height = a; width = b;' gán int cho con trỏ (phải *height = a; *width = b;)."
+      "explanation": "Phần gây sai: dòng 6 '*height * width' (width là con trỏ); dòng 11, 12 'height = a; width = b;' gán int cho con trỏ (phải *height = a; *width = b;).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "6. return (*height * width);",
+            "lyDo": "width là con trỏ, thiếu dấu * ở width."
+          },
+          {
+            "doan": "11. height = a;  12. width = b;",
+            "lyDo": "Gán int cho con trỏ; phải *height = a; *width = b;"
+          }
+        ],
+        "cachSua": "return (*height * *width); *height = a; *width = b;",
+        "ketQuaSauKhiSua": "In 12."
+      }
     },
     "cb22178c-4353-4ac2-a103-ea7acb14e62f": {
       "stt": 123,
@@ -762,7 +1436,18 @@
       "stt": 124,
       "cauHoi": "CRect a, *b, *c, d*; c->DT() * (*b).DT()",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: dòng 11 'd*;' sai cú pháp (phải *d). Nếu sửa: c->DT() = 2, (*b).DT() = 3*4 = 12 → in 24."
+      "explanation": "Phần gây lỗi: dòng 11 'd*;' sai cú pháp (phải *d). Nếu sửa: c->DT() = 2, (*b).DT() = 3*4 = 12 → in 24.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "CRect a, *b, *c, d*;",
+            "lyDo": "'d*' khai báo sai cú pháp; phải là *d."
+          }
+        ],
+        "cachSua": "CRect a, *b, *c, *d;",
+        "ketQuaSauKhiSua": "c->DT() * (*b).DT() = 2 * 12 = 24."
+      }
     },
     "2115fec2-f356-4254-aa25-c4b5b445479e": {
       "stt": 125,
@@ -774,7 +1459,22 @@
       "stt": 126,
       "cauHoi": "d[1]->setGiatri; c->DT() * b.DT() – sai ở dòng nào",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: dòng 18 'd[1]->setGiatri(7,8)' (d[1] là đối tượng, dùng d[1].setGiatri); dòng 19 'b.DT()' (b là con trỏ, dùng b->DT())."
+      "explanation": "Phần gây sai: dòng 18 'd[1]->setGiatri(7,8)' (d[1] là đối tượng, dùng d[1].setGiatri); dòng 19 'b.DT()' (b là con trỏ, dùng b->DT()).",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "18. d[1]->setGiatri(7,8);",
+            "lyDo": "d[1] là một đối tượng, dùng d[1].setGiatri(7,8)."
+          },
+          {
+            "doan": "19. cout << c->DT() * b.DT()",
+            "lyDo": "b là con trỏ, phải dùng b->DT() hoặc (*b).DT()."
+          }
+        ],
+        "cachSua": "d[1].setGiatri(7,8); b->DT()",
+        "ketQuaSauKhiSua": "c->DT() * b->DT() = 2 * 12 = 24."
+      }
     },
     "e76b00f1-26d2-4888-a815-0c70f327a12b": {
       "stt": 127,
@@ -804,7 +1504,22 @@
       "stt": 131,
       "cauHoi": "class tinh, operator+ (%), cout << t.a",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: 'return tmp' thiếu ;; cout << t.a dùng t chưa khai báo (biến là t3). Nếu sửa: t3.a = 1 % 3 = 1."
+      "explanation": "Phần gây lỗi: 'return tmp' thiếu ;; cout << t.a dùng t chưa khai báo (biến là t3). Nếu sửa: t3.a = 1 % 3 = 1.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "return tmp",
+            "lyDo": "Thiếu dấu ;."
+          },
+          {
+            "doan": "cout << t.a;",
+            "lyDo": "Biến t không tồn tại; biến kết quả là t3."
+          }
+        ],
+        "cachSua": "return tmp; cout << t3.a;",
+        "ketQuaSauKhiSua": "t3.a = 1 % 3 = 1."
+      }
     },
     "e785d899-1d7e-4fdf-9878-57f8c0f45be6": {
       "stt": 132,
@@ -816,55 +1531,174 @@
       "stt": 133,
       "cauHoi": "CVector private x,y – sai ở dòng nào",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây sai: dòng 7 '}' thiếu ; sau class; dòng 23 'c.x + c.y' truy cập thành viên private x, y từ main."
+      "explanation": "Phần gây sai: dòng 7 '}' thiếu ; sau class; dòng 23 'c.x + c.y' truy cập thành viên private x, y từ main.",
+      "loi": {
+        "loaiLoi": "Sai quyền truy cập",
+        "doanGayLoi": [
+          {
+            "doan": "7. }",
+            "lyDo": "Class thiếu dấu ; sau }."
+          },
+          {
+            "doan": "23. cout << c.x + c.y << endl;",
+            "lyDo": "x, y là private (không có public: trước chúng), main không truy cập được."
+          }
+        ],
+        "cachSua": "};  và đặt x, y trong phần public.",
+        "ketQuaSauKhiSua": "(3%8) + (1%4) = 4."
+      }
     },
     "bb4e3f54-b91b-4dd8-b4d1-a399ec650132": {
       "stt": 134,
       "cauHoi": "class rect, setValue, area() – r.setValue(2,3)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: hàm area() dùng a * b nhưng a, b chỉ là tham số của setValue; thành viên của lớp là x, y (phải return x * y). Ngoài ra 'Chu vi' đề ghi nhưng đây là diện tích."
+      "explanation": "Phần gây lỗi: hàm area() dùng a * b nhưng a, b chỉ là tham số của setValue; thành viên của lớp là x, y (phải return x * y). Ngoài ra 'Chu vi' đề ghi nhưng đây là diện tích.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "int area() { return a * b; }",
+            "lyDo": "a, b không tồn tại trong hàm này (chỉ là tham số của setValue). Thành viên của lớp là x, y."
+          }
+        ],
+        "cachSua": "return x * y;",
+        "ketQuaSauKhiSua": "In 6."
+      }
     },
     "babc5bc6-5dba-4f71-9eda-c16c0401db1b": {
       "stt": 135,
       "cauHoi": "class test, b3(int b), t.b(3)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: test(int i) {a = i} thiếu ;; main gọi t.b(3) nhưng hàm tên b3; class thiếu dấu } đóng."
+      "explanation": "Phần gây lỗi: test(int i) {a = i} thiếu ;; main gọi t.b(3) nhưng hàm tên b3; class thiếu dấu } đóng.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "test(int i) {a = i}",
+            "lyDo": "Thiếu dấu ; trước }."
+          },
+          {
+            "doan": "cout << t.b(3);",
+            "lyDo": "Hàm tên b3, không có hàm b."
+          },
+          {
+            "doan": "class test { ... (thiếu })",
+            "lyDo": "Thiếu '};' đóng class."
+          }
+        ],
+        "cachSua": "{a = i;}, t.b3(3), thêm };",
+        "ketQuaSauKhiSua": "a = 3 → 9 → 81 → 6561, in 6561."
+      }
     },
     "e31c6d98-f987-4600-a7ec-401b18fdf110": {
       "stt": 136,
       "cauHoi": "for i,j, c = i*16 + j – thực hiện công việc gì",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Dòng 'cout << “ << c;' có chuỗi mở không đóng (phải cout << \" \" << c;). Nếu sửa: i = 2..15, j = 0..15, c = i*16 + j in ký tự mã 32..255 → in bảng mã ASCII."
+      "explanation": "Dòng 'cout << “ << c;' có chuỗi mở không đóng (phải cout << \" \" << c;). Nếu sửa: i = 2..15, j = 0..15, c = i*16 + j in ký tự mã 32..255 → in bảng mã ASCII.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "cout <<     “ << c;",
+            "lyDo": "Chuỗi mở bằng “ nhưng không đóng; phải viết cout << \" \" << c;"
+          }
+        ],
+        "cachSua": "cout << \" \" << c;",
+        "ketQuaSauKhiSua": "In bảng mã ASCII."
+      }
     },
     "759c2519-46d5-48ac-90d1-6992ea3bfe6d": {
       "stt": 137,
       "cauHoi": "stringRear, strchr(str, “/ “), cout << a",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: strchr(str, “/ “) – tham số thứ 2 của strchr phải là ký tự '/', không phải chuỗi; a[2] = “\\0” phải là '\\0'."
+      "explanation": "Phần gây lỗi: strchr(str, “/ “) – tham số thứ 2 của strchr phải là ký tự '/', không phải chuỗi; a[2] = “\\0” phải là '\\0'.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "p = strchr(str, “/ “);",
+            "lyDo": "Đối số thứ 2 của strchr phải là ký tự '/', không phải chuỗi."
+          },
+          {
+            "doan": "a[2] = “\\0”;",
+            "lyDo": "Phải là ký tự '\\0'."
+          }
+        ],
+        "cachSua": "strchr(str, '/'); a[2] = '\\0';",
+        "ketQuaSauKhiSua": "a = '30' (in 30)."
+      }
     },
     "2a4bbee9-745e-4f7d-a00f-cc55f52f6bb0": {
       "stt": 138,
       "cauHoi": "stringRear, cout << (atof(a) - 26)",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: strchr(str, “/”) và a[2] = “\\0” dùng chuỗi thay vì ký tự ('/' và '\\0'). Nếu sửa: p trỏ vị trí 2, num = 2, a = '30', atof(a) - 26 = 4."
+      "explanation": "Phần gây lỗi: strchr(str, “/”) và a[2] = “\\0” dùng chuỗi thay vì ký tự ('/' và '\\0'). Nếu sửa: p trỏ vị trí 2, num = 2, a = '30', atof(a) - 26 = 4.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "p = strchr(str, “/”);",
+            "lyDo": "Đối số phải là ký tự '/'."
+          },
+          {
+            "doan": "a[2] = “\\0”;",
+            "lyDo": "Phải là '\\0'."
+          }
+        ],
+        "cachSua": "strchr(str,'/'); a[2] = '\\0';",
+        "ketQuaSauKhiSua": "atof(\"30\") - 26 = 4."
+      }
     },
     "b2956604-d20c-4b23-a424-de24a70042b2": {
       "stt": 139,
       "cauHoi": "stringRear (lần 1), cout << a",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Lỗi nhỏ: dùng chuỗi \"/\", \"\\0\" thay vì '/', '\\0'. Nếu sửa: stringRear(str,tmp,3) chép phần sau ngày: tmp = '04/2011'. strchr tìm '/' ở vị trí 2, a = '04'. In 04."
+      "explanation": "Lỗi nhỏ: dùng chuỗi \"/\", \"\\0\" thay vì '/', '\\0'. Nếu sửa: stringRear(str,tmp,3) chép phần sau ngày: tmp = '04/2011'. strchr tìm '/' ở vị trí 2, a = '04'. In 04.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "strchr(str, “/”);  strchr(tmp,”/”);  a[2] = “\\0”;",
+            "lyDo": "Chuỗi thay cho ký tự."
+          }
+        ],
+        "cachSua": "Dùng '/' và '\\0'.",
+        "ketQuaSauKhiSua": "In 04."
+      }
     },
     "88cb9a4e-b680-4784-b46e-26f3ceab76be": {
       "stt": 140,
       "cauHoi": "stringRear (lần 2), cout << str",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Lỗi nhỏ như câu trên. Sau lần 1: tmp = '04/2011'. stringRear(tmp,str,3) chép phần sau '/' thứ hai: str = '2011'. In 2011."
+      "explanation": "Lỗi nhỏ như câu trên. Sau lần 1: tmp = '04/2011'. stringRear(tmp,str,3) chép phần sau '/' thứ hai: str = '2011'. In 2011.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "strchr(str, “/”);  strchr(tmp,”/”);  a[2] = “\\0”;",
+            "lyDo": "Chuỗi thay cho ký tự."
+          }
+        ],
+        "cachSua": "Dùng '/' và '\\0'.",
+        "ketQuaSauKhiSua": "In 2011."
+      }
     },
     "a260bbb5-6aee-4357-ae0d-54f14efa3ccb": {
       "stt": 141,
       "cauHoi": "cout << atof(str) * a",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: atof(str) * a – nhân double với mảng ký tự a (char*) không hợp lệ."
+      "explanation": "Phần gây lỗi: atof(str) * a – nhân double với mảng ký tự a (char*) không hợp lệ.",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "cout << atof(str) * a << endl;",
+            "lyDo": "a là mảng char; không nhân được với double. Phải đổi a sang số: atof(a)."
+          }
+        ],
+        "cachSua": "atof(str) * atof(a)",
+        "ketQuaSauKhiSua": "atof(str) = 2011, atof(a) = atof(\"04\") = 4 → 2011 × 4 = 8044."
+      }
     },
     "51b38217-8060-4db0-b79e-08350cd5ebc0": {
       "stt": 142,
@@ -877,7 +1711,18 @@
       "cauHoi": "k<30, k%3==0 && k%7==0 (có } thừa)",
       "status": "Đáp án trong file cần xem lại",
       "explanation": "Phần gây lỗi: có dấu } thừa – for ... if ... cout chỉ là một lệnh, dấu } kế tiếp đã đóng main, 'return 0; }' phía sau thừa. Nếu bỏ dấu } thừa: k < 30 chia hết 3 và 7 chỉ có 21 → in '21'.",
-      "answerWarning": "Đáp án 21 chỉ đúng khi bỏ dấu } thừa."
+      "answerWarning": "Đáp án 21 chỉ đúng khi bỏ dấu } thừa.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "} (sau câu lệnh cout)",
+            "lyDo": "Có 1 dấu } thừa: 'for ... if ... cout' là 1 lệnh, } kế tiếp đóng main, 'return 0; }' phía sau bị thừa."
+          }
+        ],
+        "cachSua": "Xóa dấu } thừa.",
+        "ketQuaSauKhiSua": "In 21."
+      }
     },
     "aba82a4e-3eff-436f-8cac-653757ce41f1": {
       "stt": 144,
@@ -901,7 +1746,18 @@
       "stt": 147,
       "cauHoi": "dem > 1, thiếu } đóng for",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: for ( n = 2; n <= k; n++ ) { mở ngoặc nhưng không có } đóng tương ứng – mất cân bằng dấu ngoặc."
+      "explanation": "Phần gây lỗi: for ( n = 2; n <= k; n++ ) { mở ngoặc nhưng không có } đóng tương ứng – mất cân bằng dấu ngoặc.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "for ( n = 2; n <= k; n++ ) {",
+            "lyDo": "Mở { nhưng không có } đóng tương ứng."
+          }
+        ],
+        "cachSua": "Thêm } đúng chỗ.",
+        "ketQuaSauKhiSua": "Phụ thuộc vị trí }."
+      }
     },
     "0b7505a7-1149-400e-ad06-8eab84dc2648": {
       "stt": 148,
@@ -944,7 +1800,18 @@
       "stt": 154,
       "cauHoi": "doiso gọi modul(a) trước khi modul được định nghĩa",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: doiso gọi modul(a) trước khi modul được khai báo/định nghĩa (modul nằm phía dưới, không có prototype)."
+      "explanation": "Phần gây lỗi: doiso gọi modul(a) trước khi modul được khai báo/định nghĩa (modul nằm phía dưới, không có prototype).",
+      "loi": {
+        "loaiLoi": "Sai tên / sai cách gọi hàm",
+        "doanGayLoi": [
+          {
+            "doan": "return acos (a.thuc / modul(a));",
+            "lyDo": "modul chưa được khai báo trước nơi gọi (đang nằm phía dưới)."
+          }
+        ],
+        "cachSua": "Đưa modul lên trước doiso hoặc khai báo float modul(complex);",
+        "ketQuaSauKhiSua": "In góc của số phức."
+      }
     },
     "f0351a0a-e336-4f0f-9e9f-8614560cf402": {
       "stt": 155,
@@ -962,13 +1829,35 @@
       "stt": 157,
       "cauHoi": "j<3, dem=0; { (thừa dấu {)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: dòng 'dem=0; {' có dấu { thừa → mất cân bằng dấu ngoặc, thiếu } đóng."
+      "explanation": "Phần gây lỗi: dòng 'dem=0; {' có dấu { thừa → mất cân bằng dấu ngoặc, thiếu } đóng.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "dem=0; {",
+            "lyDo": "Dấu { thừa làm mất cân bằng ngoặc."
+          }
+        ],
+        "cachSua": "Xóa dấu { thừa.",
+        "ketQuaSauKhiSua": "In 2 3 5."
+      }
     },
     "c018fc6e-8ef9-4204-9677-d3e19387ed6d": {
       "stt": 158,
       "cauHoi": "public class Test (Java), while(j<3), k=8",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: đây là code Java (public class, System.out.print, String[] args), không biên dịch được trong C++. Nếu chạy như Java: k = 8 cố định nên dem = 2 (8%4, 8%8) ≠ 1, j không bao giờ tăng → lặp vô hạn, không in gì."
+      "explanation": "Phần gây lỗi: đây là code Java (public class, System.out.print, String[] args), không biên dịch được trong C++. Nếu chạy như Java: k = 8 cố định nên dem = 2 (8%4, 8%8) ≠ 1, j không bao giờ tăng → lặp vô hạn, không in gì.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "public class Test { public static void main(String[] args) ... System.out.print(...)",
+            "lyDo": "Đây là code Java, không biên dịch được trong C++."
+          }
+        ],
+        "cachSua": "Viết lại bằng C++ (int main, cout).",
+        "ketQuaSauKhiSua": "Với k = 8 cố định: j không bao giờ tăng → lặp vô hạn."
+      }
     },
     "c1e6c0cd-cdf5-4fd9-83b0-b946bd5bde0a": {
       "stt": 159,
@@ -998,49 +1887,165 @@
       "stt": 163,
       "cauHoi": "cout << ca[(nam+6)%10] (ca viết sai)",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: cout << ca[...] – biến ca chưa khai báo (mảng tên can); thiếu dấu ; sau mảng can[][5] = {...}."
+      "explanation": "Phần gây lỗi: cout << ca[...] – biến ca chưa khai báo (mảng tên can); thiếu dấu ; sau mảng can[][5] = {...}.",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "cout << ca[(nam+6)%10] << ...",
+            "lyDo": "Biến tên can nhưng viết là ca."
+          },
+          {
+            "doan": "“Ky”, “Canh”, “Tan”, “Nham”, “Quy” }",
+            "lyDo": "Thiếu dấu ; sau khai báo mảng can."
+          }
+        ],
+        "cachSua": "can[...] và thêm ; sau }.",
+        "ketQuaSauKhiSua": "In NhamThin."
+      }
     },
     "c2bd90c2-f075-458f-8fb2-b0845942a8d2": {
       "stt": 164,
       "cauHoi": "functionD (m = 2) – thực hiện công việc gì",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "functionD đổi số từ hệ cơ số n sang hệ cơ số m (qua giá trị thập phân trung gian). Lưu ý lỗi trong code: char number[17] = 123”; thiếu dấu \" mở; ketqua[17] = 0; ghi ngoài mảng (chỉ số hợp lệ 0..16)."
+      "explanation": "functionD đổi số từ hệ cơ số n sang hệ cơ số m (qua giá trị thập phân trung gian). Lưu ý lỗi trong code: char number[17] = 123”; thiếu dấu \" mở; ketqua[17] = 0; ghi ngoài mảng (chỉ số hợp lệ 0..16).",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char number[17] = 123”;",
+            "lyDo": "Thiếu dấu \" mở đầu."
+          },
+          {
+            "doan": "ketqua[17] = 0;",
+            "lyDo": "Mảng ketqua[17] chỉ có chỉ số 0..16 nên ghi ngoài mảng."
+          }
+        ],
+        "cachSua": "char number[17] = \"123\"; và ketqua[16] = 0 hoặc khai báo ketqua[18].",
+        "ketQuaSauKhiSua": "Chuyển 123 sang cơ số m."
+      }
     },
     "a4e8bc6b-f0a6-40e1-a489-e3cd3952721a": {
       "stt": 165,
       "cauHoi": "functionD, m = 2 – kết quả",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Đọc '123' hệ 10 → giá trị 123; đổi sang cơ số m = 2: 123 = 1111011. Lỗi nhỏ như câu trên (thiếu \" mở, ketqua[17] ngoài mảng)."
+      "explanation": "Đọc '123' hệ 10 → giá trị 123; đổi sang cơ số m = 2: 123 = 1111011. Lỗi nhỏ như câu trên (thiếu \" mở, ketqua[17] ngoài mảng).",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char number[17] = 123”;",
+            "lyDo": "Thiếu dấu \" mở đầu."
+          },
+          {
+            "doan": "ketqua[17] = 0;",
+            "lyDo": "Ghi ngoài mảng."
+          }
+        ],
+        "cachSua": "Như câu trước.",
+        "ketQuaSauKhiSua": "m = 2: 1111011."
+      }
     },
     "92f45636-c8ae-4e80-a1fc-e44546ffed0b": {
       "stt": 166,
       "cauHoi": "functionD, m = 9",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "123 sang cơ số 9: 123 = 1·81 + 4·9 + 6 → 146. Lỗi nhỏ như câu trên."
+      "explanation": "123 sang cơ số 9: 123 = 1×81 + 4×9 + 6 → 146. Lỗi nhỏ như câu trên.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char number[17] = 123”;",
+            "lyDo": "Thiếu dấu \" mở đầu."
+          },
+          {
+            "doan": "ketqua[17] = 0;",
+            "lyDo": "Ghi ngoài mảng."
+          }
+        ],
+        "cachSua": "Như câu trước.",
+        "ketQuaSauKhiSua": "m = 9: 146."
+      }
     },
     "f3394e4f-279f-4c43-9c08-536e33e2a72e": {
       "stt": 167,
       "cauHoi": "functionD, m = 8",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "123 sang cơ số 8: 123 = 1·64 + 7·8 + 3 → 173. Lỗi nhỏ như câu trên."
+      "explanation": "123 sang cơ số 8: 123 = 1×64 + 7×8 + 3 → 173. Lỗi nhỏ như câu trên.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char number[17] = 123”;",
+            "lyDo": "Thiếu dấu \" mở đầu."
+          },
+          {
+            "doan": "ketqua[17] = 0;",
+            "lyDo": "Ghi ngoài mảng."
+          }
+        ],
+        "cachSua": "Như câu trước.",
+        "ketQuaSauKhiSua": "m = 8: 173."
+      }
     },
     "510a3dbd-132c-40c0-83e8-19f4141ca404": {
       "stt": 168,
       "cauHoi": "functionD, m = 16",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "123 sang cơ số 16: 123 = 7·16 + 11 → '7B'. Lỗi nhỏ như câu trên."
+      "explanation": "123 sang cơ số 16: 123 = 7 × 16 + 11 → '7B' (dấu × là phép nhân; 11 viết là chữ B trong hệ 16). Lỗi nhỏ như câu trên.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char number[17] = 123”;",
+            "lyDo": "Thiếu dấu \" mở đầu."
+          },
+          {
+            "doan": "ketqua[17] = 0;",
+            "lyDo": "Ghi ngoài mảng."
+          }
+        ],
+        "cachSua": "Như câu trước.",
+        "ketQuaSauKhiSua": "m = 16: 7B."
+      }
     },
     "4883cf38-34d5-4e3b-82c0-97813f5b6e9a": {
       "stt": 169,
       "cauHoi": "functionD, m = 12",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "123 sang cơ số 12: 123 = 10·12 + 3 → 'A3' (A = 10). Lỗi nhỏ như câu trên."
+      "explanation": "123 sang cơ số 12: 123 = 10×12 + 3 → 'A3' (A = 10). Lỗi nhỏ như câu trên.",
+      "loi": {
+        "loaiLoi": "Thiếu dấu / thừa dấu",
+        "doanGayLoi": [
+          {
+            "doan": "char number[17] = 123”;",
+            "lyDo": "Thiếu dấu \" mở đầu."
+          },
+          {
+            "doan": "ketqua[17] = 0;",
+            "lyDo": "Ghi ngoài mảng."
+          }
+        ],
+        "cachSua": "Như câu trước.",
+        "ketQuaSauKhiSua": "m = 12: A3."
+      }
     },
     "b3875f52-3f03-42f7-9d3c-5441fa4c8a16": {
       "stt": 170,
       "cauHoi": "max, dòng lệnh 7 (int [] a={3,1,7,0,10})",
       "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
-      "explanation": "Phần gây lỗi: int [] a={3,1,7,0,10} là cú pháp Java, thiếu ; (C++ viết int a[] = {...};). Nếu sửa: max tìm được là 10; dòng 7 in 10."
+      "explanation": "Phần gây lỗi: int [] a={3,1,7,0,10} là cú pháp Java, thiếu ; (C++ viết int a[] = {...};). Nếu sửa: max tìm được là 10; dòng 7 in 10.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "1:int [] a={3,1,7,0,10}",
+            "lyDo": "Cú pháp mảng của Java; C++ viết int a[] = {...}; và thiếu dấu ;."
+          }
+        ],
+        "cachSua": "int a[] = {3,1,7,0,10};",
+        "ketQuaSauKhiSua": "Dòng 7 in 10."
+      }
     },
     "b71e2b3f-4740-45a9-99fc-a41e9a7be31f": {
       "stt": 171,
@@ -1053,7 +2058,18 @@
       "cauHoi": "int [] a = {...}; Kết quả hiển thị",
       "status": "Đáp án trong file cần xem lại",
       "explanation": "Phần gây lỗi: int [] a = {...} là cú pháp Java (C++ phải int a[]). Nếu sửa: dòng 7 in max = 10, dòng 10 in chỉ số 4 liền sau → kết quả hiển thị '104'.",
-      "answerWarning": "Đáp án trong file là '4'; tôi tính ra '104'."
+      "answerWarning": "Đáp án trong file là '4'; tôi tính ra '104'.",
+      "loi": {
+        "loaiLoi": "Lỗi cú pháp",
+        "doanGayLoi": [
+          {
+            "doan": "1:int [] a={3,1,7,0,10};",
+            "lyDo": "Cú pháp mảng của Java; C++ viết int a[] = {...};"
+          }
+        ],
+        "cachSua": "int a[] = {3,1,7,0,10};",
+        "ketQuaSauKhiSua": "In 10 rồi 4 → hiển thị 104."
+      }
     },
     "bf250f9f-87e1-41f9-b5ab-284be2569afb": {
       "stt": 173,
@@ -1107,7 +2123,18 @@
       "stt": 181,
       "cauHoi": "int n,k; dùng N – N = 12",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: khai báo 'int n,k;' nhưng code dùng N (chữ hoa) chưa khai báo; C++ phân biệt hoa/thường (n ≠ N)."
+      "explanation": "Phần gây lỗi: khai báo 'int n,k;' nhưng code dùng N (chữ hoa) chưa khai báo; C++ phân biệt hoa/thường (n ≠ N).",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "int n,k;  ...  k <= N; if (n % k == 0)",
+            "lyDo": "C++ phân biệt hoa thường: khai báo n nhưng dùng N (chưa khai báo)."
+          }
+        ],
+        "cachSua": "Khai báo int N,k; và dùng N nhất quán.",
+        "ketQuaSauKhiSua": "N = 12 → 2 2 3."
+      }
     },
     "d23f30b2-01e1-4889-b93e-e736f52ecb40": {
       "stt": 182,
@@ -1140,7 +2167,18 @@
       "stt": 186,
       "cauHoi": "sum(k) dùng trước khi định nghĩa, N = 2",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: hàm sum(k) được gọi trong main trước khi được định nghĩa (nằm dưới main), không có khai báo nguyên mẫu float sum(int);"
+      "explanation": "Phần gây lỗi: hàm sum(k) được gọi trong main trước khi được định nghĩa (nằm dưới main), không có khai báo nguyên mẫu float sum(int);",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "S += 1/sum(k);",
+            "lyDo": "sum() được gọi trước khi định nghĩa (định nghĩa nằm dưới main, không có nguyên mẫu)."
+          }
+        ],
+        "cachSua": "Thêm float sum(int); phía trên main.",
+        "ketQuaSauKhiSua": "N = 2: 1.33333."
+      }
     },
     "61aab535-59ba-41cc-a1e2-c5811c349cdf": {
       "stt": 187,
@@ -1194,7 +2232,18 @@
       "stt": 195,
       "cauHoi": "chuoi = (char) ... (thiếu [i])",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: chuoi = (char)(...) – gán một ký tự cho cả mảng chuoi; phải là chuoi[i] = ..."
+      "explanation": "Phần gây lỗi: chuoi = (char)(...) – gán một ký tự cho cả mảng chuoi; phải là chuoi[i] = ...",
+      "loi": {
+        "loaiLoi": "Sai kiểu dữ liệu",
+        "doanGayLoi": [
+          {
+            "doan": "chuoi = (char) ((int)chuoi[i] - khoa);",
+            "lyDo": "Gán một ký tự cho cả mảng chuoi; phải gán cho phần tử chuoi[i]."
+          }
+        ],
+        "cachSua": "chuoi[i] = (char)((int)chuoi[i] - khoa);",
+        "ketQuaSauKhiSua": "In TINHOC."
+      }
     },
     "d9979454-123f-48cf-8f45-f9ff46d7d8ed": {
       "stt": 196,
@@ -1206,7 +2255,18 @@
       "stt": 197,
       "cauHoi": "tinhtong khai báo trước tinhtich",
       "status": "Lỗi biên dịch",
-      "explanation": "Phần gây lỗi: tinhtong gọi tinhtich trước khi tinhtich được định nghĩa (tinhtich nằm phía dưới, không có nguyên mẫu)."
+      "explanation": "Phần gây lỗi: tinhtong gọi tinhtich trước khi tinhtich được định nghĩa (tinhtich nằm phía dưới, không có nguyên mẫu).",
+      "loi": {
+        "loaiLoi": "Chưa khai báo / sai phạm vi",
+        "doanGayLoi": [
+          {
+            "doan": "2. for (...) tong += tinhtich(i);",
+            "lyDo": "tinhtich được gọi trong tinhtong nhưng định nghĩa nằm phía dưới."
+          }
+        ],
+        "cachSua": "Thêm float tinhtich(int); phía trên tinhtong, hoặc đảo thứ tự hai hàm.",
+        "ketQuaSauKhiSua": "n = 3: 1.44444."
+      }
     },
     "3d41d214-0f96-48bb-8915-422c1b587f3b": {
       "stt": 198,
@@ -1236,13 +2296,13 @@
       "stt": 202,
       "cauHoi": "giaithua, th(k,n), n = 3, k = 2",
       "status": "Chạy bình thường",
-      "explanation": "th(k,n) = C(n,k) = n!/(k!(n-k)!). n=3, k=2: 6/(2·1) = 3."
+      "explanation": "th(k,n) = C(n,k) = n!/(k!(n-k)!). n=3, k=2: 6/(2×1) = 3."
     },
     "5b59f7a7-3feb-488c-b8fa-2b66cf2d4923": {
       "stt": 203,
       "cauHoi": "giaithua, th(k,n), n = 4, k = 2",
       "status": "Chạy bình thường",
-      "explanation": "n=4, k=2: 24/(2·2) = 6."
+      "explanation": "n=4, k=2: 24/(2×2) = 6."
     }
   }
 }
