@@ -122,6 +122,10 @@ h1, h2, h3, h4 {
   color: var(--primary-color);
 }
 
+[data-theme='dark'] .btn-outline {
+  color: white;
+}
+
 .btn-outline:hover {
   background-color: var(--primary-light);
 }
