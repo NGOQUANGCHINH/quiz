@@ -27,8 +27,13 @@ const escapeHtml = (str: string) => {
 export const formatQuestionText = (text: string) => {
   // Render code blocks with clean formatting and escaped HTML entities
   let html = text.replace(/```[a-z]*\n([\s\S]*?)\n?```/gi, (_match, code: string) => {
-    const cleanCode = code.replace(/<span[^>]*>(.*?)<\/span>/gi, '$1');
-    const escapedCode = escapeHtml(cleanCode.trimEnd());
+    const spans: string[] = [];
+    let cleanCode = code.replace(/<span[^>]*>.*?<\/span>/gi, match => {
+      spans.push(match);
+      return `__INLINE_SPAN_${spans.length - 1}__`;
+    });
+    let escapedCode = escapeHtml(cleanCode.trimEnd());
+    escapedCode = escapedCode.replace(/__INLINE_SPAN_(\d+)__/g, (_, idx) => spans[parseInt(idx)]);
     return `<pre class="code-block"><code>${escapedCode}</code></pre>`;
   });
   

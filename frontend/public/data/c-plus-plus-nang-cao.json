@@ -4512,7 +4512,7 @@
     },
     {
       "id": "dbff1ef5-f1a9-4075-be1c-996121ac78d5",
-      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = 1952;\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” }\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << ca[(nam+6)%10] << chi[(nam+8)%12];\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
+      "question": "Cho đoạn chương trình sau:\n```cpp\nint main() {\nunsigned nam = 1952;\nchar can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”,\n“Ky”, “Canh”, “Tan”, “Nham”, “Quy” }\nchar chi[][5] = {   “Ty”, “Suu”, “Dan”, “Mao”,\n“Thin”, “Ty”, “Ngo”, “Mui”,\n“Than”, “Dau”, “Tuat”, “Hoi” };\ncout << <span style='color:red; font-weight:bold'>ca</span>[(nam+6)%10] << chi[(nam+8)%12];\nreturn 0;\n}\n```\nChương trình trên in ra kết quả là bao nhiêu?",
       "answers": [
         {
           "id": "f2928546-53e1-4c47-a512-fa7ef424ae00",
