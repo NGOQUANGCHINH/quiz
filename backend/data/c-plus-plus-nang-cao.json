@@ -216,7 +216,7 @@
         }
       ],
       "correctAnswerId": "c8d283c3-c4d0-4624-9503-91f6750ffec9",
-      "hint": "số nguyên?, a. signed"
+      "hint": "'signed songuyen;' hợp lệ (signed = signed int). Các lựa chọn khác sai: 'byte' không phải kiểu chuẩn C++; 'unsigned long;' và 'signed int;' thiếu tên biến."
     },
     {
       "id": "3a687d5f-7d4c-4720-b74b-d520071269f8",
@@ -240,7 +240,7 @@
         }
       ],
       "correctAnswerId": "1afdb279-5645-48ee-9809-148ce62d9e81",
-      "hint": "số nguyên có dấu?, b. short"
+      "hint": "'short number;' là số nguyên có dấu. 'unsigned short' là không dấu; 'unsigned long;' thiếu tên biến; 'signed byte' sai vì không có kiểu byte."
     },
     {
       "id": "7f5b1c6f-2dcf-414e-8e81-73fb2edd8703",
@@ -288,7 +288,7 @@
         }
       ],
       "correctAnswerId": "ffcf07cb-64e6-4053-bc2a-44f37e28c304",
-      "hint": "SAI?, char, = “A”;"
+      "hint": "Phần gây sai: char kytu = “A”; – “A” là chuỗi (2 byte, có '\\0'), không gán được cho char. Phải viết 'A' (nháy đơn). Các dòng còn lại hợp lệ."
     },
     {
       "id": "5c5f342f-ae98-4a70-898a-017f642b38ff",
@@ -312,7 +312,7 @@
         }
       ],
       "correctAnswerId": "513bba9b-7f4f-473d-8a27-1bfa6c2f020e",
-      "hint": "báo lỗi khi biên dịch, c. signed char, -1782;"
+      "hint": "Phần gây lỗi: signed char = -1782; – thiếu tên biến. Các dòng khác biên dịch được: signed int i = 2.9; (cắt thành 2, chỉ cảnh báo); float y = y * 2; (dùng y chưa khởi tạo, không lỗi biên dịch)."
     },
     {
       "id": "deed7f15-0724-4ceb-b9af-90d4a6012a31",
@@ -360,7 +360,7 @@
         }
       ],
       "correctAnswerId": "d1ac0294-eb09-4183-8cc2-2d7e1fc66887",
-      "hint": "ên, KHÔNG hợp lệ, object.oriented;"
+      "hint": "Phần gây sai: int object.oriented; – tên biến không được chứa dấu chấm. _static, average_weight_of_large_size, variable đều hợp lệ."
     },
     {
       "id": "9dfd259c-4f6e-4643-936c-3b19cd63e21c",
@@ -384,7 +384,7 @@
         }
       ],
       "correctAnswerId": "ff37aab0-4888-4666-a8e4-c89023d6b61a",
-      "hint": "là hợp lệ?, gross$income;"
+      "hint": "int gross$income; được trình biên dịch phổ biến (GCC, MSVC) chấp nhận. Sai: 'default' là từ khóa; '2by2' bắt đầu bằng số; 'object.oriented' có dấu chấm."
     },
     {
       "id": "6706afab-3ea5-4c45-8eff-43a29b6d83e6",
@@ -552,7 +552,7 @@
         }
       ],
       "correctAnswerId": "87f52e39-4811-43de-b7be-f70f8356c11b",
-      "hint": "biểu diễn địa chỉ của biến p, b. &p"
+      "hint": "&p là địa chỉ của biến p. *p là giá trị mà p trỏ tới; 'p = new int;' cấp phát; 'delete p;' giải phóng."
     },
     {
       "id": "e466ff73-c747-4058-8ff5-9969ea047a8a",
@@ -792,7 +792,7 @@
         }
       ],
       "correctAnswerId": "cd8d0258-0cc3-468b-a42d-b310cd1c4b95",
-      "hint": "#include, Sử dụng thư viện iostream.h."
+      "hint": "#include chèn nội dung file thư viện iostream.h (khai báo cout/cin) vào chương trình trước khi biên dịch. Chạy: in ra Dai hoc Kinh doanh va Cong nghe Ha Noi rồi return 0."
     },
     {
       "id": "cecfbd8d-95fd-43f7-9a73-1d5020a1a997",
@@ -816,7 +816,7 @@
         }
       ],
       "correctAnswerId": "54d9814f-c8ea-413b-b02b-79aff24faa70",
-      "hint": "hàm main?, a. 1"
+      "hint": "Chương trình chỉ có đúng 1 hàm main (điểm bắt đầu chạy). Chạy: in chuỗi 'Dai hoc Kinh doanh va Cong nghe Ha Noi'."
     },
     {
       "id": "5f962125-e02e-4807-985a-31d67d716e97",
@@ -864,7 +864,7 @@
         }
       ],
       "correctAnswerId": "a4a4d37b-dc33-4e5b-a8db-a914a966952c",
-      "hint": "int i = 1; i <= 5; i++), cout << i < “, “ ;"
+      "hint": "Phần gây lỗi: (1) cout << i < “, “ – dùng '<' thay vì '<<'; (2) “LAUNCH! << endl; thiếu dấu \" đóng chuỗi. Nếu sửa: i chạy 1..5, in '1, 2, 3, 4, 5, LAUNCH!'."
     },
     {
       "id": "e62e63a6-ab04-42cd-9c68-b27a6842e329",
@@ -888,7 +888,7 @@
         }
       ],
       "correctAnswerId": "1f86ec3e-1a63-4923-9ce7-2fd546880669",
-      "hint": "Không có gợi ý"
+      "hint": "Phần gây sai: for (int i = 5; i >= 1; i++) – i++ làm i tăng nên điều kiện i >= 1 luôn đúng → vòng lặp vô hạn. Ngoài ra còn lỗi 'i < “, “' và thiếu dấu \" đóng chuỗi. Đáp án '5, 4, 3, 2, 1, LAUNCH!' chỉ đúng nếu sửa thành i--. (Chú ý: Đáp án trong file chỉ đúng khi sửa i++ thành i--.)"
     },
     {
       "id": "ee651166-1c47-4242-9688-03dc5c1f3ff4",
@@ -912,7 +912,7 @@
         }
       ],
       "correctAnswerId": "c027c6fe-e0d6-4f80-84b7-f7d6502bc248",
-      "hint": "Không có gợi ý"
+      "hint": "i chạy 1→4 (i<5). Khi i==3 thì continue, bỏ qua lệnh in. In: '1, 2, 4, END' (không có 5 vì i<5)."
     },
     {
       "id": "60f28d7d-446a-4ccf-8057-118ddb7da9a4",
@@ -936,7 +936,7 @@
         }
       ],
       "correctAnswerId": "eb193846-31d3-424c-ae90-ae2a5f221cb5",
-      "hint": "a"
+      "hint": "Phần gây lỗi: int main() thiếu dấu { mở thân hàm. Nếu sửa: a=5, ++a → a=6, in 6."
     },
     {
       "id": "4b5bca17-ee27-49b2-ae9a-f8de02ffaa4f",
@@ -960,7 +960,7 @@
         }
       ],
       "correctAnswerId": "09cc9786-40d2-4e3f-b1a8-f29ed88e8eaf",
-      "hint": "Không có gợi ý"
+      "hint": "Phần gây lỗi: int main() thiếu dấu {. Nếu sửa: a=5, a++ → a=6; câu lệnh a++; đứng riêng nên a=6, in 6."
     },
     {
       "id": "8a248561-4c71-45ca-8262-ae5d29c3c8de",
@@ -984,7 +984,7 @@
         }
       ],
       "correctAnswerId": "581ca45b-38ed-4acd-8ea8-315e97763810",
-      "hint": "Không có gợi ý"
+      "hint": "cout << a++ : hậu tố – in giá trị cũ (5) rồi mới tăng a lên 6. Kết quả in: 5."
     },
     {
       "id": "d0408562-071f-4ddf-bf9a-ce81112794b4",
@@ -1008,7 +1008,7 @@
         }
       ],
       "correctAnswerId": "e96d8d4e-add0-4945-854a-35b301782496",
-      "hint": "Không có gợi ý"
+      "hint": "cout << ++a : tiền tố – tăng a lên 6 trước rồi mới in. Kết quả in: 6."
     },
     {
       "id": "fb5dc446-9158-46c7-9164-508aeec3c6ff",
@@ -1032,7 +1032,7 @@
         }
       ],
       "correctAnswerId": "9e0727c3-398e-4298-b96f-57f375fdf166",
-      "hint": "Dai hoc Kinh doanh va Cong nghe Ha noi”;"
+      "hint": "Chuỗi 'Dai hoc Kinh doanh va Cong nghe Ha noi' có 38 ký tự nên strlen = 38; sau ++l (tăng trước) l = 39, in 39. Phần ' = 38 CHAR' ở cuối dòng khai báo là chú thích bị dính vào code, gây lỗi cú pháp nếu giữ nguyên. (Chú ý: Tôi tính ra kết quả là 39, không phải 38 như đáp án trong file.)"
     },
     {
       "id": "db2cae2f-9c7a-430d-b782-d71d9a9d587b",
@@ -1056,7 +1056,7 @@
         }
       ],
       "correctAnswerId": "5dac88e6-918c-4c74-8f57-0488ae462720",
-      "hint": "getLuong() * 0.5"
+      "hint": "Phần gây lỗi: (1) thiếu ; sau dấu } đóng class nhanvien; (2) thiếu ; sau 'phucap = getLuong() * 0.5'. Nếu sửa: quanly q gọi constructor quanly → setLuong(100) → phucap = 100*0.5 = 50, in 50. nhanvien không cần constructor vì trình biên dịch tự sinh constructor mặc định."
     },
     {
       "id": "0b9f7410-eda0-4198-bbf0-23b40c1631c8",
@@ -1080,7 +1080,7 @@
         }
       ],
       "correctAnswerId": "25209c1b-14eb-4aa6-b380-5a16ad3e7200",
-      "hint": "A.setLuong(700);, A.tangLuong(10);"
+      "hint": "Đề thiếu các lệnh sau 'nhanvien A;' (theo gợi ý: A.setLuong(700); A.tangLuong(10);). Chạy: luong = 700 rồi cộng 10 → 710. Class thiếu ; sau dấu } đóng."
     },
     {
       "id": "981d4891-4e98-453a-8dc7-bd71c0ec3d94",
@@ -1104,7 +1104,7 @@
         }
       ],
       "correctAnswerId": "e6dcd855-1ba1-4180-8047-bce42fcd796b",
-      "hint": "luong, luong với quyền truy xuất là public thì đáp án là 100)"
+      "hint": "Phần gây lỗi: cout << p->luong; – luong mặc định là private (khai báo trước 'public:') nên không truy cập được từ main. Ngoài ra class thiếu ; sau }. Nếu luong là public thì in 100."
     },
     {
       "id": "2ad1ff6b-a68c-4458-a12f-f22fa1ab1104",
@@ -1128,7 +1128,7 @@
         }
       ],
       "correctAnswerId": "ce62e2a0-5eda-4354-9eb8-07ee5620204e",
-      "hint": "gay nghi"
+      "hint": "thu = 1 không khớp case 2 và 3 → chạy nhánh default, in 'Ngay nghi'."
     },
     {
       "id": "138fdf09-5546-4ce5-8611-554906716dc4",
@@ -1152,7 +1152,7 @@
         }
       ],
       "correctAnswerId": "95af66cb-4ca8-4c7d-bb6e-c4ef050a7c51",
-      "hint": "Không có gợi ý"
+      "hint": "thu = 2 → case 2: in 'Van, Toan' rồi break."
     },
     {
       "id": "1a23dea1-4d8b-40b1-91da-c2816f1b0318",
@@ -1176,7 +1176,7 @@
         }
       ],
       "correctAnswerId": "24005481-1363-4ac7-80b5-b3866f3d543e",
-      "hint": "Không có gợi ý"
+      "hint": "thu = 3 → case 3: in 'Hoa, Ly' rồi break."
     },
     {
       "id": "6f469ae0-cbf5-4546-8df4-c01f30f992fe",
@@ -1200,7 +1200,7 @@
         }
       ],
       "correctAnswerId": "2a39455c-1101-4fd5-b830-c055df2f7cde",
-      "hint": "DEN, t = “Mau trang”;, DEN"
+      "hint": "enum đánh số từ 0: DEN=0, LAM=1, LUC=2, TRANG=3. color=DEN (0) khớp case 0 → t = 'Mau trang'. In: Mau trang."
     },
     {
       "id": "fd0ffb74-79ca-4b12-9478-725e44c02ccd",
@@ -1224,7 +1224,7 @@
         }
       ],
       "correctAnswerId": "646a2955-2a5b-4881-ba12-23f2aab40d03",
-      "hint": "DEN = 3,, t = “Mau luc”;"
+      "hint": "enum { DEN = 3, LAM, LUC, TRANG } → DEN=3, LAM=4, LUC=5, TRANG=6. color=DEN (3) khớp case 3 → 'Mau luc'."
     },
     {
       "id": "752462ec-5e39-4016-97d1-0a2e59b536ba",
@@ -1248,7 +1248,7 @@
         }
       ],
       "correctAnswerId": "54dd5841-1fb8-4b98-85cd-37b6ae6ff19b",
-      "hint": "i < 10"
+      "hint": "i chạy 0..9 (i<10): s = 0+1+...+9 = 45."
     },
     {
       "id": "d43b53ed-9ebb-4089-9499-cfb2e2ed37eb",
@@ -1272,7 +1272,7 @@
         }
       ],
       "correctAnswerId": "96b7944c-667b-4afc-9363-154d519d3777",
-      "hint": "<= 10"
+      "hint": "i chạy 0..10 (i<=10): s = 0+1+...+10 = 55."
     },
     {
       "id": "f65a5c7f-d6f0-4e20-bba9-5f0fafc5f0fd",
@@ -1296,7 +1296,7 @@
         }
       ],
       "correctAnswerId": "20226d20-8474-4ab3-acdb-bbdf8d3c44fe",
-      "hint": "Không có gợi ý"
+      "hint": "Phần gây lỗi: cout << i << end; – (1) i khai báo trong for nên ngoài vòng lặp không còn tồn tại; (2) 'end' không phải endl, chưa khai báo."
     },
     {
       "id": "756f0633-9c9f-459e-90f7-861e9ff71765",
@@ -1320,7 +1320,7 @@
         }
       ],
       "correctAnswerId": "a833cc3c-714e-4fd9-9f41-661bba232984",
-      "hint": "int i = 0;, int s = 0;, end;"
+      "hint": "Phần gây lỗi: 'end' chưa khai báo (phải là endl). Nếu sửa thành endl thì in i = 0 (i ngoài vòng for, vòng for dùng i riêng bên trong)."
     },
     {
       "id": "c8d1d5ef-7f20-4e01-a0ab-271f90a47797",
@@ -1344,7 +1344,7 @@
         }
       ],
       "correctAnswerId": "6eaf37d3-055b-413c-83a2-d2c849f747c4",
-      "hint": "Không có gợi ý"
+      "hint": "do-while chạy thân ít nhất 1 lần: i = 0 → 1. Kiểm tra (i == 0) sai → thoát. In 1."
     },
     {
       "id": "51db03d8-100d-4e15-aeaf-ede9a54529a3",
@@ -1368,7 +1368,7 @@
         }
       ],
       "correctAnswerId": "cc592900-8f88-482f-87bf-842f1c3a7cb9",
-      "hint": "Không có gợi ý"
+      "hint": "Không có dòng nào sai. do { i += 1; } while (i == 0); i=0→1, điều kiện sai nên thoát. In 1."
     },
     {
       "id": "1ff7d496-3f25-4a5e-9012-19d545e20a69",
@@ -1392,7 +1392,7 @@
         }
       ],
       "correctAnswerId": "9baad0fd-11d8-4056-9e85-dd19dbf04969",
-      "hint": "b. 3, . Chương trình báo lỗi, (thiếu câu lệnh cout<<s;"
+      "hint": "for(;;) lặp vô hạn đến khi i == 3 thì break. Lần lượt s += 0, 1, 2 → s = 3. Đoạn code không có cout nên không in gì (gợi ý trong đề: thiếu cout << s;)."
     },
     {
       "id": "e54c54ad-dabd-4820-b6fa-142b1bf081ca",
@@ -1416,7 +1416,7 @@
         }
       ],
       "correctAnswerId": "2c6e4f10-7b3f-4032-9dd5-f4f81424d0fa",
-      "hint": "4.     if  i == 3 break;"
+      "hint": "Phần gây lỗi: dòng 4 'if i == 3 break;' – điều kiện của if phải nằm trong ngoặc đơn: if (i == 3) break;"
     },
     {
       "id": "0e642eeb-ba7c-479d-ae84-7a67d759efa0",
@@ -1440,7 +1440,7 @@
         }
       ],
       "correctAnswerId": "4916b330-04e6-4a94-a6e7-22e766b83aae",
-      "hint": "double s, c. Chương trình lỗi, ouble s ở ngoài vòng lặp while thì đáp án là 55"
+      "hint": "Phần gây lỗi: cout << s; nằm ngoài vòng while, mà s chỉ khai báo bên trong while (double s = s + n;) nên ngoài vòng không tồn tại. Ngoài ra 'double s = s + n' dùng s chính nó khi chưa khởi tạo."
     },
     {
       "id": "407c4052-c635-4c48-879b-29b457fcd893",
@@ -1464,7 +1464,7 @@
         }
       ],
       "correctAnswerId": "8ed5b996-5017-425d-b45a-6cdf45318a0a",
-      "hint": "s = 0;, ouble s"
+      "hint": "s=0 khai báo ngoài. Trong while, 'double s = s + n;' tạo biến s mới (che s ngoài, giá trị chưa xác định) nên s ngoài không đổi. Vòng while chạy 10 lần nhưng không ảnh hưởng s ngoài → in 0."
     },
     {
       "id": "b141d8aa-607f-4f03-9f41-eb95b57e2637",
@@ -1488,7 +1488,7 @@
         }
       ],
       "correctAnswerId": "1cb6e1e5-499f-4a54-b764-02187de1bc2b",
-      "hint": "Found, Tìm 1"
+      "hint": "length(mang) = 24 byte / 4 byte = 6 phần tử. Duyệt tuyến tính tìm tk = 51: gặp ở i = 3 → check = true, break. In 'Found 51 at index 3'. Chương trình tìm một phần tử trong mảng."
     },
     {
       "id": "64510d48-a656-4417-9702-fa3b3bf49b30",
@@ -1512,7 +1512,7 @@
         }
       ],
       "correctAnswerId": "5dfe1d39-7e75-4830-b8eb-999f983d4c08",
-      "hint": "trình sai ở, .define, = t"
+      "hint": "Phần gây lỗi: dòng 1 '1.define length(a)...' thiếu dấu # (#define); dòng 7 'if (mang[i] = tk)' dùng phép gán '=' thay vì so sánh '=='."
     },
     {
       "id": "cafd4d99-c225-4d24-8527-a8dbedd73426",
@@ -1536,7 +1536,7 @@
         }
       ],
       "correctAnswerId": "04676297-3434-4e40-856b-3aa859fb28b6",
-      "hint": "p, p, p, p, pp, p, 'p')"
+      "hint": "Đếm ký tự 'p' trong 'peter pan put a pepper into pen': peter(1) pan(1) put(1) pepper(3) pen(1) = 7. 'continue' bỏ qua ký tự khác 'p'. In 7."
     },
     {
       "id": "9f0e4f63-db37-4d8d-bd05-aa674dfa6ff6",
@@ -1560,7 +1560,7 @@
         }
       ],
       "correctAnswerId": "dfc18a51-96d5-4f9e-bfd9-a84d2e21ec3c",
-      "hint": "d, d, di, d, d, d, 'd')"
+      "hint": "Đếm ký tự 'd' trong 'hoi dong dang di den huyen dinh dong': dong(1) dang(1) di(1) den(1) dinh(1) dong(1) = 6."
     },
     {
       "id": "a2ee2151-f982-4d9e-8475-03a41fbaf4cc",
@@ -1584,7 +1584,7 @@
         }
       ],
       "correctAnswerId": "513f4ecb-059f-43c1-9aaf-8f3eb0306086",
-      "hint": "<< *a;"
+      "hint": "indl(&a) truyền địa chỉ a; trong hàm *a là giá trị 10. In 10."
     },
     {
       "id": "34c4fd46-fc10-4e19-8bf3-8583723fc4f4",
@@ -1608,7 +1608,7 @@
         }
       ],
       "correctAnswerId": "afe2fb42-6a66-4075-8a5d-449cc319c37c",
-      "hint": "++*a;"
+      "hint": "++*a tăng giá trị mà a trỏ tới (biến a trong main) lên 11 rồi in. In 11."
     },
     {
       "id": "ca563a49-a18c-42d4-aaba-6e912f25d39c",
@@ -1632,7 +1632,7 @@
         }
       ],
       "correctAnswerId": "d692db44-0ce1-401e-8968-8ef04b3f3f8f",
-      "hint": "<< *(p++);, (&a"
+      "hint": "Phần gây lỗi: indl(&a) – a là mảng int[4], &a có kiểu con trỏ-tới-mảng, không chuyển được sang int* (tham số int a[4]) → lỗi biên dịch. Nếu gọi indl(a): p = &a[1]; *(p++) in giá trị cũ a[1] = 2 rồi p mới tăng. (Chú ý: Đáp án 2 chỉ đúng khi gọi indl(a) thay cho indl(&a).)"
     },
     {
       "id": "9e2468e3-5c6d-4484-9cd7-271978e8a4be",
@@ -1656,7 +1656,7 @@
         }
       ],
       "correctAnswerId": "33d94e64-7d4b-4c1b-9255-fd68722ff72e",
-      "hint": "<< ++*p;, (&a);"
+      "hint": "Phần gây lỗi: indl(&a) (như câu trên) không biên dịch được. Nếu gọi indl(a): p = &a[1] (giá trị 4); ++*p tăng giá trị đó lên 5 rồi in 5. (Chú ý: Đáp án 5 chỉ đúng khi gọi indl(a).)"
     },
     {
       "id": "9dbf9d1e-4863-4693-a579-b539b60a9450",
@@ -1680,7 +1680,7 @@
         }
       ],
       "correctAnswerId": "718172a1-376f-42b5-93a5-830f56f70a08",
-      "hint": "*++p;, (&a);"
+      "hint": "Phần gây lỗi: indl(&a) không biên dịch được. Nếu gọi indl(a): p = &a[1]; *++p tăng p lên &a[2] rồi lấy giá trị = 6. (Chú ý: Đáp án 6 chỉ đúng khi gọi indl(a).)"
     },
     {
       "id": "d4722991-1892-4720-9d9b-3e2e3d5b5eff",
@@ -1704,7 +1704,7 @@
         }
       ],
       "correctAnswerId": "dd5564e4-1efb-4ddb-b06c-51888526236b",
-      "hint": "int x = 5"
+      "hint": "Phần gây lỗi: 'int x = 5' thiếu dấu ;. Nếu sửa: indl(int &a) nhận tham chiếu nên a-- làm x = 4, in 4."
     },
     {
       "id": "e7501997-6728-4764-a026-4cf1b1ab9c03",
@@ -1728,7 +1728,7 @@
         }
       ],
       "correctAnswerId": "7725c0a4-23f0-4ec1-a484-60281b5dea91",
-      "hint": "int *a, indl (x);, d. Chương trình báo lỗi"
+      "hint": "Phần gây lỗi: indl(x) truyền int vào tham số int* (phải indl(&x)) và 'int x = 5' thiếu dấu ;."
     },
     {
       "id": "d540d142-5df1-4148-910e-11df48b30105",
@@ -1752,7 +1752,7 @@
         }
       ],
       "correctAnswerId": "59f3cb9a-e0ae-4b2f-b6de-6ca9831d1d22",
-      "hint": "Juliet, Juliet"
+      "hint": "Nhập 'Juliet': strcmp(str, \"Juliet\") == 0 (hai chuỗi bằng nhau) → in 'Same here'."
     },
     {
       "id": "60160633-17a5-45cf-a7ae-a1916aabfc23",
@@ -1776,7 +1776,7 @@
         }
       ],
       "correctAnswerId": "c2cd633f-2010-4fe0-ae21-1d521962cb48",
-      "hint": "Rome, b. Rome"
+      "hint": "Nhập 'Rome': khác 'Juliet' → strcmp != 0 → chạy else, in str = 'Rome'."
     },
     {
       "id": "6d4bf1cc-ebb7-4be9-917c-d4969a785180",
@@ -1800,7 +1800,7 @@
         }
       ],
       "correctAnswerId": "ba90f93a-af86-47c1-955b-acfd83a45199",
-      "hint": "=, Alvata"
+      "hint": "Phần gây lỗi: if ( strcmp(str,”Juliet”) = 0 ) – dùng '=' (gán) thay vì '=='; không thể gán cho kết quả hàm."
     },
     {
       "id": "ac6bddc2-5fe2-4900-8626-f6d7e70bd3e1",
@@ -1824,7 +1824,7 @@
         }
       ],
       "correctAnswerId": "924ef2fc-cad3-40db-8baa-192f84d7698e",
-      "hint": "Rome"
+      "hint": "Nhập 'Rome': strcmp(str, \"Rome\") == 0 → in 'Same here'."
     },
     {
       "id": "90758e8c-e87f-4164-8831-0c9333752ef7",
@@ -1848,7 +1848,7 @@
         }
       ],
       "correctAnswerId": "aff676f2-93dc-494b-bce6-2d580cf08823",
-      "hint": "5, d. i = 11, n = 1"
+      "hint": "++i tăng trước: i = 11; n = 11 % 5 = 1. Kết quả i = 11, n = 1. (Dòng 'int n = ++i%5' trong đề thiếu dấu ;.)"
     },
     {
       "id": "4c63c76c-1ee7-43c8-b3fe-696ce7c6294d",
@@ -1872,7 +1872,7 @@
         }
       ],
       "correctAnswerId": "6c90238e-faf5-4d61-b6b6-1960ddc83002",
-      "hint": "int k, k, c. Chương trình lỗi"
+      "hint": "Phần gây lỗi: 'str = ((k % 2 == 0) ? “true” : “false”;' – (1) k khai báo trong for nên ngoài vòng lặp không tồn tại; (2) thiếu dấu ngoặc đóng."
     },
     {
       "id": "c12c85a3-5cb3-406b-9d6b-2a7708165f84",
@@ -1896,7 +1896,7 @@
         }
       ],
       "correctAnswerId": "cc6e758e-3f75-4b19-9b90-bc861ab953be",
-      "hint": "Không có gợi ý"
+      "hint": "Mỗi vòng k được gán lại = 0 rồi k += i nên k = i; s = k. Cuối cùng s = 4. (s % 2) == 0 đúng → str = 'true'."
     },
     {
       "id": "ff3dd93f-e5cb-4239-bcd8-076ba505d4ea",
@@ -1920,7 +1920,7 @@
         }
       ],
       "correctAnswerId": "1ab78fcc-2c69-4202-812b-f58cb2b61207",
-      "hint": "if (temp[i][j] > m) m = temp[i][j];, a. 38"
+      "hint": "Phần gây lỗi: int functionM (temp[row][col]) – tham số thiếu kiểu (phải int temp[row][col]). Nếu sửa: hàm tìm số lớn nhất của mảng → 38."
     },
     {
       "id": "c91dc4a4-ccd9-4b1a-8ced-5ba04c3e2190",
@@ -1944,7 +1944,7 @@
         }
       ],
       "correctAnswerId": "f5e587f1-99b9-4cd3-b07e-e0084d650d75",
-      "hint": "int m = 0;, if (temp[i][j] < m) m = temp[i][j];, c. 0"
+      "hint": "Lỗi tham số thiếu kiểu như câu trên. Nếu sửa: m = 0 và chỉ cập nhật khi phần tử < m; mọi phần tử đều dương nên m giữ 0 → in 0."
     },
     {
       "id": "f6232d55-cba8-4c84-a176-ceb79666fcde",
@@ -1968,7 +1968,7 @@
         }
       ],
       "correctAnswerId": "4a47406d-dbb2-4228-8365-b21ec5d68ea6",
-      "hint": "26, 34, int m = 0;, if (temp[i][j] > m) m += temp[i][j];, 60"
+      "hint": "Phần gây lỗi: hàm khai báo tên 'function' nhưng main gọi functionM (chưa định nghĩa); tham số thiếu kiểu. Nếu sửa tên: m += phần tử khi phần tử > m → 26, 60, rồi không phần tử nào > 60 → m = 60."
     },
     {
       "id": "692bae1f-ce70-4a00-a9f5-3df47b5612e7",
@@ -1992,7 +1992,7 @@
         }
       ],
       "correctAnswerId": "9b26b992-dfd1-4511-a525-5fece0d0486e",
-      "hint": "int m = temp[0][0];, if (temp[i][j] < m) m += temp[i][j];, a. 264"
+      "hint": "Phần gây lỗi: tên hàm 'function' ≠ functionM gọi trong main; tham số thiếu kiểu. Nếu sửa: m khởi tạo 26 rồi m += phần tử khi phần tử < m, cộng dồn lần lượt → 264."
     },
     {
       "id": "3294f62a-d7f2-471d-9993-cbc563fd5bdc",
@@ -2016,7 +2016,7 @@
         }
       ],
       "correctAnswerId": "26646425-4867-4a40-a23f-c35c4d25ca94",
-      "hint": "int m = 38;, if (temp[i][j] < m) m = temp[i][j];"
+      "hint": "Phần gây lỗi: tên hàm 'function' ≠ functionM; tham số thiếu kiểu. Nếu sửa: m khởi tạo 38, tìm số nhỏ nhất → 13."
     },
     {
       "id": "848f5ca2-3849-409b-b155-29a50b175f2a",
@@ -2040,7 +2040,7 @@
         }
       ],
       "correctAnswerId": "49e0aa8e-7f4f-4fad-8166-4cbe4ca00c59",
-      "hint": "Không có gợi ý"
+      "hint": "Toán tử + nối hai string: 'Expletive ' (có khoảng trắng cuối) + 'deleted' = 'Expletive deleted'."
     },
     {
       "id": "751f2856-eeae-4a1e-8629-a8e54c887c45",
@@ -2064,7 +2064,7 @@
         }
       ],
       "correctAnswerId": "9cc9f99c-cb99-4799-a2e3-18a74b38d630",
-      "hint": "strcmp"
+      "hint": "Tìm kiếm nhị phân: bot=0, top=3 → mid=1 ('London' < 'Sydney') → bot=2; mid=2 'Sydney' khớp → trả về 2. In 2. (Lưu ý điều kiện while (bot < top) bỏ sót trường hợp bot == top.)"
     },
     {
       "id": "91883f8a-74b0-425e-9a4c-786005af70b0",
@@ -2088,7 +2088,7 @@
         }
       ],
       "correctAnswerId": "8ed71b7c-3446-4212-a536-7d756393bd4a",
-      "hint": "BinSearch, một chuỗi trong mảng chuỗi ký tự"
+      "hint": "BinSearch là tìm kiếm nhị phân một chuỗi trong mảng chuỗi đã sắp xếp; hàm so sánh strcmp được truyền qua con trỏ hàm."
     },
     {
       "id": "dd1de442-2b20-4465-b5ec-da7557e44746",
@@ -2112,7 +2112,7 @@
         }
       ],
       "correctAnswerId": "7c62aaa1-1b63-42f7-a512-f898305c1588",
-      "hint": "int &x, int &y), int tmp = x;, x = y;, y = tmp;, functionSw (i,j);, b. 20, 10"
+      "hint": "functionSw nhận tham chiếu (int &x, int &y) nên hoán đổi thật sự i và j. In '20, 10'."
     },
     {
       "id": "e163b436-8e75-41c8-b749-6eff54a0f9c6",
@@ -2136,7 +2136,7 @@
         }
       ],
       "correctAnswerId": "7c6cbf62-6c7e-4d24-bf6a-f0430af1cb8f",
-      "hint": "int x, int y)"
+      "hint": "Truyền theo giá trị (int x, int y): hoán đổi trên bản sao, i và j không đổi. In '10, 20'."
     },
     {
       "id": "c6399779-f635-4b5e-81cb-964812839523",
@@ -2160,7 +2160,7 @@
         }
       ],
       "correctAnswerId": "9e623e3c-0108-4cd5-893c-78b20d917e08",
-      "hint": "int *x, int *y"
+      "hint": "Phần gây lỗi: (1) tên hàm 'functionS w' có khoảng trắng; (2) gọi functionSw(i,j) truyền int vào tham số int* (phải functionSw(&i,&j))."
     },
     {
       "id": "fd300f10-5f0f-4525-873b-b584e146c4b7",
@@ -2184,7 +2184,7 @@
         }
       ],
       "correctAnswerId": "531a2455-8ffb-4e67-b4ad-a0ad7b656ca3",
-      "hint": "ketqua[i] = str[len-i-1];, 178892”"
+      "hint": "ReChar cấp phát mảng mới và chép ngược chuỗi: đảo ngược chuỗi ký tự. Lỗi nhỏ trong đề: char *p = 178892”; thiếu dấu \" mở (phải \"178892\")."
     },
     {
       "id": "c90c2686-9910-4b4f-96a4-6df69954aef7",
@@ -2208,7 +2208,7 @@
         }
       ],
       "correctAnswerId": "119fc0ba-99a3-4635-bc87-a71a1dacae1a",
-      "hint": "b. 298871"
+      "hint": "Đảo ngược '178892' → '298871'. Lỗi nhỏ trong đề: thiếu dấu \" mở ở char *p = 178892”;."
     },
     {
       "id": "b160c995-0a55-4dd2-bdc4-eeb81f2d2e23",
@@ -2232,7 +2232,7 @@
         }
       ],
       "correctAnswerId": "4e301935-9d36-445b-b217-728d41431455",
-      "hint": "sai ở, char ReChar (char str), char k"
+      "hint": "Phần gây sai: dòng 1 'char ReChar (char str)' phải là char* ReChar (char* str); dòng 3 'char ketqua = new char[len+1]' phải là char* ketqua. Dòng 9 cũng thiếu dấu \" mở trong char p[] = 178892”."
     },
     {
       "id": "09373bc3-8581-4939-8438-4ff201fcd49f",
@@ -2256,7 +2256,7 @@
         }
       ],
       "correctAnswerId": "eb71b04b-a67b-451a-a15d-6762384dc729",
-      "hint": "pointer = 10, pointer = 20;, val1 * val"
+      "hint": "pointer trỏ val1 rồi gán 10; trỏ val2 rồi gán 20. val1 * val2 = 200."
     },
     {
       "id": "7b4a2eb2-bf09-4f3d-8ec5-8f87a8ce6e58",
@@ -2280,7 +2280,7 @@
         }
       ],
       "correctAnswerId": "5e551644-dd6e-4f67-9fac-eb95d56b8fe6",
-      "hint": "pointer = val1;, pointer = val2;, Chương trình báo lỗi"
+      "hint": "Phần gây lỗi: pointer = val1; và pointer = val2; – gán int cho con trỏ; phải là pointer = &val1;"
     },
     {
       "id": "41d14407-9af6-4d12-b150-0706f71521eb",
@@ -2304,7 +2304,7 @@
         }
       ],
       "correctAnswerId": "e9728168-7ee2-4e62-80a2-78d43f01ae5d",
-      "hint": "6, val2"
+      "hint": "Dòng 5: *p1 = 10 → val1 = 10. Dòng 6: *p2 = *p1 → val2 = 10. Sau dòng 6, val2 = 10."
     },
     {
       "id": "6c22db70-d6c3-46c2-b9c7-620333d2778b",
@@ -2328,7 +2328,7 @@
         }
       ],
       "correctAnswerId": "6816fe90-6b36-49d0-b6d5-fbae04bef1de",
-      "hint": "<< *p1, in ra kết quả bao"
+      "hint": "Dòng 7: p1 = p2 (cùng trỏ val2). Dòng 8: *p2 = 20 → val2 = 20. *p1 chính là val2 → in 20."
     },
     {
       "id": "6b4bb014-6e85-4ad1-8ea8-56a5e28af07b",
@@ -2352,7 +2352,7 @@
         }
       ],
       "correctAnswerId": "c9564900-a4db-4a4c-bac2-9b4c208fa2f8",
-      "hint": "*p1 * val2"
+      "hint": "p1 trỏ val2 (=20): *p1 * val2 = 20 * 20 = 400."
     },
     {
       "id": "9499f7ef-176b-4c91-bdc6-a31062e94bdd",
@@ -2376,7 +2376,7 @@
         }
       ],
       "correctAnswerId": "b43bf38d-7408-408e-9a82-50b5aa67b466",
-      "hint": "*p += 60;, number[1] <<"
+      "hint": "p = number; p++ → p trỏ number[1] (=20); *p += 60 → 80. In number[1] = 80."
     },
     {
       "id": "a3a40300-595b-40ba-abfe-05fc72fc1e0a",
@@ -2400,7 +2400,7 @@
         }
       ],
       "correctAnswerId": "108f2155-25d0-4c02-b55f-2a31e2952cb0",
-      "hint": "*p = number + 3;, number[3] / 2, d. Chương trình báo lỗi"
+      "hint": "Phần gây lỗi: *p = number + 3; – vế trái *p là int, vế phải number + 3 là con trỏ (int*) nên không gán được."
     },
     {
       "id": "866bf99b-a2af-4232-ad4e-568fe76a1566",
@@ -2424,7 +2424,7 @@
         }
       ],
       "correctAnswerId": "d4c97313-7ca4-4111-971e-b5dd6d301f9c",
-      "hint": "Không có gợi ý"
+      "hint": "yourSale (3000) >= target (2500) → bonus = 100 + 0.01*(3000-2500) = 105."
     },
     {
       "id": "5f7955a8-d10c-4269-9d17-bef727fa352a",
@@ -2444,7 +2444,7 @@
         }
       ],
       "correctAnswerId": "59cddee9-f2c4-4fc2-8454-14cf06f16fbb",
-      "hint": "0"
+      "hint": "Phần gây lỗi: 'bonus = 0' ở nhánh else thiếu dấu ; ở cuối lệnh."
     },
     {
       "id": "cf23d55c-9320-4042-802e-0c097a2f8df7",
@@ -2468,7 +2468,7 @@
         }
       ],
       "correctAnswerId": "9d2bc622-4d8f-47aa-9632-d8f3c6907431",
-      "hint": "Không có gợi ý"
+      "hint": "2400 < 2500 → điều kiện sai, chạy nhánh else: bonus = 0. (Lưu ý đề dùng dấu gạch dài ‘–’ trong yourSale – target, phải là dấu trừ '-' khi biên dịch.)"
     },
     {
       "id": "12b8078c-9e83-4ae6-bd27-82ea1b927e1c",
@@ -2492,7 +2492,7 @@
         }
       ],
       "correctAnswerId": "490feec5-d684-4d25-a295-7da67452b597",
-      "hint": "10, d. 20.035"
+      "hint": "Vòng 1: 10 + 5 = 15, lãi 0.015 → 15.015. Vòng 2: 15.015 + 5 = 20.015, lãi 0.020015 → 20.035015, thoát vì ≥ 20. balance ≈ 20.035."
     },
     {
       "id": "b71e31fa-758e-42f2-b135-00c4895dc60f",
@@ -2516,7 +2516,7 @@
         }
       ],
       "correctAnswerId": "5ceb66df-fa3e-487c-a4dd-833a9b95ad46",
-      "hint": "= 20,"
+      "hint": "balance = 20 thỏa balance <= goal nên vào vòng lặp: 20 + 5 = 25, lãi 0.025 → 25.025; vòng lặp dừng. Kết quả đúng là 25.025. (Chú ý: Đáp án trong file là 20.025; tôi tính ra 25.025 (không có trong các lựa chọn).)"
     },
     {
       "id": "1bba29d2-8393-460d-8082-c9a520e8880b",
@@ -2540,7 +2540,7 @@
         }
       ],
       "correctAnswerId": "ef97a491-9a9b-4ea3-aea0-844427836481",
-      "hint": "years ++"
+      "hint": "Phần gây lỗi: 'years ++' thiếu dấu ; ở cuối lệnh."
     },
     {
       "id": "09d40dd4-1cbe-459f-9a57-7f1eebebc7ae",
@@ -2564,7 +2564,7 @@
         }
       ],
       "correctAnswerId": "7bedbf10-1a09-4108-a0e3-c25f64520bfc",
-      "hint": "c. 25.025"
+      "hint": "do-while chạy thân 1 lần: 20 + 5 = 25, lãi 0.025 → 25.025, years = 1. Điều kiện (25.025 < 20) sai → thoát. balance = 25.025."
     },
     {
       "id": "84aad502-9018-4efd-bacc-e16f64b3b998",
@@ -2588,7 +2588,7 @@
         }
       ],
       "correctAnswerId": "89c2c3f9-e924-417d-b4e7-ec46951771b9",
-      "hint": "balance =, \", d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: '} while (balance < goal)\"' – có dấu \" thừa và thiếu dấu ; sau while."
     },
     {
       "id": "d43f7a75-83d6-47fc-ae81-e8b279ba1f53",
@@ -2612,7 +2612,7 @@
         }
       ],
       "correctAnswerId": "335ff143-6de4-4cf5-9875-d96abdb5c3ff",
-      "hint": "a. 1"
+      "hint": "do-while luôn chạy thân 1 lần rồi balance = 25.025 > 20 → thoát. years = 1."
     },
     {
       "id": "11271f9b-5c2e-4e4d-8ca5-30ab211e20a1",
@@ -2636,7 +2636,7 @@
         }
       ],
       "correctAnswerId": "cd919852-fcba-4261-8924-da79b5f37067",
-      "hint": "s -= 10;"
+      "hint": "Vòng for: s = 45. Sau đó s -= 10 → 35."
     },
     {
       "id": "a6af4f79-3fa4-4861-a521-2637f42e03ee",
@@ -2660,7 +2660,7 @@
         }
       ],
       "correctAnswerId": "362e89a3-0741-4e12-9dd1-961499b34380",
-      "hint": "s;"
+      "hint": "Phần gây lỗi: cout << s; – s khai báo trong thân for (int s = 0;) nên ngoài vòng lặp không tồn tại."
     },
     {
       "id": "551d740c-3704-4d3a-8bba-a7e35fcee101",
@@ -2684,7 +2684,7 @@
         }
       ],
       "correctAnswerId": "49f96734-f337-4f02-b29f-9578838683a7",
-      "hint": "b. 55"
+      "hint": "i chạy 0..10, s = 55."
     },
     {
       "id": "80fe0e8c-2da0-4a4c-9110-46b92a4d4d6d",
@@ -2708,7 +2708,7 @@
         }
       ],
       "correctAnswerId": "31d97337-71eb-45e4-a667-9a22269bb9a9",
-      "hint": "s = 0;, \""
+      "hint": "Phần gây lỗi: dòng '\"s += i;' có dấu \" thừa. Nếu bỏ: mỗi vòng s = 0 rồi s += i nên s = i; vòng cuối i = 9 → s = 9."
     },
     {
       "id": "bb957cf4-c56f-4c96-ac0f-9a27aba2886e",
@@ -2732,7 +2732,7 @@
         }
       ],
       "correctAnswerId": "cbf0f9db-8315-4c63-aa64-981833c1cda5",
-      "hint": "int* pint;, pint = (int*)data;, ++(*pint);, int s"
+      "hint": "sizeof(s) = 4 = sizeof(int) ≠ sizeof(char) → vào nhánh int: ++(*pint) → s = 1643."
     },
     {
       "id": "19da631f-eb77-454e-b9bd-48c196423836",
@@ -2756,7 +2756,7 @@
         }
       ],
       "correctAnswerId": "c75170cd-12bd-4e4b-9fdb-f9b2c099217f",
-      "hint": "char c = 'y';, cout << s << endl;, . Lỗi biên dịch"
+      "hint": "Phần gây lỗi: biến khai báo là c (char c = 'y') nhưng dòng sau dùng s (inc(&s, sizeof(s)); cout << s;) – s chưa khai báo. Nếu dùng đúng c: ++ cho 'z'."
     },
     {
       "id": "5eee4ec7-fb03-49f9-8171-8587254a0aeb",
@@ -2780,7 +2780,7 @@
         }
       ],
       "correctAnswerId": "072e2e98-8351-44d3-9f41-5084b9697896",
-      "hint": "(char*)data;, Lỗi biên dịch"
+      "hint": "Phần gây lỗi: inc (s) thiếu tham số; pint = (char*)data gán char* cho int*; 'void << s' sai (phải cout)."
     },
     {
       "id": "7de896bb-6f8f-4409-9949-69e47b841318",
@@ -2804,7 +2804,7 @@
         }
       ],
       "correctAnswerId": "dd62ad9f-c7bb-4640-b127-a71a0f55c3c0",
-      "hint": "+= atof(argv[i]);, test, 32.1 4 5.6"
+      "hint": "Chạy 'test 32.1 4 5.6': argc = 4, argv[1..3] là các số. s = 32.1 + 4 + 5.6 = 41.7."
     },
     {
       "id": "ade0a3f4-1081-4e6a-9ff8-984a9d2946e7",
@@ -2828,7 +2828,7 @@
         }
       ],
       "correctAnswerId": "8ff50f2f-3e0b-4f3d-ac24-961bf0e4c6bb",
-      "hint": "s -= atof(argv[i]);, test, 40 5 12 7, c. 16"
+      "hint": "s = 40, rồi trừ lần lượt 5, 12, 7 → 16."
     },
     {
       "id": "27475d93-5f5f-401a-be4c-5bdbef6103dc",
@@ -2852,7 +2852,7 @@
         }
       ],
       "correctAnswerId": "476f62e7-ca84-4d3f-8a89-b6c13fcc00d4",
-      "hint": "s *= atof(argv[1]);, test 3 3"
+      "hint": "test 3 3: lặp i < 3 (3 lần) nhân s với 3: 1·3·3·3 = 27."
     },
     {
       "id": "10312d73-05e3-4f7e-9514-2c21e034ce3a",
@@ -2876,7 +2876,7 @@
         }
       ],
       "correctAnswerId": "a4454c2a-e220-4203-8c7b-b84273908a6c",
-      "hint": "argv[2];, cou, d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: 'i < argv[2]' so sánh int với chuỗi (char*); và 'cou' viết sai (phải cout)."
     },
     {
       "id": "259eace4-987e-4d64-9e57-30e505e5c56e",
@@ -2900,7 +2900,7 @@
         }
       ],
       "correctAnswerId": "11547487-bce2-4995-bbbc-225c039897e0",
-      "hint": "int m,n;, (7,5,add, n = (20,m,minus, d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: m = (7,5,add); – dấu phẩy trả về giá trị cuối là hàm add (con trỏ hàm), gán cho int là sai; n = (20,m,minus) tương tự. Phải gọi operation(7,5,add)."
     },
     {
       "id": "397be73c-85a5-4190-bf8f-0af2d65da641",
@@ -2924,7 +2924,7 @@
         }
       ],
       "correctAnswerId": "9f379a29-3b47-4d47-8581-bc020385fa8a",
-      "hint": "int m,n;, = (7,5,add);, = (operation(20,3,minus"
+      "hint": "Phần gây lỗi: m = (7,5,add); gán con trỏ hàm cho int (phải m = operation(7,5,add)); n = (operation(20,3,minus),m,minus) cũng sai."
     },
     {
       "id": "4800e648-d882-476c-a793-5bdb0f5430c4",
@@ -2948,7 +2948,7 @@
         }
       ],
       "correctAnswerId": "8ea6e7d6-c2a0-4521-9eab-13c4b088b19d",
-      "hint": "int *p = new int[5];, for (int i = 0; i < 5; i++), a. 15"
+      "hint": "p[i] = 1..5; s = operation(s,p[i],add) cộng dồn: 1+2+3+4+5 = 15."
     },
     {
       "id": "d7d4974f-2ce2-409f-9cd9-6ba52966381a",
@@ -2972,7 +2972,7 @@
         }
       ],
       "correctAnswerId": "25218fc5-84c8-49cb-9ed3-496e7b1037e3",
-      "hint": "int s = 0, n = 10;, int *p = new int[5];, for (int i = 0; i < 5; i++) {, a. 40"
+      "hint": "p[i] = n-- = 10, 9, 8, 7, 6; cộng dồn s = 40."
     },
     {
       "id": "71beb971-6e0d-48bc-94dd-800efd19b16d",
@@ -2996,7 +2996,7 @@
         }
       ],
       "correctAnswerId": "a1960d77-17ca-4d03-bbff-ccda0ebca856",
-      "hint": "int number[3][3];, for (int i = 0,j = 0; i < 3,j < 3; i++, j++) {, number[i][j] = n --;, s += number[i][j];, d. 27"
+      "hint": "Điều kiện 'i < 3, j < 3' dùng toán tử phẩy nên chỉ j < 3 có tác dụng; i, j cùng tăng: number[0][0]=10, [1][1]=9, [2][2]=8 → s = 27."
     },
     {
       "id": "91c7f5b6-99dd-4b59-88e3-0c4ce44d2a2d",
@@ -3020,7 +3020,7 @@
         }
       ],
       "correctAnswerId": "ac7bf0f4-a603-4760-9f33-64a1321e76b6",
-      "hint": "int number[3][4];, for (int i = 0,j = 0; i < 3,j < 4; i++, j++) {, number[i][j] = n --;, s += number[i][j];, d. 14"
+      "hint": "Điều kiện 'i < 3, j < 4' chỉ xét j < 4 → vòng lặp chạy 4 lần với i = 0..3. Lần thứ 4 ghi number[3][3] nhưng mảng chỉ có 3 hàng (vượt biên). Nếu bộ nhớ cho phép: 10+9+8+7 = 34. (Chú ý: Tôi không suy ra được đáp án 14 như trong file; kết quả tính tay là 34 (và có truy cập ngoài mảng).)"
     },
     {
       "id": "3b4874e0-c225-4b89-a4d5-4452e02b413e",
@@ -3044,7 +3044,7 @@
         }
       ],
       "correctAnswerId": "4372c579-146b-4628-9056-051d21eecf6a",
-      "hint": "char*)data;, hs[1]., b. B - 1991"
+      "hint": "ten tăng 'A' → 'B' → 'C' qua inc(); hs[i] = (ten, 1990+i). hs[1] = ('B', 1991). In 'B - 1991'."
     },
     {
       "id": "44ac2aaa-3bf4-403b-ae83-b6128c3d9313",
@@ -3068,7 +3068,7 @@
         }
       ],
       "correctAnswerId": "f24005ac-4ba0-4a80-83ab-9edb309ec573",
-      "hint": "hs[0]., b. A - 1991"
+      "hint": "hs[0].hoten = 'A'; hs[1].namsinh = 1991. In 'A - 1991'."
     },
     {
       "id": "1550ce20-09b9-43cb-a15a-24870a8e9748",
@@ -3092,7 +3092,7 @@
         }
       ],
       "correctAnswerId": "dd0c2d31-36c2-4f7b-a130-b9d367042a34",
-      "hint": "char)data;"
+      "hint": "Phần gây lỗi: p = (char)data; ép void* thành char rồi gán cho char* – phải là (char*)data."
     },
     {
       "id": "ca1d1591-ef68-4d25-b42a-05c20edff9ad",
@@ -3116,7 +3116,7 @@
         }
       ],
       "correctAnswerId": "822e4090-5e48-4b6d-81fc-843ee3c667c3",
-      "hint": "p->namsinh -= 20;, hs[1]."
+      "hint": "p duyệt gán namsinh = 1991, 1992, 1993. Sau đó p = hs+1 (phần tử 1) trừ 20: 1992 - 20 = 1972."
     },
     {
       "id": "cf3fae04-bcb8-4f83-8417-8d422e06041c",
@@ -3140,7 +3140,7 @@
         }
       ],
       "correctAnswerId": "2486a740-ee8c-4fd9-af91-b943e8091b49",
-      "hint": "inh -= 20;, hs[0]."
+      "hint": "hs[0].namsinh không bị thay đổi, vẫn là 1991."
     },
     {
       "id": "77603f0c-4a0b-45bd-8c40-0e3c5bf95e39",
@@ -3164,7 +3164,7 @@
         }
       ],
       "correctAnswerId": "fa3fe454-8632-47b0-ab03-cd9404783308",
-      "hint": "sai ở, 12.    *p = hs+1;, 13.    p.namsinh -= 20;, 14.    cout << *p.namsinh << endl;, c. 12, 13, 14"
+      "hint": "Phần gây sai: dòng 12 '*p = hs+1;' (phải p = hs+1); dòng 13 'p.namsinh' (p là con trỏ, phải p->namsinh hoặc (*p).namsinh); dòng 14 '*p.namsinh' (. ưu tiên cao hơn *, phải (*p).namsinh)."
     },
     {
       "id": "2498ac1c-9bbb-4028-a3ba-e354bc61e422",
@@ -3188,7 +3188,7 @@
         }
       ],
       "correctAnswerId": "77f9b32e-f468-433b-828d-f6c498d5def9",
-      "hint": ".     (*p).namsinh = 1991 + i;, p = hs+1;, .    (*p).namsinh -= 20;, 14.    cout << (*p).namsinh << endl;, c. 9, 13, 14"
+      "hint": "Chương trình đúng: (*p).namsinh tương đương p->namsinh; p = hs+1 hợp lệ. Chạy: gán 1991,1992,1993; p = hs+1; trừ 20 → in 1972. Không có dòng nào sai. (Chú ý: Đáp án trong file là '9, 13, 14', nhưng các dòng này hợp lệ; đúng phải là 'Không sai ở dòng nào cả'.)"
     },
     {
       "id": "dd418ace-71e2-488d-bd54-1d943edd472d",
@@ -3212,7 +3212,7 @@
         }
       ],
       "correctAnswerId": "eed4f437-a9b8-432c-b46d-f8e717226af7",
-      "hint": "c. 5, 25"
+      "hint": "Mỗi hs[i].diem = 5. bac3(5,2) = 5*5 = 25. In '5, 25'. (Đoạn trích thiếu dấu } đóng main.)"
     },
     {
       "id": "3afc31bb-c896-4647-a214-830dd0c208eb",
@@ -3236,7 +3236,7 @@
         }
       ],
       "correctAnswerId": "09e3b8c9-7c2a-4773-bf3c-8328720f8a3f",
-      "hint": "a. 3, 81"
+      "hint": "i = 3 (không đổi vì bac3 nhận bản sao). bac3(3,2): lặp 2 lần a = a*a: 9 rồi 81. In '3, 81'."
     },
     {
       "id": "5bf6a1f4-a487-43b5-8902-322e4a4991e7",
@@ -3260,7 +3260,7 @@
         }
       ],
       "correctAnswerId": "135f881e-452b-4414-9fbd-7899efea9963",
-      "hint": "double luong;, public:, d. Lỗi biên dịch"
+      "hint": "Đoạn code trong đề bị cắt: main chỉ có 'nhanvien A;' rồi dừng, không đóng }. Không có lệnh in nào; luong là private nên không thể dùng A.luong. Theo đáp án của file: lỗi biên dịch."
     },
     {
       "id": "649a9350-1c14-4405-97d7-c8e0f1c596f4",
@@ -3284,7 +3284,7 @@
         }
       ],
       "correctAnswerId": "0448481b-eaab-49b1-be40-bd7254386047",
-      "hint": "void, d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: void getLuong() { return luong; } – hàm void không được trả về giá trị."
     },
     {
       "id": "8baf1ab4-f3e8-49d3-bf8d-5e977e484552",
@@ -3308,7 +3308,7 @@
         }
       ],
       "correctAnswerId": "5763916b-a948-4db6-8811-df54d9f63129",
-      "hint": "int DT () { return (height * width); }, c. 49"
+      "hint": "CRect cn(7,7) gọi constructor gán height = 7, width = 7. DT() = 7*7 = 49."
     },
     {
       "id": "b28c439b-f408-41f8-ad33-b827b37a6686",
@@ -3332,7 +3332,7 @@
         }
       ],
       "correctAnswerId": "d8449ce5-c6f4-41aa-895c-6eda939c879f",
-      "hint": "int DT () { return (height + width);"
+      "hint": "DT() trả về height + width = 7 + 7 = 14."
     },
     {
       "id": "aa19b29d-46e2-44e9-8641-beb7f8834120",
@@ -3356,7 +3356,7 @@
         }
       ],
       "correctAnswerId": "a59b6d74-5759-42a5-a9f6-19bf0a561f39",
-      "hint": "CRect cn;"
+      "hint": "Phần gây lỗi: CRect cn; – lớp chỉ có constructor CRect(int,int), không có constructor mặc định (đã tự khai báo constructor thì trình biên dịch không sinh thêm)."
     },
     {
       "id": "0f38b21d-1817-4a57-bb17-0f8201dacd41",
@@ -3380,7 +3380,7 @@
         }
       ],
       "correctAnswerId": "f319baf8-f755-4c3a-884b-9efeffecd95c",
-      "hint": "CRect cn1 (3,4);, CRect cn2;, cout << cn1.DT() + cn2.DT();"
+      "hint": "cn1(3,4) → DT = 12; cn2 dùng constructor mặc định (5,5) → DT = 25. Tổng 37."
     },
     {
       "id": "3e43513f-0367-4bd9-8c55-dc54c92b383c",
@@ -3404,7 +3404,7 @@
         }
       ],
       "correctAnswerId": "d730c8ae-7de5-42c6-84ae-1246462161a5",
-      "hint": "class CRect {, int height, width;, public:, CRect (int,int);, CRect ();, int DT (void) { return (height * width); }, };, CRect::CRect (int a, int b) {, height = a;, width = b;, }, CRect::CRect () {, height = 5;, width = 5;, CRect cn2;, b. 25"
+      "hint": "cn2 dùng constructor mặc định height = width = 5; DT() = 25."
     },
     {
       "id": "4e1fa928-0dc3-4023-8c15-c4c5b124e2aa",
@@ -3428,7 +3428,7 @@
         }
       ],
       "correctAnswerId": "055d1fef-bc31-421b-adf3-14320dac23eb",
-      "hint": "cn2.height * cn2.width;"
+      "hint": "Phần gây lỗi: cn2.height * cn2.width – height, width là private (mặc định) nên không truy cập được từ main."
     },
     {
       "id": "0ab7ac77-b47e-4f80-8e09-5cfc5b46b4f1",
@@ -3452,7 +3452,7 @@
         }
       ],
       "correctAnswerId": "d9271830-2783-42d3-9cd4-e8c7050e7d30",
-      "hint": "CRect cn1 (3,4);, cout << cn1.DT();"
+      "hint": "Constructor cấp phát 2 int rồi gán 3 và 4. DT() = *height * *width = 12. Destructor delete giải phóng bộ nhớ khi cn1 hết phạm vi."
     },
     {
       "id": "567acecc-3820-4950-b2f9-8160d7116630",
@@ -3476,7 +3476,7 @@
         }
       ],
       "correctAnswerId": "bd8ee6a0-c073-464a-8b50-fefff56d77ce",
-      "hint": "Không có gợi ý"
+      "hint": "Không có dòng nào sai. Chạy: new int cho height, width, gán 3 và 4; DT() = 12; destructor delete cả hai."
     },
     {
       "id": "fede5c6e-420c-42b0-bd9b-739e7e84d968",
@@ -3500,7 +3500,7 @@
         }
       ],
       "correctAnswerId": "20388583-4961-4c9f-a877-6605a7270213",
-      "hint": "}"
+      "hint": "Phần gây sai: dòng 6 'return (height * width)' nhân hai con trỏ (phải *height * *width); dòng 7 '}' thiếu ; sau dấu đóng class."
     },
     {
       "id": "bfe3539b-ca2f-49cb-ae42-220a01aa129b",
@@ -3524,7 +3524,7 @@
         }
       ],
       "correctAnswerId": "b4530f3d-4910-4e97-988a-fef6b53a6af3",
-      "hint": "9.    height = new short int;, 10.   width = new short int;"
+      "hint": "Phần gây sai: dòng 9, 10 'new short int' cấp phát short nhưng gán cho int* – không tương thích kiểu."
     },
     {
       "id": "98455df8-5bac-4b6b-abb9-04696476d3f8",
@@ -3548,7 +3548,7 @@
         }
       ],
       "correctAnswerId": "e0b2f269-926f-4850-9301-5b30d7a53216",
-      "hint": "(*height * width);, 11.   height = a;, 12.   width = b;"
+      "hint": "Phần gây sai: dòng 6 '*height * width' (width là con trỏ); dòng 11, 12 'height = a; width = b;' gán int cho con trỏ (phải *height = a; *width = b;)."
     },
     {
       "id": "cb22178c-4353-4ac2-a103-ea7acb14e62f",
@@ -3572,7 +3572,7 @@
         }
       ],
       "correctAnswerId": "48ae3f1e-0133-4f67-883b-02e70486a4e4",
-      "hint": "height * width);"
+      "hint": "c = &a nên c->DT() là a.DT() với a = (1,2) → 1*2 = 2. Các đối tượng b, d được new/delete bình thường."
     },
     {
       "id": "030dd556-2649-4af6-82f0-9baf94136307",
@@ -3596,7 +3596,7 @@
         }
       ],
       "correctAnswerId": "1f3f8897-67e9-4c5b-9304-a16830f2401b",
-      "hint": "height * width"
+      "hint": "Phần gây lỗi: dòng 11 'd*;' sai cú pháp (phải *d). Nếu sửa: c->DT() = 2, (*b).DT() = 3*4 = 12 → in 24."
     },
     {
       "id": "2115fec2-f356-4254-aa25-c4b5b445479e",
@@ -3620,7 +3620,7 @@
         }
       ],
       "correctAnswerId": "0eb93404-e1be-44fe-a8e3-e62f9eba6c8e",
-      "hint": "height + width);"
+      "hint": "DT() = height + width. d trỏ phần tử đầu mảng, d->setGiatri(5,6) → d->DT() = 11."
     },
     {
       "id": "562be162-9e39-4f39-86b5-87a48b4c4332",
@@ -3644,7 +3644,7 @@
         }
       ],
       "correctAnswerId": "4899fc57-5d4f-49b3-8b58-bdd09038984a",
-      "hint": "18.    d[1]->setGiatri(7,8);, 19.    cout << c->DT() * b.DT() << endl;"
+      "hint": "Phần gây sai: dòng 18 'd[1]->setGiatri(7,8)' (d[1] là đối tượng, dùng d[1].setGiatri); dòng 19 'b.DT()' (b là con trỏ, dùng b->DT())."
     },
     {
       "id": "e76b00f1-26d2-4888-a815-0c70f327a12b",
@@ -3668,7 +3668,7 @@
         }
       ],
       "correctAnswerId": "54049395-cb07-4769-ab9e-fb60d6e714a6",
-      "hint": "13.    CVector tmp;, 14.    tmp.x = x + v.x;, 15.    tmp.y = y + v.y;, 19.    CVector a (3,1);, 20.    CVector b(8,4);, 22.    c = a + b;, c. 16"
+      "hint": "operator+ cộng từng thành phần: (3,1)+(8,4) = (11,5). c.x + c.y = 16."
     },
     {
       "id": "2f05b0f4-5f64-4f72-9827-6ca07787b2ed",
@@ -3692,7 +3692,7 @@
         }
       ],
       "correctAnswerId": "6eae5843-8eb0-4b78-a8b9-2185d2513db8",
-      "hint": "13.    CVector tmp;, 14.    tmp.x = x - v.x;, 15.    tmp.y = y - v.y;"
+      "hint": "operator+ được định nghĩa là phép trừ: x = 3-8 = -5, y = 1-4 = -3. c.x + c.y = -8."
     },
     {
       "id": "575228af-7613-4c9c-9a6b-1b544a656a4e",
@@ -3716,7 +3716,7 @@
         }
       ],
       "correctAnswerId": "7f9a4665-5b1a-4f8f-b8e7-776a5b9ff668",
-      "hint": "14.    tmp.x = x % v.x;, 15.    tmp.y = y % v.y;"
+      "hint": "operator+ được định nghĩa là phép chia dư: x = 3%8 = 3, y = 1%4 = 1. c.x + c.y = 4."
     },
     {
       "id": "b60382db-24ff-4d17-bba7-ff06213adb2b",
@@ -3740,7 +3740,7 @@
         }
       ],
       "correctAnswerId": "23796825-af0e-46f2-b661-af551829a287",
-      "hint": "i<3, b. p=4"
+      "hint": "i=1: p = 1*1 = 1, p = 1*1 = 1. i=2: p = 1*2 = 2, p = 2*2 = 4. In p = 4."
     },
     {
       "id": "0da1400c-4ead-410c-9f3f-17c360ba6d66",
@@ -3764,7 +3764,7 @@
         }
       ],
       "correctAnswerId": "d1c373cc-1ab1-4cc9-950f-bb8dd2255102",
-      "hint": "cout << t.a;, d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: 'return tmp' thiếu ;; cout << t.a dùng t chưa khai báo (biến là t3). Nếu sửa: t3.a = 1 % 3 = 1."
     },
     {
       "id": "e785d899-1d7e-4fdf-9878-57f8c0f45be6",
@@ -3788,7 +3788,7 @@
         }
       ],
       "correctAnswerId": "d363f4ec-0bef-4ef9-867e-3035c6439e22",
-      "hint": "c. Địa chỉ của r.w"
+      "hint": "r.w là con trỏ int* nên cout << r.w in địa chỉ của vùng nhớ, không phải 1 (muốn in 1 phải *r.w)."
     },
     {
       "id": "66206ce7-56e7-4433-b6db-24b9ae89a6ae",
@@ -3812,7 +3812,7 @@
         }
       ],
       "correctAnswerId": "c44ae94b-aa54-4f42-bc3e-a8c26717f866",
-      "hint": "7. }, 23.    cout << c.x + c.y << endl;, b. 7, 23"
+      "hint": "Phần gây sai: dòng 7 '}' thiếu ; sau class; dòng 23 'c.x + c.y' truy cập thành viên private x, y từ main."
     },
     {
       "id": "bb4e3f54-b91b-4dd8-b4d1-a399ec650132",
@@ -3836,7 +3836,7 @@
         }
       ],
       "correctAnswerId": "f8784505-6d37-471b-9b8b-ba5ba4a08925",
-      "hint": "a. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: hàm area() dùng a * b nhưng a, b chỉ là tham số của setValue; thành viên của lớp là x, y (phải return x * y). Ngoài ra 'Chu vi' đề ghi nhưng đây là diện tích."
     },
     {
       "id": "babc5bc6-5dba-4f71-9eda-c16c0401db1b",
@@ -3860,7 +3860,7 @@
         }
       ],
       "correctAnswerId": "5e46e68e-6c69-416e-8c61-00484c1846a5",
-      "hint": "d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: test(int i) {a = i} thiếu ;; main gọi t.b(3) nhưng hàm tên b3; class thiếu dấu } đóng."
     },
     {
       "id": "e31c6d98-f987-4600-a7ec-401b18fdf110",
@@ -3884,7 +3884,7 @@
         }
       ],
       "correctAnswerId": "caaedebe-4608-430a-8f20-ccc3e8ff3faf",
-      "hint": "b. In ra bảng mã ASCII"
+      "hint": "Dòng 'cout << “ << c;' có chuỗi mở không đóng (phải cout << \" \" << c;). Nếu sửa: i = 2..15, j = 0..15, c = i*16 + j in ký tự mã 32..255 → in bảng mã ASCII."
     },
     {
       "id": "759c2519-46d5-48ac-90d1-6992ea3bfe6d",
@@ -3908,7 +3908,7 @@
         }
       ],
       "correctAnswerId": "9759e769-2f36-4454-85d6-f84b38830fb9",
-      "hint": "str = 30/04/2011?, d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: strchr(str, “/ “) – tham số thứ 2 của strchr phải là ký tự '/', không phải chuỗi; a[2] = “\\0” phải là '\\0'."
     },
     {
       "id": "2a4bbee9-745e-4f7d-a00f-cc55f52f6bb0",
@@ -3932,7 +3932,7 @@
         }
       ],
       "correctAnswerId": "c07b7ffe-a86b-4306-bb20-d4cd211eee3a",
-      "hint": "cout << (atof(a) - 26) << endl;, b. 4"
+      "hint": "Phần gây lỗi: strchr(str, “/”) và a[2] = “\\0” dùng chuỗi thay vì ký tự ('/' và '\\0'). Nếu sửa: p trỏ vị trí 2, num = 2, a = '30', atof(a) - 26 = 4."
     },
     {
       "id": "b2956604-d20c-4b23-a424-de24a70042b2",
@@ -3956,7 +3956,7 @@
         }
       ],
       "correctAnswerId": "817d3af5-7d19-43cc-a994-b48e4a2a8b54",
-      "hint": "b. 04"
+      "hint": "Lỗi nhỏ: dùng chuỗi \"/\", \"\\0\" thay vì '/', '\\0'. Nếu sửa: stringRear(str,tmp,3) chép phần sau ngày: tmp = '04/2011'. strchr tìm '/' ở vị trí 2, a = '04'. In 04."
     },
     {
       "id": "88cb9a4e-b680-4784-b46e-26f3ceab76be",
@@ -3980,7 +3980,7 @@
         }
       ],
       "correctAnswerId": "fc177bd9-5b8a-49a7-b5ff-822f8d169fe3",
-      "hint": "stringRear (tmp,str,p-tmp+1);, c. 2011"
+      "hint": "Lỗi nhỏ như câu trên. Sau lần 1: tmp = '04/2011'. stringRear(tmp,str,3) chép phần sau '/' thứ hai: str = '2011'. In 2011."
     },
     {
       "id": "a260bbb5-6aee-4357-ae0d-54f14efa3ccb",
@@ -4004,7 +4004,7 @@
         }
       ],
       "correctAnswerId": "44d3f6b9-d847-4dd4-987e-4be331f8db1d",
-      "hint": "d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: atof(str) * a – nhân double với mảng ký tự a (char*) không hợp lệ."
     },
     {
       "id": "51b38217-8060-4db0-b79e-08350cd5ebc0",
@@ -4028,7 +4028,7 @@
         }
       ],
       "correctAnswerId": "3d6c802f-ab40-411e-a9cb-19ac7837658a",
-      "hint": "Không có gợi ý"
+      "hint": "Số k < 100 chia hết cho cả 3 và 7 (bội của 21), kể cả k = 0: in '0 21 42 63 84'."
     },
     {
       "id": "d09d2ccf-5d9e-482d-8797-30179fe7fb18",
@@ -4052,7 +4052,7 @@
         }
       ],
       "correctAnswerId": "c388eb8e-d4f5-4239-9a49-ee7b4d6c621a",
-      "hint": "Không có gợi ý"
+      "hint": "Phần gây lỗi: có dấu } thừa – for ... if ... cout chỉ là một lệnh, dấu } kế tiếp đã đóng main, 'return 0; }' phía sau thừa. Nếu bỏ dấu } thừa: k < 30 chia hết 3 và 7 chỉ có 21 → in '21'. (Chú ý: Đáp án 21 chỉ đúng khi bỏ dấu } thừa.)"
     },
     {
       "id": "aba82a4e-3eff-436f-8cac-653757ce41f1",
@@ -4076,7 +4076,7 @@
         }
       ],
       "correctAnswerId": "cd582a3a-45a8-4a47-bd23-6549ae5822db",
-      "hint": "int num, dv, c, t;, for (num = 100; num < 160; num++) {, dv = num % 10;, c = (num / 10) % 10;, t = num / 100;, if (dv * dv * dv + c * c * c + t * t * t == num) cout << num << “ “;, }, return 0;, Đoạn chương trình trên in ra kết quả bao nhiêu?, a. 153"
+      "hint": "Tìm số Armstrong (tổng lập phương các chữ số bằng chính nó) trong 100..159: 153 = 1³ + 5³ + 3³. In '153 '."
     },
     {
       "id": "9509cf17-cf72-4c6d-9b9d-25d55b0d5f2d",
@@ -4100,7 +4100,7 @@
         }
       ],
       "correctAnswerId": "3f1b718d-76cd-42f2-ba0a-2030bdd14185",
-      "hint": "Không có gợi ý"
+      "hint": "n=12: k=2,3,4 cho n%k = 0; k=5 → 12%5 = 2 → in 5, n = 12/5 = 2, break. Sau đó k=5 ≥ n=2 nên thoát while. In '5 '."
     },
     {
       "id": "e7842f16-36ee-4e35-a44b-38794cd4f497",
@@ -4124,7 +4124,7 @@
         }
       ],
       "correctAnswerId": "b850a6c7-4104-4853-9849-72b78ad7b284",
-      "hint": "Không có gợi ý"
+      "hint": "dem = số ước của k trong 2..k. dem > 1 là hợp số: 4, 6, 8, 9. In '4689'."
     },
     {
       "id": "b0ec492b-2210-4c50-bc9e-f67c557f4edf",
@@ -4148,7 +4148,7 @@
         }
       ],
       "correctAnswerId": "6900a53e-8d92-4e6c-9e2a-d705b8f398f8",
-      "hint": "{, }"
+      "hint": "Phần gây lỗi: for ( n = 2; n <= k; n++ ) { mở ngoặc nhưng không có } đóng tương ứng – mất cân bằng dấu ngoặc."
     },
     {
       "id": "0b7505a7-1149-400e-ad06-8eab84dc2648",
@@ -4172,7 +4172,7 @@
         }
       ],
       "correctAnswerId": "15f4ee4b-7165-4cf3-93a5-bf82c876dffe",
-      "hint": "}, }"
+      "hint": "k = 7..10: 7 nguyên tố (dem=1), 8, 9, 10 là hợp số. In '8910'."
     },
     {
       "id": "ed3dd8bb-b578-4a6a-ae4e-9dbd7d4db8c4",
@@ -4196,7 +4196,7 @@
         }
       ],
       "correctAnswerId": "53f1a3b0-2b66-46f7-aef3-964bcbf4de69",
-      "hint": "b. 6.20 + 25.20i"
+      "hint": "Hàm tich nhân hai số phức: thuc = a.thuc*b.thuc - a.ao*b.ao; ao = a.thuc*b.ao + a.ao*b.thuc. print_complex in 'x.xx + y.yyi' (cần <stdio.h> cho printf). Đề không cho giá trị a, b nên không tính lại được kết quả."
     },
     {
       "id": "5b9c2830-622c-4799-8020-3e5a193d1c12",
@@ -4220,7 +4220,7 @@
         }
       ],
       "correctAnswerId": "36f68f29-f69f-4653-91cd-dabfbb6114cc",
-      "hint": "c. 0.71 + 0.08i"
+      "hint": "Hàm thuong chia hai số phức. Lưu ý công thức phần thực dùng a.thuc*a.ao + b.thuc*b.ao, công thức chia chuẩn phải là a.thuc*b.thuc + a.ao*b.ao. Đề không cho giá trị a, b nên không tính lại được. (Chú ý: Công thức phần thực trong code có vẻ sai về toán học.)"
     },
     {
       "id": "6d83c038-74eb-4c7d-907e-d11be11968a5",
@@ -4244,7 +4244,7 @@
         }
       ],
       "correctAnswerId": "fbc7bdd4-2bb2-42b3-bc70-bcbe10d810d3",
-      "hint": "sqrt(a.thuc * a.thuc + a.ao * a.ao);, a. 4.25206"
+      "hint": "modul(a) = sqrt(thuc² + ao²) là mô-đun số phức (cần <math.h>). Đề không cho a nên không tính lại được kết quả."
     },
     {
       "id": "9eca6339-d789-4bb4-a13e-60aa3c9c9643",
@@ -4268,7 +4268,7 @@
         }
       ],
       "correctAnswerId": "28e582c0-5e67-4a49-9b55-cf0fa6d739fd",
-      "hint": "float doiso (complex a) {, return acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao));, }, d. 0.71883"
+      "hint": "doiso(a) = acos(thuc / mô-đun) là góc của số phức (radian). Đề không cho a nên không tính lại được kết quả."
     },
     {
       "id": "e89e844c-56e9-404c-bd92-f5b9861cb1d8",
@@ -4292,7 +4292,7 @@
         }
       ],
       "correctAnswerId": "0ffac4e2-91ee-4ff5-b3ba-f9570485c271",
-      "hint": "float doiso (complex a) {, return acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao));, }, float modul (complex a) {, return sqrt (a.thuc * a.thuc + a.ao * a.ao);, }"
+      "hint": "Cả hai hàm doiso và modul đều định nghĩa trước main nên biên dịch được; kết quả tùy hàm nào được gọi trong main (đề không cho phần này nên không kiểm tra được)."
     },
     {
       "id": "d1bb2732-db58-4b39-9e53-56e04503ddc6",
@@ -4316,7 +4316,7 @@
         }
       ],
       "correctAnswerId": "8105d8ab-19c2-4c33-b22b-4296969bbd5c",
-      "hint": "return acos (a.thuc / modul(a));, a. Chương trình báo lỗi"
+      "hint": "Phần gây lỗi: doiso gọi modul(a) trước khi modul được khai báo/định nghĩa (modul nằm phía dưới, không có prototype)."
     },
     {
       "id": "f0351a0a-e336-4f0f-9e9f-8614560cf402",
@@ -4340,7 +4340,7 @@
         }
       ],
       "correctAnswerId": "582d5038-d6d9-4373-8726-20a78e8ed9e3",
-      "hint": "j<3"
+      "hint": "dem == 1 nghĩa là k chỉ có đúng 1 ước trong 2..k tức k là số nguyên tố. Dừng khi tìm đủ 3 số: in '2 3 5 '."
     },
     {
       "id": "a6c61eaf-bea6-46ae-becc-34ba5c675963",
@@ -4364,7 +4364,7 @@
         }
       ],
       "correctAnswerId": "be64cfc5-c229-4391-86aa-030ae2fd7c5f",
-      "hint": "le(j<5)"
+      "hint": "Như câu trên nhưng tìm 5 số nguyên tố đầu tiên: '2 3 5 7 11 '."
     },
     {
       "id": "14ade11c-ee0c-446d-b45b-4bdb7e6814c1",
@@ -4388,7 +4388,7 @@
         }
       ],
       "correctAnswerId": "892d40f0-7f35-4358-868a-490215f9544c",
-      "hint": "(j<3), {"
+      "hint": "Phần gây lỗi: dòng 'dem=0; {' có dấu { thừa → mất cân bằng dấu ngoặc, thiếu } đóng."
     },
     {
       "id": "c018fc6e-8ef9-4204-9677-d3e19387ed6d",
@@ -4412,7 +4412,7 @@
         }
       ],
       "correctAnswerId": "546f1f6e-2775-413f-aa8b-b86d80ab3cf8",
-      "hint": "k=8"
+      "hint": "Phần gây lỗi: đây là code Java (public class, System.out.print, String[] args), không biên dịch được trong C++. Nếu chạy như Java: k = 8 cố định nên dem = 2 (8%4, 8%8) ≠ 1, j không bao giờ tăng → lặp vô hạn, không in gì."
     },
     {
       "id": "c1e6c0cd-cdf5-4fd9-83b0-b946bd5bde0a",
@@ -4436,7 +4436,7 @@
         }
       ],
       "correctAnswerId": "b2a2ab5f-9c51-4ac3-9dd0-d339c565e525",
-      "hint": "c. In ra 3 số nguyên tố đầu tiên"
+      "hint": "Tìm số nguyên tố, dừng sau khi in 3 số: in '2', '3', '5' ngăn cách bằng tab. Chương trình in 3 số nguyên tố đầu tiên."
     },
     {
       "id": "85eea801-220e-4238-ad66-a02d7732cf25",
@@ -4460,7 +4460,7 @@
         }
       ],
       "correctAnswerId": "231462a5-0195-4a1b-a68f-49c76dd9a939",
-      "hint": "= 1952;, nam+8)%12];"
+      "hint": "nam = 1952: (1952+6)%10 = 8 → can[8] = 'Nham'; (1952+8)%12 = 4 → chi[4] = 'Thin'. In 'NhamThin'."
     },
     {
       "id": "ed6d81a3-fef2-41d3-a00f-e56043d5cfd0",
@@ -4484,7 +4484,7 @@
         }
       ],
       "correctAnswerId": "982558d2-80e6-42f2-8c38-f57fdddc34bc",
-      "hint": "1971;, nam+8)%12];, a. TanHoi"
+      "hint": "nam = 1971: (1971+6)%10 = 7 → 'Tan'; (1971+8)%12 = 11 → 'Hoi'. In 'TanHoi'."
     },
     {
       "id": "d6a7184f-b3e8-4f08-a067-0ef0808076b4",
@@ -4508,7 +4508,7 @@
         }
       ],
       "correctAnswerId": "9c1cd9f3-7315-4186-8dfb-3bb72393ec4c",
-      "hint": "1952;, am+10)%12];, c. CanhNgo"
+      "hint": "nam = 1952: (1952+4)%10 = 6 → 'Canh'; (1952+10)%12 = 6 → 'Ngo'. In 'CanhNgo'."
     },
     {
       "id": "dbff1ef5-f1a9-4075-be1c-996121ac78d5",
@@ -4532,7 +4532,7 @@
         }
       ],
       "correctAnswerId": "8ee05325-50a3-4027-aa37-1dd7eb630018",
-      "hint": "1952;"
+      "hint": "Phần gây lỗi: cout << ca[...] – biến ca chưa khai báo (mảng tên can); thiếu dấu ; sau mảng can[][5] = {...}."
     },
     {
       "id": "c2bd90c2-f075-458f-8fb2-b0845942a8d2",
@@ -4556,7 +4556,7 @@
         }
       ],
       "correctAnswerId": "a4cafaa2-4d65-462f-ab61-42465ee04b3a",
-      "hint": "thực hiện công việc gì:, Đổi số từ hệ cơ số, sang hệ cơ số khác"
+      "hint": "functionD đổi số từ hệ cơ số n sang hệ cơ số m (qua giá trị thập phân trung gian). Lưu ý lỗi trong code: char number[17] = 123”; thiếu dấu \" mở; ketqua[17] = 0; ghi ngoài mảng (chỉ số hợp lệ 0..16)."
     },
     {
       "id": "a4e8bc6b-f0a6-40e1-a489-e3cd3952721a",
@@ -4580,7 +4580,7 @@
         }
       ],
       "correctAnswerId": "873c15f5-9e99-4681-a00d-e071e52f9750",
-      "hint": "kết quả bao nhiêu:, ,m = 2;, a. 1111011"
+      "hint": "Đọc '123' hệ 10 → giá trị 123; đổi sang cơ số m = 2: 123 = 1111011. Lỗi nhỏ như câu trên (thiếu \" mở, ketqua[17] ngoài mảng)."
     },
     {
       "id": "92f45636-c8ae-4e80-a1fc-e44546ffed0b",
@@ -4604,7 +4604,7 @@
         }
       ],
       "correctAnswerId": "82aef6e6-f92c-4310-9ffa-2c518090a74f",
-      "hint": "= 9;, c. 146"
+      "hint": "123 sang cơ số 9: 123 = 1·81 + 4·9 + 6 → 146. Lỗi nhỏ như câu trên."
     },
     {
       "id": "f3394e4f-279f-4c43-9c08-536e33e2a72e",
@@ -4628,7 +4628,7 @@
         }
       ],
       "correctAnswerId": "194a6fdc-0f8e-4217-8db3-8413308caea3",
-      "hint": "m = 8;, a. 173"
+      "hint": "123 sang cơ số 8: 123 = 1·64 + 7·8 + 3 → 173. Lỗi nhỏ như câu trên."
     },
     {
       "id": "510a3dbd-132c-40c0-83e8-19f4141ca404",
@@ -4652,7 +4652,7 @@
         }
       ],
       "correctAnswerId": "74f0e179-32d2-4be3-a006-c640f40b6b13",
-      "hint": "16;, d. 7B"
+      "hint": "123 sang cơ số 16: 123 = 7·16 + 11 → '7B'. Lỗi nhỏ như câu trên."
     },
     {
       "id": "4883cf38-34d5-4e3b-82c0-97813f5b6e9a",
@@ -4676,7 +4676,7 @@
         }
       ],
       "correctAnswerId": "225861ee-2381-47da-bfa0-97df97da859a",
-      "hint": "2;, d. A3"
+      "hint": "123 sang cơ số 12: 123 = 10·12 + 3 → 'A3' (A = 10). Lỗi nhỏ như câu trên."
     },
     {
       "id": "b3875f52-3f03-42f7-9d3c-5441fa4c8a16",
@@ -4700,7 +4700,7 @@
         }
       ],
       "correctAnswerId": "5be595c9-ca34-4eee-952c-6d1e74d68180",
-      "hint": "lệnh 7 là:\", a. 10"
+      "hint": "Phần gây lỗi: int [] a={3,1,7,0,10} là cú pháp Java, thiếu ; (C++ viết int a[] = {...};). Nếu sửa: max tìm được là 10; dòng 7 in 10."
     },
     {
       "id": "b71e2b3f-4740-45a9-99fc-a41e9a7be31f",
@@ -4724,7 +4724,7 @@
         }
       ],
       "correctAnswerId": "8e3e4b1f-25e5-4019-8b77-297dcfa42ba7",
-      "hint": "Không có gợi ý"
+      "hint": "Duyệt mảng tìm max = 10. Dòng 7 in 10; dòng 8-10 in chỉ số của max là 4 ngay sau đó (cout << k) nên tổng đầu ra là '104'."
     },
     {
       "id": "238bf7f8-ffa7-4f69-b799-815ead0e7afc",
@@ -4748,7 +4748,7 @@
         }
       ],
       "correctAnswerId": "c9f2e219-6e44-4840-a958-68093285c61b",
-      "hint": "Không có gợi ý"
+      "hint": "Phần gây lỗi: int [] a = {...} là cú pháp Java (C++ phải int a[]). Nếu sửa: dòng 7 in max = 10, dòng 10 in chỉ số 4 liền sau → kết quả hiển thị '104'. (Chú ý: Đáp án trong file là '4'; tôi tính ra '104'.)"
     },
     {
       "id": "bf250f9f-87e1-41f9-b5ab-284be2569afb",
@@ -4772,7 +4772,7 @@
         }
       ],
       "correctAnswerId": "d93118e7-6c72-4baa-9860-84c02d8c5ee5",
-      "hint": "==, c. i = 0 j = 2"
+      "hint": "i chạy 0..1, j chạy 0..2, bỏ qua khi i==j. In: (0,1), (0,2), (1,0), (1,2). 'i = 0 j = 2' nằm trong kết quả."
     },
     {
       "id": "6f2d6bce-e78c-49cf-beec-41cc1493a972",
@@ -4796,7 +4796,7 @@
         }
       ],
       "correctAnswerId": "71fbad54-3d9f-4b03-b4c6-c644779c7c7a",
-      "hint": "="
+      "hint": "Phần cần chú ý: if(i = j) là phép gán. i=0: j=0 → i=0 (sai) → in 'i = 0 j = 0'; j=1 → i=1 (đúng) → continue; j=2 → i=2 → continue; i++ → 3 thoát. Chỉ in 'i = 0 j = 0'. (i, j cần được khai báo trước.)"
     },
     {
       "id": "6244e95f-b2b4-4c7b-abcb-fdb8431948f6",
@@ -4820,7 +4820,7 @@
         }
       ],
       "correctAnswerId": "47f34765-7f81-49f4-a297-e362dcc1c643",
-      "hint": "&&, là bao nhiêu khi thực, a.  2"
+      "hint": "Khi n%k == 0 (k = 2, 5, 10) thì dem = k-1 vì vòng trong luôn cộng. (dem == 1) chỉ khi k = 2. In '2 '."
     },
     {
       "id": "8d75134a-92ca-47c2-863c-0226df24c806",
@@ -4844,7 +4844,7 @@
         }
       ],
       "correctAnswerId": "f5c3463e-e8a3-4b60-9f3b-32dfbd573665",
-      "hint": "||, b. 2 5 10"
+      "hint": "Điều kiện là || nên in mọi k là ước của 10: 2, 5, 10 (k = 2 cũng thỏa dem == 1). In '2 5 10 '."
     },
     {
       "id": "e11cf410-506a-4194-a1e4-adb538ea60a1",
@@ -4868,7 +4868,7 @@
         }
       ],
       "correctAnswerId": "12ced847-3fa1-44b0-acc8-2c2d03012a9d",
-      "hint": "=12,"
+      "hint": "Phân tích thừa số nguyên tố: N = 12 → in 2 (N=6), in 2 (N=3), in 3 (N=1). In '2 2 3 '. (k-- bù lại k++ để thử lại cùng ước.)"
     },
     {
       "id": "6187fcf1-0bb2-48bb-8326-70c3af923efb",
@@ -4892,7 +4892,7 @@
         }
       ],
       "correctAnswerId": "37163ed2-b172-4001-9352-314f2f28d143",
-      "hint": "N =9,"
+      "hint": "N = 9 → 3 (N=3), 3 (N=1). In '3 3 '."
     },
     {
       "id": "1907e419-4eb0-478f-88e8-7eee4b43185d",
@@ -4916,7 +4916,7 @@
         }
       ],
       "correctAnswerId": "060a7bed-ed0f-4d31-8937-dd3e945b513f",
-      "hint": "N =25,, c. 5 5"
+      "hint": "N = 25 → 5 (N=5), 5 (N=1). In '5 5 '."
     },
     {
       "id": "2ecfe8c8-fb51-489e-9e55-31b4244e17d8",
@@ -4940,7 +4940,7 @@
         }
       ],
       "correctAnswerId": "09a79411-7310-473b-b234-a460d9a62f33",
-      "hint": "N =42,, d. 2 3 7"
+      "hint": "N = 42 → 2 (N=21), 3 (N=7), 7 (N=1). In '2 3 7 '."
     },
     {
       "id": "03eddeca-e937-495d-a948-e54658b63b86",
@@ -4964,7 +4964,7 @@
         }
       ],
       "correctAnswerId": "a714c29c-d21e-441c-8197-7e86ec632078",
-      "hint": "n, n, n, N =12,, d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: khai báo 'int n,k;' nhưng code dùng N (chữ hoa) chưa khai báo; C++ phân biệt hoa/thường (n ≠ N)."
     },
     {
       "id": "d23f30b2-01e1-4889-b93e-e736f52ecb40",
@@ -4988,7 +4988,7 @@
         }
       ],
       "correctAnswerId": "27b8b492-157e-4bee-95e7-5747cd4992cf",
-      "hint": "N =12"
+      "hint": "Dùng k++ trong thân (thay vì k--). N=12: k=2 → in 2, N=6, k=3; vòng tăng → k=4,5 không chia hết; k=6 → in 6, N=1. In '2 6 '."
     },
     {
       "id": "af8b675a-4b67-4c8e-be11-761cbbe07429",
@@ -5012,7 +5012,7 @@
         }
       ],
       "correctAnswerId": "faedc42c-9eb6-4c81-b582-f95394f3d026",
-      "hint": "b. 3"
+      "hint": "Code dùng k-- như dạng phân tích thừa số. N = 9: k=3 → in 3 (N=3), k=3 lại chia hết → in 3 (N=1). Đầu ra thực tế là '3 3 '. (Chú ý: Đầu ra thực tế là '3 3 ', không có lựa chọn trùng khớp; đáp án '3' trong file chỉ là gần đúng.)"
     },
     {
       "id": "0c8c0733-65e7-48f2-a41e-4b8d39f3cfb7",
@@ -5036,7 +5036,7 @@
         }
       ],
       "correctAnswerId": "7528808e-4e56-4d8f-9f6d-2ddc7405b48a",
-      "hint": "d. 2 7"
+      "hint": "N = 42 phân tích thừa số: in 2 (N=21), 3 (N=7), 7 (N=1). Đầu ra thực tế là '2 3 7 '. (Chú ý: Đầu ra thực tế là '2 3 7 ', không phải '2 7' như đáp án trong file.)"
     },
     {
       "id": "39b4fefa-19e3-4447-b444-d1e04bdf020f",
@@ -5060,7 +5060,7 @@
         }
       ],
       "correctAnswerId": "aa8a1549-28be-49b3-b757-99140ea0885a",
-      "hint": "c. 5"
+      "hint": "N = 25 phân tích thừa số: in 5 (N=5), 5 (N=1). Đầu ra thực tế là '5 5 '. (Chú ý: Đầu ra thực tế là '5 5 ', không phải '5' như đáp án trong file.)"
     },
     {
       "id": "decde9ec-676b-4cc6-ad9b-01067d4e3988",
@@ -5084,7 +5084,7 @@
         }
       ],
       "correctAnswerId": "e4be6053-93d8-4ff5-9948-4fd57509a44c",
-      "hint": "d. Chương trình báo lỗi"
+      "hint": "Phần gây lỗi: hàm sum(k) được gọi trong main trước khi được định nghĩa (nằm dưới main), không có khai báo nguyên mẫu float sum(int);"
     },
     {
       "id": "61aab535-59ba-41cc-a1e2-c5811c349cdf",
@@ -5108,7 +5108,7 @@
         }
       ],
       "correctAnswerId": "58749aa0-7159-49f1-ae52-0e4677947d7b",
-      "hint": "float sum(int);, int N=2,k, b. 1.33333"
+      "hint": "Có nguyên mẫu float sum(int); nên biên dịch được. sum(k) = 1+2+...+k. S = 1/1 + 1/3 = 1.33333."
     },
     {
       "id": "dd58e483-c167-4c5f-8227-a6b20132ce78",
@@ -5132,7 +5132,7 @@
         }
       ],
       "correctAnswerId": "30ce4582-ac6d-4f62-b6ad-7ded3cf064a5",
-      "hint": "int N=4,k"
+      "hint": "N = 4: sum(k) = 1, 3, 6, 10 → S = 1 + 1/3 + 1/6 + 1/10 = 1.6."
     },
     {
       "id": "72038b6b-5d0e-42e0-94cc-656b380fddbd",
@@ -5156,7 +5156,7 @@
         }
       ],
       "correctAnswerId": "a93ee9df-bf43-4519-937f-86b22c6c2f52",
-      "hint": "int N=5,k;, d. 1.66667"
+      "hint": "N = 5: thêm 1/15 vào 1.6 → 1.66667."
     },
     {
       "id": "f5bfe345-0d0d-4544-8c61-ef5a509b4340",
@@ -5180,7 +5180,7 @@
         }
       ],
       "correctAnswerId": "c5986e92-1a8e-44ba-bc8c-cef0905cb58a",
-      "hint": "kq;, lấy kết quả làm tròn 2 số thập phân, a. 2, ( kết quả đúng là 2.00061)"
+      "hint": "Phương pháp Newton tính √4: xn = 2.5 → 2.05 → 2.00061 → 2.0000001. Dừng khi |xn - kq| ≤ 0.001; kq cuối = 2.00061 ≈ 2.00."
     },
     {
       "id": "56365171-02b7-4514-ac2f-15e1a0d45f36",
@@ -5204,7 +5204,7 @@
         }
       ],
       "correctAnswerId": "05f5cf56-9061-45ed-9f07-84b90071d5fd",
-      "hint": "dem, d. 3"
+      "hint": "Cùng chương trình Newton: dem đếm số lần lặp = 3 (xn: 2.5 → 2.05 → 2.00061 → 2.0000001). In 3."
     },
     {
       "id": "7a763c33-886a-4931-b34a-c87210c62678",
@@ -5228,7 +5228,7 @@
         }
       ],
       "correctAnswerId": "b5048659-c0f0-4725-a5be-9b498670e45e",
-      "hint": "a = 3,, c. 1.73"
+      "hint": "Newton tính √3: xn = 2 → 1.75 → 1.7321 → 1.73205. kq cuối ≈ 1.7321 → làm tròn 1.73."
     },
     {
       "id": "e596e133-aef6-4938-8fed-8b822cb9af72",
@@ -5252,7 +5252,7 @@
         }
       ],
       "correctAnswerId": "4c94e361-990c-44b0-b432-4c926126e193",
-      "hint": "1, a. ujoipd"
+      "hint": "Mỗi ký tự cộng thêm khoa = 1 (mã ASCII): t→u, i→j, n→o, h→i, o→p, c→d. In 'ujoipd'. (Đoạn trích thiếu dấu } đóng main.)"
     },
     {
       "id": "30289850-c8b5-4d8b-8bad-66e88d75fa53",
@@ -5276,7 +5276,7 @@
         }
       ],
       "correctAnswerId": "33f9b595-e353-4165-8e76-e2b4cab5e73b",
-      "hint": "32,, chuoi[i], c. TINHOC"
+      "hint": "Trừ 32 mã ASCII chuyển chữ thường thành chữ hoa: 'TINHOC'."
     },
     {
       "id": "90b1be35-fd40-4c1f-b497-b7976eaa15a4",
@@ -5300,7 +5300,7 @@
         }
       ],
       "correctAnswerId": "cee098ce-70a6-4e13-b93d-0205601ef4e7",
-      "hint": "chuoi =, d. Lỗi biên dịch"
+      "hint": "Phần gây lỗi: chuoi = (char)(...) – gán một ký tự cho cả mảng chuoi; phải là chuoi[i] = ..."
     },
     {
       "id": "d9979454-123f-48cf-8f45-f9ff46d7d8ed",
@@ -5324,7 +5324,7 @@
         }
       ],
       "correctAnswerId": "3735c4ef-437b-4af7-beb6-d727238c8600",
-      "hint": "1. float tinhtich (int k) {, 2.     float tich =1;, 3.     for (int i = 1; i <=k; i++) tich *= i;, 4.     return tich;, 5. }, int n = 3, k;, a. 1.44444"
+      "hint": "tinhtich(k) = k!; tinhtong(k) = 1! + 2! + ... + k!. k=1: 1; k=2: 3; k=3: 9. S = 1/1 + 1/3 + 1/9 = 1.44444."
     },
     {
       "id": "292c48ab-800d-44f3-a33e-15d476d973be",
@@ -5348,7 +5348,7 @@
         }
       ],
       "correctAnswerId": "5fd34829-8991-46a0-b8cc-ffd92e34e7fe",
-      "hint": ".     float tong = 0;, tinhtich(, . float tinhtich"
+      "hint": "Phần gây lỗi: tinhtong gọi tinhtich trước khi tinhtich được định nghĩa (tinhtich nằm phía dưới, không có nguyên mẫu)."
     },
     {
       "id": "3d41d214-0f96-48bb-8915-422c1b587f3b",
@@ -5372,7 +5372,7 @@
         }
       ],
       "correctAnswerId": "4b4a39a7-ceb6-4e6f-acd2-a32c9c833c5b",
-      "hint": ".        int n = 4, k;, c. 1.47475"
+      "hint": "n = 4: thêm tinhtong(4) = 1+2+6+24 = 33 → 1/33 ≈ 0.0303. S = 1.44444 + 0.0303 ≈ 1.47475."
     },
     {
       "id": "cb58be21-5130-40ee-8399-3a7e80b11f4a",
@@ -5396,7 +5396,7 @@
         }
       ],
       "correctAnswerId": "adccfc37-b237-49f6-ba57-e3019d205390",
-      "hint": ".            s = 1;, .        cout << s;"
+      "hint": "Mỗi vòng for sau khi cộng đều gán s = 1 nên kết quả cuối cùng s = 1."
     },
     {
       "id": "8647fb78-0b34-44c6-9ec9-3eecced4e9ee",
@@ -5420,7 +5420,7 @@
         }
       ],
       "correctAnswerId": "ef58ec71-f96a-4a89-8480-dac0eac80083",
-      "hint": "j, <= i/2;"
+      "hint": "Vòng for j chỉ chứa dòng 6; dòng 7 nằm ngoài (thụt lề gây nhầm). Chỉ i = 4 thỏa: j chạy 2 → tong = 3, thoát vòng với j = 3 → tong == j → in 4. In '4 '."
     },
     {
       "id": "93fe9c3a-feb2-4200-bfee-b235e22e8465",
@@ -5444,7 +5444,7 @@
         }
       ],
       "correctAnswerId": "5b5ff90e-5a1e-4c40-915c-c46a0715743d",
-      "hint": "<= i;"
+      "hint": "Sau vòng j (2..i), j = i+1 và tong = 1 + tổng các ước trong 2..i. Với i = 2, 3, 5 (nguyên tố): tong = 1 + i = i+1 = j → in. i = 4: tong = 7 ≠ 5. In '2 3 5 '."
     },
     {
       "id": "d0a99d4a-a69a-41ab-9aef-40213b146f18",
@@ -5468,7 +5468,7 @@
         }
       ],
       "correctAnswerId": "63517d9d-a6f9-43a9-9841-ea3a7142c62c",
-      "hint": "int n = 3, k= 2;"
+      "hint": "th(k,n) = C(n,k) = n!/(k!(n-k)!). n=3, k=2: 6/(2·1) = 3."
     },
     {
       "id": "5b59f7a7-3feb-488c-b8fa-2b66cf2d4923",
@@ -5492,7 +5492,7 @@
         }
       ],
       "correctAnswerId": "2b55a357-7ffc-4a68-b50c-dc7633a91033",
-      "hint": "int n = 4, k= 2;"
+      "hint": "n=4, k=2: 24/(2·2) = 6."
     }
   ]
 }

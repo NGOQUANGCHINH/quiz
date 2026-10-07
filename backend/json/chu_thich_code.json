@@ -1,0 +1,1248 @@
+{
+  "_meta": {
+    "note": "Chú thích cho các câu có code, khóa là id câu hỏi trong file JSON gốc.",
+    "quote_note": "Đề dùng dấu nháy kiểu Word (“ ”), khi chạy thật phải thay bằng dấu nháy thẳng \". Chuỗi trong code được hiểu như vậy trừ khi ghi chú nói là lỗi.",
+    "status_values": [
+      "Chạy bình thường",
+      "Lỗi biên dịch",
+      "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "Hành vi không xác định",
+      "Đáp án trong file cần xem lại"
+    ],
+    "count": 203
+  },
+  "annotations": {
+    "7bfba27d-5914-47a1-9e67-a4c757231bb0": {
+      "stt": 1,
+      "cauHoi": "#include <iostream.h> – lệnh #include dùng để làm gì?",
+      "status": "Chạy bình thường",
+      "explanation": "#include chèn nội dung file thư viện iostream.h (khai báo cout/cin) vào chương trình trước khi biên dịch. Chạy: in ra Dai hoc Kinh doanh va Cong nghe Ha Noi rồi return 0."
+    },
+    "cecfbd8d-95fd-43f7-9a73-1d5020a1a997": {
+      "stt": 2,
+      "cauHoi": "Một chương trình C++ có bao nhiêu hàm main?",
+      "status": "Chạy bình thường",
+      "explanation": "Chương trình chỉ có đúng 1 hàm main (điểm bắt đầu chạy). Chạy: in chuỗi 'Dai hoc Kinh doanh va Cong nghe Ha Noi'."
+    },
+    "83129f7e-9530-4e27-a9a2-81e29d9437f8": {
+      "stt": 3,
+      "cauHoi": "Khai báo biến số nguyên: signed songuyen; ...",
+      "status": "Chạy bình thường",
+      "explanation": "'signed songuyen;' hợp lệ (signed = signed int). Các lựa chọn khác sai: 'byte' không phải kiểu chuẩn C++; 'unsigned long;' và 'signed int;' thiếu tên biến."
+    },
+    "3a687d5f-7d4c-4720-b74b-d520071269f8": {
+      "stt": 4,
+      "cauHoi": "Khai báo số nguyên có dấu: short number; ...",
+      "status": "Chạy bình thường",
+      "explanation": "'short number;' là số nguyên có dấu. 'unsigned short' là không dấu; 'unsigned long;' thiếu tên biến; 'signed byte' sai vì không có kiểu byte."
+    },
+    "58b14f37-9ead-408b-90ff-05be17ed6bcf": {
+      "stt": 5,
+      "cauHoi": "Khai báo SAI: char kytu = “A”; ...",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: char kytu = “A”; – “A” là chuỗi (2 byte, có '\\0'), không gán được cho char. Phải viết 'A' (nháy đơn). Các dòng còn lại hợp lệ."
+    },
+    "5c5f342f-ae98-4a70-898a-017f642b38ff": {
+      "stt": 6,
+      "cauHoi": "Lệnh báo lỗi khi biên dịch: signed char = -1782; ...",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: signed char = -1782; – thiếu tên biến. Các dòng khác biên dịch được: signed int i = 2.9; (cắt thành 2, chỉ cảnh báo); float y = y * 2; (dùng y chưa khởi tạo, không lỗi biên dịch)."
+    },
+    "4a760e07-38eb-4ffe-9eab-51fc3046d957": {
+      "stt": 7,
+      "cauHoi": "Tên KHÔNG hợp lệ: int object.oriented; ...",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: int object.oriented; – tên biến không được chứa dấu chấm. _static, average_weight_of_large_size, variable đều hợp lệ."
+    },
+    "9dfd259c-4f6e-4643-936c-3b19cd63e21c": {
+      "stt": 8,
+      "cauHoi": "Khai báo hợp lệ: int gross$income; ...",
+      "status": "Chạy bình thường",
+      "explanation": "int gross$income; được trình biên dịch phổ biến (GCC, MSVC) chấp nhận. Sai: 'default' là từ khóa; '2by2' bắt đầu bằng số; 'object.oriented' có dấu chấm."
+    },
+    "e1df2d2c-5ba0-4fde-b1d9-f32bb2ed9dfe": {
+      "stt": 9,
+      "cauHoi": "Câu nào biểu diễn địa chỉ của biến p? (&p)",
+      "status": "Chạy bình thường",
+      "explanation": "&p là địa chỉ của biến p. *p là giá trị mà p trỏ tới; 'p = new int;' cấp phát; 'delete p;' giải phóng."
+    },
+    "4e9ffee9-bd71-4caf-89cd-3cf33871d239": {
+      "stt": 10,
+      "cauHoi": "for (i=1; i<=5; i++) cout << i < “, “; ... LAUNCH!",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: (1) cout << i < “, “ – dùng '<' thay vì '<<'; (2) “LAUNCH! << endl; thiếu dấu \" đóng chuỗi. Nếu sửa: i chạy 1..5, in '1, 2, 3, 4, 5, LAUNCH!'."
+    },
+    "e62e63a6-ab04-42cd-9c68-b27a6842e329": {
+      "stt": 11,
+      "cauHoi": "for (i=5; i>=1; i++) ... LAUNCH!",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Phần gây sai: for (int i = 5; i >= 1; i++) – i++ làm i tăng nên điều kiện i >= 1 luôn đúng → vòng lặp vô hạn. Ngoài ra còn lỗi 'i < “, “' và thiếu dấu \" đóng chuỗi. Đáp án '5, 4, 3, 2, 1, LAUNCH!' chỉ đúng nếu sửa thành i--.",
+      "answerWarning": "Đáp án trong file chỉ đúng khi sửa i++ thành i--."
+    },
+    "ee651166-1c47-4242-9688-03dc5c1f3ff4": {
+      "stt": 12,
+      "cauHoi": "for i=1..4, if (i==3) continue; ... END",
+      "status": "Chạy bình thường",
+      "explanation": "i chạy 1→4 (i<5). Khi i==3 thì continue, bỏ qua lệnh in. In: '1, 2, 4, END' (không có 5 vì i<5)."
+    },
+    "60f28d7d-446a-4ccf-8057-118ddb7da9a4": {
+      "stt": 13,
+      "cauHoi": "int a=5; ++a; cout << a; (in ra a)",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: int main() thiếu dấu { mở thân hàm. Nếu sửa: a=5, ++a → a=6, in 6."
+    },
+    "4b5bca17-ee27-49b2-ae9a-f8de02ffaa4f": {
+      "stt": 14,
+      "cauHoi": "int a=5; a++; cout << a;",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: int main() thiếu dấu {. Nếu sửa: a=5, a++ → a=6; câu lệnh a++; đứng riêng nên a=6, in 6."
+    },
+    "8a248561-4c71-45ca-8262-ae5d29c3c8de": {
+      "stt": 15,
+      "cauHoi": "cout << a++;",
+      "status": "Chạy bình thường",
+      "explanation": "cout << a++ : hậu tố – in giá trị cũ (5) rồi mới tăng a lên 6. Kết quả in: 5."
+    },
+    "d0408562-071f-4ddf-bf9a-ce81112794b4": {
+      "stt": 16,
+      "cauHoi": "cout << ++a;",
+      "status": "Chạy bình thường",
+      "explanation": "cout << ++a : tiền tố – tăng a lên 6 trước rồi mới in. Kết quả in: 6."
+    },
+    "fb5dc446-9158-46c7-9164-508aeec3c6ff": {
+      "stt": 17,
+      "cauHoi": "strlen(hoten) rồi cout << ++l",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Chuỗi 'Dai hoc Kinh doanh va Cong nghe Ha noi' có 38 ký tự nên strlen = 38; sau ++l (tăng trước) l = 39, in 39. Phần ' = 38 CHAR' ở cuối dòng khai báo là chú thích bị dính vào code, gây lỗi cú pháp nếu giữ nguyên.",
+      "answerWarning": "Tôi tính ra kết quả là 39, không phải 38 như đáp án trong file."
+    },
+    "db2cae2f-9c7a-430d-b782-d71d9a9d587b": {
+      "stt": 18,
+      "cauHoi": "class nhanvien/quanly: setLuong(100), phucap = getLuong()*0.5",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: (1) thiếu ; sau dấu } đóng class nhanvien; (2) thiếu ; sau 'phucap = getLuong() * 0.5'. Nếu sửa: quanly q gọi constructor quanly → setLuong(100) → phucap = 100*0.5 = 50, in 50. nhanvien không cần constructor vì trình biên dịch tự sinh constructor mặc định."
+    },
+    "0b9f7410-eda0-4198-bbf0-23b40c1631c8": {
+      "stt": 19,
+      "cauHoi": "nhanvien A; A.setLuong(700); A.tangLuong(10)",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Đề thiếu các lệnh sau 'nhanvien A;' (theo gợi ý: A.setLuong(700); A.tangLuong(10);). Chạy: luong = 700 rồi cộng 10 → 710. Class thiếu ; sau dấu } đóng."
+    },
+    "981d4891-4e98-453a-8dc7-bd71c0ec3d94": {
+      "stt": 20,
+      "cauHoi": "nhanvien A, *p; p->setLuong(100); cout << p->luong;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: cout << p->luong; – luong mặc định là private (khai báo trước 'public:') nên không truy cập được từ main. Ngoài ra class thiếu ; sau }. Nếu luong là public thì in 100."
+    },
+    "2ad1ff6b-a68c-4458-a12f-f22fa1ab1104": {
+      "stt": 21,
+      "cauHoi": "switch (thu) – nhập thu = 1",
+      "status": "Chạy bình thường",
+      "explanation": "thu = 1 không khớp case 2 và 3 → chạy nhánh default, in 'Ngay nghi'."
+    },
+    "138fdf09-5546-4ce5-8611-554906716dc4": {
+      "stt": 22,
+      "cauHoi": "switch (thu) – nhập thu = 2",
+      "status": "Chạy bình thường",
+      "explanation": "thu = 2 → case 2: in 'Van, Toan' rồi break."
+    },
+    "1a23dea1-4d8b-40b1-91da-c2816f1b0318": {
+      "stt": 23,
+      "cauHoi": "switch (thu) – nhập thu = 3",
+      "status": "Chạy bình thường",
+      "explanation": "thu = 3 → case 3: in 'Hoa, Ly' rồi break."
+    },
+    "6f469ae0-cbf5-4546-8df4-c01f30f992fe": {
+      "stt": 24,
+      "cauHoi": "enum mausac {DEN, LAM, LUC, TRANG}; color = DEN",
+      "status": "Chạy bình thường",
+      "explanation": "enum đánh số từ 0: DEN=0, LAM=1, LUC=2, TRANG=3. color=DEN (0) khớp case 0 → t = 'Mau trang'. In: Mau trang."
+    },
+    "fd0ffb74-79ca-4b12-9478-725e44c02ccd": {
+      "stt": 25,
+      "cauHoi": "enum mausac {DEN = 3, ...}; color = DEN",
+      "status": "Chạy bình thường",
+      "explanation": "enum { DEN = 3, LAM, LUC, TRANG } → DEN=3, LAM=4, LUC=5, TRANG=6. color=DEN (3) khớp case 3 → 'Mau luc'."
+    },
+    "752462ec-5e39-4016-97d1-0a2e59b536ba": {
+      "stt": 26,
+      "cauHoi": "for i<10, s+=i; in s",
+      "status": "Chạy bình thường",
+      "explanation": "i chạy 0..9 (i<10): s = 0+1+...+9 = 45."
+    },
+    "d43b53ed-9ebb-4089-9499-cfb2e2ed37eb": {
+      "stt": 27,
+      "cauHoi": "for i<=10, s+=i",
+      "status": "Chạy bình thường",
+      "explanation": "i chạy 0..10 (i<=10): s = 0+1+...+10 = 55."
+    },
+    "f65a5c7f-d6f0-4e20-bba9-5f0fafc5f0fd": {
+      "stt": 28,
+      "cauHoi": "for i=1; i<10; cout << i << end;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: cout << i << end; – (1) i khai báo trong for nên ngoài vòng lặp không còn tồn tại; (2) 'end' không phải endl, chưa khai báo."
+    },
+    "756f0633-9c9f-459e-90f7-861e9ff71765": {
+      "stt": 29,
+      "cauHoi": "int i=0; int s=0; for (int i...) cout << i << end;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: 'end' chưa khai báo (phải là endl). Nếu sửa thành endl thì in i = 0 (i ngoài vòng for, vòng for dùng i riêng bên trong)."
+    },
+    "c8d1d5ef-7f20-4e01-a0ab-271f90a47797": {
+      "stt": 30,
+      "cauHoi": "do { i += 1; } while (i == 0); in i",
+      "status": "Chạy bình thường",
+      "explanation": "do-while chạy thân ít nhất 1 lần: i = 0 → 1. Kiểm tra (i == 0) sai → thoát. In 1."
+    },
+    "51db03d8-100d-4e15-aeaf-ede9a54529a3": {
+      "stt": 31,
+      "cauHoi": "Khối lệnh sai ở dòng nào? do-while (i == 0)",
+      "status": "Chạy bình thường",
+      "explanation": "Không có dòng nào sai. do { i += 1; } while (i == 0); i=0→1, điều kiện sai nên thoát. In 1."
+    },
+    "1ff7d496-3f25-4a5e-9012-19d545e20a69": {
+      "stt": 32,
+      "cauHoi": "s sau for(;;) if (i==3) break; s = s + i",
+      "status": "Chạy bình thường",
+      "explanation": "for(;;) lặp vô hạn đến khi i == 3 thì break. Lần lượt s += 0, 1, 2 → s = 3. Đoạn code không có cout nên không in gì (gợi ý trong đề: thiếu cout << s;)."
+    },
+    "e54c54ad-dabd-4820-b6fa-142b1bf081ca": {
+      "stt": 33,
+      "cauHoi": "for(;;) dòng 4: if i == 3 break; – sai ở dòng nào",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: dòng 4 'if i == 3 break;' – điều kiện của if phải nằm trong ngoặc đơn: if (i == 3) break;"
+    },
+    "0e642eeb-ba7c-479d-ae84-7a67d759efa0": {
+      "stt": 34,
+      "cauHoi": "double i=0,n=10; while: double s = s + n; cout << s;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: cout << s; nằm ngoài vòng while, mà s chỉ khai báo bên trong while (double s = s + n;) nên ngoài vòng không tồn tại. Ngoài ra 'double s = s + n' dùng s chính nó khi chưa khởi tạo."
+    },
+    "407c4052-c635-4c48-879b-29b457fcd893": {
+      "stt": 35,
+      "cauHoi": "double i=0,n=10,s=0; while: double s = s + n;",
+      "status": "Chạy bình thường",
+      "explanation": "s=0 khai báo ngoài. Trong while, 'double s = s + n;' tạo biến s mới (che s ngoài, giá trị chưa xác định) nên s ngoài không đổi. Vòng while chạy 10 lần nhưng không ảnh hưởng s ngoài → in 0."
+    },
+    "b141d8aa-607f-4f03-9f41-eb95b57e2637": {
+      "stt": 36,
+      "cauHoi": "length(a) macro, tìm tk=51 trong mảng – chương trình làm gì?",
+      "status": "Chạy bình thường",
+      "explanation": "length(mang) = 24 byte / 4 byte = 6 phần tử. Duyệt tuyến tính tìm tk = 51: gặp ở i = 3 → check = true, break. In 'Found 51 at index 3'. Chương trình tìm một phần tử trong mảng."
+    },
+    "64510d48-a656-4417-9702-fa3b3bf49b30": {
+      "stt": 37,
+      "cauHoi": "length(a) macro, if (mang[i] = tk) – sai ở dòng nào?",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: dòng 1 '1.define length(a)...' thiếu dấu # (#define); dòng 7 'if (mang[i] = tk)' dùng phép gán '=' thay vì so sánh '=='."
+    },
+    "cafd4d99-c225-4d24-8527-a8dbedd73426": {
+      "stt": 38,
+      "cauHoi": "đếm ký tự 'p' trong “peter pan put a pepper into pen”",
+      "status": "Chạy bình thường",
+      "explanation": "Đếm ký tự 'p' trong 'peter pan put a pepper into pen': peter(1) pan(1) put(1) pepper(3) pen(1) = 7. 'continue' bỏ qua ký tự khác 'p'. In 7."
+    },
+    "9f0e4f63-db37-4d8d-bd05-aa674dfa6ff6": {
+      "stt": 39,
+      "cauHoi": "đếm ký tự 'd' trong “hoi dong dang di den huyen dinh dong”",
+      "status": "Chạy bình thường",
+      "explanation": "Đếm ký tự 'd' trong 'hoi dong dang di den huyen dinh dong': dong(1) dang(1) di(1) den(1) dinh(1) dong(1) = 6."
+    },
+    "a2ee2151-f982-4d9e-8475-03a41fbaf4cc": {
+      "stt": 40,
+      "cauHoi": "void indl (int *a) { cout << *a; }",
+      "status": "Chạy bình thường",
+      "explanation": "indl(&a) truyền địa chỉ a; trong hàm *a là giá trị 10. In 10."
+    },
+    "34c4fd46-fc10-4e19-8bf3-8583723fc4f4": {
+      "stt": 41,
+      "cauHoi": "indl: cout << ++*a;",
+      "status": "Chạy bình thường",
+      "explanation": "++*a tăng giá trị mà a trỏ tới (biến a trong main) lên 11 rồi in. In 11."
+    },
+    "ca563a49-a18c-42d4-aaba-6e912f25d39c": {
+      "stt": 42,
+      "cauHoi": "indl(int a[4]): cout << *(p++);",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Phần gây lỗi: indl(&a) – a là mảng int[4], &a có kiểu con trỏ-tới-mảng, không chuyển được sang int* (tham số int a[4]) → lỗi biên dịch. Nếu gọi indl(a): p = &a[1]; *(p++) in giá trị cũ a[1] = 2 rồi p mới tăng.",
+      "answerWarning": "Đáp án 2 chỉ đúng khi gọi indl(a) thay cho indl(&a)."
+    },
+    "9e2468e3-5c6d-4484-9cd7-271978e8a4be": {
+      "stt": 43,
+      "cauHoi": "indl: cout << ++*p;",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Phần gây lỗi: indl(&a) (như câu trên) không biên dịch được. Nếu gọi indl(a): p = &a[1] (giá trị 4); ++*p tăng giá trị đó lên 5 rồi in 5.",
+      "answerWarning": "Đáp án 5 chỉ đúng khi gọi indl(a)."
+    },
+    "9dbf9d1e-4863-4693-a579-b539b60a9450": {
+      "stt": 44,
+      "cauHoi": "indl: cout << *++p;",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Phần gây lỗi: indl(&a) không biên dịch được. Nếu gọi indl(a): p = &a[1]; *++p tăng p lên &a[2] rồi lấy giá trị = 6.",
+      "answerWarning": "Đáp án 6 chỉ đúng khi gọi indl(a)."
+    },
+    "d4722991-1892-4720-9d9b-3e2e3d5b5eff": {
+      "stt": 45,
+      "cauHoi": "indl(int &a) { a--; } int x = 5",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: 'int x = 5' thiếu dấu ;. Nếu sửa: indl(int &a) nhận tham chiếu nên a-- làm x = 4, in 4."
+    },
+    "e7501997-6728-4764-a026-4cf1b1ab9c03": {
+      "stt": 46,
+      "cauHoi": "indl(int *a) { a--; } indl(x)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: indl(x) truyền int vào tham số int* (phải indl(&x)) và 'int x = 5' thiếu dấu ;."
+    },
+    "d540d142-5df1-4148-910e-11df48b30105": {
+      "stt": 47,
+      "cauHoi": "strcmp(str,“Juliet”) == 0 – nhập Juliet",
+      "status": "Chạy bình thường",
+      "explanation": "Nhập 'Juliet': strcmp(str, \"Juliet\") == 0 (hai chuỗi bằng nhau) → in 'Same here'."
+    },
+    "60160633-17a5-45cf-a7ae-a1916aabfc23": {
+      "stt": 48,
+      "cauHoi": "strcmp(str,“Juliet”) == 0 – nhập Rome",
+      "status": "Chạy bình thường",
+      "explanation": "Nhập 'Rome': khác 'Juliet' → strcmp != 0 → chạy else, in str = 'Rome'."
+    },
+    "6d4bf1cc-ebb7-4be9-917c-d4969a785180": {
+      "stt": 49,
+      "cauHoi": "strcmp(...) = 0 – nhập Alvata",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: if ( strcmp(str,”Juliet”) = 0 ) – dùng '=' (gán) thay vì '=='; không thể gán cho kết quả hàm."
+    },
+    "ac6bddc2-5fe2-4900-8626-f6d7e70bd3e1": {
+      "stt": 50,
+      "cauHoi": "strcmp(str,“Rome”) == 0 – nhập Rome",
+      "status": "Chạy bình thường",
+      "explanation": "Nhập 'Rome': strcmp(str, \"Rome\") == 0 → in 'Same here'."
+    },
+    "90758e8c-e87f-4164-8831-0c9333752ef7": {
+      "stt": 51,
+      "cauHoi": "int i = 10; int n = ++i%5",
+      "status": "Chạy bình thường",
+      "explanation": "++i tăng trước: i = 11; n = 11 % 5 = 1. Kết quả i = 11, n = 1. (Dòng 'int n = ++i%5' trong đề thiếu dấu ;.)"
+    },
+    "4c63c76c-1ee7-43c8-b3fe-696ce7c6294d": {
+      "stt": 52,
+      "cauHoi": "str = ((k % 2 == 0) ? “true” : “false”;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: 'str = ((k % 2 == 0) ? “true” : “false”;' – (1) k khai báo trong for nên ngoài vòng lặp không tồn tại; (2) thiếu dấu ngoặc đóng."
+    },
+    "c12c85a3-5cb3-406b-9d6b-2a7708165f84": {
+      "stt": 53,
+      "cauHoi": "str = ((s % 2) == 0) ? “true” : “false”;",
+      "status": "Chạy bình thường",
+      "explanation": "Mỗi vòng k được gán lại = 0 rồi k += i nên k = i; s = k. Cuối cùng s = 4. (s % 2) == 0 đúng → str = 'true'."
+    },
+    "ff3dd93f-e5cb-4239-bcd8-076ba505d4ea": {
+      "stt": 54,
+      "cauHoi": "seasonTemp, functionM (tìm max)",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: int functionM (temp[row][col]) – tham số thiếu kiểu (phải int temp[row][col]). Nếu sửa: hàm tìm số lớn nhất của mảng → 38."
+    },
+    "c91dc4a4-ccd9-4b1a-8ced-5ba04c3e2190": {
+      "stt": 55,
+      "cauHoi": "functionM, if (temp[i][j] < m), m = 0",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Lỗi tham số thiếu kiểu như câu trên. Nếu sửa: m = 0 và chỉ cập nhật khi phần tử < m; mọi phần tử đều dương nên m giữ 0 → in 0."
+    },
+    "f6232d55-cba8-4c84-a176-ceb79666fcde": {
+      "stt": 56,
+      "cauHoi": "function, m += temp[i][j] khi > m, m = 0",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: hàm khai báo tên 'function' nhưng main gọi functionM (chưa định nghĩa); tham số thiếu kiểu. Nếu sửa tên: m += phần tử khi phần tử > m → 26, 60, rồi không phần tử nào > 60 → m = 60."
+    },
+    "692bae1f-ce70-4a00-a9f5-3df47b5612e7": {
+      "stt": 57,
+      "cauHoi": "function, m = temp[0][0], m += khi < m",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: tên hàm 'function' ≠ functionM gọi trong main; tham số thiếu kiểu. Nếu sửa: m khởi tạo 26 rồi m += phần tử khi phần tử < m, cộng dồn lần lượt → 264."
+    },
+    "3294f62a-d7f2-471d-9993-cbc563fd5bdc": {
+      "stt": 58,
+      "cauHoi": "function, m = 38, tìm nhỏ nhất",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: tên hàm 'function' ≠ functionM; tham số thiếu kiểu. Nếu sửa: m khởi tạo 38, tìm số nhỏ nhất → 13."
+    },
+    "848f5ca2-3849-409b-b155-29a50b175f2a": {
+      "stt": 59,
+      "cauHoi": "string message = expletive + PG13",
+      "status": "Chạy bình thường",
+      "explanation": "Toán tử + nối hai string: 'Expletive ' (có khoảng trắng cuối) + 'deleted' = 'Expletive deleted'."
+    },
+    "751f2856-eeae-4a1e-8629-a8e54c887c45": {
+      "stt": 60,
+      "cauHoi": "BinSearch(“Sydney”, cities, 4, strcmp) – in ra?",
+      "status": "Chạy bình thường",
+      "explanation": "Tìm kiếm nhị phân: bot=0, top=3 → mid=1 ('London' < 'Sydney') → bot=2; mid=2 'Sydney' khớp → trả về 2. In 2. (Lưu ý điều kiện while (bot < top) bỏ sót trường hợp bot == top.)"
+    },
+    "91883f8a-74b0-425e-9a4c-786005af70b0": {
+      "stt": 61,
+      "cauHoi": "BinSearch – chương trình thực hiện công việc gì?",
+      "status": "Chạy bình thường",
+      "explanation": "BinSearch là tìm kiếm nhị phân một chuỗi trong mảng chuỗi đã sắp xếp; hàm so sánh strcmp được truyền qua con trỏ hàm."
+    },
+    "dd1de442-2b20-4465-b5ec-da7557e44746": {
+      "stt": 62,
+      "cauHoi": "functionSw(int &x, int &y)",
+      "status": "Chạy bình thường",
+      "explanation": "functionSw nhận tham chiếu (int &x, int &y) nên hoán đổi thật sự i và j. In '20, 10'."
+    },
+    "e163b436-8e75-41c8-b749-6eff54a0f9c6": {
+      "stt": 63,
+      "cauHoi": "functionSw(int x, int y)",
+      "status": "Chạy bình thường",
+      "explanation": "Truyền theo giá trị (int x, int y): hoán đổi trên bản sao, i và j không đổi. In '10, 20'."
+    },
+    "c6399779-f635-4b5e-81cb-964812839523": {
+      "stt": 64,
+      "cauHoi": "functionS w (int *x, int *y)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: (1) tên hàm 'functionS w' có khoảng trắng; (2) gọi functionSw(i,j) truyền int vào tham số int* (phải functionSw(&i,&j))."
+    },
+    "fd300f10-5f0f-4525-873b-b584e146c4b7": {
+      "stt": 65,
+      "cauHoi": "ReChar – chương trình thực hiện công việc gì?",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "ReChar cấp phát mảng mới và chép ngược chuỗi: đảo ngược chuỗi ký tự. Lỗi nhỏ trong đề: char *p = 178892”; thiếu dấu \" mở (phải \"178892\")."
+    },
+    "c90c2686-9910-4b4f-96a4-6df69954aef7": {
+      "stt": 66,
+      "cauHoi": "ReChar(“178892”) – hiển thị kết quả nào?",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Đảo ngược '178892' → '298871'. Lỗi nhỏ trong đề: thiếu dấu \" mở ở char *p = 178892”;."
+    },
+    "b160c995-0a55-4dd2-bdc4-eeb81f2d2e23": {
+      "stt": 67,
+      "cauHoi": "char ReChar (char str) – sai ở dòng nào?",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: dòng 1 'char ReChar (char str)' phải là char* ReChar (char* str); dòng 3 'char ketqua = new char[len+1]' phải là char* ketqua. Dòng 9 cũng thiếu dấu \" mở trong char p[] = 178892”."
+    },
+    "09373bc3-8581-4939-8438-4ff201fcd49f": {
+      "stt": 68,
+      "cauHoi": "pointer = &val1; ... val1 * val2",
+      "status": "Chạy bình thường",
+      "explanation": "pointer trỏ val1 rồi gán 10; trỏ val2 rồi gán 20. val1 * val2 = 200."
+    },
+    "7b4a2eb2-bf09-4f3d-8ec5-8f87a8ce6e58": {
+      "stt": 69,
+      "cauHoi": "pointer = val1; ... (gán không có &)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: pointer = val1; và pointer = val2; – gán int cho con trỏ; phải là pointer = &val1;"
+    },
+    "41d14407-9af6-4d12-b150-0706f71521eb": {
+      "stt": 70,
+      "cauHoi": "p1, p2 – tại dòng 6, val2 có giá trị bao nhiêu?",
+      "status": "Chạy bình thường",
+      "explanation": "Dòng 5: *p1 = 10 → val1 = 10. Dòng 6: *p2 = *p1 → val2 = 10. Sau dòng 6, val2 = 10."
+    },
+    "6c22db70-d6c3-46c2-b9c7-620333d2778b": {
+      "stt": 71,
+      "cauHoi": "p1 = p2; *p2 = 20; cout << *p1",
+      "status": "Chạy bình thường",
+      "explanation": "Dòng 7: p1 = p2 (cùng trỏ val2). Dòng 8: *p2 = 20 → val2 = 20. *p1 chính là val2 → in 20."
+    },
+    "6b4bb014-6e85-4ad1-8ea8-56a5e28af07b": {
+      "stt": 72,
+      "cauHoi": "cout << *p1 * val2",
+      "status": "Chạy bình thường",
+      "explanation": "p1 trỏ val2 (=20): *p1 * val2 = 20 * 20 = 400."
+    },
+    "9499f7ef-176b-4c91-bdc6-a31062e94bdd": {
+      "stt": 73,
+      "cauHoi": "number[5], p++, *p += 60",
+      "status": "Chạy bình thường",
+      "explanation": "p = number; p++ → p trỏ number[1] (=20); *p += 60 → 80. In number[1] = 80."
+    },
+    "a3a40300-595b-40ba-abfe-05fc72fc1e0a": {
+      "stt": 74,
+      "cauHoi": "*p = number + 3; cout << number[3] / 2",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: *p = number + 3; – vế trái *p là int, vế phải number + 3 là con trỏ (int*) nên không gán được."
+    },
+    "866bf99b-a2af-4232-ad4e-568fe76a1566": {
+      "stt": 75,
+      "cauHoi": "bonus, yourSale = 3000, target = 2500",
+      "status": "Chạy bình thường",
+      "explanation": "yourSale (3000) >= target (2500) → bonus = 100 + 0.01*(3000-2500) = 105."
+    },
+    "5f7955a8-d10c-4269-9d17-bef727fa352a": {
+      "stt": 76,
+      "cauHoi": "bonus = 0 (thiếu ;), yourSale = 3000",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: 'bonus = 0' ở nhánh else thiếu dấu ; ở cuối lệnh."
+    },
+    "cf23d55c-9320-4042-802e-0c097a2f8df7": {
+      "stt": 77,
+      "cauHoi": "bonus, yourSale = 2400, target = 2500",
+      "status": "Chạy bình thường",
+      "explanation": "2400 < 2500 → điều kiện sai, chạy nhánh else: bonus = 0. (Lưu ý đề dùng dấu gạch dài ‘–’ trong yourSale – target, phải là dấu trừ '-' khi biên dịch.)"
+    },
+    "12b8078c-9e83-4ae6-bd27-82ea1b927e1c": {
+      "stt": 78,
+      "cauHoi": "balance = 10, while (balance < goal)",
+      "status": "Chạy bình thường",
+      "explanation": "Vòng 1: 10 + 5 = 15, lãi 0.015 → 15.015. Vòng 2: 15.015 + 5 = 20.015, lãi 0.020015 → 20.035015, thoát vì ≥ 20. balance ≈ 20.035."
+    },
+    "b71e31fa-758e-42f2-b135-00c4895dc60f": {
+      "stt": 79,
+      "cauHoi": "balance = 20, while (balance <= goal)",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "balance = 20 thỏa balance <= goal nên vào vòng lặp: 20 + 5 = 25, lãi 0.025 → 25.025; vòng lặp dừng. Kết quả đúng là 25.025.",
+      "answerWarning": "Đáp án trong file là 20.025; tôi tính ra 25.025 (không có trong các lựa chọn)."
+    },
+    "1bba29d2-8393-460d-8082-c9a520e8880b": {
+      "stt": 80,
+      "cauHoi": "balance = 10, years ++ (thiếu ;)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: 'years ++' thiếu dấu ; ở cuối lệnh."
+    },
+    "09d40dd4-1cbe-459f-9a57-7f1eebebc7ae": {
+      "stt": 81,
+      "cauHoi": "do-while, balance = 20 – balance = ?",
+      "status": "Chạy bình thường",
+      "explanation": "do-while chạy thân 1 lần: 20 + 5 = 25, lãi 0.025 → 25.025, years = 1. Điều kiện (25.025 < 20) sai → thoát. balance = 25.025."
+    },
+    "84aad502-9018-4efd-bacc-e16f64b3b998": {
+      "stt": 82,
+      "cauHoi": "do-while ... while (balance < goal)\"",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: '} while (balance < goal)\"' – có dấu \" thừa và thiếu dấu ; sau while."
+    },
+    "d43f7a75-83d6-47fc-ae81-e8b279ba1f53": {
+      "stt": 83,
+      "cauHoi": "do-while – years = ?",
+      "status": "Chạy bình thường",
+      "explanation": "do-while luôn chạy thân 1 lần rồi balance = 25.025 > 20 → thoát. years = 1."
+    },
+    "11271f9b-5c2e-4e4d-8ca5-30ab211e20a1": {
+      "stt": 84,
+      "cauHoi": "for s += i; s -= 10;",
+      "status": "Chạy bình thường",
+      "explanation": "Vòng for: s = 45. Sau đó s -= 10 → 35."
+    },
+    "a6af4f79-3fa4-4861-a521-2637f42e03ee": {
+      "stt": 85,
+      "cauHoi": "for { int s = 0; s += i; } cout << s;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: cout << s; – s khai báo trong thân for (int s = 0;) nên ngoài vòng lặp không tồn tại."
+    },
+    "551d740c-3704-4d3a-8bba-a7e35fcee101": {
+      "stt": 86,
+      "cauHoi": "for i<=10, s += i (s = ?)",
+      "status": "Chạy bình thường",
+      "explanation": "i chạy 0..10, s = 55."
+    },
+    "80fe0e8c-2da0-4a4c-9110-46b92a4d4d6d": {
+      "stt": 87,
+      "cauHoi": "for { s = 0; \"s += i; }",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: dòng '\"s += i;' có dấu \" thừa. Nếu bỏ: mỗi vòng s = 0 rồi s += i nên s = i; vòng cuối i = 9 → s = 9."
+    },
+    "bb957cf4-c56f-4c96-ac0f-9a27aba2886e": {
+      "stt": 88,
+      "cauHoi": "inc(&s, sizeof(s)) với int s = 1642",
+      "status": "Chạy bình thường",
+      "explanation": "sizeof(s) = 4 = sizeof(int) ≠ sizeof(char) → vào nhánh int: ++(*pint) → s = 1643."
+    },
+    "19da631f-eb77-454e-b9bd-48c196423836": {
+      "stt": 89,
+      "cauHoi": "inc: char c = 'y'; cout << s;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: biến khai báo là c (char c = 'y') nhưng dòng sau dùng s (inc(&s, sizeof(s)); cout << s;) – s chưa khai báo. Nếu dùng đúng c: ++ cho 'z'."
+    },
+    "5eee4ec7-fb03-49f9-8171-8587254a0aeb": {
+      "stt": 90,
+      "cauHoi": "inc (s); void << s",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: inc (s) thiếu tham số; pint = (char*)data gán char* cho int*; 'void << s' sai (phải cout)."
+    },
+    "7de896bb-6f8f-4409-9949-69e47b841318": {
+      "stt": 91,
+      "cauHoi": "test.exe: s += atof(argv[i]) – test 32.1 4 5.6",
+      "status": "Chạy bình thường",
+      "explanation": "Chạy 'test 32.1 4 5.6': argc = 4, argv[1..3] là các số. s = 32.1 + 4 + 5.6 = 41.7."
+    },
+    "ade0a3f4-1081-4e6a-9ff8-984a9d2946e7": {
+      "stt": 92,
+      "cauHoi": "test.exe: s -= atof(argv[i]) – test 40 5 12 7",
+      "status": "Chạy bình thường",
+      "explanation": "s = 40, rồi trừ lần lượt 5, 12, 7 → 16."
+    },
+    "27475d93-5f5f-401a-be4c-5bdbef6103dc": {
+      "stt": 93,
+      "cauHoi": "test.exe: s *= atof(argv[1]) – test 3 3",
+      "status": "Chạy bình thường",
+      "explanation": "test 3 3: lặp i < 3 (3 lần) nhân s với 3: 1·3·3·3 = 27."
+    },
+    "10312d73-05e3-4f7e-9514-2c21e034ce3a": {
+      "stt": 94,
+      "cauHoi": "test.exe: i < argv[2]; cou << s",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: 'i < argv[2]' so sánh int với chuỗi (char*); và 'cou' viết sai (phải cout)."
+    },
+    "259eace4-987e-4d64-9e57-30e505e5c56e": {
+      "stt": 95,
+      "cauHoi": "add/sub/operation: m = (7,5,add); n = (20,m,minus)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: m = (7,5,add); – dấu phẩy trả về giá trị cuối là hàm add (con trỏ hàm), gán cho int là sai; n = (20,m,minus) tương tự. Phải gọi operation(7,5,add)."
+    },
+    "397be73c-85a5-4190-bf8f-0af2d65da641": {
+      "stt": 96,
+      "cauHoi": "n = (operation(20,3,minus),m,minus)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: m = (7,5,add); gán con trỏ hàm cho int (phải m = operation(7,5,add)); n = (operation(20,3,minus),m,minus) cũng sai."
+    },
+    "4800e648-d882-476c-a793-5bdb0f5430c4": {
+      "stt": 97,
+      "cauHoi": "operation (s,p[i],add), p[i] = i + 1",
+      "status": "Chạy bình thường",
+      "explanation": "p[i] = 1..5; s = operation(s,p[i],add) cộng dồn: 1+2+3+4+5 = 15."
+    },
+    "d7d4974f-2ce2-409f-9cd9-6ba52966381a": {
+      "stt": 98,
+      "cauHoi": "operation (s,p[i],add), p[i] = n--",
+      "status": "Chạy bình thường",
+      "explanation": "p[i] = n-- = 10, 9, 8, 7, 6; cộng dồn s = 40."
+    },
+    "71beb971-6e0d-48bc-94dd-800efd19b16d": {
+      "stt": 99,
+      "cauHoi": "number[3][3], i<3,j<3",
+      "status": "Chạy bình thường",
+      "explanation": "Điều kiện 'i < 3, j < 3' dùng toán tử phẩy nên chỉ j < 3 có tác dụng; i, j cùng tăng: number[0][0]=10, [1][1]=9, [2][2]=8 → s = 27."
+    },
+    "91c7f5b6-99dd-4b59-88e3-0c4ce44d2a2d": {
+      "stt": 100,
+      "cauHoi": "number[3][4], i<3,j<4",
+      "status": "Hành vi không xác định",
+      "explanation": "Điều kiện 'i < 3, j < 4' chỉ xét j < 4 → vòng lặp chạy 4 lần với i = 0..3. Lần thứ 4 ghi number[3][3] nhưng mảng chỉ có 3 hàng (vượt biên). Nếu bộ nhớ cho phép: 10+9+8+7 = 34.",
+      "answerWarning": "Tôi không suy ra được đáp án 14 như trong file; kết quả tính tay là 34 (và có truy cập ngoài mảng)."
+    },
+    "3b4874e0-c225-4b89-a4d5-4452e02b413e": {
+      "stt": 101,
+      "cauHoi": "hocsinh hs[3], in hs[1].hoten - hs[1].namsinh",
+      "status": "Chạy bình thường",
+      "explanation": "ten tăng 'A' → 'B' → 'C' qua inc(); hs[i] = (ten, 1990+i). hs[1] = ('B', 1991). In 'B - 1991'."
+    },
+    "44ac2aaa-3bf4-403b-ae83-b6128c3d9313": {
+      "stt": 102,
+      "cauHoi": "in hs[0].hoten - hs[1].namsinh",
+      "status": "Chạy bình thường",
+      "explanation": "hs[0].hoten = 'A'; hs[1].namsinh = 1991. In 'A - 1991'."
+    },
+    "1550ce20-09b9-43cb-a15a-24870a8e9748": {
+      "stt": 103,
+      "cauHoi": "p = (char)data;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: p = (char)data; ép void* thành char rồi gán cho char* – phải là (char*)data."
+    },
+    "ca1d1591-ef68-4d25-b42a-05c20edff9ad": {
+      "stt": 104,
+      "cauHoi": "hs+1, p->namsinh -= 20, in hs[1].namsinh",
+      "status": "Chạy bình thường",
+      "explanation": "p duyệt gán namsinh = 1991, 1992, 1993. Sau đó p = hs+1 (phần tử 1) trừ 20: 1992 - 20 = 1972."
+    },
+    "cf3fae04-bcb8-4f83-8417-8d422e06041c": {
+      "stt": 105,
+      "cauHoi": "in hs[0].namsinh",
+      "status": "Chạy bình thường",
+      "explanation": "hs[0].namsinh không bị thay đổi, vẫn là 1991."
+    },
+    "77603f0c-4a0b-45bd-8c40-0e3c5bf95e39": {
+      "stt": 106,
+      "cauHoi": "hocsinh *p, *p = hs+1; p.namsinh -= 20 – sai ở dòng nào",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: dòng 12 '*p = hs+1;' (phải p = hs+1); dòng 13 'p.namsinh' (p là con trỏ, phải p->namsinh hoặc (*p).namsinh); dòng 14 '*p.namsinh' (. ưu tiên cao hơn *, phải (*p).namsinh)."
+    },
+    "2498ac1c-9bbb-4028-a3ba-e354bc61e422": {
+      "stt": 107,
+      "cauHoi": "(*p).namsinh – sai ở dòng nào",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Chương trình đúng: (*p).namsinh tương đương p->namsinh; p = hs+1 hợp lệ. Chạy: gán 1991,1992,1993; p = hs+1; trừ 20 → in 1972. Không có dòng nào sai.",
+      "answerWarning": "Đáp án trong file là '9, 13, 14', nhưng các dòng này hợp lệ; đúng phải là 'Không sai ở dòng nào cả'."
+    },
+    "dd418ace-71e2-488d-bd54-1d943edd472d": {
+      "stt": 108,
+      "cauHoi": "hocsinh diem = 5, bac3(hs[1].diem,2)",
+      "status": "Chạy bình thường",
+      "explanation": "Mỗi hs[i].diem = 5. bac3(5,2) = 5*5 = 25. In '5, 25'. (Đoạn trích thiếu dấu } đóng main.)"
+    },
+    "3afc31bb-c896-4647-a214-830dd0c208eb": {
+      "stt": 109,
+      "cauHoi": "bac3(i,2) với i = 3",
+      "status": "Chạy bình thường",
+      "explanation": "i = 3 (không đổi vì bac3 nhận bản sao). bac3(3,2): lặp 2 lần a = a*a: 9 rồi 81. In '3, 81'."
+    },
+    "5bf6a1f4-a487-43b5-8902-322e4a4991e7": {
+      "stt": 110,
+      "cauHoi": "class nhanvien ... nhanvien A; (kết quả?)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Đoạn code trong đề bị cắt: main chỉ có 'nhanvien A;' rồi dừng, không đóng }. Không có lệnh in nào; luong là private nên không thể dùng A.luong. Theo đáp án của file: lỗi biên dịch."
+    },
+    "649a9350-1c14-4405-97d7-c8e0f1c596f4": {
+      "stt": 111,
+      "cauHoi": "void getLuong() { return luong; }",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: void getLuong() { return luong; } – hàm void không được trả về giá trị."
+    },
+    "8baf1ab4-f3e8-49d3-bf8d-5e977e484552": {
+      "stt": 112,
+      "cauHoi": "CRect cn (7,7), DT = height * width",
+      "status": "Chạy bình thường",
+      "explanation": "CRect cn(7,7) gọi constructor gán height = 7, width = 7. DT() = 7*7 = 49."
+    },
+    "b28c439b-f408-41f8-ad33-b827b37a6686": {
+      "stt": 113,
+      "cauHoi": "CRect, DT = height + width",
+      "status": "Chạy bình thường",
+      "explanation": "DT() trả về height + width = 7 + 7 = 14."
+    },
+    "aa19b29d-46e2-44e9-8641-beb7f8834120": {
+      "stt": 114,
+      "cauHoi": "CRect cn; (không có constructor mặc định)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: CRect cn; – lớp chỉ có constructor CRect(int,int), không có constructor mặc định (đã tự khai báo constructor thì trình biên dịch không sinh thêm)."
+    },
+    "0f38b21d-1817-4a57-bb17-0f8201dacd41": {
+      "stt": 115,
+      "cauHoi": "cn1 (3,4) và cn2 mặc định, cn1.DT() + cn2.DT()",
+      "status": "Chạy bình thường",
+      "explanation": "cn1(3,4) → DT = 12; cn2 dùng constructor mặc định (5,5) → DT = 25. Tổng 37."
+    },
+    "3e43513f-0367-4bd9-8c55-dc54c92b383c": {
+      "stt": 116,
+      "cauHoi": "cout << cn2.DT();",
+      "status": "Chạy bình thường",
+      "explanation": "cn2 dùng constructor mặc định height = width = 5; DT() = 25."
+    },
+    "4e1fa928-0dc3-4023-8c15-c4c5b124e2aa": {
+      "stt": 117,
+      "cauHoi": "cout << cn2.height * cn2.width;",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: cn2.height * cn2.width – height, width là private (mặc định) nên không truy cập được từ main."
+    },
+    "0ab7ac77-b47e-4f80-8e09-5cfc5b46b4f1": {
+      "stt": 118,
+      "cauHoi": "CRect con trỏ height, width, ~CRect – cn1 (3,4)",
+      "status": "Chạy bình thường",
+      "explanation": "Constructor cấp phát 2 int rồi gán 3 và 4. DT() = *height * *width = 12. Destructor delete giải phóng bộ nhớ khi cn1 hết phạm vi."
+    },
+    "567acecc-3820-4950-b2f9-8160d7116630": {
+      "stt": 119,
+      "cauHoi": "CRect con trỏ – sai ở dòng nào (22 dòng, delete)",
+      "status": "Chạy bình thường",
+      "explanation": "Không có dòng nào sai. Chạy: new int cho height, width, gán 3 và 4; DT() = 12; destructor delete cả hai."
+    },
+    "fede5c6e-420c-42b0-bd9b-739e7e84d968": {
+      "stt": 120,
+      "cauHoi": "CRect con trỏ, return (height * width), thiếu ; sau class",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: dòng 6 'return (height * width)' nhân hai con trỏ (phải *height * *width); dòng 7 '}' thiếu ; sau dấu đóng class."
+    },
+    "bfe3539b-ca2f-49cb-ae42-220a01aa129b": {
+      "stt": 121,
+      "cauHoi": "new short int – sai ở dòng nào",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: dòng 9, 10 'new short int' cấp phát short nhưng gán cho int* – không tương thích kiểu."
+    },
+    "98455df8-5bac-4b6b-abb9-04696476d3f8": {
+      "stt": 122,
+      "cauHoi": "*height * width; height = a; – sai ở dòng nào",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: dòng 6 '*height * width' (width là con trỏ); dòng 11, 12 'height = a; width = b;' gán int cho con trỏ (phải *height = a; *width = b;)."
+    },
+    "cb22178c-4353-4ac2-a103-ea7acb14e62f": {
+      "stt": 123,
+      "cauHoi": "CRect a, *b, *c, *d – cout << c->DT()",
+      "status": "Chạy bình thường",
+      "explanation": "c = &a nên c->DT() là a.DT() với a = (1,2) → 1*2 = 2. Các đối tượng b, d được new/delete bình thường."
+    },
+    "030dd556-2649-4af6-82f0-9baf94136307": {
+      "stt": 124,
+      "cauHoi": "CRect a, *b, *c, d*; c->DT() * (*b).DT()",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: dòng 11 'd*;' sai cú pháp (phải *d). Nếu sửa: c->DT() = 2, (*b).DT() = 3*4 = 12 → in 24."
+    },
+    "2115fec2-f356-4254-aa25-c4b5b445479e": {
+      "stt": 125,
+      "cauHoi": "DT = height + width; cout << d->DT()",
+      "status": "Chạy bình thường",
+      "explanation": "DT() = height + width. d trỏ phần tử đầu mảng, d->setGiatri(5,6) → d->DT() = 11."
+    },
+    "562be162-9e39-4f39-86b5-87a48b4c4332": {
+      "stt": 126,
+      "cauHoi": "d[1]->setGiatri; c->DT() * b.DT() – sai ở dòng nào",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: dòng 18 'd[1]->setGiatri(7,8)' (d[1] là đối tượng, dùng d[1].setGiatri); dòng 19 'b.DT()' (b là con trỏ, dùng b->DT())."
+    },
+    "e76b00f1-26d2-4888-a815-0c70f327a12b": {
+      "stt": 127,
+      "cauHoi": "CVector operator+ (cộng), c.x + c.y",
+      "status": "Chạy bình thường",
+      "explanation": "operator+ cộng từng thành phần: (3,1)+(8,4) = (11,5). c.x + c.y = 16."
+    },
+    "2f05b0f4-5f64-4f72-9827-6ca07787b2ed": {
+      "stt": 128,
+      "cauHoi": "CVector operator+ (trừ)",
+      "status": "Chạy bình thường",
+      "explanation": "operator+ được định nghĩa là phép trừ: x = 3-8 = -5, y = 1-4 = -3. c.x + c.y = -8."
+    },
+    "575228af-7613-4c9c-9a6b-1b544a656a4e": {
+      "stt": 129,
+      "cauHoi": "CVector operator+ (%)",
+      "status": "Chạy bình thường",
+      "explanation": "operator+ được định nghĩa là phép chia dư: x = 3%8 = 3, y = 1%4 = 1. c.x + c.y = 4."
+    },
+    "b60382db-24ff-4d17-bba7-ff06213adb2b": {
+      "stt": 130,
+      "cauHoi": "int i; float p; p=p*i; p=p*p;",
+      "status": "Chạy bình thường",
+      "explanation": "i=1: p = 1*1 = 1, p = 1*1 = 1. i=2: p = 1*2 = 2, p = 2*2 = 4. In p = 4."
+    },
+    "0da1400c-4ead-410c-9f3f-17c360ba6d66": {
+      "stt": 131,
+      "cauHoi": "class tinh, operator+ (%), cout << t.a",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: 'return tmp' thiếu ;; cout << t.a dùng t chưa khai báo (biến là t3). Nếu sửa: t3.a = 1 % 3 = 1."
+    },
+    "e785d899-1d7e-4fdf-9878-57f8c0f45be6": {
+      "stt": 132,
+      "cauHoi": "class rec { int *w; } cout << r.w",
+      "status": "Chạy bình thường",
+      "explanation": "r.w là con trỏ int* nên cout << r.w in địa chỉ của vùng nhớ, không phải 1 (muốn in 1 phải *r.w)."
+    },
+    "66206ce7-56e7-4433-b6db-24b9ae89a6ae": {
+      "stt": 133,
+      "cauHoi": "CVector private x,y – sai ở dòng nào",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây sai: dòng 7 '}' thiếu ; sau class; dòng 23 'c.x + c.y' truy cập thành viên private x, y từ main."
+    },
+    "bb4e3f54-b91b-4dd8-b4d1-a399ec650132": {
+      "stt": 134,
+      "cauHoi": "class rect, setValue, area() – r.setValue(2,3)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: hàm area() dùng a * b nhưng a, b chỉ là tham số của setValue; thành viên của lớp là x, y (phải return x * y). Ngoài ra 'Chu vi' đề ghi nhưng đây là diện tích."
+    },
+    "babc5bc6-5dba-4f71-9eda-c16c0401db1b": {
+      "stt": 135,
+      "cauHoi": "class test, b3(int b), t.b(3)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: test(int i) {a = i} thiếu ;; main gọi t.b(3) nhưng hàm tên b3; class thiếu dấu } đóng."
+    },
+    "e31c6d98-f987-4600-a7ec-401b18fdf110": {
+      "stt": 136,
+      "cauHoi": "for i,j, c = i*16 + j – thực hiện công việc gì",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Dòng 'cout << “ << c;' có chuỗi mở không đóng (phải cout << \" \" << c;). Nếu sửa: i = 2..15, j = 0..15, c = i*16 + j in ký tự mã 32..255 → in bảng mã ASCII."
+    },
+    "759c2519-46d5-48ac-90d1-6992ea3bfe6d": {
+      "stt": 137,
+      "cauHoi": "stringRear, strchr(str, “/ “), cout << a",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: strchr(str, “/ “) – tham số thứ 2 của strchr phải là ký tự '/', không phải chuỗi; a[2] = “\\0” phải là '\\0'."
+    },
+    "2a4bbee9-745e-4f7d-a00f-cc55f52f6bb0": {
+      "stt": 138,
+      "cauHoi": "stringRear, cout << (atof(a) - 26)",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: strchr(str, “/”) và a[2] = “\\0” dùng chuỗi thay vì ký tự ('/' và '\\0'). Nếu sửa: p trỏ vị trí 2, num = 2, a = '30', atof(a) - 26 = 4."
+    },
+    "b2956604-d20c-4b23-a424-de24a70042b2": {
+      "stt": 139,
+      "cauHoi": "stringRear (lần 1), cout << a",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Lỗi nhỏ: dùng chuỗi \"/\", \"\\0\" thay vì '/', '\\0'. Nếu sửa: stringRear(str,tmp,3) chép phần sau ngày: tmp = '04/2011'. strchr tìm '/' ở vị trí 2, a = '04'. In 04."
+    },
+    "88cb9a4e-b680-4784-b46e-26f3ceab76be": {
+      "stt": 140,
+      "cauHoi": "stringRear (lần 2), cout << str",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Lỗi nhỏ như câu trên. Sau lần 1: tmp = '04/2011'. stringRear(tmp,str,3) chép phần sau '/' thứ hai: str = '2011'. In 2011."
+    },
+    "a260bbb5-6aee-4357-ae0d-54f14efa3ccb": {
+      "stt": 141,
+      "cauHoi": "cout << atof(str) * a",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: atof(str) * a – nhân double với mảng ký tự a (char*) không hợp lệ."
+    },
+    "51b38217-8060-4db0-b79e-08350cd5ebc0": {
+      "stt": 142,
+      "cauHoi": "k<100, k%3==0 && k%7==0",
+      "status": "Chạy bình thường",
+      "explanation": "Số k < 100 chia hết cho cả 3 và 7 (bội của 21), kể cả k = 0: in '0 21 42 63 84'."
+    },
+    "d09d2ccf-5d9e-482d-8797-30179fe7fb18": {
+      "stt": 143,
+      "cauHoi": "k<30, k%3==0 && k%7==0 (có } thừa)",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Phần gây lỗi: có dấu } thừa – for ... if ... cout chỉ là một lệnh, dấu } kế tiếp đã đóng main, 'return 0; }' phía sau thừa. Nếu bỏ dấu } thừa: k < 30 chia hết 3 và 7 chỉ có 21 → in '21'.",
+      "answerWarning": "Đáp án 21 chỉ đúng khi bỏ dấu } thừa."
+    },
+    "aba82a4e-3eff-436f-8cac-653757ce41f1": {
+      "stt": 144,
+      "cauHoi": "num 100..160, dv³ + c³ + t³ == num",
+      "status": "Chạy bình thường",
+      "explanation": "Tìm số Armstrong (tổng lập phương các chữ số bằng chính nó) trong 100..159: 153 = 1³ + 5³ + 3³. In '153 '."
+    },
+    "9509cf17-cf72-4c6d-9b9d-25d55b0d5f2d": {
+      "stt": 145,
+      "cauHoi": "n=12,k=2; while(k<n) ... if(n%k==2)",
+      "status": "Chạy bình thường",
+      "explanation": "n=12: k=2,3,4 cho n%k = 0; k=5 → 12%5 = 2 → in 5, n = 12/5 = 2, break. Sau đó k=5 ≥ n=2 nên thoát while. In '5 '."
+    },
+    "e7842f16-36ee-4e35-a44b-38794cd4f497": {
+      "stt": 146,
+      "cauHoi": "dem > 1, k < 10 (kết quả 4689)",
+      "status": "Chạy bình thường",
+      "explanation": "dem = số ước của k trong 2..k. dem > 1 là hợp số: 4, 6, 8, 9. In '4689'."
+    },
+    "b0ec492b-2210-4c50-bc9e-f67c557f4edf": {
+      "stt": 147,
+      "cauHoi": "dem > 1, thiếu } đóng for",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: for ( n = 2; n <= k; n++ ) { mở ngoặc nhưng không có } đóng tương ứng – mất cân bằng dấu ngoặc."
+    },
+    "0b7505a7-1149-400e-ad06-8eab84dc2648": {
+      "stt": 148,
+      "cauHoi": "for k = 7..10, dem > 1",
+      "status": "Chạy bình thường",
+      "explanation": "k = 7..10: 7 nguyên tố (dem=1), 8, 9, 10 là hợp số. In '8910'."
+    },
+    "ed3dd8bb-b578-4a6a-ae4e-9dbd7d4db8c4": {
+      "stt": 149,
+      "cauHoi": "complex tich (a,b)",
+      "status": "Chạy bình thường",
+      "explanation": "Hàm tich nhân hai số phức: thuc = a.thuc*b.thuc - a.ao*b.ao; ao = a.thuc*b.ao + a.ao*b.thuc. print_complex in 'x.xx + y.yyi' (cần <stdio.h> cho printf). Đề không cho giá trị a, b nên không tính lại được kết quả."
+    },
+    "5b9c2830-622c-4799-8020-3e5a193d1c12": {
+      "stt": 150,
+      "cauHoi": "complex thuong (a,b)",
+      "status": "Chạy bình thường",
+      "explanation": "Hàm thuong chia hai số phức. Lưu ý công thức phần thực dùng a.thuc*a.ao + b.thuc*b.ao, công thức chia chuẩn phải là a.thuc*b.thuc + a.ao*b.ao. Đề không cho giá trị a, b nên không tính lại được.",
+      "answerWarning": "Công thức phần thực trong code có vẻ sai về toán học."
+    },
+    "6d83c038-74eb-4c7d-907e-d11be11968a5": {
+      "stt": 151,
+      "cauHoi": "modul(complex a)",
+      "status": "Chạy bình thường",
+      "explanation": "modul(a) = sqrt(thuc² + ao²) là mô-đun số phức (cần <math.h>). Đề không cho a nên không tính lại được kết quả."
+    },
+    "9eca6339-d789-4bb4-a13e-60aa3c9c9643": {
+      "stt": 152,
+      "cauHoi": "doiso(complex a)",
+      "status": "Chạy bình thường",
+      "explanation": "doiso(a) = acos(thuc / mô-đun) là góc của số phức (radian). Đề không cho a nên không tính lại được kết quả."
+    },
+    "e89e844c-56e9-404c-bd92-f5b9861cb1d8": {
+      "stt": 153,
+      "cauHoi": "doiso + modul (cả hai dùng sqrt)",
+      "status": "Chạy bình thường",
+      "explanation": "Cả hai hàm doiso và modul đều định nghĩa trước main nên biên dịch được; kết quả tùy hàm nào được gọi trong main (đề không cho phần này nên không kiểm tra được)."
+    },
+    "d1bb2732-db58-4b39-9e53-56e04503ddc6": {
+      "stt": 154,
+      "cauHoi": "doiso gọi modul(a) trước khi modul được định nghĩa",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: doiso gọi modul(a) trước khi modul được khai báo/định nghĩa (modul nằm phía dưới, không có prototype)."
+    },
+    "f0351a0a-e336-4f0f-9e9f-8614560cf402": {
+      "stt": 155,
+      "cauHoi": "k=0, j<3, dem==1 (in 3 số)",
+      "status": "Chạy bình thường",
+      "explanation": "dem == 1 nghĩa là k chỉ có đúng 1 ước trong 2..k tức k là số nguyên tố. Dừng khi tìm đủ 3 số: in '2 3 5 '."
+    },
+    "a6c61eaf-bea6-46ae-becc-34ba5c675963": {
+      "stt": 156,
+      "cauHoi": "k=0, j<5, dem==1",
+      "status": "Chạy bình thường",
+      "explanation": "Như câu trên nhưng tìm 5 số nguyên tố đầu tiên: '2 3 5 7 11 '."
+    },
+    "14ade11c-ee0c-446d-b45b-4bdb7e6814c1": {
+      "stt": 157,
+      "cauHoi": "j<3, dem=0; { (thừa dấu {)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: dòng 'dem=0; {' có dấu { thừa → mất cân bằng dấu ngoặc, thiếu } đóng."
+    },
+    "c018fc6e-8ef9-4204-9677-d3e19387ed6d": {
+      "stt": 158,
+      "cauHoi": "public class Test (Java), while(j<3), k=8",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: đây là code Java (public class, System.out.print, String[] args), không biên dịch được trong C++. Nếu chạy như Java: k = 8 cố định nên dem = 2 (8%4, 8%8) ≠ 1, j không bao giờ tăng → lặp vô hạn, không in gì."
+    },
+    "c1e6c0cd-cdf5-4fd9-83b0-b946bd5bde0a": {
+      "stt": 159,
+      "cauHoi": "dem==1, cout << k << “\\t” – công việc gì",
+      "status": "Chạy bình thường",
+      "explanation": "Tìm số nguyên tố, dừng sau khi in 3 số: in '2', '3', '5' ngăn cách bằng tab. Chương trình in 3 số nguyên tố đầu tiên."
+    },
+    "85eea801-220e-4238-ad66-a02d7732cf25": {
+      "stt": 160,
+      "cauHoi": "nam = 1952, can[(nam+6)%10], chi[(nam+8)%12]",
+      "status": "Chạy bình thường",
+      "explanation": "nam = 1952: (1952+6)%10 = 8 → can[8] = 'Nham'; (1952+8)%12 = 4 → chi[4] = 'Thin'. In 'NhamThin'."
+    },
+    "ed6d81a3-fef2-41d3-a00f-e56043d5cfd0": {
+      "stt": 161,
+      "cauHoi": "nam = 1971, can[(nam+6)%10], chi[(nam+8)%12]",
+      "status": "Chạy bình thường",
+      "explanation": "nam = 1971: (1971+6)%10 = 7 → 'Tan'; (1971+8)%12 = 11 → 'Hoi'. In 'TanHoi'."
+    },
+    "d6a7184f-b3e8-4f08-a067-0ef0808076b4": {
+      "stt": 162,
+      "cauHoi": "nam = 1952, can[(nam+4)%10], chi[(nam+10)%12]",
+      "status": "Chạy bình thường",
+      "explanation": "nam = 1952: (1952+4)%10 = 6 → 'Canh'; (1952+10)%12 = 6 → 'Ngo'. In 'CanhNgo'."
+    },
+    "dbff1ef5-f1a9-4075-be1c-996121ac78d5": {
+      "stt": 163,
+      "cauHoi": "cout << ca[(nam+6)%10] (ca viết sai)",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: cout << ca[...] – biến ca chưa khai báo (mảng tên can); thiếu dấu ; sau mảng can[][5] = {...}."
+    },
+    "c2bd90c2-f075-458f-8fb2-b0845942a8d2": {
+      "stt": 164,
+      "cauHoi": "functionD (m = 2) – thực hiện công việc gì",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "functionD đổi số từ hệ cơ số n sang hệ cơ số m (qua giá trị thập phân trung gian). Lưu ý lỗi trong code: char number[17] = 123”; thiếu dấu \" mở; ketqua[17] = 0; ghi ngoài mảng (chỉ số hợp lệ 0..16)."
+    },
+    "a4e8bc6b-f0a6-40e1-a489-e3cd3952721a": {
+      "stt": 165,
+      "cauHoi": "functionD, m = 2 – kết quả",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Đọc '123' hệ 10 → giá trị 123; đổi sang cơ số m = 2: 123 = 1111011. Lỗi nhỏ như câu trên (thiếu \" mở, ketqua[17] ngoài mảng)."
+    },
+    "92f45636-c8ae-4e80-a1fc-e44546ffed0b": {
+      "stt": 166,
+      "cauHoi": "functionD, m = 9",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "123 sang cơ số 9: 123 = 1·81 + 4·9 + 6 → 146. Lỗi nhỏ như câu trên."
+    },
+    "f3394e4f-279f-4c43-9c08-536e33e2a72e": {
+      "stt": 167,
+      "cauHoi": "functionD, m = 8",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "123 sang cơ số 8: 123 = 1·64 + 7·8 + 3 → 173. Lỗi nhỏ như câu trên."
+    },
+    "510a3dbd-132c-40c0-83e8-19f4141ca404": {
+      "stt": 168,
+      "cauHoi": "functionD, m = 16",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "123 sang cơ số 16: 123 = 7·16 + 11 → '7B'. Lỗi nhỏ như câu trên."
+    },
+    "4883cf38-34d5-4e3b-82c0-97813f5b6e9a": {
+      "stt": 169,
+      "cauHoi": "functionD, m = 12",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "123 sang cơ số 12: 123 = 10·12 + 3 → 'A3' (A = 10). Lỗi nhỏ như câu trên."
+    },
+    "b3875f52-3f03-42f7-9d3c-5441fa4c8a16": {
+      "stt": 170,
+      "cauHoi": "max, dòng lệnh 7 (int [] a={3,1,7,0,10})",
+      "status": "Đề có lỗi cú pháp nhỏ – đáp án đúng nếu sửa",
+      "explanation": "Phần gây lỗi: int [] a={3,1,7,0,10} là cú pháp Java, thiếu ; (C++ viết int a[] = {...};). Nếu sửa: max tìm được là 10; dòng 7 in 10."
+    },
+    "b71e2b3f-4740-45a9-99fc-a41e9a7be31f": {
+      "stt": 171,
+      "cauHoi": "int a[] = {3,1,7,0,10}; dòng lệnh 7",
+      "status": "Chạy bình thường",
+      "explanation": "Duyệt mảng tìm max = 10. Dòng 7 in 10; dòng 8-10 in chỉ số của max là 4 ngay sau đó (cout << k) nên tổng đầu ra là '104'."
+    },
+    "238bf7f8-ffa7-4f69-b799-815ead0e7afc": {
+      "stt": 172,
+      "cauHoi": "int [] a = {...}; Kết quả hiển thị",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Phần gây lỗi: int [] a = {...} là cú pháp Java (C++ phải int a[]). Nếu sửa: dòng 7 in max = 10, dòng 10 in chỉ số 4 liền sau → kết quả hiển thị '104'.",
+      "answerWarning": "Đáp án trong file là '4'; tôi tính ra '104'."
+    },
+    "bf250f9f-87e1-41f9-b5ab-284be2569afb": {
+      "stt": 173,
+      "cauHoi": "for i<2, j<3, if (i==j) continue",
+      "status": "Chạy bình thường",
+      "explanation": "i chạy 0..1, j chạy 0..2, bỏ qua khi i==j. In: (0,1), (0,2), (1,0), (1,2). 'i = 0 j = 2' nằm trong kết quả."
+    },
+    "6f2d6bce-e78c-49cf-beec-41cc1493a972": {
+      "stt": 174,
+      "cauHoi": "if (i = j) continue",
+      "status": "Chạy bình thường",
+      "explanation": "Phần cần chú ý: if(i = j) là phép gán. i=0: j=0 → i=0 (sai) → in 'i = 0 j = 0'; j=1 → i=1 (đúng) → continue; j=2 → i=2 → continue; i++ → 3 thoát. Chỉ in 'i = 0 j = 0'. (i, j cần được khai báo trước.)"
+    },
+    "6244e95f-b2b4-4c7b-abcb-fdb8431948f6": {
+      "stt": 175,
+      "cauHoi": "n=10; if ((n % k == 0) && (dem == 1))",
+      "status": "Chạy bình thường",
+      "explanation": "Khi n%k == 0 (k = 2, 5, 10) thì dem = k-1 vì vòng trong luôn cộng. (dem == 1) chỉ khi k = 2. In '2 '."
+    },
+    "8d75134a-92ca-47c2-863c-0226df24c806": {
+      "stt": 176,
+      "cauHoi": "n=10; if ((n % k == 0) || (dem == 1))",
+      "status": "Chạy bình thường",
+      "explanation": "Điều kiện là || nên in mọi k là ước của 10: 2, 5, 10 (k = 2 cũng thỏa dem == 1). In '2 5 10 '."
+    },
+    "e11cf410-506a-4194-a1e4-adb538ea60a1": {
+      "stt": 177,
+      "cauHoi": "N = 12, k--",
+      "status": "Chạy bình thường",
+      "explanation": "Phân tích thừa số nguyên tố: N = 12 → in 2 (N=6), in 2 (N=3), in 3 (N=1). In '2 2 3 '. (k-- bù lại k++ để thử lại cùng ước.)"
+    },
+    "6187fcf1-0bb2-48bb-8326-70c3af923efb": {
+      "stt": 178,
+      "cauHoi": "N = 9, k--",
+      "status": "Chạy bình thường",
+      "explanation": "N = 9 → 3 (N=3), 3 (N=1). In '3 3 '."
+    },
+    "1907e419-4eb0-478f-88e8-7eee4b43185d": {
+      "stt": 179,
+      "cauHoi": "N = 25, k--",
+      "status": "Chạy bình thường",
+      "explanation": "N = 25 → 5 (N=5), 5 (N=1). In '5 5 '."
+    },
+    "2ecfe8c8-fb51-489e-9e55-31b4244e17d8": {
+      "stt": 180,
+      "cauHoi": "N = 42, k--",
+      "status": "Chạy bình thường",
+      "explanation": "N = 42 → 2 (N=21), 3 (N=7), 7 (N=1). In '2 3 7 '."
+    },
+    "03eddeca-e937-495d-a948-e54658b63b86": {
+      "stt": 181,
+      "cauHoi": "int n,k; dùng N – N = 12",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: khai báo 'int n,k;' nhưng code dùng N (chữ hoa) chưa khai báo; C++ phân biệt hoa/thường (n ≠ N)."
+    },
+    "d23f30b2-01e1-4889-b93e-e736f52ecb40": {
+      "stt": 182,
+      "cauHoi": "k++ trong thân, N = 12",
+      "status": "Chạy bình thường",
+      "explanation": "Dùng k++ trong thân (thay vì k--). N=12: k=2 → in 2, N=6, k=3; vòng tăng → k=4,5 không chia hết; k=6 → in 6, N=1. In '2 6 '."
+    },
+    "af8b675a-4b67-4c8e-be11-761cbbe07429": {
+      "stt": 183,
+      "cauHoi": "N = 9 (đáp án 2 6 / 3 / 5 / 2 7)",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "Code dùng k-- như dạng phân tích thừa số. N = 9: k=3 → in 3 (N=3), k=3 lại chia hết → in 3 (N=1). Đầu ra thực tế là '3 3 '.",
+      "answerWarning": "Đầu ra thực tế là '3 3 ', không có lựa chọn trùng khớp; đáp án '3' trong file chỉ là gần đúng."
+    },
+    "0c8c0733-65e7-48f2-a41e-4b8d39f3cfb7": {
+      "stt": 184,
+      "cauHoi": "N = 42 (đáp án 2 6 / 3 / 5 / 2 7)",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "N = 42 phân tích thừa số: in 2 (N=21), 3 (N=7), 7 (N=1). Đầu ra thực tế là '2 3 7 '.",
+      "answerWarning": "Đầu ra thực tế là '2 3 7 ', không phải '2 7' như đáp án trong file."
+    },
+    "39b4fefa-19e3-4447-b444-d1e04bdf020f": {
+      "stt": 185,
+      "cauHoi": "N = 25 (đáp án 2 6 / 3 / 5 / 2 7)",
+      "status": "Đáp án trong file cần xem lại",
+      "explanation": "N = 25 phân tích thừa số: in 5 (N=5), 5 (N=1). Đầu ra thực tế là '5 5 '.",
+      "answerWarning": "Đầu ra thực tế là '5 5 ', không phải '5' như đáp án trong file."
+    },
+    "decde9ec-676b-4cc6-ad9b-01067d4e3988": {
+      "stt": 186,
+      "cauHoi": "sum(k) dùng trước khi định nghĩa, N = 2",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: hàm sum(k) được gọi trong main trước khi được định nghĩa (nằm dưới main), không có khai báo nguyên mẫu float sum(int);"
+    },
+    "61aab535-59ba-41cc-a1e2-c5811c349cdf": {
+      "stt": 187,
+      "cauHoi": "float sum(int); N = 2",
+      "status": "Chạy bình thường",
+      "explanation": "Có nguyên mẫu float sum(int); nên biên dịch được. sum(k) = 1+2+...+k. S = 1/1 + 1/3 = 1.33333."
+    },
+    "dd58e483-c167-4c5f-8227-a6b20132ce78": {
+      "stt": 188,
+      "cauHoi": "float sum(int); N = 4",
+      "status": "Chạy bình thường",
+      "explanation": "N = 4: sum(k) = 1, 3, 6, 10 → S = 1 + 1/3 + 1/6 + 1/10 = 1.6."
+    },
+    "72038b6b-5d0e-42e0-94cc-656b380fddbd": {
+      "stt": 189,
+      "cauHoi": "float sum(int); N = 5",
+      "status": "Chạy bình thường",
+      "explanation": "N = 5: thêm 1/15 vào 1.6 → 1.66667."
+    },
+    "f5bfe345-0d0d-4544-8c61-ef5a509b4340": {
+      "stt": 190,
+      "cauHoi": "Newton a = 4, cout << kq",
+      "status": "Chạy bình thường",
+      "explanation": "Phương pháp Newton tính √4: xn = 2.5 → 2.05 → 2.00061 → 2.0000001. Dừng khi |xn - kq| ≤ 0.001; kq cuối = 2.00061 ≈ 2.00."
+    },
+    "56365171-02b7-4514-ac2f-15e1a0d45f36": {
+      "stt": 191,
+      "cauHoi": "Newton a = 4, cout << dem",
+      "status": "Chạy bình thường",
+      "explanation": "Cùng chương trình Newton: dem đếm số lần lặp = 3 (xn: 2.5 → 2.05 → 2.00061 → 2.0000001). In 3."
+    },
+    "7a763c33-886a-4931-b34a-c87210c62678": {
+      "stt": 192,
+      "cauHoi": "Newton a = 3, cout << kq",
+      "status": "Chạy bình thường",
+      "explanation": "Newton tính √3: xn = 2 → 1.75 → 1.7321 → 1.73205. kq cuối ≈ 1.7321 → làm tròn 1.73."
+    },
+    "e596e133-aef6-4938-8fed-8b822cb9af72": {
+      "stt": 193,
+      "cauHoi": "chuoi “tinhoc”, khoa = 1",
+      "status": "Chạy bình thường",
+      "explanation": "Mỗi ký tự cộng thêm khoa = 1 (mã ASCII): t→u, i→j, n→o, h→i, o→p, c→d. In 'ujoipd'. (Đoạn trích thiếu dấu } đóng main.)"
+    },
+    "30289850-c8b5-4d8b-8bad-66e88d75fa53": {
+      "stt": 194,
+      "cauHoi": "chuoi “tinhoc”, khoa = 32",
+      "status": "Chạy bình thường",
+      "explanation": "Trừ 32 mã ASCII chuyển chữ thường thành chữ hoa: 'TINHOC'."
+    },
+    "90b1be35-fd40-4c1f-b497-b7976eaa15a4": {
+      "stt": 195,
+      "cauHoi": "chuoi = (char) ... (thiếu [i])",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: chuoi = (char)(...) – gán một ký tự cho cả mảng chuoi; phải là chuoi[i] = ..."
+    },
+    "d9979454-123f-48cf-8f45-f9ff46d7d8ed": {
+      "stt": 196,
+      "cauHoi": "tinhtich, tinhtong, n = 3",
+      "status": "Chạy bình thường",
+      "explanation": "tinhtich(k) = k!; tinhtong(k) = 1! + 2! + ... + k!. k=1: 1; k=2: 3; k=3: 9. S = 1/1 + 1/3 + 1/9 = 1.44444."
+    },
+    "292c48ab-800d-44f3-a33e-15d476d973be": {
+      "stt": 197,
+      "cauHoi": "tinhtong khai báo trước tinhtich",
+      "status": "Lỗi biên dịch",
+      "explanation": "Phần gây lỗi: tinhtong gọi tinhtich trước khi tinhtich được định nghĩa (tinhtich nằm phía dưới, không có nguyên mẫu)."
+    },
+    "3d41d214-0f96-48bb-8915-422c1b587f3b": {
+      "stt": 198,
+      "cauHoi": "tinhtich, tinhtong, n = 4",
+      "status": "Chạy bình thường",
+      "explanation": "n = 4: thêm tinhtong(4) = 1+2+6+24 = 33 → 1/33 ≈ 0.0303. S = 1.44444 + 0.0303 ≈ 1.47475."
+    },
+    "cb58be21-5130-40ee-8399-3a7e80b11f4a": {
+      "stt": 199,
+      "cauHoi": "n = 4, s = 1 trong vòng for",
+      "status": "Chạy bình thường",
+      "explanation": "Mỗi vòng for sau khi cộng đều gán s = 1 nên kết quả cuối cùng s = 1."
+    },
+    "8647fb78-0b34-44c6-9ec9-3eecced4e9ee": {
+      "stt": 200,
+      "cauHoi": "tong = 1; j <= i/2; n = 5",
+      "status": "Chạy bình thường",
+      "explanation": "Vòng for j chỉ chứa dòng 6; dòng 7 nằm ngoài (thụt lề gây nhầm). Chỉ i = 4 thỏa: j chạy 2 → tong = 3, thoát vòng với j = 3 → tong == j → in 4. In '4 '."
+    },
+    "93fe9c3a-feb2-4200-bfee-b235e22e8465": {
+      "stt": 201,
+      "cauHoi": "tong = 1; j <= i; n = 5",
+      "status": "Chạy bình thường",
+      "explanation": "Sau vòng j (2..i), j = i+1 và tong = 1 + tổng các ước trong 2..i. Với i = 2, 3, 5 (nguyên tố): tong = 1 + i = i+1 = j → in. i = 4: tong = 7 ≠ 5. In '2 3 5 '."
+    },
+    "d0a99d4a-a69a-41ab-9aef-40213b146f18": {
+      "stt": 202,
+      "cauHoi": "giaithua, th(k,n), n = 3, k = 2",
+      "status": "Chạy bình thường",
+      "explanation": "th(k,n) = C(n,k) = n!/(k!(n-k)!). n=3, k=2: 6/(2·1) = 3."
+    },
+    "5b59f7a7-3feb-488c-b8fa-2b66cf2d4923": {
+      "stt": 203,
+      "cauHoi": "giaithua, th(k,n), n = 4, k = 2",
+      "status": "Chạy bình thường",
+      "explanation": "n=4, k=2: 24/(2·2) = 6."
+    }
+  }
+}
