@@ -2428,7 +2428,7 @@
     },
     {
       "id": "5f7955a8-d10c-4269-9d17-bef727fa352a",
-      "question": "Cho khối lệnh sau:\n```cpp\nif (yourSale >= target)\nbonus = 100 + 0.01 * (yourSale - target);\nelse\nbonus = <span style='color:red; font-weight:bold'>0</span>;\n```\nVới yourSale = 3<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, target = 25<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, vậy bonus = ?",
+      "question": "Cho khối lệnh sau:\n```cpp\nif (yourSale >= target)\nbonus = 100 + 0.01 * (yourSale - target);\nelse\nbonus = <span style='color:red; font-weight:bold'>0</span>\n```\nVới yourSale = 3<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, target = 25<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, vậy bonus = ?",
       "answers": [
         {
           "id": "013f7fe2-1645-49ea-9e51-efe8b256b1f8",
