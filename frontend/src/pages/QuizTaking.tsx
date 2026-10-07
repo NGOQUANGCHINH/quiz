@@ -277,12 +277,12 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
               marginBottom: '1.5rem'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                <h4 style={{ margin: 0, color: 'var(--primary-color)' }}>💡 Gợi ý</h4>
-                <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--primary-color)' }} onClick={() => setShowHint(false)}>
+                <h4 style={{ margin: 0, color: 'var(--text-primary)' }}>💡 Gợi ý</h4>
+                <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--text-primary)' }} onClick={() => setShowHint(false)}>
                   <X size={16} />
                 </button>
               </div>
-              <div style={{ fontSize: '0.95rem', lineHeight: 1.5, color: 'var(--primary-color)' }}>
+              <div style={{ fontSize: '0.95rem', lineHeight: 1.5, color: 'var(--text-primary)' }}>
                 {currentQuestion.hint}
               </div>
             </div>
