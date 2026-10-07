@@ -25,7 +25,18 @@ export default function QuizReview({ progress, navigate }: Props) {
 
   return (
     <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'space-between', 
+        alignItems: 'center', 
+        marginBottom: '1.5rem',
+        position: 'sticky',
+        top: 0,
+        zIndex: 10,
+        backgroundColor: 'var(--bg-color)',
+        padding: '1rem 0',
+        borderBottom: '1px solid var(--border-color)'
+      }}>
         <button className="btn btn-neutral" onClick={() => navigate('result', { progress })}>
           <ArrowLeft /> Quay lại kết quả
         </button>
