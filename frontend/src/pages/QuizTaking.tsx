@@ -96,6 +96,20 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
     setIsReloading(false);
   };
 
+  const handleRestart = () => {
+    if (window.confirm('Bạn có chắc chắn muốn làm lại từ đầu? Toàn bộ kết quả hiện tại sẽ bị xóa.')) {
+      setProgress(prev => ({
+        ...prev,
+        answers: {},
+        currentQuestionIndex: 0,
+        markedQuestions: []
+      }));
+      setTimeLeft(
+        progress.config.timeLimitMinutes ? progress.config.timeLimitMinutes * 60 : null
+      );
+    }
+  };
+
   // Auto save
   useEffect(() => {
     sessionStorage.setItem('quiz-progress-data', JSON.stringify(progress));
@@ -216,6 +230,9 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           <div className="quiz-header-group" style={{ position: 'relative' }}>
             <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={() => navigate('dashboard')}>
               <ArrowLeft /> Quay lại
+            </button>
+            <button className="btn btn-outline" style={{ padding: '0.5rem 1rem', color: 'var(--text-secondary)' }} onClick={handleRestart}>
+              <RefreshCw /> Làm lại
             </button>
             {currentQuestion.hint && (
               <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={() => setShowHint(!showHint)}>
