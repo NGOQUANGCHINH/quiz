@@ -4536,7 +4536,7 @@
     },
     {
       "id": "c2bd90c2-f075-458f-8fb2-b0845942a8d2",
-      "question": "Đoạn chương trình sau <span style='color:red; font-weight:bold'>thực hiện công việc gì:</span>\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 2;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau <span style='color:red; font-weight:bold'>thực hiện công việc gì:</span>\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = <span style='color:red; font-weight:bold'>2</span>;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "43acf428-9c6f-4fc2-b819-cdd95fd476e2",
@@ -4560,7 +4560,7 @@
     },
     {
       "id": "a4e8bc6b-f0a6-40e1-a489-e3cd3952721a",
-      "question": "Đoạn chương trình sau in ra <span style='color:red; font-weight:bold'>kết quả bao nhiêu:</span>\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 2;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau in ra <span style='color:red; font-weight:bold'>kết quả bao nhiêu:</span>\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = <span style='color:red; font-weight:bold'>2</span>;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "873c15f5-9e99-4681-a00d-e071e52f9750",
@@ -4584,7 +4584,7 @@
     },
     {
       "id": "92f45636-c8ae-4e80-a1fc-e44546ffed0b",
-      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 9;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = <span style='color:red; font-weight:bold'>9</span>;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "d5759e36-0e1e-418a-a109-2b7201fd9ef8",
@@ -4656,7 +4656,7 @@
     },
     {
       "id": "4883cf38-34d5-4e3b-82c0-97813f5b6e9a",
-      "question": "Đoạn chương trình sau thực hiện công việc gì:\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 12;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau thực hiện công việc gì:\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = <span style='color:red; font-weight:bold'>12</span>;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "fc3937ff-9068-4a3b-8f06-3b08f38e4484",
