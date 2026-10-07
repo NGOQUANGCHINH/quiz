@@ -4608,7 +4608,7 @@
     },
     {
       "id": "f3394e4f-279f-4c43-9c08-536e33e2a72e",
-      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 8;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = <span style='color:red; font-weight:bold'>8</span>;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "194a6fdc-0f8e-4217-8db3-8413308caea3",
@@ -4632,7 +4632,7 @@
     },
     {
       "id": "510a3dbd-132c-40c0-83e8-19f4141ca404",
-      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = 16;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
+      "question": "Đoạn chương trình sau có kết quả bao nhiêu?\n```cpp\nchar * functionD (char *number,int n,int m) {\nstatic char ketqua[17];\nchar chuso[] = “0123456789ABCDEF”;\nint i = 0, giatri = 0, len;\nlen = strlen(number);\nwhile (i < len) {\ngiatri = giatri * n + (strchr(chuso,number[i]) - chuso);\ni++;\n}\ni = 16;\nketqua[17] = 0;\ndo {\nketqua[i] = chuso[giatri % m];\ngiatri /= m;\ni--;\n} while (giatri > 0);\nreturn (ketqua + i + 1);\n}\nint main() {\nunsigned n = 10,m = <span style='color:red; font-weight:bold'>16</span>;\nchar number[17] = 123”;\ncout << functionD(number,n,m);\nreturn 0;\n}\n```",
       "answers": [
         {
           "id": "91b4dd73-9982-4d82-bf82-ba413ea4a1c1",
