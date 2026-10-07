@@ -248,31 +248,6 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 <Lightbulb /> Gợi ý
               </button>
             )}
-            {showHint && currentQuestion.hint && (
-              <div style={{
-                position: 'absolute',
-                top: '110%',
-                left: '0',
-                backgroundColor: 'var(--surface-color)',
-                border: '1px solid var(--border-color)',
-                padding: '1rem',
-                borderRadius: '8px',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-                zIndex: 100,
-                minWidth: '250px',
-                maxWidth: '400px'
-              }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                  <h4 style={{ margin: 0, color: 'var(--primary-color)' }}>💡 Gợi ý</h4>
-                  <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} onClick={() => setShowHint(false)}>
-                    <X size={16} />
-                  </button>
-                </div>
-                <div style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>
-                  {currentQuestion.hint}
-                </div>
-              </div>
-            )}
             {isReloading && <span style={{ fontSize: '0.9rem', color: 'var(--primary-color)' }}>Đang cập nhật...</span>}
           </div>
           <div className="quiz-header-group">
@@ -293,6 +268,25 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         </div>
 
         <div className="card" style={{ flex: 1, marginBottom: '1.5rem', display: 'flex', flexDirection: 'column' }}>
+          {showHint && currentQuestion.hint && (
+            <div style={{
+              backgroundColor: 'var(--primary-light)',
+              border: '1px solid var(--primary-color)',
+              padding: '1rem',
+              borderRadius: '8px',
+              marginBottom: '1.5rem'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
+                <h4 style={{ margin: 0, color: 'var(--primary-color)' }}>💡 Gợi ý</h4>
+                <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--primary-color)' }} onClick={() => setShowHint(false)}>
+                  <X size={16} />
+                </button>
+              </div>
+              <div style={{ fontSize: '0.95rem', lineHeight: 1.5, color: 'var(--primary-color)' }}>
+                {currentQuestion.hint}
+              </div>
+            </div>
+          )}
           <div 
             style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}
             dangerouslySetInnerHTML={{ __html: formatQuestionText(currentQuestion.question) }}
