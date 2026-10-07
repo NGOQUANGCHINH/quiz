@@ -231,7 +231,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={() => navigate('dashboard')}>
               <ArrowLeft /> Quay lại
             </button>
-            <button className="btn btn-outline" style={{ padding: '0.5rem 1rem', color: 'var(--text-secondary)' }} onClick={handleRestart}>
+            <button className="btn btn-outline" style={{ padding: '0.5rem 1rem', color: 'white' }} onClick={handleRestart}>
               <RefreshCw /> Làm lại
             </button>
             {currentQuestion.hint && (
