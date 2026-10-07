@@ -1012,7 +1012,7 @@
     },
     {
       "id": "fb5dc446-9158-46c7-9164-508aeec3c6ff",
-      "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu?\n```cpp\nchar hoten[] = “Dai hoc Kinh doanh va Cong nghe Ha noi”;  = 38 CHAR\nint l = strlen(hoten);\ncout << ++l << endl;\n```",
+      "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu?\n```cpp\nchar hoten[] = “Dai hoc Kinh doanh va Cong nghe Ha noi”;\nint l = strlen(hoten);\ncout << ++l << endl;\n```",
       "answers": [
         {
           "id": "b2bb6349-e563-49d6-ac12-6255061ef20e",
@@ -1032,7 +1032,7 @@
         }
       ],
       "correctAnswerId": "9e0727c3-398e-4298-b96f-57f375fdf166",
-      "hint": "Chuỗi 'Dai hoc Kinh doanh va Cong nghe Ha noi' có 38 ký tự nên strlen = 38; sau ++l (tăng trước) l = 39, in 39. Phần ' = 38 CHAR' ở cuối dòng khai báo là chú thích bị dính vào code, gây lỗi cú pháp nếu giữ nguyên. (Chú ý: Tôi tính ra kết quả là 39, không phải 38 như đáp án trong file.)"
+      "hint": "Chuỗi 'Dai hoc Kinh doanh va Cong nghe Ha noi' có 38 ký tự nên strlen = 38; sau ++l (tăng trước) l = 39, in 39.  (Chú ý: Tôi tính ra kết quả là 39, không phải 38 như đáp án trong file.)"
     },
     {
       "id": "db2cae2f-9c7a-430d-b782-d71d9a9d587b",
