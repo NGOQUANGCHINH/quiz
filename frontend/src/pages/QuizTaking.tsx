@@ -65,6 +65,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
     initialProgress.config.timeLimitMinutes ? initialProgress.config.timeLimitMinutes * 60 : null
   );
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
+  const [showRestartConfirm, setShowRestartConfirm] = useState(false);
   const [showQuestionList, setShowQuestionList] = useState(window.innerWidth > 768);
 
   const totalQuestions = progress.questions.length;
@@ -97,17 +98,20 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   };
 
   const handleRestart = () => {
-    if (window.confirm('Bạn có chắc chắn muốn làm lại từ đầu? Toàn bộ kết quả hiện tại sẽ bị xóa.')) {
-      setProgress(prev => ({
-        ...prev,
-        answers: {},
-        currentQuestionIndex: 0,
-        markedQuestions: []
-      }));
-      setTimeLeft(
-        progress.config.timeLimitMinutes ? progress.config.timeLimitMinutes * 60 : null
-      );
-    }
+    setShowRestartConfirm(true);
+  };
+
+  const confirmRestart = () => {
+    setProgress(prev => ({
+      ...prev,
+      answers: {},
+      currentQuestionIndex: 0,
+      markedQuestions: []
+    }));
+    setTimeLeft(
+      progress.config.timeLimitMinutes ? progress.config.timeLimitMinutes * 60 : null
+    );
+    setShowRestartConfirm(false);
   };
 
   // Auto save
@@ -518,6 +522,32 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
               </button>
               <button className="btn btn-primary" style={{ flex: 1, whiteSpace: 'nowrap' }} onClick={() => handleSubmit(true)}>
                 Vẫn nộp bài
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Restart Confirm Modal */}
+      {showRestartConfirm && (
+        <div style={{
+          position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
+          backgroundColor: 'rgba(0,0,0,0.5)',
+          display: 'flex', justifyContent: 'center', alignItems: 'center',
+          zIndex: 1000
+        }}>
+          <div className="card" style={{ width: '90%', maxWidth: '450px', textAlign: 'center' }}>
+            <RefreshCw style={{ width: '48px', height: '48px', color: 'var(--primary-color)', margin: '0 auto 1rem' }} />
+            <h3 style={{ marginBottom: '1rem' }}>Xác nhận làm lại</h3>
+            <p style={{ marginBottom: '2rem', color: 'var(--text-secondary)' }}>
+              Bạn có chắc chắn muốn làm lại từ đầu? Toàn bộ kết quả hiện tại sẽ bị xóa.
+            </p>
+            <div style={{ display: 'flex', gap: '1rem' }}>
+              <button className="btn btn-neutral" style={{ flex: 1, whiteSpace: 'nowrap' }} onClick={() => setShowRestartConfirm(false)}>
+                Hủy
+              </button>
+              <button className="btn btn-primary" style={{ flex: 1, whiteSpace: 'nowrap' }} onClick={confirmRestart}>
+                Đồng ý
               </button>
             </div>
           </div>
