@@ -872,7 +872,7 @@
       "question": "Cho khối lệnh sau:\nint s = 0;\nfor (int i = 0; i <= 10; i++)\ns+=i;\ncout << s << endl;\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
       "options": {
         "a": "45",
-        "b": "5",
+        "b": "55",
         "c": "0",
         "d": "Chương trình báo lỗi"
       },
