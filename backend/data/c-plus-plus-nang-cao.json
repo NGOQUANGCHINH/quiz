@@ -3,54 +3,6 @@
   "title": "C++ Nâng Cao",
   "questions": [
     {
-      "id": "7bfba27d-5914-47a1-9e67-a4c757231bb0",
-      "question": "Cho đoạn chương trình sau\n```cpp\n#include   <iostream.h>\nint main (void) {\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\nLệnh #include dùng để làm gì?\n```",
-      "answers": [
-        {
-          "id": "cd8d0258-0cc3-468b-a42d-b310cd1c4b95",
-          "text": "Sử dụng thư viện iostream.h."
-        },
-        {
-          "id": "b5b50bc0-3ac9-44e4-9881-8dbd9dcbba95",
-          "text": "Lấy code viết sẵn của chương trình khác đưa vào chương trình."
-        },
-        {
-          "id": "aa70c04b-73eb-4015-ab80-ea94dc54fbf2",
-          "text": "Liên kết file iostream.h"
-        },
-        {
-          "id": "91690745-46fc-4554-8270-9f2c642d1587",
-          "text": "Đọc file iostream.h"
-        }
-      ],
-      "correctAnswerId": "cd8d0258-0cc3-468b-a42d-b310cd1c4b95",
-      "hint": "#include, Sử dụng thư viện iostream.h."
-    },
-    {
-      "id": "cecfbd8d-95fd-43f7-9a73-1d5020a1a997",
-      "question": "Cho đoạn chương trình sau\n```cpp\n#include   <iostream.h>\nint main (void)\n{\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\n```\nMột chương trình C++ có bao nhiêu <span style='color:red; font-weight:bold'>hàm main?</span>",
-      "answers": [
-        {
-          "id": "54d9814f-c8ea-413b-b02b-79aff24faa70",
-          "text": "1"
-        },
-        {
-          "id": "a3e3788e-ff3e-4145-bbcb-1f2572816e64",
-          "text": "2"
-        },
-        {
-          "id": "7ddf81ea-35bf-46b0-a065-1c6360ad575a",
-          "text": "3"
-        },
-        {
-          "id": "a9362699-8cc6-4e0a-a4ff-f3311c4aea76",
-          "text": "4"
-        }
-      ],
-      "correctAnswerId": "54d9814f-c8ea-413b-b02b-79aff24faa70",
-      "hint": "hàm main?, a. 1"
-    },
-    {
       "id": "3d6825f0-2045-4c78-8831-938383646824",
       "question": "<span style='color:red; font-weight:bold'>Đối tượng</span> là gì?",
       "answers": [
@@ -313,30 +265,6 @@
       ],
       "correctAnswerId": "1a6f843d-d9c9-4751-97fb-a886c50201d1",
       "hint": "biểu ĐÚNG?, thành viên, hành vi"
-    },
-    {
-      "id": "5f962125-e02e-4807-985a-31d67d716e97",
-      "question": "```cpp\nCho class tinhtong được định nghĩa như sau:\nclass tinhtong {\nint a,b;\npublic: int tong(void);\n};\n```\nHai biến a<span style='color:red; font-weight:bold'>, b có quyền truy cập</span> là gì?",
-      "answers": [
-        {
-          "id": "641571de-ce2c-476b-b096-0a456403aaa8",
-          "text": "public"
-        },
-        {
-          "id": "d21c58c6-654c-4847-bf6a-7e61142446cb",
-          "text": "private"
-        },
-        {
-          "id": "81d3144a-cfe2-40b5-8efb-0030064b5f44",
-          "text": "protected"
-        },
-        {
-          "id": "2fcd2741-5d60-48ae-813d-bb838c7dd5a1",
-          "text": "Tất cả các quyền"
-        }
-      ],
-      "correctAnswerId": "d21c58c6-654c-4847-bf6a-7e61142446cb",
-      "hint": "tinhtong, , b có quyền truy cập"
     },
     {
       "id": "58b14f37-9ead-408b-90ff-05be17ed6bcf",
@@ -723,6 +651,198 @@
       "hint": "Các hành vi của đối tượng trong thế giới thực mô tả, . Hàm thành viên"
     },
     {
+      "id": "b5e26cd8-4968-428f-943f-a475ddc38eee",
+      "question": "Khi <span style='color:red; font-weight:bold'>định nghĩa hàm thành viên ở ngoài lớp</span>, ta dùng cú pháp nào?",
+      "answers": [
+        {
+          "id": "81968f77-08aa-42aa-a50d-a61878d624dd",
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_lớp:Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
+        },
+        {
+          "id": "902aef27-9c0d-4bdb-937d-946b089d1c98",
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_hàm:Tên_lớp</span>(danh sách tham số) {[nội dung hàm]}"
+        },
+        {
+          "id": "74dc3a35-9cd7-446a-a232-9740bdd07666",
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
+        },
+        {
+          "id": "6a51e4b0-c3d5-49a2-b9f3-708f2e997af9",
+          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_lớp::Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
+        }
+      ],
+      "correctAnswerId": "6a51e4b0-c3d5-49a2-b9f3-708f2e997af9",
+      "hint": "định nghĩa hàm thành viên ở ngoài lớp, lớp::"
+    },
+    {
+      "id": "0f1569ad-7ac4-4892-b2cf-56187600c20d",
+      "question": "<span style='color:red; font-weight:bold'>Kế thừa</span> là gì?",
+      "answers": [
+        {
+          "id": "db1701f2-4c62-4864-952f-5a822487fcbb",
+          "text": "Tiến trình che dấu việc thực thi chi tiết một đối tượng"
+        },
+        {
+          "id": "43f4034f-7831-4dde-8779-55d87a6f6bd2",
+          "text": "Các hành động và thuộc tính định nghĩa trong một lớp có thể được tái sử dụng lại bởi các lớp khác"
+        },
+        {
+          "id": "1305ac29-5bdf-4d04-bbcd-24f5edd66fc4",
+          "text": "Nhiều hình thức, hành động cùng tên có thể được thực hiện khác nhau đối với  các đối tượng hoặc các lớp khác nhau"
+        },
+        {
+          "id": "744a4a07-db7d-4ca7-b4d4-aa359eee20d6",
+          "text": "Không có kết quả đúng"
+        }
+      ],
+      "correctAnswerId": "43f4034f-7831-4dde-8779-55d87a6f6bd2",
+      "hint": "Kế thừa, hành động và thuộc tính định nghĩa trong một lớp, tái sử dụng lại bởi"
+    },
+    {
+      "id": "66539dfb-3027-461c-9949-445ffea7795f",
+      "question": "<span style='color:red; font-weight:bold'>Con trỏ</span> là gì?",
+      "answers": [
+        {
+          "id": "2b44cef8-a19c-43a6-a2fb-5e7306852b51",
+          "text": "Biến chứa giá trị kiểu số nguyên, số thực hoặc ký tự"
+        },
+        {
+          "id": "e9b87006-b386-4795-b444-392b3204dff6",
+          "text": "Biến có kiểu struct"
+        },
+        {
+          "id": "f92914b7-91b0-457a-a50d-2a9d4f338bbd",
+          "text": "Biến chứa địa chỉ của biến khác"
+        },
+        {
+          "id": "981456dd-552b-463b-b580-a4a482919c7b",
+          "text": "Biến được khai báo ở bên trong hàm và luôn giữ giá trị không đổi"
+        }
+      ],
+      "correctAnswerId": "f92914b7-91b0-457a-a50d-2a9d4f338bbd",
+      "hint": "Con trỏ, Biến chứa địa chỉ của biến khác"
+    },
+    {
+      "id": "74863d22-d4dd-4e39-b403-2d7a629b5ede",
+      "question": "Hàm c<span style='color:red; font-weight:bold'>onstructor</span> là gì?",
+      "answers": [
+        {
+          "id": "35179921-0b58-41ac-a36b-a6dfef9d5bee",
+          "text": "Là hàm tự động được gọi bất kỳ khi nào một đối tượng mới của lớp được tạo ra"
+        },
+        {
+          "id": "1c0fb10b-fd7e-48ca-b850-a79aad5141f2",
+          "text": "Là hàm được gọi sau khi thực hiện xong tất cả các hàm thành viên của lớp"
+        },
+        {
+          "id": "29c5551b-36b2-4ab9-9a44-e4c2e31f1929",
+          "text": "Là hàm được định nghĩa ở bên ngoài lớp và chịu trách nhiệm xoá các thành viên của lớp"
+        },
+        {
+          "id": "0d212e6d-45eb-45be-83d6-2895d0b70163",
+          "text": "Không có đáp án đúng"
+        }
+      ],
+      "correctAnswerId": "35179921-0b58-41ac-a36b-a6dfef9d5bee",
+      "hint": "onstructor, tự động được gọi bất kỳ, một đối tượng mới, lớp được tạo"
+    },
+    {
+      "id": "9535863a-c68a-4e68-93f0-4007c4bc5e03",
+      "question": "<span style='color:red; font-weight:bold'>Mảng</span> là gì?",
+      "answers": [
+        {
+          "id": "38a1e009-deab-43da-9692-c134ccbb2a01",
+          "text": "Là một đối tượng chứa các một số hữu hạn các giá trị cùng kiểu."
+        },
+        {
+          "id": "031f4bab-3d50-48df-8abb-ea8d60084917",
+          "text": "Là một biến chứa các giá trị cùng kiểu."
+        },
+        {
+          "id": "9adf0635-1329-4155-af0f-47ec1c36c3eb",
+          "text": "Là một biến chứa một số hữu hạn các giá trị cùng kiểu."
+        },
+        {
+          "id": "c8147b42-d861-4338-a958-f03ae7911292",
+          "text": "Tất cả đều sai."
+        }
+      ],
+      "correctAnswerId": "9adf0635-1329-4155-af0f-47ec1c36c3eb",
+      "hint": "Mảng, biến chứa một số hữu hạn, trị cùng kiểu"
+    },
+    {
+      "id": "7bfba27d-5914-47a1-9e67-a4c757231bb0",
+      "question": "Cho đoạn chương trình sau\n```cpp\n#include   <iostream.h>\nint main (void) {\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\nLệnh #include dùng để làm gì?\n```",
+      "answers": [
+        {
+          "id": "cd8d0258-0cc3-468b-a42d-b310cd1c4b95",
+          "text": "Sử dụng thư viện iostream.h."
+        },
+        {
+          "id": "b5b50bc0-3ac9-44e4-9881-8dbd9dcbba95",
+          "text": "Lấy code viết sẵn của chương trình khác đưa vào chương trình."
+        },
+        {
+          "id": "aa70c04b-73eb-4015-ab80-ea94dc54fbf2",
+          "text": "Liên kết file iostream.h"
+        },
+        {
+          "id": "91690745-46fc-4554-8270-9f2c642d1587",
+          "text": "Đọc file iostream.h"
+        }
+      ],
+      "correctAnswerId": "cd8d0258-0cc3-468b-a42d-b310cd1c4b95",
+      "hint": "#include, Sử dụng thư viện iostream.h."
+    },
+    {
+      "id": "cecfbd8d-95fd-43f7-9a73-1d5020a1a997",
+      "question": "Cho đoạn chương trình sau\n```cpp\n#include   <iostream.h>\nint main (void)\n{\ncout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”;\nreturn 0;\n}\n```\nMột chương trình C++ có bao nhiêu <span style='color:red; font-weight:bold'>hàm main?</span>",
+      "answers": [
+        {
+          "id": "54d9814f-c8ea-413b-b02b-79aff24faa70",
+          "text": "1"
+        },
+        {
+          "id": "a3e3788e-ff3e-4145-bbcb-1f2572816e64",
+          "text": "2"
+        },
+        {
+          "id": "7ddf81ea-35bf-46b0-a065-1c6360ad575a",
+          "text": "3"
+        },
+        {
+          "id": "a9362699-8cc6-4e0a-a4ff-f3311c4aea76",
+          "text": "4"
+        }
+      ],
+      "correctAnswerId": "54d9814f-c8ea-413b-b02b-79aff24faa70",
+      "hint": "hàm main?, a. 1"
+    },
+    {
+      "id": "5f962125-e02e-4807-985a-31d67d716e97",
+      "question": "```cpp\nCho class tinhtong được định nghĩa như sau:\nclass tinhtong {\nint a,b;\npublic: int tong(void);\n};\n```\nHai biến a<span style='color:red; font-weight:bold'>, b có quyền truy cập</span> là gì?",
+      "answers": [
+        {
+          "id": "641571de-ce2c-476b-b096-0a456403aaa8",
+          "text": "public"
+        },
+        {
+          "id": "d21c58c6-654c-4847-bf6a-7e61142446cb",
+          "text": "private"
+        },
+        {
+          "id": "81d3144a-cfe2-40b5-8efb-0030064b5f44",
+          "text": "protected"
+        },
+        {
+          "id": "2fcd2741-5d60-48ae-813d-bb838c7dd5a1",
+          "text": "Tất cả các quyền"
+        }
+      ],
+      "correctAnswerId": "d21c58c6-654c-4847-bf6a-7e61142446cb",
+      "hint": "tinhtong, , b có quyền truy cập"
+    },
+    {
       "id": "4e9ffee9-bd71-4caf-89cd-3cf33871d239",
       "question": "Đoạn lệnh sau cho kết quả là bao nhiêu:\n```cpp\nfor (int i = 1; i <= 5; i++)\ncout << i < “, “ ;\ncout << “LAUNCH! << endl;\n```",
       "answers": [
@@ -793,30 +913,6 @@
       ],
       "correctAnswerId": "c027c6fe-e0d6-4f80-84b7-f7d6502bc248",
       "hint": "Không có gợi ý"
-    },
-    {
-      "id": "b5e26cd8-4968-428f-943f-a475ddc38eee",
-      "question": "Khi <span style='color:red; font-weight:bold'>định nghĩa hàm thành viên ở ngoài lớp</span>, ta dùng cú pháp nào?",
-      "answers": [
-        {
-          "id": "81968f77-08aa-42aa-a50d-a61878d624dd",
-          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_lớp:Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
-        },
-        {
-          "id": "902aef27-9c0d-4bdb-937d-946b089d1c98",
-          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_hàm:Tên_lớp</span>(danh sách tham số) {[nội dung hàm]}"
-        },
-        {
-          "id": "74dc3a35-9cd7-446a-a232-9740bdd07666",
-          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
-        },
-        {
-          "id": "6a51e4b0-c3d5-49a2-b9f3-708f2e997af9",
-          "text": "Kiểu_trả_về_của_hàm <span style='color:red; font-weight:bold'>Tên_lớp::Tên_hàm</span>(danh sách tham số) {[nội dung hàm]}"
-        }
-      ],
-      "correctAnswerId": "6a51e4b0-c3d5-49a2-b9f3-708f2e997af9",
-      "hint": "định nghĩa hàm thành viên ở ngoài lớp, lớp::"
     },
     {
       "id": "60f28d7d-446a-4ccf-8057-118ddb7da9a4",
@@ -963,54 +1059,6 @@
       "hint": "getLuong() * 0.5"
     },
     {
-      "id": "0f1569ad-7ac4-4892-b2cf-56187600c20d",
-      "question": "<span style='color:red; font-weight:bold'>Kế thừa</span> là gì?",
-      "answers": [
-        {
-          "id": "db1701f2-4c62-4864-952f-5a822487fcbb",
-          "text": "Tiến trình che dấu việc thực thi chi tiết một đối tượng"
-        },
-        {
-          "id": "43f4034f-7831-4dde-8779-55d87a6f6bd2",
-          "text": "Các hành động và thuộc tính định nghĩa trong một lớp có thể được tái sử dụng lại bởi các lớp khác"
-        },
-        {
-          "id": "1305ac29-5bdf-4d04-bbcd-24f5edd66fc4",
-          "text": "Nhiều hình thức, hành động cùng tên có thể được thực hiện khác nhau đối với  các đối tượng hoặc các lớp khác nhau"
-        },
-        {
-          "id": "744a4a07-db7d-4ca7-b4d4-aa359eee20d6",
-          "text": "Không có kết quả đúng"
-        }
-      ],
-      "correctAnswerId": "43f4034f-7831-4dde-8779-55d87a6f6bd2",
-      "hint": "Kế thừa, hành động và thuộc tính định nghĩa trong một lớp, tái sử dụng lại bởi"
-    },
-    {
-      "id": "66539dfb-3027-461c-9949-445ffea7795f",
-      "question": "<span style='color:red; font-weight:bold'>Con trỏ</span> là gì?",
-      "answers": [
-        {
-          "id": "2b44cef8-a19c-43a6-a2fb-5e7306852b51",
-          "text": "Biến chứa giá trị kiểu số nguyên, số thực hoặc ký tự"
-        },
-        {
-          "id": "e9b87006-b386-4795-b444-392b3204dff6",
-          "text": "Biến có kiểu struct"
-        },
-        {
-          "id": "f92914b7-91b0-457a-a50d-2a9d4f338bbd",
-          "text": "Biến chứa địa chỉ của biến khác"
-        },
-        {
-          "id": "981456dd-552b-463b-b580-a4a482919c7b",
-          "text": "Biến được khai báo ở bên trong hàm và luôn giữ giá trị không đổi"
-        }
-      ],
-      "correctAnswerId": "f92914b7-91b0-457a-a50d-2a9d4f338bbd",
-      "hint": "Con trỏ, Biến chứa địa chỉ của biến khác"
-    },
-    {
       "id": "0b9f7410-eda0-4198-bbf0-23b40c1631c8",
       "question": "Cho đoạn lệnh sau:\n```cpp\nclass nhanvien {\ndouble luong;\npublic:\nvoid setLuong(double d) { luong = d; }\ndouble getLuong() { return luong; }\nvoid tangLuong(double d) { luong += d; }\n}\nint main() {\n```\nnhanvien A;",
       "answers": [
@@ -1057,30 +1105,6 @@
       ],
       "correctAnswerId": "e6dcd855-1ba1-4180-8047-bce42fcd796b",
       "hint": "luong, luong với quyền truy xuất là public thì đáp án là 100)"
-    },
-    {
-      "id": "74863d22-d4dd-4e39-b403-2d7a629b5ede",
-      "question": "Hàm c<span style='color:red; font-weight:bold'>onstructor</span> là gì?",
-      "answers": [
-        {
-          "id": "35179921-0b58-41ac-a36b-a6dfef9d5bee",
-          "text": "Là hàm tự động được gọi bất kỳ khi nào một đối tượng mới của lớp được tạo ra"
-        },
-        {
-          "id": "1c0fb10b-fd7e-48ca-b850-a79aad5141f2",
-          "text": "Là hàm được gọi sau khi thực hiện xong tất cả các hàm thành viên của lớp"
-        },
-        {
-          "id": "29c5551b-36b2-4ab9-9a44-e4c2e31f1929",
-          "text": "Là hàm được định nghĩa ở bên ngoài lớp và chịu trách nhiệm xoá các thành viên của lớp"
-        },
-        {
-          "id": "0d212e6d-45eb-45be-83d6-2895d0b70163",
-          "text": "Không có đáp án đúng"
-        }
-      ],
-      "correctAnswerId": "35179921-0b58-41ac-a36b-a6dfef9d5bee",
-      "hint": "onstructor, tự động được gọi bất kỳ, một đối tượng mới, lớp được tạo"
     },
     {
       "id": "2ad1ff6b-a68c-4458-a12f-f22fa1ab1104",
@@ -1849,30 +1873,6 @@
       ],
       "correctAnswerId": "6c90238e-faf5-4d61-b6b6-1960ddc83002",
       "hint": "int k, k, c. Chương trình lỗi"
-    },
-    {
-      "id": "9535863a-c68a-4e68-93f0-4007c4bc5e03",
-      "question": "<span style='color:red; font-weight:bold'>Mảng</span> là gì?",
-      "answers": [
-        {
-          "id": "38a1e009-deab-43da-9692-c134ccbb2a01",
-          "text": "Là một đối tượng chứa các một số hữu hạn các giá trị cùng kiểu."
-        },
-        {
-          "id": "031f4bab-3d50-48df-8abb-ea8d60084917",
-          "text": "Là một biến chứa các giá trị cùng kiểu."
-        },
-        {
-          "id": "9adf0635-1329-4155-af0f-47ec1c36c3eb",
-          "text": "Là một biến chứa một số hữu hạn các giá trị cùng kiểu."
-        },
-        {
-          "id": "c8147b42-d861-4338-a958-f03ae7911292",
-          "text": "Tất cả đều sai."
-        }
-      ],
-      "correctAnswerId": "9adf0635-1329-4155-af0f-47ec1c36c3eb",
-      "hint": "Mảng, biến chứa một số hữu hạn, trị cùng kiểu"
     },
     {
       "id": "c12c85a3-5cb3-406b-9d6b-2a7708165f84",
