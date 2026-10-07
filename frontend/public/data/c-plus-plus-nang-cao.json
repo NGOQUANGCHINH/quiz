@@ -2404,7 +2404,7 @@
     },
     {
       "id": "866bf99b-a2af-4232-ad4e-568fe76a1566",
-      "question": "Cho khối lệnh sau:\nif (yourSale >= target)\n```cpp\nbonus = 100 + 0.01 * (yourSale - target);\nelse\nbonus = 0;\n```\nVới yourSale = 3000, target = 2500, vậy bonus = ?",
+      "question": "Cho khối lệnh sau:\n```cpp\nif (yourSale >= target)\nbonus = 100 + 0.01 * (yourSale - target);\nelse\nbonus = 0;\n```\nVới yourSale = 3000, target = 2500, vậy bonus = ?",
       "answers": [
         {
           "id": "d4c97313-7ca4-4111-971e-b5dd6d301f9c",
@@ -2428,7 +2428,7 @@
     },
     {
       "id": "5f7955a8-d10c-4269-9d17-bef727fa352a",
-      "question": "Cho khối lệnh sau:\nif (yourSale >= target)\n```cpp\nbonus = 100 + 0.01 * (yourSale - target);\n```\nelse\nbonus = <span style='color:red; font-weight:bold'>0</span>\nVới yourSale = 3<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, target = 25<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, vậy bonus = ?",
+      "question": "Cho khối lệnh sau:\n```cpp\nif (yourSale >= target)\nbonus = 100 + 0.01 * (yourSale - target);\nelse\nbonus = <span style='color:red; font-weight:bold'>0</span>;\n```\nVới yourSale = 3<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, target = 25<span style='color:red; font-weight:bold'>0</span><span style='color:red; font-weight:bold'>0</span>, vậy bonus = ?",
       "answers": [
         {
           "id": "013f7fe2-1645-49ea-9e51-efe8b256b1f8",
@@ -2448,7 +2448,7 @@
     },
     {
       "id": "cf23d55c-9320-4042-802e-0c097a2f8df7",
-      "question": "Cho khối lệnh sau:\nif (yourSale >= target)\n```cpp\nbonus = 100 + 0.01 * (yourSale – target);\nelse\nbonus = 0;\n```\nVới yourSale = 2400, target = 2500, vậy bonus = ?",
+      "question": "Cho khối lệnh sau:\n```cpp\nif (yourSale >= target)\nbonus = 100 + 0.01 * (yourSale – target);\nelse\nbonus = 0;\n```\nVới yourSale = 2400, target = 2500, vậy bonus = ?",
       "answers": [
         {
           "id": "81ecbb4c-df5e-43c6-94fa-1cb31700b97b",
