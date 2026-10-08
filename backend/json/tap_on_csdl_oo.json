@@ -6,7 +6,7 @@
       "id": "4f170996-129c-481f-b200-b91af985f470",
       "stt": 1,
       "nhan": "Câu 1",
-      "question": "Hãy chọn phương án ứng với khái niệm phương?",
+      "question": "Hãy chọn phương án ứng với <span style='color:red; font-weight:bold'>khái niệm phương</span>?",
       "answers": [
         {
           "id": "6e24c2f0-14bf-450e-88f8-3789fcfda4bb",
@@ -32,7 +32,7 @@
       "id": "fef4eaf7-508a-4a46-bbd4-988fa9537e4a",
       "stt": 2,
       "nhan": "Câu 2",
-      "question": "Các thông tin của khách hàng được lưu trong cơ sở dữ liệu cuả một ngân hàng. Sắp tới, ngân hàng mở rộng thêm một số hình thức kinh doanh khác và xây dựng thêm một hệ thống lưu trữ mới, khác hẳn với hệ thống cũ. Các thông tin của khách hàng trong hệ thống cũ không được cập nhật tự động sang hệ thống mới.\nHãy chọn phương án ứng với tính trạng dữ liệu khách hàng trong hệ thống ngân hàng?",
+      "question": "Các thông tin của khách hàng được lưu trong cơ sở dữ liệu cuả một ngân hàng. Sắp tới, ngân hàng mở rộng thêm một số hình thức kinh doanh khác và xây dựng thêm một hệ thống lưu trữ mới, khác hẳn với hệ thống cũ. Các thông tin của khách hàng trong hệ thống cũ không được cập nhật tự động sang hệ thống mới.\nHãy chọn phương án ứng với <span style='color:red; font-weight:bold'>tính trạng dữ liệu</span> khách hàng trong hệ thống ngân hàng?",
       "answers": [
         {
           "id": "8bf4e65a-1a19-419d-a424-f16dd5066471",
@@ -58,7 +58,7 @@
       "id": "a060758e-6c44-4e71-9768-25b9f24a5fda",
       "stt": 3,
       "nhan": "Câu 3",
-      "question": "Hãy chọn phương án ứng với các mức của một hệ cơ sở dữ liệu?",
+      "question": "Hãy chọn phương án ứng với các <span style='color:red; font-weight:bold'>mức của một hệ cơ sở dữ liệu</span>?",
       "answers": [
         {
           "id": "ead1a477-26af-4e01-b676-b16c7f10fb87",
@@ -84,7 +84,7 @@
       "id": "a9800241-6239-463c-bb99-701dcd28facb",
       "stt": 4,
       "nhan": "Câu 4",
-      "question": "Trong lập trình hướng đối tượng, tập hợp các thực thể hay các đối tượng có cùng đặc tính được gọi trong các phương án sau?",
+      "question": "Trong lập trình hướng <span style='color:red; font-weight:bold'>đối tượng</span>, <span style='color:red; font-weight:bold'>tập hợp các thực thể</span> hay các <span style='color:red; font-weight:bold'>đối tượng</span> có <span style='color:red; font-weight:bold'>cùng đặc tính</span> được gọi trong các phương án sau?",
       "answers": [
         {
           "id": "bf76d29e-ba23-45b6-8186-716f3363b2f4",
@@ -162,7 +162,7 @@
       "id": "edba00b7-32ac-44de-928e-f2fd66e3a4ac",
       "stt": 7,
       "nhan": "Câu 7",
-      "question": "Hãy chọn phương án chỉ ra vai trò của mô hình thực thể liên kết trong việc thiết kế CSDL?",
+      "question": "Hãy chọn phương án chỉ ra vai trò của mô hình <span style='color:red; font-weight:bold'>thực thể</span> liên kết trong việc thiết kế CSDL?",
       "answers": [
         {
           "id": "8ca69074-f535-4a68-b994-eac166d58b34",
@@ -188,7 +188,7 @@
       "id": "bf56d882-0b53-4354-b9c2-8be782d9e2a9",
       "stt": 8,
       "nhan": "Câu 8",
-      "question": "Hãy chọn phương án đúng ứng với khái niệm kiểu thực thể (Entity type?",
+      "question": "Hãy chọn phương án đúng ứng với khái niệm kiểu <span style='color:red; font-weight:bold'>thực thể</span> (Entity type?",
       "answers": [
         {
           "id": "70cc4519-2073-405f-bcd5-b8e11fe2bf61",
@@ -240,7 +240,7 @@
       "id": "9ea25374-959a-45fe-a5a6-029a6767768f",
       "stt": 10,
       "nhan": "Câu 10",
-      "question": "Hãy chọn phương án ứng với khái niệm về thực thể (Entity)?",
+      "question": "Hãy chọn phương án ứng với khái niệm về <span style='color:red; font-weight:bold'>thực thể</span> (Entity)?",
       "answers": [
         {
           "id": "0373f51d-b0e3-41bb-b12f-8a75c82f77dd",
@@ -266,7 +266,7 @@
       "id": "8d06d835-a893-456e-bc65-11d55c8750a9",
       "stt": 11,
       "nhan": "Câu 11",
-      "question": "Cho các ví dụ sau: (1) NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. Hãy chọn phương án ứng với thành phần là thực thể trong ví dụ trên?",
+      "question": "Cho các ví dụ sau: (1) NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. Hãy chọn phương án ứng với thành phần là <span style='color:red; font-weight:bold'>thực thể</span> trong ví dụ trên?",
       "answers": [
         {
           "id": "2375554f-76d4-4047-9f46-27081fa3c75b",
@@ -292,7 +292,7 @@
       "id": "3f518659-2681-4594-9c04-f68605e79c5c",
       "stt": 12,
       "nhan": "Câu 12",
-      "question": "Hãy chọn phương án cho biết khi nào thuộc tính của thực thể sử dụng giá trị rỗng (null)?",
+      "question": "Hãy chọn phương án cho biết khi nào thuộc tính của <span style='color:red; font-weight:bold'>thực thể</span> sử dụng giá trị rỗng (null)?",
       "answers": [
         {
           "id": "7f434a79-1f42-4358-82da-b4c5c0e9d2ba",
@@ -318,7 +318,7 @@
       "id": "6a6a8ab2-b1bf-430c-9963-fc2e60c731d3",
       "stt": 13,
       "nhan": "Câu 13",
-      "question": "Cho thực thể PHIEUTHU (so_phieu, ho_ten, dia_chi_khach, ngay_ lap, ma_hang, ten_hang, so_luong,don_gia). Hãy chọn phương án ứng với thuộc tính định danh?",
+      "question": "Cho <span style='color:red; font-weight:bold'>thực thể</span> PHIEUTHU (so_phieu, ho_ten, dia_chi_khach, ngay_ lap, ma_hang, ten_hang, so_luong,don_gia). Hãy chọn phương án ứng với thuộc tính <span style='color:red; font-weight:bold'>định danh</span>?",
       "answers": [
         {
           "id": "233a4617-4c8a-4fbb-ac3b-1438b9eb4494",
@@ -422,7 +422,7 @@
       "id": "7de8ca2a-17d2-494e-b01f-24a1e0e916f7",
       "stt": 17,
       "nhan": "Câu 17",
-      "question": "Trong lược đồ EER có khái niệm về thực thể mạnh (strong entity). Hãy chọn phát không đúng về thực thể mạnh trong các phát biểu sau?",
+      "question": "Trong lược đồ EER có khái niệm về <span style='color:red; font-weight:bold'>thực thể</span> mạnh (strong entity). Hãy chọn phát không đúng về <span style='color:red; font-weight:bold'>thực thể</span> mạnh trong các phát biểu sau?",
       "answers": [
         {
           "id": "79207f16-f83e-4380-a35b-7f22850edc19",
@@ -500,7 +500,7 @@
       "id": "475ce9ed-1467-4dfc-9718-0461e76d8759",
       "stt": 20,
       "nhan": "Câu 20",
-      "question": "Hãy chọn phương án ứng với khái niệm chuyên biệt hóa trong mô hình EER?",
+      "question": "Hãy chọn phương án ứng với khái niệm <span style='color:red; font-weight:bold'>chuyên biệt hóa</span> trong mô hình EER?",
       "answers": [
         {
           "id": "02054b58-f211-45f3-aa12-38fb9b5df15b",
@@ -526,7 +526,7 @@
       "id": "bed3e4b9-f9bd-4369-9357-b1ae20469ebb",
       "stt": 21,
       "nhan": "Câu 21",
-      "question": "Hãy chọn phương án ứng với khái niệm tổng quát hóa trong mô hình EER?",
+      "question": "Hãy chọn phương án ứng với khái niệm <span style='color:red; font-weight:bold'>tổng quát hóa</span> trong mô hình EER?",
       "answers": [
         {
           "id": "c55ffe12-9623-484b-bf47-98622bf60df6",
@@ -552,7 +552,7 @@
       "id": "f4ea3be5-0b60-413f-807c-311ad2ed256b",
       "stt": 22,
       "nhan": "Câu 22",
-      "question": "Hãy cho biết trong mô hình EER, quá trình tổng quát hóa dùng cách thiết kế gì trong cách thiết kế dưới đây?",
+      "question": "Hãy cho biết trong mô hình EER, quá trình <span style='color:red; font-weight:bold'>tổng quát hóa</span> dùng cách thiết kế gì trong cách thiết kế dưới đây?",
       "answers": [
         {
           "id": "266e76bd-74ef-4935-b40f-6ae661a6ea14",
@@ -578,7 +578,7 @@
       "id": "f31e003d-1541-41b2-98de-f9c850266b55",
       "stt": 23,
       "nhan": "Câu 23",
-      "question": "Hãy cho biết trong mô hình EER, quá trình chuyên biệt hóa dùng cách thiết kế gì dưới đây?",
+      "question": "Hãy cho biết trong mô hình EER, quá trình <span style='color:red; font-weight:bold'>chuyên biệt hóa</span> dùng cách thiết kế gì dưới đây?",
       "answers": [
         {
           "id": "ab40436f-239d-44f8-b8cb-e3cd51b4cb42",
@@ -604,7 +604,7 @@
       "id": "79525a92-e5d8-4549-b7aa-6946240404a3",
       "stt": 24,
       "nhan": "Câu 24",
-      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi thuộc tính đa trị từ mô hình ER sang mô hình hướng đối tượng?",
+      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi <span style='color:red; font-weight:bold'>thuộc tính đa trị</span> từ <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "c7bbf893-5df8-4c3a-8e9e-9ddcfe45c2df",
@@ -630,7 +630,7 @@
       "id": "e8d51ad4-7b41-434c-87d9-489ce80e59e4",
       "stt": 25,
       "nhan": "Câu 25",
-      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi thuộc tính phức hợp trong mô hình ER sang mô hình hướng đối tượng?",
+      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi thuộc tính phức hợp trong <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "400ec80a-1448-4a5b-8223-ee59f33eb4ba",
@@ -656,7 +656,7 @@
       "id": "dc4f54cf-af3c-445d-9f3e-c23d777cf5db",
       "stt": 26,
       "nhan": "Câu 26",
-      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B thì thuộc tính mối quan hệ R phải có kiểu dữ liệu gì trong các kiểu dữ liệu sau?",
+      "question": "Trong mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>, lớp A có thuộc tính mối quan hệ R với lớp B thì thuộc tính mối quan hệ R phải có kiểu dữ liệu gì trong các kiểu dữ liệu sau?",
       "answers": [
         {
           "id": "aff175d2-071f-4e61-b39d-40aaf1484250",
@@ -682,7 +682,7 @@
       "id": "143d54d1-e562-4531-b236-93c4171299d1",
       "stt": 27,
       "nhan": "Câu 27",
-      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B , nếu mỗi đối tượng thuộc lớp A có quan hệ với nhiều đối tượng thuộc lớp B thì R được xem như thuộc tính nào trong các thuộc tính sau?",
+      "question": "Trong mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>, lớp A có thuộc tính mối quan hệ R với lớp B , nếu mỗi <span style='color:red; font-weight:bold'>đối tượng</span> thuộc lớp A có quan hệ với nhiều <span style='color:red; font-weight:bold'>đối tượng</span> thuộc lớp B thì R được xem như thuộc tính nào trong các thuộc tính sau?",
       "answers": [
         {
           "id": "2b225ab6-a40d-42e5-bb9e-dbcaa9656857",
@@ -708,7 +708,7 @@
       "id": "04b4d065-0391-423b-8968-250603ed3e72",
       "stt": 28,
       "nhan": "Câu 28",
-      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B , và thuộc tính R là thuộc tính đa trị thì trong lớp A ta sẽ khai báo như thế nào trong các câu lệnh khai báo sau?",
+      "question": "Trong mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>, lớp A có thuộc tính mối quan hệ R với lớp B , và thuộc tính R là <span style='color:red; font-weight:bold'>thuộc tính đa trị</span> thì trong lớp A ta sẽ khai báo như thế nào trong các câu lệnh khai báo sau?",
       "answers": [
         {
           "id": "5d850a18-d259-4d5d-ae78-5056bd7cb356",
@@ -734,7 +734,7 @@
       "id": "a9170366-55f6-402c-a0e5-545dea02009f",
       "stt": 29,
       "nhan": "Câu 29",
-      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng Class tương đương với đối tượng nào trong các đối tượng sau?",
+      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> Class tương đương với <span style='color:red; font-weight:bold'>đối tượng</span> nào trong các <span style='color:red; font-weight:bold'>đối tượng</span> sau?",
       "answers": [
         {
           "id": "25157690-b7f1-47b5-8e93-28c75931c255",
@@ -763,7 +763,7 @@
       "id": "cd26089f-94ea-4694-a4fd-16f4e8a52462",
       "stt": 30,
       "nhan": "Câu 30",
-      "question": "Hãy cho biết thuộc tính đa trị trong lược đồ hướng đối tượng được xác định với từ khóa gì trong các từ khóa sau?",
+      "question": "Hãy cho biết <span style='color:red; font-weight:bold'>thuộc tính đa trị</span> trong lược đồ hướng <span style='color:red; font-weight:bold'>đối tượng</span> được xác định với từ khóa gì trong các từ khóa sau?",
       "answers": [
         {
           "id": "b29796f8-cede-4590-a19e-a18b88183714",
@@ -789,7 +789,7 @@
       "id": "58e495b5-2f8c-4960-b5ac-1facbf01c727",
       "stt": 31,
       "nhan": "Câu 31",
-      "question": "Hãy chọn phương án đúng ứng với nội dung của quy tắc chuyển đổi thứ nhất từ mô hình ER sang mô hình hướng đối tượng?",
+      "question": "Hãy chọn phương án đúng ứng với nội dung của <span style='color:red; font-weight:bold'>quy tắc chuyển đổi thứ nhất</span> từ <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "d03984e8-c601-433f-994d-1fb82d96cf4b",
@@ -815,7 +815,7 @@
       "id": "ed3c6e36-9fcb-489a-9fa6-1f39d4db2bec",
       "stt": 32,
       "nhan": "Câu 32",
-      "question": "Hãy chọn phương án đúng ứng với nội dung của quy tắc chuyển đổi thứ hai từ mô hình ER sang mô hình hướng đối tượng?",
+      "question": "Hãy chọn phương án đúng ứng với nội dung của <span style='color:red; font-weight:bold'>quy tắc chuyển đổi thứ hai</span> từ <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "d4b46b93-3492-4fd9-8631-2e5b4453b444",
@@ -841,7 +841,7 @@
       "id": "87be5d00-92a7-4743-a62f-197e00ae8feb",
       "stt": 33,
       "nhan": "Câu 33",
-      "question": "Hãy chọn phương án đúng ứng với nội dung của quy tắc chuyển đổi thứ ba từ mô hình ER sang mô hình hướng đối tượng?",
+      "question": "Hãy chọn phương án đúng ứng với nội dung của <span style='color:red; font-weight:bold'>quy tắc chuyển đổi thứ ba</span> từ <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "6271e443-f1c5-4f17-90b0-19b126a17ea9",
@@ -867,7 +867,7 @@
       "id": "4721d40e-a06a-4af4-b310-106f6ff8c95b",
       "stt": 34,
       "nhan": "Câu 34",
-      "question": "Cho lược đồ ER sau. Ta phải áp dụng quy tắc số mấy để chuyển mối quan hệ quan is-a sang mô hình hướng đối tượng?\n[] .",
+      "question": "Cho lược đồ ER sau. Ta phải áp dụng quy tắc số mấy để chuyển mối quan hệ quan is-a sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?\n[] .",
       "answers": [
         {
           "id": "0f23c2da-8063-4aec-b257-185711d3be59",
@@ -896,7 +896,7 @@
       "id": "7bf13ba3-2d1c-4e0f-88c9-3d62e29b17bd",
       "stt": 35,
       "nhan": "Câu 35",
-      "question": "Cho lược đồ ER trên sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả là gì?",
+      "question": "Cho lược đồ ER trên sau. Khi áp dụng <span style='color:red; font-weight:bold'>quy tắc chuyển đổi</span> <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> ta sẽ được kết quả là gì?",
       "answers": [
         {
           "id": "c1668cd2-5cc1-410a-9f5b-c68b10d318b5",
@@ -925,7 +925,7 @@
       "id": "2908eed0-de78-404e-a42c-5b8c9dd3ad36",
       "stt": 36,
       "nhan": "Câu 36",
-      "question": "Hãy chọn phương án ứng với khái niệm về “DB4O”?",
+      "question": "Hãy chọn phương án ứng với khái niệm về “<span style='color:red; font-weight:bold'>DB4O</span>”?",
       "answers": [
         {
           "id": "57ce9c06-a0c7-4b50-972d-dc474a5ef2d9",
@@ -951,7 +951,7 @@
       "id": "08f5a807-2292-41d2-9fe2-c521dae4fe0c",
       "stt": 37,
       "nhan": "Câu 37",
-      "question": "Hãy chọn phương án đúng ứng với các thành phần chính trong kiến trúc của một ODBMS?",
+      "question": "Hãy chọn phương án đúng ứng với các thành phần chính trong kiến trúc của một <span style='color:red; font-weight:bold'>ODBMS</span>?",
       "answers": [
         {
           "id": "0cdbbd44-f2aa-46b5-b56e-bd633b06d645",
@@ -977,7 +977,7 @@
       "id": "9eb76920-d133-4455-827d-d2fda76684fa",
       "stt": 38,
       "nhan": "Câu 37",
-      "question": "Hãy chọn phương án chỉ ra hạn chế của truy vấn dạng QBE trong các phương án dưới đây?",
+      "question": "Hãy chọn phương án chỉ ra hạn chế của <span style='color:red; font-weight:bold'>truy vấn dạng QBE</span> trong các phương án dưới đây?",
       "answers": [
         {
           "id": "e945643b-ba64-48e5-9933-7991e6404cd0",
@@ -1003,7 +1003,7 @@
       "id": "0b60961d-bd6d-441b-a6a5-4ac0ffe19370",
       "stt": 39,
       "nhan": "Câu 38",
-      "question": "Hãy chọn phương án ứng với các hướng phát triển của Hệ quản trị CSDL hướng đối tượng?",
+      "question": "Hãy chọn phương án ứng với các hướng phát triển của Hệ quản trị CSDL hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "41383b10-94c8-4eb2-be43-b0c84bac3544",
@@ -1029,7 +1029,7 @@
       "id": "470a8e53-0fe4-48b2-b372-eeb861bc9555",
       "stt": 40,
       "nhan": "Câu 39",
-      "question": "Để có thể sử dụng được các lệnh truy vấn tới cơ sở dữ liệu hướng đối tượng. Ta phải add references file DLL nào trong các DLL sau?",
+      "question": "Để có thể sử dụng được các lệnh truy vấn tới cơ sở dữ liệu hướng <span style='color:red; font-weight:bold'>đối tượng</span>. Ta phải add references file DLL nào trong các DLL sau?",
       "answers": [
         {
           "id": "3dd2e691-9e72-407b-a1c4-b7e2ea851c80",
@@ -1055,7 +1055,7 @@
       "id": "27fa586b-0ec5-4a78-8d59-e00f08496fba",
       "stt": 41,
       "nhan": "Câu 40",
-      "question": "Cho lược đồ ER trên. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "question": "Cho lược đồ ER trên. Khi áp dụng <span style='color:red; font-weight:bold'>quy tắc chuyển đổi</span> <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> ta sẽ được kết quả nào trong các kết quả sau?",
       "answers": [
         {
           "id": "2bcc481c-57eb-4438-9401-7049d771c52d",
@@ -1084,7 +1084,7 @@
       "id": "36fa8a6d-5997-4b46-8218-93de23dd7701",
       "stt": 42,
       "nhan": "Câu 41",
-      "question": "Cho lược đồ ER trên sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "question": "Cho lược đồ ER trên sau. Khi áp dụng <span style='color:red; font-weight:bold'>quy tắc chuyển đổi</span> <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> ta sẽ được kết quả nào trong các kết quả sau?",
       "answers": [
         {
           "id": "d01f8e93-eb94-4544-bb99-9f752bc0841d",
@@ -1113,7 +1113,7 @@
       "id": "bbf99da6-36d5-4304-88bb-75476e9f3493",
       "stt": 43,
       "nhan": "Câu 42",
-      "question": "Cho lược đồ ER sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "question": "Cho lược đồ ER sau. Khi áp dụng <span style='color:red; font-weight:bold'>quy tắc chuyển đổi</span> <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> ta sẽ được kết quả nào trong các kết quả sau?",
       "answers": [
         {
           "id": "36a4ed46-69c7-4e4c-bd65-c2a148e9e6ca",
@@ -1142,7 +1142,7 @@
       "id": "0b5b48fc-7063-4bc3-a233-92442b66dfec",
       "stt": 44,
       "nhan": "Câu 42",
-      "question": "Cho lược đồ ER trên sau. Áp dụng quy tắc số mấy để chuyển mối quan hệ quanly sang mô hình hướng đối tượng?",
+      "question": "Cho lược đồ ER trên sau. Áp dụng quy tắc số mấy để chuyển mối quan hệ quanly sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "c1cf70ca-91ff-47d2-a37e-54833fba5762",
@@ -1171,7 +1171,7 @@
       "id": "5bb496e7-f077-427e-8fda-3c05556dc5c4",
       "stt": 45,
       "nhan": "Câu 43",
-      "question": "Hãy chọn phương án ứng với các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ mô hình ER sau sang mô hình hướng đối tượng?",
+      "question": "Hãy chọn phương án ứng với các <span style='color:red; font-weight:bold'>lớp đối tượng</span> sinh ra sau khi thực hiện chuyển đổi từ <span style='color:red; font-weight:bold'>mô hình ER</span> sau sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "d37402d1-2e49-4da7-b4fe-37274d24d08b",
@@ -1200,7 +1200,7 @@
       "id": "698b75d2-07df-4dc6-b79e-1552d5d9fc22",
       "stt": 46,
       "nhan": "Câu 44",
-      "question": "Hãy chọn phương án chỉ ra các lớp đối tượng được xây dựng trong đoạn mã lệnh sau?",
+      "question": "Hãy chọn phương án chỉ ra các <span style='color:red; font-weight:bold'>lớp đối tượng</span> được xây dựng trong đoạn mã lệnh sau?",
       "answers": [
         {
           "id": "35435b99-1c83-44de-9105-5b4bbf77d9bc",
@@ -1229,7 +1229,7 @@
       "id": "686c901e-c47c-4a27-aa3a-dae7965af92e",
       "stt": 47,
       "nhan": "Câu 45",
-      "question": "Hãy chọn phương án ứng với khái niệm về thuộc tính OID trong đoạn chương trình dưới đây?\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.",
+      "question": "Hãy chọn phương án ứng với khái niệm về <span style='color:red; font-weight:bold'>thuộc tính OID</span> trong đoạn chương trình dưới đây?\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.",
       "answers": [
         {
           "id": "daeb4c55-81fb-4a2f-94fb-d052d59874bc",
@@ -1284,7 +1284,7 @@
       "id": "7eb29ed2-913a-459e-9831-d191d61d2d72",
       "stt": 49,
       "nhan": "Câu 47",
-      "question": "Hãy chọn phương án chỉ ra tác dụng của phương thức Store trong đoạn chương trình sau?",
+      "question": "Hãy chọn phương án chỉ ra tác dụng của <span style='color:red; font-weight:bold'>phương thức Store</span> trong đoạn chương trình sau?",
       "answers": [
         {
           "id": "686c204a-4c8d-4fbb-a3e5-31dd5d593de3",
@@ -1313,7 +1313,7 @@
       "id": "4b961ba0-e518-43fc-8a67-ac60c8fa7663",
       "stt": 50,
       "nhan": "Câu 48",
-      "question": "Để kết nối đến cơ sở dữ liệu hướng đối tượng trong Visual Studio ta thực hiện như thế nào?",
+      "question": "Để kết nối đến cơ sở dữ liệu hướng <span style='color:red; font-weight:bold'>đối tượng</span> trong Visual Studio ta thực hiện như thế nào?",
       "answers": [
         {
           "id": "3e8f2a61-81eb-407f-a974-6f441eb2919f",
@@ -1339,7 +1339,7 @@
       "id": "88a475d7-2397-4e15-8c24-306166040ab4",
       "stt": 51,
       "nhan": "Câu 49",
-      "question": "Cho lược đồ ER trên sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "question": "Cho lược đồ ER trên sau. Khi áp dụng <span style='color:red; font-weight:bold'>quy tắc chuyển đổi</span> <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> ta sẽ được kết quả nào trong các kết quả sau?",
       "answers": [
         {
           "id": "9b3f3483-f5bb-45b6-94ab-ee7809812403",
@@ -1426,7 +1426,7 @@
       "id": "e1e8998d-fbc5-46a3-b7ac-387f11f76998",
       "stt": 54,
       "nhan": "Câu 52",
-      "question": "Hãy chọn phương án ứng với thư viên cần thêm vào để sử dụng truy vấn Native Queries?",
+      "question": "Hãy chọn phương án ứng với thư viên cần thêm vào để sử dụng truy vấn <span style='color:red; font-weight:bold'>Native Queries</span>?",
       "answers": [
         {
           "id": "b88eeb98-6e0b-400c-9958-1079bfa36464",
@@ -1510,7 +1510,7 @@
       "id": "ac836c70-7478-45b1-bb4e-6c837f3f16fc",
       "stt": 57,
       "nhan": "Câu 55",
-      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nHãy chọn phương án ứng với các thực thể có trong bài toán trên?",
+      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nHãy chọn phương án ứng với các <span style='color:red; font-weight:bold'>thực thể</span> có trong bài toán trên?",
       "answers": [
         {
           "id": "39f79936-aeae-4d7e-bfe4-11dd9c3b9f5c",
@@ -1562,7 +1562,7 @@
       "id": "e76fe805-a0b8-45a2-90c6-0d516af21dbb",
       "stt": 59,
       "nhan": "Câu 57",
-      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nPhân tích bài toán trên và chọn phương án ứng với mối quan hệ giữa hai thực thể mà có thuộc tính đi kèm?",
+      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nPhân tích bài toán trên và chọn phương án ứng với mối quan hệ giữa hai <span style='color:red; font-weight:bold'>thực thể</span> mà có thuộc tính đi kèm?",
       "answers": [
         {
           "id": "df609c38-b62a-44a2-b3cd-d78093850471",
@@ -1588,7 +1588,7 @@
       "id": "cf4280a0-0f19-4ce3-9704-64524a3f0e79",
       "stt": 60,
       "nhan": "Câu 58",
-      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nHãy chọn phương án chỉ ra mối quan hệ chuyên biệt hóa và tổng quát hóa trong bài toán trên?",
+      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nHãy chọn phương án chỉ ra mối quan hệ <span style='color:red; font-weight:bold'>chuyên biệt hóa và tổng quát hóa</span> trong bài toán trên?",
       "answers": [
         {
           "id": "034dac6f-a27c-46b4-993e-a1af15297306",
@@ -1614,7 +1614,7 @@
       "id": "d69fbbd8-f787-4ac7-8429-3f4d163fe9ba",
       "stt": 61,
       "nhan": "Câu 59",
-      "question": "Cho lược đồ ER sau. Khi thực hiện chuyển đổi sang mô hình hướng đối tượng sử dụng quy tắc số 4 ta sẽ được lớp Người gồm một số thuộc tính. Hãy chọn phương án ứng với các thuộc tính của lớp Người?",
+      "question": "Cho lược đồ ER sau. Khi thực hiện chuyển đổi sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> sử dụng <span style='color:red; font-weight:bold'>quy tắc số 4</span> ta sẽ được lớp Người gồm một số thuộc tính. Hãy chọn phương án ứng với các thuộc tính của lớp Người?",
       "answers": [
         {
           "id": "4b80a05d-a3fb-425f-a411-32e66eef8196",
@@ -1644,7 +1644,7 @@
       "id": "8bcc49e1-4f13-42a2-bb59-cf332d7d8476",
       "stt": 62,
       "nhan": "Câu 60",
-      "question": "Cho lược đồ ER sau. Khi thực hiện chuyển đổi sang mô hình hướng đối tượng ta sẽ áp dụng quy tắc chuyển đổi thứ 5, quy tắc này làm phát sinh thêm một lớp mới từ quan hệ Day gọi là Lịch Dạy, Lịch Dạy sẽ gồm những thuộc tính gì?",
+      "question": "Cho lược đồ ER sau. Khi thực hiện chuyển đổi sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span> ta sẽ áp dụng <span style='color:red; font-weight:bold'>quy tắc chuyển đổi</span> thứ 5, quy tắc này làm phát sinh thêm một lớp mới từ quan hệ Day gọi là Lịch Dạy, Lịch Dạy sẽ gồm những thuộc tính gì?",
       "answers": [
         {
           "id": "30714843-5d5d-4fbe-bdc8-8e195ef7d94d",
