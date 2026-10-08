@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
-import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, Eraser } from 'lucide-react';
+import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw } from 'lucide-react';
 import classNames from 'classnames';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
@@ -275,8 +275,8 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
               </button>
             )}
             {progress.answers[currentQuestion.id] && (
-              <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={handleClearAnswer} title="Bỏ chọn đáp án hiện tại">
-                <Eraser /> Bỏ chọn
+              <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={handleClearAnswer} title="Làm lại câu này">
+                <RotateCcw /> Làm lại câu
               </button>
             )}
             {isReloading && <span style={{ fontSize: '0.9rem', color: 'var(--primary-color)' }}>Đang cập nhật...</span>}
