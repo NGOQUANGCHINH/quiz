@@ -111,11 +111,11 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
     setProgress(prev => {
       let newQuestions = [...prev.questions];
       
-      if (prev.config.shuffleQuestions) {
+      if (prev.config.randomizeQuestions) {
         newQuestions = shuffleQuestions(newQuestions);
       }
       
-      if (prev.config.shuffleAnswers) {
+      if (prev.config.randomizeAnswers) {
         newQuestions = newQuestions.map(q => ({
           ...q,
           answers: shuffleAnswers([...q.answers])

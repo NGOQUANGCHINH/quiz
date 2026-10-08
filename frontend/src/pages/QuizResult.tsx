@@ -38,11 +38,11 @@ export default function QuizResult({ progress, navigate }: Props) {
   const handleRetakeAll = async () => {
     let newQuestions = [...progress.questions];
     
-    if (progress.config.shuffleQuestions) {
+    if (progress.config.randomizeQuestions) {
       newQuestions = shuffleQuestions(newQuestions);
     }
     
-    if (progress.config.shuffleAnswers) {
+    if (progress.config.randomizeAnswers) {
       newQuestions = newQuestions.map(q => ({
         ...q,
         answers: shuffleAnswers([...q.answers])
@@ -70,11 +70,11 @@ export default function QuizResult({ progress, navigate }: Props) {
 
     if (wrongQuestions.length === 0) return;
 
-    if (progress.config.shuffleQuestions) {
+    if (progress.config.randomizeQuestions) {
       wrongQuestions = shuffleQuestions(wrongQuestions);
     }
     
-    if (progress.config.shuffleAnswers) {
+    if (progress.config.randomizeAnswers) {
       wrongQuestions = wrongQuestions.map(q => ({
         ...q,
         answers: shuffleAnswers([...q.answers])
