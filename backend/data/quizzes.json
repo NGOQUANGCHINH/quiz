@@ -24,5 +24,13 @@
     "questionCount": 229,
     "timeLimitMinutes": 60,
     "fileUrl": "c-plus-plus-nang-cao.json"
+  },
+  {
+    "id": "csdl-huong-doi-tuong",
+    "title": "Tập ôn môn CSDL hướng đối tượng",
+    "description": "62 Câu trắc nghiệm CSDL Hướng đối tượng",
+    "questionCount": 62,
+    "timeLimitMinutes": 60,
+    "fileUrl": "tap_on_csdl_oo.json"
   }
 ]

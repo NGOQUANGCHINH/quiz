@@ -1,0 +1,1673 @@
+{
+  "id": "csdl-huong-doi-tuong",
+  "title": "Tập ôn môn CSDL hướng đối tượng",
+  "questions": [
+    {
+      "id": "4f170996-129c-481f-b200-b91af985f470",
+      "stt": 1,
+      "nhan": "Câu 1",
+      "question": "Hãy chọn phương án ứng với khái niệm phương?",
+      "answers": [
+        {
+          "id": "6e24c2f0-14bf-450e-88f8-3789fcfda4bb",
+          "text": "Những tác động của lớp và đối tượng vào hệ thống."
+        },
+        {
+          "id": "2bc27b87-c04a-48de-aa24-14ecb773f8e1",
+          "text": "Những hình thức mà lớp đó đối xử với hệ thống."
+        },
+        {
+          "id": "4d18df22-6926-4f0b-84ab-e2ad57d27719",
+          "text": "Những chương trình - chương trình con của hệ thống."
+        },
+        {
+          "id": "34478e5a-aec2-4fe2-8337-4a6bfcd27b58",
+          "text": "Những đoạn mã lệnh - code của chương trình đang dùng."
+        }
+      ],
+      "correctAnswerId": "6e24c2f0-14bf-450e-88f8-3789fcfda4bb",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "fef4eaf7-508a-4a46-bbd4-988fa9537e4a",
+      "stt": 2,
+      "nhan": "Câu 2",
+      "question": "Các thông tin của khách hàng được lưu trong cơ sở dữ liệu cuả một ngân hàng. Sắp tới, ngân hàng mở rộng thêm một số hình thức kinh doanh khác và xây dựng thêm một hệ thống lưu trữ mới, khác hẳn với hệ thống cũ. Các thông tin của khách hàng trong hệ thống cũ không được cập nhật tự động sang hệ thống mới.\nHãy chọn phương án ứng với tính trạng dữ liệu khách hàng trong hệ thống ngân hàng?",
+      "answers": [
+        {
+          "id": "8bf4e65a-1a19-419d-a424-f16dd5066471",
+          "text": "Dư thừa dữ liệu."
+        },
+        {
+          "id": "81390669-de4d-4a2f-9402-b9bfd1fb8068",
+          "text": "Mất mát dữ liệu."
+        },
+        {
+          "id": "3bbadf04-f312-4f45-b275-133fd9671ce9",
+          "text": "Dữ liệu bị sai."
+        },
+        {
+          "id": "d126c767-4905-4d96-9d36-3034f5e69241",
+          "text": "Mất tính toán vẹn của dữ liệu."
+        }
+      ],
+      "correctAnswerId": "8bf4e65a-1a19-419d-a424-f16dd5066471",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "a060758e-6c44-4e71-9768-25b9f24a5fda",
+      "stt": 3,
+      "nhan": "Câu 3",
+      "question": "Hãy chọn phương án ứng với các mức của một hệ cơ sở dữ liệu?",
+      "answers": [
+        {
+          "id": "ead1a477-26af-4e01-b676-b16c7f10fb87",
+          "text": "Mức vật lý, mức quan niệm, mức khung nhìn."
+        },
+        {
+          "id": "7d452e8e-294b-40f6-a224-5828b5a5eb3d",
+          "text": "Mức vật lý, mức logic, mức người dùng."
+        },
+        {
+          "id": "ec3b450c-5f69-4e58-a053-46d0f4a01f61",
+          "text": "Mức logic mức quan niệm và mức khung nhìn."
+        },
+        {
+          "id": "d6f9d18f-abb6-454c-950c-d4c7efd3e5dd",
+          "text": "Mức vật lý, mức khung nhìn và mức người dùng."
+        }
+      ],
+      "correctAnswerId": "ead1a477-26af-4e01-b676-b16c7f10fb87",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "a9800241-6239-463c-bb99-701dcd28facb",
+      "stt": 4,
+      "nhan": "Câu 4",
+      "question": "Trong lập trình hướng đối tượng, tập hợp các thực thể hay các đối tượng có cùng đặc tính được gọi trong các phương án sau?",
+      "answers": [
+        {
+          "id": "bf76d29e-ba23-45b6-8186-716f3363b2f4",
+          "text": "Lớp đối tượng."
+        },
+        {
+          "id": "e4be9124-98a7-42bf-a53b-4c21e8099063",
+          "text": "Đối tượng."
+        },
+        {
+          "id": "a85e4e7a-2a20-421d-b511-a28d088196e3",
+          "text": "Thực thể."
+        },
+        {
+          "id": "8444bab8-2961-4f66-bf2e-d8718afa9316",
+          "text": "Phương thức."
+        }
+      ],
+      "correctAnswerId": "bf76d29e-ba23-45b6-8186-716f3363b2f4",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "b03f233f-44e0-4074-9212-6c9697cf7c50",
+      "stt": 5,
+      "nhan": "Câu 5",
+      "question": "Khi thiết kế một cơ sở dữ liệu trước hết phải lưu trữ được các dữ liệu có thực trong mô hình thực tế. Hãy cho biết ở mức nào mô hình dữ liệu phản ánh thế giới thực trong các phương án sau?",
+      "answers": [
+        {
+          "id": "2806d910-09cb-47ac-b429-44c48186986b",
+          "text": "Mức quan niệm."
+        },
+        {
+          "id": "32de52ae-8d57-468c-8096-543632f0ddcf",
+          "text": "Mức người dùng."
+        },
+        {
+          "id": "e4d6fcee-cee6-4bd2-b1dc-27b3221e9c60",
+          "text": "Mức vật lý."
+        },
+        {
+          "id": "5d9269ca-e184-4f54-80d7-e9c6aed1fc27",
+          "text": "Mức vật lý và mức quan niệm."
+        }
+      ],
+      "correctAnswerId": "2806d910-09cb-47ac-b429-44c48186986b",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "56c9b666-2b05-4dd5-b18c-bdedda2fdc8a",
+      "stt": 6,
+      "nhan": "Câu 6",
+      "question": "Hãy chọn phương án đúng ứng với chức năng của hệ quản trị CSDL?",
+      "answers": [
+        {
+          "id": "6d5654b3-7ede-4885-b199-f411b85e0e05",
+          "text": "Hỗ trợ nhiều mô hình dữ liệu để tổ chức CSDL; có khả năng bảo vệ, sao lưu và phục hồi dữ liệu."
+        },
+        {
+          "id": "f53b12a3-946f-4167-bfd1-3a684794e1d7",
+          "text": "Hỗ trợ một vài ngôn ngữ lập trình cao cấp cho phép người sử dụng định nghĩa cấu trúc dữ liệu, truy xuất dữ liệu."
+        },
+        {
+          "id": "83cbe6a2-cad2-46be-8fa6-9bdc6f9d7271",
+          "text": "Nâng cao khả năng tương tác với người sử dụng; quản lý giao dịch và điều khiển truy xuất."
+        },
+        {
+          "id": "7c4eac8c-5e84-4d91-95b2-e4aa131e32c7",
+          "text": "Hỗ trợ các mô hình dữ liệu, ngôn ngữ định nghĩa cấu trúc dữ liệu; liên kết với các ngôn ngữ lập trình, quản lý và điều khiển truy xuất."
+        }
+      ],
+      "correctAnswerId": "7c4eac8c-5e84-4d91-95b2-e4aa131e32c7",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "edba00b7-32ac-44de-928e-f2fd66e3a4ac",
+      "stt": 7,
+      "nhan": "Câu 7",
+      "question": "Hãy chọn phương án chỉ ra vai trò của mô hình thực thể liên kết trong việc thiết kế CSDL?",
+      "answers": [
+        {
+          "id": "8ca69074-f535-4a68-b994-eac166d58b34",
+          "text": "Giảm bớt tính tự nhiên trong ngôn ngữ của con người và gần gũi hơn với ngôn ngữ máy."
+        },
+        {
+          "id": "de2bc995-8a4b-412c-ab4f-5fd917fc0e66",
+          "text": "Thông qua ngôn ngữ tự nhiên định nghĩa các bảng đối tượng sinh ra trong cơ sở dữ liệu."
+        },
+        {
+          "id": "b23914bb-1fa1-4865-aed1-0e38fa4a2b98",
+          "text": "Dùng để chuyển đổi từ ngôn ngữ định nghĩa đối tượng sang ngôn ngữ máy có thể hiểu được."
+        },
+        {
+          "id": "533fcab8-0995-4285-865f-79b9f28a2eab",
+          "text": "Giúp cho người sử dụng có thể hiểu được mô hình cài đặt của cơ sở dữ liệu trong hiện thực."
+        }
+      ],
+      "correctAnswerId": "8ca69074-f535-4a68-b994-eac166d58b34",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "bf56d882-0b53-4354-b9c2-8be782d9e2a9",
+      "stt": 8,
+      "nhan": "Câu 8",
+      "question": "Hãy chọn phương án đúng ứng với khái niệm kiểu thực thể (Entity type?",
+      "answers": [
+        {
+          "id": "70cc4519-2073-405f-bcd5-b8e11fe2bf61",
+          "text": "Là khái niệm để chỉ một lớp các đối tượng có cùng đặc tính chung."
+        },
+        {
+          "id": "09d86352-c4a5-4ebb-a984-47da835ab860",
+          "text": "Là những cá thể của một đối tượng cụ thể trong thế giới thực."
+        },
+        {
+          "id": "ea83c8dc-0e1a-4fa7-8253-ef0fdb94f51d",
+          "text": "Là một tập hợp gồm các thực thể có tính chất giống nhau."
+        },
+        {
+          "id": "ebcf93ef-cf08-4bd0-bc9f-710116a301fe",
+          "text": "Gồm các thực thể cùng được thể hiện bởi một tập các thuộc tính."
+        }
+      ],
+      "correctAnswerId": "ebcf93ef-cf08-4bd0-bc9f-710116a301fe",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "9f0ae242-32e0-4980-9b0c-f996cc8429e3",
+      "stt": 9,
+      "nhan": "Câu 9",
+      "question": "Hãy chọn phương án đúng ứng với khái niệm về thuộc tính phức hợp (composite attribute)?",
+      "answers": [
+        {
+          "id": "c78854af-c855-4c64-827a-5150c87e56e3",
+          "text": "Thuộc tính mà giá trị của nó được suy diễn từ các thực thể."
+        },
+        {
+          "id": "7ae7adfa-24be-4c27-9662-9c3494e4db02",
+          "text": "Thuộc tính được định nghĩa bởi các thuộc tính khác."
+        },
+        {
+          "id": "247c2bd7-d99f-4b4d-91e4-940760c06189",
+          "text": "Thuộc tính có một giá trị cho một thực thể cụ thể."
+        },
+        {
+          "id": "0ca3040a-b09d-46dc-a8f9-d588a21d25a6",
+          "text": "Thuộc tính có một tập hợp các giá trị cho cùng một thực thể."
+        }
+      ],
+      "correctAnswerId": "7ae7adfa-24be-4c27-9662-9c3494e4db02",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "9ea25374-959a-45fe-a5a6-029a6767768f",
+      "stt": 10,
+      "nhan": "Câu 10",
+      "question": "Hãy chọn phương án ứng với khái niệm về thực thể (Entity)?",
+      "answers": [
+        {
+          "id": "0373f51d-b0e3-41bb-b12f-8a75c82f77dd",
+          "text": "Là một lớp các đối tượng có cùng đặc tính chung mà người ta muốn quản lý thông tin về nó."
+        },
+        {
+          "id": "fc5ca2ca-d05e-450b-981f-82d29e6c838d",
+          "text": "Là những cá thể của một đối tượng cụ thể trong thế giới thực, ta chọn để quản lý chúng."
+        },
+        {
+          "id": "97bcab95-1d76-47f0-90e6-649b2f79f9d3",
+          "text": "Là một tập hợp gồm các đối tượng có đặc điểm giống nhau, ta chỉ cần quản lý một đại diện."
+        },
+        {
+          "id": "407768f9-cf97-4b3a-a822-4cea7408d1ef",
+          "text": "Là một thuộc tính chung của các đối tượng mà các đối tượng này có nhiều hơn một thuộc tính chung."
+        }
+      ],
+      "correctAnswerId": "0373f51d-b0e3-41bb-b12f-8a75c82f77dd",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "8d06d835-a893-456e-bc65-11d55c8750a9",
+      "stt": 11,
+      "nhan": "Câu 11",
+      "question": "Cho các ví dụ sau: (1) NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. Hãy chọn phương án ứng với thành phần là thực thể trong ví dụ trên?",
+      "answers": [
+        {
+          "id": "2375554f-76d4-4047-9f46-27081fa3c75b",
+          "text": "(1)."
+        },
+        {
+          "id": "46415fac-47c7-452d-a23a-cb39cb8279ee",
+          "text": "(2)."
+        },
+        {
+          "id": "35d4c178-b7d7-4611-b47f-10b4283186d3",
+          "text": "(3)."
+        },
+        {
+          "id": "84a3dc58-f2fa-49e0-b564-622099820168",
+          "text": "(4)."
+        }
+      ],
+      "correctAnswerId": "2375554f-76d4-4047-9f46-27081fa3c75b",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "3f518659-2681-4594-9c04-f68605e79c5c",
+      "stt": 12,
+      "nhan": "Câu 12",
+      "question": "Hãy chọn phương án cho biết khi nào thuộc tính của thực thể sử dụng giá trị rỗng (null)?",
+      "answers": [
+        {
+          "id": "7f434a79-1f42-4358-82da-b4c5c0e9d2ba",
+          "text": "Khi một thuộc tính mang ít giá trị có nghĩa đối với một thực thể."
+        },
+        {
+          "id": "c651c04e-cae5-43dc-90ae-dc55fda69d6d",
+          "text": "Khi giá trị của thuộc tính bị che dấu."
+        },
+        {
+          "id": "d408ad11-e0b0-41f6-b846-4012b22f6de5",
+          "text": "Khi không có thông tin, hoặc không biết được sự tồn tại của giá trị."
+        },
+        {
+          "id": "e61778f4-6fb4-45d8-893c-c9b7b01744cf",
+          "text": "Khi giá trị thuộc tính được tạo tự động trong cơ sở dữ liệu."
+        }
+      ],
+      "correctAnswerId": "d408ad11-e0b0-41f6-b846-4012b22f6de5",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "6a6a8ab2-b1bf-430c-9963-fc2e60c731d3",
+      "stt": 13,
+      "nhan": "Câu 13",
+      "question": "Cho thực thể PHIEUTHU (so_phieu, ho_ten, dia_chi_khach, ngay_ lap, ma_hang, ten_hang, so_luong,don_gia). Hãy chọn phương án ứng với thuộc tính định danh?",
+      "answers": [
+        {
+          "id": "233a4617-4c8a-4fbb-ac3b-1438b9eb4494",
+          "text": "so_phieu."
+        },
+        {
+          "id": "7882cff7-b1f4-4646-8c9b-f74395d4d6ae",
+          "text": "ngay_lap."
+        },
+        {
+          "id": "c4aedf03-9ccf-4c92-947c-9a615ba2b9ae",
+          "text": "ma_hang."
+        },
+        {
+          "id": "85a844c9-4205-4e61-93bb-2e73080f465c",
+          "text": "ho_ten."
+        }
+      ],
+      "correctAnswerId": "233a4617-4c8a-4fbb-ac3b-1438b9eb4494",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "86e8746e-d1a2-4126-96f3-a8a2a598eb5c",
+      "stt": 14,
+      "nhan": "Câu 14",
+      "question": "Cho thông tin sau: SV(MSV, hoten, ngaysinh, gioitinh) và ta có thông tin sinh viên: msv=’01’, ngaysinh={1/5/1980}, gioitinh=nam. Hãy chọn phương án ứng thông tin đã cho?",
+      "answers": [
+        {
+          "id": "8e134b8f-9e42-4aac-8160-ca047f333f29",
+          "text": "Một cá thể của kiểu thực thể SV."
+        },
+        {
+          "id": "ffa0efd5-d3ec-43d4-aba4-85117ed4a0ee",
+          "text": "Một tập thực thể của kiểu thực thể SV."
+        },
+        {
+          "id": "469b8ff8-ee3b-4b23-aa27-c58b352d25f3",
+          "text": "Một bản ghi trong bảng SV."
+        },
+        {
+          "id": "8da34bdb-1889-477b-ae6c-58b462bfcf4c",
+          "text": "Tất cả các ý trên đều đúng."
+        }
+      ],
+      "correctAnswerId": "8e134b8f-9e42-4aac-8160-ca047f333f29",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "11dd0c3e-6ee9-4266-8095-831bcbe45fa2",
+      "stt": 15,
+      "nhan": "Câu 15",
+      "question": "Hãy cho biết trong lược đồ ER, hình e-líp cạnh đôi ký hiệu cho loại thuộc tính nào trong các thuộc tính sau?",
+      "answers": [
+        {
+          "id": "dc8e2f43-fd64-49c5-8111-ef4a00dbfbbd",
+          "text": "Thuộc tính đa trị."
+        },
+        {
+          "id": "0100b48b-0371-44d1-91ad-f63725f21d4f",
+          "text": "Thuộc tính phức hợp."
+        },
+        {
+          "id": "4dd23082-23b9-4ce9-9b4c-60fe394f9dc2",
+          "text": "Thuộc tính dẫn xuất."
+        },
+        {
+          "id": "4007911f-2390-40a9-9b53-b5bb102d2a39",
+          "text": "Không biểu diễn thuộc tính."
+        }
+      ],
+      "correctAnswerId": "dc8e2f43-fd64-49c5-8111-ef4a00dbfbbd",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "7782113c-d422-43b0-8f10-335116374f80",
+      "stt": 16,
+      "nhan": "Câu 16",
+      "question": "Nếu lớp Cây_mỡ và lớp Cây_vàng_tâm gộp thành một lớp mới lấy tên là Cây_xanh. Lớp Cây_xanh có đầy đủ các tính chất cũng như thuộc tính của 2 lớp trên. Hãy cho biết lớp Cây_xanh đã sử dụng tính chất gì trong các tính chất sau?",
+      "answers": [
+        {
+          "id": "647252fb-d3d3-472a-9574-4aa8f758f5a3",
+          "text": "Tổng quát hoá."
+        },
+        {
+          "id": "e2d324cd-dfba-4f1e-96e2-fdc2214b8857",
+          "text": "Chuyên biệt hóa."
+        },
+        {
+          "id": "daf84806-fd9e-4f82-8f2c-2b9c10e9e031",
+          "text": "Kế thừa và tổng quát hoá."
+        },
+        {
+          "id": "8605be3c-1e29-424e-a0f4-a85b64d94657",
+          "text": "Kế thừa và chuyên biệt hóa"
+        }
+      ],
+      "correctAnswerId": "647252fb-d3d3-472a-9574-4aa8f758f5a3",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "7de8ca2a-17d2-494e-b01f-24a1e0e916f7",
+      "stt": 17,
+      "nhan": "Câu 17",
+      "question": "Trong lược đồ EER có khái niệm về thực thể mạnh (strong entity). Hãy chọn phát không đúng về thực thể mạnh trong các phát biểu sau?",
+      "answers": [
+        {
+          "id": "79207f16-f83e-4380-a35b-7f22850edc19",
+          "text": "Thực thể mạnh tồn tại độc lập với các kiểu thực thể khác."
+        },
+        {
+          "id": "a0b650bb-12c8-46c2-8756-81dc4cc3e4f8",
+          "text": "Thực thể mạnh có một định danh duy nhất."
+        },
+        {
+          "id": "561f4c1b-07e6-4243-b187-844cba129929",
+          "text": "Thực thể mạnh là chủ sở hữu nếu có một kiểu thực thể yếu khác dựa vào nó."
+        },
+        {
+          "id": "9424cf05-eb7a-4af6-9b56-fac273e87172",
+          "text": "Thực thể mạnh thể hiện trên sơ đồ bằng hình chữ nhật cạnh đôi."
+        }
+      ],
+      "correctAnswerId": "9424cf05-eb7a-4af6-9b56-fac273e87172",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "a29be0b1-6eb2-4d84-95c6-0450f09b4ab7",
+      "stt": 18,
+      "nhan": "Câu 18",
+      "question": "Hãy chọn phương án đúng với khái niệm về mô hình dữ liệu?",
+      "answers": [
+        {
+          "id": "ce7faa44-52ed-4677-b565-43cab1856cf1",
+          "text": "Là cách thức trong đó dữ liệu được lưu trữ tổ chức như một cấu trúc định sẵn với mục đích truy cập nhanh và hiệu quả trong quản lý."
+        },
+        {
+          "id": "07c724fe-349a-4c54-8bce-bfadfded8ce6",
+          "text": "Là cách thức trong đó dữ liệu được mô tả dưới dạng bảng với các cấu trúc bảng, bộ, khóa. trường nhằm mục đích quản lý dữ liệu phục vụ truy cập nhanh."
+        },
+        {
+          "id": "b0700a1e-17eb-4331-8cc0-5c928693a1d8",
+          "text": "Là cách thức trong đó dữ liệu được mô tả dưới dạng các lớp dữ liệu với các khái niệm thuộc tính, phương thức."
+        },
+        {
+          "id": "b2dffcf7-d053-474c-b479-5ed7ff069341",
+          "text": "Là cách thức trong đó dữ liệu được mô tả dưới dạng các lớp dữ liệu nhằm mục đích quản lý dữ liệu dưới dạng đối tượng."
+        }
+      ],
+      "correctAnswerId": "ce7faa44-52ed-4677-b565-43cab1856cf1",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "1a6ed23a-900d-4927-b8ef-59574bc5c4b6",
+      "stt": 19,
+      "nhan": "Câu 19",
+      "question": "Hãy chọn phương án chỉ ra đặc trưng của ngôn ngữ ODL?",
+      "answers": [
+        {
+          "id": "fd080d77-8396-488f-9c23-c679d8be6280",
+          "text": "Hỗ trợ tính khả chuyển của lược đồ CSDL ."
+        },
+        {
+          "id": "67b83e9d-81ea-463c-bffd-0b4b1338ac47",
+          "text": "Hỗ trợ mọi cấu trúc ngữ nghĩa của mô hình đối tượng không cần theo chuẩn ODMG."
+        },
+        {
+          "id": "48263cd7-c2be-4e4d-ab0d-9a0f37813ed6",
+          "text": "Dùng để định nghĩa lược đồ lớp, các hoạt động và các trạng thái của tập các đối tượng trong CSDL; Hỗ trợ tính khả chuyển của lược đồ CSDL."
+        },
+        {
+          "id": "09fc5932-cfa4-40e1-8330-a25718f1b0fd",
+          "text": "Hỗ trợ mọi cấu trúc ngữ nghĩa của mô hình đối tượng không cần theo chuẩn ODMG; Hỗ trợ tính khả chuyển của lược đồ CSDL."
+        }
+      ],
+      "correctAnswerId": "48263cd7-c2be-4e4d-ab0d-9a0f37813ed6",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "475ce9ed-1467-4dfc-9718-0461e76d8759",
+      "stt": 20,
+      "nhan": "Câu 20",
+      "question": "Hãy chọn phương án ứng với khái niệm chuyên biệt hóa trong mô hình EER?",
+      "answers": [
+        {
+          "id": "02054b58-f211-45f3-aa12-38fb9b5df15b",
+          "text": "Quá trình định nghĩa một hoặc nhiều kiểu thực thể con của một kiểu thực thể cha và xác định các mối quan hệ cha con."
+        },
+        {
+          "id": "119ae731-ba33-42cb-b001-2ad955d6cf71",
+          "text": "Quá trình định nghĩa một kiểu thực thể chung từ một tập các kiểu thực thể chuyên biệt."
+        },
+        {
+          "id": "4cf72d5d-b41a-4a14-9bc9-cbb702286019",
+          "text": "Quá trình xác định một tập hợp lớp con của kiểu thực thể."
+        },
+        {
+          "id": "fad90dd0-00e5-4901-a550-b2786ab61124",
+          "text": "Quá trình xác định một thể hiện của kiểu thực thể cha có thể đồng thời là thể hiện của nhiều hơn một kiểu thực thể con hay không."
+        }
+      ],
+      "correctAnswerId": "02054b58-f211-45f3-aa12-38fb9b5df15b",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "bed3e4b9-f9bd-4369-9357-b1ae20469ebb",
+      "stt": 21,
+      "nhan": "Câu 21",
+      "question": "Hãy chọn phương án ứng với khái niệm tổng quát hóa trong mô hình EER?",
+      "answers": [
+        {
+          "id": "c55ffe12-9623-484b-bf47-98622bf60df6",
+          "text": "Quá trình định nghĩa một hoặc nhiều kiểu thực thể con của một kiểu thực thể cha và xác định các mối quan hệ cha con."
+        },
+        {
+          "id": "6bb960b0-85dc-48c2-9918-1baa02f02ff9",
+          "text": "Quá trình định nghĩa một kiểu thực thể chung từ một tập các kiểu thực thể chuyên biệt."
+        },
+        {
+          "id": "a6eb5638-ae60-4054-856e-d80c24157dea",
+          "text": "Quá trình xác định một tập hợp lớp con của kiểu thực thể."
+        },
+        {
+          "id": "cdb2d4cb-232f-4830-b683-29c18392aefb",
+          "text": "Quá trình xác định một thể hiện của kiểu thực thể cha có thể đồng thời là thể hiện của nhiều hơn một kiểu thực thể con hay không."
+        }
+      ],
+      "correctAnswerId": "6bb960b0-85dc-48c2-9918-1baa02f02ff9",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "f4ea3be5-0b60-413f-807c-311ad2ed256b",
+      "stt": 22,
+      "nhan": "Câu 22",
+      "question": "Hãy cho biết trong mô hình EER, quá trình tổng quát hóa dùng cách thiết kế gì trong cách thiết kế dưới đây?",
+      "answers": [
+        {
+          "id": "266e76bd-74ef-4935-b40f-6ae661a6ea14",
+          "text": "TOP-DOWN."
+        },
+        {
+          "id": "04274eeb-0744-49df-86d3-d6ee0074f276",
+          "text": "BOTTOM-UP."
+        },
+        {
+          "id": "dbd0e119-b017-46bd-9235-8f8bd66437bc",
+          "text": "INSIDE-OUT."
+        },
+        {
+          "id": "adcddd2c-0e9f-46db-8ba3-119202388056",
+          "text": "OUTSIDE-IN."
+        }
+      ],
+      "correctAnswerId": "04274eeb-0744-49df-86d3-d6ee0074f276",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "f31e003d-1541-41b2-98de-f9c850266b55",
+      "stt": 23,
+      "nhan": "Câu 23",
+      "question": "Hãy cho biết trong mô hình EER, quá trình chuyên biệt hóa dùng cách thiết kế gì dưới đây?",
+      "answers": [
+        {
+          "id": "ab40436f-239d-44f8-b8cb-e3cd51b4cb42",
+          "text": "TOP-DOWN."
+        },
+        {
+          "id": "eaac32f2-419d-43d0-9ca1-7a0a357e2107",
+          "text": "BOTTOM-UP."
+        },
+        {
+          "id": "aa3e0d82-c265-4040-b1e3-f5578d451949",
+          "text": "INSIDE-OUT."
+        },
+        {
+          "id": "a5f89de2-0809-49d8-980f-d0f6b179e7dd",
+          "text": "OUTSIDE-IN."
+        }
+      ],
+      "correctAnswerId": "ab40436f-239d-44f8-b8cb-e3cd51b4cb42",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "79525a92-e5d8-4549-b7aa-6946240404a3",
+      "stt": 24,
+      "nhan": "Câu 24",
+      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi thuộc tính đa trị từ mô hình ER sang mô hình hướng đối tượng?",
+      "answers": [
+        {
+          "id": "c7bbf893-5df8-4c3a-8e9e-9ddcfe45c2df",
+          "text": "Ta chuyển mỗi một thuộc tính đa trị thành một lớp mới."
+        },
+        {
+          "id": "85b7da84-9d4d-435b-8b0c-055b00b5e59d",
+          "text": "Ta gộp các thuộc tính đa trị trong mô hình ER thành một lớp mới."
+        },
+        {
+          "id": "70fae640-0982-499c-aaf1-5b60be6e0a95",
+          "text": "Ta chỉ cần giữ nguyên không cần thay đổi gì về thuộc tính."
+        },
+        {
+          "id": "978c9506-f128-4c7e-9fac-001d5d63ca01",
+          "text": "Ta chuyển mỗi thuộc tính đa trị thành một trường liên kết."
+        }
+      ],
+      "correctAnswerId": "c7bbf893-5df8-4c3a-8e9e-9ddcfe45c2df",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "e8d51ad4-7b41-434c-87d9-489ce80e59e4",
+      "stt": 25,
+      "nhan": "Câu 25",
+      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi thuộc tính phức hợp trong mô hình ER sang mô hình hướng đối tượng?",
+      "answers": [
+        {
+          "id": "400ec80a-1448-4a5b-8223-ee59f33eb4ba",
+          "text": "Ta chuyển thuộc tính phức hợp thành một lớp mới."
+        },
+        {
+          "id": "78713ee4-2d3a-424c-9da7-9ae840c7aa72",
+          "text": "Ta chuyển thuộc tính phức hợp thành thuộc tính đa trị."
+        },
+        {
+          "id": "2099ba26-e458-43c6-8839-ec7fa8b346b1",
+          "text": "Ta chuyển thuộc tính phức hợp thành một liên kết ."
+        },
+        {
+          "id": "b6a03da0-153a-4b9b-81fc-1efe1856b4ad",
+          "text": "Ta không có cách nào để thực hiện việc này."
+        }
+      ],
+      "correctAnswerId": "b6a03da0-153a-4b9b-81fc-1efe1856b4ad",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "dc4f54cf-af3c-445d-9f3e-c23d777cf5db",
+      "stt": 26,
+      "nhan": "Câu 26",
+      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B thì thuộc tính mối quan hệ R phải có kiểu dữ liệu gì trong các kiểu dữ liệu sau?",
+      "answers": [
+        {
+          "id": "aff175d2-071f-4e61-b39d-40aaf1484250",
+          "text": "Kiểu dữ liệu lớp B."
+        },
+        {
+          "id": "6ff42ee6-b854-4c44-a76a-24150400552d",
+          "text": "Kiểu dữ liệu lớp A."
+        },
+        {
+          "id": "f575d9c1-a17f-486d-bd54-a9c534d29afc",
+          "text": "Kiểu dữ liệu quan hệ."
+        },
+        {
+          "id": "27b88830-90e3-453d-86a4-1a88ceaeb229",
+          "text": "Kiểu dữ liệu số nguyên."
+        }
+      ],
+      "correctAnswerId": "aff175d2-071f-4e61-b39d-40aaf1484250",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "143d54d1-e562-4531-b236-93c4171299d1",
+      "stt": 27,
+      "nhan": "Câu 27",
+      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B , nếu mỗi đối tượng thuộc lớp A có quan hệ với nhiều đối tượng thuộc lớp B thì R được xem như thuộc tính nào trong các thuộc tính sau?",
+      "answers": [
+        {
+          "id": "2b225ab6-a40d-42e5-bb9e-dbcaa9656857",
+          "text": "Đa trị."
+        },
+        {
+          "id": "91a82d89-7f3e-4d3b-b0a3-b38982fffbc9",
+          "text": "Đơn trị."
+        },
+        {
+          "id": "8fc97925-2a2e-424d-ab68-9cc0d489aed8",
+          "text": "Phức hợp."
+        },
+        {
+          "id": "2c4d85dc-397a-4740-9e73-2890c7d322fc",
+          "text": "Phát sinh."
+        }
+      ],
+      "correctAnswerId": "2b225ab6-a40d-42e5-bb9e-dbcaa9656857",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "04b4d065-0391-423b-8968-250603ed3e72",
+      "stt": 28,
+      "nhan": "Câu 28",
+      "question": "Trong mô hình hướng đối tượng, lớp A có thuộc tính mối quan hệ R với lớp B , và thuộc tính R là thuộc tính đa trị thì trong lớp A ta sẽ khai báo như thế nào trong các câu lệnh khai báo sau?",
+      "answers": [
+        {
+          "id": "5d850a18-d259-4d5d-ae78-5056bd7cb356",
+          "text": "R: lớp B;"
+        },
+        {
+          "id": "7921d147-f209-446d-8875-3f49d74adc46",
+          "text": "R: set(lớp B);"
+        },
+        {
+          "id": "a7eb2154-0ffd-454e-a6b0-b8491ee10d4d",
+          "text": "R: set(lớp A);"
+        },
+        {
+          "id": "72d4d2f1-060b-46bb-a528-546bc2b6e438",
+          "text": "R: lớp A;"
+        }
+      ],
+      "correctAnswerId": "7921d147-f209-446d-8875-3f49d74adc46",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "a9170366-55f6-402c-a0e5-545dea02009f",
+      "stt": 29,
+      "nhan": "Câu 29",
+      "question": "So sánh sự tương ứng mô hình dữ liệu quan hệ với mô hình hướng đối tượng Class tương đương với đối tượng nào trong các đối tượng sau?",
+      "answers": [
+        {
+          "id": "25157690-b7f1-47b5-8e93-28c75931c255",
+          "text": "Relation."
+        },
+        {
+          "id": "fe7a19fc-3ace-4d17-ae45-0df8feba7ff1",
+          "text": "Tuple."
+        },
+        {
+          "id": "d8100fc5-22e0-44ab-826f-77c90ef79069",
+          "text": "Column."
+        },
+        {
+          "id": "fa38619c-6ae3-4198-aed6-e95ffba02228",
+          "text": "Store Procedure."
+        }
+      ],
+      "correctAnswerId": "25157690-b7f1-47b5-8e93-28c75931c255",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau29_1.jpeg"
+      ]
+    },
+    {
+      "id": "cd26089f-94ea-4694-a4fd-16f4e8a52462",
+      "stt": 30,
+      "nhan": "Câu 30",
+      "question": "Hãy cho biết thuộc tính đa trị trong lược đồ hướng đối tượng được xác định với từ khóa gì trong các từ khóa sau?",
+      "answers": [
+        {
+          "id": "b29796f8-cede-4590-a19e-a18b88183714",
+          "text": "Set"
+        },
+        {
+          "id": "dcaca707-ca77-4731-bec6-8a575de9340f",
+          "text": "Union"
+        },
+        {
+          "id": "8fcd3f12-3c6f-4144-84a8-02646feabcd6",
+          "text": "Get"
+        },
+        {
+          "id": "5a32065f-1b40-49da-a10f-99182a7491d2",
+          "text": "Array"
+        }
+      ],
+      "correctAnswerId": "b29796f8-cede-4590-a19e-a18b88183714",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "58e495b5-2f8c-4960-b5ac-1facbf01c727",
+      "stt": 31,
+      "nhan": "Câu 31",
+      "question": "Hãy chọn phương án đúng ứng với nội dung của quy tắc chuyển đổi thứ nhất từ mô hình ER sang mô hình hướng đối tượng?",
+      "answers": [
+        {
+          "id": "d03984e8-c601-433f-994d-1fb82d96cf4b",
+          "text": "Nếu tập thực thể A là có mối quan hệ is-a với tập thực thể B thì lớp A sẽ kế thừa tất cả các thuộc tính trong lớp B, đồng thời bổ sung các thuộc tính riêng của lớp A. Đây chính là tính kế thừa trong mô hình dữ liệu hướng đối tượng."
+        },
+        {
+          "id": "c5e3ae0e-0d6f-41c6-91a8-9717a368d816",
+          "text": "Nếu hai tập thực thể A và B có mối quan hệ R (R không có thuộc tính), thì mỗi lớp A và B, ngoài các thuộc tính trong tập thực thể A và B, sẽ được bổ sung thêm thuộc tính R (gọi là thuộc tính mối quan hệ)."
+        },
+        {
+          "id": "5fba2b1e-3169-4fab-880e-1f867c2bb67f",
+          "text": "Xét một tập thực thể A có mối quan hệ R vào chính tập A. Nếu thông qua R mỗi đối tượng thuộc lớp A có quan hệ nhiều nhất với một đối tượng thuộc lớp A thì thuộc tính R trong lớp A sẽ được khai báo: <Tên thuộc tính R>: <Lớp A>. Trong trường hợp mỗi đối tượng thuộc lớp A có thể quan hệ với nhiều đối tượng thuộc lớp A thì thuộc tính R có khai báo: <Tên thuộc tính R>: set(<Lớp A>)."
+        },
+        {
+          "id": "e5179c98-445d-4d1b-bc27-7a50e4f3e633",
+          "text": "Không có phương án đúng."
+        }
+      ],
+      "correctAnswerId": "d03984e8-c601-433f-994d-1fb82d96cf4b",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "ed3c6e36-9fcb-489a-9fa6-1f39d4db2bec",
+      "stt": 32,
+      "nhan": "Câu 32",
+      "question": "Hãy chọn phương án đúng ứng với nội dung của quy tắc chuyển đổi thứ hai từ mô hình ER sang mô hình hướng đối tượng?",
+      "answers": [
+        {
+          "id": "d4b46b93-3492-4fd9-8631-2e5b4453b444",
+          "text": "Nếu tập thực thể A là có mối quan hệ is-a với tập thực thể B thì lớp A sẽ kế thừa tất cả các thuộc tính trong lớp B, đồng thời bổ sung các thuộc tính riêng của lớp A. Đây chính là tính kế thừa trong mô hình dữ liệu hướng đối tượng."
+        },
+        {
+          "id": "a58d8812-f809-4d72-a0c9-af4bec33c08a",
+          "text": "Nếu hai tập thực thể A và B có mối quan hệ R (R không có thuộc tính), thì mỗi lớp A và B, ngoài các thuộc tính trong tập thực thể A và B, sẽ được bổ sung thêm thuộc tính R (gọi là thuộc tính mối quan hệ)."
+        },
+        {
+          "id": "beb5e118-66d4-4f56-b4cf-6b30fe0fcf08",
+          "text": "Xét một tập thực thể A có mối quan hệ R vào chính tập A. Nếu thông qua R mỗi đối tượng thuộc lớp A có quan hệ nhiều nhất với một đối tượng thuộc lớp A thì thuộc tính R trong lớp A sẽ được khai báo: <Tên thuộc tính R>: <Lớp A>. Trong trường hợp mỗi đối tượng thuộc lớp A có thể quan hệ với nhiều đối tượng thuộc lớp A. thì thuộc tính R có khai báo: <Tên thuộc tính R>: set(<Lớp A>)."
+        },
+        {
+          "id": "ab81c26e-9491-4df1-b830-a9824af8a883",
+          "text": "Không có phương án đúng."
+        }
+      ],
+      "correctAnswerId": "a58d8812-f809-4d72-a0c9-af4bec33c08a",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "87be5d00-92a7-4743-a62f-197e00ae8feb",
+      "stt": 33,
+      "nhan": "Câu 33",
+      "question": "Hãy chọn phương án đúng ứng với nội dung của quy tắc chuyển đổi thứ ba từ mô hình ER sang mô hình hướng đối tượng?",
+      "answers": [
+        {
+          "id": "6271e443-f1c5-4f17-90b0-19b126a17ea9",
+          "text": "Nếu tập thực thể A là có mối quan hệ is-a với tập thực thể B thì lớp A sẽ kế thừa tất cả các thuộc tính trong lớp B, đồng thời bổ sung các thuộc tính riêng của lớp A. Đây chính là tính kế thừa trong mô hình dữ liệu hướng đối tượng."
+        },
+        {
+          "id": "add24551-ba77-4412-89b3-369a3070a476",
+          "text": "Nếu hai tập thực thể A và B có mối quan hệ R (R không có thuộc tính), thì mỗi lớp A và B, ngoài các thuộc tính trong tập thực thể A và B, sẽ được bổ sung thêm thuộc tính R (gọi là thuộc tính mối quan hệ)."
+        },
+        {
+          "id": "c0aaa4a1-b205-4b0d-ad40-3db6f1cd304b",
+          "text": "Xét một tập thực thể A có mối quan hệ R vào chính tập A. Nếu thông qua R mỗi đối tượng thuộc lớp A có quan hệ nhiều nhất với một đối tượng thuộc lớp A thì thuộc tính R trong lớp A sẽ được khai báo: <Tên thuộc tính R>: <Lớp A>. Trong trường hợp mỗi đối tượng thuộc lớp A có thể quan hệ với nhiều đối tượng thuộc lớp a. thì thuộc tính R có khai báo: <Tên thuộc tính R>: set(<Lớp A>)."
+        },
+        {
+          "id": "cf56497f-58a5-43b1-a664-e6c3b3e486d9",
+          "text": "Không có phương án đúng."
+        }
+      ],
+      "correctAnswerId": "c0aaa4a1-b205-4b0d-ad40-3db6f1cd304b",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "4721d40e-a06a-4af4-b310-106f6ff8c95b",
+      "stt": 34,
+      "nhan": "Câu 34",
+      "question": "Cho lược đồ ER sau. Ta phải áp dụng quy tắc số mấy để chuyển mối quan hệ quan is-a sang mô hình hướng đối tượng?\n[] .",
+      "answers": [
+        {
+          "id": "0f23c2da-8063-4aec-b257-185711d3be59",
+          "text": "Quy tắc số 1."
+        },
+        {
+          "id": "c8ec3689-3984-4fe4-8c76-430e73a18009",
+          "text": "Quy tắc số 2."
+        },
+        {
+          "id": "b1d8dc97-f79d-450e-8723-355bf56d3a68",
+          "text": "Quy tắc số 3."
+        },
+        {
+          "id": "16221a85-ffe0-41c6-a5d2-5d11c014b81c",
+          "text": "Quy tắc số 4."
+        }
+      ],
+      "correctAnswerId": "0f23c2da-8063-4aec-b257-185711d3be59",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau34_1.jpeg"
+      ]
+    },
+    {
+      "id": "7bf13ba3-2d1c-4e0f-88c9-3d62e29b17bd",
+      "stt": 35,
+      "nhan": "Câu 35",
+      "question": "Cho lược đồ ER trên sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả là gì?",
+      "answers": [
+        {
+          "id": "c1668cd2-5cc1-410a-9f5b-c68b10d318b5",
+          "text": "Tại lớp Nhân viên sẽ có thêm thuộc tính inherits: Nguoi."
+        },
+        {
+          "id": "31054d25-56df-4651-b12e-3e5082424b2b",
+          "text": "Không có gì thay đổi ở lược đồ hai lớp."
+        },
+        {
+          "id": "478e831d-7295-42c3-911b-91c0ae6867a1",
+          "text": "Tại lớp Nguoi có thêm thuộc tính inherits: Nhân viên."
+        },
+        {
+          "id": "6e6bf85e-1844-47e6-9970-7a4a5a398f5a",
+          "text": "Tại lớp Nhân viên sẽ có thêm thuộc tính inherits: Nguoi và tại lớp Nguoi có thêm thuộc tính inherits: Nhân viên."
+        }
+      ],
+      "correctAnswerId": "c1668cd2-5cc1-410a-9f5b-c68b10d318b5",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau35_1.jpeg"
+      ]
+    },
+    {
+      "id": "2908eed0-de78-404e-a42c-5b8c9dd3ad36",
+      "stt": 36,
+      "nhan": "Câu 36",
+      "question": "Hãy chọn phương án ứng với khái niệm về “DB4O”?",
+      "answers": [
+        {
+          "id": "57ce9c06-a0c7-4b50-972d-dc474a5ef2d9",
+          "text": "Là hệ quản trị cơ sở dữ liệu hướng đối tượng được phát triển và phân phối bởi tập đoàn Versant."
+        },
+        {
+          "id": "9bcf94b2-4071-4696-a806-d28e048f4e7c",
+          "text": "Là hệ quản trị cơ sở dữ liệu hướng đối tượng được phát triển và phân phối bởi OMG."
+        },
+        {
+          "id": "9234ff7e-89e8-4305-bde8-8dc8fb532c16",
+          "text": "Là cơ sở dữ liệu hướng đối tượng được phát triển và phân phối bởi Versant."
+        },
+        {
+          "id": "c447efe1-b6aa-4031-b42b-2d5a1d6e7aa8",
+          "text": "Là cơ sở dữ liệu hướng đối tượng được phát triển và phân phối bởi OnTos kể từ năm 1991."
+        }
+      ],
+      "correctAnswerId": "57ce9c06-a0c7-4b50-972d-dc474a5ef2d9",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "08f5a807-2292-41d2-9fe2-c521dae4fe0c",
+      "stt": 37,
+      "nhan": "Câu 37",
+      "question": "Hãy chọn phương án đúng ứng với các thành phần chính trong kiến trúc của một ODBMS?",
+      "answers": [
+        {
+          "id": "0cdbbd44-f2aa-46b5-b56e-bd633b06d645",
+          "text": "OM, ODL, OQL, OQM."
+        },
+        {
+          "id": "808fd539-1e35-4502-bb55-98d3e1daf2b9",
+          "text": "OM, ODL, OQL.(1)"
+        },
+        {
+          "id": "b9ce434f-d3af-450a-8057-ab10d11ee804",
+          "text": "Khả năng kết hợp với ngôn ngữ lập trình hướng đối tượng.(2)"
+        },
+        {
+          "id": "709b58ad-f374-4a72-a0e4-dc45ca812ce2",
+          "text": "Cả đáp án (1) và (2) đều đúng."
+        }
+      ],
+      "correctAnswerId": "709b58ad-f374-4a72-a0e4-dc45ca812ce2",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "9eb76920-d133-4455-827d-d2fda76684fa",
+      "stt": 38,
+      "nhan": "Câu 37",
+      "question": "Hãy chọn phương án chỉ ra hạn chế của truy vấn dạng QBE trong các phương án dưới đây?",
+      "answers": [
+        {
+          "id": "e945643b-ba64-48e5-9933-7991e6404cd0",
+          "text": "Không thể thực hiện các biểu thức truy vấn nâng cao; không thể truy vấn các giá trị rỗng;"
+        },
+        {
+          "id": "e75a2470-1059-47ab-9242-56ac5e8914a6",
+          "text": "Phải khởi tạo mọi đối tượng của lớp đang truy vấn lên csdl và chạy biểu thức truy vấn lên chúng, điều này sẽ làm chậm câu truy vấn đi rất nhiều"
+        },
+        {
+          "id": "4b6d2af0-87b5-4697-a725-f2516264ece2",
+          "text": "Truy vấn phức tạp, khó thực hiện và phải biên dịch khi chạy."
+        },
+        {
+          "id": "8a80b560-6b2d-4046-a999-09ec16a5f1b8",
+          "text": "Không thể thực hiện trực tiếp trên hệ quản trị CSDL, biên dịch nhờ hệ thống Visual Studio."
+        }
+      ],
+      "correctAnswerId": "e945643b-ba64-48e5-9933-7991e6404cd0",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "0b60961d-bd6d-441b-a6a5-4ac0ffe19370",
+      "stt": 39,
+      "nhan": "Câu 38",
+      "question": "Hãy chọn phương án ứng với các hướng phát triển của Hệ quản trị CSDL hướng đối tượng?",
+      "answers": [
+        {
+          "id": "41383b10-94c8-4eb2-be43-b0c84bac3544",
+          "text": "Mở rộng một ngôn ngữ lập trình hướng đối tượng trên CSDL. (1)"
+        },
+        {
+          "id": "b9d1138a-1793-40ee-8ca1-114afd736508",
+          "text": "Cung cấp thư viện CSDL hướng đối tượng trên cơ sở bổ sung khả năng CSDL cho ngôn ngữ lập trình hướng đối tượng.(2)"
+        },
+        {
+          "id": "166f0ea5-b514-4be1-ac81-b3b0d1a01789",
+          "text": "Cả đáp án (1) và (2) đều đúng."
+        },
+        {
+          "id": "05e58946-820e-4c51-af57-14e159374ee8",
+          "text": "Mở rộng khả năng của các ngôn ngữ lập trình cấu trúc cho CSDL (3)"
+        }
+      ],
+      "correctAnswerId": "166f0ea5-b514-4be1-ac81-b3b0d1a01789",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "470a8e53-0fe4-48b2-b372-eeb861bc9555",
+      "stt": 40,
+      "nhan": "Câu 39",
+      "question": "Để có thể sử dụng được các lệnh truy vấn tới cơ sở dữ liệu hướng đối tượng. Ta phải add references file DLL nào trong các DLL sau?",
+      "answers": [
+        {
+          "id": "3dd2e691-9e72-407b-a1c4-b7e2ea851c80",
+          "text": "DB4Object.DB4o.dll"
+        },
+        {
+          "id": "7eacc4f0-347a-4593-9a7b-aeb07f8475c4",
+          "text": "DB4Object.dll"
+        },
+        {
+          "id": "20a1a233-7ea0-4135-86cc-0041ed0fc36b",
+          "text": "DB4O.Object.dll"
+        },
+        {
+          "id": "32eb7f9a-85a5-4218-a385-93e34a0e27f6",
+          "text": "DB4O.dll"
+        }
+      ],
+      "correctAnswerId": "3dd2e691-9e72-407b-a1c4-b7e2ea851c80",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "27fa586b-0ec5-4a78-8d59-e00f08496fba",
+      "stt": 41,
+      "nhan": "Câu 40",
+      "question": "Cho lược đồ ER trên. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "answers": [
+        {
+          "id": "2bcc481c-57eb-4438-9401-7049d771c52d",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa)."
+        },
+        {
+          "id": "69e54056-09eb-4d48-906b-ed547e29abc4",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa) và tại lớp Khoa có thêm thuộc tính Giang2: Set(Gvien_Khoa)."
+        },
+        {
+          "id": "39a82b34-4dbb-4227-b0ac-92dd7d352fa8",
+          "text": "Tại lớp Khoa có thêm thuộc tính Giang2: set(Gvien_Khoa)."
+        },
+        {
+          "id": "7cff5159-618b-4760-86ab-b473b34c841a",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang1: set(Gvien_Khoa) và tại lớp Khoa có thêm thuộc tính Giang2: Set(Gvien_Khoa). Và lớp Gvien_Khoa sẽ có thuộc tính là( ID_gvien_khoa: AllID, Giang1: Giaovien, Giang2: Khoa. tongsotiet: integer)."
+        }
+      ],
+      "correctAnswerId": "7cff5159-618b-4760-86ab-b473b34c841a",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau41_1.jpeg"
+      ]
+    },
+    {
+      "id": "36fa8a6d-5997-4b46-8218-93de23dd7701",
+      "stt": 42,
+      "nhan": "Câu 41",
+      "question": "Cho lược đồ ER trên sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "answers": [
+        {
+          "id": "d01f8e93-eb94-4544-bb99-9f752bc0841d",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: set(Khoa)."
+        },
+        {
+          "id": "3f2ecd00-48b6-4b70-8982-97673d81f16d",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: set(Khoa) và tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
+        },
+        {
+          "id": "4d516f10-aca0-486a-8b0a-01dbff4d6eb9",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: Khoa và tại lớp Khoa có thêm thuộc tính Thuoc: (Giaovien)."
+        },
+        {
+          "id": "4a9d987e-d059-4bda-8065-11c8caa61b93",
+          "text": "Không có phương án đúng."
+        }
+      ],
+      "correctAnswerId": "4a9d987e-d059-4bda-8065-11c8caa61b93",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau42_1.jpeg"
+      ]
+    },
+    {
+      "id": "bbf99da6-36d5-4304-88bb-75476e9f3493",
+      "stt": 43,
+      "nhan": "Câu 42",
+      "question": "Cho lược đồ ER sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "answers": [
+        {
+          "id": "36a4ed46-69c7-4e4c-bd65-c2a148e9e6ca",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang: set(Mon)."
+        },
+        {
+          "id": "320f4cf0-cc61-4d3d-a84f-e973109c1ecf",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Giang: set(Mon) và tại lớp Mon có thêm thuộc tính Giang: Set(Giaovien)."
+        },
+        {
+          "id": "79e885d6-3284-404c-aa61-b117d9931748",
+          "text": "Tại lớp Mon có thêm thuộc tính Giang: set(Giaovien)."
+        },
+        {
+          "id": "1231dd4d-4b2e-4986-bc64-4076c4108335",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: Khoa và tại lớp Khoa có thêm thuộc tính Thuoc: (Giaovien)."
+        }
+      ],
+      "correctAnswerId": "320f4cf0-cc61-4d3d-a84f-e973109c1ecf",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau43_1.jpeg"
+      ]
+    },
+    {
+      "id": "0b5b48fc-7063-4bc3-a233-92442b66dfec",
+      "stt": 44,
+      "nhan": "Câu 42",
+      "question": "Cho lược đồ ER trên sau. Áp dụng quy tắc số mấy để chuyển mối quan hệ quanly sang mô hình hướng đối tượng?",
+      "answers": [
+        {
+          "id": "c1cf70ca-91ff-47d2-a37e-54833fba5762",
+          "text": "Quy tắc số 1."
+        },
+        {
+          "id": "8c70d1e2-fe3b-493d-a527-aa7e9ede95f2",
+          "text": "Quy tắc số 2."
+        },
+        {
+          "id": "b0078ed6-4e6a-45ad-a817-c37982237ad0",
+          "text": "Quy tắc số 3."
+        },
+        {
+          "id": "591e1ebb-0b9b-4cb9-9bcd-dba1f2a63ff9",
+          "text": "Quy tắc số 4."
+        }
+      ],
+      "correctAnswerId": "8c70d1e2-fe3b-493d-a527-aa7e9ede95f2",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau44_1.jpeg"
+      ]
+    },
+    {
+      "id": "5bb496e7-f077-427e-8fda-3c05556dc5c4",
+      "stt": 45,
+      "nhan": "Câu 43",
+      "question": "Hãy chọn phương án ứng với các lớp đối tượng sinh ra sau khi thực hiện chuyển đổi từ mô hình ER sau sang mô hình hướng đối tượng?",
+      "answers": [
+        {
+          "id": "d37402d1-2e49-4da7-b4fe-37274d24d08b",
+          "text": "Lớp đối tượng Bác sĩ, Lớp đối tượng Chuyên khoa, Lớp đối tượng Bệnh nhân"
+        },
+        {
+          "id": "dca05872-ee41-47a2-a71a-e7a1f21bead6",
+          "text": "Lớp đối tượng Bác sĩ, Lớp đối tượng Chuyên khoa, Lớp đối tượng Bệnh nhân, Lớp đối tượng Bảng theo dõi điều trị"
+        },
+        {
+          "id": "bba8355a-b4e4-4b3a-bf74-11c161549546",
+          "text": "Lớp Bệnh nhân, Lớp Bác Sĩ, Lớp Liệu pháp điều trị"
+        },
+        {
+          "id": "0255ebb2-27f4-4b54-b129-7cebbbcade2b",
+          "text": "Tất cả đều sai"
+        }
+      ],
+      "correctAnswerId": "dca05872-ee41-47a2-a71a-e7a1f21bead6",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau45_1.jpeg"
+      ]
+    },
+    {
+      "id": "698b75d2-07df-4dc6-b79e-1552d5d9fc22",
+      "stt": 46,
+      "nhan": "Câu 44",
+      "question": "Hãy chọn phương án chỉ ra các lớp đối tượng được xây dựng trong đoạn mã lệnh sau?",
+      "answers": [
+        {
+          "id": "35435b99-1c83-44de-9105-5b4bbf77d9bc",
+          "text": "Lớp Pilot."
+        },
+        {
+          "id": "abbc22ba-3c5e-43c2-9a24-b6f11ce33a7f",
+          "text": "Lớp Pilot và int_points."
+        },
+        {
+          "id": "5cbea7d2-d515-4f56-b67c-96471f1c8441",
+          "text": "Lớp _name và _points."
+        },
+        {
+          "id": "db585b1c-84d9-4b7f-82f6-b0898a62836e",
+          "text": "Lớp Name."
+        }
+      ],
+      "correctAnswerId": "35435b99-1c83-44de-9105-5b4bbf77d9bc",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau46_1.png"
+      ]
+    },
+    {
+      "id": "686c901e-c47c-4a27-aa3a-dae7965af92e",
+      "stt": 47,
+      "nhan": "Câu 45",
+      "question": "Hãy chọn phương án ứng với khái niệm về thuộc tính OID trong đoạn chương trình dưới đây?\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.",
+      "answers": [
+        {
+          "id": "daeb4c55-81fb-4a2f-94fb-d052d59874bc",
+          "text": "Định danh."
+        },
+        {
+          "id": "8a2abd1b-83c5-4a49-9c92-62a1e4736db1",
+          "text": "Khóa"
+        },
+        {
+          "id": "406bd665-980a-4ca5-a435-550b02adc24a",
+          "text": "Thuộc tính đa trị"
+        },
+        {
+          "id": "cc28984c-6866-4381-9802-ac66887e8bb5",
+          "text": "Thuộc tính mỗi quan hệ"
+        }
+      ],
+      "correctAnswerId": "daeb4c55-81fb-4a2f-94fb-d052d59874bc",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "e73d4488-362e-44b7-bb1c-7c5e520197f6",
+      "stt": 48,
+      "nhan": "Câu 46",
+      "question": "Hãy chọn phương án chỉ ra ý nghĩa của đoạn mã lệnh dưới đây?",
+      "answers": [
+        {
+          "id": "2053b66c-2102-4978-9d8b-bd8eed3cc96a",
+          "text": "Tạo/Mở cơ sở dữ liệu hướng đối tượng có tên là filename."
+        },
+        {
+          "id": "b86ad511-87b3-4832-b751-41120a6d9f70",
+          "text": "Tạo cơ sở dữ liệu hướng đối tượng có tên là filename."
+        },
+        {
+          "id": "0f441f7a-2388-4594-9ece-3f610937d840",
+          "text": "Mở cơ sở dữ liệu hướng đối tượng có tên là filenmae."
+        },
+        {
+          "id": "2621c975-4fb3-4201-a1da-998eaccbc984",
+          "text": "Mở một file có tên là filename."
+        }
+      ],
+      "correctAnswerId": "2053b66c-2102-4978-9d8b-bd8eed3cc96a",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau48_1.png"
+      ]
+    },
+    {
+      "id": "7eb29ed2-913a-459e-9831-d191d61d2d72",
+      "stt": 49,
+      "nhan": "Câu 47",
+      "question": "Hãy chọn phương án chỉ ra tác dụng của phương thức Store trong đoạn chương trình sau?",
+      "answers": [
+        {
+          "id": "686c204a-4c8d-4fbb-a3e5-31dd5d593de3",
+          "text": "Lưu đối tượng pilot vào cơ sở dữ liệu đang mở (databasefile.db4o)."
+        },
+        {
+          "id": "ce643050-6077-45f5-b747-d54de7645dac",
+          "text": "Lấy đối tượng pilot từ cơ sở dữ liệu đang mở (databasefile.db4o)."
+        },
+        {
+          "id": "8b2777cd-30c3-4597-a81a-a029f3c16a31",
+          "text": "Tạo ra đố tượng pilot với thông tin “Joe”."
+        },
+        {
+          "id": "644ff0ad-392b-4908-82a7-6f1e01eba88e",
+          "text": "Hủy bỏ đối tượng pilot vừa tạo."
+        }
+      ],
+      "correctAnswerId": "686c204a-4c8d-4fbb-a3e5-31dd5d593de3",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau49_1.png"
+      ]
+    },
+    {
+      "id": "4b961ba0-e518-43fc-8a67-ac60c8fa7663",
+      "stt": 50,
+      "nhan": "Câu 48",
+      "question": "Để kết nối đến cơ sở dữ liệu hướng đối tượng trong Visual Studio ta thực hiện như thế nào?",
+      "answers": [
+        {
+          "id": "3e8f2a61-81eb-407f-a974-6f441eb2919f",
+          "text": "Tools/Connect."
+        },
+        {
+          "id": "515f2335-beb5-4119-905b-6957602ab806",
+          "text": "View/Connect."
+        },
+        {
+          "id": "a5240493-b330-43ca-a63a-1b918972d8ec",
+          "text": "Tools/Connect Database."
+        },
+        {
+          "id": "b38259b1-cb92-4cf7-96be-12faaa6239c3",
+          "text": "Tools/Create Demo Database."
+        }
+      ],
+      "correctAnswerId": "3e8f2a61-81eb-407f-a974-6f441eb2919f",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "88a475d7-2397-4e15-8c24-306166040ab4",
+      "stt": 51,
+      "nhan": "Câu 49",
+      "question": "Cho lược đồ ER trên sau. Khi áp dụng quy tắc chuyển đổi mô hình ER sang mô hình hướng đối tượng ta sẽ được kết quả nào trong các kết quả sau?",
+      "answers": [
+        {
+          "id": "9b3f3483-f5bb-45b6-94ab-ee7809812403",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: Khoa."
+        },
+        {
+          "id": "abbc28d1-656a-49e0-9787-9d7a190c5648",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: set(Khoa) và tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
+        },
+        {
+          "id": "20523e77-efef-4143-9641-f30b87c9425f",
+          "text": "Tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
+        },
+        {
+          "id": "8e570463-f9fd-4837-b3fb-f0aa0b01de3b",
+          "text": "Tại lớp Giáo viên sẽ có thêm thuộc tính Thuoc: Khoa và tại lớp Khoa có thêm thuộc tính Thuoc: set(Giaovien)."
+        }
+      ],
+      "correctAnswerId": "8e570463-f9fd-4837-b3fb-f0aa0b01de3b",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau51_1.jpeg"
+      ]
+    },
+    {
+      "id": "0bf9fcae-f73e-4408-b301-9ae62ebbe788",
+      "stt": 52,
+      "nhan": "Câu 50",
+      "question": "Hãy chọn phương án ứng với loại truy vấn được sử dụng trong đoạn mã lệnh sau?",
+      "answers": [
+        {
+          "id": "426c0cd9-f2f3-4ea0-97e4-9cf0cd4bedda",
+          "text": "QBE."
+        },
+        {
+          "id": "ebd80d92-d928-4ac4-85ae-fe63a0076cfb",
+          "text": "Native Queries."
+        },
+        {
+          "id": "01ed9073-9254-401d-82ee-ab98a154da24",
+          "text": "LINQ."
+        },
+        {
+          "id": "328c3c9a-747d-427b-a05a-5bb2994292bf",
+          "text": "SODA Query API."
+        }
+      ],
+      "correctAnswerId": "426c0cd9-f2f3-4ea0-97e4-9cf0cd4bedda",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau52_1.png"
+      ]
+    },
+    {
+      "id": "5c87f5c9-9471-45dc-b81e-1a60c90a8edc",
+      "stt": 53,
+      "nhan": "Câu 51",
+      "question": "Hãy chọn phương án đúng ứng với kết quả của đoạn lệnh truy vấn sau?",
+      "answers": [
+        {
+          "id": "68adb49a-9e05-41b7-a841-5a7ad8ff8a91",
+          "text": "Trả về các đối tượng cùng kiểu Pilot."
+        },
+        {
+          "id": "dddb1e5f-9743-41c3-b948-84734d1f7f17",
+          "text": "Trả về các đối tượng chứa trong Pilot."
+        },
+        {
+          "id": "4c12efde-8ca1-4594-b545-4c151d52cd96",
+          "text": "Trả về tất cả các đối tượng cùng kiểu example."
+        },
+        {
+          "id": "d597509a-90d8-453c-be5f-74a74fe82352",
+          "text": "Trả về tất cả các đối tương có kiểu dữ liệu là example."
+        }
+      ],
+      "correctAnswerId": "68adb49a-9e05-41b7-a841-5a7ad8ff8a91",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau53_1.png"
+      ]
+    },
+    {
+      "id": "e1e8998d-fbc5-46a3-b7ac-387f11f76998",
+      "stt": 54,
+      "nhan": "Câu 52",
+      "question": "Hãy chọn phương án ứng với thư viên cần thêm vào để sử dụng truy vấn Native Queries?",
+      "answers": [
+        {
+          "id": "b88eeb98-6e0b-400c-9958-1079bfa36464",
+          "text": "Db4o-bjects.Db4o.NativeQueries.dll."
+        },
+        {
+          "id": "890f8a6c-2d62-4d5c-9143-ca27239a2449",
+          "text": "Db4object.Db4o.Instumentation.dll."
+        },
+        {
+          "id": "6a682fb3-90df-4ac1-9c8a-7b90ae34d674",
+          "text": "Cecil.FlowAnalysis.dll và Mono.Cecil.dll."
+        },
+        {
+          "id": "57a2e950-e3e1-466f-8fa9-de8e8b531330",
+          "text": "Tất cả các phương án đều đúng."
+        }
+      ],
+      "correctAnswerId": "57a2e950-e3e1-466f-8fa9-de8e8b531330",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "c5206746-db05-46d2-bbab-e1c537b2eb26",
+      "stt": 55,
+      "nhan": "Câu 53",
+      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?",
+      "answers": [
+        {
+          "id": "dc1ad17e-8675-472e-b078-0f9fb50f51a4",
+          "text": "QBE."
+        },
+        {
+          "id": "2c4f61e5-68b7-4f08-a7d9-f3845f570aed",
+          "text": "Native Queries."
+        },
+        {
+          "id": "84e59754-8fc2-49a1-a642-d5dadb7c2339",
+          "text": "LINQ."
+        },
+        {
+          "id": "bc0abf59-3881-48c5-b796-4a772dbd06ec",
+          "text": "SODA Query API"
+        }
+      ],
+      "correctAnswerId": "2c4f61e5-68b7-4f08-a7d9-f3845f570aed",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau55_1.png"
+      ]
+    },
+    {
+      "id": "a2153841-5096-4ddc-bc01-399ba6ddda8d",
+      "stt": 56,
+      "nhan": "Câu 54",
+      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?",
+      "answers": [
+        {
+          "id": "f6493d95-d433-4727-893c-70b0f70e71bc",
+          "text": "QBE."
+        },
+        {
+          "id": "726d6ede-1878-4e79-b3a2-62f173ad7f76",
+          "text": "Native Queries."
+        },
+        {
+          "id": "713dbc3f-3373-42c9-8312-dafa0d8a45d7",
+          "text": "LINQ."
+        },
+        {
+          "id": "0976b961-d29e-4ed5-b87b-58c5011c1d99",
+          "text": "SODA Query API."
+        }
+      ],
+      "correctAnswerId": "713dbc3f-3373-42c9-8312-dafa0d8a45d7",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau56_1.png"
+      ]
+    },
+    {
+      "id": "ac836c70-7478-45b1-bb4e-6c837f3f16fc",
+      "stt": 57,
+      "nhan": "Câu 55",
+      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nHãy chọn phương án ứng với các thực thể có trong bài toán trên?",
+      "answers": [
+        {
+          "id": "39f79936-aeae-4d7e-bfe4-11dd9c3b9f5c",
+          "text": "VÉ SỐ, KHÁCH HÀNG."
+        },
+        {
+          "id": "a06c144e-f14e-45f8-ac92-366ad712ab68",
+          "text": "ĐẠI LÝ, CÔNG TY."
+        },
+        {
+          "id": "ed53a6c6-7d60-4762-8c7c-43da1a8f75b8",
+          "text": "VÉ SỐ, CÔNG TY."
+        },
+        {
+          "id": "e1cd1bf5-b7c5-4b09-b3a4-8bff629e648e",
+          "text": "CÔNG TY, KHÁCH HÀNG."
+        }
+      ],
+      "correctAnswerId": "ed53a6c6-7d60-4762-8c7c-43da1a8f75b8",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "6dc978a9-1223-4e1e-b060-07ebbb1d546d",
+      "stt": 58,
+      "nhan": "Câu 56",
+      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nHãy chọn phương án đứng ứng với khái niệm danh sách các vé số được bán trong ngày của bài toán trên?",
+      "answers": [
+        {
+          "id": "73c82d23-c7cd-41a0-819b-91a5e0b1c8ba",
+          "text": "Tập thực thể Vé số."
+        },
+        {
+          "id": "52964cf1-a983-464c-88ba-731284e03739",
+          "text": "Các cá thể của thực thể Vé số."
+        },
+        {
+          "id": "15ae710c-97c2-4867-84c1-2905c48cbdf2",
+          "text": "Lớp đối tượng Vé số."
+        },
+        {
+          "id": "02c03b93-379f-4c80-abe0-2eff24a3b40e",
+          "text": "Các thực thể đại diện Vé số."
+        }
+      ],
+      "correctAnswerId": "73c82d23-c7cd-41a0-819b-91a5e0b1c8ba",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "e76fe805-a0b8-45a2-90c6-0d516af21dbb",
+      "stt": 59,
+      "nhan": "Câu 57",
+      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nPhân tích bài toán trên và chọn phương án ứng với mối quan hệ giữa hai thực thể mà có thuộc tính đi kèm?",
+      "answers": [
+        {
+          "id": "df609c38-b62a-44a2-b3cd-d78093850471",
+          "text": "Khách hàng với Công ty xổ số."
+        },
+        {
+          "id": "0ba47484-8df5-4eab-9355-f604bec55384",
+          "text": "Khách hàng với Vé số."
+        },
+        {
+          "id": "26ca2e54-3f94-4892-bedb-f21bf5cec2d1",
+          "text": "Vé số với Công ty in."
+        },
+        {
+          "id": "144d9bf1-2116-4bc2-9d79-932578bd76cf",
+          "text": "Đại lý với Công ty xổ số."
+        }
+      ],
+      "correctAnswerId": "df609c38-b62a-44a2-b3cd-d78093850471",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "cf4280a0-0f19-4ce3-9704-64524a3f0e79",
+      "stt": 60,
+      "nhan": "Câu 58",
+      "question": "Cho bài toán sau: Công ty TNHH MTV xổ số kiến thiết thủ đô có các đại lý xổ số trải rộng trên địa bàn thành phố. Công ty kinh doanh nhiều loại hình xổ số: truyền thống, lô tô, cào và bóc. Khách hàng mua vé số và được tham gia dự thưởng theo nghị định của chính phủ về kinh doanh xổ số. Vé số in phải có đủ số lượng theo từng loại ký hiệu vé và phù hợp với cơ cấu giải thưởng đã thông báo phát hành. Cơ sở in vé số phải có tên trong danh sách các đơn vị in đã đăng ký với cơ quan thuế.\nHãy chọn phương án chỉ ra mối quan hệ chuyên biệt hóa và tổng quát hóa trong bài toán trên?",
+      "answers": [
+        {
+          "id": "034dac6f-a27c-46b4-993e-a1af15297306",
+          "text": "Khách hàng có chuyên biệt hóa là Khách hàng trúng thưởng."
+        },
+        {
+          "id": "0e913e8b-b901-438e-b08a-6cb0ca9f31a0",
+          "text": "Công ty có chuyên biệt hóa là Đại lý."
+        },
+        {
+          "id": "ea6fab87-697e-49cf-b8f3-509dc7f2a75e",
+          "text": "Vé số là tổng quát hóa của xs_truyền thống, xs_lô tô, xs_cào, xs_bóc."
+        },
+        {
+          "id": "074f7bb3-344b-42a3-ad38-d1595997ec45",
+          "text": "Công ty là tổng quát hóa của Công ty xổ số, Công ty in."
+        }
+      ],
+      "correctAnswerId": "034dac6f-a27c-46b4-993e-a1af15297306",
+      "hint": "Không có gợi ý"
+    },
+    {
+      "id": "d69fbbd8-f787-4ac7-8429-3f4d163fe9ba",
+      "stt": 61,
+      "nhan": "Câu 59",
+      "question": "Cho lược đồ ER sau. Khi thực hiện chuyển đổi sang mô hình hướng đối tượng sử dụng quy tắc số 4 ta sẽ được lớp Người gồm một số thuộc tính. Hãy chọn phương án ứng với các thuộc tính của lớp Người?",
+      "answers": [
+        {
+          "id": "4b80a05d-a3fb-425f-a411-32e66eef8196",
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Con: Set(Nguoi), Cha. Me: Nguoi."
+        },
+        {
+          "id": "c04a3179-8a10-41af-9e21-3deefb93d5bb",
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Cha. Me: Nguoi."
+        },
+        {
+          "id": "7fdb2a78-5b1c-4bcd-b853-5f11e49ab5d7",
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Con: Set(Nguoi)."
+        },
+        {
+          "id": "0fcb3895-a5d5-4d70-b1e1-d936059fb9fc",
+          "text": "id: allID, Hoten: String, Tuoi: Integer."
+        }
+      ],
+      "correctAnswerId": null,
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau61_1.jpeg"
+      ],
+      "ghiChu": "File gốc không có đáp án cho câu này (có thể nằm trong hình)."
+    },
+    {
+      "id": "8bcc49e1-4f13-42a2-bb59-cf332d7d8476",
+      "stt": 62,
+      "nhan": "Câu 60",
+      "question": "Cho lược đồ ER sau. Khi thực hiện chuyển đổi sang mô hình hướng đối tượng ta sẽ áp dụng quy tắc chuyển đổi thứ 5, quy tắc này làm phát sinh thêm một lớp mới từ quan hệ Day gọi là Lịch Dạy, Lịch Dạy sẽ gồm những thuộc tính gì?",
+      "answers": [
+        {
+          "id": "30714843-5d5d-4fbe-bdc8-8e195ef7d94d",
+          "text": "Thời gian: String, Giang: Giaovien, Gomco: Monhoc, Botri: Lop."
+        },
+        {
+          "id": "5cadda88-2fba-483f-9bc6-aee36ece5a72",
+          "text": "Thời gian: String, Gomco: Monhoc, Botri: Lop."
+        },
+        {
+          "id": "96ea8bf9-80ce-4669-b772-76f9bafc8cbd",
+          "text": "Giang: Giaovien, Gomco: Monhoc, Botri: Lop."
+        },
+        {
+          "id": "0abe1fd5-c90b-4b9d-92fc-313d59f034de",
+          "text": "Thời gian: String, Giang: Giaovien, Gomco: Monhoc."
+        }
+      ],
+      "correctAnswerId": "30714843-5d5d-4fbe-bdc8-8e195ef7d94d",
+      "hint": "Không có gợi ý",
+      "images": [
+        "images/cau62_1.jpeg"
+      ]
+    }
+  ]
+}
