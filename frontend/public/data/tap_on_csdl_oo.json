@@ -110,7 +110,7 @@
       "id": "b03f233f-44e0-4074-9212-6c9697cf7c50",
       "stt": 5,
       "nhan": "Câu 5",
-      "question": "Khi thiết kế một cơ sở dữ liệu trước hết phải lưu trữ được các dữ liệu có thực trong mô hình thực tế. Hãy cho biết ở mức nào mô hình dữ liệu phản ánh thế giới thực trong các phương án sau?",
+      "question": "Khi thiết kế một cơ sở dữ liệu trước hết phải lưu trữ được các dữ liệu có thực trong mô hình thực tế. Hãy cho biết ở <span style='color:red; font-weight:bold'>mức nào mô hình dữ liệu phản ánh thế giới thực</span> trong các phương án sau?",
       "answers": [
         {
           "id": "2806d910-09cb-47ac-b429-44c48186986b",
@@ -136,7 +136,7 @@
       "id": "56c9b666-2b05-4dd5-b18c-bdedda2fdc8a",
       "stt": 6,
       "nhan": "Câu 6",
-      "question": "Hãy chọn phương án đúng ứng với chức năng của hệ quản trị CSDL?",
+      "question": "Hãy chọn phương án đúng ứng với <span style='color:red; font-weight:bold'>chức năng của hệ quản trị CSDL</span>?",
       "answers": [
         {
           "id": "6d5654b3-7ede-4885-b199-f411b85e0e05",
@@ -214,7 +214,7 @@
       "id": "9f0ae242-32e0-4980-9b0c-f996cc8429e3",
       "stt": 9,
       "nhan": "Câu 9",
-      "question": "Hãy chọn phương án đúng ứng với khái niệm về thuộc tính phức hợp (composite attribute)?",
+      "question": "Hãy chọn phương án đúng ứng với khái niệm về <span style='color:red; font-weight:bold'>thuộc tính phức hợp (composite attribute)</span>?",
       "answers": [
         {
           "id": "c78854af-c855-4c64-827a-5150c87e56e3",
@@ -370,7 +370,7 @@
       "id": "11dd0c3e-6ee9-4266-8095-831bcbe45fa2",
       "stt": 15,
       "nhan": "Câu 15",
-      "question": "Hãy cho biết trong lược đồ ER, hình e-líp cạnh đôi ký hiệu cho loại thuộc tính nào trong các thuộc tính sau?",
+      "question": "Hãy cho biết trong lược đồ ER, <span style='color:red; font-weight:bold'>hình e-líp cạnh đôi</span> ký hiệu cho loại thuộc tính nào trong các thuộc tính sau?",
       "answers": [
         {
           "id": "dc8e2f43-fd64-49c5-8111-ef4a00dbfbbd",
@@ -396,7 +396,7 @@
       "id": "7782113c-d422-43b0-8f10-335116374f80",
       "stt": 16,
       "nhan": "Câu 16",
-      "question": "Nếu lớp Cây_mỡ và lớp Cây_vàng_tâm gộp thành một lớp mới lấy tên là Cây_xanh. Lớp Cây_xanh có đầy đủ các tính chất cũng như thuộc tính của 2 lớp trên. Hãy cho biết lớp Cây_xanh đã sử dụng tính chất gì trong các tính chất sau?",
+      "question": "Nếu lớp Cây_mỡ và lớp Cây_vàng_tâm gộp thành một lớp mới lấy tên là Cây_xanh. Lớp Cây_xanh có đầy đủ các tính chất cũng như thuộc tính của 2 lớp trên. Hãy cho biết lớp Cây_xanh đã sử dụng <span style='color:red; font-weight:bold'>tính chất gì</span> trong các tính chất sau?",
       "answers": [
         {
           "id": "647252fb-d3d3-472a-9574-4aa8f758f5a3",
@@ -448,7 +448,7 @@
       "id": "a29be0b1-6eb2-4d84-95c6-0450f09b4ab7",
       "stt": 18,
       "nhan": "Câu 18",
-      "question": "Hãy chọn phương án đúng với khái niệm về mô hình dữ liệu?",
+      "question": "Hãy chọn phương án đúng với <span style='color:red; font-weight:bold'>khái niệm về mô hình dữ liệu</span>?",
       "answers": [
         {
           "id": "ce7faa44-52ed-4677-b565-43cab1856cf1",
@@ -474,7 +474,7 @@
       "id": "1a6ed23a-900d-4927-b8ef-59574bc5c4b6",
       "stt": 19,
       "nhan": "Câu 19",
-      "question": "Hãy chọn phương án chỉ ra đặc trưng của ngôn ngữ ODL?",
+      "question": "Hãy chọn phương án chỉ ra <span style='color:red; font-weight:bold'>đặc trưng của ngôn ngữ ODL</span>?",
       "answers": [
         {
           "id": "fd080d77-8396-488f-9c23-c679d8be6280",
@@ -500,7 +500,7 @@
       "id": "475ce9ed-1467-4dfc-9718-0461e76d8759",
       "stt": 20,
       "nhan": "Câu 20",
-      "question": "Hãy chọn phương án ứng với khái niệm <span style='color:red; font-weight:bold'>chuyên biệt hóa</span> trong mô hình EER?",
+      "question": "Hãy chọn phương án ứng với <span style='color:red; font-weight:bold'>khái niệm chuyên biệt hóa</span> trong mô hình EER?",
       "answers": [
         {
           "id": "02054b58-f211-45f3-aa12-38fb9b5df15b",
@@ -526,7 +526,7 @@
       "id": "bed3e4b9-f9bd-4369-9357-b1ae20469ebb",
       "stt": 21,
       "nhan": "Câu 21",
-      "question": "Hãy chọn phương án ứng với khái niệm <span style='color:red; font-weight:bold'>tổng quát hóa</span> trong mô hình EER?",
+      "question": "Hãy chọn phương án ứng với <span style='color:red; font-weight:bold'>khái niệm tổng quát hóa</span> trong mô hình EER?",
       "answers": [
         {
           "id": "c55ffe12-9623-484b-bf47-98622bf60df6",
@@ -604,7 +604,7 @@
       "id": "79525a92-e5d8-4549-b7aa-6946240404a3",
       "stt": 24,
       "nhan": "Câu 24",
-      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi <span style='color:red; font-weight:bold'>thuộc tính đa trị</span> từ <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
+      "question": "Hãy chọn phương án chỉ ra <span style='color:red; font-weight:bold'>cách chuyển đổi thuộc tính đa trị</span> từ <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "c7bbf893-5df8-4c3a-8e9e-9ddcfe45c2df",
@@ -630,7 +630,7 @@
       "id": "e8d51ad4-7b41-434c-87d9-489ce80e59e4",
       "stt": 25,
       "nhan": "Câu 25",
-      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi thuộc tính phức hợp trong <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
+      "question": "Hãy chọn phương án chỉ ra cách chuyển đổi <span style='color:red; font-weight:bold'>thuộc tính phức hợp</span> trong <span style='color:red; font-weight:bold'>mô hình ER</span> sang mô hình hướng <span style='color:red; font-weight:bold'>đối tượng</span>?",
       "answers": [
         {
           "id": "400ec80a-1448-4a5b-8223-ee59f33eb4ba",
@@ -1263,7 +1263,7 @@
       "id": "e73d4488-362e-44b7-bb1c-7c5e520197f6",
       "stt": 48,
       "nhan": "Câu 46",
-      "question": "Hãy chọn phương án chỉ ra ý nghĩa của đoạn mã lệnh dưới đây?\n```csharp\nusing (IObjectContainer db = Db4oEmbedded.OpenFile([filename]))\n{\n    //một số thao tác với db4o\n}\n```",
+      "question": "Hãy chọn phương án chỉ ra <span style='color:red; font-weight:bold'>ý nghĩa của đoạn mã lệnh</span> dưới đây?\n```csharp\nusing (IObjectContainer db = Db4oEmbedded.OpenFile([filename]))\n{\n    //một số thao tác với db4o\n}\n```",
       "answers": [
         {
           "id": "2053b66c-2102-4978-9d8b-bd8eed3cc96a",
@@ -1377,7 +1377,7 @@
       "id": "0bf9fcae-f73e-4408-b301-9ae62ebbe788",
       "stt": 52,
       "nhan": "Câu 50",
-      "question": "Hãy chọn phương án ứng với loại truy vấn được sử dụng trong đoạn mã lệnh sau?\n```csharp\nPilot theExample = new Pilot();\ntheExample.Name = \"John\";\nIList result = container.QueryByExample(theExample);\n```",
+      "question": "Hãy chọn phương án ứng với <span style='color:red; font-weight:bold'>loại truy vấn được sử dụng</span> trong đoạn mã lệnh sau?\n```csharp\nPilot theExample = new Pilot();\ntheExample.Name = \"John\";\nIList result = container.QueryByExample(theExample);\n```",
       "answers": [
         {
           "id": "426c0cd9-f2f3-4ea0-97e4-9cf0cd4bedda",
@@ -1406,7 +1406,7 @@
       "id": "5c87f5c9-9471-45dc-b81e-1a60c90a8edc",
       "stt": 53,
       "nhan": "Câu 51",
-      "question": "Hãy chọn phương án đúng ứng với kết quả của đoạn lệnh truy vấn sau?\n```csharp\nPilot example = new Pilot();\nIList result = container.QueryByExample(example);\n```",
+      "question": "Hãy chọn phương án đúng ứng với <span style='color:red; font-weight:bold'>kết quả của đoạn lệnh truy vấn</span> sau?\n```csharp\nPilot example = new Pilot();\nIList result = container.QueryByExample(example);\n```",
       "answers": [
         {
           "id": "68adb49a-9e05-41b7-a841-5a7ad8ff8a91",
@@ -1461,7 +1461,7 @@
       "id": "c5206746-db05-46d2-bbab-e1c537b2eb26",
       "stt": 55,
       "nhan": "Câu 53",
-      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?\n```csharp\nIList<Pilot> result = container.Query(\n    delegate(Pilot pilot) { return pilot.Name == \"John\"; });\n```",
+      "question": "Hãy chọn phương án ứng với <span style='color:red; font-weight:bold'>loại truy vấn sử dụng</span> trong đoạn mã lệnh sau?\n```csharp\nIList<Pilot> result = container.Query(\n    delegate(Pilot pilot) { return pilot.Name == \"John\"; });\n```",
       "answers": [
         {
           "id": "dc1ad17e-8675-472e-b078-0f9fb50f51a4",
@@ -1490,7 +1490,7 @@
       "id": "a2153841-5096-4ddc-bc01-399ba6ddda8d",
       "stt": 56,
       "nhan": "Câu 54",
-      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?\n```csharp\nvar allPersons = from Person p in container\n                 select p;\n```",
+      "question": "Hãy chọn phương án ứng với <span style='color:red; font-weight:bold'>loại truy vấn sử dụng</span> trong đoạn mã lệnh sau?\n```csharp\nvar allPersons = from Person p in container\n                 select p;\n```",
       "answers": [
         {
           "id": "f6493d95-d433-4727-893c-70b0f70e71bc",
