@@ -396,7 +396,7 @@
       "id": "7782113c-d422-43b0-8f10-335116374f80",
       "stt": 16,
       "nhan": "Câu 16",
-      "question": "Nếu lớp Cây_mỡ và lớp Cây_vàng_tâm gộp thành một lớp mới lấy tên là Cây_xanh. Lớp Cây_xanh có đầy đủ các tính chất cũng như thuộc tính của 2 lớp trên. Hãy cho biết lớp Cây_xanh đã sử dụng <span style='color:red; font-weight:bold'>tính chất gì</span> trong các tính chất sau?",
+      "question": "Nếu lớp Cây_mỡ và lớp Cây_vàng_tâm <span style='color:red; font-weight:bold'>gộp</span> thành một lớp mới lấy tên là Cây_xanh. Lớp Cây_xanh có đầy đủ các tính chất cũng như thuộc tính của 2 lớp trên. Hãy cho biết lớp Cây_xanh đã sử dụng <span style='color:red; font-weight:bold'>tính chất gì</span> trong các tính chất sau?",
       "answers": [
         {
           "id": "647252fb-d3d3-472a-9574-4aa8f758f5a3",
