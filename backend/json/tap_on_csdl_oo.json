@@ -266,7 +266,7 @@
       "id": "8d06d835-a893-456e-bc65-11d55c8750a9",
       "stt": 11,
       "nhan": "Câu 11",
-      "question": "Cho các ví dụ sau: (1) NHANVIEN(Tên, Tuổi, Lương), (2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)), (3)Ngày_sinh, (4)Công_ty. Hãy chọn phương án ứng với thành phần là <span style='color:red; font-weight:bold'>thực thể</span> trong ví dụ trên?",
+      "question": "Cho các ví dụ sau:\n(1) NHANVIEN(Tên, Tuổi, Lương),\n(2)(nv1(Hà, 25, 3tr), nv2(Hưng, 30, 3,5tr)),\n(3)Ngày_sinh,\n(4)Công_ty.\nHãy chọn phương án ứng với thành phần là <span style='color:red; font-weight:bold'>thực thể</span> trong ví dụ trên?",
       "answers": [
         {
           "id": "2375554f-76d4-4047-9f46-27081fa3c75b",
