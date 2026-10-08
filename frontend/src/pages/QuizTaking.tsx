@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
-import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X } from 'lucide-react';
+import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, Eraser } from 'lucide-react';
 import classNames from 'classnames';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
@@ -136,6 +136,15 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
     setShowRestartConfirm(false);
   };
 
+  const handleClearAnswer = () => {
+    if (!progress.answers[currentQuestion.id]) return;
+    setProgress(prev => {
+      const newAnswers = { ...prev.answers };
+      delete newAnswers[currentQuestion.id];
+      return { ...prev, answers: newAnswers };
+    });
+  };
+
   // Auto save
   useEffect(() => {
     sessionStorage.setItem('quiz-progress-data', JSON.stringify(progress));
@@ -263,6 +272,11 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             {currentQuestion.hint && (
               <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={() => setShowHint(!showHint)}>
                 <Lightbulb /> Gợi ý
+              </button>
+            )}
+            {progress.answers[currentQuestion.id] && (
+              <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={handleClearAnswer} title="Bỏ chọn đáp án hiện tại">
+                <Eraser /> Bỏ chọn
               </button>
             )}
             {isReloading && <span style={{ fontSize: '0.9rem', color: 'var(--primary-color)' }}>Đang cập nhật...</span>}
