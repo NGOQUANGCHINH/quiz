@@ -757,7 +757,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau29_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 12.png"
     },
     {
       "id": "cd26089f-94ea-4694-a4fd-16f4e8a52462",
@@ -890,7 +891,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau34_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy.png"
     },
     {
       "id": "7bf13ba3-2d1c-4e0f-88c9-3d62e29b17bd",
@@ -919,7 +921,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau35_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy.png"
     },
     {
       "id": "2908eed0-de78-404e-a42c-5b8c9dd3ad36",
@@ -1078,7 +1081,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau41_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 5.png"
     },
     {
       "id": "36fa8a6d-5997-4b46-8218-93de23dd7701",
@@ -1107,7 +1111,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau42_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "bbf99da6-36d5-4304-88bb-75476e9f3493",
@@ -1136,7 +1141,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau43_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 4.png"
     },
     {
       "id": "0b5b48fc-7063-4bc3-a233-92442b66dfec",
@@ -1165,7 +1171,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau44_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "5bb496e7-f077-427e-8fda-3c05556dc5c4",
@@ -1194,13 +1201,14 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau45_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 10.png"
     },
     {
       "id": "698b75d2-07df-4dc6-b79e-1552d5d9fc22",
       "stt": 46,
       "nhan": "Câu 44",
-      "question": "Hãy chọn phương án chỉ ra các <span style='color:red; font-weight:bold'>lớp đối tượng</span> được xây dựng trong đoạn mã lệnh sau?",
+      "question": "Hãy chọn phương án chỉ ra các <span style='color:red; font-weight:bold'>lớp đối tượng</span> được xây dựng trong đoạn mã lệnh sau?\n```csharp\npublic class Pilot\n{\n    string _name; int _points; // các thuộc tính\n\n    public Pilot(string name, int points) // phương thức xây dựng\n    {\n        _name = name;\n        _points = points;\n    }\n\n    public string Name // phương thức khác\n    {\n        get { return _name; }\n    }\n}\n```",
       "answers": [
         {
           "id": "35435b99-1c83-44de-9105-5b4bbf77d9bc",
@@ -1229,7 +1237,7 @@
       "id": "686c901e-c47c-4a27-aa3a-dae7965af92e",
       "stt": 47,
       "nhan": "Câu 45",
-      "question": "Hãy chọn phương án ứng với khái niệm về <span style='color:red; font-weight:bold'>thuộc tính OID</span> trong đoạn chương trình dưới đây?\nClass GIAOVIEN\nproperties\nOID: ID;\nHoten: String;\nTuoi: Integer;\nSothich: Set(String);\nThuoc: KHOA;\nGiang: Set(MONHOC);\nDiachi: Tuple( Sonha: Integer;\nDuong: String;\nThanhpho: String);\noperations\n.......\nEnd GIAOVIEN.",
+      "question": "Hãy chọn phương án ứng với khái niệm về <span style='color:red; font-weight:bold'>thuộc tính OID</span> trong đoạn chương trình dưới đây?\n```text\nClass GIAOVIEN \n   properties \n            OID: ID; \n            Hoten: String; \n            Tuoi: Integer; \n            Sothich: Set(String); \n            Thuoc: KHOA; \n            Giang: Set(MONHOC); \n            Diachi: Tuple( Sonha: Integer;\n                                    Duong: String;\n                                    Thanhpho: String); \n   operations \n            ....... \nEnd GIAOVIEN.\n```",
       "answers": [
         {
           "id": "daeb4c55-81fb-4a2f-94fb-d052d59874bc",
@@ -1255,7 +1263,7 @@
       "id": "e73d4488-362e-44b7-bb1c-7c5e520197f6",
       "stt": 48,
       "nhan": "Câu 46",
-      "question": "Hãy chọn phương án chỉ ra ý nghĩa của đoạn mã lệnh dưới đây?",
+      "question": "Hãy chọn phương án chỉ ra ý nghĩa của đoạn mã lệnh dưới đây?\n```csharp\nusing (IObjectContainer db = Db4oEmbedded.OpenFile([filename]))\n{\n    //một số thao tác với db4o\n}\n```",
       "answers": [
         {
           "id": "2053b66c-2102-4978-9d8b-bd8eed3cc96a",
@@ -1284,7 +1292,7 @@
       "id": "7eb29ed2-913a-459e-9831-d191d61d2d72",
       "stt": 49,
       "nhan": "Câu 47",
-      "question": "Hãy chọn phương án chỉ ra tác dụng của <span style='color:red; font-weight:bold'>phương thức Store</span> trong đoạn chương trình sau?",
+      "question": "Hãy chọn phương án chỉ ra tác dụng của <span style='color:red; font-weight:bold'>phương thức Store</span> trong đoạn chương trình sau?\n```csharp\nusing (IObjectContainer db = Db4oEmbedded.OpenFile(\"databaseFile.db4o\"))\n{\n    Pilot pilot = new Pilot(\"Joe\");\n    db.Store (pilot);\n}\n```",
       "answers": [
         {
           "id": "686c204a-4c8d-4fbb-a3e5-31dd5d593de3",
@@ -1362,13 +1370,14 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau51_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 3.png"
     },
     {
       "id": "0bf9fcae-f73e-4408-b301-9ae62ebbe788",
       "stt": 52,
       "nhan": "Câu 50",
-      "question": "Hãy chọn phương án ứng với loại truy vấn được sử dụng trong đoạn mã lệnh sau?",
+      "question": "Hãy chọn phương án ứng với loại truy vấn được sử dụng trong đoạn mã lệnh sau?\n```csharp\nPilot theExample = new Pilot();\ntheExample.Name = \"John\";\nIList result = container.QueryByExample(theExample);\n```",
       "answers": [
         {
           "id": "426c0cd9-f2f3-4ea0-97e4-9cf0cd4bedda",
@@ -1397,7 +1406,7 @@
       "id": "5c87f5c9-9471-45dc-b81e-1a60c90a8edc",
       "stt": 53,
       "nhan": "Câu 51",
-      "question": "Hãy chọn phương án đúng ứng với kết quả của đoạn lệnh truy vấn sau?",
+      "question": "Hãy chọn phương án đúng ứng với kết quả của đoạn lệnh truy vấn sau?\n```csharp\nPilot example = new Pilot();\nIList result = container.QueryByExample(example);\n```",
       "answers": [
         {
           "id": "68adb49a-9e05-41b7-a841-5a7ad8ff8a91",
@@ -1452,7 +1461,7 @@
       "id": "c5206746-db05-46d2-bbab-e1c537b2eb26",
       "stt": 55,
       "nhan": "Câu 53",
-      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?",
+      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?\n```csharp\nIList<Pilot> result = container.Query(\n    delegate(Pilot pilot) { return pilot.Name == \"John\"; });\n```",
       "answers": [
         {
           "id": "dc1ad17e-8675-472e-b078-0f9fb50f51a4",
@@ -1481,7 +1490,7 @@
       "id": "a2153841-5096-4ddc-bc01-399ba6ddda8d",
       "stt": 56,
       "nhan": "Câu 54",
-      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?",
+      "question": "Hãy chọn phương án ứng với loại truy vấn sử dụng trong đoạn mã lệnh sau?\n```csharp\nvar allPersons = from Person p in container\n                 select p;\n```",
       "answers": [
         {
           "id": "f6493d95-d433-4727-893c-70b0f70e71bc",
@@ -1638,7 +1647,8 @@
       "images": [
         "images/cau61_1.jpeg"
       ],
-      "ghiChu": "File gốc không có đáp án cho câu này (có thể nằm trong hình)."
+      "ghiChu": "File gốc không có đáp án cho câu này (có thể nằm trong hình).",
+      "image": "/img-csdl/image copy 7.png"
     },
     {
       "id": "8bcc49e1-4f13-42a2-bb59-cf332d7d8476",
@@ -1667,7 +1677,8 @@
       "hint": "Không có gợi ý",
       "images": [
         "images/cau62_1.jpeg"
-      ]
+      ],
+      "image": "/img-csdl/image copy 8.png"
     }
   ]
 }
