@@ -3,6 +3,7 @@ import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
 import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X } from 'lucide-react';
 import classNames from 'classnames';
+import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
 interface Props {
   progress: ProgressData;
@@ -107,12 +108,28 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   };
 
   const confirmRestart = () => {
-    setProgress(prev => ({
-      ...prev,
-      answers: {},
-      currentQuestionIndex: 0,
-      markedQuestions: []
-    }));
+    setProgress(prev => {
+      let newQuestions = [...prev.questions];
+      
+      if (prev.config.shuffleQuestions) {
+        newQuestions = shuffleQuestions(newQuestions);
+      }
+      
+      if (prev.config.shuffleAnswers) {
+        newQuestions = newQuestions.map(q => ({
+          ...q,
+          answers: shuffleAnswers([...q.answers])
+        }));
+      }
+
+      return {
+        ...prev,
+        questions: newQuestions,
+        answers: {},
+        currentQuestionIndex: 0,
+        markedQuestions: []
+      };
+    });
     setTimeLeft(
       progress.config.timeLimitMinutes ? progress.config.timeLimitMinutes * 60 : null
     );

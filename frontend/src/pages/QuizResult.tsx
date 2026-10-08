@@ -3,6 +3,7 @@ import type {  ProgressData, QuizResult as ResultType  } from '../types';
 import { ArrowLeft, RotateCcw, Eye, XCircle } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import { api } from '../utils/api';
+import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
 interface Props {
   progress: ProgressData;
@@ -35,9 +36,23 @@ export default function QuizResult({ progress, navigate }: Props) {
   }, [progress]);
 
   const handleRetakeAll = async () => {
+    let newQuestions = [...progress.questions];
+    
+    if (progress.config.shuffleQuestions) {
+      newQuestions = shuffleQuestions(newQuestions);
+    }
+    
+    if (progress.config.shuffleAnswers) {
+      newQuestions = newQuestions.map(q => ({
+        ...q,
+        answers: shuffleAnswers([...q.answers])
+      }));
+    }
+
     const newProgress: ProgressData = {
       ...progress,
       id: uuidv4(),
+      questions: newQuestions,
       currentQuestionIndex: 0,
       answers: {},
       markedQuestions: [],
@@ -48,12 +63,23 @@ export default function QuizResult({ progress, navigate }: Props) {
   };
 
   const handleRetakeWrong = async () => {
-    const wrongQuestions = progress.questions.filter(q => {
+    let wrongQuestions = progress.questions.filter(q => {
       const ansId = progress.answers[q.id];
       return ansId !== q.correctAnswerId;
     });
 
     if (wrongQuestions.length === 0) return;
+
+    if (progress.config.shuffleQuestions) {
+      wrongQuestions = shuffleQuestions(wrongQuestions);
+    }
+    
+    if (progress.config.shuffleAnswers) {
+      wrongQuestions = wrongQuestions.map(q => ({
+        ...q,
+        answers: shuffleAnswers([...q.answers])
+      }));
+    }
 
     const newProgress: ProgressData = {
       ...progress,
