@@ -1627,11 +1627,11 @@
       "answers": [
         {
           "id": "4b80a05d-a3fb-425f-a411-32e66eef8196",
-          "text": "id: allID, Hoten: String, Tuoi: Integer, Con: Set(Nguoi), Cha. Me: Nguoi."
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Con: Set(Nguoi), Cha, Me: Nguoi."
         },
         {
           "id": "c04a3179-8a10-41af-9e21-3deefb93d5bb",
-          "text": "id: allID, Hoten: String, Tuoi: Integer, Cha. Me: Nguoi."
+          "text": "id: allID, Hoten: String, Tuoi: Integer, Cha, Me: Nguoi."
         },
         {
           "id": "7fdb2a78-5b1c-4bcd-b853-5f11e49ab5d7",
@@ -1642,7 +1642,7 @@
           "text": "id: allID, Hoten: String, Tuoi: Integer."
         }
       ],
-      "correctAnswerId": null,
+      "correctAnswerId": "4b80a05d-a3fb-425f-a411-32e66eef8196",
       "hint": "Không có gợi ý",
       "images": [
         "images/cau61_1.jpeg"
