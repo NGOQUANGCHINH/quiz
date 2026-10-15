@@ -149,13 +149,10 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
       {/* Hiển thị bài đang làm riêng cho từng tab (không để chung) */}
       {tabActiveProgress.length > 0 && (
         <div id="in-progress-section" style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '2px dashed var(--border-color)' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
             <h3 style={{ color: 'var(--primary-color)', margin: 0, display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.3rem' }}>
               <RotateCcw size={22} /> Bài đang làm ({tabActiveProgress.length})
             </h3>
-            <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-              Tiếp tục bài thi dở bất kỳ lúc nào
-            </span>
           </div>
 
           <div className="dashboard-cards-grid">
@@ -211,15 +208,6 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
               {activeTab === 'materials' ? 'Tất cả bộ đề ôn tập' : 'Danh mục chủ đề ôn luyện'}
             </h3>
           </div>
-          {activeTab === 'materials' ? (
-            <p style={{ color: 'var(--text-secondary)', margin: '0.35rem 0 0', fontSize: '0.9rem' }}>
-              Danh sách các bộ đề môn học lập trình hiện có sẵn trong hệ thống.
-            </p>
-          ) : (
-            <p style={{ color: 'var(--text-secondary)', margin: '0.35rem 0 0', fontSize: '0.9rem' }}>
-              Chủ đề từ vựng, ngữ pháp và bài đọc hiểu tiếng Anh phục vụ ôn luyện.
-            </p>
-          )}
         </div>
 
         {activeTab === 'materials' ? (
