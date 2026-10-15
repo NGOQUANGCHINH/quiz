@@ -109,8 +109,27 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
   const englishQuizzesFromApi = quizzes.filter(q => q.category === 'english');
   const englishDisplayList = englishQuizzesFromApi.length > 0 ? englishQuizzesFromApi : defaultEnglishTopics;
 
+  // Helper to determine if a quiz belongs to English tab
+  const isEnglishQuiz = (quizId: string, title?: string): boolean => {
+    if (quizId.startsWith('english-')) return true;
+    const found = quizzes.find(q => q.id === quizId);
+    if (found && found.category === 'english') return true;
+    if (defaultEnglishTopics.some(t => t.id === quizId)) return true;
+    const lowerTitle = (title || '').toLowerCase();
+    return lowerTitle.includes('tiếng anh') || 
+           lowerTitle.includes('english') || 
+           lowerTitle.includes('toeic') || 
+           lowerTitle.includes('ielts');
+  };
+
   // Filter all valid in-progress quizzes
   const allActiveProgress = progressList.filter(p => p && p.answers && Object.keys(p.answers).length > 0);
+
+  // Hiển thị riêng bài đang làm cho từng tab: tab nào chỉ hiển thị bài đang làm của tab đó
+  const tabActiveProgress = allActiveProgress.filter(p => {
+    const isEng = isEnglishQuiz(p.quizId, p.title);
+    return activeTab === 'english' ? isEng : !isEng;
+  });
 
   return (
     <div>
@@ -127,12 +146,12 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
         </button>
       </div>
 
-      {/* Hiển thị bài đang làm nếu có trong hệ thống */}
-      {allActiveProgress.length > 0 && (
+      {/* Hiển thị bài đang làm riêng cho từng tab (không để chung) */}
+      {tabActiveProgress.length > 0 && (
         <div id="in-progress-section" style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '2px dashed var(--border-color)' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem', flexWrap: 'wrap', gap: '0.5rem' }}>
             <h3 style={{ color: 'var(--primary-color)', margin: 0, display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.3rem' }}>
-              <RotateCcw size={22} /> Bài đang làm ({allActiveProgress.length})
+              <RotateCcw size={22} /> Bài đang làm ({tabActiveProgress.length})
             </h3>
             <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
               Tiếp tục bài thi dở bất kỳ lúc nào
@@ -140,8 +159,8 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
           </div>
 
           <div className="dashboard-cards-grid">
-            {allActiveProgress.map(p => {
-              const isEnglish = Boolean(p.id?.startsWith('english-') || p.quizId?.startsWith('english-'));
+            {tabActiveProgress.map(p => {
+              const isEnglish = isEnglishQuiz(p.quizId, p.title);
               const answeredCount = Object.keys(p.answers || {}).length;
               const totalCount = p.questions?.length || 0;
               const percent = totalCount > 0 ? Math.round((answeredCount / totalCount) * 100) : 0;

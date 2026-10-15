@@ -155,21 +155,6 @@ function App() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            {hasSavedProgress && (
-              <button 
-                className="mobile-progress-badge-btn"
-                onClick={() => {
-                  if (currentPage !== 'dashboard') navigate('dashboard');
-                  setTimeout(() => {
-                    const el = document.getElementById('in-progress-section');
-                    if (el) el.scrollIntoView({ behavior: 'smooth' });
-                  }, 120);
-                }}
-                title="Xem bài đang làm dở"
-              >
-                <RotateCcw size={14} /> Có bài dở
-              </button>
-            )}
             <button 
               className="mobile-theme-btn"
               onClick={toggleTheme}

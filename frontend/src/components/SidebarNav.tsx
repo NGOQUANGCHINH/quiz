@@ -23,6 +23,21 @@ interface SidebarNavProps {
   onToggleTheme: () => void;
 }
 
+interface NavItem {
+  id: string;
+  label: string;
+  desc: string;
+  icon: any;
+  isActive: boolean;
+  badge?: string;
+  onClick: () => void;
+}
+
+interface NavGroup {
+  title: string;
+  items: NavItem[];
+}
+
 export const SidebarNav: React.FC<SidebarNavProps> = ({
   isExpanded,
   onToggleExpand,
@@ -41,7 +56,7 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
     }
   };
 
-  const navGroups = [
+  const navGroups: NavGroup[] = [
     {
       title: 'Học tập & Ôn thi',
       items: [
@@ -65,28 +80,6 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
           onClick: () => handleItemClick(() => {
             onTabChange('english');
             if (currentPage !== 'dashboard') onNavigate('dashboard');
-          })
-        },
-        {
-          id: 'progress',
-          label: 'Bài đang làm',
-          desc: 'Tiếp tục bài làm đã lưu tạm',
-          icon: RotateCcw,
-          badge: hasProgress ? 'Có bài' : undefined,
-          isActive: false,
-          onClick: () => handleItemClick(() => {
-            if (currentPage !== 'dashboard') {
-              onNavigate('dashboard');
-              setTimeout(() => {
-                const el = document.getElementById('in-progress-section');
-                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }, 120);
-            } else {
-              const el = document.getElementById('in-progress-section');
-              if (el) {
-                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }
-            }
           })
         }
       ]
