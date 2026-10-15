@@ -199,9 +199,26 @@ h1, h2, h3, h4 {
    QUIZ SETUP MODERN REDESIGN
    ============================================================ */
 .quiz-setup-wrapper {
-  max-width: 900px;
+  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 2.5rem;
+}
+
+.setup-top-header {
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setup-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+  border-radius: 0.75rem;
 }
 
 .quiz-setup-card {
@@ -216,57 +233,72 @@ h1, h2, h3, h4 {
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.4);
 }
 
+.setup-title-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.setup-quiz-title {
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+
+.setup-quiz-title span {
+  color: var(--primary-color);
+}
+
 .setup-header-badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.45rem;
   padding: 0.35rem 0.85rem;
   border-radius: 9999px;
   background: var(--neutral-bg);
   border: 1px solid var(--border-color);
   color: var(--text-secondary);
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   font-weight: 600;
-  margin-top: 0.5rem;
+}
+
+.setup-section-block {
+  margin-bottom: 2rem;
 }
 
 .setup-section-label {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.825rem;
+  font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-secondary);
-  margin-bottom: 0.85rem;
+  margin-bottom: 1rem;
 }
 
-/* Mode Selection Cards */
+/* Mode Selection Cards (Horizontal card design) */
 .setup-mode-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
-  margin-bottom: 2rem;
-}
-
-@media (max-width: 640px) {
-  .setup-mode-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .setup-mode-card {
   position: relative;
-  border-radius: 1rem;
-  padding: 1.4rem;
+  border-radius: 1.15rem;
+  padding: 1.35rem 1.5rem;
   border: 2px solid var(--border-color);
   background: var(--surface-color);
   cursor: pointer;
   transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
+  align-items: center;
+  gap: 1.25rem;
   user-select: none;
 }
 
@@ -288,25 +320,64 @@ h1, h2, h3, h4 {
   box-shadow: 0 8px 25px -4px rgba(239, 68, 68, 0.3);
 }
 
-.mode-card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.mode-card-left {
+  flex-shrink: 0;
 }
 
 .mode-icon-box {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
 }
 
+.mode-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.mode-card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.35rem;
+}
+
+.mode-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mode-card-desc {
+  font-size: 0.885rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.mode-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.mode-card-right {
+  flex-shrink: 0;
+}
+
 .mode-radio-indicator {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   border: 2px solid var(--border-color);
   display: flex;
@@ -321,72 +392,81 @@ h1, h2, h3, h4 {
   background: var(--primary-color);
 }
 
-.mode-card-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--text-primary);
+/* ============================================================
+   HORIZONTAL SETTINGS ROWS (SỐ LƯỢNG CÂU, THỜI GIAN, TÙY CHỌN)
+   ============================================================ */
+.setup-rows-container {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 1.1rem;
 }
 
-.mode-card-desc {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  color: var(--text-secondary);
-}
-
-.mode-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.25rem 0.65rem;
-  border-radius: 9999px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  width: fit-content;
-}
-
-/* 2-Column Config Grid (Questions count & Time limit) */
-.setup-config-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-@media (max-width: 768px) {
-  .setup-config-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.setup-config-panel {
+.setup-horizontal-row {
   background: var(--neutral-bg);
   border: 1px solid var(--border-color);
-  border-radius: 1rem;
-  padding: 1.35rem;
+  border-radius: 1.1rem;
+  padding: 1.35rem 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  transition: all 0.2s;
+}
+
+.setup-horizontal-row:hover {
+  border-color: var(--text-secondary);
+}
+
+.setup-row-label-col {
+  min-width: 250px;
+  flex-shrink: 0;
+}
+
+.setup-row-label-title {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.setup-row-label-sub {
+  font-size: 0.825rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+  margin-left: 1.85rem;
+}
+
+.setup-row-content-col {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.85rem;
 }
 
 .setup-pill-group {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
+  align-items: center;
+  gap: 0.65rem;
 }
 
 .setup-pill-btn {
-  padding: 0.6rem 0.95rem;
-  border-radius: 0.75rem;
+  padding: 0.65rem 1.15rem;
+  border-radius: 0.8rem;
   border: 1.5px solid var(--border-color);
   background: var(--surface-color);
   color: var(--text-primary);
-  font-size: 0.885rem;
+  font-size: 0.925rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.45rem;
   user-select: none;
 }
 
@@ -400,17 +480,18 @@ h1, h2, h3, h4 {
   border-color: var(--primary-color);
   color: #ffffff !important;
   font-weight: 700;
-  box-shadow: 0 4px 14px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 4px 14px rgba(220, 38, 38, 0.35);
   transform: translateY(-1px);
 }
 
-.setup-custom-box {
-  margin-top: 0.75rem;
-  display: flex;
+.setup-custom-inline {
+  display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  padding-top: 0.75rem;
-  border-top: 1px dashed var(--border-color);
+  padding: 0.35rem 0.85rem;
+  background: var(--surface-color);
+  border: 1.5px dashed var(--primary-color);
+  border-radius: 0.75rem;
 }
 
 .setup-custom-input {
@@ -420,7 +501,7 @@ h1, h2, h3, h4 {
   border: 1.5px solid var(--border-color);
   background: var(--surface-color);
   color: var(--text-primary);
-  font-size: 0.9rem;
+  font-size: 0.925rem;
   font-weight: 700;
   text-align: center;
   outline: none;
@@ -431,36 +512,30 @@ h1, h2, h3, h4 {
   border-color: var(--primary-color);
 }
 
-/* Options checkboxes */
-.setup-options-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-@media (max-width: 768px) {
-  .setup-options-grid {
-    grid-template-columns: 1fr;
-  }
+/* Options horizontal row */
+.setup-options-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  align-items: center;
 }
 
 .setup-option-card {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.85rem;
-  padding: 0.95rem 1.15rem;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
   border-radius: 0.85rem;
   border: 1.5px solid var(--border-color);
   background: var(--surface-color);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   user-select: none;
 }
 
 .setup-option-card:hover {
   border-color: var(--text-secondary);
-  background: var(--neutral-bg);
+  transform: translateY(-1px);
 }
 
 .setup-option-card.active {
@@ -469,8 +544,14 @@ h1, h2, h3, h4 {
 }
 
 [data-theme='dark'] .setup-option-card.active {
-  background: rgba(239, 68, 68, 0.1);
+  background: rgba(239, 68, 68, 0.12);
   border-color: var(--primary-color);
+}
+
+.setup-option-card .option-title {
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
 .setup-option-checkbox {
@@ -491,61 +572,76 @@ h1, h2, h3, h4 {
   border-color: var(--primary-color);
 }
 
-/* Summary Bar & Launch */
-.setup-summary-bar {
+/* ============================================================
+   SETUP FOOTER ACTION BAR (SUMMARY & START BUTTON)
+   ============================================================ */
+.setup-footer-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.15rem 1.4rem;
-  background: var(--neutral-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 0.85rem;
-  margin-bottom: 1.5rem;
+  gap: 1.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border-color);
+  margin-top: 1.5rem;
+}
+
+.setup-summary-info {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
   flex-wrap: wrap;
-  gap: 0.75rem;
+}
+
+.summary-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .summary-tags-group {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 0.65rem;
 }
 
 .summary-tag {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 0.85rem;
+  gap: 0.45rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--text-primary);
-  background: var(--surface-color);
-  padding: 0.35rem 0.75rem;
-  border-radius: 0.5rem;
+  background: var(--neutral-bg);
+  padding: 0.4rem 0.85rem;
+  border-radius: 0.65rem;
   border: 1px solid var(--border-color);
 }
 
 .setup-start-btn {
-  width: 100%;
-  padding: 1.15rem 1.75rem;
-  border-radius: 1rem;
-  font-size: 1.15rem;
-  font-weight: 700;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  cursor: pointer;
-  border: none;
   background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-  color: white;
-  box-shadow: 0 10px 25px -4px rgba(239, 68, 68, 0.4);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.9rem;
+  padding: 1rem 2.25rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 25px -4px rgba(239, 68, 68, 0.4);
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .setup-start-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 30px -4px rgba(239, 68, 68, 0.55);
+  box-shadow: 0 12px 30px -4px rgba(239, 68, 68, 0.55);
   filter: brightness(1.05);
 }
 
@@ -1602,28 +1698,73 @@ h1, h2, h3, h4 {
     border-radius: 1rem;
   }
 
+  .setup-quiz-title {
+    font-size: 1.25rem !important;
+  }
+
   .setup-mode-grid {
     grid-template-columns: 1fr !important;
     gap: 0.85rem !important;
   }
 
-  .setup-config-grid {
-    grid-template-columns: 1fr !important;
-    gap: 1rem !important;
+  .setup-mode-card {
+    padding: 1rem !important;
+    gap: 0.85rem !important;
   }
 
-  .setup-options-grid {
-    grid-template-columns: 1fr !important;
-    gap: 0.65rem !important;
+  .setup-horizontal-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.85rem !important;
+    padding: 1rem !important;
+  }
+
+  .setup-row-label-col {
+    min-width: unset !important;
+    width: 100% !important;
+  }
+
+  .setup-row-label-sub {
+    margin-left: 0 !important;
+    margin-top: 0.15rem !important;
+  }
+
+  .setup-row-content-col {
+    justify-content: flex-start !important;
+    width: 100% !important;
   }
 
   .setup-pill-group {
-    gap: 0.45rem;
+    width: 100%;
+    gap: 0.45rem !important;
   }
 
   .setup-pill-btn {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.825rem;
+    padding: 0.5rem 0.85rem !important;
+    font-size: 0.85rem !important;
+  }
+
+  .setup-options-row {
+    width: 100%;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.5rem !important;
+  }
+
+  .setup-option-card {
+    width: 100% !important;
+    padding: 0.65rem 0.85rem !important;
+  }
+
+  .setup-footer-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 1.25rem !important;
+  }
+
+  .setup-start-btn {
+    width: 100% !important;
+    padding: 0.95rem 1.25rem !important;
   }
 
   /* Quiz Taking mobile adjustments */
