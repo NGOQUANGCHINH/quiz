@@ -1,43 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../utils/api';
-import type {  Quiz, QuizConfig, ProgressData  } from '../types';
+import type { Quiz, QuizConfig, ProgressData } from '../types';
 import { v4 as uuidv4 } from 'uuid';
-import { ArrowLeft, Check, AlertTriangle } from 'lucide-react';
+import { 
+  ArrowLeft, 
+  Check, 
+  AlertTriangle, 
+  BookOpen, 
+  Trophy, 
+  Clock, 
+  Layers, 
+  Shuffle, 
+  RotateCcw, 
+  Zap, 
+  Play, 
+  Sparkles, 
+  SlidersHorizontal,
+  Infinity as InfinityIcon
+} from 'lucide-react';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
 interface Props {
   quizId: string;
   navigate: (page: string, params?: any) => void;
 }
-
-const CheckboxOption = ({ label, checked, onChange }: { label: string, checked: boolean, onChange: (c: boolean) => void }) => (
-  <div 
-    onClick={() => onChange(!checked)}
-    style={{ 
-      display: 'flex', alignItems: 'center', gap: '0.75rem', cursor: 'pointer', 
-      padding: '0.75rem 1rem', borderRadius: '0.75rem', 
-      backgroundColor: checked ? 'var(--primary-light)' : 'var(--surface-color)', 
-      border: `2px solid ${checked ? 'var(--primary-color)' : 'var(--border-color)'}`,
-      transition: 'all 0.2s',
-      flex: '1 1 calc(50% - 1rem)',
-      userSelect: 'none'
-    }}
-  >
-    <div style={{ 
-      width: '24px', height: '24px', borderRadius: '6px', 
-      border: `2px solid ${checked ? 'var(--primary-color)' : 'var(--text-secondary)'}`, 
-      display: 'flex', alignItems: 'center', justifyContent: 'center', 
-      backgroundColor: checked ? 'var(--primary-color)' : 'transparent',
-      transition: 'all 0.2s',
-      flexShrink: 0
-    }}>
-      {checked && <Check size={16} color="white" strokeWidth={3} />}
-    </div>
-    <span style={{ fontWeight: checked ? 600 : 500, color: 'var(--text-primary)' }}>
-      {label}
-    </span>
-  </div>
-);
 
 export default function QuizSetup({ quizId, navigate }: Props) {
   const [quiz, setQuiz] = useState<Quiz | null>(null);
@@ -50,6 +36,10 @@ export default function QuizSetup({ quizId, navigate }: Props) {
     autoNextQuestion: true
   });
 
+  const [customQuestionCount, setCustomQuestionCount] = useState<string>('');
+  const [isCustomQuestions, setIsCustomQuestions] = useState(false);
+  const [customTimeLimit, setCustomTimeLimit] = useState<string>('');
+  const [isCustomTime, setIsCustomTime] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -68,21 +58,21 @@ export default function QuizSetup({ quizId, navigate }: Props) {
     let selectedQuestions = [...quiz.questions];
 
     if (config.questionCount !== 'all') {
-        if (config.randomizeQuestions) {
-            selectedQuestions = shuffleQuestions(selectedQuestions);
-        }
-        selectedQuestions = selectedQuestions.slice(0, config.questionCount as number);
+      if (config.randomizeQuestions) {
+        selectedQuestions = shuffleQuestions(selectedQuestions);
+      }
+      selectedQuestions = selectedQuestions.slice(0, config.questionCount as number);
     } else {
-        if (config.randomizeQuestions) {
-            selectedQuestions = shuffleQuestions(selectedQuestions);
-        }
+      if (config.randomizeQuestions) {
+        selectedQuestions = shuffleQuestions(selectedQuestions);
+      }
     }
 
     if (config.randomizeAnswers) {
-        selectedQuestions = selectedQuestions.map(q => ({
-            ...q,
-            answers: shuffleAnswers([...q.answers])
-        }));
+      selectedQuestions = selectedQuestions.map(q => ({
+        ...q,
+        answers: shuffleAnswers([...q.answers])
+      }));
     }
 
     const newProgress: ProgressData = {
@@ -111,91 +101,363 @@ export default function QuizSetup({ quizId, navigate }: Props) {
     </div>
   );
 
-  if (!quiz) return <div>Đang tải...</div>;
+  if (!quiz) return (
+    <div style={{ textAlign: 'center', padding: '4rem 1rem', color: 'var(--text-secondary)' }}>
+      <div className="spinner" style={{ margin: '0 auto 1rem' }} />
+      Đang tải thông tin đề thi...
+    </div>
+  );
+
+  const totalQuestions = quiz.questions.length;
+
+  // Generate sensible question preset options
+  const questionPresets = [20, 30, 50, 100].filter(count => count < totalQuestions);
+  if (questionPresets.length === 0 && totalQuestions > 5) {
+    if (totalQuestions > 10) questionPresets.push(10);
+    if (totalQuestions > 15) questionPresets.push(15);
+  }
+
+  // Time preset options
+  const timePresets = [
+    { label: 'Không giới hạn', value: null, icon: <InfinityIcon size={16} /> },
+    { label: '15 phút', value: 15 },
+    { label: '30 phút', value: 30 },
+    { label: '45 phút', value: 45 },
+    { label: '60 phút', value: 60 },
+    { label: '90 phút', value: 90 }
+  ];
 
   return (
-    <div style={{ maxWidth: '1000px', margin: '0 auto', height: '100%', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ flexShrink: 0 }}>
-        <button className="btn btn-neutral" style={{ marginBottom: '1rem' }} onClick={() => navigate('dashboard')}>
-          <ArrowLeft /> Quay lại
+    <div className="quiz-setup-wrapper">
+      {/* Back Button */}
+      <div style={{ marginBottom: '1.25rem' }}>
+        <button 
+          className="btn btn-neutral" 
+          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 600 }} 
+          onClick={() => navigate('dashboard')}
+        >
+          <ArrowLeft size={18} /> Quay lại trang chủ
         </button>
       </div>
 
-      <div className="card" style={{ display: 'flex', flexDirection: 'column', maxHeight: '100%' }}>
-        <div style={{ flexShrink: 0 }}>
-          <h2 style={{ marginBottom: '0.25rem', fontSize: '1.5rem' }}>Cấu hình bài thi: {quiz.title}</h2>
-          <p style={{ marginBottom: '1.5rem', color: 'var(--text-secondary)' }}>Tổng số: {quiz.questions.length} câu hỏi</p>
-        </div>
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', marginBottom: '1.5rem', flexShrink: 0 }}>
-          <div>
-            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600, color: 'var(--text-primary)' }}>Chế độ làm bài</label>
-            <select 
-              className="custom-select" 
-              value={config.mode} 
-              onChange={e => setConfig({...config, mode: e.target.value as 'exam' | 'practice'})}
-            >
-              <option value="exam">Thi thử (Chấm điểm cuối cùng)</option>
-              <option value="practice">Ôn tập (Hiện đáp án ngay)</option>
-            </select>
-          </div>
-
-          <div>
-            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600, color: 'var(--text-primary)' }}>Số lượng câu hỏi</label>
-            <select 
-              className="custom-select" 
-              value={config.questionCount} 
-              onChange={e => setConfig({...config, questionCount: e.target.value === 'all' ? 'all' : parseInt(e.target.value)})}
-            >
-              <option value="all">Toàn bộ ({quiz.questions.length} câu)</option>
-              <option value={20}>20 câu</option>
-              <option value={30}>30 câu</option>
-              <option value={50}>50 câu</option>
-              <option value={100}>100 câu</option>
-            </select>
-          </div>
-
-          <div>
-            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600, color: 'var(--text-primary)' }}>Thời gian (phút)</label>
-            <select 
-              className="custom-select" 
-              value={config.timeLimitMinutes || 'none'} 
-              onChange={e => setConfig({...config, timeLimitMinutes: e.target.value === 'none' ? null : parseInt(e.target.value)})}
-            >
-              <option value="none">Không giới hạn</option>
-              <option value={15}>15 phút</option>
-              <option value={30}>30 phút</option>
-              <option value={45}>45 phút</option>
-              <option value={60}>60 phút</option>
-              <option value={90}>90 phút</option>
-            </select>
+      <div className="quiz-setup-card">
+        {/* Title Header */}
+        <div style={{ marginBottom: '2rem' }}>
+          <h2 style={{ fontSize: '1.65rem', fontWeight: 800, color: 'var(--text-primary)', letterSpacing: '-0.02em', marginBottom: '0.35rem' }}>
+            Cấu hình bài thi: {quiz.title}
+          </h2>
+          <div className="setup-header-badge">
+            <Layers size={15} color="var(--primary-color)" />
+            <span>Tổng cộng <strong>{totalQuestions}</strong> câu hỏi trắc nghiệm</span>
           </div>
         </div>
 
-        <div style={{ flexShrink: 0 }}>
-          <label style={{ display: 'block', marginBottom: '0.75rem', fontWeight: 600, color: 'var(--text-primary)' }}>Tùy chọn thêm</label>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '1.5rem' }}>
-            <CheckboxOption 
-              label="Đảo thứ tự câu hỏi"
-              checked={config.randomizeQuestions}
-              onChange={(c) => setConfig({...config, randomizeQuestions: c})}
-            />
-            <CheckboxOption 
-              label="Đảo thứ tự đáp án"
-              checked={config.randomizeAnswers}
-              onChange={(c) => setConfig({...config, randomizeAnswers: c})}
-            />
-            <CheckboxOption 
-              label="Tự động chuyển câu (sau 1s)"
-              checked={config.autoNextQuestion || false}
-              onChange={(c) => setConfig({...config, autoNextQuestion: c})}
-            />
+        {/* 1. CHẾ ĐỘ LÀM BÀI (MODE CARDS) */}
+        <div style={{ marginBottom: '2rem' }}>
+          <div className="setup-section-label">
+            <SlidersHorizontal size={15} color="var(--primary-color)" />
+            <span>1. Chọn chế độ làm bài</span>
           </div>
 
-          <button className="btn btn-primary" style={{ width: '100%', padding: '1.2rem', fontSize: '1.2rem', fontWeight: 'bold' }} onClick={handleStart}>
-            Bắt đầu làm bài
-          </button>
+          <div className="setup-mode-grid">
+            {/* Card: Ôn tập */}
+            <div 
+              className={`setup-mode-card ${config.mode === 'practice' ? 'active' : ''}`}
+              onClick={() => setConfig({ ...config, mode: 'practice' })}
+            >
+              <div className="mode-card-header">
+                <div 
+                  className="mode-icon-box"
+                  style={{ 
+                    backgroundColor: config.mode === 'practice' ? 'var(--primary-color)' : 'var(--neutral-bg)',
+                    color: config.mode === 'practice' ? '#ffffff' : 'var(--text-secondary)'
+                  }}
+                >
+                  <BookOpen size={22} />
+                </div>
+                <div className="mode-radio-indicator">
+                  {config.mode === 'practice' && <Check size={14} color="#ffffff" strokeWidth={3} />}
+                </div>
+              </div>
+
+              <div>
+                <div className="mode-card-title">
+                  <span>Chế độ Ôn tập</span>
+                  <span 
+                    className="mode-badge"
+                    style={{ 
+                      backgroundColor: config.mode === 'practice' ? 'rgba(239, 68, 68, 0.15)' : 'var(--neutral-bg)',
+                      color: config.mode === 'practice' ? 'var(--primary-color)' : 'var(--text-secondary)'
+                    }}
+                  >
+                    <Sparkles size={12} /> Khuyên dùng để học
+                  </span>
+                </div>
+                <p className="mode-card-desc" style={{ marginTop: '0.4rem' }}>
+                  Hiện đáp án đúng và lời giải thích chi tiết ngay sau mỗi câu chọn. Có nút trợ giúp gợi ý khi gặp câu hỏi khó.
+                </p>
+              </div>
+            </div>
+
+            {/* Card: Thi thử */}
+            <div 
+              className={`setup-mode-card ${config.mode === 'exam' ? 'active' : ''}`}
+              onClick={() => setConfig({ ...config, mode: 'exam' })}
+            >
+              <div className="mode-card-header">
+                <div 
+                  className="mode-icon-box"
+                  style={{ 
+                    backgroundColor: config.mode === 'exam' ? 'var(--primary-color)' : 'var(--neutral-bg)',
+                    color: config.mode === 'exam' ? '#ffffff' : 'var(--text-secondary)'
+                  }}
+                >
+                  <Trophy size={22} />
+                </div>
+                <div className="mode-radio-indicator">
+                  {config.mode === 'exam' && <Check size={14} color="#ffffff" strokeWidth={3} />}
+                </div>
+              </div>
+
+              <div>
+                <div className="mode-card-title">
+                  <span>Chế độ Thi thử</span>
+                  <span 
+                    className="mode-badge"
+                    style={{ 
+                      backgroundColor: config.mode === 'exam' ? 'rgba(239, 68, 68, 0.15)' : 'var(--neutral-bg)',
+                      color: config.mode === 'exam' ? 'var(--primary-color)' : 'var(--text-secondary)'
+                    }}
+                  >
+                    <Clock size={12} /> Mô phỏng thi thật
+                  </span>
+                </div>
+                <p className="mode-card-desc" style={{ marginTop: '0.4rem' }}>
+                  Ẩn toàn bộ đáp án trong quá trình làm bài. Tự động tính điểm, xếp loại và xem báo cáo kết quả tổng kết khi nộp bài.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+
+        {/* 2. CẤU HÌNH SỐ CÂU VÀ THỜI GIAN (GRID 2 CỘT) */}
+        <div className="setup-config-grid">
+          {/* CỘT 1: SỐ LƯỢNG CÂU HỎI */}
+          <div className="setup-config-panel">
+            <div className="setup-section-label">
+              <Layers size={15} color="var(--primary-color)" />
+              <span>Số lượng câu hỏi</span>
+            </div>
+
+            <div className="setup-pill-group">
+              <button
+                type="button"
+                className={`setup-pill-btn ${config.questionCount === 'all' && !isCustomQuestions ? 'active' : ''}`}
+                onClick={() => {
+                  setIsCustomQuestions(false);
+                  setConfig({ ...config, questionCount: 'all' });
+                }}
+              >
+                <span>Toàn bộ ({totalQuestions} câu)</span>
+              </button>
+
+              {questionPresets.map(count => (
+                <button
+                  key={count}
+                  type="button"
+                  className={`setup-pill-btn ${config.questionCount === count && !isCustomQuestions ? 'active' : ''}`}
+                  onClick={() => {
+                    setIsCustomQuestions(false);
+                    setConfig({ ...config, questionCount: count });
+                  }}
+                >
+                  <span>{count} câu</span>
+                </button>
+              ))}
+
+              <button
+                type="button"
+                className={`setup-pill-btn ${isCustomQuestions ? 'active' : ''}`}
+                onClick={() => {
+                  setIsCustomQuestions(true);
+                  const val = parseInt(customQuestionCount) || 10;
+                  setConfig({ ...config, questionCount: Math.min(val, totalQuestions) });
+                }}
+              >
+                <span>Tùy chỉnh...</span>
+              </button>
+            </div>
+
+            {isCustomQuestions && (
+              <div className="setup-custom-box">
+                <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Nhập số câu:</span>
+                <input
+                  type="number"
+                  min={1}
+                  max={totalQuestions}
+                  value={customQuestionCount}
+                  placeholder="10"
+                  className="setup-custom-input"
+                  onChange={e => {
+                    const val = e.target.value;
+                    setCustomQuestionCount(val);
+                    const parsed = parseInt(val);
+                    if (!isNaN(parsed) && parsed > 0) {
+                      setConfig({ ...config, questionCount: Math.min(parsed, totalQuestions) });
+                    }
+                  }}
+                />
+                <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>/ tối đa {totalQuestions} câu</span>
+              </div>
+            )}
+          </div>
+
+          {/* CỘT 2: THỜI GIAN LÀM BÀI */}
+          <div className="setup-config-panel">
+            <div className="setup-section-label">
+              <Clock size={15} color="var(--primary-color)" />
+              <span>Thời gian làm bài</span>
+            </div>
+
+            <div className="setup-pill-group">
+              {timePresets.map(preset => (
+                <button
+                  key={preset.label}
+                  type="button"
+                  className={`setup-pill-btn ${config.timeLimitMinutes === preset.value && !isCustomTime ? 'active' : ''}`}
+                  onClick={() => {
+                    setIsCustomTime(false);
+                    setConfig({ ...config, timeLimitMinutes: preset.value });
+                  }}
+                >
+                  {preset.icon}
+                  <span>{preset.label}</span>
+                </button>
+              ))}
+
+              <button
+                type="button"
+                className={`setup-pill-btn ${isCustomTime ? 'active' : ''}`}
+                onClick={() => {
+                  setIsCustomTime(true);
+                  const val = parseInt(customTimeLimit) || 20;
+                  setConfig({ ...config, timeLimitMinutes: val });
+                }}
+              >
+                <span>Tùy chỉnh...</span>
+              </button>
+            </div>
+
+            {isCustomTime && (
+              <div className="setup-custom-box">
+                <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Nhập số phút:</span>
+                <input
+                  type="number"
+                  min={1}
+                  max={300}
+                  value={customTimeLimit}
+                  placeholder="20"
+                  className="setup-custom-input"
+                  onChange={e => {
+                    const val = e.target.value;
+                    setCustomTimeLimit(val);
+                    const parsed = parseInt(val);
+                    if (!isNaN(parsed) && parsed > 0) {
+                      setConfig({ ...config, timeLimitMinutes: parsed });
+                    }
+                  }}
+                />
+                <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>phút</span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* 3. TÙY CHỌN BỔ SUNG */}
+        <div style={{ marginBottom: '2rem' }}>
+          <div className="setup-section-label">
+            <Sparkles size={15} color="var(--primary-color)" />
+            <span>Tùy chọn bổ sung</span>
+          </div>
+
+          <div className="setup-options-grid">
+            {/* Đảo thứ tự câu hỏi */}
+            <div 
+              className={`setup-option-card ${config.randomizeQuestions ? 'active' : ''}`}
+              onClick={() => setConfig({ ...config, randomizeQuestions: !config.randomizeQuestions })}
+            >
+              <div className="setup-option-checkbox">
+                {config.randomizeQuestions && <Check size={14} color="#ffffff" strokeWidth={3} />}
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <Shuffle size={17} color={config.randomizeQuestions ? 'var(--primary-color)' : 'var(--text-secondary)'} />
+                <span style={{ fontSize: '0.925rem', fontWeight: config.randomizeQuestions ? 700 : 500, color: 'var(--text-primary)' }}>
+                  Đảo câu hỏi
+                </span>
+              </div>
+            </div>
+
+            {/* Đảo thứ tự đáp án */}
+            <div 
+              className={`setup-option-card ${config.randomizeAnswers ? 'active' : ''}`}
+              onClick={() => setConfig({ ...config, randomizeAnswers: !config.randomizeAnswers })}
+            >
+              <div className="setup-option-checkbox">
+                {config.randomizeAnswers && <Check size={14} color="#ffffff" strokeWidth={3} />}
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <RotateCcw size={17} color={config.randomizeAnswers ? 'var(--primary-color)' : 'var(--text-secondary)'} />
+                <span style={{ fontSize: '0.925rem', fontWeight: config.randomizeAnswers ? 700 : 500, color: 'var(--text-primary)' }}>
+                  Đảo đáp án
+                </span>
+              </div>
+            </div>
+
+            {/* Tự động chuyển câu */}
+            <div 
+              className={`setup-option-card ${config.autoNextQuestion ? 'active' : ''}`}
+              onClick={() => setConfig({ ...config, autoNextQuestion: !config.autoNextQuestion })}
+            >
+              <div className="setup-option-checkbox">
+                {config.autoNextQuestion && <Check size={14} color="#ffffff" strokeWidth={3} />}
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <Zap size={17} color={config.autoNextQuestion ? 'var(--primary-color)' : 'var(--text-secondary)'} />
+                <span style={{ fontSize: '0.925rem', fontWeight: config.autoNextQuestion ? 700 : 500, color: 'var(--text-primary)' }}>
+                  Tự chuyển câu (1s)
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* 4. TỔNG KẾT VÀ NÚT BẮT ĐẦU */}
+        <div className="setup-summary-bar">
+          <div className="summary-tags-group">
+            <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Tóm tắt:</span>
+            <div className="summary-tag">
+              {config.mode === 'practice' ? <BookOpen size={14} color="var(--primary-color)" /> : <Trophy size={14} color="var(--primary-color)" />}
+              <span>{config.mode === 'practice' ? 'Ôn tập tức thì' : 'Thi thử tính giờ'}</span>
+            </div>
+            <div className="summary-tag">
+              <Layers size={14} color="var(--primary-color)" />
+              <span>{config.questionCount === 'all' ? `Toàn bộ (${totalQuestions} câu)` : `${config.questionCount} câu hỏi`}</span>
+            </div>
+            <div className="summary-tag">
+              <Clock size={14} color="var(--primary-color)" />
+              <span>{config.timeLimitMinutes ? `${config.timeLimitMinutes} phút` : 'Không giới hạn thời gian'}</span>
+            </div>
+          </div>
+        </div>
+
+        <button 
+          type="button"
+          className="setup-start-btn" 
+          onClick={handleStart}
+        >
+          <Play size={20} fill="white" />
+          <span>Bắt đầu làm bài thi ngay</span>
+        </button>
       </div>
     </div>
   );

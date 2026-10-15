@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
 import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw } from 'lucide-react';
@@ -67,9 +67,12 @@ export const formatQuestionText = (text: string) => {
 
 export default function QuizTaking({ progress: initialProgress, navigate }: Props) {
   const [progress, setProgress] = useState<ProgressData>(initialProgress);
-  const [timeLeft, setTimeLeft] = useState<number | null>(
-    initialProgress.config.timeLimitMinutes ? initialProgress.config.timeLimitMinutes * 60 : null
-  );
+  const [timeLeft, setTimeLeft] = useState<number | null>(() => {
+    if (initialProgress.timeLeftSeconds !== undefined && initialProgress.timeLeftSeconds !== null) {
+      return initialProgress.timeLeftSeconds;
+    }
+    return initialProgress.config.timeLimitMinutes ? initialProgress.config.timeLimitMinutes * 60 : null;
+  });
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [showRestartConfirm, setShowRestartConfirm] = useState(false);
   const [showQuestionList, setShowQuestionList] = useState(window.innerWidth > 768);
@@ -79,6 +82,65 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   const currentQuestion = progress.questions[currentQIndex];
   const [isReloading, setIsReloading] = useState(false);
   const [showHint, setShowHint] = useState(false);
+
+  // Keep live refs for synchronous flush on exit or unmount
+  const progressRef = useRef(progress);
+  const timeLeftRef = useRef(timeLeft);
+  const currentQIndexRef = useRef(currentQIndex);
+
+  useEffect(() => {
+    progressRef.current = progress;
+  }, [progress]);
+
+  useEffect(() => {
+    timeLeftRef.current = timeLeft;
+  }, [timeLeft]);
+
+  useEffect(() => {
+    currentQIndexRef.current = currentQIndex;
+  }, [currentQIndex]);
+
+  // Synchronous auto save whenever progress updates (answers, marks, question index)
+  useEffect(() => {
+    const toSave: ProgressData = {
+      ...progress,
+      timeLeftSeconds: timeLeftRef.current
+    };
+    api.saveProgressSync(toSave);
+  }, [progress]);
+
+  // Save on window unload / unmount
+  useEffect(() => {
+    const flushSave = () => {
+      if (progressRef.current) {
+        api.saveProgressSync({
+          ...progressRef.current,
+          timeLeftSeconds: timeLeftRef.current,
+          currentQuestionIndex: currentQIndexRef.current
+        });
+      }
+    };
+
+    window.addEventListener('beforeunload', flushSave);
+    window.addEventListener('pagehide', flushSave);
+
+    return () => {
+      flushSave();
+      window.removeEventListener('beforeunload', flushSave);
+      window.removeEventListener('pagehide', flushSave);
+    };
+  }, []);
+
+  const handleExit = () => {
+    if (progressRef.current) {
+      api.saveProgressSync({
+        ...progressRef.current,
+        timeLeftSeconds: timeLeftRef.current,
+        currentQuestionIndex: currentQIndexRef.current
+      });
+    }
+    navigate('dashboard');
+  };
 
   useEffect(() => {
     setShowHint(false);
@@ -144,15 +206,6 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       return { ...prev, answers: newAnswers };
     });
   };
-
-  // Auto save
-  useEffect(() => {
-    sessionStorage.setItem('quiz-progress-data', JSON.stringify(progress));
-    const timer = setTimeout(() => {
-      api.saveProgress(progress);
-    }, 2000); // debounce 2s
-    return () => clearTimeout(timer);
-  }, [progress]);
 
   // Timer
   useEffect(() => {
@@ -263,8 +316,8 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div className="quiz-header-row">
           <div className="quiz-header-group" style={{ position: 'relative' }}>
-            <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={() => navigate('dashboard')}>
-              <ArrowLeft /> Quay lại
+            <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={handleExit} title="Lưu bài và quay lại">
+              <ArrowLeft /> Thoát bài
             </button>
             <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={handleRestart}>
               <RefreshCw /> Làm lại

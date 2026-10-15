@@ -37,20 +37,37 @@ export const api = {
     }
   },
 
-  saveProgress: async (progress: ProgressData): Promise<void> => {
-    const list = await api.getProgressList();
-    const idx = list.findIndex(p => p.id === progress.id);
-    if (idx >= 0) {
-      list[idx] = progress;
-    } else {
-      list.push(progress);
+  saveProgressSync: (progress: ProgressData): void => {
+    try {
+      const raw = localStorage.getItem('quiz_progress');
+      const list: ProgressData[] = raw ? JSON.parse(raw) : [];
+      const idx = list.findIndex(p => p.id === progress.id);
+      if (idx >= 0) {
+        list[idx] = progress;
+      } else {
+        list.push(progress);
+      }
+      localStorage.setItem('quiz_progress', JSON.stringify(list));
+      sessionStorage.setItem('quiz-progress-data', JSON.stringify(progress));
+      window.dispatchEvent(new Event('progress-updated'));
+    } catch (err) {
+      console.error('Failed to save progress:', err);
     }
-    localStorage.setItem('quiz_progress', JSON.stringify(list));
+  },
+
+  saveProgress: async (progress: ProgressData): Promise<void> => {
+    api.saveProgressSync(progress);
   },
 
   deleteProgress: async (id: string): Promise<void> => {
-    let list = await api.getProgressList();
-    list = list.filter(p => p.id !== id);
-    localStorage.setItem('quiz_progress', JSON.stringify(list));
+    try {
+      let list = await api.getProgressList();
+      list = list.filter(p => p.id !== id);
+      localStorage.setItem('quiz_progress', JSON.stringify(list));
+      sessionStorage.removeItem('quiz-progress-data');
+      window.dispatchEvent(new Event('progress-updated'));
+    } catch (err) {
+      console.error('Failed to delete progress:', err);
+    }
   }
 };

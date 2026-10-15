@@ -22,6 +22,9 @@ export interface QuizSummary {
   id: string;
   title: string;
   questionCount: number;
+  category?: 'materials' | 'english';
+  description?: string;
+  fileUrl?: string;
 }
 
 export interface ProgressData {
@@ -34,6 +37,7 @@ export interface ProgressData {
   timestamp: number;
   config: QuizConfig;
   questions: Question[]; // Need to store selected/shuffled questions
+  timeLeftSeconds?: number | null;
 }
 
 export interface QuizConfig {
