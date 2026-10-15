@@ -107,7 +107,10 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
   // Filter quizzes according to active tab
   const materialQuizzes = quizzes.filter(q => q.category !== 'english');
   const englishQuizzesFromApi = quizzes.filter(q => q.category === 'english');
-  const englishDisplayList = englishQuizzesFromApi.length > 0 ? englishQuizzesFromApi : defaultEnglishTopics;
+  const englishDisplayList = [
+    ...englishQuizzesFromApi,
+    ...defaultEnglishTopics.filter(dt => !englishQuizzesFromApi.some(eq => eq.id === dt.id))
+  ];
 
   // Helper to determine if a quiz belongs to English tab
   const isEnglishQuiz = (quizId: string, title?: string): boolean => {
@@ -245,12 +248,18 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
                   </p>
                 )}
 
-                {/* Ẩn các câu đi theo đúng yêu cầu */}
                 <div style={{ marginBottom: '1.5rem' }}>
-                  <div className="empty-questions-notice">
-                    <EyeOff size={15} style={{ marginRight: '0.4rem' }} />
-                    <span>Chưa có câu hỏi (Đang chờ nạp đề)</span>
-                  </div>
+                  {topic.questionCount && topic.questionCount > 0 ? (
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', color: '#10b981', fontSize: '0.88rem', fontWeight: 500 }}>
+                      <BookOpen size={16} />
+                      <span>{topic.questionCount} câu hỏi từ vựng kèm phiên âm IPA</span>
+                    </div>
+                  ) : (
+                    <div className="empty-questions-notice">
+                      <EyeOff size={15} style={{ marginRight: '0.4rem' }} />
+                      <span>Chưa có câu hỏi (Đang chờ nạp đề)</span>
+                    </div>
+                  )}
                 </div>
 
                 <div style={{ display: 'flex', gap: '0.5rem', marginTop: 'auto' }}>
