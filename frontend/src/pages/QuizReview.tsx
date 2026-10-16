@@ -15,7 +15,9 @@ export default function QuizReview({ progress, navigate }: Props) {
 
   const questions = progress.questions.filter(q => {
     const ansId = progress.answers[q.id];
-    const isCorrect = ansId === q.correctAnswerId;
+    const isEnMode = progress.vocabDirection === 'vi-en' || (q.enAnswers && q.enAnswers.some(a => a.id === ansId));
+    const activeCorrectId = isEnMode ? (q.correctEnAnswerId || q.correctAnswerId) : q.correctAnswerId;
+    const isCorrect = ansId === activeCorrectId;
     if (filter === 'all') return true;
     if (filter === 'correct') return ansId && isCorrect;
     if (filter === 'wrong') return ansId && !isCorrect;
@@ -54,7 +56,10 @@ export default function QuizReview({ progress, navigate }: Props) {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
         {questions.map((q, idx) => {
           const selectedId = progress.answers[q.id];
-          const isCorrect = selectedId === q.correctAnswerId;
+          const isEnMode = progress.vocabDirection === 'vi-en' || (q.enAnswers && q.enAnswers.some(a => a.id === selectedId));
+          const activeAnswers = (isEnMode && q.enAnswers) ? q.enAnswers : q.answers;
+          const activeCorrectId = isEnMode ? (q.correctEnAnswerId || q.correctAnswerId) : q.correctAnswerId;
+          const isCorrect = selectedId === activeCorrectId;
 
           // Find original index in progress.questions to display correct question number
           const originalIdx = progress.questions.findIndex(origQ => origQ.id === q.id);
@@ -74,13 +79,30 @@ export default function QuizReview({ progress, navigate }: Props) {
 
               <div 
                 style={{ fontSize: '1.1rem', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}
-                dangerouslySetInnerHTML={{ __html: formatQuestionText(q.question) }}
-              />
+              >
+                {isEnMode && q.definition ? (
+                  <div>
+                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', display: 'block', marginBottom: '0.25rem' }}>Định nghĩa tiếng Việt:</span>
+                    <strong>{q.definition}</strong>
+                  </div>
+                ) : (
+                  <div>
+                    {q.term ? (
+                      <>
+                        <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', display: 'block', marginBottom: '0.25rem' }}>Thuật ngữ tiếng Anh:</span>
+                        <strong>{q.term}</strong> {q.ipa && <span style={{ color: 'var(--primary-color)' }}> {q.ipa}</span>}
+                      </>
+                    ) : (
+                      <span dangerouslySetInnerHTML={{ __html: formatQuestionText(q.question) }} />
+                    )}
+                  </div>
+                )}
+              </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                {q.answers.map((ans, aIdx) => {
+                {activeAnswers.map((ans, aIdx) => {
                   const isSelected = selectedId === ans.id;
-                  const isActuallyCorrect = q.correctAnswerId === ans.id;
+                  const isActuallyCorrect = activeCorrectId === ans.id;
 
                   let bgColor = 'var(--surface-color)';
                   let borderColor = 'var(--border-color)';

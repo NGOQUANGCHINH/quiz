@@ -1930,6 +1930,35 @@ h1, h2, h3, h4 {
   letter-spacing: 0.02em;
 }
 
+.quizlet-swap-direction-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.85rem;
+  border-radius: 0.65rem;
+  border: 1px solid var(--border-color);
+  background: var(--surface-color);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.quizlet-swap-direction-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-1px);
+}
+
+[data-theme='dark'] .quizlet-swap-direction-btn {
+  background: var(--surface-color);
+}
+
+[data-theme='dark'] .quizlet-swap-direction-btn:hover {
+  background: rgba(239, 68, 68, 0.15);
+}
+
 .quizlet-center-box {
   min-height: 180px;
   display: flex;

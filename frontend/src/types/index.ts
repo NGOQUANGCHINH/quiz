@@ -20,6 +20,7 @@ export interface Question {
 export interface Quiz {
   id: string;
   title: string;
+  category?: 'materials' | 'english';
   questions: Question[];
 }
 
@@ -43,6 +44,7 @@ export interface ProgressData {
   config: QuizConfig;
   questions: Question[]; // Need to store selected/shuffled questions
   timeLeftSeconds?: number | null;
+  vocabDirection?: 'en-vi' | 'vi-en';
 }
 
 export interface QuizConfig {
@@ -54,6 +56,7 @@ export interface QuizConfig {
   timeLimitMinutes: number | null; // null means no limit
   mode: 'exam' | 'practice';
   autoNextQuestion?: boolean;
+  vocabDirection?: 'en-vi' | 'vi-en';
 }
 
 export interface QuizResult {

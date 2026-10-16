@@ -16,7 +16,8 @@ import {
   Play, 
   Sparkles, 
   SlidersHorizontal,
-  Infinity as InfinityIcon
+  Infinity as InfinityIcon,
+  ArrowLeftRight
 } from 'lucide-react';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
@@ -33,7 +34,8 @@ export default function QuizSetup({ quizId, navigate }: Props) {
     randomizeAnswers: false,
     timeLimitMinutes: null,
     mode: 'practice',
-    autoNextQuestion: true
+    autoNextQuestion: true,
+    vocabDirection: (localStorage.getItem('quiz_vocab_direction') as any) || 'en-vi'
   });
 
   const [customQuestionCount, setCustomQuestionCount] = useState<string>('');
@@ -71,7 +73,8 @@ export default function QuizSetup({ quizId, navigate }: Props) {
     if (config.randomizeAnswers) {
       selectedQuestions = selectedQuestions.map(q => ({
         ...q,
-        answers: shuffleAnswers([...q.answers])
+        answers: shuffleAnswers([...q.answers]),
+        enAnswers: q.enAnswers ? shuffleAnswers([...q.enAnswers]) : q.enAnswers
       }));
     }
 
@@ -84,6 +87,7 @@ export default function QuizSetup({ quizId, navigate }: Props) {
       markedQuestions: [],
       timestamp: Date.now(),
       config,
+      vocabDirection: config.vocabDirection || 'en-vi',
       questions: selectedQuestions
     };
 
@@ -109,6 +113,7 @@ export default function QuizSetup({ quizId, navigate }: Props) {
   );
 
   const totalQuestions = quiz.questions.length;
+  const isEnglishQuiz = !!(quiz.category === 'english' || quiz.id.startsWith('english-') || quiz.questions.some(q => !!(q.term && q.definition)));
 
   // Generate sensible question preset options
   const questionPresets = [20, 30, 50, 100].filter(count => count < totalQuestions);
@@ -447,6 +452,29 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                       <span className="option-title">Tự chuyển câu (1s)</span>
                     </div>
                   </div>
+
+                  {/* Đảo chiều câu hỏi từ vựng (cho đề tiếng Anh) */}
+                  {isEnglishQuiz && (
+                    <div 
+                      className={`setup-option-card ${config.vocabDirection === 'vi-en' ? 'active' : ''}`}
+                      onClick={() => {
+                        const nextDir = config.vocabDirection === 'vi-en' ? 'en-vi' : 'vi-en';
+                        setConfig({ ...config, vocabDirection: nextDir });
+                        localStorage.setItem('quiz_vocab_direction', nextDir);
+                      }}
+                      title="Đảo chiều câu hỏi: Mặc định Hỏi tiếng Anh, bấm để đổi sang Hỏi tiếng Việt"
+                    >
+                      <div className="setup-option-checkbox">
+                        {config.vocabDirection === 'vi-en' && <Check size={14} color="#ffffff" strokeWidth={3} />}
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <ArrowLeftRight size={17} color={config.vocabDirection === 'vi-en' ? 'var(--primary-color)' : 'var(--text-secondary)'} />
+                        <span className="option-title">
+                          {config.vocabDirection === 'vi-en' ? 'Hỏi: Việt ➔ Đáp: Anh' : 'Hỏi: Anh ➔ Đáp: Việt'}
+                        </span>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -463,6 +491,12 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                 {config.mode === 'practice' ? <BookOpen size={14} color="var(--primary-color)" /> : <Trophy size={14} color="var(--primary-color)" />}
                 <span>{config.mode === 'practice' ? 'Ôn tập tức thì' : 'Thi thử tính giờ'}</span>
               </div>
+              {isEnglishQuiz && (
+                <div className="summary-tag">
+                  <ArrowLeftRight size={14} color="var(--primary-color)" />
+                  <span>{config.vocabDirection === 'vi-en' ? 'Việt ➔ Anh' : 'Anh ➔ Việt'}</span>
+                </div>
+              )}
               <div className="summary-tag">
                 <Layers size={14} color="var(--primary-color)" />
                 <span>{config.questionCount === 'all' ? `Toàn bộ (${totalQuestions} câu)` : `${config.questionCount} câu hỏi`}</span>

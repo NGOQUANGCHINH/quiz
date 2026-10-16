@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
-import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw } from 'lucide-react';
+import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw, ArrowLeftRight } from 'lucide-react';
 import classNames from 'classnames';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
@@ -85,6 +85,51 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
 
   // Detect English vocab question
   const isEnglishVocab = !!(currentQuestion.term && currentQuestion.definition);
+
+  // Vocabulary direction: 'en-vi' (Tiếng Anh -> Tiếng Việt) or 'vi-en' (Tiếng Việt -> Tiếng Anh)
+  const [vocabDirection, setVocabDirection] = useState<'en-vi' | 'vi-en'>(() => {
+    if (initialProgress.vocabDirection) return initialProgress.vocabDirection;
+    if (initialProgress.config.vocabDirection) return initialProgress.config.vocabDirection;
+    const saved = localStorage.getItem('quiz_vocab_direction');
+    return (saved === 'vi-en' || saved === 'en-vi') ? saved : 'en-vi';
+  });
+
+  const toggleVocabDirection = () => {
+    const next = vocabDirection === 'en-vi' ? 'vi-en' : 'en-vi';
+    setVocabDirection(next);
+    localStorage.setItem('quiz_vocab_direction', next);
+    setProgress(prev => {
+      let newAnswers = { ...prev.answers };
+      const currentAns = prev.answers[currentQuestion.id];
+      if (currentAns) {
+        if (vocabDirection === 'en-vi' && currentAns === currentQuestion.correctAnswerId && currentQuestion.correctEnAnswerId) {
+          newAnswers[currentQuestion.id] = currentQuestion.correctEnAnswerId;
+        } else if (vocabDirection === 'vi-en' && currentAns === currentQuestion.correctEnAnswerId && currentQuestion.correctAnswerId) {
+          newAnswers[currentQuestion.id] = currentQuestion.correctAnswerId;
+        } else {
+          const targetList = next === 'vi-en' ? currentQuestion.enAnswers : currentQuestion.answers;
+          if (!targetList?.some(a => a.id === currentAns)) {
+            delete newAnswers[currentQuestion.id];
+          }
+        }
+      }
+      return {
+        ...prev,
+        vocabDirection: next,
+        config: { ...prev.config, vocabDirection: next },
+        answers: newAnswers
+      };
+    });
+  };
+
+  // Determine active choices and correct answer based on current direction
+  const isViToEn = isEnglishVocab && vocabDirection === 'vi-en';
+  const activeAnswers = (isViToEn && currentQuestion.enAnswers && currentQuestion.enAnswers.length > 0)
+    ? currentQuestion.enAnswers
+    : currentQuestion.answers;
+  const activeCorrectId = isViToEn
+    ? (currentQuestion.correctEnAnswerId || currentQuestion.correctAnswerId)
+    : currentQuestion.correctAnswerId;
 
   // Keep live refs for synchronous flush on exit or unmount
   const progressRef = useRef(progress);
@@ -183,7 +228,8 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       if (prev.config.randomizeAnswers) {
         newQuestions = newQuestions.map(q => ({
           ...q,
-          answers: shuffleAnswers([...q.answers])
+          answers: shuffleAnswers([...q.answers]),
+          enAnswers: q.enAnswers ? shuffleAnswers([...q.enAnswers]) : q.enAnswers
         }));
       }
 
@@ -274,15 +320,15 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         case 'Enter': changeQuestion(currentQIndex + 1); break;
         case 'b':
         case 'B': toggleMark(); break;
-        case '1': if(currentQuestion.answers[0]) handleSelectAnswer(currentQuestion.answers[0].id); break;
-        case '2': if(currentQuestion.answers[1]) handleSelectAnswer(currentQuestion.answers[1].id); break;
-        case '3': if(currentQuestion.answers[2]) handleSelectAnswer(currentQuestion.answers[2].id); break;
-        case '4': if(currentQuestion.answers[3]) handleSelectAnswer(currentQuestion.answers[3].id); break;
+        case '1': if(activeAnswers[0]) handleSelectAnswer(activeAnswers[0].id); break;
+        case '2': if(activeAnswers[1]) handleSelectAnswer(activeAnswers[1].id); break;
+        case '3': if(activeAnswers[2]) handleSelectAnswer(activeAnswers[2].id); break;
+        case '4': if(activeAnswers[3]) handleSelectAnswer(activeAnswers[3].id); break;
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentQIndex, currentQuestion]);
+  }, [currentQIndex, currentQuestion, activeAnswers]);
 
   const handleSubmit = (force: boolean = false) => {
     const unansweredCount = totalQuestions - Object.keys(progress.answers).length;
@@ -335,6 +381,18 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 <RotateCcw /> Làm lại câu
               </button>
             )}
+            {isEnglishVocab && (
+              <button 
+                type="button"
+                className="btn btn-outline" 
+                style={{ padding: '0.5rem 1rem', display: 'inline-flex', alignItems: 'center', gap: '0.45rem' }} 
+                onClick={toggleVocabDirection}
+                title="Đổi hướng câu hỏi: Anh - Việt ⇄ Việt - Anh"
+              >
+                <ArrowLeftRight size={16} color="var(--primary-color)" />
+                <span>{vocabDirection === 'en-vi' ? 'Hỏi: Anh ➔ Đáp: Việt' : 'Hỏi: Việt ➔ Đáp: Anh'}</span>
+              </button>
+            )}
             {isReloading && <span style={{ fontSize: '0.9rem', color: 'var(--primary-color)' }}>Đang cập nhật...</span>}
           </div>
           <div className="quiz-header-group">
@@ -358,30 +416,58 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           {isEnglishVocab ? (
             /* ─── Quizlet-style vocab layout ─── */
             <div className="quizlet-card-container">
-              {/* Prompt label */}
-              <div className="quizlet-prompt-header">
-                <span className="quizlet-label">Định nghĩa</span>
+              {/* Prompt label & Swap button */}
+              <div className="quizlet-prompt-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span className="quizlet-label">
+                  {vocabDirection === 'en-vi' ? 'Thuật ngữ Tiếng Anh' : 'Định nghĩa Tiếng Việt'}
+                </span>
+                <button
+                  type="button"
+                  className="btn btn-neutral quizlet-swap-direction-btn"
+                  onClick={toggleVocabDirection}
+                  title="Đảo chiều câu hỏi: Anh - Việt ⇄ Việt - Anh"
+                >
+                  <ArrowLeftRight size={14} color="var(--primary-color)" />
+                  <span>Đảo: {vocabDirection === 'en-vi' ? 'Anh → Việt' : 'Việt → Anh'}</span>
+                </button>
               </div>
 
-              {/* Centre box: definition + IPA */}
+              {/* Centre box: English Term + IPA or Vietnamese Definition */}
               <div className="quizlet-center-box">
-                <div className="quizlet-term-text">
-                  {currentQuestion.definition}
-                  {currentQuestion.ipa && (
-                    <span className="quizlet-ipa-text"> {currentQuestion.ipa}</span>
-                  )}
-                </div>
+                {vocabDirection === 'en-vi' ? (
+                  /* Question: English Word + IPA */
+                  <div className="quizlet-term-text">
+                    {currentQuestion.term}
+                    {currentQuestion.ipa && (
+                      <span className="quizlet-ipa-text"> {currentQuestion.ipa}</span>
+                    )}
+                  </div>
+                ) : (
+                  /* Question: Vietnamese Definition */
+                  <div>
+                    <div className="quizlet-term-text">
+                      {currentQuestion.definition}
+                    </div>
+                    {progress.config.mode === 'practice' && progress.answers[currentQuestion.id] && currentQuestion.ipa && (
+                      <div style={{ marginTop: '0.65rem', fontSize: '0.95rem', color: 'var(--text-secondary)' }}>
+                        Phiên âm: <span className="quizlet-ipa-text" style={{ fontSize: '1.05rem' }}>{currentQuestion.ipa}</span>
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
 
               {/* Answer label */}
-              <div className="quizlet-section-label">Chọn đáp án đúng</div>
+              <div className="quizlet-section-label">
+                {vocabDirection === 'en-vi' ? 'Chọn định nghĩa tiếng Việt đúng' : 'Chọn từ tiếng Anh đúng'}
+              </div>
 
               {/* 2-column answer grid */}
               <div className="quizlet-answers-grid">
-                {currentQuestion.answers.map((ans, idx) => {
+                {activeAnswers.map((ans, idx) => {
                   const hasAnswered = !!progress.answers[currentQuestion.id];
                   const isSelected = progress.answers[currentQuestion.id] === ans.id;
-                  const isActuallyCorrect = ans.id === currentQuestion.correctAnswerId;
+                  const isActuallyCorrect = ans.id === activeCorrectId;
                   const canSelect = !hasAnswered || progress.config.mode === 'exam';
 
                   let cardClass = 'quizlet-answer-card';
