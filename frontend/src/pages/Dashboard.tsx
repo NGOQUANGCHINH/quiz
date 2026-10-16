@@ -237,35 +237,15 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
           <div className="dashboard-cards-grid">
             {englishDisplayList.map(topic => (
               <div key={topic.id} className="card dashboard-quiz-card">
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                  <h3 style={{ marginBottom: 0, fontSize: '1.2rem' }}>{topic.title}</h3>
-                  <span className="badge-pill badge-english">Tiếng Anh</span>
-                </div>
-
-                {topic.description && (
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '1rem', flex: 1 }}>
-                    {topic.description}
-                  </p>
-                )}
-
-                <div style={{ marginBottom: '1.5rem' }}>
-                  {topic.questionCount && topic.questionCount > 0 ? (
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', color: '#10b981', fontSize: '0.88rem', fontWeight: 500 }}>
-                      <BookOpen size={16} />
-                      <span>{topic.questionCount} câu hỏi từ vựng kèm phiên âm IPA</span>
-                    </div>
-                  ) : (
-                    <div className="empty-questions-notice">
-                      <EyeOff size={15} style={{ marginRight: '0.4rem' }} />
-                      <span>Chưa có câu hỏi (Đang chờ nạp đề)</span>
-                    </div>
-                  )}
-                </div>
+                <h3 style={{ marginBottom: '0.5rem', fontSize: '1.2rem' }}>{topic.title}</h3>
+                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
+                  {topic.questionCount || 0} câu hỏi
+                </p>
 
                 <div style={{ display: 'flex', gap: '0.5rem', marginTop: 'auto' }}>
                   {topic.questionCount && topic.questionCount > 0 ? (
                     <button className="btn btn-primary" style={{ flex: 1 }} onClick={() => navigate('setup', { quizId: topic.id })}>
-                      <Play /> Bắt đầu làm ({topic.questionCount} câu)
+                      <Play /> Bắt đầu làm
                     </button>
                   ) : (
                     <button 

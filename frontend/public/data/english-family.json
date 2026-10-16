@@ -1,761 +1,1398 @@
 {
   "id": "english-family",
-  "title": "Chủ đề Family (Gia đình)",
-  "description": "29 Từ vựng & cụm từ chủ đề Gia đình kèm phiên âm IPA chuẩn Quizlet.",
+  "title": "Family",
   "category": "english",
   "questions": [
     {
-      "id": "bcdc345b-1a7e-43c7-be74-62822aa048ff",
+      "id": "b6ab850d-28f0-49ec-a4da-484b964a33ce",
       "stt": 1,
       "nhan": "Câu 1",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">wife (n)</span>\" có nghĩa là gì?",
+      "term": "wife (n)",
+      "ipa": "/waɪf/",
+      "definition": "Vợ",
+      "question": "wife (n)",
       "answers": [
         {
-          "id": "f289e3dc-d68e-4892-976f-1beb0aac376b",
-          "text": "Chồng"
+          "id": "cf0d5b82-344e-4b59-bd43-c48af5584ffd",
+          "text": "Chúc một ngày tốt lành"
         },
         {
-          "id": "c36bc52e-a739-4a5e-b7dc-998e58810937",
-          "text": "Mẹ"
-        },
-        {
-          "id": "15faf921-f5c5-48a4-a3ab-84fac2adb70e",
+          "id": "2741caf1-6313-493e-a6ea-0ca29ac2fdb8",
           "text": "Vợ"
         },
         {
-          "id": "faa4f478-fba0-4164-afad-7264c8ac6bc0",
-          "text": "Con gái"
+          "id": "9c86f467-e5fd-44f4-ab12-436b094528ea",
+          "text": "Bà"
+        },
+        {
+          "id": "9fca0743-86a0-4586-9b88-a11bfc11ba08",
+          "text": "Gọi cho chúng tôi"
         }
       ],
-      "correctAnswerId": "15faf921-f5c5-48a4-a3ab-84fac2adb70e",
+      "correctAnswerId": "2741caf1-6313-493e-a6ea-0ca29ac2fdb8",
+      "enAnswers": [
+        {
+          "id": "7047f1d9-211c-4ab9-9639-141e20456992",
+          "text": "wife (n)"
+        },
+        {
+          "id": "710341b5-7322-4414-b1f1-bcb2ff23a680",
+          "text": "grandmother (n)"
+        },
+        {
+          "id": "37301a51-e568-40e6-b413-91274bfa6c0a",
+          "text": "Have a good day (phrase)"
+        },
+        {
+          "id": "69f80044-91d4-498c-a55b-0dfbf85dbb8f",
+          "text": "Call us (phrase)"
+        }
+      ],
+      "correctEnAnswerId": "7047f1d9-211c-4ab9-9639-141e20456992",
       "hint": "Phiên âm: /waɪf/ - Nghĩa: Vợ"
     },
     {
-      "id": "6b682d57-b950-4c86-9eeb-b7571057a0cf",
+      "id": "59379537-f888-4347-a961-266198d1c347",
       "stt": 2,
       "nhan": "Câu 2",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">granddaughter (n)</span>\" có nghĩa là gì?",
+      "term": "granddaughter (n)",
+      "ipa": "/ˈɡræn.dɔː.tər/",
+      "definition": "Cháu gái (con của con)",
+      "question": "granddaughter (n)",
       "answers": [
         {
-          "id": "113eefd6-a8df-4330-8c85-209fb086c724",
-          "text": "Cháu gái (con của anh/chị/em)"
-        },
-        {
-          "id": "13628347-505e-431c-a97d-6ad778a0dd33",
-          "text": "Cháu gái (con của con)"
-        },
-        {
-          "id": "b82f16c5-4ef2-4e57-ba96-325aea1b279a",
-          "text": "Cháu trai (con của con)"
-        },
-        {
-          "id": "9ad21a11-b998-414d-b47b-b91162edba0e",
-          "text": "Con gái"
-        }
-      ],
-      "correctAnswerId": "13628347-505e-431c-a97d-6ad778a0dd33",
-      "hint": "Phiên âm: /ˈɡræn.dɔː.tər/ - Nghĩa: Cháu gái (con của con)"
-    },
-    {
-      "id": "494fa43c-92a1-4be2-9778-f31774519e52",
-      "stt": 3,
-      "nhan": "Câu 3",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">daughter (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "b6a3b3e6-6166-46dc-aa14-8c786c7b7b70",
-          "text": "Con gái"
-        },
-        {
-          "id": "f3e5044f-5b6e-493e-b84c-124d35002a09",
-          "text": "Chị/em gái"
-        },
-        {
-          "id": "a678f29b-01f6-4798-b7d3-a7548a3690fb",
-          "text": "Cháu gái (con của con)"
-        },
-        {
-          "id": "414d13b3-6b90-426c-a192-ca3d1dc8e0f7",
-          "text": "Con trai"
-        }
-      ],
-      "correctAnswerId": "b6a3b3e6-6166-46dc-aa14-8c786c7b7b70",
-      "hint": "Phiên âm: /ˈdɔː.tər/ - Nghĩa: Con gái"
-    },
-    {
-      "id": "8c8327b5-5c09-4ac6-8d60-1322ac8f723d",
-      "stt": 4,
-      "nhan": "Câu 4",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">husband (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "4c9d191c-2b07-483c-98bb-6526455c49d3",
-          "text": "Chồng"
-        },
-        {
-          "id": "4ae9692d-dcc0-46be-9838-f4c08e174b25",
-          "text": "Anh/em trai"
-        },
-        {
-          "id": "2820d6ec-7672-4c28-9f6c-575f57e7eea2",
-          "text": "Vợ"
-        },
-        {
-          "id": "691403ff-fd09-487e-a3aa-a0ed8844d7ec",
-          "text": "Cha, bố"
-        }
-      ],
-      "correctAnswerId": "4c9d191c-2b07-483c-98bb-6526455c49d3",
-      "hint": "Phiên âm: /ˈhʌz.bənd/ - Nghĩa: Chồng"
-    },
-    {
-      "id": "7ae047f2-8bec-4248-beff-aba458b0056f",
-      "stt": 5,
-      "nhan": "Câu 5",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">brother (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "d7687f58-a03e-4c41-abd3-7e45a5a048ff",
-          "text": "Anh/em rể"
-        },
-        {
-          "id": "3db78a40-60e2-470e-b5d0-fb252488ee6f",
-          "text": "Chị/em gái"
-        },
-        {
-          "id": "44459447-cd9f-472f-b51b-cc736bf3d6ab",
-          "text": "Anh/em trai"
-        },
-        {
-          "id": "813a0ed9-4639-4920-88ea-6ec269f6cebb",
-          "text": "Con trai"
-        }
-      ],
-      "correctAnswerId": "44459447-cd9f-472f-b51b-cc736bf3d6ab",
-      "hint": "Phiên âm: /ˈbrʌð.ər/ - Nghĩa: Anh/em trai"
-    },
-    {
-      "id": "b0b2b1d3-b255-4e12-a9e4-8cbce43becea",
-      "stt": 6,
-      "nhan": "Câu 6",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">son (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "10a9e45f-24fc-4107-b965-a145503f7e63",
-          "text": "Anh/em trai"
-        },
-        {
-          "id": "a646a15d-3dc6-4621-b3cb-5738ef30ef23",
-          "text": "Con gái"
-        },
-        {
-          "id": "c47fa257-0590-4bb3-888f-f466450b4b01",
-          "text": "Con trai"
-        },
-        {
-          "id": "1435f5a4-59c5-49e5-9787-55abb63454e3",
-          "text": "Cháu trai (con của con)"
-        }
-      ],
-      "correctAnswerId": "c47fa257-0590-4bb3-888f-f466450b4b01",
-      "hint": "Phiên âm: /sʌn/ - Nghĩa: Con trai"
-    },
-    {
-      "id": "e3f6f490-be9d-4d67-aab5-b4992db84c91",
-      "stt": 7,
-      "nhan": "Câu 7",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">grandson (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "fbac1d5e-c516-4a96-891c-1f277e44835d",
-          "text": "Cháu trai (con của con)"
-        },
-        {
-          "id": "72bb66dc-a754-4923-a526-9fe1d533e03a",
-          "text": "Cháu gái (con của con)"
-        },
-        {
-          "id": "a7100569-cfea-4c94-a948-00bc2d08e77f",
-          "text": "Cháu trai (con của anh/chị/em)"
-        },
-        {
-          "id": "65d9bf0e-a736-46a2-a66f-e86a79902abc",
-          "text": "Con trai"
-        }
-      ],
-      "correctAnswerId": "fbac1d5e-c516-4a96-891c-1f277e44835d",
-      "hint": "Phiên âm: /ˈɡræn.sʌn/ - Nghĩa: Cháu trai (con của con)"
-    },
-    {
-      "id": "6f9aad5b-4430-46a5-b54a-11ce4b66813f",
-      "stt": 8,
-      "nhan": "Câu 8",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">sister (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "88d51f5a-a974-4a97-9be4-80f5879aeaab",
-          "text": "Con gái"
-        },
-        {
-          "id": "276ceaff-b8f7-4243-ae66-1a0c27c8194b",
-          "text": "Chị/em gái"
-        },
-        {
-          "id": "9ec8d325-8ad5-43f6-8eac-f5b039a1b98f",
-          "text": "Chị/em dâu"
-        },
-        {
-          "id": "bbd8a1cf-3c11-48f9-b61e-00c0f6d6e4df",
-          "text": "Anh/em trai"
-        }
-      ],
-      "correctAnswerId": "276ceaff-b8f7-4243-ae66-1a0c27c8194b",
-      "hint": "Phiên âm: /ˈsɪs.tər/ - Nghĩa: Chị/em gái"
-    },
-    {
-      "id": "c4ff6b78-9491-4ead-bda6-1d0e41e99ad7",
-      "stt": 9,
-      "nhan": "Câu 9",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">father (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "7d4203ee-fb97-4817-9425-34b571e77e39",
-          "text": "Mẹ"
-        },
-        {
-          "id": "989a48c2-2a53-4e60-be7b-43312b98e6fb",
-          "text": "Chú, bác, cậu"
-        },
-        {
-          "id": "f1fbbef9-02e5-4b10-ab9e-75725bba5112",
-          "text": "Ông"
-        },
-        {
-          "id": "b9841394-c326-4ab3-abb2-05613779edef",
-          "text": "Cha, bố"
-        }
-      ],
-      "correctAnswerId": "b9841394-c326-4ab3-abb2-05613779edef",
-      "hint": "Phiên âm: /ˈfɑː.ðər/ - Nghĩa: Cha, bố"
-    },
-    {
-      "id": "e0d7ae06-ca08-41f8-a09e-6d87b2fe191d",
-      "stt": 10,
-      "nhan": "Câu 10",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">mother (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "491f5f6f-9ec8-4b2d-a7a9-836e596925ae",
-          "text": "Mẹ"
-        },
-        {
-          "id": "b058a922-0cb3-4037-9242-d50daf1ba96b",
-          "text": "Cô, dì, thím"
-        },
-        {
-          "id": "337a0691-51b3-48ee-93c6-6ab9fd402117",
+          "id": "cb92503f-0ff2-4850-b784-3319d46932d1",
           "text": "Bà"
         },
         {
-          "id": "b5063e30-0978-45ea-b681-dc70b4b638ca",
-          "text": "Cha, bố"
-        }
-      ],
-      "correctAnswerId": "491f5f6f-9ec8-4b2d-a7a9-836e596925ae",
-      "hint": "Phiên âm: /ˈmʌð.ər/ - Nghĩa: Mẹ"
-    },
-    {
-      "id": "4cc09fe7-d472-416c-8f14-6ff929ea189d",
-      "stt": 11,
-      "nhan": "Câu 11",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">uncle (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "65b20c7c-cf2c-4407-93d5-96281eda3e3c",
-          "text": "Cô, dì, thím"
-        },
-        {
-          "id": "2af1b01e-875c-430a-9a4b-3f3dcb497bdb",
-          "text": "Chú, bác, cậu"
-        },
-        {
-          "id": "22442d9b-7cf1-463a-a238-ba10af7664fb",
-          "text": "Anh/em rể"
-        },
-        {
-          "id": "52f7bdef-3579-41cf-917a-d0bbd68d05f8",
-          "text": "Anh chị em họ"
-        }
-      ],
-      "correctAnswerId": "2af1b01e-875c-430a-9a4b-3f3dcb497bdb",
-      "hint": "Phiên âm: /ˈʌŋ.kəl/ - Nghĩa: Chú, bác, cậu"
-    },
-    {
-      "id": "010c3fd0-eb0e-4e11-9395-1741d33b21a9",
-      "stt": 12,
-      "nhan": "Câu 12",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">aunt (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "777b51c2-7082-46d0-a033-0bdf3207a0eb",
-          "text": "Cô, dì, thím"
-        },
-        {
-          "id": "d3c7e114-eb49-4f5a-8c0e-1e0035d058a0",
-          "text": "Bà"
-        },
-        {
-          "id": "880ea034-c361-4010-9dc2-ea1468a7fa56",
-          "text": "Chú, bác, cậu"
-        },
-        {
-          "id": "f844ed93-653f-44b6-974c-b95505cd21c3",
-          "text": "Chị/em dâu"
-        }
-      ],
-      "correctAnswerId": "777b51c2-7082-46d0-a033-0bdf3207a0eb",
-      "hint": "Phiên âm: /ɑːnt/ - Nghĩa: Cô, dì, thím"
-    },
-    {
-      "id": "879c0444-0d89-433f-b966-2900cfaba698",
-      "stt": 13,
-      "nhan": "Câu 13",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">cousin (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "e51b8d12-d47d-4019-8ca8-701d4bc5f7cb",
-          "text": "Cháu trai (con của anh/chị/em)"
-        },
-        {
-          "id": "dab9fecc-2db4-439e-abbe-66a78309ff27",
-          "text": "Anh chị em họ"
-        },
-        {
-          "id": "0816d501-1252-47de-8a59-7113ce163ab8",
-          "text": "Chú, bác, cậu"
-        },
-        {
-          "id": "38647fcc-8626-4f4e-bf8c-691f21db35cd",
-          "text": "Anh/em trai"
-        }
-      ],
-      "correctAnswerId": "dab9fecc-2db4-439e-abbe-66a78309ff27",
-      "hint": "Phiên âm: /ˈkʌz.ən/ - Nghĩa: Anh chị em họ"
-    },
-    {
-      "id": "a618b139-60b6-4f26-9fca-8aa9cfe2ab8b",
-      "stt": 14,
-      "nhan": "Câu 14",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">nephew (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "070601de-4423-49ce-8499-991644d88b3b",
-          "text": "Con trai"
-        },
-        {
-          "id": "f98e882d-2eb9-4f9b-8500-64ba4acbfaeb",
-          "text": "Cháu trai (con của anh/chị/em)"
-        },
-        {
-          "id": "3681c293-6b45-41d0-ae6f-cf665596ef0c",
-          "text": "Cháu gái (con của anh/chị/em)"
-        },
-        {
-          "id": "3c08a5b4-545d-4df3-beac-407d963ddde7",
-          "text": "Cháu trai (con của con)"
-        }
-      ],
-      "correctAnswerId": "f98e882d-2eb9-4f9b-8500-64ba4acbfaeb",
-      "hint": "Phiên âm: /ˈnef.juː/ - Nghĩa: Cháu trai (con của anh/chị/em)"
-    },
-    {
-      "id": "86847d6e-16d4-41b8-8a65-9edaa62d08f2",
-      "stt": 15,
-      "nhan": "Câu 15",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">niece (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "9747abb4-24dd-4c34-a1a6-d397de97bbd7",
+          "id": "95517e5e-5794-4ca2-aa24-d9f2fc2b183f",
           "text": "Cháu gái (con của con)"
         },
         {
-          "id": "c0b0255b-4815-4938-a8a4-f819221ebdbe",
-          "text": "Con gái"
-        },
-        {
-          "id": "f84d4bb0-073a-4c08-8bec-26fb1cec1ddf",
-          "text": "Cháu trai (con của anh/chị/em)"
-        },
-        {
-          "id": "2b80decc-98f2-42db-ae7f-fd8a2c137c18",
-          "text": "Cháu gái (con của anh/chị/em)"
-        }
-      ],
-      "correctAnswerId": "2b80decc-98f2-42db-ae7f-fd8a2c137c18",
-      "hint": "Phiên âm: /niːs/ - Nghĩa: Cháu gái (con của anh/chị/em)"
-    },
-    {
-      "id": "83958eb2-46f1-49dc-970d-39fbe5748c1d",
-      "stt": 16,
-      "nhan": "Câu 16",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">brother-in-law (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "8e3236a2-55d6-40e2-b865-483841f05a6d",
-          "text": "Anh/em trai"
-        },
-        {
-          "id": "edbdc2c4-2c51-4353-8b47-d63d27ab8bbd",
-          "text": "Chị/em dâu"
-        },
-        {
-          "id": "a5276f90-5a65-4d21-9826-2f7624099495",
-          "text": "Anh/em rể"
-        },
-        {
-          "id": "65611d72-c59d-4b94-82a2-31fa30085211",
-          "text": "Chú, bác, cậu"
-        }
-      ],
-      "correctAnswerId": "a5276f90-5a65-4d21-9826-2f7624099495",
-      "hint": "Phiên âm: /ˈbrʌð.ər ɪn lɔː/ - Nghĩa: Anh/em rể"
-    },
-    {
-      "id": "60bc11cd-bd85-4a21-8ac3-b534ebe83d01",
-      "stt": 17,
-      "nhan": "Câu 17",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">sister-in-law (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "e1baa904-a5f3-45b8-a22b-02ef39c853c2",
-          "text": "Cô, dì, thím"
-        },
-        {
-          "id": "cb22162a-f9a4-425e-8688-7ff296871a42",
-          "text": "Anh/em rể"
-        },
-        {
-          "id": "84d0df47-2fe7-4e83-8809-0f9e7dad37b2",
-          "text": "Chị/em dâu"
-        },
-        {
-          "id": "b8679f77-bafb-4f58-8868-add1643a09c3",
-          "text": "Chị/em gái"
-        }
-      ],
-      "correctAnswerId": "84d0df47-2fe7-4e83-8809-0f9e7dad37b2",
-      "hint": "Phiên âm: /ˈsɪs.tər ɪn lɔː/ - Nghĩa: Chị/em dâu"
-    },
-    {
-      "id": "d8d1feb5-a6c9-46ac-9e9e-fa473da687ac",
-      "stt": 18,
-      "nhan": "Câu 18",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">grandfather (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "2b2e713a-6ddf-47b7-b5f2-c533dca99e71",
-          "text": "Chú, bác, cậu"
-        },
-        {
-          "id": "f6182f9e-da62-40fe-96bb-d0db3f218a2d",
-          "text": "Cha, bố"
-        },
-        {
-          "id": "b3342494-6856-46f2-823c-08f7dd500fbf",
-          "text": "Bà"
-        },
-        {
-          "id": "695e7854-6d70-4304-b4bc-8e97758aaa27",
-          "text": "Ông"
-        }
-      ],
-      "correctAnswerId": "695e7854-6d70-4304-b4bc-8e97758aaa27",
-      "hint": "Phiên âm: /ˈɡræn.fɑː.ðər/ - Nghĩa: Ông"
-    },
-    {
-      "id": "60ee68ff-5437-4540-84fe-d2381db27112",
-      "stt": 19,
-      "nhan": "Câu 19",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">grandmother (n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "ddf31cc8-3d27-4458-8032-40d141e9e7fa",
-          "text": "Cô, dì, thím"
-        },
-        {
-          "id": "f0dbffae-e794-4fd0-8a4b-c46646b78a00",
-          "text": "Mẹ"
-        },
-        {
-          "id": "acc5794f-f6ad-46a9-9f00-1d447200795c",
-          "text": "Ông"
-        },
-        {
-          "id": "ba307a93-b58a-4835-8a19-1bd5876d4f1b",
-          "text": "Bà"
-        }
-      ],
-      "correctAnswerId": "ba307a93-b58a-4835-8a19-1bd5876d4f1b",
-      "hint": "Phiên âm: /ˈɡræn.mʌð.ər/ - Nghĩa: Bà"
-    },
-    {
-      "id": "fafdb832-f46e-453c-b22a-b14cb038822e",
-      "stt": 20,
-      "nhan": "Câu 20",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Call us (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "e70cf728-203e-4564-ad38-2b738455d6ed",
-          "text": "Bảo trọng, giữ gìn sức khỏe"
-        },
-        {
-          "id": "d0c18dd3-1d5a-4f5e-a7c3-c4c8b129af79",
-          "text": "Đừng lo lắng"
-        },
-        {
-          "id": "67914002-b1ca-4939-ab0b-b788de6b53d3",
-          "text": "Chúc một ngày tốt lành"
-        },
-        {
-          "id": "9d6e22f8-acb7-48e7-89ae-6def2c9a5029",
-          "text": "Gọi cho chúng tôi"
-        }
-      ],
-      "correctAnswerId": "9d6e22f8-acb7-48e7-89ae-6def2c9a5029",
-      "hint": "Phiên âm: /kɔːl ʌs/ - Nghĩa: Gọi cho chúng tôi"
-    },
-    {
-      "id": "c3c8e678-f852-4a42-a407-e1acf29e432f",
-      "stt": 21,
-      "nhan": "Câu 21",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Don't worry (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "e1178284-c2fd-4d66-923c-21ddd892ef18",
-          "text": "Đừng lo lắng"
-        },
-        {
-          "id": "41ff02a5-a016-418f-92f5-23d03fc42002",
-          "text": "Lái xe cẩn thận"
-        },
-        {
-          "id": "cf60539f-11c0-49d2-98c4-9d692e0acf61",
-          "text": "Chúc vui vẻ"
-        },
-        {
-          "id": "9cba6acf-2966-47ac-a275-749fac7a0c18",
-          "text": "Cười lên!"
-        }
-      ],
-      "correctAnswerId": "e1178284-c2fd-4d66-923c-21ddd892ef18",
-      "hint": "Phiên âm: /dəʊnt ˈwʌr.i/ - Nghĩa: Đừng lo lắng"
-    },
-    {
-      "id": "e3305738-a692-43d5-9377-2ec6645ae719",
-      "stt": 22,
-      "nhan": "Câu 22",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Have a good time (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "37000be3-4d11-48f4-bbe4-a38f307c1912",
-          "text": "Bảo trọng, giữ gìn sức khỏe"
-        },
-        {
-          "id": "649395c0-9411-42e8-9bcb-19ac0b18e96d",
-          "text": "Chúc một ngày tốt lành"
-        },
-        {
-          "id": "1e8a1be1-1aa5-4e58-a7be-9a2203acc3fc",
-          "text": "Chúc vui vẻ"
-        },
-        {
-          "id": "0cec3033-5a70-41b4-9b43-4a65c341d386",
-          "text": "Đừng lo lắng"
-        }
-      ],
-      "correctAnswerId": "1e8a1be1-1aa5-4e58-a7be-9a2203acc3fc",
-      "hint": "Phiên âm: /hæv ə ɡʊd taɪm/ - Nghĩa: Chúc vui vẻ"
-    },
-    {
-      "id": "e146a07c-346d-479c-b9bc-25f0291ba0e1",
-      "stt": 23,
-      "nhan": "Câu 23",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Have a good day (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "24801e31-0afd-4849-92b8-a437df9f21c4",
-          "text": "Chúc một ngày tốt lành"
-        },
-        {
-          "id": "59e73eec-c825-4740-93a7-7d04991e9c3d",
-          "text": "Đừng quên chìa khóa của bạn"
-        },
-        {
-          "id": "09b6783f-66ee-4931-8ea9-3cb46443a513",
-          "text": "Chúc vui vẻ"
-        },
-        {
-          "id": "ccf80bf1-7f9c-40c6-89bf-0e5a015571d5",
-          "text": "Gọi cho chúng tôi"
-        }
-      ],
-      "correctAnswerId": "24801e31-0afd-4849-92b8-a437df9f21c4",
-      "hint": "Phiên âm: /hæv ə ɡʊd deɪ/ - Nghĩa: Chúc một ngày tốt lành"
-    },
-    {
-      "id": "a7b11713-06d3-4483-8061-f13d35a93313",
-      "stt": 24,
-      "nhan": "Câu 24",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Smile! (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "d48e8278-a967-4e41-8245-e5d5d19fbd4a",
-          "text": "Đừng lo lắng!"
-        },
-        {
-          "id": "96c4b534-5444-4160-8949-640e568827d6",
-          "text": "Chơi đi!"
-        },
-        {
-          "id": "bc0faff8-3f0c-43e6-82de-2e74d02cef8e",
-          "text": "Cười lên!"
-        },
-        {
-          "id": "35989bf5-679f-4bb3-8451-da2444bd3d22",
-          "text": "Bảo trọng!"
-        }
-      ],
-      "correctAnswerId": "bc0faff8-3f0c-43e6-82de-2e74d02cef8e",
-      "hint": "Phiên âm: /smaɪl/ - Nghĩa: Cười lên!"
-    },
-    {
-      "id": "2598d9bf-e806-4cf3-a29c-787b5a3c21a9",
-      "stt": 25,
-      "nhan": "Câu 25",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Drive carefully (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "9800b3fa-7be7-4bd8-86ef-f7909e21d52d",
-          "text": "Gọi cho chúng tôi"
-        },
-        {
-          "id": "bacf30fa-95e6-4e6b-9e69-7cf0b0aa95ea",
-          "text": "Bảo trọng, giữ gìn sức khỏe"
-        },
-        {
-          "id": "0715159f-ece2-4df9-ae37-16e0365ff0d9",
-          "text": "Đừng quên chìa khóa"
-        },
-        {
-          "id": "37a65675-8845-478c-8c04-4d5ba9e52aaa",
-          "text": "Lái xe cẩn thận"
-        }
-      ],
-      "correctAnswerId": "37a65675-8845-478c-8c04-4d5ba9e52aaa",
-      "hint": "Phiên âm: /draɪv ˈkeə.fəl.i/ - Nghĩa: Lái xe cẩn thận"
-    },
-    {
-      "id": "4ec6bff1-a63c-4791-99d8-3ec6078cebcd",
-      "stt": 26,
-      "nhan": "Câu 26",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Take care (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "8e4f59a8-0c2e-4947-adeb-37cbb8a2f20d",
-          "text": "Lái xe cẩn thận"
-        },
-        {
-          "id": "804649ea-eb87-487c-9437-cc2d55698736",
-          "text": "Chúc một ngày tốt lành"
-        },
-        {
-          "id": "5a840431-b802-4ed3-a239-7dd62d4dac73",
-          "text": "Đừng lo lắng"
-        },
-        {
-          "id": "29160f76-9858-4441-b4eb-10f70de591ef",
-          "text": "Bảo trọng, giữ gìn sức khỏe"
-        }
-      ],
-      "correctAnswerId": "29160f76-9858-4441-b4eb-10f70de591ef",
-      "hint": "Phiên âm: /teɪk keər/ - Nghĩa: Bảo trọng, giữ gìn sức khỏe"
-    },
-    {
-      "id": "bcf6877c-0926-4da8-8e89-6bebda527df3",
-      "stt": 27,
-      "nhan": "Câu 27",
-      "question": "Cụm từ \"<span style=\"color:var(--primary-color); font-weight:bold\">Don't forget your keys (phrase)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "cdd484c1-9ec2-41be-a395-29fc2d35b3ce",
-          "text": "Lái xe cẩn thận"
-        },
-        {
-          "id": "501876b9-3d24-42a3-9a4f-a0939be9f493",
-          "text": "Đừng quên chìa khóa của bạn"
-        },
-        {
-          "id": "16f84b12-8f8a-435d-a011-3072f37f68c1",
-          "text": "Gọi cho chúng tôi"
-        },
-        {
-          "id": "c7c62057-36ca-40ad-9737-29eb2517a8be",
-          "text": "Chúc vui vẻ"
-        }
-      ],
-      "correctAnswerId": "501876b9-3d24-42a3-9a4f-a0939be9f493",
-      "hint": "Phiên âm: /dəʊnt fəˈɡet jɔːr kiːz/ - Nghĩa: Đừng quên chìa khóa của bạn"
-    },
-    {
-      "id": "033fc51e-9d71-469a-a1ea-2e078f872de2",
-      "stt": 28,
-      "nhan": "Câu 28",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">play (v, n)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "5a650bc6-5dba-4858-b26f-fe4cd3fbdfcd",
-          "text": "Chơi; trò chơi"
-        },
-        {
-          "id": "89859513-4764-4f32-82a1-1274b7b7f517",
-          "text": "Học; bài học"
-        },
-        {
-          "id": "15497e6d-e97c-4dfe-9c3c-c3cb7b1634e6",
-          "text": "Cười lên!"
-        },
-        {
-          "id": "add076c1-3c64-4d5a-a44e-a30389537905",
-          "text": "Nói; cuộc trò chuyện"
-        }
-      ],
-      "correctAnswerId": "5a650bc6-5dba-4858-b26f-fe4cd3fbdfcd",
-      "hint": "Phiên âm: /pleɪ/ - Nghĩa: Chơi; trò chơi"
-    },
-    {
-      "id": "03f4eb3d-05b3-4eef-86c8-d275c4f79e9d",
-      "stt": 29,
-      "nhan": "Câu 29",
-      "question": "Từ \"<span style=\"color:var(--primary-color); font-weight:bold\">children (n, số nhiều)</span>\" có nghĩa là gì?",
-      "answers": [
-        {
-          "id": "9e1703d5-2501-4b14-b52c-e8e0c6105750",
+          "id": "f71838f9-1079-4943-8172-937d82fb05a4",
           "text": "Những đứa trẻ"
         },
         {
-          "id": "0649c68a-4176-46d1-9e2c-352d1a8b6275",
-          "text": "Những người bạn"
-        },
-        {
-          "id": "99b7289c-33d8-4fe3-9807-3b1d1b7f76a1",
-          "text": "Người lớn"
-        },
-        {
-          "id": "a605958c-40da-414a-8122-9771d2d03b52",
-          "text": "Một đứa trẻ"
+          "id": "f8df5f54-da1d-40a1-bbd7-a997af7e58f2",
+          "text": "Anh/em trai"
         }
       ],
-      "correctAnswerId": "9e1703d5-2501-4b14-b52c-e8e0c6105750",
+      "correctAnswerId": "95517e5e-5794-4ca2-aa24-d9f2fc2b183f",
+      "enAnswers": [
+        {
+          "id": "3f6c2337-b0fa-4444-8fbf-74c9dfd76134",
+          "text": "granddaughter (n)"
+        },
+        {
+          "id": "ff2b8e0a-2f3a-4b80-a675-3752f2e7b4ef",
+          "text": "grandmother (n)"
+        },
+        {
+          "id": "2ecf3a0d-9720-47ef-b7b8-c67d54e6186e",
+          "text": "brother (n)"
+        },
+        {
+          "id": "c893801b-fec7-4ec5-9c85-73fea28eb87b",
+          "text": "children (n, số nhiều)"
+        }
+      ],
+      "correctEnAnswerId": "3f6c2337-b0fa-4444-8fbf-74c9dfd76134",
+      "hint": "Phiên âm: /ˈɡræn.dɔː.tər/ - Nghĩa: Cháu gái (con của con)"
+    },
+    {
+      "id": "59265a3e-a1ef-4c80-8255-d39883d2e41c",
+      "stt": 3,
+      "nhan": "Câu 3",
+      "term": "daughter (n)",
+      "ipa": "/ˈdɔː.tər/",
+      "definition": "Con gái",
+      "question": "daughter (n)",
+      "answers": [
+        {
+          "id": "a5892572-e878-41f0-9e7d-15645ff73692",
+          "text": "Con gái"
+        },
+        {
+          "id": "b673ad4e-72fa-48ec-8e6a-388c5402ca7d",
+          "text": "Những đứa trẻ"
+        },
+        {
+          "id": "6d64bc27-cd96-46bb-9f0a-49848274f5e7",
+          "text": "Bà"
+        },
+        {
+          "id": "4f43e6f4-b7f3-4f9a-a849-85dc5f19e824",
+          "text": "Chị/em dâu"
+        }
+      ],
+      "correctAnswerId": "a5892572-e878-41f0-9e7d-15645ff73692",
+      "enAnswers": [
+        {
+          "id": "d542bc6a-2d30-48a6-a8c3-5a2547ade7db",
+          "text": "children (n, số nhiều)"
+        },
+        {
+          "id": "c16b40d2-0a41-4b3f-affb-a2b6bb99d855",
+          "text": "grandmother (n)"
+        },
+        {
+          "id": "ba348e94-f43c-414e-a51c-86f861d51c11",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "e77285cc-6b76-439b-ac44-d296cb8439e6",
+          "text": "daughter (n)"
+        }
+      ],
+      "correctEnAnswerId": "e77285cc-6b76-439b-ac44-d296cb8439e6",
+      "hint": "Phiên âm: /ˈdɔː.tər/ - Nghĩa: Con gái"
+    },
+    {
+      "id": "82a4eb52-56db-4ce6-95bf-dc046d72ac58",
+      "stt": 4,
+      "nhan": "Câu 4",
+      "term": "husband (n)",
+      "ipa": "/ˈhʌz.bənd/",
+      "definition": "Chồng",
+      "question": "husband (n)",
+      "answers": [
+        {
+          "id": "00780cae-1f8f-49dd-9754-cb4ffd12bde2",
+          "text": "Chồng"
+        },
+        {
+          "id": "7fcee1fa-2955-40a0-898e-b9b89ce0140c",
+          "text": "Mẹ"
+        },
+        {
+          "id": "6fb7deb0-e755-40f5-a0d7-78007d05c059",
+          "text": "Con trai"
+        },
+        {
+          "id": "75c63487-82b8-472b-a3ef-4db3066c65ff",
+          "text": "Ông"
+        }
+      ],
+      "correctAnswerId": "00780cae-1f8f-49dd-9754-cb4ffd12bde2",
+      "enAnswers": [
+        {
+          "id": "148b5b30-6548-4142-9ef0-2df0a6f18742",
+          "text": "grandfather (n)"
+        },
+        {
+          "id": "5b61bddb-45c9-415f-96fd-24d05d045a2c",
+          "text": "mother (n)"
+        },
+        {
+          "id": "4439497f-b367-4c0a-ab4a-0bafe0fc05c9",
+          "text": "husband (n)"
+        },
+        {
+          "id": "0afecf72-a0b4-4f85-9550-d21e6ac02310",
+          "text": "son (n)"
+        }
+      ],
+      "correctEnAnswerId": "4439497f-b367-4c0a-ab4a-0bafe0fc05c9",
+      "hint": "Phiên âm: /ˈhʌz.bənd/ - Nghĩa: Chồng"
+    },
+    {
+      "id": "bc14b72a-11ec-4983-99de-aa5d60868257",
+      "stt": 5,
+      "nhan": "Câu 5",
+      "term": "brother (n)",
+      "ipa": "/ˈbrʌð.ər/",
+      "definition": "Anh/em trai",
+      "question": "brother (n)",
+      "answers": [
+        {
+          "id": "7021e7a1-2cf1-447d-b62c-144257b7b205",
+          "text": "Chị/em gái"
+        },
+        {
+          "id": "79fb0542-4585-4264-917b-db0935e3218b",
+          "text": "Con gái"
+        },
+        {
+          "id": "076b427f-4449-444e-b091-fcd98f643d4d",
+          "text": "Đừng lo lắng"
+        },
+        {
+          "id": "8bcb7bb4-1b46-43e2-b0f1-e487efad84dd",
+          "text": "Anh/em trai"
+        }
+      ],
+      "correctAnswerId": "8bcb7bb4-1b46-43e2-b0f1-e487efad84dd",
+      "enAnswers": [
+        {
+          "id": "25d51a21-4bcc-4702-919e-fa8b45a2700e",
+          "text": "daughter (n)"
+        },
+        {
+          "id": "aa9f7f45-ebdb-413c-8856-63e8e842ee79",
+          "text": "brother (n)"
+        },
+        {
+          "id": "8d4470bb-4dfc-49d0-ba06-2f9e91383a8a",
+          "text": "Don't worry (phrase)"
+        },
+        {
+          "id": "1c087b4c-eab8-401d-ba4b-78e59b5e216f",
+          "text": "sister (n)"
+        }
+      ],
+      "correctEnAnswerId": "aa9f7f45-ebdb-413c-8856-63e8e842ee79",
+      "hint": "Phiên âm: /ˈbrʌð.ər/ - Nghĩa: Anh/em trai"
+    },
+    {
+      "id": "017f6e4b-4c57-4df0-8757-caf3b70bb886",
+      "stt": 6,
+      "nhan": "Câu 6",
+      "term": "son (n)",
+      "ipa": "/sʌn/",
+      "definition": "Con trai",
+      "question": "son (n)",
+      "answers": [
+        {
+          "id": "3fc59911-100a-442b-9596-1f7cdda06faa",
+          "text": "Bà"
+        },
+        {
+          "id": "1a5e13ad-4d56-43f1-a55f-7fbe34862107",
+          "text": "Chơi; trò chơi"
+        },
+        {
+          "id": "4e39087f-d002-4477-ab7a-4a8a8cc211ec",
+          "text": "Con trai"
+        },
+        {
+          "id": "bc5f31f6-220c-4557-a5aa-1920fec84f32",
+          "text": "Cười lên!"
+        }
+      ],
+      "correctAnswerId": "4e39087f-d002-4477-ab7a-4a8a8cc211ec",
+      "enAnswers": [
+        {
+          "id": "52cc88d7-7c06-4602-a327-87326bd355b7",
+          "text": "Smile! (phrase)"
+        },
+        {
+          "id": "25d8774b-7713-4e24-80d1-3c4a6a5585bb",
+          "text": "son (n)"
+        },
+        {
+          "id": "11efc71d-a9c0-4655-9d21-e6608a77c11e",
+          "text": "grandmother (n)"
+        },
+        {
+          "id": "ef62b628-d354-4b23-83f9-5be47dee1ee2",
+          "text": "play (v, n)"
+        }
+      ],
+      "correctEnAnswerId": "25d8774b-7713-4e24-80d1-3c4a6a5585bb",
+      "hint": "Phiên âm: /sʌn/ - Nghĩa: Con trai"
+    },
+    {
+      "id": "477aad0a-4460-4a0b-9402-2ae589d8c5b2",
+      "stt": 7,
+      "nhan": "Câu 7",
+      "term": "grandson (n)",
+      "ipa": "/ˈɡræn.sʌn/",
+      "definition": "Cháu trai (con của con)",
+      "question": "grandson (n)",
+      "answers": [
+        {
+          "id": "5b7b2b5f-e599-43f4-bf8b-05bf3f211788",
+          "text": "Con gái"
+        },
+        {
+          "id": "98821f4f-883a-482e-97e5-a62808d48da9",
+          "text": "Chồng"
+        },
+        {
+          "id": "729d6b0e-1c9b-4835-9d88-819b0bfa7a22",
+          "text": "Cháu trai (con của con)"
+        },
+        {
+          "id": "6301ca88-ae80-4b71-8438-cfa627b5eb4f",
+          "text": "Anh chị em họ"
+        }
+      ],
+      "correctAnswerId": "729d6b0e-1c9b-4835-9d88-819b0bfa7a22",
+      "enAnswers": [
+        {
+          "id": "fce8f411-6f43-469f-b0a5-9af252039000",
+          "text": "husband (n)"
+        },
+        {
+          "id": "24376196-fb9c-450e-9b4b-072cf36c9631",
+          "text": "daughter (n)"
+        },
+        {
+          "id": "a8cbe537-f580-4043-ad97-a2f03dcc8eeb",
+          "text": "cousin (n)"
+        },
+        {
+          "id": "5198e63c-8e84-445c-8603-1be5b66a31ce",
+          "text": "grandson (n)"
+        }
+      ],
+      "correctEnAnswerId": "5198e63c-8e84-445c-8603-1be5b66a31ce",
+      "hint": "Phiên âm: /ˈɡræn.sʌn/ - Nghĩa: Cháu trai (con của con)"
+    },
+    {
+      "id": "4e535ccd-b2de-4c3e-8b60-7dda146e9d6a",
+      "stt": 8,
+      "nhan": "Câu 8",
+      "term": "sister (n)",
+      "ipa": "/ˈsɪs.tər/",
+      "definition": "Chị/em gái",
+      "question": "sister (n)",
+      "answers": [
+        {
+          "id": "bf9e92ac-dffe-4dea-97a2-4ef95a483707",
+          "text": "Con trai"
+        },
+        {
+          "id": "0ffbe4ce-d8f9-4411-9253-d198622c9397",
+          "text": "Chị/em dâu"
+        },
+        {
+          "id": "c00c991e-97bc-4553-ae29-e48b4036c2a9",
+          "text": "Anh/em trai"
+        },
+        {
+          "id": "9994c86a-3e6d-496a-83cd-b9ae7d93f9a0",
+          "text": "Chị/em gái"
+        }
+      ],
+      "correctAnswerId": "9994c86a-3e6d-496a-83cd-b9ae7d93f9a0",
+      "enAnswers": [
+        {
+          "id": "2798c500-447e-4753-bb23-65ed93aac6d8",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "0d5eb852-f5a5-4ef2-9d8b-6c3f69ae970f",
+          "text": "son (n)"
+        },
+        {
+          "id": "95032d8c-3b16-4e23-9181-79c98e6980f1",
+          "text": "sister (n)"
+        },
+        {
+          "id": "49c54f0c-3066-4033-8f90-8028d34fc6c2",
+          "text": "brother (n)"
+        }
+      ],
+      "correctEnAnswerId": "95032d8c-3b16-4e23-9181-79c98e6980f1",
+      "hint": "Phiên âm: /ˈsɪs.tər/ - Nghĩa: Chị/em gái"
+    },
+    {
+      "id": "ea3456e7-a9b4-490e-b568-401679edccd7",
+      "stt": 9,
+      "nhan": "Câu 9",
+      "term": "father (n)",
+      "ipa": "/ˈfɑː.ðər/",
+      "definition": "Cha, bố",
+      "question": "father (n)",
+      "answers": [
+        {
+          "id": "cfc6d9fb-1f06-4ed8-bb0e-d02c87877fd0",
+          "text": "Cháu trai (con của con)"
+        },
+        {
+          "id": "6a58fd33-5559-4207-875b-88f927d0e611",
+          "text": "Những đứa trẻ"
+        },
+        {
+          "id": "b6871d49-1141-4075-8ca4-204f54c945f8",
+          "text": "Chúc một ngày tốt lành"
+        },
+        {
+          "id": "f73c6259-30e4-42da-947d-9477b6ffcaa2",
+          "text": "Cha, bố"
+        }
+      ],
+      "correctAnswerId": "f73c6259-30e4-42da-947d-9477b6ffcaa2",
+      "enAnswers": [
+        {
+          "id": "ee9b4779-b79f-46c9-a762-3e3f70f027d0",
+          "text": "Have a good day (phrase)"
+        },
+        {
+          "id": "4bcd4047-a0ec-4527-8037-ef56ac8b018c",
+          "text": "children (n, số nhiều)"
+        },
+        {
+          "id": "8c08a331-3b76-4e42-a799-7e1f1739dabb",
+          "text": "grandson (n)"
+        },
+        {
+          "id": "67d351bd-d2d9-4028-9a28-f098de438ca0",
+          "text": "father (n)"
+        }
+      ],
+      "correctEnAnswerId": "67d351bd-d2d9-4028-9a28-f098de438ca0",
+      "hint": "Phiên âm: /ˈfɑː.ðər/ - Nghĩa: Cha, bố"
+    },
+    {
+      "id": "f2ab790d-b56c-4c08-a140-80049fbca1ae",
+      "stt": 10,
+      "nhan": "Câu 10",
+      "term": "mother (n)",
+      "ipa": "/ˈmʌð.ər/",
+      "definition": "Mẹ",
+      "question": "mother (n)",
+      "answers": [
+        {
+          "id": "5c73ac14-860b-4482-86f8-ef6175bf4bd9",
+          "text": "Bảo trọng, giữ gìn sức khỏe"
+        },
+        {
+          "id": "ac7a8279-2dfa-438c-8f89-5bed051bb875",
+          "text": "Mẹ"
+        },
+        {
+          "id": "a419f6f8-be8b-4986-90c7-571175653b56",
+          "text": "Cháu trai (con của con)"
+        },
+        {
+          "id": "9f13bd9b-a1b9-4998-83db-4557e77188fc",
+          "text": "Cháu trai (con của anh/chị/em)"
+        }
+      ],
+      "correctAnswerId": "ac7a8279-2dfa-438c-8f89-5bed051bb875",
+      "enAnswers": [
+        {
+          "id": "b05d57c2-1cc4-4c70-be51-9679e9ecfbe9",
+          "text": "nephew (n)"
+        },
+        {
+          "id": "8a8d210f-aa1c-4d90-a6b1-862b5c8d4641",
+          "text": "mother (n)"
+        },
+        {
+          "id": "e74e996e-1cbe-4cc7-b7ea-85e1c126d5bf",
+          "text": "grandson (n)"
+        },
+        {
+          "id": "feeaf952-a27d-4d4d-b9a9-80eb0f995002",
+          "text": "Take care (phrase)"
+        }
+      ],
+      "correctEnAnswerId": "8a8d210f-aa1c-4d90-a6b1-862b5c8d4641",
+      "hint": "Phiên âm: /ˈmʌð.ər/ - Nghĩa: Mẹ"
+    },
+    {
+      "id": "66e61fda-0c8d-45d6-93e0-508650d117bb",
+      "stt": 11,
+      "nhan": "Câu 11",
+      "term": "uncle (n)",
+      "ipa": "/ˈʌŋ.kəl/",
+      "definition": "Chú, bác, cậu",
+      "question": "uncle (n)",
+      "answers": [
+        {
+          "id": "d649f280-baa3-4b4d-945a-776cc6c5ea16",
+          "text": "Cháu gái (con của anh/chị/em)"
+        },
+        {
+          "id": "965a4709-558f-441d-a23b-a9c6a7fbaa63",
+          "text": "Chồng"
+        },
+        {
+          "id": "d1e3ef22-a0e2-4b58-81b8-4d2d77327ad3",
+          "text": "Đừng lo lắng"
+        },
+        {
+          "id": "a9776310-987b-45e7-81a0-952abc2fd84d",
+          "text": "Chú, bác, cậu"
+        }
+      ],
+      "correctAnswerId": "a9776310-987b-45e7-81a0-952abc2fd84d",
+      "enAnswers": [
+        {
+          "id": "171d66e8-50aa-44a0-9b5d-0838fabfcb33",
+          "text": "uncle (n)"
+        },
+        {
+          "id": "8028233c-a313-45df-a6a9-e54548dd778c",
+          "text": "niece (n)"
+        },
+        {
+          "id": "07e26bb1-f48d-4175-a029-c7b205429ccf",
+          "text": "husband (n)"
+        },
+        {
+          "id": "1e3b06f7-5bf9-491f-b827-90010c63fc7a",
+          "text": "Don't worry (phrase)"
+        }
+      ],
+      "correctEnAnswerId": "171d66e8-50aa-44a0-9b5d-0838fabfcb33",
+      "hint": "Phiên âm: /ˈʌŋ.kəl/ - Nghĩa: Chú, bác, cậu"
+    },
+    {
+      "id": "40fd4e0a-1ceb-4286-b3e4-5ce10f56fe6d",
+      "stt": 12,
+      "nhan": "Câu 12",
+      "term": "aunt (n)",
+      "ipa": "/ɑːnt/",
+      "definition": "Cô, dì, thím",
+      "question": "aunt (n)",
+      "answers": [
+        {
+          "id": "9c7fd2af-1a60-40d4-8eac-dbcb42a3eb2c",
+          "text": "Cháu trai (con của con)"
+        },
+        {
+          "id": "54087450-da9f-4c09-a5fe-f7657cbd0f6b",
+          "text": "Chơi; trò chơi"
+        },
+        {
+          "id": "6b32be32-e793-446b-aaef-4d09c3ee2135",
+          "text": "Cô, dì, thím"
+        },
+        {
+          "id": "b431d06c-711c-47bd-9980-e0353a57c135",
+          "text": "Chị/em dâu"
+        }
+      ],
+      "correctAnswerId": "6b32be32-e793-446b-aaef-4d09c3ee2135",
+      "enAnswers": [
+        {
+          "id": "796c98ae-77f3-435b-90cb-fe91230df788",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "574423bf-d615-450c-9391-9ff3e47ec348",
+          "text": "grandson (n)"
+        },
+        {
+          "id": "ee05bac5-cb32-4112-a10b-e2c1282d1362",
+          "text": "aunt (n)"
+        },
+        {
+          "id": "c20548da-95e2-43a3-a7df-96323ac9b981",
+          "text": "play (v, n)"
+        }
+      ],
+      "correctEnAnswerId": "ee05bac5-cb32-4112-a10b-e2c1282d1362",
+      "hint": "Phiên âm: /ɑːnt/ - Nghĩa: Cô, dì, thím"
+    },
+    {
+      "id": "c72fcd45-2926-4e3b-b714-539cf1f1f48e",
+      "stt": 13,
+      "nhan": "Câu 13",
+      "term": "cousin (n)",
+      "ipa": "/ˈkʌz.ən/",
+      "definition": "Anh chị em họ",
+      "question": "cousin (n)",
+      "answers": [
+        {
+          "id": "3496d963-38a3-49b9-b130-cb1fe59b5c4e",
+          "text": "Chúc vui vẻ"
+        },
+        {
+          "id": "3361870f-5e01-4588-a649-65c7b91776bb",
+          "text": "Anh chị em họ"
+        },
+        {
+          "id": "1a0fcae1-cdbb-4a09-88bb-721aba1fd4a4",
+          "text": "Anh/em rể"
+        },
+        {
+          "id": "1c69aa69-932f-40ac-a45b-ac51c634df5a",
+          "text": "Chị/em dâu"
+        }
+      ],
+      "correctAnswerId": "3361870f-5e01-4588-a649-65c7b91776bb",
+      "enAnswers": [
+        {
+          "id": "f5b925b2-9a26-4fb2-a660-41f703bb1c9c",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "fe8d335f-a213-45dd-aaf3-fd236e9da5e2",
+          "text": "Have a good time (phrase)"
+        },
+        {
+          "id": "63ba10e0-08f8-4994-8128-dcf06b457bf8",
+          "text": "cousin (n)"
+        },
+        {
+          "id": "c63c6dc9-1f12-4455-9740-2f0fb45a1e45",
+          "text": "brother-in-law (n)"
+        }
+      ],
+      "correctEnAnswerId": "63ba10e0-08f8-4994-8128-dcf06b457bf8",
+      "hint": "Phiên âm: /ˈkʌz.ən/ - Nghĩa: Anh chị em họ"
+    },
+    {
+      "id": "c2728140-2cfc-4865-afe6-f5d10c25466f",
+      "stt": 14,
+      "nhan": "Câu 14",
+      "term": "nephew (n)",
+      "ipa": "/ˈnef.juː/",
+      "definition": "Cháu trai (con của anh/chị/em)",
+      "question": "nephew (n)",
+      "answers": [
+        {
+          "id": "ffd3aceb-0783-44c8-ae56-0fca4e19777c",
+          "text": "Cháu trai (con của anh/chị/em)"
+        },
+        {
+          "id": "cbe09581-36e7-441c-ad17-b9a655f299b4",
+          "text": "Mẹ"
+        },
+        {
+          "id": "b97de3c9-eae2-4336-a2b1-225afd28709b",
+          "text": "Chúc một ngày tốt lành"
+        },
+        {
+          "id": "ff79f4a1-b5ba-4b9a-a249-d55be5b8022e",
+          "text": "Đừng quên chìa khóa của bạn"
+        }
+      ],
+      "correctAnswerId": "ffd3aceb-0783-44c8-ae56-0fca4e19777c",
+      "enAnswers": [
+        {
+          "id": "7e0cc4be-69ce-48ab-bbc4-2ec434f295e7",
+          "text": "Don't forget your keys (phrase)"
+        },
+        {
+          "id": "6cc892f7-5432-472d-a24f-b9657775291b",
+          "text": "mother (n)"
+        },
+        {
+          "id": "16e6033c-d36e-41b7-8766-5b27ef9c6418",
+          "text": "Have a good day (phrase)"
+        },
+        {
+          "id": "bc91d789-b5b5-46aa-b04f-a225971183a3",
+          "text": "nephew (n)"
+        }
+      ],
+      "correctEnAnswerId": "bc91d789-b5b5-46aa-b04f-a225971183a3",
+      "hint": "Phiên âm: /ˈnef.juː/ - Nghĩa: Cháu trai (con của anh/chị/em)"
+    },
+    {
+      "id": "e414159c-7bf5-487c-97ba-fa3b524ab316",
+      "stt": 15,
+      "nhan": "Câu 15",
+      "term": "niece (n)",
+      "ipa": "/niːs/",
+      "definition": "Cháu gái (con của anh/chị/em)",
+      "question": "niece (n)",
+      "answers": [
+        {
+          "id": "f7843a96-5b35-4e32-a369-b949d73cdbbd",
+          "text": "Cười lên!"
+        },
+        {
+          "id": "fb955743-ffd1-4899-893d-1b2c71740170",
+          "text": "Cháu gái (con của anh/chị/em)"
+        },
+        {
+          "id": "813c669e-845d-44b8-bb44-5c64b6c96990",
+          "text": "Cháu gái (con của con)"
+        },
+        {
+          "id": "654043ae-214b-4cc2-8612-ed5041e61b77",
+          "text": "Cô, dì, thím"
+        }
+      ],
+      "correctAnswerId": "fb955743-ffd1-4899-893d-1b2c71740170",
+      "enAnswers": [
+        {
+          "id": "d021277b-d124-42c9-b87c-2a8bd3eb7baa",
+          "text": "niece (n)"
+        },
+        {
+          "id": "a82c44d3-8e59-49b8-83e1-d8e6822c519b",
+          "text": "granddaughter (n)"
+        },
+        {
+          "id": "82102618-8317-4b9f-ad27-dfb062e8e96e",
+          "text": "Smile! (phrase)"
+        },
+        {
+          "id": "4605addf-3c5e-4db6-98c0-ec8cc898476a",
+          "text": "aunt (n)"
+        }
+      ],
+      "correctEnAnswerId": "d021277b-d124-42c9-b87c-2a8bd3eb7baa",
+      "hint": "Phiên âm: /niːs/ - Nghĩa: Cháu gái (con của anh/chị/em)"
+    },
+    {
+      "id": "c7409b8b-ec47-488c-88fd-2c28ee08b65b",
+      "stt": 16,
+      "nhan": "Câu 16",
+      "term": "brother-in-law (n)",
+      "ipa": "/ˈbrʌð.ər ɪn lɔː/",
+      "definition": "Anh/em rể",
+      "question": "brother-in-law (n)",
+      "answers": [
+        {
+          "id": "121c2527-ac39-4fee-8d10-7472b3cfd7cd",
+          "text": "Cháu trai (con của anh/chị/em)"
+        },
+        {
+          "id": "28be8543-1a6d-484c-bd5a-679648117ae7",
+          "text": "Chị/em dâu"
+        },
+        {
+          "id": "ada465ed-8e65-472e-addc-0313fa08c862",
+          "text": "Anh/em rể"
+        },
+        {
+          "id": "b73f87cf-8026-4dd0-885b-df73d04ee719",
+          "text": "Cha, bố"
+        }
+      ],
+      "correctAnswerId": "ada465ed-8e65-472e-addc-0313fa08c862",
+      "enAnswers": [
+        {
+          "id": "f79a4544-a8e9-48d6-9fb8-ce048ddd39c1",
+          "text": "father (n)"
+        },
+        {
+          "id": "6b31ad74-753f-4c7f-a3ed-8e49f1aa7d42",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "67671a49-9ff6-42b3-ad90-a36220485dd3",
+          "text": "brother-in-law (n)"
+        },
+        {
+          "id": "f5498d8a-2eae-43e0-86bb-8dbb5eb90728",
+          "text": "nephew (n)"
+        }
+      ],
+      "correctEnAnswerId": "67671a49-9ff6-42b3-ad90-a36220485dd3",
+      "hint": "Phiên âm: /ˈbrʌð.ər ɪn lɔː/ - Nghĩa: Anh/em rể"
+    },
+    {
+      "id": "ccfc10b3-c570-45da-8ea6-87c19493abba",
+      "stt": 17,
+      "nhan": "Câu 17",
+      "term": "sister-in-law (n)",
+      "ipa": "/ˈsɪs.tər ɪn lɔː/",
+      "definition": "Chị/em dâu",
+      "question": "sister-in-law (n)",
+      "answers": [
+        {
+          "id": "9638a71c-8a4f-41b0-8d5d-6259a0b0f7ab",
+          "text": "Anh/em rể"
+        },
+        {
+          "id": "8ec97988-7f93-4ac7-9b84-55d10d7e4e03",
+          "text": "Chị/em dâu"
+        },
+        {
+          "id": "9ec1c9d4-ae20-4f8f-8ef6-a6fcd9335a02",
+          "text": "Cười lên!"
+        },
+        {
+          "id": "df609490-c305-4fbe-b50e-1399ed65a6ca",
+          "text": "Cháu trai (con của con)"
+        }
+      ],
+      "correctAnswerId": "8ec97988-7f93-4ac7-9b84-55d10d7e4e03",
+      "enAnswers": [
+        {
+          "id": "66e2e239-8bf1-4eef-9df2-5fb4fe0bc02c",
+          "text": "Smile! (phrase)"
+        },
+        {
+          "id": "aedd1cba-feeb-4dc3-83d6-938831b79c9b",
+          "text": "brother-in-law (n)"
+        },
+        {
+          "id": "4528643e-397a-41e2-a7e5-87912728ffee",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "8eca9354-9285-47e9-954c-0886dc79335a",
+          "text": "grandson (n)"
+        }
+      ],
+      "correctEnAnswerId": "4528643e-397a-41e2-a7e5-87912728ffee",
+      "hint": "Phiên âm: /ˈsɪs.tər ɪn lɔː/ - Nghĩa: Chị/em dâu"
+    },
+    {
+      "id": "92b5d6f2-1170-47b8-a3a4-e86fafab9ef7",
+      "stt": 18,
+      "nhan": "Câu 18",
+      "term": "grandfather (n)",
+      "ipa": "/ˈɡræn.fɑː.ðər/",
+      "definition": "Ông",
+      "question": "grandfather (n)",
+      "answers": [
+        {
+          "id": "8c20a6df-7917-44f5-a34a-272b34c15c41",
+          "text": "Con trai"
+        },
+        {
+          "id": "602aa64a-9212-4753-a11e-072c73233b1b",
+          "text": "Bảo trọng, giữ gìn sức khỏe"
+        },
+        {
+          "id": "794afd15-efe0-4e1f-867c-ae9a9e094702",
+          "text": "Lái xe cẩn thận"
+        },
+        {
+          "id": "afa728ad-c777-4bfb-b7e2-bb29b1736266",
+          "text": "Ông"
+        }
+      ],
+      "correctAnswerId": "afa728ad-c777-4bfb-b7e2-bb29b1736266",
+      "enAnswers": [
+        {
+          "id": "c9a31cd9-eb6a-46d0-8e8d-17b1db5f846e",
+          "text": "son (n)"
+        },
+        {
+          "id": "66d55dec-1735-42cb-b2e1-c3dc2a3d60a9",
+          "text": "grandfather (n)"
+        },
+        {
+          "id": "c6eee958-c65f-4136-a4d1-96365cbac48a",
+          "text": "Take care (phrase)"
+        },
+        {
+          "id": "c0bafc08-1138-4198-9c2c-27ad118b1cbf",
+          "text": "Drive carefully (phrase)"
+        }
+      ],
+      "correctEnAnswerId": "66d55dec-1735-42cb-b2e1-c3dc2a3d60a9",
+      "hint": "Phiên âm: /ˈɡræn.fɑː.ðər/ - Nghĩa: Ông"
+    },
+    {
+      "id": "9009ed28-cf80-4c11-b15f-3e4fe9918d82",
+      "stt": 19,
+      "nhan": "Câu 19",
+      "term": "grandmother (n)",
+      "ipa": "/ˈɡræn.mʌð.ər/",
+      "definition": "Bà",
+      "question": "grandmother (n)",
+      "answers": [
+        {
+          "id": "32735dc2-5ae5-4213-8ae1-3c5fd945b58c",
+          "text": "Chúc một ngày tốt lành"
+        },
+        {
+          "id": "2626eb0d-8f49-4081-9a14-c1d8f2c72adf",
+          "text": "Ông"
+        },
+        {
+          "id": "aeffa9da-36e5-499c-80a1-d2589e169ab8",
+          "text": "Cha, bố"
+        },
+        {
+          "id": "49549bb1-57e9-423b-988d-90355450367b",
+          "text": "Bà"
+        }
+      ],
+      "correctAnswerId": "49549bb1-57e9-423b-988d-90355450367b",
+      "enAnswers": [
+        {
+          "id": "ffbe8798-0da8-4104-a15f-f164710f6dba",
+          "text": "grandfather (n)"
+        },
+        {
+          "id": "9c7877e5-3e4a-4a16-b5a7-d106cce940c2",
+          "text": "grandmother (n)"
+        },
+        {
+          "id": "86f91aa1-6f76-4fdb-ba57-3b983536255c",
+          "text": "father (n)"
+        },
+        {
+          "id": "636434be-cf4b-4bb5-a4ea-203f837d0422",
+          "text": "Have a good day (phrase)"
+        }
+      ],
+      "correctEnAnswerId": "9c7877e5-3e4a-4a16-b5a7-d106cce940c2",
+      "hint": "Phiên âm: /ˈɡræn.mʌð.ər/ - Nghĩa: Bà"
+    },
+    {
+      "id": "23177049-a030-43b4-bf6c-d3c4cfde856b",
+      "stt": 20,
+      "nhan": "Câu 20",
+      "term": "Call us (phrase)",
+      "ipa": "/kɔːl ʌs/",
+      "definition": "Gọi cho chúng tôi",
+      "question": "Call us (phrase)",
+      "answers": [
+        {
+          "id": "648e7daa-d8c5-441a-a526-969165f4da98",
+          "text": "Vợ"
+        },
+        {
+          "id": "c7c670e4-b1d2-44d1-9b33-b802fb92cb10",
+          "text": "Bà"
+        },
+        {
+          "id": "4eb3f052-03e1-44b3-898b-b8a561823b83",
+          "text": "Gọi cho chúng tôi"
+        },
+        {
+          "id": "86171f4a-46dd-4663-b99e-1ec534a61342",
+          "text": "Cháu trai (con của con)"
+        }
+      ],
+      "correctAnswerId": "4eb3f052-03e1-44b3-898b-b8a561823b83",
+      "enAnswers": [
+        {
+          "id": "8b241a0d-dd43-48d4-baed-5a5581ee8f24",
+          "text": "grandson (n)"
+        },
+        {
+          "id": "38978cac-3618-4be3-aaff-a7f1e21cbd8f",
+          "text": "wife (n)"
+        },
+        {
+          "id": "a23710b7-0c77-4163-875d-dd1b156d5794",
+          "text": "Call us (phrase)"
+        },
+        {
+          "id": "c28b22e9-b2ab-4461-8408-be3ecf89f79d",
+          "text": "grandmother (n)"
+        }
+      ],
+      "correctEnAnswerId": "a23710b7-0c77-4163-875d-dd1b156d5794",
+      "hint": "Phiên âm: /kɔːl ʌs/ - Nghĩa: Gọi cho chúng tôi"
+    },
+    {
+      "id": "5ba2b73c-b633-4b30-a743-475ef38edb15",
+      "stt": 21,
+      "nhan": "Câu 21",
+      "term": "Don't worry (phrase)",
+      "ipa": "/dəʊnt ˈwʌr.i/",
+      "definition": "Đừng lo lắng",
+      "question": "Don't worry (phrase)",
+      "answers": [
+        {
+          "id": "38fe0a42-7cc8-488c-85bc-c800381f228d",
+          "text": "Cháu gái (con của anh/chị/em)"
+        },
+        {
+          "id": "6476f1ae-e949-4089-a84f-25fbea29df38",
+          "text": "Đừng lo lắng"
+        },
+        {
+          "id": "200885dd-3694-44f2-b0ba-97ad3397a1aa",
+          "text": "Lái xe cẩn thận"
+        },
+        {
+          "id": "efeed81c-f28f-49a5-b640-f10304d2571b",
+          "text": "Anh/em rể"
+        }
+      ],
+      "correctAnswerId": "6476f1ae-e949-4089-a84f-25fbea29df38",
+      "enAnswers": [
+        {
+          "id": "965109cb-8d85-48ee-a08d-84a710458f5b",
+          "text": "brother-in-law (n)"
+        },
+        {
+          "id": "f3c87740-e2e4-4493-9e01-ebcd1f255c62",
+          "text": "Don't worry (phrase)"
+        },
+        {
+          "id": "aad5f064-1393-4b34-95b3-d04113bb9ff5",
+          "text": "Drive carefully (phrase)"
+        },
+        {
+          "id": "a96ea169-42a2-48a3-9083-32274c602a48",
+          "text": "niece (n)"
+        }
+      ],
+      "correctEnAnswerId": "f3c87740-e2e4-4493-9e01-ebcd1f255c62",
+      "hint": "Phiên âm: /dəʊnt ˈwʌr.i/ - Nghĩa: Đừng lo lắng"
+    },
+    {
+      "id": "1ec76b7e-b667-4174-9d0d-c00aa6db5019",
+      "stt": 22,
+      "nhan": "Câu 22",
+      "term": "Have a good time (phrase)",
+      "ipa": "/hæv ə ɡʊd taɪm/",
+      "definition": "Chúc vui vẻ",
+      "question": "Have a good time (phrase)",
+      "answers": [
+        {
+          "id": "640ba5e3-5a96-49b5-bdf9-b50dc0779d35",
+          "text": "Cha, bố"
+        },
+        {
+          "id": "75e5322a-e9de-49f9-a45b-ed0aad2846d1",
+          "text": "Chúc vui vẻ"
+        },
+        {
+          "id": "31d8ffaf-a66d-4031-b31a-8dd411a5d8b5",
+          "text": "Chú, bác, cậu"
+        },
+        {
+          "id": "0d1189d1-a467-4a09-a8db-dd503fecad74",
+          "text": "Ông"
+        }
+      ],
+      "correctAnswerId": "75e5322a-e9de-49f9-a45b-ed0aad2846d1",
+      "enAnswers": [
+        {
+          "id": "4f5cb436-f892-4666-9d69-f806d3a4f481",
+          "text": "father (n)"
+        },
+        {
+          "id": "76b514a7-0ab5-4e6b-80b0-8c720f8ce6f7",
+          "text": "uncle (n)"
+        },
+        {
+          "id": "286806c1-b83c-4cf3-946c-f6fb36e10c38",
+          "text": "Have a good time (phrase)"
+        },
+        {
+          "id": "4d35b8e2-8008-4cd6-9ce1-e77b5e7dac49",
+          "text": "grandfather (n)"
+        }
+      ],
+      "correctEnAnswerId": "286806c1-b83c-4cf3-946c-f6fb36e10c38",
+      "hint": "Phiên âm: /hæv ə ɡʊd taɪm/ - Nghĩa: Chúc vui vẻ"
+    },
+    {
+      "id": "1e915be8-6cbc-4fcb-955c-0238b60cb9b9",
+      "stt": 23,
+      "nhan": "Câu 23",
+      "term": "Have a good day (phrase)",
+      "ipa": "/hæv ə ɡʊd deɪ/",
+      "definition": "Chúc một ngày tốt lành",
+      "question": "Have a good day (phrase)",
+      "answers": [
+        {
+          "id": "21906278-67a7-4064-9995-e0210f952ce5",
+          "text": "Cháu trai (con của anh/chị/em)"
+        },
+        {
+          "id": "625b68af-a9b5-4803-a53c-97dbaea441c1",
+          "text": "Chúc một ngày tốt lành"
+        },
+        {
+          "id": "855944fc-e369-468e-9db2-589a7a2cfed6",
+          "text": "Lái xe cẩn thận"
+        },
+        {
+          "id": "897a8ca8-b017-4711-8cf7-8a94b038b598",
+          "text": "Con gái"
+        }
+      ],
+      "correctAnswerId": "625b68af-a9b5-4803-a53c-97dbaea441c1",
+      "enAnswers": [
+        {
+          "id": "fc5b6d87-257e-4411-96cb-dc31508a7378",
+          "text": "daughter (n)"
+        },
+        {
+          "id": "b45d795f-8dd5-4d5c-a316-0d3762814b0a",
+          "text": "nephew (n)"
+        },
+        {
+          "id": "44a6a30d-f79a-4878-99cd-f029d41b37c0",
+          "text": "Drive carefully (phrase)"
+        },
+        {
+          "id": "4a00f833-028f-4978-b6dc-89dd984aa201",
+          "text": "Have a good day (phrase)"
+        }
+      ],
+      "correctEnAnswerId": "4a00f833-028f-4978-b6dc-89dd984aa201",
+      "hint": "Phiên âm: /hæv ə ɡʊd deɪ/ - Nghĩa: Chúc một ngày tốt lành"
+    },
+    {
+      "id": "b3d2b530-cee9-4fba-a62c-110b16759794",
+      "stt": 24,
+      "nhan": "Câu 24",
+      "term": "Smile! (phrase)",
+      "ipa": "/smaɪl/",
+      "definition": "Cười lên!",
+      "question": "Smile! (phrase)",
+      "answers": [
+        {
+          "id": "cd5ccb31-4f64-41d4-a38f-49eabb7ea405",
+          "text": "Những đứa trẻ"
+        },
+        {
+          "id": "a59a4fe1-8a0e-4b64-83d3-6271d711ce3c",
+          "text": "Cháu trai (con của con)"
+        },
+        {
+          "id": "71c6f1ba-83cc-4f6d-b748-c07e2fba0c15",
+          "text": "Cười lên!"
+        },
+        {
+          "id": "344e6315-1e81-4f55-99a1-7c1c34099ae5",
+          "text": "Chúc một ngày tốt lành"
+        }
+      ],
+      "correctAnswerId": "71c6f1ba-83cc-4f6d-b748-c07e2fba0c15",
+      "enAnswers": [
+        {
+          "id": "c26154f0-fb7a-4f73-aa10-8f987e3fc709",
+          "text": "Have a good day (phrase)"
+        },
+        {
+          "id": "00ec70e1-8485-4e25-a85a-7be1c3cfe9ca",
+          "text": "children (n, số nhiều)"
+        },
+        {
+          "id": "940c31db-cee7-4cbf-88ec-6221bb92d8df",
+          "text": "Smile! (phrase)"
+        },
+        {
+          "id": "d622a5fb-2eb8-47d9-b693-cc0539157e16",
+          "text": "grandson (n)"
+        }
+      ],
+      "correctEnAnswerId": "940c31db-cee7-4cbf-88ec-6221bb92d8df",
+      "hint": "Phiên âm: /smaɪl/ - Nghĩa: Cười lên!"
+    },
+    {
+      "id": "73383c6e-02c6-448a-a687-be66779dd9f6",
+      "stt": 25,
+      "nhan": "Câu 25",
+      "term": "Drive carefully (phrase)",
+      "ipa": "/draɪv ˈkeə.fəl.i/",
+      "definition": "Lái xe cẩn thận",
+      "question": "Drive carefully (phrase)",
+      "answers": [
+        {
+          "id": "7fbdc78b-16b9-45f0-b3d9-99ddc2f8fc17",
+          "text": "Ông"
+        },
+        {
+          "id": "be8b7afe-3fa0-4f34-99a3-28ba63a62bfa",
+          "text": "Lái xe cẩn thận"
+        },
+        {
+          "id": "b312e6bd-faa8-4188-bfc0-8185de2807bc",
+          "text": "Chị/em gái"
+        },
+        {
+          "id": "a7986d34-bf32-417e-80cf-9faa726181d5",
+          "text": "Bà"
+        }
+      ],
+      "correctAnswerId": "be8b7afe-3fa0-4f34-99a3-28ba63a62bfa",
+      "enAnswers": [
+        {
+          "id": "0ebd1cbb-fc65-42d9-812b-72f21a704500",
+          "text": "sister (n)"
+        },
+        {
+          "id": "307a85b0-e05f-4ed8-8624-95b8d9ff31ea",
+          "text": "Drive carefully (phrase)"
+        },
+        {
+          "id": "1ddb9a15-4cd6-4752-ac9b-08f63f57f58c",
+          "text": "grandmother (n)"
+        },
+        {
+          "id": "a617a630-2bc3-4a30-a36d-9164331ea6a2",
+          "text": "grandfather (n)"
+        }
+      ],
+      "correctEnAnswerId": "307a85b0-e05f-4ed8-8624-95b8d9ff31ea",
+      "hint": "Phiên âm: /draɪv ˈkeə.fəl.i/ - Nghĩa: Lái xe cẩn thận"
+    },
+    {
+      "id": "0a0ac2a0-b93b-42ff-8333-70ddb2855b8d",
+      "stt": 26,
+      "nhan": "Câu 26",
+      "term": "Take care (phrase)",
+      "ipa": "/teɪk keər/",
+      "definition": "Bảo trọng, giữ gìn sức khỏe",
+      "question": "Take care (phrase)",
+      "answers": [
+        {
+          "id": "af132052-17b6-4e77-bea9-13162c3a9990",
+          "text": "Những đứa trẻ"
+        },
+        {
+          "id": "dc6a4b71-f3fe-481f-89d9-2a72b603c340",
+          "text": "Con trai"
+        },
+        {
+          "id": "52536c7c-a643-442e-925a-9811be742ad1",
+          "text": "Ông"
+        },
+        {
+          "id": "3e143567-7355-49d5-8abe-370e44e0e792",
+          "text": "Bảo trọng, giữ gìn sức khỏe"
+        }
+      ],
+      "correctAnswerId": "3e143567-7355-49d5-8abe-370e44e0e792",
+      "enAnswers": [
+        {
+          "id": "1882bf7c-d565-4962-90e8-2f078e56c450",
+          "text": "children (n, số nhiều)"
+        },
+        {
+          "id": "22b82350-80f6-4f94-bacb-1eb531774dd1",
+          "text": "Take care (phrase)"
+        },
+        {
+          "id": "e9ac414e-1354-407f-b58e-8597bcd33f0e",
+          "text": "grandfather (n)"
+        },
+        {
+          "id": "015d56e6-9282-4e5e-b640-a2a768e51d95",
+          "text": "son (n)"
+        }
+      ],
+      "correctEnAnswerId": "22b82350-80f6-4f94-bacb-1eb531774dd1",
+      "hint": "Phiên âm: /teɪk keər/ - Nghĩa: Bảo trọng, giữ gìn sức khỏe"
+    },
+    {
+      "id": "a7d7f30e-7cbb-417d-b596-2c96e835edb3",
+      "stt": 27,
+      "nhan": "Câu 27",
+      "term": "Don't forget your keys (phrase)",
+      "ipa": "/dəʊnt fəˈɡet jɔːr kiːz/",
+      "definition": "Đừng quên chìa khóa của bạn",
+      "question": "Don't forget your keys (phrase)",
+      "answers": [
+        {
+          "id": "06aa7b73-d4f2-45aa-8575-e78a98a0f11e",
+          "text": "Cháu trai (con của con)"
+        },
+        {
+          "id": "68afa6ae-7907-4bc1-8c8e-d3171ea53411",
+          "text": "Cháu trai (con của anh/chị/em)"
+        },
+        {
+          "id": "f0b6fb11-60fd-49f2-b6dd-3133f913c0e6",
+          "text": "Chồng"
+        },
+        {
+          "id": "fd0b0a73-213e-4ec2-97bd-88901277487e",
+          "text": "Đừng quên chìa khóa của bạn"
+        }
+      ],
+      "correctAnswerId": "fd0b0a73-213e-4ec2-97bd-88901277487e",
+      "enAnswers": [
+        {
+          "id": "d3ead037-310f-4994-86cc-14ad240d2577",
+          "text": "husband (n)"
+        },
+        {
+          "id": "27cd1741-db20-437a-a7a5-d1ecade1206c",
+          "text": "grandson (n)"
+        },
+        {
+          "id": "f2ebbd98-6d0a-44ef-aff9-6e39e1b10d4a",
+          "text": "nephew (n)"
+        },
+        {
+          "id": "ced484d3-49d2-489b-84dc-f2633bb8e5fc",
+          "text": "Don't forget your keys (phrase)"
+        }
+      ],
+      "correctEnAnswerId": "ced484d3-49d2-489b-84dc-f2633bb8e5fc",
+      "hint": "Phiên âm: /dəʊnt fəˈɡet jɔːr kiːz/ - Nghĩa: Đừng quên chìa khóa của bạn"
+    },
+    {
+      "id": "93edc874-2ab6-499c-8070-3451e4272a57",
+      "stt": 28,
+      "nhan": "Câu 28",
+      "term": "play (v, n)",
+      "ipa": "/pleɪ/",
+      "definition": "Chơi; trò chơi",
+      "question": "play (v, n)",
+      "answers": [
+        {
+          "id": "5e33ac75-c081-407e-b4f9-349ad121d505",
+          "text": "Chị/em dâu"
+        },
+        {
+          "id": "58ec58cf-0820-45c5-8d0b-2302c3936eba",
+          "text": "Chơi; trò chơi"
+        },
+        {
+          "id": "ac5f1188-4730-404a-80a3-72f8103002c9",
+          "text": "Anh chị em họ"
+        },
+        {
+          "id": "c2a9b9c7-778f-4a4f-8d70-5b74f364daf0",
+          "text": "Cười lên!"
+        }
+      ],
+      "correctAnswerId": "58ec58cf-0820-45c5-8d0b-2302c3936eba",
+      "enAnswers": [
+        {
+          "id": "a882dfd8-abe1-4b01-9009-6be63e994e89",
+          "text": "cousin (n)"
+        },
+        {
+          "id": "7d9f3642-a639-460e-88f6-c7ff47cddba2",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "db222442-f286-4d9a-b279-c7d097ebb9cb",
+          "text": "Smile! (phrase)"
+        },
+        {
+          "id": "a04c5dc5-dc3a-4de7-bc8c-3515d01d52dd",
+          "text": "play (v, n)"
+        }
+      ],
+      "correctEnAnswerId": "a04c5dc5-dc3a-4de7-bc8c-3515d01d52dd",
+      "hint": "Phiên âm: /pleɪ/ - Nghĩa: Chơi; trò chơi"
+    },
+    {
+      "id": "faaba7f3-fcc4-4166-95f7-720e5f7b4a46",
+      "stt": 29,
+      "nhan": "Câu 29",
+      "term": "children (n, số nhiều)",
+      "ipa": "/ˈtʃɪl.drən/",
+      "definition": "Những đứa trẻ",
+      "question": "children (n, số nhiều)",
+      "answers": [
+        {
+          "id": "197f8e6b-d2c2-4f7a-b645-511677cd372a",
+          "text": "Chị/em dâu"
+        },
+        {
+          "id": "3fb93a0b-c80c-43a6-84a1-ecafa4e0b072",
+          "text": "Cha, bố"
+        },
+        {
+          "id": "fcce8b90-90aa-4179-8ba0-2f19c8e62d44",
+          "text": "Con gái"
+        },
+        {
+          "id": "ca1db43b-981d-4c73-98a7-d4b3ae840b2a",
+          "text": "Những đứa trẻ"
+        }
+      ],
+      "correctAnswerId": "ca1db43b-981d-4c73-98a7-d4b3ae840b2a",
+      "enAnswers": [
+        {
+          "id": "3e6a35fd-53b8-405a-8ef1-be1af3c5382d",
+          "text": "children (n, số nhiều)"
+        },
+        {
+          "id": "b81146b3-a228-4695-abd4-167f2e10f520",
+          "text": "sister-in-law (n)"
+        },
+        {
+          "id": "1d881c4c-e2e2-4dae-b31c-b32c4d75f760",
+          "text": "daughter (n)"
+        },
+        {
+          "id": "8eb4add6-3fec-4eba-b89b-f3123d46ecc4",
+          "text": "father (n)"
+        }
+      ],
+      "correctEnAnswerId": "3e6a35fd-53b8-405a-8ef1-be1af3c5382d",
       "hint": "Phiên âm: /ˈtʃɪl.drən/ - Nghĩa: Những đứa trẻ"
     }
   ]

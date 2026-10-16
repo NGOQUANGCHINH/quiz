@@ -20,7 +20,7 @@ export default function QuizResult({ progress, navigate }: Props) {
     progress.questions.forEach(q => {
       const ansId = progress.answers[q.id];
       if (ansId) {
-        if (ansId === q.correctAnswerId) {
+        if (ansId === q.correctAnswerId || (q.correctEnAnswerId && ansId === q.correctEnAnswerId)) {
           correct++;
         } else {
           wrong++;

@@ -10,6 +10,11 @@ export interface Question {
   answers: Answer[];
   correctAnswerId: string | null;
   hint?: string;
+  term?: string;
+  ipa?: string;
+  definition?: string;
+  enAnswers?: Answer[];
+  correctEnAnswerId?: string | null;
 }
 
 export interface Quiz {

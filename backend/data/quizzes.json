@@ -35,8 +35,7 @@
   },
   {
     "id": "english-family",
-    "title": "Chủ đề Family (Gia đình)",
-    "description": "29 Từ vựng & cụm từ chủ đề Gia đình kèm phiên âm IPA chuẩn Quizlet.",
+    "title": "Family",
     "questionCount": 29,
     "category": "english",
     "fileUrl": "english-family.json"

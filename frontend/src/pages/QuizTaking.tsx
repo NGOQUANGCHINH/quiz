@@ -83,6 +83,9 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   const [isReloading, setIsReloading] = useState(false);
   const [showHint, setShowHint] = useState(false);
 
+  // Detect English vocab question
+  const isEnglishVocab = !!(currentQuestion.term && currentQuestion.definition);
+
   // Keep live refs for synchronous flush on exit or unmount
   const progressRef = useRef(progress);
   const timeLeftRef = useRef(timeLeft);
@@ -352,132 +355,181 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         </div>
 
         <div className="card" style={{ flex: 1, marginBottom: '1.5rem', display: 'flex', flexDirection: 'column' }}>
-          {showHint && currentQuestion.hint && (
-            <div style={{
-              backgroundColor: 'var(--primary-light)',
-              border: '1px solid var(--primary-color)',
-              padding: '1rem',
-              borderRadius: '8px',
-              marginBottom: '1.5rem'
-            }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                <h4 style={{ margin: 0, color: 'var(--text-primary)' }}>💡 Gợi ý</h4>
-                <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--text-primary)' }} onClick={() => setShowHint(false)}>
-                  <X size={16} />
-                </button>
+          {isEnglishVocab ? (
+            /* ─── Quizlet-style vocab layout ─── */
+            <div className="quizlet-card-container">
+              {/* Prompt label */}
+              <div className="quizlet-prompt-header">
+                <span className="quizlet-label">Định nghĩa</span>
               </div>
-              <div style={{ fontSize: '0.95rem', lineHeight: 1.5, color: 'var(--text-primary)' }}>
-                {currentQuestion.hint}
-              </div>
-            </div>
-          )}
-          <div 
-            style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}
-            dangerouslySetInnerHTML={{ __html: formatQuestionText(currentQuestion.question) }}
-          />
-          {currentQuestion.image && (
-            <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
-              <img 
-                src={`${import.meta.env.BASE_URL}${currentQuestion.image.startsWith('/') ? currentQuestion.image.slice(1) : currentQuestion.image}`} 
-                alt="Question figure" 
-                style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} 
-              />
-            </div>
-          )}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0 }}>
-            {(() => {
-              const diffHighlighted = highlightDiffs(currentQuestion.answers);
-              return currentQuestion.answers.map((ans, idx) => {
-                const hasAnswered = !!progress.answers[currentQuestion.id];
-                const isSelected = progress.answers[currentQuestion.id] === ans.id;
-                const isActuallyCorrect = ans.id === currentQuestion.correctAnswerId;
-                
-                let bgColor = 'var(--surface-color)';
-                let borderColor = 'var(--border-color)';
-                let textColor = 'inherit';
-                let circleBg = 'transparent';
-                let circleColor = 'inherit';
-                let circleBorder = 'var(--border-color)';
-                
-                if (isSelected) {
-                  bgColor = 'var(--primary-light)';
-                  borderColor = 'var(--primary-color)';
-                  circleBg = 'var(--primary-color)';
-                  circleColor = 'white';
-                  circleBorder = 'transparent';
-                }
 
-                // Chế độ ôn tập: hiện màu ngay khi đã chọn đáp án
-                if (progress.config.mode === 'practice' && hasAnswered) {
-                  if (isActuallyCorrect) {
-                    bgColor = 'var(--correct-bg)';
-                    borderColor = 'var(--correct-color)';
-                    circleBg = 'var(--correct-color)';
-                    circleColor = 'white';
-                    circleBorder = 'transparent';
-                  } else if (isSelected) {
-                    bgColor = 'var(--wrong-bg)';
-                    borderColor = 'var(--wrong-color)';
-                    circleBg = 'var(--wrong-color)';
-                    circleColor = 'white';
-                    circleBorder = 'transparent';
+              {/* Centre box: definition + IPA */}
+              <div className="quizlet-center-box">
+                <div className="quizlet-term-text">
+                  {currentQuestion.definition}
+                  {currentQuestion.ipa && (
+                    <span className="quizlet-ipa-text"> {currentQuestion.ipa}</span>
+                  )}
+                </div>
+              </div>
+
+              {/* Answer label */}
+              <div className="quizlet-section-label">Chọn đáp án đúng</div>
+
+              {/* 2-column answer grid */}
+              <div className="quizlet-answers-grid">
+                {currentQuestion.answers.map((ans, idx) => {
+                  const hasAnswered = !!progress.answers[currentQuestion.id];
+                  const isSelected = progress.answers[currentQuestion.id] === ans.id;
+                  const isActuallyCorrect = ans.id === currentQuestion.correctAnswerId;
+                  const canSelect = !hasAnswered || progress.config.mode === 'exam';
+
+                  let cardClass = 'quizlet-answer-card';
+                  if (isSelected) cardClass += ' selected';
+                  if (progress.config.mode === 'practice' && hasAnswered) {
+                    if (isActuallyCorrect) cardClass = 'quizlet-answer-card correct';
+                    else if (isSelected) cardClass = 'quizlet-answer-card wrong';
                   }
-                }
 
-                const canSelect = !hasAnswered || progress.config.mode === 'exam';
-                
-                return (
-                  <div 
-                    key={ans.id}
-                    onClick={() => canSelect && handleSelectAnswer(ans.id)}
-                    style={{ 
-                      padding: '1rem', 
-                      border: `2px solid ${borderColor}`,
-                      borderRadius: '0.5rem',
-                      cursor: canSelect ? 'pointer' : 'default',
-                      display: 'flex',
-                      alignItems: 'flex-start',
-                      gap: '1rem',
-                      backgroundColor: bgColor,
-                      color: textColor,
-                      transition: 'all 0.2s'
-                    }}
-                  >
-                    <div style={{ 
-                      width: '30px', height: '30px', 
-                      borderRadius: '50%', 
-                      border: `1px solid ${circleBorder}`,
-                      backgroundColor: circleBg,
-                      color: circleColor,
-                      display: 'flex', justifyContent: 'center', alignItems: 'center',
-                      flexShrink: 0,
-                      fontWeight: 'bold'
-                    }}>
-                      {LABELS[idx]}
+                  return (
+                    <div
+                      key={ans.id}
+                      className={cardClass}
+                      style={{ cursor: canSelect ? 'pointer' : 'default' }}
+                      onClick={() => canSelect && handleSelectAnswer(ans.id)}
+                    >
+                      <div className="quizlet-num-badge">{idx + 1}</div>
+                      <div className="quizlet-answer-text">{ans.text}</div>
                     </div>
-                  <div style={{ flex: 1, whiteSpace: 'pre-wrap', marginTop: '3px' }}
-                    dangerouslySetInnerHTML={{ __html: diffHighlighted[idx] }}
-                  />
-                    
-                    {progress.config.mode === 'practice' && hasAnswered && (
-                      <>
-                        {isActuallyCorrect && (
-                          <div style={{ fontWeight: 'bold', color: 'var(--correct-color)' }}>
-                            ✓ Đúng
-                          </div>
-                        )}
-                        {isSelected && !isActuallyCorrect && (
-                          <div style={{ fontWeight: 'bold', color: 'var(--wrong-color)' }}>
-                            ✗ Sai
-                          </div>
-                        )}
-                      </>
-                    )}
+                  );
+                })}
+              </div>
+            </div>
+          ) : (
+            /* ─── Standard CNTT layout ─── */
+            <>
+              {showHint && currentQuestion.hint && (
+                <div style={{
+                  backgroundColor: 'var(--primary-light)',
+                  border: '1px solid var(--primary-color)',
+                  padding: '1rem',
+                  borderRadius: '8px',
+                  marginBottom: '1.5rem'
+                }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
+                    <h4 style={{ margin: 0, color: 'var(--text-primary)' }}>💡 Gợi ý</h4>
+                    <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--text-primary)' }} onClick={() => setShowHint(false)}>
+                      <X size={16} />
+                    </button>
                   </div>
-                );
-              });
-            })()}
-          </div>
+                  <div style={{ fontSize: '0.95rem', lineHeight: 1.5, color: 'var(--text-primary)' }}>
+                    {currentQuestion.hint}
+                  </div>
+                </div>
+              )}
+              <div
+                style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}
+                dangerouslySetInnerHTML={{ __html: formatQuestionText(currentQuestion.question) }}
+              />
+              {currentQuestion.image && (
+                <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
+                  <img
+                    src={`${import.meta.env.BASE_URL}${currentQuestion.image.startsWith('/') ? currentQuestion.image.slice(1) : currentQuestion.image}`}
+                    alt="Question figure"
+                    style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }}
+                  />
+                </div>
+              )}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flexShrink: 0 }}>
+                {(() => {
+                  const diffHighlighted = highlightDiffs(currentQuestion.answers);
+                  return currentQuestion.answers.map((ans, idx) => {
+                    const hasAnswered = !!progress.answers[currentQuestion.id];
+                    const isSelected = progress.answers[currentQuestion.id] === ans.id;
+                    const isActuallyCorrect = ans.id === currentQuestion.correctAnswerId;
+
+                    let bgColor = 'var(--surface-color)';
+                    let borderColor = 'var(--border-color)';
+                    let textColor = 'inherit';
+                    let circleBg = 'transparent';
+                    let circleColor = 'inherit';
+                    let circleBorder = 'var(--border-color)';
+
+                    if (isSelected) {
+                      bgColor = 'var(--primary-light)';
+                      borderColor = 'var(--primary-color)';
+                      circleBg = 'var(--primary-color)';
+                      circleColor = 'white';
+                      circleBorder = 'transparent';
+                    }
+
+                    if (progress.config.mode === 'practice' && hasAnswered) {
+                      if (isActuallyCorrect) {
+                        bgColor = 'var(--correct-bg)';
+                        borderColor = 'var(--correct-color)';
+                        circleBg = 'var(--correct-color)';
+                        circleColor = 'white';
+                        circleBorder = 'transparent';
+                      } else if (isSelected) {
+                        bgColor = 'var(--wrong-bg)';
+                        borderColor = 'var(--wrong-color)';
+                        circleBg = 'var(--wrong-color)';
+                        circleColor = 'white';
+                        circleBorder = 'transparent';
+                      }
+                    }
+
+                    const canSelect = !hasAnswered || progress.config.mode === 'exam';
+
+                    return (
+                      <div
+                        key={ans.id}
+                        onClick={() => canSelect && handleSelectAnswer(ans.id)}
+                        style={{
+                          padding: '1rem',
+                          border: `2px solid ${borderColor}`,
+                          borderRadius: '0.5rem',
+                          cursor: canSelect ? 'pointer' : 'default',
+                          display: 'flex',
+                          alignItems: 'flex-start',
+                          gap: '1rem',
+                          backgroundColor: bgColor,
+                          color: textColor,
+                          transition: 'all 0.2s'
+                        }}
+                      >
+                        <div style={{
+                          width: '30px', height: '30px',
+                          borderRadius: '50%',
+                          border: `1px solid ${circleBorder}`,
+                          backgroundColor: circleBg,
+                          color: circleColor,
+                          display: 'flex', justifyContent: 'center', alignItems: 'center',
+                          flexShrink: 0,
+                          fontWeight: 'bold'
+                        }}>
+                          {LABELS[idx]}
+                        </div>
+                        <div style={{ flex: 1, whiteSpace: 'pre-wrap', marginTop: '3px' }}
+                          dangerouslySetInnerHTML={{ __html: diffHighlighted[idx] }}
+                        />
+                        {progress.config.mode === 'practice' && hasAnswered && (
+                          <>
+                            {isActuallyCorrect && (
+                              <div style={{ fontWeight: 'bold', color: 'var(--correct-color)' }}>✓ Đúng</div>
+                            )}
+                            {isSelected && !isActuallyCorrect && (
+                              <div style={{ fontWeight: 'bold', color: 'var(--wrong-color)' }}>✗ Sai</div>
+                            )}
+                          </>
+                        )}
+                      </div>
+                    );
+                  });
+                })()}
+              </div>
+            </>
+          )}
         </div>
 
         {/* Progress bar */}
