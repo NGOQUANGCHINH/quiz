@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
-import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw, ArrowLeftRight, Check } from 'lucide-react';
+import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw, Check } from 'lucide-react';
 import classNames from 'classnames';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
@@ -86,41 +86,12 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   // Detect English vocab question
   const isEnglishVocab = !!(currentQuestion.term && currentQuestion.definition);
 
-  // Vocabulary direction: 'en-vi' (Tiếng Anh -> Tiếng Việt) or 'vi-en' (Tiếng Việt -> Tiếng Anh)
-  const [vocabDirection, setVocabDirection] = useState<'en-vi' | 'vi-en'>(() => {
-    if (initialProgress.vocabDirection) return initialProgress.vocabDirection;
-    if (initialProgress.config.vocabDirection) return initialProgress.config.vocabDirection;
-    const saved = localStorage.getItem('quiz_vocab_direction');
-    return (saved === 'vi-en' || saved === 'en-vi') ? saved : 'en-vi';
-  });
-
-  const toggleVocabDirection = () => {
-    const next = vocabDirection === 'en-vi' ? 'vi-en' : 'en-vi';
-    setVocabDirection(next);
-    localStorage.setItem('quiz_vocab_direction', next);
-    setProgress(prev => {
-      let newAnswers = { ...prev.answers };
-      const currentAns = prev.answers[currentQuestion.id];
-      if (currentAns) {
-        if (vocabDirection === 'en-vi' && currentAns === currentQuestion.correctAnswerId && currentQuestion.correctEnAnswerId) {
-          newAnswers[currentQuestion.id] = currentQuestion.correctEnAnswerId;
-        } else if (vocabDirection === 'vi-en' && currentAns === currentQuestion.correctEnAnswerId && currentQuestion.correctAnswerId) {
-          newAnswers[currentQuestion.id] = currentQuestion.correctAnswerId;
-        } else {
-          const targetList = next === 'vi-en' ? currentQuestion.enAnswers : currentQuestion.answers;
-          if (!targetList?.some(a => a.id === currentAns)) {
-            delete newAnswers[currentQuestion.id];
-          }
-        }
-      }
-      return {
-        ...prev,
-        vocabDirection: next,
-        config: { ...prev.config, vocabDirection: next },
-        answers: newAnswers
-      };
-    });
-  };
+  // Vocabulary direction configured in QuizSetup: 'en-vi' (default) or 'vi-en'
+  const vocabDirection: 'en-vi' | 'vi-en' = 
+    progress.vocabDirection || 
+    progress.config.vocabDirection || 
+    (localStorage.getItem('quiz_vocab_direction') as 'en-vi' | 'vi-en') || 
+    'en-vi';
 
   // Determine active choices and correct answer based on current direction
   const isViToEn = isEnglishVocab && vocabDirection === 'vi-en';
@@ -435,20 +406,11 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 </div>
               )}
 
-              {/* Prompt label & Swap button */}
-              <div className="quizlet-prompt-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              {/* Prompt label */}
+              <div className="quizlet-prompt-header">
                 <span className="quizlet-label">
                   {vocabDirection === 'en-vi' ? 'Thuật ngữ Tiếng Anh' : 'Định nghĩa Tiếng Việt'}
                 </span>
-                <button
-                  type="button"
-                  className="quizlet-swap-direction-btn"
-                  onClick={toggleVocabDirection}
-                  title="Đảo chiều câu hỏi: Anh - Việt ⇄ Việt - Anh"
-                >
-                  <ArrowLeftRight size={14} />
-                  <span>Đảo: {vocabDirection === 'en-vi' ? 'Anh → Việt' : 'Việt → Anh'}</span>
-                </button>
               </div>
 
               {/* Centre box: English Term + IPA or Vietnamese Definition */}

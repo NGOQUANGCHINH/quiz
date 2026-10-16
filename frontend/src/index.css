@@ -1989,7 +1989,6 @@ h1, h2, h3, h4 {
 .quizlet-prompt-header {
   margin-bottom: 1.25rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -1998,40 +1997,6 @@ h1, h2, h3, h4 {
   font-weight: 600;
   color: var(--text-secondary);
   letter-spacing: 0.02em;
-}
-
-.quizlet-swap-direction-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  padding: 0.4rem 0.9rem;
-  border-radius: 8px;
-  border: 1.5px solid rgba(99, 102, 241, 0.35);
-  background: rgba(99, 102, 241, 0.08);
-  color: #6366f1;
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.quizlet-swap-direction-btn:hover {
-  border-color: #6366f1;
-  background: rgba(99, 102, 241, 0.16);
-  color: #4f46e5;
-  transform: translateY(-1px);
-}
-
-[data-theme='dark'] .quizlet-swap-direction-btn {
-  border-color: rgba(129, 140, 248, 0.35);
-  background: rgba(129, 140, 248, 0.1);
-  color: #a5b4fc;
-}
-
-[data-theme='dark'] .quizlet-swap-direction-btn:hover {
-  border-color: #818cf8;
-  background: rgba(129, 140, 248, 0.2);
-  color: #c7d2fe;
 }
 
 .quizlet-center-box {
