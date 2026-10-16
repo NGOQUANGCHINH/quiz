@@ -65,7 +65,8 @@ export default function QuizResult({ progress, navigate }: Props) {
   const handleRetakeWrong = async () => {
     let wrongQuestions = progress.questions.filter(q => {
       const ansId = progress.answers[q.id];
-      return ansId !== q.correctAnswerId;
+      const isCorrect = ansId === q.correctAnswerId || (!!q.correctEnAnswerId && ansId === q.correctEnAnswerId);
+      return !isCorrect;
     });
 
     if (wrongQuestions.length === 0) return;

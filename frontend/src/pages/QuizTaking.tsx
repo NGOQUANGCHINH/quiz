@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import type {  ProgressData, Question  } from '../types';
 import { api } from '../utils/api';
-import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw, ArrowLeftRight } from 'lucide-react';
+import { Bookmark, ChevronLeft, ChevronRight, Send, AlertTriangle, ArrowLeft, RefreshCw, Lightbulb, X, RotateCcw, ArrowLeftRight, Check } from 'lucide-react';
 import classNames from 'classnames';
 import { shuffleQuestions, shuffleAnswers } from '../utils/shuffle';
 
@@ -473,8 +473,15 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                   let cardClass = 'quizlet-answer-card';
                   if (isSelected) cardClass += ' selected';
                   if (progress.config.mode === 'practice' && hasAnswered) {
-                    if (isActuallyCorrect) cardClass = 'quizlet-answer-card correct';
-                    else if (isSelected) cardClass = 'quizlet-answer-card wrong';
+                    if (isActuallyCorrect && isSelected) {
+                      cardClass = 'quizlet-answer-card correct';
+                    } else if (isSelected && !isActuallyCorrect) {
+                      cardClass = 'quizlet-answer-card wrong';
+                    } else if (!isSelected && isActuallyCorrect) {
+                      cardClass = 'quizlet-answer-card correct-hint';
+                    } else {
+                      cardClass = 'quizlet-answer-card dimmed';
+                    }
                   }
 
                   return (
@@ -484,8 +491,35 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                       style={{ cursor: canSelect ? 'pointer' : 'default' }}
                       onClick={() => canSelect && handleSelectAnswer(ans.id)}
                     >
-                      <div className="quizlet-num-badge">{idx + 1}</div>
+                      <div className="quizlet-num-badge">
+                        {progress.config.mode === 'practice' && hasAnswered && isActuallyCorrect ? (
+                          <Check size={18} strokeWidth={3} />
+                        ) : progress.config.mode === 'practice' && hasAnswered && isSelected ? (
+                          <X size={18} strokeWidth={3} />
+                        ) : (
+                          idx + 1
+                        )}
+                      </div>
                       <div className="quizlet-answer-text">{ans.text}</div>
+                      {progress.config.mode === 'practice' && hasAnswered && (
+                        <div className="quizlet-status-badge-container">
+                          {isActuallyCorrect && isSelected && (
+                            <span className="quizlet-status-badge quizlet-tag-correct">
+                              <Check size={15} strokeWidth={2.5} /> Đúng
+                            </span>
+                          )}
+                          {isSelected && !isActuallyCorrect && (
+                            <span className="quizlet-status-badge quizlet-tag-wrong">
+                              <X size={15} strokeWidth={2.5} /> Sai
+                            </span>
+                          )}
+                          {!isSelected && isActuallyCorrect && (
+                            <span className="quizlet-status-badge quizlet-tag-hint">
+                              <Check size={15} strokeWidth={2.5} /> Đáp án đúng
+                            </span>
+                          )}
+                        </div>
+                      )}
                     </div>
                   );
                 })}
@@ -664,13 +698,15 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
               const isMarked = progress.markedQuestions.includes(q.id);
               const isCurrent = idx === currentQIndex;
 
+              const isCorrect = progress.answers[q.id] === q.correctAnswerId ||
+                (!!q.correctEnAnswerId && progress.answers[q.id] === q.correctEnAnswerId);
+
               let bg = 'var(--surface-color)';
               let border = 'var(--border-color)';
               let color = 'var(--text-primary)';
 
               if (isAnswered) {
                 if (progress.config.mode === 'practice') {
-                  const isCorrect = progress.answers[q.id] === q.correctAnswerId;
                   bg = isCorrect ? 'var(--correct-bg)' : 'var(--wrong-bg)';
                   border = isCorrect ? 'var(--correct-color)' : 'var(--wrong-color)';
                 } else {
@@ -681,7 +717,6 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
               
               if (isCurrent) {
                 if (progress.config.mode === 'practice' && isAnswered) {
-                  const isCorrect = progress.answers[q.id] === q.correctAnswerId;
                   bg = isCorrect ? 'var(--correct-color)' : 'var(--wrong-color)';
                   border = bg;
                   color = 'white';
