@@ -248,7 +248,6 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                   <Layers size={18} color="var(--primary-color)" />
                   <span>Số lượng câu hỏi</span>
                 </div>
-                <div className="setup-row-label-sub">Chọn số lượng câu muốn ôn luyện</div>
               </div>
 
               <div className="setup-row-content-col">
@@ -323,7 +322,6 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                   <Clock size={18} color="var(--primary-color)" />
                   <span>Thời gian làm bài</span>
                 </div>
-                <div className="setup-row-label-sub">Giới hạn thời gian hoặc tự do làm bài</div>
               </div>
 
               <div className="setup-row-content-col">
@@ -388,7 +386,6 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                   <Sparkles size={18} color="var(--primary-color)" />
                   <span>Tùy chọn bổ sung</span>
                 </div>
-                <div className="setup-row-label-sub">Đảo câu hỏi, đảo đáp án, chuyển câu</div>
               </div>
 
               <div className="setup-row-content-col">
