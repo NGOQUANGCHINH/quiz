@@ -185,15 +185,6 @@ export default function QuizSetup({ quizId, navigate }: Props) {
               <div className="mode-card-body">
                 <div className="mode-card-title-row">
                   <span className="mode-card-title">Chế độ Ôn tập</span>
-                  <span 
-                    className="mode-badge"
-                    style={{ 
-                      backgroundColor: config.mode === 'practice' ? 'rgba(239, 68, 68, 0.15)' : 'var(--neutral-bg)',
-                      color: config.mode === 'practice' ? 'var(--primary-color)' : 'var(--text-secondary)'
-                    }}
-                  >
-                    <Sparkles size={12} /> Khuyên dùng để học
-                  </span>
                 </div>
                 <p className="mode-card-desc">
                   Hiện đáp án đúng và lời giải thích chi tiết ngay sau mỗi câu chọn. Có nút gợi ý khi gặp câu hỏi khó.
@@ -227,15 +218,6 @@ export default function QuizSetup({ quizId, navigate }: Props) {
               <div className="mode-card-body">
                 <div className="mode-card-title-row">
                   <span className="mode-card-title">Chế độ Thi thử</span>
-                  <span 
-                    className="mode-badge"
-                    style={{ 
-                      backgroundColor: config.mode === 'exam' ? 'rgba(239, 68, 68, 0.15)' : 'var(--neutral-bg)',
-                      color: config.mode === 'exam' ? 'var(--primary-color)' : 'var(--text-secondary)'
-                    }}
-                  >
-                    <Clock size={12} /> Mô phỏng thi thật
-                  </span>
                 </div>
                 <p className="mode-card-desc">
                   Ẩn toàn bộ đáp án trong quá trình làm bài. Tự động tính điểm, xếp loại và xem báo cáo kết quả khi nộp bài.
