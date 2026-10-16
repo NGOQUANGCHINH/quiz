@@ -364,50 +364,48 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       {/* Left Area - Question */}
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div className="quiz-header-row">
-          <div className="quiz-header-group" style={{ position: 'relative' }}>
-            <button className="btn btn-neutral" style={{ padding: '0.5rem 1rem' }} onClick={handleExit} title="Lưu bài và quay lại">
-              <ArrowLeft /> Thoát bài
+          <div className="quiz-header-group">
+            <button className="quiz-tool-btn" onClick={handleExit} title="Lưu bài và quay lại">
+              <ArrowLeft size={16} /> Thoát bài
             </button>
-            <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={handleRestart}>
-              <RefreshCw /> Làm lại
+            <button className="quiz-tool-btn" onClick={handleRestart} title="Làm lại toàn bộ bài thi">
+              <RefreshCw size={16} /> Làm lại
             </button>
             {currentQuestion.hint && (
-              <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={() => setShowHint(!showHint)}>
-                <Lightbulb /> Gợi ý
+              <button 
+                className={classNames('quiz-tool-btn', showHint && 'btn-active-hint')} 
+                onClick={() => setShowHint(!showHint)}
+                title="Bật/tắt gợi ý câu hỏi"
+              >
+                <Lightbulb size={16} /> Gợi ý
               </button>
             )}
             {progress.answers[currentQuestion.id] && (
-              <button className="btn btn-outline" style={{ padding: '0.5rem 1rem' }} onClick={handleClearAnswer} title="Làm lại câu này">
-                <RotateCcw /> Làm lại câu
+              <button className="quiz-tool-btn" onClick={handleClearAnswer} title="Làm lại câu này">
+                <RotateCcw size={16} /> Làm lại câu
               </button>
             )}
-            {isEnglishVocab && (
-              <button 
-                type="button"
-                className="btn btn-outline" 
-                style={{ padding: '0.5rem 1rem', display: 'inline-flex', alignItems: 'center', gap: '0.45rem' }} 
-                onClick={toggleVocabDirection}
-                title="Đổi hướng câu hỏi: Anh - Việt ⇄ Việt - Anh"
-              >
-                <ArrowLeftRight size={16} color="var(--primary-color)" />
-                <span>{vocabDirection === 'en-vi' ? 'Hỏi: Anh ➔ Đáp: Việt' : 'Hỏi: Việt ➔ Đáp: Anh'}</span>
-              </button>
-            )}
-            {isReloading && <span style={{ fontSize: '0.9rem', color: 'var(--primary-color)' }}>Đang cập nhật...</span>}
+            {isReloading && <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Đang cập nhật...</span>}
           </div>
+
+          <div className="quiz-header-center">
+            <div className="quiz-counter-pill">
+              Câu {currentQIndex + 1} / {totalQuestions}
+            </div>
+          </div>
+
           <div className="quiz-header-group">
-            <h3 style={{ margin: 0, whiteSpace: 'nowrap' }}>Câu {currentQIndex + 1} / {totalQuestions}</h3>
             {timeLeft !== null && (
-              <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit' }}>
+              <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit', marginRight: '0.5rem' }}>
                 ⏱ {formatTime(timeLeft)}
               </div>
             )}
             <button 
-              className={classNames('btn', progress.markedQuestions.includes(currentQuestion.id) ? '' : 'btn-outline')} 
-              style={progress.markedQuestions.includes(currentQuestion.id) ? { backgroundColor: 'var(--warning-color)', color: '#000', border: '1px solid var(--warning-color)' } : {}}
+              className={classNames('quiz-tool-btn', progress.markedQuestions.includes(currentQuestion.id) && 'btn-marked')} 
               onClick={toggleMark}
+              title="Đánh dấu câu hỏi để xem lại (phím tắt: B)"
             >
-              <Bookmark /> Đánh dấu (B)
+              <Bookmark size={16} /> {progress.markedQuestions.includes(currentQuestion.id) ? 'Đã đánh dấu' : 'Đánh dấu (B)'}
             </button>
           </div>
         </div>
@@ -416,6 +414,27 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           {isEnglishVocab ? (
             /* ─── Quizlet-style vocab layout ─── */
             <div className="quizlet-card-container">
+              {/* Hint Box (if toggled on) */}
+              {showHint && currentQuestion.hint && (
+                <div className="quizlet-hint-box">
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.35rem' }}>
+                    <span style={{ fontWeight: 600, fontSize: '0.9rem', color: '#f59e0b', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                      <Lightbulb size={16} /> Gợi ý
+                    </span>
+                    <button 
+                      type="button" 
+                      onClick={() => setShowHint(false)}
+                      style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '2px', color: 'var(--text-secondary)' }}
+                    >
+                      <X size={16} />
+                    </button>
+                  </div>
+                  <div style={{ fontSize: '0.95rem', color: 'var(--text-primary)', lineHeight: 1.5 }}>
+                    {currentQuestion.hint}
+                  </div>
+                </div>
+              )}
+
               {/* Prompt label & Swap button */}
               <div className="quizlet-prompt-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span className="quizlet-label">
@@ -423,11 +442,11 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 </span>
                 <button
                   type="button"
-                  className="btn btn-neutral quizlet-swap-direction-btn"
+                  className="quizlet-swap-direction-btn"
                   onClick={toggleVocabDirection}
                   title="Đảo chiều câu hỏi: Anh - Việt ⇄ Việt - Anh"
                 >
-                  <ArrowLeftRight size={14} color="var(--primary-color)" />
+                  <ArrowLeftRight size={14} />
                   <span>Đảo: {vocabDirection === 'en-vi' ? 'Anh → Việt' : 'Việt → Anh'}</span>
                 </button>
               </div>
@@ -529,16 +548,12 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
             /* ─── Standard CNTT layout ─── */
             <>
               {showHint && currentQuestion.hint && (
-                <div style={{
-                  backgroundColor: 'var(--primary-light)',
-                  border: '1px solid var(--primary-color)',
-                  padding: '1rem',
-                  borderRadius: '8px',
-                  marginBottom: '1.5rem'
-                }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <h4 style={{ margin: 0, color: 'var(--text-primary)' }}>💡 Gợi ý</h4>
-                    <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--text-primary)' }} onClick={() => setShowHint(false)}>
+                <div className="quizlet-hint-box" style={{ marginBottom: '1.5rem' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem' }}>
+                    <span style={{ fontWeight: 600, fontSize: '0.95rem', color: '#f59e0b', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                      <Lightbulb size={16} /> Gợi ý
+                    </span>
+                    <button style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--text-secondary)' }} onClick={() => setShowHint(false)}>
                       <X size={16} />
                     </button>
                   </div>
