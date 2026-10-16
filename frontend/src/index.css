@@ -456,6 +456,178 @@ h1, h2, h3, h4 {
 }
 
 /* ============================================================
+   3-COLUMN VERTICAL SETTINGS GRID (SỐ LƯỢNG, THỜI GIAN, TÙY CHỌN)
+   ============================================================ */
+.setup-columns-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+@media (max-width: 960px) {
+  .setup-columns-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.setup-column-card {
+  background: var(--neutral-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.95rem;
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: all 0.2s;
+}
+
+.setup-column-card:hover {
+  border-color: var(--text-secondary);
+}
+
+.setup-column-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.925rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.setup-column-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  flex: 1;
+}
+
+/* 2-column pills grid inside column */
+.setup-col-pills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.setup-col-btn {
+  min-height: 42px;
+  padding: 0.55rem 0.65rem;
+  border-radius: 0.75rem;
+  border: 1.5px solid var(--border-color);
+  background: var(--surface-color);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  user-select: none;
+  text-align: center;
+}
+
+.setup-col-btn.full-span {
+  grid-column: span 2;
+}
+
+.setup-col-btn:hover {
+  border-color: var(--text-secondary);
+  transform: translateY(-1px);
+}
+
+.setup-col-btn.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #ffffff !important;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgba(220, 38, 38, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Custom inline input inside column card */
+.col-custom-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.65rem;
+  border-radius: 0.75rem;
+  border: 1.5px dashed var(--primary-color);
+  background: var(--surface-color);
+  min-height: 42px;
+}
+
+/* Options vertical list in Column 3 */
+.setup-col-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.setup-col-option-item {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.55rem 0.85rem;
+  border-radius: 0.75rem;
+  border: 1.5px solid var(--border-color);
+  background: var(--surface-color);
+  cursor: pointer;
+  transition: all 0.18s;
+  user-select: none;
+}
+
+.setup-col-option-item:hover {
+  border-color: var(--text-secondary);
+  transform: translateY(-1px);
+}
+
+.setup-col-option-item.active {
+  border-color: var(--primary-color);
+  background: var(--primary-light);
+}
+
+[data-theme='dark'] .setup-col-option-item.active {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: var(--primary-color);
+}
+
+.setup-col-option-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.setup-col-option-item .setup-option-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.2s;
+  background: var(--surface-color);
+}
+
+.setup-col-option-item.active .setup-option-checkbox {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* ============================================================
    HORIZONTAL SETTINGS ROWS (SỐ LƯỢNG CÂU, THỜI GIAN, TÙY CHỌN)
    ============================================================ */
 .setup-rows-container {

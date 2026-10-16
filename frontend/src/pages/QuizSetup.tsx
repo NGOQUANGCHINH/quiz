@@ -233,28 +233,26 @@ export default function QuizSetup({ quizId, navigate }: Props) {
           </div>
         </div>
 
-        {/* 2. CẤU HÌNH CHI TIẾT DẠNG HÀNG NGANG (HORIZONTAL ROWS) */}
+        {/* 2. CẤU HÌNH CHI TIẾT DẠNG 3 CỘT DỌC (3 COLUMNS) */}
         <div className="setup-section-block">
           <div className="setup-section-label">
             <SlidersHorizontal size={16} color="var(--primary-color)" />
             <span>2. Tùy chỉnh chi tiết bài thi</span>
           </div>
 
-          <div className="setup-rows-container">
-            {/* HÀNG 1: SỐ LƯỢNG CÂU HỎI */}
-            <div className="setup-horizontal-row">
-              <div className="setup-row-label-col">
-                <div className="setup-row-label-title">
-                  <Layers size={18} color="var(--primary-color)" />
-                  <span>Số lượng câu hỏi</span>
-                </div>
+          <div className="setup-columns-grid">
+            {/* CỘT 1: SỐ LƯỢNG CÂU HỎI */}
+            <div className="setup-column-card">
+              <div className="setup-column-header">
+                <Layers size={18} color="var(--primary-color)" />
+                <span>Số lượng câu hỏi</span>
               </div>
 
-              <div className="setup-row-content-col">
-                <div className="setup-pill-group">
+              <div className="setup-column-body">
+                <div className="setup-col-pills-grid">
                   <button
                     type="button"
-                    className={`setup-pill-btn ${config.questionCount === 'all' && !isCustomQuestions ? 'active' : ''}`}
+                    className={`setup-col-btn full-span ${config.questionCount === 'all' && !isCustomQuestions ? 'active' : ''}`}
                     onClick={() => {
                       setIsCustomQuestions(false);
                       setConfig({ ...config, questionCount: 'all' });
@@ -267,7 +265,7 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                     <button
                       key={count}
                       type="button"
-                      className={`setup-pill-btn ${config.questionCount === count && !isCustomQuestions ? 'active' : ''}`}
+                      className={`setup-col-btn ${config.questionCount === count && !isCustomQuestions ? 'active' : ''}`}
                       onClick={() => {
                         setIsCustomQuestions(false);
                         setConfig({ ...config, questionCount: count });
@@ -279,7 +277,7 @@ export default function QuizSetup({ quizId, navigate }: Props) {
 
                   <button
                     type="button"
-                    className={`setup-pill-btn ${isCustomQuestions ? 'active' : ''}`}
+                    className={`setup-col-btn ${isCustomQuestions ? 'active' : ''} ${questionPresets.length % 2 === 0 ? 'full-span' : ''}`}
                     onClick={() => {
                       setIsCustomQuestions(true);
                       const val = parseInt(customQuestionCount) || 10;
@@ -291,8 +289,8 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                 </div>
 
                 {isCustomQuestions && (
-                  <div className="setup-custom-inline">
-                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Nhập số câu:</span>
+                  <div className="col-custom-box">
+                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Số câu:</span>
                     <input
                       type="number"
                       min={1}
@@ -309,28 +307,40 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                         }
                       }}
                     />
-                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>/ tối đa {totalQuestions} câu</span>
+                    <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)' }}>/ tối đa {totalQuestions}</span>
                   </div>
                 )}
               </div>
             </div>
 
-            {/* HÀNG 2: THỜI GIAN LÀM BÀI */}
-            <div className="setup-horizontal-row">
-              <div className="setup-row-label-col">
-                <div className="setup-row-label-title">
-                  <Clock size={18} color="var(--primary-color)" />
-                  <span>Thời gian làm bài</span>
-                </div>
+            {/* CỘT 2: THỜI GIAN LÀM BÀI */}
+            <div className="setup-column-card">
+              <div className="setup-column-header">
+                <Clock size={18} color="var(--primary-color)" />
+                <span>Thời gian làm bài</span>
               </div>
 
-              <div className="setup-row-content-col">
-                <div className="setup-pill-group">
-                  {timePresets.map(preset => (
+              <div className="setup-column-body">
+                <div className="setup-col-pills-grid">
+                  {/* Không giới hạn takes full-span (2 columns) */}
+                  <button
+                    type="button"
+                    className={`setup-col-btn full-span ${config.timeLimitMinutes === null && !isCustomTime ? 'active' : ''}`}
+                    onClick={() => {
+                      setIsCustomTime(false);
+                      setConfig({ ...config, timeLimitMinutes: null });
+                    }}
+                  >
+                    <InfinityIcon size={16} />
+                    <span>Không giới hạn</span>
+                  </button>
+
+                  {/* 15 phút, 30 phút, 45 phút, 60 phút, 90 phút */}
+                  {timePresets.filter(p => p.value !== null).map(preset => (
                     <button
                       key={preset.label}
                       type="button"
-                      className={`setup-pill-btn ${config.timeLimitMinutes === preset.value && !isCustomTime ? 'active' : ''}`}
+                      className={`setup-col-btn ${config.timeLimitMinutes === preset.value && !isCustomTime ? 'active' : ''}`}
                       onClick={() => {
                         setIsCustomTime(false);
                         setConfig({ ...config, timeLimitMinutes: preset.value });
@@ -343,7 +353,7 @@ export default function QuizSetup({ quizId, navigate }: Props) {
 
                   <button
                     type="button"
-                    className={`setup-pill-btn ${isCustomTime ? 'active' : ''}`}
+                    className={`setup-col-btn ${isCustomTime ? 'active' : ''}`}
                     onClick={() => {
                       setIsCustomTime(true);
                       const val = parseInt(customTimeLimit) || 20;
@@ -355,8 +365,8 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                 </div>
 
                 {isCustomTime && (
-                  <div className="setup-custom-inline">
-                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Nhập số phút:</span>
+                  <div className="col-custom-box">
+                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Số phút:</span>
                     <input
                       type="number"
                       min={1}
@@ -373,69 +383,67 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                         }
                       }}
                     />
-                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>phút</span>
+                    <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)' }}>phút</span>
                   </div>
                 )}
               </div>
             </div>
 
-            {/* HÀNG 3: TÙY CHỌN BỔ SUNG */}
-            <div className="setup-horizontal-row">
-              <div className="setup-row-label-col">
-                <div className="setup-row-label-title">
-                  <Sparkles size={18} color="var(--primary-color)" />
-                  <span>Tùy chọn bổ sung</span>
-                </div>
+            {/* CỘT 3: TÙY CHỌN BỔ SUNG */}
+            <div className="setup-column-card">
+              <div className="setup-column-header">
+                <Sparkles size={18} color="var(--primary-color)" />
+                <span>Tùy chọn bổ sung</span>
               </div>
 
-              <div className="setup-row-content-col">
-                <div className="setup-options-row">
+              <div className="setup-column-body">
+                <div className="setup-col-options-list">
                   {/* Đảo thứ tự câu hỏi */}
                   <div 
-                    className={`setup-option-card ${config.randomizeQuestions ? 'active' : ''}`}
+                    className={`setup-col-option-item ${config.randomizeQuestions ? 'active' : ''}`}
                     onClick={() => setConfig({ ...config, randomizeQuestions: !config.randomizeQuestions })}
                   >
                     <div className="setup-option-checkbox">
                       {config.randomizeQuestions && <Check size={14} color="#ffffff" strokeWidth={3} />}
                     </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <div className="setup-col-option-label">
                       <Shuffle size={17} color={config.randomizeQuestions ? 'var(--primary-color)' : 'var(--text-secondary)'} />
-                      <span className="option-title">Đảo câu hỏi</span>
+                      <span>Đảo câu hỏi</span>
                     </div>
                   </div>
 
                   {/* Đảo thứ tự đáp án */}
                   <div 
-                    className={`setup-option-card ${config.randomizeAnswers ? 'active' : ''}`}
+                    className={`setup-col-option-item ${config.randomizeAnswers ? 'active' : ''}`}
                     onClick={() => setConfig({ ...config, randomizeAnswers: !config.randomizeAnswers })}
                   >
                     <div className="setup-option-checkbox">
                       {config.randomizeAnswers && <Check size={14} color="#ffffff" strokeWidth={3} />}
                     </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <div className="setup-col-option-label">
                       <RotateCcw size={17} color={config.randomizeAnswers ? 'var(--primary-color)' : 'var(--text-secondary)'} />
-                      <span className="option-title">Đảo đáp án</span>
+                      <span>Đảo đáp án</span>
                     </div>
                   </div>
 
                   {/* Tự động chuyển câu */}
                   <div 
-                    className={`setup-option-card ${config.autoNextQuestion ? 'active' : ''}`}
+                    className={`setup-col-option-item ${config.autoNextQuestion ? 'active' : ''}`}
                     onClick={() => setConfig({ ...config, autoNextQuestion: !config.autoNextQuestion })}
                   >
                     <div className="setup-option-checkbox">
                       {config.autoNextQuestion && <Check size={14} color="#ffffff" strokeWidth={3} />}
                     </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <div className="setup-col-option-label">
                       <Zap size={17} color={config.autoNextQuestion ? 'var(--primary-color)' : 'var(--text-secondary)'} />
-                      <span className="option-title">Tự chuyển câu (1s)</span>
+                      <span>Tự chuyển câu (1s)</span>
                     </div>
                   </div>
 
                   {/* Đảo chiều câu hỏi từ vựng (cho đề tiếng Anh) */}
                   {isEnglishQuiz && (
                     <div 
-                      className={`setup-option-card ${config.vocabDirection === 'vi-en' ? 'active' : ''}`}
+                      className={`setup-col-option-item ${config.vocabDirection === 'vi-en' ? 'active' : ''}`}
                       onClick={() => {
                         const nextDir = config.vocabDirection === 'vi-en' ? 'en-vi' : 'vi-en';
                         setConfig({ ...config, vocabDirection: nextDir });
@@ -446,9 +454,9 @@ export default function QuizSetup({ quizId, navigate }: Props) {
                       <div className="setup-option-checkbox">
                         {config.vocabDirection === 'vi-en' && <Check size={14} color="#ffffff" strokeWidth={3} />}
                       </div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <div className="setup-col-option-label">
                         <ArrowLeftRight size={17} color={config.vocabDirection === 'vi-en' ? 'var(--primary-color)' : 'var(--text-secondary)'} />
-                        <span className="option-title">
+                        <span>
                           {config.vocabDirection === 'vi-en' ? 'Hỏi: Việt ➔ Đáp: Anh' : 'Hỏi: Anh ➔ Đáp: Việt'}
                         </span>
                       </div>
