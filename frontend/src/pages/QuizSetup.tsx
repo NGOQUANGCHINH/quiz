@@ -129,36 +129,35 @@ export default function QuizSetup({ quizId, navigate }: Props) {
 
   return (
     <div className="quiz-setup-wrapper">
-      {/* Header Bar */}
-      <div className="setup-top-header">
-        <button 
-          className="btn btn-neutral setup-back-btn" 
-          onClick={() => navigate('dashboard')}
-        >
-          <ArrowLeft size={18} /> Quay lại trang chủ
-        </button>
-      </div>
-
       <div className="quiz-setup-card">
-        {/* Title Header */}
+        {/* Title Header with integrated Back button */}
         <div className="setup-title-section">
           <div className="setup-title-content">
             <h2 className="setup-quiz-title">
               Cấu hình bài thi: <span>{quiz.title}</span>
             </h2>
             <div className="setup-header-badge">
-              <Layers size={15} color="var(--primary-color)" />
+              <Layers size={14} color="var(--primary-color)" />
               <span>Tổng cộng <strong>{totalQuestions}</strong> câu hỏi trắc nghiệm</span>
             </div>
           </div>
+          <button 
+            type="button"
+            className="btn btn-neutral setup-back-btn" 
+            onClick={() => navigate('dashboard')}
+          >
+            <ArrowLeft size={16} /> Quay lại trang chủ
+          </button>
         </div>
 
-        {/* 1. CHỌN CHẾ ĐỘ LÀM BÀI (MODE CARDS) */}
-        <div className="setup-section-block">
-          <div className="setup-section-label">
-            <SlidersHorizontal size={16} color="var(--primary-color)" />
-            <span>1. Chọn chế độ làm bài</span>
-          </div>
+        {/* Scrollable / Flexible content area */}
+        <div className="setup-card-content">
+          {/* 1. CHỌN CHẾ ĐỘ LÀM BÀI (MODE CARDS) */}
+          <div className="setup-section-block">
+            <div className="setup-section-label">
+              <SlidersHorizontal size={15} color="var(--primary-color)" />
+              <span>1. Chọn chế độ làm bài</span>
+            </div>
 
           <div className="setup-mode-grid">
             {/* Card: Ôn tập */}
@@ -453,6 +452,7 @@ export default function QuizSetup({ quizId, navigate }: Props) {
             </div>
           </div>
         </div>
+      </div>
 
         {/* 3. TỔNG KẾT VÀ NÚT BẮT ĐẦU */}
         <div className="setup-footer-bar">

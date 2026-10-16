@@ -121,7 +121,7 @@ function App() {
   };
 
   return (
-    <div className={`app ${isSidebarExpanded ? 'sidebar-expanded' : 'sidebar-collapsed'}`}>
+    <div className={`app ${isSidebarExpanded ? 'sidebar-expanded' : 'sidebar-collapsed'} ${currentPage === 'setup' ? 'app-setup-page' : ''}`}>
       {/* Thân ứng dụng chứa Sidebar Mega Nav chiếm 100vh và nội dung chính */}
       <div className="app-layout">
         <SidebarNav 
@@ -165,7 +165,7 @@ function App() {
           </div>
         </header>
 
-        <main className="container">
+        <main className={`container ${currentPage === 'setup' ? 'container-setup-100vh' : ''}`}>
           {currentPage === 'dashboard' && <Dashboard navigate={navigate} activeTab={activeTab} onTabChange={handleTabChange} />}
           {currentPage === 'import' && <ImportQuiz navigate={navigate} />}
           {currentPage === 'setup' && selectedQuizId && <QuizSetup quizId={selectedQuizId} navigate={navigate} />}
