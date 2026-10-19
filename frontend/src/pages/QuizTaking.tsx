@@ -351,11 +351,6 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 <Lightbulb size={16} /> Gợi ý
               </button>
             )}
-            {progress.answers[currentQuestion.id] && (
-              <button className="quiz-tool-btn" onClick={handleClearAnswer} title="Làm lại câu này">
-                <RotateCcw size={16} /> Làm lại câu
-              </button>
-            )}
             {isReloading && <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Đang cập nhật...</span>}
           </div>
 
@@ -366,6 +361,11 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           </div>
 
           <div className="quiz-header-group">
+            {progress.answers[currentQuestion.id] && progress.config.mode === 'practice' && (
+              <button className="quiz-tool-btn" onClick={handleClearAnswer} title="Làm lại câu này">
+                <RotateCcw size={16} /> Làm lại câu
+              </button>
+            )}
             {timeLeft !== null && (
               <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit', marginRight: '0.5rem' }}>
                 ⏱ {formatTime(timeLeft)}
@@ -425,15 +425,8 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                   </div>
                 ) : (
                   /* Question: Vietnamese Definition */
-                  <div>
-                    <div className="quizlet-term-text">
-                      {currentQuestion.definition}
-                    </div>
-                    {progress.config.mode === 'practice' && progress.answers[currentQuestion.id] && currentQuestion.ipa && (
-                      <div style={{ marginTop: '0.65rem', fontSize: '0.95rem', color: 'var(--text-secondary)' }}>
-                        Phiên âm: <span className="quizlet-ipa-text" style={{ fontSize: '1.05rem' }}>{currentQuestion.ipa}</span>
-                      </div>
-                    )}
+                  <div className="quizlet-term-text">
+                    {currentQuestion.definition}
                   </div>
                 )}
               </div>

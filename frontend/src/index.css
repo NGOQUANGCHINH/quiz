@@ -937,24 +937,33 @@ h1, h2, h3, h4 {
 }
 
 .quiz-header-row {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.25rem;
   flex-shrink: 0;
   gap: 1rem;
+  min-height: 42px;
 }
 
 .quiz-header-group {
   display: flex;
   align-items: center;
   gap: 0.65rem;
+  z-index: 1;
 }
 
 .quiz-header-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
+  z-index: 2;
 }
 
 .quiz-counter-pill {
@@ -2114,6 +2123,14 @@ h1, h2, h3, h4 {
     flex-direction: column !important;
     align-items: stretch !important;
     gap: 0.75rem !important;
+    min-height: auto !important;
+  }
+
+  .quiz-header-center {
+    position: static !important;
+    transform: none !important;
+    order: -1 !important;
+    margin-bottom: 0.25rem !important;
   }
 
   .quiz-header-group {
@@ -2246,6 +2263,8 @@ h1, h2, h3, h4 {
   cursor: pointer;
   transition: all 0.15s ease;
   user-select: none;
+  min-height: 66px;
+  box-sizing: border-box;
 }
 
 .quizlet-answer-card:not(.correct):not(.wrong):not(.correct-hint):hover {
