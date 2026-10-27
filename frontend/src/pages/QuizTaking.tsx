@@ -662,7 +662,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         </div>
 
         {showQuestionList && (
-          <div style={{ flex: 1, overflowY: 'auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))', gap: '0.5rem', alignContent: 'flex-start', paddingRight: '0.5rem' }}>
+          <div className="quiz-palette-grid">
             {progress.questions.map((q, idx) => {
               const isAnswered = !!progress.answers[q.id];
               const isMarked = progress.markedQuestions.includes(q.id);
@@ -701,23 +701,18 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 <div 
                   key={q.id} 
                   onClick={() => changeQuestion(idx)}
+                  className="quiz-palette-item"
                   style={{
-                    width: '40px', height: '40px',
-                    display: 'flex', justifyContent: 'center', alignItems: 'center',
-                    borderRadius: '0.25rem',
                     border: `2px solid ${border}`,
                     backgroundColor: bg,
                     color: color,
-                    cursor: 'pointer',
-                    position: 'relative',
                     fontWeight: isCurrent ? 'bold' : 'normal',
-                    userSelect: 'none'
                   }}
                 >
                   {idx + 1}
                   {isMarked && (
-                    <div style={{ position: 'absolute', top: -4, right: -4, color: 'var(--warning-color)' }}>
-                      <Bookmark style={{ width: '14px', height: '14px' }} fill="currentColor" />
+                    <div className="quiz-palette-bookmark" title="Đã đánh dấu">
+                      <Bookmark size={10} fill="currentColor" stroke="rgba(0, 0, 0, 0.35)" strokeWidth={1} />
                     </div>
                   )}
                 </div>

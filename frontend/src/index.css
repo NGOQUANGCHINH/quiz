@@ -936,6 +936,49 @@ h1, h2, h3, h4 {
   height: 100%;
 }
 
+.quiz-palette-grid {
+  flex: 1;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 0.5rem;
+  align-content: flex-start;
+  padding: 3px 0.5rem 6px 3px;
+}
+
+.quiz-palette-item {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  transition: transform 0.12s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.quiz-palette-item:hover {
+  transform: translateY(-1px);
+}
+
+.quiz-palette-bookmark {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: #fbbf24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55));
+  pointer-events: none;
+  z-index: 2;
+}
+
 .quiz-header-row {
   position: relative;
   display: flex;
