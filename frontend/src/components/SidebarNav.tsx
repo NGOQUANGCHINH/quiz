@@ -131,9 +131,9 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
           desc: currentTheme === 'light' ? 'Chuyển sang nền tối dịu mắt' : 'Chuyển sang nền sáng tiêu chuẩn',
           icon: currentTheme === 'light' ? Moon : Sun,
           isActive: false,
-          onClick: () => handleItemClick(() => {
+          onClick: () => {
             onToggleTheme();
-          })
+          }
         }
       ]
     }
@@ -171,12 +171,6 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
             >
               <Menu size={20} />
             </button>
-
-            {!isExpanded && (
-              <div className="mega-sidebar-mini-tooltip">
-                <span>Quiz Local • Mở menu</span>
-              </div>
-            )}
           </div>
         </div>
 
@@ -195,6 +189,7 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
                       <button
                         className={`mega-sidebar-item ${item.isActive ? 'active' : ''}`}
                         onClick={item.onClick}
+                        title={item.label}
                       >
                         <IconComp size={19} className="item-icon" />
                         <span className="item-label">{item.label}</span>
@@ -202,24 +197,6 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
                           <span className="item-badge">{item.badge}</span>
                         )}
                       </button>
-
-                      {/* Phần Pop ngắn gọn khi hover từng icon ở thanh thu nhỏ */}
-                      {!isExpanded && (
-                        <div className="mega-sidebar-pop-box">
-                          <div className="pop-box-arrow" />
-                          <div className="pop-box-header">
-                            <IconComp size={15} className="pop-box-header-icon" />
-                            <span className="pop-box-title">{item.label}</span>
-                            {item.isActive && (
-                              <span className="pop-box-badge-active">Đang mở</span>
-                            )}
-                            {item.badge && (
-                              <span className="pop-box-badge-info">{item.badge}</span>
-                            )}
-                          </div>
-                          <p className="pop-box-desc">{item.desc}</p>
-                        </div>
-                      )}
                     </div>
                   );
                 })}

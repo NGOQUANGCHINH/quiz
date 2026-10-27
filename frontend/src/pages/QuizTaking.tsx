@@ -335,10 +335,41 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
       {/* Left Area - Question */}
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div className="quiz-header-row">
-          <div className="quiz-header-group">
+          {/* Hàng điều hướng: Thoát (trái) - Số câu (giữa) - Đánh dấu & Timer (phải) */}
+          <div className="quiz-header-top-bar">
             <button className="quiz-tool-btn" onClick={handleExit} title="Lưu bài và quay lại">
               <ArrowLeft size={15} /> <span>Thoát</span>
             </button>
+
+            <div className="quiz-counter-pill">
+              Câu {currentQIndex + 1} / {totalQuestions}
+            </div>
+
+            <div className="quiz-header-top-right">
+              {timeLeft !== null && (
+                <div 
+                  className="quiz-timer-display" 
+                  style={{ color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit' }}
+                >
+                  ⏱ {formatTime(timeLeft)}
+                </div>
+              )}
+              <button 
+                className={classNames('quiz-tool-btn', progress.markedQuestions.includes(currentQuestion.id) && 'btn-marked')} 
+                onClick={toggleMark}
+                title="Đánh dấu câu hỏi để xem lại (phím tắt: B)"
+              >
+                <Bookmark size={15} /> 
+                <span>
+                  {progress.markedQuestions.includes(currentQuestion.id) ? 'Đã đánh dấu' : 'Đánh dấu'}
+                  <span className="desktop-shortcut"> (B)</span>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          {/* Hàng công cụ thao tác: Làm lại, Gợi ý, Làm lại câu */}
+          <div className="quiz-header-tools-bar">
             <button className="quiz-tool-btn" onClick={handleRestart} title="Làm lại toàn bộ bài thi">
               <RefreshCw size={15} /> <span>Làm lại</span>
             </button>
@@ -351,40 +382,12 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 <Lightbulb size={15} /> <span>Gợi ý</span>
               </button>
             )}
-            {isReloading && <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Đang cập nhật...</span>}
-          </div>
-
-          <div className="quiz-header-center">
-            <div className="quiz-counter-pill">
-              Câu {currentQIndex + 1} / {totalQuestions}
-            </div>
-          </div>
-
-          <div className="quiz-header-group">
             {progress.answers[currentQuestion.id] && progress.config.mode === 'practice' && (
               <button className="quiz-tool-btn" onClick={handleClearAnswer} title="Làm lại câu này">
                 <RotateCcw size={15} /> <span>Làm lại câu</span>
               </button>
             )}
-            {timeLeft !== null && (
-              <div 
-                className="quiz-timer-display" 
-                style={{ color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit' }}
-              >
-                ⏱ {formatTime(timeLeft)}
-              </div>
-            )}
-            <button 
-              className={classNames('quiz-tool-btn', progress.markedQuestions.includes(currentQuestion.id) && 'btn-marked')} 
-              onClick={toggleMark}
-              title="Đánh dấu câu hỏi để xem lại (phím tắt: B)"
-            >
-              <Bookmark size={15} /> 
-              <span>
-                {progress.markedQuestions.includes(currentQuestion.id) ? 'Đã đánh dấu' : 'Đánh dấu'}
-                <span className="desktop-shortcut"> (B)</span>
-              </span>
-            </button>
+            {isReloading && <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Đang cập nhật...</span>}
           </div>
         </div>
 

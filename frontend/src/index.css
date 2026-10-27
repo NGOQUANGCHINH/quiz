@@ -990,23 +990,32 @@ h1, h2, h3, h4 {
   min-height: 42px;
 }
 
-.quiz-header-group {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  z-index: 1;
+.quiz-header-top-bar {
+  display: contents;
 }
 
-.quiz-header-center {
+.quiz-header-top-bar > .quiz-counter-pill {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   pointer-events: none;
   z-index: 2;
+}
+
+.quiz-header-top-right {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  z-index: 1;
+  margin-left: auto;
+}
+
+.quiz-header-tools-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  z-index: 1;
 }
 
 .quiz-counter-pill {
@@ -1785,32 +1794,7 @@ h1, h2, h3, h4 {
 
 /* Pop Box ngắn gọn khi hover từng icon ở thanh thu nhỏ */
 .mega-sidebar-pop-box {
-  position: absolute;
-  left: calc(100% + 14px);
-  top: 50%;
-  transform: translateY(-50%) translateX(-6px);
-  width: 215px;
-  background-color: var(--surface-color);
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  padding: 0.55rem 0.75rem;
-  box-shadow: 0 8px 24px -2px rgba(0, 0, 0, 0.12), 0 3px 6px -1px rgba(0, 0, 0, 0.06);
-  z-index: 1010;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1), transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
-  text-align: left;
-}
-
-[data-theme='dark'] .mega-sidebar-pop-box {
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
-}
-
-.mega-sidebar-item-wrapper:hover .mega-sidebar-pop-box {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(-50%) translateX(0);
+  display: none !important;
 }
 
 /* Mũi tên chỉ vào icon */
@@ -1888,34 +1872,7 @@ h1, h2, h3, h4 {
    TOOLTIP NGẮN GỌN KHI HOVER NÚT 3 GẠCH (MENU)
    =================================================== */
 .mega-sidebar-mini-tooltip {
-  position: absolute;
-  left: calc(100% + 14px);
-  top: 50%;
-  transform: translateY(-50%) translateX(-6px);
-  background-color: var(--surface-color);
-  color: var(--text-primary);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 0.35rem 0.65rem;
-  font-size: 0.78rem;
-  font-weight: 600;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  visibility: hidden;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
-  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
-  z-index: 1020;
-}
-
-[data-theme='dark'] .mega-sidebar-mini-tooltip {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
-}
-
-.mega-sidebar-menu-wrapper:hover .mega-sidebar-mini-tooltip {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(-50%) translateX(0);
+  display: none !important;
 }
 
 /* ============================================================
@@ -2155,35 +2112,43 @@ h1, h2, h3, h4 {
     position: relative !important;
     display: flex !important;
     flex-direction: column !important;
-    gap: 0.55rem !important;
+    gap: 0.65rem !important;
     min-height: auto !important;
     margin-bottom: 0.85rem !important;
   }
 
-  .quiz-header-center {
-    position: static !important;
-    transform: none !important;
-    order: -1 !important;
-    display: flex !important;
-    justify-content: center !important;
-    width: 100% !important;
-    margin-bottom: 0.15rem !important;
-  }
-
-  .quiz-counter-pill {
-    font-size: 0.875rem !important;
-    padding: 0.35rem 0.95rem !important;
-    font-weight: 700 !important;
-    border-radius: 9999px !important;
-  }
-
-  .quiz-header-group {
-    width: 100% !important;
+  .quiz-header-top-bar {
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
-    flex-wrap: wrap !important;
+    width: 100% !important;
     gap: 0.4rem !important;
+  }
+
+  .quiz-header-top-bar > .quiz-counter-pill {
+    position: static !important;
+    transform: none !important;
+    font-size: 0.85rem !important;
+    padding: 0.35rem 0.85rem !important;
+    font-weight: 700 !important;
+    border-radius: 9999px !important;
+    pointer-events: auto !important;
+  }
+
+  .quiz-header-top-right {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.35rem !important;
+    margin-left: 0 !important;
+  }
+
+  .quiz-header-tools-bar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.45rem !important;
+    width: 100% !important;
   }
 
   .quiz-tool-btn {
