@@ -337,10 +337,10 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
         <div className="quiz-header-row">
           <div className="quiz-header-group">
             <button className="quiz-tool-btn" onClick={handleExit} title="Lưu bài và quay lại">
-              <ArrowLeft size={16} /> Thoát bài
+              <ArrowLeft size={15} /> <span>Thoát</span>
             </button>
             <button className="quiz-tool-btn" onClick={handleRestart} title="Làm lại toàn bộ bài thi">
-              <RefreshCw size={16} /> Làm lại
+              <RefreshCw size={15} /> <span>Làm lại</span>
             </button>
             {currentQuestion.hint && (
               <button 
@@ -348,7 +348,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 onClick={() => setShowHint(!showHint)}
                 title="Bật/tắt gợi ý câu hỏi"
               >
-                <Lightbulb size={16} /> Gợi ý
+                <Lightbulb size={15} /> <span>Gợi ý</span>
               </button>
             )}
             {isReloading && <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Đang cập nhật...</span>}
@@ -363,11 +363,14 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           <div className="quiz-header-group">
             {progress.answers[currentQuestion.id] && progress.config.mode === 'practice' && (
               <button className="quiz-tool-btn" onClick={handleClearAnswer} title="Làm lại câu này">
-                <RotateCcw size={16} /> Làm lại câu
+                <RotateCcw size={15} /> <span>Làm lại câu</span>
               </button>
             )}
             {timeLeft !== null && (
-              <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit', marginRight: '0.5rem' }}>
+              <div 
+                className="quiz-timer-display" 
+                style={{ color: timeLeft < 60 ? 'var(--wrong-color)' : 'inherit' }}
+              >
                 ⏱ {formatTime(timeLeft)}
               </div>
             )}
@@ -376,7 +379,11 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
               onClick={toggleMark}
               title="Đánh dấu câu hỏi để xem lại (phím tắt: B)"
             >
-              <Bookmark size={16} /> {progress.markedQuestions.includes(currentQuestion.id) ? 'Đã đánh dấu' : 'Đánh dấu (B)'}
+              <Bookmark size={15} /> 
+              <span>
+                {progress.markedQuestions.includes(currentQuestion.id) ? 'Đã đánh dấu' : 'Đánh dấu'}
+                <span className="desktop-shortcut"> (B)</span>
+              </span>
             </button>
           </div>
         </div>
@@ -518,6 +525,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                 </div>
               )}
               <div
+                className="standard-question-text"
                 style={{ fontSize: '1.2rem', marginBottom: '2rem', whiteSpace: 'pre-wrap', flexShrink: 0 }}
                 dangerouslySetInnerHTML={{ __html: formatQuestionText(currentQuestion.question) }}
               />
@@ -575,6 +583,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
                       <div
                         key={ans.id}
                         onClick={() => canSelect && handleSelectAnswer(ans.id)}
+                        className="standard-answer-card"
                         style={{
                           padding: '1rem',
                           border: `2px solid ${borderColor}`,
@@ -731,7 +740,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           display: 'flex', justifyContent: 'center', alignItems: 'center',
           zIndex: 1000
         }}>
-          <div className="card" style={{ width: '90%', maxWidth: '450px', textAlign: 'center' }}>
+          <div className="card modal-card-mobile" style={{ width: '90%', maxWidth: '450px', textAlign: 'center' }}>
             <AlertTriangle style={{ width: '48px', height: '48px', color: 'var(--wrong-color)', margin: '0 auto 1rem' }} />
             <h3 style={{ marginBottom: '1rem' }}>Bạn chưa hoàn thành bài!</h3>
             <p style={{ marginBottom: '2rem', color: 'var(--text-secondary)' }}>
@@ -757,7 +766,7 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
           display: 'flex', justifyContent: 'center', alignItems: 'center',
           zIndex: 1000
         }}>
-          <div className="card" style={{ width: '90%', maxWidth: '450px', textAlign: 'center' }}>
+          <div className="card modal-card-mobile" style={{ width: '90%', maxWidth: '450px', textAlign: 'center' }}>
             <RefreshCw style={{ width: '48px', height: '48px', color: 'var(--primary-color)', margin: '0 auto 1rem' }} />
             <h3 style={{ marginBottom: '1rem' }}>Xác nhận làm lại</h3>
             <p style={{ marginBottom: '2rem', color: 'var(--text-secondary)' }}>

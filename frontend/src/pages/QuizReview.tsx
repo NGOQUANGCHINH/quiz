@@ -46,7 +46,7 @@ export default function QuizReview({ progress, navigate }: Props) {
 
       <h2 style={{ marginBottom: '1.5rem' }}>Xem lại bài: {progress.title}</h2>
 
-      <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem' }}>
+      <div className="review-filter-group" style={{ display: 'flex', gap: '1rem', marginBottom: '2rem' }}>
         <button className={`btn ${filter === 'all' ? 'btn-primary' : 'btn-neutral'}`} onClick={() => setFilter('all')}>Tất cả</button>
         <button className={`btn ${filter === 'correct' ? 'btn-primary' : 'btn-neutral'}`} onClick={() => setFilter('correct')}>Đúng</button>
         <button className={`btn ${filter === 'wrong' ? 'btn-primary' : 'btn-neutral'}`} onClick={() => setFilter('wrong')}>Sai</button>

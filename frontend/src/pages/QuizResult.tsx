@@ -111,17 +111,17 @@ export default function QuizResult({ progress, navigate }: Props) {
         <ArrowLeft /> Về trang chủ
       </button>
 
-      <div className="card" style={{ textAlign: 'center', padding: '3rem 2rem' }}>
-        <h2 style={{ marginBottom: '2rem', fontSize: '2rem', color: 'var(--primary-color)' }}>KẾT QUẢ BÀI THI</h2>
+      <div className="card quiz-result-card" style={{ textAlign: 'center', padding: '3rem 2rem' }}>
+        <h2 className="quiz-result-title" style={{ marginBottom: '2rem', fontSize: '2rem', color: 'var(--primary-color)' }}>KẾT QUẢ BÀI THI</h2>
         
-        <div style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem' }}>
+        <div className="quiz-result-score" style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem' }}>
           {result.correct} / {result.total} <span style={{ fontSize: '1.5rem', color: 'var(--text-secondary)' }}>câu đúng</span>
         </div>
 
         <div style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Điểm: {result.score.toFixed(1)} / 10</div>
         <div style={{ fontSize: '1.5rem', marginBottom: '2rem', color: 'var(--text-secondary)' }}>{result.percentage.toFixed(1)}%</div>
 
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', marginBottom: '3rem' }}>
+        <div className="quiz-result-breakdown" style={{ display: 'flex', justifyContent: 'center', gap: '2rem', marginBottom: '3rem' }}>
           <div style={{ textAlign: 'center' }}>
             <div style={{ fontSize: '2rem', color: 'var(--correct-color)', fontWeight: 'bold' }}>{result.correct}</div>
             <div style={{ color: 'var(--text-secondary)' }}>Đúng</div>
@@ -140,7 +140,7 @@ export default function QuizResult({ progress, navigate }: Props) {
           Thời gian làm bài: {formatTime(result.timeSpentSeconds)}
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+        <div className="quiz-result-actions" style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
           <button className="btn btn-primary" onClick={() => navigate('review', { progress })}>
             <Eye /> Xem lại bài
           </button>

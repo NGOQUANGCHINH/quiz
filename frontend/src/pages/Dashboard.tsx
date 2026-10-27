@@ -137,14 +137,14 @@ export default function Dashboard({ navigate, activeTab: propActiveTab }: Props)
   return (
     <div>
       {/* Dashboard Top Header Bar */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', paddingBottom: '1.25rem', borderBottom: '1px solid var(--border-color)', flexWrap: 'wrap', gap: '1rem' }}>
+      <div className="dashboard-header-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', paddingBottom: '1.25rem', borderBottom: '1px solid var(--border-color)', flexWrap: 'wrap', gap: '1rem' }}>
         <div>
-          <h2 style={{ margin: 0, fontSize: '1.6rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+          <h2 className="dashboard-title" style={{ margin: 0, fontSize: '1.6rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
             {activeTab === 'materials' ? 'Danh sách bộ đề Quiz' : 'Tài liệu học Tiếng Anh'}
           </h2>
         </div>
 
-        <button className="btn btn-primary" style={{ minWidth: '155px' }} onClick={() => navigate('import')}>
+        <button className="btn btn-primary dashboard-add-btn" style={{ minWidth: '155px' }} onClick={() => navigate('import')}>
           <Plus /> {activeTab === 'materials' ? 'Thêm bộ đề' : 'Thêm tài liệu'}
         </button>
       </div>
