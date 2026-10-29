@@ -284,6 +284,8 @@ export default function QuizTaking({ progress: initialProgress, navigate }: Prop
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) return;
+      // Bỏ qua khi người dùng đang bấm tổ hợp phím (Cmd, Ctrl, Alt) như Cmd+1, Cmd+2 để đổi tab trình duyệt
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
 
       switch(e.key) {
         case 'ArrowLeft': changeQuestion(currentQIndex - 1); break;
